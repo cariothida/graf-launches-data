@@ -29,7 +29,8 @@ jobs:
                   raw=e.read().decode("utf-8",errors="replace")
                   try:
                       err=json.loads(raw)
-                      detail=err.get("error",err.get("message",""))
+                      print("Error response fields:",",".join(err.keys()))
+                      detail=err.get("error",err.get("message",err.get("detail",err.get("reason",err.get("description","")))))
                       if isinstance(detail,dict):
                           detail={k:detail[k] for k in ("code","message","details") if k in detail}
                       print("Whapi error:",json.dumps(detail).replace(token,"[REDACTED]")[:1200])
