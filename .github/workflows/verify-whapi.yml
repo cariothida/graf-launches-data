@@ -37,7 +37,7 @@ jobs:
                   except ValueError:
                       print("Whapi returned non-JSON error; body withheld.")
                   raise SystemExit("Whapi HTTP "+str(e.code)+" on "+path+"; connection NOT verified.")
-          health=get("health")
+          health=get("health?wakeup=true&platform=Chrome%2CWhapi%2C1.6.0&channel_type=web")
           status=health.get("status",{})
           if isinstance(status,dict):
               print("Session status:",json.dumps({k:status[k] for k in ("code","text") if k in status}))
