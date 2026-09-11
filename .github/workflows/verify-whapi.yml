@@ -1,0 +1,45 @@
+name: Verify WhatsApp channel connection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-whapi.yml']
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify session and intended public channel (no messages sent)
+        env:
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import os,json,urllib.request,urllib.error
+          token=os.environ.get("WHAPI_TOKEN","")
+          if not token:
+              raise SystemExit("WHAPI_TOKEN secret missing. Connection NOT verified.")
+          def get(path):
+              req=urllib.request.Request("https://gate.whapi.cloud/"+path,headers={"Authorization":"Bearer "+token,"Accept":"application/json"})
+              try:
+                  with urllib.request.urlopen(req,timeout=30) as response:
+                      return json.load(response)
+              except urllib.error.HTTPError as e:
+                  raise SystemExit("Whapi HTTP "+str(e.code)+"; connection NOT verified.")
+          health=get("health")
+          status=health.get("status",{})
+          if isinstance(status,dict):
+              print("Session status:",json.dumps({k:status[k] for k in ("code","text") if k in status}))
+          elif isinstance(status,(str,int)):
+              print("Session status:",status)
+          channel=get("newsletters/link/0029Vb5yX5A4Y9ltaBC4aH3G")
+          print("Response field names:",",".join(channel.keys()))
+          for key in ("id","name","role","viewer_role"):
+              value=channel.get(key)
+              if isinstance(value,(str,int,bool)):
+                  print("Public channel "+key+":",value)
+          if not channel.get("id"):
+              raise SystemExit("Channel ID not found; inspect documented response shape before sending.")
+          print("Channel lookup succeeded. No messages sent.")
+          PY
