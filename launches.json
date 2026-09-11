@@ -41,7 +41,7 @@
       "priceConfirmed": false,
       "pricePerSqft": null,
       "project": "TEST ONLY — Office Preview",
-      "published": true,
+      "published": false,
       "seoDescription": "Fictional staging record checking office details, source attribution and unconfirmed pricing. Not a real project or sales offer.",
       "seoTitle": "TEST ONLY: Office Preview | GRAF Staging",
       "sources": [
@@ -86,7 +86,7 @@
       "priceConfirmed": false,
       "pricePerSqft": null,
       "project": "TEST ONLY — Villa Preview",
-      "published": true,
+      "published": false,
       "sources": [
         {
           "date": "2026-09-11",
@@ -122,7 +122,7 @@
       "priceConfirmed": false,
       "pricePerSqft": null,
       "project": "TEST ONLY — Hidden Rumour",
-      "published": true,
+      "published": false,
       "sources": [
         {
           "date": "2026-09-11",
