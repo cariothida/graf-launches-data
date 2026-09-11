@@ -64,5 +64,27 @@ pages on the site (~40 minutes after commit), with no human in the loop.
 
 Push to `main` here triggers `repository_dispatch` to the graf.ae repository (workflow in
 `.github/workflows/notify-site.yml`, requires the `SITE_DISPATCH_TOKEN` secret — a
-fine-grained PAT with `actions: write` on the site repo). The site also polls daily as a
+fine-grained PAT with **Contents: read-and-write** on the site repo, which is what the
+`repository_dispatch` REST endpoint actually requires for fine-grained tokens). The site also polls daily as a
 fallback, so a missing token delays publication by at most a day, it never loses data.
+
+## Validation is code, not prose
+
+The site's sync handler (graf.ae repo, `scripts/sync-launches.mjs`) enforces, with tests:
+
+- JSON Schema validation including the conditional price rule (`priceConfirmed: false`
+  → `startingPrice` and `pricePerSqft` must be `null`; `priceConfirmed: true` →
+  `confirmedBy` developer source required) — the rule lives in `schema.json` `allOf`.
+- Cross-record checks the schema cannot express: unique `id` across records and against
+  every existing page's id + aliases; unique developer+project+location(+parentId/phase)
+  identity; exactly one `primary` source per record.
+- Phases/towers: records sharing `parentId` but differing in `phase` are distinct
+  releases and are NOT deduplicated into one.
+- Failure mode: an invalid feed changes nothing — the site keeps the last valid
+  generation and the run reports which records were rejected and why. Validation makes
+  data publishable, not true: content honesty rules (broker labeling, unknowns stay
+  unknown) are applied at render regardless.
+
+Optional new fields (`seoTitle`, `seoDescription`, `unitMix`, `eoi`, `parentId`,
+`phase`, `confirmedBy`) are in `schema.json`; do not add fields that are not in the
+schema — `additionalProperties: false` will reject the record.

@@ -3,18 +3,35 @@
   "$id": "https://raw.githubusercontent.com/cariothida/graf-launches-data/main/schema.json",
   "title": "graf.ae launches feed",
   "type": "object",
-  "required": ["version", "launches"],
+  "required": [
+    "version",
+    "launches"
+  ],
   "properties": {
-    "version": { "const": 1 },
+    "version": {
+      "const": 1
+    },
     "launches": {
       "type": "array",
-      "items": { "$ref": "#/$defs/launch" }
+      "items": {
+        "$ref": "#/$defs/launch"
+      }
     }
   },
   "$defs": {
     "launch": {
       "type": "object",
-      "required": ["id", "project", "developer", "emirate", "status", "sources", "firstReported", "updatedAt", "published"],
+      "required": [
+        "id",
+        "project",
+        "developer",
+        "emirate",
+        "status",
+        "sources",
+        "firstReported",
+        "updatedAt",
+        "published"
+      ],
       "additionalProperties": false,
       "properties": {
         "id": {
@@ -24,48 +41,270 @@
         },
         "aliases": {
           "type": "array",
-          "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
           "description": "Former or alternative slugs for the same project (renames, misspellings). Used for deduplication — a new record whose id matches an existing record's alias is rejected."
         },
-        "project": { "type": "string", "minLength": 2, "description": "Project name, or a working name with '(working name)' suffix when the developer has not announced one." },
-        "developer": { "type": "string", "minLength": 2, "description": "Developer name as publicly known. Use 'To be confirmed' when genuinely unknown." },
-        "developerId": { "type": "string", "description": "graf.ae developer hub id (e.g. 'ellington', 'aldar') — only when certain; enables the 'New from {developer}' hub block." },
-        "emirate": { "enum": ["Dubai", "Abu Dhabi", "Sharjah", "Ras Al Khaimah", "Ajman", "Umm Al Quwain", "Fujairah"] },
-        "location": { "type": "string", "description": "District / area as sourced. Distinguish broker phrasing from formal address." },
-        "type": { "type": "array", "items": { "enum": ["apartments", "villas", "townhouses", "penthouses", "offices", "plots", "mansions", "duplexes"] } },
+        "project": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Project name, or a working name with '(working name)' suffix when the developer has not announced one."
+        },
+        "developer": {
+          "type": "string",
+          "minLength": 2,
+          "description": "Developer name as publicly known. Use 'To be confirmed' when genuinely unknown."
+        },
+        "developerId": {
+          "type": "string",
+          "description": "graf.ae developer hub id (e.g. 'ellington', 'aldar') — only when certain; enables the 'New from {developer}' hub block."
+        },
+        "emirate": {
+          "enum": [
+            "Dubai",
+            "Abu Dhabi",
+            "Sharjah",
+            "Ras Al Khaimah",
+            "Ajman",
+            "Umm Al Quwain",
+            "Fujairah"
+          ]
+        },
+        "location": {
+          "type": "string",
+          "description": "District / area as sourced. Distinguish broker phrasing from formal address."
+        },
+        "type": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "apartments",
+              "villas",
+              "townhouses",
+              "penthouses",
+              "offices",
+              "plots",
+              "mansions",
+              "duplexes"
+            ]
+          }
+        },
         "status": {
-          "enum": ["confirmed", "broker-intelligence", "rumour"],
+          "enum": [
+            "confirmed",
+            "broker-intelligence",
+            "rumour"
+          ],
           "description": "confirmed = developer announced/launched officially. broker-intelligence = multiple broker sources, no official confirmation — page renders with explicit caution wording. rumour = single/weak source — NO page is generated until upgraded."
         },
-        "launchWindow": { "type": "string", "description": "Free text as sourced ('September 2026', 'H2 2026', 'Coming soon'). Omit rather than guess." },
-        "startingPrice": { "type": ["number", "null"], "description": "AED. Set ONLY with priceConfirmed; otherwise null and put the circulating figure in brokerPriceNote." },
-        "priceConfirmed": { "type": "boolean", "default": false, "description": "true only when the developer's own price list confirms startingPrice. Unconfirmed prices never render as facts." },
-        "brokerPriceNote": { "type": "string", "description": "Circulating price info with attribution, e.g. 'brokers quote ~AED 2,500/sqft; unconfirmed'. Rendered with a broker-indication label." },
-        "pricePerSqft": { "type": ["number", "null"], "description": "AED/sqft — same confirmation rule: without priceConfirmed it is treated as broker indication." },
-        "paymentPlan": { "type": ["string", "null"], "description": "e.g. '70/30'. One canonical spelling — 80/20 and 20/60/20 describing the same schedule must not both appear." },
-        "handover": { "type": "string", "description": "e.g. 'Q3 2029'. Omit rather than guess." },
-        "teaser": { "type": "string", "maxLength": 90, "description": "One card sentence. Factual, no hype." },
-        "summary": { "type": "string", "description": "2-4 sentences for the mini page lead. Only sourced facts; unknowns stated as unknown. If omitted, the site composes a template lead from the fields." },
-        "whatNext": { "type": "string", "description": "One sentence: what confirmation is awaited." },
-        "confidenceNote": { "type": "string", "description": "Free-text caveat rendered on the page, e.g. 'Name is broker-invented; Ellington has not confirmed.'" },
+        "launchWindow": {
+          "type": "string",
+          "description": "Free text as sourced ('September 2026', 'H2 2026', 'Coming soon'). Omit rather than guess."
+        },
+        "startingPrice": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "AED. Set ONLY with priceConfirmed; otherwise null and put the circulating figure in brokerPriceNote."
+        },
+        "priceConfirmed": {
+          "type": "boolean",
+          "default": false,
+          "description": "true only when the developer's own price list confirms startingPrice. Unconfirmed prices never render as facts."
+        },
+        "brokerPriceNote": {
+          "type": "string",
+          "description": "Circulating price info with attribution, e.g. 'brokers quote ~AED 2,500/sqft; unconfirmed'. Rendered with a broker-indication label."
+        },
+        "pricePerSqft": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "AED/sqft — same confirmation rule: without priceConfirmed it is treated as broker indication."
+        },
+        "paymentPlan": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "e.g. '70/30'. One canonical spelling — 80/20 and 20/60/20 describing the same schedule must not both appear."
+        },
+        "handover": {
+          "type": "string",
+          "description": "e.g. 'Q3 2029'. Omit rather than guess."
+        },
+        "teaser": {
+          "type": "string",
+          "maxLength": 90,
+          "description": "One card sentence. Factual, no hype."
+        },
+        "summary": {
+          "type": "string",
+          "description": "2-4 sentences for the mini page lead. Only sourced facts; unknowns stated as unknown. If omitted, the site composes a template lead from the fields."
+        },
+        "whatNext": {
+          "type": "string",
+          "description": "One sentence: what confirmation is awaited."
+        },
+        "confidenceNote": {
+          "type": "string",
+          "description": "Free-text caveat rendered on the page, e.g. 'Name is broker-invented; Ellington has not confirmed.'"
+        },
         "sources": {
           "type": "array",
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["url"],
+            "required": [
+              "url"
+            ],
             "properties": {
-              "url": { "type": "string", "format": "uri" },
-              "label": { "type": "string" },
-              "date": { "type": "string", "format": "date" },
-              "primary": { "type": "boolean", "description": "The page's 'View announcement source' link. Exactly one per record. Prefer a dated, non-developer public page." }
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "label": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "primary": {
+                "type": "boolean",
+                "description": "The page displayed as \"View announcement source\". Exactly one per record. This is the best public reference, NOT necessarily the first origin of the fact."
+              }
             }
           }
         },
-        "firstReported": { "type": "string", "format": "date" },
-        "updatedAt": { "type": "string", "format": "date", "description": "Bump ONLY on a substantive change (new fact), not on every touch — it renders as 'Updated' and feeds dateModified." },
-        "published": { "type": "boolean", "description": "false = record kept in the feed but no page generated (draft / withdrawn)." }
-      }
+        "firstReported": {
+          "type": "string",
+          "format": "date"
+        },
+        "updatedAt": {
+          "type": "string",
+          "format": "date",
+          "description": "Bump ONLY on a substantive change (new fact), not on every touch — it renders as 'Updated' and feeds dateModified."
+        },
+        "published": {
+          "type": "boolean",
+          "description": "false = record kept in the feed but no page generated (draft / withdrawn)."
+        },
+        "seoTitle": {
+          "type": "string",
+          "maxLength": 70,
+          "description": "Optional page title override; when absent the site composes one from a template (stage + name + location)."
+        },
+        "seoDescription": {
+          "type": "string",
+          "maxLength": 155,
+          "description": "Optional meta description override; template-composed when absent. Measured in display positions by the site gate."
+        },
+        "unitMix": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "type"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "type": "string",
+                "description": "e.g. \"1BR\", \"4BR villa\", \"half-floor office\""
+              },
+              "sizeSqftFrom": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "sizeSqftTo": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "note": {
+                "type": "string",
+                "description": "Attribution/caveat, e.g. \"broker-listed\""
+              }
+            }
+          },
+          "description": "Structured unit mix so configurations do not drown in prose. Same confirmation discipline: unconfirmed figures carry a note."
+        },
+        "eoi": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "amount": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "AED"
+            },
+            "refundable": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "note": {
+              "type": "string",
+              "description": "Attribution, e.g. \"broker-reported\""
+            }
+          },
+          "description": "Expression-of-interest terms. Omit when not released."
+        },
+        "parentId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+          "description": "Master project id when this record is a phase/tower of it. Dedup treats records with different (parentId, phase) as distinct releases."
+        },
+        "phase": {
+          "type": "string",
+          "description": "Phase or tower label, e.g. \"Phase 2\", \"Tower 3\". Required in spirit when parentId is set."
+        },
+        "confirmedBy": {
+          "type": "string",
+          "format": "uri",
+          "description": "DEVELOPER-side source (price list / official page) that confirms the price. Required whenever priceConfirmed is true. sources[].primary stays the best DISPLAYED public source and need not be the origin."
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "priceConfirmed": {
+                "const": true
+              }
+            },
+            "required": [
+              "priceConfirmed"
+            ]
+          },
+          "then": {
+            "required": [
+              "confirmedBy"
+            ]
+          },
+          "else": {
+            "properties": {
+              "startingPrice": {
+                "const": null
+              },
+              "pricePerSqft": {
+                "const": null
+              }
+            }
+          }
+        }
+      ]
     }
   }
 }
