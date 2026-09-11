@@ -1,34 +1,146 @@
 {
-  "version": 1,
   "launches": [
     {
-      "id": "e2e-pipeline-proof",
-      "project": "E2E Pipeline Proof (test record)",
+      "confidenceNote": "E2E test record — not a real project. Staging only.",
       "developer": "GRAF internal test",
       "emirate": "Dubai",
+      "firstReported": "2026-09-11",
+      "id": "e2e-pipeline-proof",
+      "launchWindow": "Test",
       "location": "Staging-only test entry",
+      "priceConfirmed": false,
+      "project": "E2E Pipeline Proof (test record)",
+      "published": false,
+      "sources": [
+        {
+          "date": "2026-09-11",
+          "label": "Data repo (test)",
+          "primary": true,
+          "url": "https://github.com/cariothida/graf-launches-data"
+        }
+      ],
+      "startingPrice": null,
+      "status": "broker-intelligence",
+      "summary": "Leg 2 of the E2E: the same record was mutated in the feed. The page must update at the same URL with no duplicate created.",
+      "teaser": "Mutated teaser: pipeline update leg verified.",
       "type": [
         "apartments"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "Test",
-      "startingPrice": null,
+      "updatedAt": "2026-09-12",
+      "whatNext": "This record will be unpublished after the E2E test."
+    },
+    {
+      "brokerPriceNote": "Synthetic test figure: AED 2,500/sqft. Not a real broker quote or offer.",
+      "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
+      "developer": "GRAF fictional test developer",
+      "emirate": "Dubai",
+      "firstReported": "2026-09-11",
+      "id": "chatgpt-e2e-office-20260911",
+      "launchWindow": "Test only — no real sales launch",
+      "location": "Staging test only — not a real property",
       "priceConfirmed": false,
-      "teaser": "Mutated teaser: pipeline update leg verified.",
-      "whatNext": "This record will be unpublished after the E2E test.",
-      "confidenceNote": "E2E test record — not a real project. Staging only.",
+      "pricePerSqft": null,
+      "project": "TEST ONLY — Office Preview",
+      "published": true,
+      "seoDescription": "Fictional staging record checking office details, source attribution and unconfirmed pricing. Not a real project or sales offer.",
+      "seoTitle": "TEST ONLY: Office Preview | GRAF Staging",
       "sources": [
         {
-          "url": "https://github.com/cariothida/graf-launches-data",
-          "label": "Data repo (test)",
           "date": "2026-09-11",
-          "primary": true
+          "label": "Synthetic test fixture — not a property announcement",
+          "primary": true,
+          "url": "https://github.com/cariothida/graf-launches-data"
         }
       ],
+      "startingPrice": null,
+      "status": "broker-intelligence",
+      "summary": "This is a fictional staging test, not a real Dubai launch. It checks whether an office preview displays broker indications without presenting them as confirmed prices.",
+      "teaser": "Fictional office preview to test source labels and unconfirmed pricing.",
+      "type": [
+        "offices"
+      ],
+      "unitMix": [
+        {
+          "note": "Fictional test sizes only",
+          "sizeSqftFrom": 1200,
+          "sizeSqftTo": 2400,
+          "type": "Office"
+        }
+      ],
+      "updatedAt": "2026-09-11",
+      "whatNext": "This staging test awaits its verification update today. Subscribe on this page to receive real launch updates."
+    },
+    {
+      "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
+      "developer": "GRAF fictional test developer",
+      "emirate": "Ras Al Khaimah",
+      "eoi": {
+        "amount": null,
+        "note": "Not available; synthetic test only",
+        "refundable": null
+      },
       "firstReported": "2026-09-11",
-      "updatedAt": "2026-09-12",
-      "published": false,
-      "summary": "Leg 2 of the E2E: the same record was mutated in the feed. The page must update at the same URL with no duplicate created."
+      "id": "chatgpt-e2e-villas-20260911",
+      "launchWindow": "Test only — no real sales launch",
+      "location": "Staging test only — not a real property",
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "project": "TEST ONLY — Villa Preview",
+      "published": true,
+      "sources": [
+        {
+          "date": "2026-09-11",
+          "label": "Synthetic test fixture — not a property announcement",
+          "primary": true,
+          "url": "https://github.com/cariothida/graf-launches-data"
+        }
+      ],
+      "startingPrice": null,
+      "status": "broker-intelligence",
+      "summary": "This is a fictional staging test, not a real villa community. Starting prices and handover are intentionally absent to check how unknown details appear.",
+      "teaser": "Fictional villa preview to test unknown prices and subscription wording.",
+      "type": [
+        "villas"
+      ],
+      "unitMix": [
+        {
+          "note": "Fictional test configuration only",
+          "type": "4BR villa"
+        }
+      ],
+      "updatedAt": "2026-09-11",
+      "whatNext": "This staging test awaits its verification update today. Subscribe on this page to receive real launch updates."
+    },
+    {
+      "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
+      "developer": "GRAF fictional test developer",
+      "emirate": "Abu Dhabi",
+      "firstReported": "2026-09-11",
+      "id": "chatgpt-e2e-rumour-20260911",
+      "launchWindow": "Test only — no real sales launch",
+      "location": "Staging test only — not a real property",
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "project": "TEST ONLY — Hidden Rumour",
+      "published": true,
+      "sources": [
+        {
+          "date": "2026-09-11",
+          "label": "Synthetic test fixture — not a property announcement",
+          "primary": true,
+          "url": "https://github.com/cariothida/graf-launches-data"
+        }
+      ],
+      "startingPrice": null,
+      "status": "rumour",
+      "summary": "This synthetic rumour checks exclusion from pages, homepage cards, sitemap and llms.txt.",
+      "teaser": "Fictional rumour fixture that must never create a public page.",
+      "type": [
+        "apartments"
+      ],
+      "updatedAt": "2026-09-11",
+      "whatNext": "This staging test awaits its verification update today. Subscribe on this page to receive real launch updates."
     }
-  ]
+  ],
+  "version": 1
 }
