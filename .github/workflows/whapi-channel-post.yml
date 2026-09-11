@@ -1,6 +1,9 @@
 name: whapi-channel-post
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/whapi-channel-post.yml']
 permissions:
   contents: read
 concurrency:
