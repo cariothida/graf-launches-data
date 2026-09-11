@@ -1,4 +1,33 @@
 {
   "version": 1,
-  "launches": []
+  "launches": [
+    {
+      "id": "e2e-pipeline-proof",
+      "project": "E2E Pipeline Proof (test record)",
+      "developer": "GRAF internal test",
+      "emirate": "Dubai",
+      "location": "Staging-only test entry",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Test",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "teaser": "Automated feed-to-site pipeline verification record.",
+      "whatNext": "This record will be unpublished after the E2E test.",
+      "confidenceNote": "E2E test record — not a real project. Staging only.",
+      "sources": [
+        {
+          "url": "https://github.com/cariothida/graf-launches-data",
+          "label": "Data repo (test)",
+          "date": "2026-09-11",
+          "primary": true
+        }
+      ],
+      "firstReported": "2026-09-11",
+      "updatedAt": "2026-09-11",
+      "published": true
+    }
+  ]
 }
