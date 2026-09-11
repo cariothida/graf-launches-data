@@ -1,6 +1,8 @@
-# Push here → tell the graf.ae repo to sync + rebuild. Needs SITE_DISPATCH_TOKEN
-# (fine-grained PAT, actions:write on cariothida/graf.ae). Without it the site's
-# daily cron still picks changes up — this hook only makes it instant.
+# Push here → tell the graf.ae repo to sync + rebuild.
+# LOUD-FAIL principle (site's news section died repeatedly from silenced errors):
+# a missing token or failed dispatch marks this run RED. The site's daily cron is a
+# safety net for data loss, but a red run here means "publication NOT triggered" —
+# never treat it as success.
 name: notify-site
 on:
   push:
@@ -14,9 +16,13 @@ jobs:
         env:
           TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
         run: |
-          if [ -z "$TOKEN" ]; then echo "SITE_DISPATCH_TOKEN not set — site daily cron will pick this up instead."; exit 0; fi
+          if [ -z "$TOKEN" ]; then
+            echo "::error::SITE_DISPATCH_TOKEN is not set — site was NOT notified. Data is safe in git; the site's daily cron may pick it up, but instant publication is broken until the secret is added."
+            exit 1
+          fi
           curl -sf -X POST \
             -H "Authorization: Bearer $TOKEN" \
             -H "Accept: application/vnd.github+json" \
             https://api.github.com/repos/cariothida/graf.ae/dispatches \
-            -d '{"event_type":"launches-data-updated"}'
+            -d '{"event_type":"launches-data-updated","client_payload":{"sha":"'"$GITHUB_SHA"'"}}' \
+            || { echo "::error::dispatch call FAILED — publication not triggered"; exit 1; }
