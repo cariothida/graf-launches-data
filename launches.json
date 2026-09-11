@@ -14,7 +14,7 @@
       "launchWindow": "Test",
       "startingPrice": null,
       "priceConfirmed": false,
-      "teaser": "Automated feed-to-site pipeline verification record.",
+      "teaser": "Mutated teaser: pipeline update leg verified.",
       "whatNext": "This record will be unpublished after the E2E test.",
       "confidenceNote": "E2E test record — not a real project. Staging only.",
       "sources": [
@@ -26,8 +26,9 @@
         }
       ],
       "firstReported": "2026-09-11",
-      "updatedAt": "2026-09-11",
-      "published": true
+      "updatedAt": "2026-09-12",
+      "published": true,
+      "summary": "Leg 2 of the E2E: the same record was mutated in the feed. The page must update at the same URL with no duplicate created."
     }
   ]
 }
