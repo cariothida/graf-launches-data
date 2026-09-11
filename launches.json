@@ -27,7 +27,7 @@
       ],
       "firstReported": "2026-09-11",
       "updatedAt": "2026-09-12",
-      "published": true,
+      "published": false,
       "summary": "Leg 2 of the E2E: the same record was mutated in the feed. The page must update at the same URL with no duplicate created."
     }
   ]
