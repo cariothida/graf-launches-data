@@ -1,0 +1,38 @@
+name: Daily hot launches to WhatsApp
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        default: true
+  push:
+    branches: [main]
+    paths:
+      - 'whatsapp-queue.json'
+      - 'scripts/whatsapp-queue*.mjs'
+      - '.github/workflows/whatsapp-queue.yml'
+  schedule:
+    - cron: '0,15,30,45 4-16 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: whatsapp-daily-queue
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test scripts/whatsapp-queue.test.mjs
+      - run: npm install --no-save @modelcontextprotocol/sdk@^1
+      - run: node scripts/whatsapp-queue-runner.mjs
+        env:
+          API_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ (github.event_name == 'push' && !contains(github.event.head_commit.modified, 'whatsapp-queue.json')) || (github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
