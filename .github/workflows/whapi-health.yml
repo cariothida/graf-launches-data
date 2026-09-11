@@ -1,0 +1,25 @@
+# Whapi connectivity probe — checkHealth ONLY, via the official whapi-mcp stdio
+# server driven by an MCP SDK client. Never sends messages, never touches the
+# channel, never rebuilds the site. Manual dispatch only.
+name: whapi-health
+on:
+  workflow_dispatch:
+jobs:
+  check-health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Record package version + API host (docs constant)
+        run: |
+          echo "whapi-mcp latest on npm: $(npm view whapi-mcp version)"
+          echo "API host used by the package (per Whapi docs): gate.whapi.cloud"
+      - name: Install MCP SDK client
+        run: npm install --no-save @modelcontextprotocol/sdk@^1
+      - name: checkHealth via official MCP client
+        env:
+          API_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+        run: node scripts/whapi-mcp-health.mjs
