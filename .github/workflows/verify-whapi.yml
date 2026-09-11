@@ -21,7 +21,7 @@ jobs:
           if not token:
               raise SystemExit("WHAPI_TOKEN secret missing. Connection NOT verified.")
           def get(path):
-              req=urllib.request.Request("https://gate.whapi.cloud/"+path,headers={"Authorization":"Bearer "+token,"Accept":"application/json"})
+              req=urllib.request.Request("https://gate.whapi.cloud/"+path,headers={"Authorization":"Bearer "+token,"Accept":"application/json","Content-Type":"application/json"})
               try:
                   with urllib.request.urlopen(req,timeout=30) as response:
                       return json.load(response)
