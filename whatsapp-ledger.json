@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "posts": {
+    "al-ghadeer-parks:initial-announcement": {
+      "state": "sent",
+      "projectId": "al-ghadeer-parks",
+      "messageId": "PsrBpLASfv.Q68A-1yQBq53f_uALiA-lQ",
+      "note": "Previously verified one-off post on 2026-09-11; do not repeat the initial announcement."
+    },
+    "treppan-vision:initial-announcement": {
+      "state": "sent",
+      "projectId": "treppan-vision",
+      "messageId": "Psr5lGLdhB6A0bo-1_UBq53f_uALiA-lg",
+      "verifiedAt": "2026-09-11T20:00:34Z"
+    }
+  }
+}
