@@ -30,7 +30,7 @@
       "whatNext": "This record will be unpublished after the E2E test."
     },
     {
-      "brokerPriceNote": "Synthetic test figure: AED 2,500/sqft. Not a real broker quote or offer.",
+      "brokerPriceNote": "Synthetic test figure updated: AED 2,750/sqft. Not a real broker quote or offer.",
       "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
       "developer": "GRAF fictional test developer",
       "emirate": "Dubai",
@@ -54,7 +54,7 @@
       ],
       "startingPrice": null,
       "status": "broker-intelligence",
-      "summary": "This is a fictional staging test, not a real Dubai launch. It checks whether an office preview displays broker indications without presenting them as confirmed prices.",
+      "summary": "Mutation verified: this fictional staging office record has been updated at its original URL. The synthetic price indication changed from AED 2,500 to AED 2,750 per sqft; neither is a real price or offer.",
       "teaser": "Fictional office preview to test source labels and unconfirmed pricing.",
       "type": [
         "offices"
@@ -97,15 +97,15 @@
       ],
       "startingPrice": null,
       "status": "broker-intelligence",
-      "summary": "This is a fictional staging test, not a real villa community. Starting prices and handover are intentionally absent to check how unknown details appear.",
+      "summary": "Mutation verified: this fictional villa record now tests a five-bedroom configuration at the same permanent URL. Prices and handover remain unknown; this is not a real project.",
       "teaser": "Fictional villa preview to test unknown prices and subscription wording.",
       "type": [
         "villas"
       ],
       "unitMix": [
         {
-          "note": "Fictional test configuration only",
-          "type": "4BR villa"
+          "type": "5BR villa",
+          "note": "Updated fictional test configuration only"
         }
       ],
       "updatedAt": "2026-09-11",
