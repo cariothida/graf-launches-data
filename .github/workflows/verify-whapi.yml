@@ -26,7 +26,16 @@ jobs:
                   with urllib.request.urlopen(req,timeout=30) as response:
                       return json.load(response)
               except urllib.error.HTTPError as e:
-                  raise SystemExit("Whapi HTTP "+str(e.code)+"; connection NOT verified.")
+                  raw=e.read().decode("utf-8",errors="replace")
+                  try:
+                      err=json.loads(raw)
+                      detail=err.get("error",err.get("message",""))
+                      if isinstance(detail,dict):
+                          detail={k:detail[k] for k in ("code","message","details") if k in detail}
+                      print("Whapi error:",json.dumps(detail).replace(token,"[REDACTED]")[:1200])
+                  except ValueError:
+                      print("Whapi returned non-JSON error; body withheld.")
+                  raise SystemExit("Whapi HTTP "+str(e.code)+" on "+path+"; connection NOT verified.")
           health=get("health")
           status=health.get("status",{})
           if isinstance(status,dict):
