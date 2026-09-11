@@ -1,0 +1,22 @@
+# Push here → tell the graf.ae repo to sync + rebuild. Needs SITE_DISPATCH_TOKEN
+# (fine-grained PAT, actions:write on cariothida/graf.ae). Without it the site's
+# daily cron still picks changes up — this hook only makes it instant.
+name: notify-site
+on:
+  push:
+    branches: [main]
+    paths: [launches.json]
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: repository_dispatch to site
+        env:
+          TOKEN: ${{ secrets.SITE_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then echo "SITE_DISPATCH_TOKEN not set — site daily cron will pick this up instead."; exit 0; fi
+          curl -sf -X POST \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/cariothida/graf.ae/dispatches \
+            -d '{"event_type":"launches-data-updated"}'
