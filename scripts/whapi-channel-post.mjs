@@ -7,5 +7,9 @@ const timer=setTimeout(()=>process.exit(1),90000);
 try {
  await client.connect(transport);
  const {tools}=await client.listTools();
- for(const t of tools.filter(t=>/newsletter.*(link|invite|message)|sendMessageText|getNewsletter$/i.test(t.name))) console.log(JSON.stringify(t));
+ for(const t of tools.filter(t=>/getMessagesNewsletter|getMessage$/.test(t.name))) console.log(JSON.stringify(t));
+ const res=await client.callTool({name:'getNewsletterByInviteCode',arguments:{NewsletterInviteCode:'0029Vb5yX5A4Y9ltaBC4aH3G'}});
+ if(res.isError) throw new Error('Channel lookup failed');
+ for(const c of res.content??[]) if(c.type==='text') console.log(c.text.replaceAll(process.env.API_TOKEN,'[REDACTED]'));
+
 } finally {clearTimeout(timer);await client.close();}
