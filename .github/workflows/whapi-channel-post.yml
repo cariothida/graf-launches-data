@@ -1,0 +1,24 @@
+name: whapi-channel-post
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/whapi-channel-post.mjs', '.github/workflows/whapi-channel-post.yml']
+permissions:
+  contents: read
+concurrency:
+  group: whapi-channel-post
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save @modelcontextprotocol/sdk@^1
+      - run: node scripts/whapi-channel-post.mjs
+        env:
+          API_TOKEN: ${{ secrets.WHAPI_TOKEN }}
