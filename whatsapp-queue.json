@@ -38,7 +38,8 @@
       "imageUrl": "https://graf.ae/images/launches/ellington-business-bay-offices-v1.jpg",
       "imageVerified": true,
       "scheduledAt": "2026-09-12T11:10:00+04:00",
-      "scheduleReason": "Alex explicitly requested this additional image post at 11:10 Dubai"
+      "scheduleReason": "Alex explicitly requested this additional image post at 11:10 Dubai",
+      "imageSha256": "121cfc901d42b95703c8e60be8f4ae1464434fd2e5ddab9f34bd0be64d485d35"
     },
     {
       "projectId": "ellington-al-yalayis",
