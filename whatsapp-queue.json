@@ -1,5 +1,38 @@
 {
   "version": 1,
   "briefingDate": "2026-09-12",
-  "posts": []
+  "posts": [
+    {
+      "projectId": "aldar-sei-saadiyat",
+      "eventKey": "aldar-sei-saadiyat:2026-09-07-first-phase-sales-announcement",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "Aldar announced Sei Saadiyat on 7 September 2026 and confirmed first-phase sales open on 16 September 2026.",
+      "sources": [
+        "https://www.aldar.com/en/news-and-media/aldar-unveils-sei-saadiyat-bringing-timeless-design-to-saadiyat-cultural-district",
+        "https://vazeno.files.cmp.optimizely.com/download/assets/260907%2BAldar%2BPress%2BRelease%2BSei%2BSaadiyat%2BEn%2BFINAL.pdf/8d68f14eaa9511f1a3ef46c712173038",
+        "https://drehomes.com/property/sei-saadiyat-island"
+      ],
+      "siteUrl": "https://graf.ae/launches/aldar-sei-saadiyat/",
+      "body": "SEI SAADIYAT — FIRST SALES RELEASE\n\nAldar has announced Sei Saadiyat in Saadiyat Cultural District. Phase one brings 265 homes across two buildings, with 1–3 bedroom apartments and 2-bedroom lofts. Sales are scheduled to open on 16 September 2026.\n\nBroker listings indicate prices from AED 2.95 million, a 50/50 plan and Q4 2030 handover; these commercial terms have not yet been confirmed in an accessible Aldar price list.\n\nhttps://graf.ae/launches/aldar-sei-saadiyat/"
+    },
+    {
+      "projectId": "bloom-living-alhambra",
+      "eventKey": "bloom-living-alhambra:2026-09-09-final-release-announcement",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "Bloom Holding's Alhambra final residential release was announced in dated launch coverage on 9 September 2026.",
+      "sources": [
+        "https://gulftime.ae/bloom-holding-launches-alhambra-the-vibrant-heart-and-final-release-of-bloom-living/",
+        "https://bloomholding.com/ar/press-releases/bloom-holding-launches-final-phase-of-bloom-living-alhambra",
+        "https://abudhabioffplan.ae/developers/bloom-properties"
+      ],
+      "siteUrl": "https://graf.ae/launches/bloom-living-alhambra/",
+      "body": "ALHAMBRA — BLOOM LIVING’S FINAL RELEASE\n\nBloom Holding has launched Alhambra in Zayed City as the final residential release at Bloom Living. The mix includes studios to 3-bedroom apartments, 3-bedroom townhouses and a limited number of 4-bedroom penthouses.\n\nDeveloper-indexed launch information states prices from AED 865,000. A 40/60 plan and Q3 2030 handover are circulating in broker material and remain subject to final confirmation.\n\nhttps://graf.ae/launches/bloom-living-alhambra/"
+    }
+  ]
 }
