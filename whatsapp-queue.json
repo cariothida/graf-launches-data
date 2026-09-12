@@ -80,7 +80,7 @@
       "imageVerified": true,
       "imageSha256": "53f7f060920a6ec50d4dd790fa880f9480f14487add9dc791f604366f2125a50",
       "scheduledAt": "2026-09-12T11:22:00+04:00",
-      "scheduleReason": "Alex explicitly requested this additional post at 11:22 Dubai; now overdue"
+      "scheduleReason": "Alex requested this post for 11:22 Dubai; recovery trigger after the earlier run sent only one due item"
     },
     {
       "projectId": "bloom-living-alhambra",
