@@ -14,11 +14,12 @@
       "verifiedAt": "2026-09-11T20:00:34Z"
     },
     "aldar-sei-saadiyat:2026-09-07-first-phase-sales-announcement": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "aldar-sei-saadiyat",
       "body": "SEI SAADIYAT — FIRST SALES RELEASE\n\nAldar has announced Sei Saadiyat in Saadiyat Cultural District. Phase one brings 265 homes across two buildings, with 1–3 bedroom apartments and 2-bedroom lofts. Sales are scheduled to open on 16 September 2026.\n\nBroker listings indicate prices from AED 2.95 million, a 50/50 plan and Q4 2030 handover; these commercial terms have not yet been confirmed in an accessible Aldar price list.\n\nhttps://graf.ae/launches/aldar-sei-saadiyat/",
       "attemptedAt": "2026-09-12T05:50:31.917Z",
-      "messageId": "Psp8KX3WKRdlb0w-1xgBq53f_uALiA-lw"
+      "messageId": "Psp8KX3WKRdlb0w-1xgBq53f_uALiA-lw",
+      "verifiedAt": "2026-09-12T05:50:38.438Z"
     }
   }
 }
