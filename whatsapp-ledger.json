@@ -50,6 +50,19 @@
       "attemptedAt": "2026-09-12T11:07:32.075Z",
       "messageId": "PsphAOOq4t9Yxq8-1woBq53f_uALiA-mQ",
       "verifiedAt": "2026-09-12T11:07:39.662Z"
+    },
+    "marsa-al-saadiyat:2026-h2-first-sales-window": {
+      "state": "pending",
+      "projectId": "marsa-al-saadiyat",
+      "body": "MARSA AL SAADIYAT · FIRST COLLECTION WATCH\n\nAldar has announced the AED 100 billion Marsa Al Saadiyat waterfront destination, the final major chapter of Saadiyat Island.\n\nThe first residential sales are planned for the second half of 2026. No named collection, starting price or payment plan has been released yet.\n\nhttps://graf.ae/launches/marsa-al-saadiyat/",
+      "imageRepoPath": "assets/whatsapp/marsa-al-saadiyat.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 116019,
+        "sha256": "53f7f060920a6ec50d4dd790fa880f9480f14487add9dc791f604366f2125a50"
+      },
+      "attemptedAt": "2026-09-12T11:10:07.031Z"
     }
   }
 }
