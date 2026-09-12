@@ -21,7 +21,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 6
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
         with:
@@ -46,8 +46,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: npm install --no-save @modelcontextprotocol/sdk@^1 sharp@0.35.4
       - run: node --test scripts/whatsapp-queue.test.mjs
-      - run: npm install --no-save @modelcontextprotocol/sdk@^1
       - run: node scripts/whatsapp-queue-runner.mjs
         env:
           API_TOKEN: ${{ secrets.WHAPI_TOKEN }}
