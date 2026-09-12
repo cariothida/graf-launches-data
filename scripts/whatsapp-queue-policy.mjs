@@ -26,7 +26,8 @@ export function validate(q) {
     if (p.imageUrl && p.imageRepoPath) throw Error('Use one image source');
     if (p.imageUrl) grafUrl(p.imageUrl);
     if (p.imageRepoPath && !/^assets\/whatsapp\/[a-z0-9-]+\.jpg$/.test(p.imageRepoPath)) throw Error('Invalid repository image path');
-    if ((p.imageUrl || p.imageRepoPath) && (p.imageVerified !== true || !/^[a-f0-9]{64}$/.test(p.imageSha256 || ''))) throw Error('Image identity/rights/hash not verified');
+    if ((p.imageUrl || p.imageRepoPath) && p.imageVerified !== true) throw Error('Image identity/rights not verified');
+    if (p.imageRepoPath && !/^[a-f0-9]{64}$/.test(p.imageSha256 || '')) throw Error('Repository image hash not verified');
     if (p.status === 'broker-intelligence' && !/broker|unconfirmed|not yet confirmed/i.test(p.body)) throw Error('Missing uncertainty label');
   }
   return q;
