@@ -1,0 +1,524 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-12",
+  "notes": [
+    "Source universe, NOT a claim that all accounts or feeds were inspected today.",
+    "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
+    "Homepage access establishes a discovery source, not freshness or reliability of every listing. Qualify dated events independently.",
+    "Rotate tomorrow toward verified individual Abu Dhabi and RAK brokers and official developer-linked Instagram handles; remove repetitive low-signal sources after sufficient observed history.",
+    "Equity Edge calendar entry dates are catalogue-addition dates, not launch dates. Aumra Nova homepage is a limited app shell."
+  ],
+  "sources": [
+    {
+      "name": "Allsopp & Allsopp",
+      "url": "https://www.allsoppandallsopp.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "haus & haus",
+      "url": "https://www.hausandhaus.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "fam Properties",
+      "url": "https://famproperties.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "AX Capital",
+      "url": "https://www.axcapital.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Driven Properties",
+      "url": "https://www.drivenproperties.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "D&B Properties",
+      "url": "https://dandbdubai.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Dacha",
+      "url": "https://www.dacha.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Provident Estate",
+      "url": "https://providentestate.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Betterhomes",
+      "url": "https://www.bhomes.com/en",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Unique Properties",
+      "url": "https://uniqueproperties.ae/en/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Whitewill",
+      "url": "https://whitewill.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Metropolitan Group",
+      "url": "https://metropolitan.realestate/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Hunt & Harris",
+      "url": "https://www.huntandharris.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Ras Al Khaimah",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Primo Capital",
+      "url": "https://primocapital.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Royal Lounge Properties",
+      "url": "https://royallp.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Abu Dhabi",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Savills Middle East",
+      "url": "https://www.savills.me/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Edwards & Towers",
+      "url": "https://edwardsandtowers.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Engel & Volkers Dubai",
+      "url": "https://www.engelvoelkers.com/ae/en",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Luxhabitat",
+      "url": "https://www.luxhabitat.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "TruHauz",
+      "url": "https://truhauz.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Albina Sultanova",
+      "url": "https://albinasultanova.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Grand Reve Realty",
+      "url": "https://grandreverealty.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Future Key Properties",
+      "url": "https://futurekey.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Abu Dhabi",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Propsense Realty",
+      "url": "https://www.propsenserealty.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "DRE Homes",
+      "url": "https://drehomes.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Equity Edge",
+      "url": "https://www.equityedge.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Off Plan Dubai",
+      "url": "https://www.offplandubai.ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Luxury Falcon Properties",
+      "url": "https://luxuryfalconproperties.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Aumra Nova",
+      "url": "https://aumranova.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Top Luxury Property",
+      "url": "https://topluxuryproperty.com/ae/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "SANSAV / Luxury Offplan",
+      "url": "https://www.luxuryoffplan.ai/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "homepage-opened",
+      "lastAccessCheck": "2026-09-12",
+      "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
+      "instagramHandle": null
+    },
+    {
+      "name": "Ellington",
+      "url": "https://ellingtonproperties.ae/en",
+      "kind": "developer",
+      "coverage": "Dubai / Ras Al Khaimah",
+      "access": "homepage-or-newsroom-opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Aldar",
+      "url": "https://www.aldar.com/en/news-and-media",
+      "kind": "developer",
+      "coverage": "UAE",
+      "access": "homepage-or-newsroom-opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Bloom Holding",
+      "url": "https://bloomholding.com/",
+      "kind": "developer",
+      "coverage": "Abu Dhabi",
+      "access": "homepage-or-newsroom-opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Modon",
+      "url": "https://www.modon.com/",
+      "kind": "developer",
+      "coverage": "Abu Dhabi",
+      "access": "homepage-or-newsroom-opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "RAK Properties",
+      "url": "https://www.rakproperties.ae/news/",
+      "kind": "developer",
+      "coverage": "Ras Al Khaimah",
+      "access": "homepage-or-newsroom-opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Emaar",
+      "url": "https://www.emaar.com/en",
+      "kind": "developer",
+      "coverage": "Dubai",
+      "access": "homepage-or-newsroom-opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Arabian Business",
+      "url": "https://www.arabianbusiness.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "query-issued; direct-access-failed",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Zawya",
+      "url": "https://www.zawya.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "query-issued; robots-access-gap",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Middle East Construction News",
+      "url": "https://meconstructionnews.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "homepage-opened",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Construction Week Middle East",
+      "url": "https://www.constructionweekonline.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "query-issued",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Gulf News",
+      "url": "https://gulfnews.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "query-issued",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "indexed-leads-inspected",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "The National",
+      "url": "https://www.thenationalnews.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "query-issued",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Gulf Business",
+      "url": "https://gulfbusiness.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "query-issued",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "MEED",
+      "url": "https://www.meed.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "indexed-results-inspected",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Gulf Time",
+      "url": "https://gulftime.ae/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "article-opened",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "TradeArabia",
+      "url": "https://www.tradearabia.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "indexed-results-inspected",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Dubai Global News",
+      "url": "https://www.dubaiglobalnews.com/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "indexed-results-inspected",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Propsearch",
+      "url": "https://propsearch.ae/",
+      "kind": "portal",
+      "coverage": "Dubai",
+      "access": "homepage 502; Latest buildings snapshot not recoverable",
+      "restriction": "Latest buildings ONLY. Do not inspect Latest areas or Recently updated.",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Property Finder New Projects",
+      "url": "https://www.propertyfinder.ae/en/new-projects",
+      "kind": "portal",
+      "coverage": "UAE",
+      "access": "opened",
+      "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Bayut New Projects",
+      "url": "https://www.bayut.com/new-projects/uae/",
+      "kind": "portal",
+      "coverage": "UAE",
+      "access": "opened",
+      "lastAccessCheck": "2026-09-12"
+    }
+  ],
+  "additionalCandidates": [
+    {
+      "name": "Property Shop Investment",
+      "url": "https://psinv.net/",
+      "coverage": "Abu Dhabi",
+      "access": "direct open failed",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "MD Real Estate",
+      "url": "https://www.mduae.com/",
+      "coverage": "Abu Dhabi",
+      "access": "direct open failed",
+      "lastAttempt": "2026-09-12"
+    },
+    {
+      "name": "Crompton Partners",
+      "url": "https://www.cromptonpartners.com/",
+      "coverage": "Abu Dhabi",
+      "access": "direct open failed",
+      "lastAttempt": "2026-09-12"
+    }
+  ],
+  "hotProjects": [
+    "ellington-al-yalayis",
+    "ellington-business-bay-offices",
+    "aldar-sei-saadiyat",
+    "bloom-living-alhambra",
+    "marsa-al-saadiyat",
+    "binghatti-spectre",
+    "richmond-residences-mira-coral-bay"
+  ]
+}
