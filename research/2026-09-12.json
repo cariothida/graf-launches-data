@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "date": "2026-09-12",
+  "researchWindow": {
+    "from": "2026-08-13",
+    "through": "2026-12-12"
+  },
+  "selectedProjects": [
+    {
+      "id": "aldar-sei-saadiyat",
+      "eventKey": "aldar-sei-saadiyat:2026-09-07-first-phase-sales-announcement",
+      "record": {
+        "aliases": [],
+        "brokerPriceNote": "DRE Homes advertises starting prices from AED 2,950,000; an official developer price list was not found in accessible sources.",
+        "confidenceNote": "High on developer, location, first-phase scale and sales date from Aldar's dated press release; medium on broker-advertised price, payment plan and handover.",
+        "developer": "Aldar Properties",
+        "developerId": "aldar",
+        "emirate": "Abu Dhabi",
+        "eoi": {
+          "amount": null,
+          "note": "EOI and booking amounts not found in accessible verified sources.",
+          "refundable": null
+        },
+        "firstReported": "2026-09-12",
+        "handover": "Q4 2030, advertised by DRE Homes; developer confirmation not found",
+        "id": "aldar-sei-saadiyat",
+        "launchWindow": "Announced 7 September 2026; first-phase sales open 16 September 2026",
+        "location": "Saadiyat Cultural District, Saadiyat Island",
+        "paymentPlan": "50/50, advertised by DRE Homes; developer schedule not verified",
+        "phase": "First sales release",
+        "priceConfirmed": false,
+        "pricePerSqft": null,
+        "project": "Sei Saadiyat",
+        "published": true,
+        "seoDescription": "Aldar opens Sei Saadiyat phase-one sales on 16 September 2026: 265 homes in Saadiyat Cultural District. Unit mix and clearly labelled broker pricing.",
+        "seoTitle": "Sei Saadiyat by Aldar: Sales Open 16 September 2026 | GRAF",
+        "sources": [
+          {
+            "date": "2026-09-07",
+            "label": "Aldar dated launch announcement",
+            "primary": true,
+            "url": "https://www.aldar.com/en/news-and-media/aldar-unveils-sei-saadiyat-bringing-timeless-design-to-saadiyat-cultural-district"
+          },
+          {
+            "date": "2026-09-07",
+            "label": "Official Aldar press release: 265 homes and 16 September sales",
+            "url": "https://vazeno.files.cmp.optimizely.com/download/assets/260907%2BAldar%2BPress%2BRelease%2BSei%2BSaadiyat%2BEn%2BFINAL.pdf/8d68f14eaa9511f1a3ef46c712173038"
+          },
+          {
+            "label": "DRE Homes: broker-indicated price and payment plan",
+            "url": "https://drehomes.com/property/sei-saadiyat-island"
+          },
+          {
+            "label": "DRE Homes current Sei Saadiyat card: Q4 2030 handover",
+            "url": "https://drehomes.com/"
+          }
+        ],
+        "startingPrice": null,
+        "status": "confirmed",
+        "summary": "Aldar announced Sei Saadiyat on 7 September 2026, with first-phase sales opening on 16 September. The first release comprises 265 homes across two buildings within a 778-home, six-building development in Saadiyat Cultural District. The announced collection includes one- to three-bedroom apartments and two-bedroom lofts with double-height living spaces. This is a near-term allocation opportunity in an established cultural destination; launch pricing and unit-specific terms still need verification.",
+        "teaser": "First-phase sales open 16 September: 265 homes in Saadiyat Cultural District.",
+        "type": [
+          "apartments",
+          "duplexes"
+        ],
+        "unitMix": [
+          {
+            "type": "1BR apartments"
+          },
+          {
+            "type": "2BR apartments"
+          },
+          {
+            "type": "3BR apartments"
+          },
+          {
+            "note": "Double-height living spaces; announced development-wide collection, exact phase allocation not specified",
+            "type": "2BR lofts"
+          }
+        ],
+        "updatedAt": "2026-09-12",
+        "whatNext": "Sales are scheduled to open on 16 September; subscribe on this page for confirmed pricing and release updates."
+      }
+    },
+    {
+      "id": "bloom-living-alhambra",
+      "eventKey": "bloom-living-alhambra:2026-09-09-final-release-announcement",
+      "record": {
+        "aliases": [],
+        "confidenceNote": "High on launch, developer, location and unit mix. AED 865,000 is corroborated by Bloom's indexed Arabic announcement; the full developer page could not be opened. Medium on broker-advertised payment plan and handover.",
+        "confirmedBy": "https://bloomholding.com/ar/press-releases/bloom-holding-launches-final-phase-of-bloom-living-alhambra",
+        "developer": "Bloom Holding",
+        "emirate": "Abu Dhabi",
+        "eoi": {
+          "amount": null,
+          "note": "EOI and booking amounts not found in accessible verified sources.",
+          "refundable": null
+        },
+        "firstReported": "2026-09-12",
+        "handover": "Q3 2030, broker-advertised by Metropolitan; developer confirmation not found",
+        "id": "bloom-living-alhambra",
+        "launchWindow": "Launch announcement reported 9 September 2026; exact sales-opening day not separately specified",
+        "location": "Bloom Living, Zayed City",
+        "parentId": "bloom-living",
+        "paymentPlan": "40/60, circulating in indexed launch posts; final developer schedule not verified",
+        "phase": "Alhambra final release",
+        "priceConfirmed": true,
+        "pricePerSqft": null,
+        "project": "Alhambra at Bloom Living",
+        "published": true,
+        "seoDescription": "Bloom Living's Alhambra final release in Zayed City: studios, apartments, townhouses and penthouses from AED 865,000. Launch facts and pending terms.",
+        "seoTitle": "Alhambra at Bloom Living: Final Release from AED 865,000 | GRAF",
+        "sources": [
+          {
+            "date": "2026-09-09",
+            "label": "Gulf Time dated Bloom launch coverage",
+            "primary": true,
+            "url": "https://gulftime.ae/bloom-holding-launches-alhambra-the-vibrant-heart-and-final-release-of-bloom-living/"
+          },
+          {
+            "label": "Bloom Holding Arabic announcement: indexed text inspected; direct page inaccessible",
+            "url": "https://bloomholding.com/ar/press-releases/bloom-holding-launches-final-phase-of-bloom-living-alhambra"
+          },
+          {
+            "label": "Indexed launch post: 40/60 indication; full post inaccessible",
+            "url": "https://www.instagram.com/p/DdDyByrNQzX/"
+          },
+          {
+            "label": "Metropolitan broker portfolio: Alhambra Q3 2030 handover",
+            "url": "https://abudhabioffplan.ae/developers/bloom-properties"
+          }
+        ],
+        "startingPrice": 865000,
+        "status": "confirmed",
+        "summary": "Bloom Holding's Alhambra launch was reported on 9 September 2026 as the final residential release of Bloom Living in Zayed City, Abu Dhabi. The collection includes studios to three-bedroom apartments, three-bedroom townhouses and limited four-bedroom penthouses, with starting prices of AED 865,000 stated in the developer's indexed announcement and corroborated by launch coverage. Souk Alhambra is planned as the community's retail, dining and services centre. The final-release positioning and walkable amenities make this worth screening for family and rental clients; final inventory and booking terms remain to be verified.",
+        "teaser": "Bloom Living's final release: apartments, townhouses and limited penthouses.",
+        "type": [
+          "apartments",
+          "townhouses",
+          "penthouses"
+        ],
+        "unitMix": [
+          {
+            "type": "Studios"
+          },
+          {
+            "type": "1BR apartments"
+          },
+          {
+            "type": "2BR apartments"
+          },
+          {
+            "type": "3BR apartments"
+          },
+          {
+            "type": "3BR townhouses"
+          },
+          {
+            "note": "Limited collection",
+            "type": "4BR penthouses"
+          }
+        ],
+        "updatedAt": "2026-09-12",
+        "whatNext": "Subscribe on this page for confirmed booking terms and inventory updates as they become available."
+      }
+    }
+  ],
+  "website": {
+    "feedCommit": "f2d301e4cd2e88e2b43cfbb9760d6ff50203fc7a",
+    "feedReadBackVerified": true,
+    "notifyRun": 34670430832,
+    "notifyStatus": "success",
+    "siteRun": 34670434664,
+    "siteStatus": "failure",
+    "validation": {
+      "created": 2,
+      "rejected": 0
+    },
+    "failedStep": "Commit + push to the release ref",
+    "error": "GH013: Changes must be made through a pull request. HEAD -> main rejected.",
+    "livePublicationProven": false,
+    "workflowChanged": false,
+    "secretsChanged": false,
+    "releaseRefChanged": false
+  },
+  "whatsapp": {
+    "briefingDate": "2026-09-12",
+    "queuedPosts": 0,
+    "queueCommit": "0dbb704eee55abcb0003ee5931948202f8bf24be",
+    "reason": "BLOCKED_SITE_DELIVERY, not no-news. Two researched candidates are held because exact live graf.ae launch pages could not be verified. Do not publish broken links.",
+    "sentTodayVerified": false,
+    "existingLedgerEvents": [
+      "al-ghadeer-parks:initial-announcement",
+      "treppan-vision:initial-announcement"
+    ],
+    "wouldUseSlotsDubai": [
+      "08:00",
+      "20:00"
+    ],
+    "image": "No matching project image paths found in current site repository tree; no invented image assigned."
+  },
+  "coverage": {
+    "instagramQueryFormulationsMinimum": 48,
+    "namedBrokerTargetsAttemptedAtLeast": 20,
+    "approxDistinctInstagramBrokerSourcesViaIndexedSnippets": 10,
+    "nativeInstagramAccountsInspected": 0,
+    "instagramGap": "20 inspected-source target unmet; native posts throttled/inaccessible, Stories and private groups unavailable. Query count is not account count.",
+    "brokerWebsitesOpened": 31,
+    "watchlistSources": 52,
+    "watchlistPath": "radar-watchlist.json",
+    "youtube": "Indexed queries and results checked; videos not watched",
+    "propsearch": "Homepage returned 502. Latest buildings column not recoverable from accessible indexed snapshot. No Latest areas or Recently updated used.",
+    "official": "Ellington, Aldar, RAK Properties, Modon, Bloom and Emaar web/newsroom opens; Aldar Sei PDF read. Bloom specific price announcement available only as indexed Arabic text.",
+    "news": "Arabian Business, Zawya, ME Construction News, Construction Week, Gulf News, Khaleej Times, National, Gulf Business, MEED searches. Direct ME Construction News and Gulf Time article reads. Zawya robots and Arabian Business access gaps.",
+    "portals": "Property Finder New Projects and Bayut New Projects opened."
+  },
+  "excludedOrHeld": [
+    {
+      "project": "DAWN at O1NE District",
+      "reason": "Dated 8 July 2026 sales launch, despite fresh Dacha promotion; no qualifying material release change verified.",
+      "source": "https://www.khaleejtimes.com/business/property/avenew-development-and-kora-properties-unveil-o1ne-district-as-sales-commence-with-dawn-its-first-office-tower"
+    },
+    {
+      "project": "Marsa Al Saadiyat 174-villa first phase",
+      "reason": "Single undated broker page; late-September phase and 174-villa claims not independently verified. Do not publicly queue.",
+      "source": "https://abudhabi-invest.org/index-en"
+    },
+    {
+      "project": "Ellington Al Yalayis",
+      "reason": "No dated material official update verified. Contradictory AED50k/AED100k EOI across broker pages; do not assert changed terms.",
+      "source": "https://alyalayisellington.com/ellington-master-community.html"
+    },
+    {
+      "project": "Ellington SZR/Business Bay offices",
+      "reason": "No material dated change from existing site entry; The Atelier working name remains unconfirmed.",
+      "source": "https://truhauz.com/business-bay-office-for-sale/"
+    },
+    {
+      "project": "Samana Business Hub",
+      "reason": "Older launch indications (Q1/May 2026) and conflicting terms; fresh promotions not proof of new inventory."
+    },
+    {
+      "project": "Everly Place",
+      "reason": "June 2026 announcement outside window; no new release verified."
+    },
+    {
+      "project": "The Canopies at Yas Point",
+      "reason": "July 2026 announcement outside window; no new release verified."
+    },
+    {
+      "project": "Driven Canal District",
+      "reason": "Unresolved exact release identity; do not publish."
+    },
+    {
+      "project": "Mira Coral Bay / Richmond Residences and Binghatti Spectre",
+      "reason": "Previously reported; no verified material event change."
+    }
+  ],
+  "nextRequiredAction": "Site owner/maintainer must resolve PR-only-main versus direct-push sync incompatibility using the repository's approved PR process. After a successful site deployment, verify both exact pages and ledger, then prepare same-day queue. Do not bypass branch rules or change workflows from this research run."
+}
