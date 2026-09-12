@@ -37,7 +37,7 @@
       "verifiedAt": "2026-09-12T07:11:06.096Z"
     },
     "ellington-al-yalayis:initial-prelaunch-report": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "ellington-al-yalayis",
       "body": "ELLINGTON · AL YALAYIS COMMUNITY\n\nBROKER INTELLIGENCE\n\nBrokers are promoting a large Ellington master community in Al Yalayis 1, with apartments, townhouses and villas.\n\nThe project’s official name, scale, prices, payment terms and launch timing have not yet been confirmed by Ellington. This remains an early-access lead rather than a confirmed sales launch.\n\nhttps://graf.ae/launches/ellington-al-yalayis/",
       "imageRepoPath": "assets/whatsapp/ellington-al-yalayis.jpg",
@@ -48,7 +48,8 @@
         "sha256": "7977ceaf7b23a3e0642c6eef8096871c236878ae2879ef9410ab785f02984481"
       },
       "attemptedAt": "2026-09-12T11:07:32.075Z",
-      "messageId": "PsphAOOq4t9Yxq8-1woBq53f_uALiA-mQ"
+      "messageId": "PsphAOOq4t9Yxq8-1woBq53f_uALiA-mQ",
+      "verifiedAt": "2026-09-12T11:07:39.662Z"
     }
   }
 }
