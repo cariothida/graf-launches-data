@@ -46,7 +46,7 @@ try{
  if(channel.id!==channelId||channel.invite_code!==inviteCode)throw Error('Recipient identity mismatch');
  const existing=ledger.data.posts[p.eventKey];
  if(existing?.body&&existing.body!==p.body)throw Error('Pending/sent event body was changed; reconcile before publication');
- if(existing?.imageUrl && existing.imageUrl!==p.imageUrl)throw Error('Pending image was changed');
+ if((existing?.imageUrl && existing.imageUrl!==p.imageUrl)||(existing?.imageRepoPath && existing.imageRepoPath!==p.imageRepoPath))throw Error('Pending image was changed');
  const history=await call('getMessagesNewsletter',{NewsletterID:channelId,count:100});
  if(containsBody(history,p.body)){
    ledger.data.posts[p.eventKey]={...existing,projectId:p.projectId,body:p.body,state:'sent',verifiedAt:new Date().toISOString(),reconciled:true};
@@ -58,19 +58,18 @@ try{
    const html=await page.text();
    if(!/text\/html/i.test(page.headers.get('content-type')||'')||!html.includes('<title'))throw Error('Launch page response is not HTML');
    if(/<title[^>]*>\s*(One moment|Just a moment|Access denied)/i.test(html)||!html.includes('/launches/'+p.projectId+'/'))throw Error('Page identity not verified (challenge or wrong page)');
-   let imageQA;
-   if(p.imageUrl){
-     const media=await fetch(p.imageUrl,{redirect:'error',signal:AbortSignal.timeout(20000)});
-     if(!media.ok||!/^image\/jpeg/.test(media.headers.get('content-type')||''))throw Error('Verified project JPEG unavailable');
-     const reader=media.body.getReader(); const chunks=[]; let size=0;
-     while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>2000000){await reader.cancel();throw Error('Image exceeds 2 MB');}chunks.push(value);}
-     imageQA=await checkImage(Buffer.concat(chunks));
+   let imageQA,imageBytes;
+   if(p.imageUrl||p.imageRepoPath){
+     if(p.imageRepoPath){const stored=await github(p.imageRepoPath+'?ref=main');imageBytes=Buffer.from(stored.content,'base64');}
+     else {const media=await fetch(p.imageUrl,{redirect:'error',signal:AbortSignal.timeout(20000)});if(!media.ok||!/^image\/jpeg/.test(media.headers.get('content-type')||''))throw Error('Verified project JPEG unavailable');imageBytes=Buffer.from(await media.arrayBuffer());}
+     imageQA=await checkImage(imageBytes);
      if(p.imageSha256 && p.imageSha256!==imageQA.sha256)throw Error('Published image differs from approved asset');
    }
    // Persist BEFORE sending. If the runner dies, later runs reconcile history, never blindly resend.
-   ledger.data.posts[p.eventKey]={state:'pending',projectId:p.projectId,body:p.body,imageUrl:p.imageUrl,imageQA,attemptedAt:new Date().toISOString()};
+   ledger.data.posts[p.eventKey]={state:'pending',projectId:p.projectId,body:p.body,imageUrl:p.imageUrl,imageRepoPath:p.imageRepoPath,imageQA,attemptedAt:new Date().toISOString()};
    await save();
-   const sent=await call(p.imageUrl?'sendMessageImage':'sendMessageText',p.imageUrl?{to:channelId,media:p.imageUrl,caption:p.body}:{to:channelId,body:p.body,no_link_preview:true});
+   const hasImage=!!(p.imageUrl||p.imageRepoPath);
+   const sent=await call(hasImage?'sendMessageImage':'sendMessageText',hasImage?{to:channelId,media:p.imageRepoPath?'data:image/jpeg;name='+p.projectId+'.jpg;base64,'+imageBytes.toString('base64'):p.imageUrl,caption:p.body}:{to:channelId,body:p.body,no_link_preview:true});
    const id=sent.message?.id??sent.id;
    if(!id)throw Error('Send response missing message ID; pending state retained');
    ledger.data.posts[p.eventKey].messageId=id;

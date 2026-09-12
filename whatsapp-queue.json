@@ -41,6 +41,47 @@
       "scheduleReason": "Alex explicitly requested this additional image post at 11:10 Dubai"
     },
     {
+      "projectId": "ellington-al-yalayis",
+      "eventKey": "ellington-al-yalayis:initial-prelaunch-report",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "First channel coverage of the active August–September broker priority-registration campaign, explicitly requested by Alex.",
+      "sources": [
+        "https://nbornproperties.com/",
+        "https://assethomez.ae/",
+        "https://ellingtonproperties.ae/"
+      ],
+      "siteUrl": "https://graf.ae/launches/ellington-al-yalayis/",
+      "body": "ELLINGTON · AL YALAYIS COMMUNITY\n\nBROKER INTELLIGENCE\n\nBrokers are promoting a large Ellington master community in Al Yalayis 1, with apartments, townhouses and villas.\n\nThe project’s official name, scale, prices, payment terms and launch timing have not yet been confirmed by Ellington. This remains an early-access lead rather than a confirmed sales launch.\n\nhttps://graf.ae/launches/ellington-al-yalayis/",
+      "imageRepoPath": "assets/whatsapp/ellington-al-yalayis.jpg",
+      "imageVerified": true,
+      "imageSha256": "7977ceaf7b23a3e0642c6eef8096871c236878ae2879ef9410ab785f02984481",
+      "scheduledAt": "2026-09-12T11:20:00+04:00",
+      "scheduleReason": "Alex explicitly requested this additional post at 11:20 Dubai; now overdue"
+    },
+    {
+      "projectId": "marsa-al-saadiyat",
+      "eventKey": "marsa-al-saadiyat:2026-h2-first-sales-window",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "First channel coverage of Aldar’s announced H2 2026 sales window, explicitly requested by Alex.",
+      "sources": [
+        "https://www.thenationalnews.com/news/uae/2026/07/22/sheikh-khaled-views-plans-for-dh100bn-marsa-al-saadiyat-development-featuring-underground-etihad-rail-station/",
+        "https://www.worldconstructionnetwork.com/news/aldar-marsa-al-saadiyat/"
+      ],
+      "siteUrl": "https://graf.ae/launches/marsa-al-saadiyat/",
+      "body": "MARSA AL SAADIYAT · FIRST COLLECTION WATCH\n\nAldar has announced the AED 100 billion Marsa Al Saadiyat waterfront destination, the final major chapter of Saadiyat Island.\n\nThe first residential sales are planned for the second half of 2026. No named collection, starting price or payment plan has been released yet.\n\nhttps://graf.ae/launches/marsa-al-saadiyat/",
+      "imageRepoPath": "assets/whatsapp/marsa-al-saadiyat.jpg",
+      "imageVerified": true,
+      "imageSha256": "53f7f060920a6ec50d4dd790fa880f9480f14487add9dc791f604366f2125a50",
+      "scheduledAt": "2026-09-12T11:22:00+04:00",
+      "scheduleReason": "Alex explicitly requested this additional post at 11:22 Dubai; now overdue"
+    },
+    {
       "projectId": "bloom-living-alhambra",
       "eventKey": "bloom-living-alhambra:2026-09-09-final-release-announcement",
       "kind": "hot-launch",
