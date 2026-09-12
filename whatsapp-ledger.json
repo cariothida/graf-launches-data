@@ -20,6 +20,19 @@
       "attemptedAt": "2026-09-12T05:50:31.917Z",
       "messageId": "Psp8KX3WKRdlb0w-1xgBq53f_uALiA-lw",
       "verifiedAt": "2026-09-12T05:50:38.438Z"
+    },
+    "ellington-business-bay-offices:initial-prelaunch-report": {
+      "state": "pending",
+      "projectId": "ellington-business-bay-offices",
+      "body": "ELLINGTON · BUSINESS BAY OFFICES\n\nBROKER INTELLIGENCE\n\nBrokers are previewing a Grade-A office development in Business Bay, close to Sheikh Zayed Road, attributed to Ellington Properties.\n\nAn official project name, launch date, starting price and payment plan are not yet confirmed. An early-access opportunity to watch as formal details emerge.\n\nhttps://graf.ae/launches/ellington-business-bay-offices/",
+      "imageUrl": "https://graf.ae/images/launches/ellington-business-bay-offices-v1.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 110313,
+        "sha256": "121cfc901d42b95703c8e60be8f4ae1464434fd2e5ddab9f34bd0be64d485d35"
+      },
+      "attemptedAt": "2026-09-12T07:10:57.931Z"
     }
   }
 }
