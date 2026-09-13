@@ -1,104 +1,48 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-12",
+  "briefingDate": "2026-09-13",
   "posts": [
     {
-      "projectId": "aldar-sei-saadiyat",
-      "eventKey": "aldar-sei-saadiyat:2026-09-07-first-phase-sales-announcement",
+      "projectId": "valia-dubai-creek-harbour",
+      "eventKey": "valia-dubai-creek-harbour:2026-08-31-sales-launch",
       "kind": "hot-launch",
       "language": "en",
       "status": "confirmed",
       "approved": true,
-      "materialUpdate": "Aldar announced Sei Saadiyat on 7 September 2026 and confirmed first-phase sales open on 16 September 2026.",
+      "materialUpdate": "Emaar's live Valia page confirms 1–4BR apartments and a starting price of AED 1.96 million; dated broker material reports sales opening on 31 August 2026.",
       "sources": [
-        "https://www.aldar.com/en/news-and-media/aldar-unveils-sei-saadiyat-bringing-timeless-design-to-saadiyat-cultural-district",
-        "https://vazeno.files.cmp.optimizely.com/download/assets/260907%2BAldar%2BPress%2BRelease%2BSei%2BSaadiyat%2BEn%2BFINAL.pdf/8d68f14eaa9511f1a3ef46c712173038",
-        "https://drehomes.com/property/sei-saadiyat-island",
-        "https://drehomes.com/"
+        "https://www.emaar.com/en/properties/valia-at-dubai-creek-harbour",
+        "https://www.instagram.com/p/Dc1BcM3iEUj/",
+        "https://www.aktrealestate.ae/en/offplan/valia-by-emaar-dubai-creek-harbour"
       ],
-      "siteUrl": "https://graf.ae/launches/aldar-sei-saadiyat/",
-      "body": "SEI SAADIYAT — FIRST SALES RELEASE\n\nAldar has announced Sei Saadiyat in Saadiyat Cultural District. Phase one brings 265 homes across two buildings, with 1–3 bedroom apartments and 2-bedroom lofts. Sales are scheduled to open on 16 September 2026.\n\nBroker listings indicate prices from AED 2.95 million, a 50/50 plan and Q4 2030 handover; these commercial terms have not yet been confirmed in an accessible Aldar price list.\n\nhttps://graf.ae/launches/aldar-sei-saadiyat/",
-      "scheduledAt": "2026-09-12T08:00:00+04:00",
-      "scheduleReason": "Preserve original morning slot"
-    },
-    {
-      "projectId": "ellington-business-bay-offices",
-      "eventKey": "ellington-business-bay-offices:initial-prelaunch-report",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "broker-intelligence",
-      "approved": true,
-      "materialUpdate": "First channel coverage of the recent broker prelaunch office preview, explicitly requested by Alex on 12 September.",
-      "sources": [
-        "https://www.instagram.com/reel/DdA4iCyCu0M/",
-        "https://truhauz.com/business-bay-office-for-sale/"
-      ],
-      "siteUrl": "https://graf.ae/launches/ellington-business-bay-offices/",
-      "body": "ELLINGTON · BUSINESS BAY OFFICES\n\nBROKER INTELLIGENCE\n\nBrokers are previewing a Grade-A office development in Business Bay, close to Sheikh Zayed Road, attributed to Ellington Properties.\n\nAn official project name, launch date, starting price and payment plan are not yet confirmed. An early-access opportunity to watch as formal details emerge.\n\nhttps://graf.ae/launches/ellington-business-bay-offices/",
-      "imageUrl": "https://graf.ae/images/launches/ellington-business-bay-offices-v1.jpg",
+      "siteUrl": "https://graf.ae/launches/valia-dubai-creek-harbour/",
+      "body": "VALIA — DUBAI CREEK HARBOUR\n\nEmaar has launched Valia, a waterfront residential tower with 1–4 bedroom apartments. Emaar's official page confirms prices from AED 1.96 million.\n\nCurrent broker material indicates an 80/20 payment plan and Q4 2030 handover; those commercial terms still need confirmation against Emaar's sales documents.\n\nhttps://graf.ae/launches/valia-dubai-creek-harbour/",
+      "imageRepoPath": "assets/whatsapp/valia-dubai-creek-harbour.jpg",
       "imageVerified": true,
-      "scheduledAt": "2026-09-12T11:10:00+04:00",
-      "scheduleReason": "Alex explicitly requested this additional image post at 11:10 Dubai",
-      "imageSha256": "121cfc901d42b95703c8e60be8f4ae1464434fd2e5ddab9f34bd0be64d485d35"
+      "imageSha256": "909e5a40183953a03459b95b2370860e250d454a7cbe157fefa4cd2a6f9f4d5f",
+      "scheduledAt": "2026-09-13T08:00:00+04:00",
+      "scheduleReason": "Strongest confirmed launch; first of two evenly spaced daily posts"
     },
     {
-      "projectId": "ellington-al-yalayis",
-      "eventKey": "ellington-al-yalayis:initial-prelaunch-report",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "broker-intelligence",
-      "approved": true,
-      "materialUpdate": "First channel coverage of the active August–September broker priority-registration campaign, explicitly requested by Alex.",
-      "sources": [
-        "https://nbornproperties.com/",
-        "https://assethomez.ae/",
-        "https://ellingtonproperties.ae/"
-      ],
-      "siteUrl": "https://graf.ae/launches/ellington-al-yalayis/",
-      "body": "ELLINGTON · AL YALAYIS COMMUNITY\n\nBROKER INTELLIGENCE\n\nBrokers are promoting a large Ellington master community in Al Yalayis 1, with apartments, townhouses and villas.\n\nThe project’s official name, scale, prices, payment terms and launch timing have not yet been confirmed by Ellington. This remains an early-access lead rather than a confirmed sales launch.\n\nhttps://graf.ae/launches/ellington-al-yalayis/",
-      "imageRepoPath": "assets/whatsapp/ellington-al-yalayis.jpg",
-      "imageVerified": true,
-      "imageSha256": "7977ceaf7b23a3e0642c6eef8096871c236878ae2879ef9410ab785f02984481",
-      "scheduledAt": "2026-09-12T11:20:00+04:00",
-      "scheduleReason": "Alex explicitly requested this additional post at 11:20 Dubai; now overdue"
-    },
-    {
-      "projectId": "marsa-al-saadiyat",
-      "eventKey": "marsa-al-saadiyat:2026-h2-first-sales-window",
+      "projectId": "avenue-park-towers-ii",
+      "eventKey": "avenue-park-towers-ii:2026-09-09-launching-soon-announcement",
       "kind": "hot-launch",
       "language": "en",
       "status": "confirmed",
       "approved": true,
-      "materialUpdate": "First channel coverage of Aldar’s announced H2 2026 sales window, explicitly requested by Alex.",
+      "materialUpdate": "Wasl announced Avenue Park Towers II on 9 September 2026, opened registration and marked the project launching soon.",
       "sources": [
-        "https://www.thenationalnews.com/news/uae/2026/07/22/sheikh-khaled-views-plans-for-dh100bn-marsa-al-saadiyat-development-featuring-underground-etihad-rail-station/",
-        "https://www.worldconstructionnetwork.com/news/aldar-marsa-al-saadiyat/"
+        "https://www.wasl.ae/en/project/avenue-park-towers2",
+        "https://www.instagram.com/p/DdEbUhXlANe/",
+        "https://datahabibi.ae/dubai/new-projects/avenue-park-towers-ii"
       ],
-      "siteUrl": "https://graf.ae/launches/marsa-al-saadiyat/",
-      "body": "MARSA AL SAADIYAT · FIRST COLLECTION WATCH\n\nAldar has announced the AED 100 billion Marsa Al Saadiyat waterfront destination, the final major chapter of Saadiyat Island.\n\nThe first residential sales are planned for the second half of 2026. No named collection, starting price or payment plan has been released yet.\n\nhttps://graf.ae/launches/marsa-al-saadiyat/",
-      "imageRepoPath": "assets/whatsapp/marsa-al-saadiyat.jpg",
+      "siteUrl": "https://graf.ae/launches/avenue-park-towers-ii/",
+      "body": "AVENUE PARK TOWERS II — LAUNCHING SOON\n\nWasl has opened registration for the final development within Wasl 1, beside Zabeel Park and within walking distance of Max Metro Station.\n\nDLD-derived records indicate 1–4 bedroom apartments plus offices and retail. Wasl has not yet released the sales-opening date or starting prices.\n\nhttps://graf.ae/launches/avenue-park-towers-ii/",
+      "imageRepoPath": "assets/whatsapp/avenue-park-towers-ii.jpg",
       "imageVerified": true,
-      "imageSha256": "53f7f060920a6ec50d4dd790fa880f9480f14487add9dc791f604366f2125a50",
-      "scheduledAt": "2026-09-12T11:22:00+04:00",
-      "scheduleReason": "Alex requested this post for 11:22 Dubai; recovery trigger after the earlier run sent only one due item"
-    },
-    {
-      "projectId": "bloom-living-alhambra",
-      "eventKey": "bloom-living-alhambra:2026-09-09-final-release-announcement",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "Bloom Holding's Alhambra final residential release was announced in dated launch coverage on 9 September 2026.",
-      "sources": [
-        "https://gulftime.ae/bloom-holding-launches-alhambra-the-vibrant-heart-and-final-release-of-bloom-living/",
-        "https://bloomholding.com/ar/press-releases/bloom-holding-launches-final-phase-of-bloom-living-alhambra",
-        "https://abudhabioffplan.ae/developers/bloom-properties"
-      ],
-      "siteUrl": "https://graf.ae/launches/bloom-living-alhambra/",
-      "body": "ALHAMBRA — BLOOM LIVING’S FINAL RELEASE\n\nBloom Holding has launched Alhambra in Zayed City as the final residential release at Bloom Living. The mix includes studios to 3-bedroom apartments, 3-bedroom townhouses and a limited number of 4-bedroom penthouses.\n\nDeveloper-indexed launch information states prices from AED 865,000. A 40/60 plan and Q3 2030 handover are circulating in broker material and remain subject to final confirmation.\n\nhttps://graf.ae/launches/bloom-living-alhambra/",
-      "scheduledAt": "2026-09-12T20:00:00+04:00",
-      "scheduleReason": "Preserve promised evening slot"
+      "imageSha256": "2d744e0d54ab616d7f6da8954dc8f4ef32a2c46ded1a6495fb1938944069c98e",
+      "scheduledAt": "2026-09-13T20:00:00+04:00",
+      "scheduleReason": "Second of two evenly spaced daily posts"
     }
   ]
 }
