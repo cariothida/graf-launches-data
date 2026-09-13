@@ -290,6 +290,145 @@
       "firstReported": "2026-09-12",
       "updatedAt": "2026-09-12",
       "published": true
+    },
+    {
+      "id": "valia-dubai-creek-harbour",
+      "aliases": [],
+      "project": "Valia at Dubai Creek Harbour",
+      "developer": "Emaar Properties",
+      "developerId": "emaar",
+      "emirate": "Dubai",
+      "location": "Dubai Creek Harbour, opposite the Dubai Square retail and entertainment hub",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "phase": "New residential tower",
+      "launchWindow": "Sales reported open from 31 August 2026; Emaar lists Valia among its latest launches",
+      "startingPrice": 1960000,
+      "pricePerSqft": null,
+      "priceConfirmed": true,
+      "confirmedBy": "https://www.emaar.com/en/properties/valia-at-dubai-creek-harbour",
+      "paymentPlan": "80/20, advertised by current broker launch material; the official Emaar schedule was not found on the accessible project page",
+      "handover": "Q4 2030, advertised by current broker launch material; not confirmed on the accessible Emaar project page",
+      "teaser": "Emaar's new 1–4BR waterfront tower launches from AED 1.96 million.",
+      "summary": "Emaar now lists Valia among its latest launches at Dubai Creek Harbour. The official project page confirms one- to four-bedroom apartments and a starting price of AED 1.96 million, while dated broker material reports sales opening on 31 August 2026. The 80/20 payment plan and Q4 2030 handover are broker-advertised and still need confirmation against Emaar's sales documents. For brokers, the combination of official entry pricing, Creek views and the planned Blue Line Metro makes this a timely client-allocation opportunity.",
+      "unitMix": [
+        {
+          "type": "1BR apartments"
+        },
+        {
+          "type": "2BR apartments"
+        },
+        {
+          "type": "3BR apartments"
+        },
+        {
+          "type": "4BR apartments"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "A broker advertises EOI amounts from AED 50,000 to AED 100,000 by unit type; not confirmed by Emaar."
+      },
+      "whatNext": "The official starting price is published; subscribe on this page for verified payment milestones, booking terms and handover confirmation.",
+      "confidenceNote": "High on project, developer, location, unit mix and AED 1.96 million starting price from Emaar's live project page; medium on the broker-advertised sales date, payment plan, EOI and handover.",
+      "seoTitle": "Valia at Dubai Creek Harbour from AED 1.96m | GRAF",
+      "seoDescription": "Emaar Valia at Dubai Creek Harbour: 1–4BR apartments from AED 1.96m. Official launch facts, broker-advertised 80/20 plan and Q4 2030 handover.",
+      "sources": [
+        {
+          "url": "https://www.emaar.com/en/properties/valia-at-dubai-creek-harbour",
+          "label": "Emaar official Valia project page and starting price",
+          "primary": true
+        },
+        {
+          "url": "https://www.instagram.com/p/Dc1BcM3iEUj/",
+          "label": "Dated indexed Instagram launch announcement",
+          "date": "2026-09-03"
+        },
+        {
+          "url": "https://www.aktrealestate.ae/en/offplan/valia-by-emaar-dubai-creek-harbour",
+          "label": "AKT Real Estate: 31 August sales opening, 80/20 plan and Q4 2030 handover"
+        }
+      ],
+      "firstReported": "2026-09-13",
+      "updatedAt": "2026-09-13",
+      "published": true
+    },
+    {
+      "id": "avenue-park-towers-ii",
+      "aliases": [],
+      "project": "Avenue Park Towers II",
+      "developer": "Wasl",
+      "developerId": "wasl",
+      "emirate": "Dubai",
+      "location": "Wasl 1, Al Kifaf, beside Zabeel Park and Max Metro Station",
+      "type": [
+        "apartments",
+        "offices"
+      ],
+      "status": "confirmed",
+      "parentId": "wasl-1",
+      "phase": "Final development within Wasl 1",
+      "launchWindow": "Officially announced 9 September 2026 and marked launching soon; exact sales-opening date not released",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": "60% during construction and 40% on handover, indicated by DLD-derived project records; not yet confirmed in Wasl launch material",
+      "handover": "6 March 2030 in DLD-derived project records; not yet confirmed by Wasl",
+      "teaser": "Wasl opens registration for its final Wasl 1 development beside Zabeel Park.",
+      "summary": "Wasl has opened registration for Avenue Park Towers II in Wasl 1, Al Kifaf, and the developer's 9 September announcement describes it as the final development within the district. The official page confirms the parkside location, Metro walkability and both residential and commercial registration; DLD-derived records indicate 541 one- to four-bedroom apartments, 47 offices and eight retail units across the scheme. Starting prices and the exact sales-opening date have not been released. For brokers, this is scarce new central-Dubai inventory with unusually strong Metro, DIFC and Downtown access.",
+      "unitMix": [
+        {
+          "type": "1BR apartments",
+          "note": "DLD-derived project inventory"
+        },
+        {
+          "type": "2BR apartments",
+          "note": "DLD-derived project inventory"
+        },
+        {
+          "type": "3BR apartments",
+          "note": "DLD-derived project inventory"
+        },
+        {
+          "type": "4BR apartments",
+          "note": "DLD-derived project inventory"
+        },
+        {
+          "type": "Offices",
+          "note": "47 units indicated in DLD-derived project inventory"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "EOI and booking amounts have not been released in accessible Wasl launch material."
+      },
+      "whatNext": "Wasl says the project is launching soon; subscribe on this page for the sales date, official price list, booking amount and final payment schedule.",
+      "confidenceNote": "High on project identity, Wasl 1 location, official coming-soon status and registration; medium on DLD-derived unit totals, 60/40 schedule and March 2030 handover.",
+      "seoTitle": "Avenue Park Towers II by Wasl: Launching Soon | GRAF",
+      "seoDescription": "Wasl opens registration for Avenue Park Towers II in Al Kifaf: 1–4BR apartments and commercial space beside Zabeel Park. Prices not released.",
+      "sources": [
+        {
+          "url": "https://www.wasl.ae/en/project/avenue-park-towers2",
+          "label": "Wasl official project and registration page",
+          "primary": true
+        },
+        {
+          "url": "https://www.instagram.com/p/DdEbUhXlANe/",
+          "label": "Wasl official launch announcement",
+          "date": "2026-09-09"
+        },
+        {
+          "url": "https://datahabibi.ae/dubai/new-projects/avenue-park-towers-ii",
+          "label": "DLD-derived inventory, payment and completion records"
+        }
+      ],
+      "firstReported": "2026-09-13",
+      "updatedAt": "2026-09-13",
+      "published": true
     }
   ],
   "version": 1
