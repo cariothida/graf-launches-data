@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-13",
+  "briefingDate": "2026-09-14",
   "posts": [
     {
       "projectId": "valia-dubai-creek-harbour",
@@ -19,9 +19,9 @@
       "body": "VALIA — DUBAI CREEK HARBOUR\n\nEmaar has launched Valia, a waterfront residential tower with 1–4 bedroom apartments. Emaar's official page confirms prices from AED 1.96 million.\n\nCurrent broker material indicates an 80/20 payment plan and Q4 2030 handover; those commercial terms still need confirmation against Emaar's sales documents.\n\nhttps://graf.ae/launches/valia-dubai-creek-harbour/",
       "imageRepoPath": "assets/whatsapp/valia-dubai-creek-harbour.jpg",
       "imageVerified": true,
-      "imageSha256": "909e5a40183953a03459b95b2370860e250d454a7cbe157fefa4cd2a6f9f4d5f",
-      "scheduledAt": "2026-09-13T08:00:00+04:00",
-      "scheduleReason": "Strongest confirmed launch; first of two evenly spaced daily posts"
+      "imageSha256": "8c94ba7eb5bea9b855e4a43f6d43cbf0903bf94c9c7dc2096cb98829d77f0940",
+      "scheduledAt": "2026-09-14T08:00:00+04:00",
+      "scheduleReason": "Strongest unsent verified launch from the latest briefing; publish first"
     },
     {
       "projectId": "avenue-park-towers-ii",
@@ -40,9 +40,9 @@
       "body": "AVENUE PARK TOWERS II — LAUNCHING SOON\n\nWasl has opened registration for the final development within Wasl 1, beside Zabeel Park and within walking distance of Max Metro Station.\n\nDLD-derived records indicate 1–4 bedroom apartments plus offices and retail. Wasl has not yet released the sales-opening date or starting prices.\n\nhttps://graf.ae/launches/avenue-park-towers-ii/",
       "imageRepoPath": "assets/whatsapp/avenue-park-towers-ii.jpg",
       "imageVerified": true,
-      "imageSha256": "2d744e0d54ab616d7f6da8954dc8f4ef32a2c46ded1a6495fb1938944069c98e",
-      "scheduledAt": "2026-09-13T20:00:00+04:00",
-      "scheduleReason": "Second of two evenly spaced daily posts"
+      "imageSha256": "3cced745d158ad3279c8d2ed792939c6a7857d5d36acc95ae3ccc4f5a7d96493",
+      "scheduledAt": "2026-09-14T20:00:00+04:00",
+      "scheduleReason": "Second unsent verified launch; preserve the evening slot"
     }
   ]
 }
