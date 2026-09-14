@@ -65,6 +65,19 @@
       "attemptedAt": "2026-09-12T11:10:07.031Z",
       "messageId": "PsqlMBxNO2XErIE-1x0Bq53f_uALiA-mg",
       "verifiedAt": "2026-09-12T11:10:14.827Z"
+    },
+    "valia-dubai-creek-harbour:2026-08-31-sales-launch": {
+      "state": "pending",
+      "projectId": "valia-dubai-creek-harbour",
+      "body": "VALIA — DUBAI CREEK HARBOUR\n\nEmaar has launched Valia, a waterfront residential tower with 1–4 bedroom apartments. Emaar's official page confirms prices from AED 1.96 million.\n\nCurrent broker material indicates an 80/20 payment plan and Q4 2030 handover; those commercial terms still need confirmation against Emaar's sales documents.\n\nhttps://graf.ae/launches/valia-dubai-creek-harbour/",
+      "imageRepoPath": "assets/whatsapp/valia-dubai-creek-harbour.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 144718,
+        "sha256": "8c94ba7eb5bea9b855e4a43f6d43cbf0903bf94c9c7dc2096cb98829d77f0940"
+      },
+      "attemptedAt": "2026-09-14T06:33:36.582Z"
     }
   }
 }
