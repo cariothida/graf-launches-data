@@ -215,7 +215,8 @@
         "bytes": 171353,
         "sha256": "40b424a1064c7c6fef0ca118cbf50e9d0e0237930d3f32bd8833aaac02b6834b"
       },
-      "attemptedAt": "2026-09-18T10:22:15.811Z"
+      "attemptedAt": "2026-09-18T10:22:15.811Z",
+      "messageId": "PspWLpOOdnNdcdo-19ABq53f_uALiA-qg"
     },
     "reportage-the-wadi-e1-e2:2026-09-18-e1-e2-launch-event": {
       "state": "sent",
