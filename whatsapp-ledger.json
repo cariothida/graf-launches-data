@@ -242,7 +242,8 @@
         "bytes": 178112,
         "sha256": "3a96aa17f879d07c97bd1df66183810b08c6c1cd6c91f5399cfb79bac85e95de"
       },
-      "attemptedAt": "2026-09-18T10:22:26.664Z"
+      "attemptedAt": "2026-09-18T10:22:26.664Z",
+      "messageId": "PsqCGvdzqqKjvQM-11gBq53f_uALiA-qw"
     },
     "meraas-solaya-building-8:2026-09-14-building-8-eoi-signal": {
       "state": "sent",
