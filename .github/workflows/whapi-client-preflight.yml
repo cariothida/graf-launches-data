@@ -9,11 +9,11 @@ concurrency:
   group: whatsapp-research-readonly
   cancel-in-progress: false
 jobs:
-  inventory:
+  history_depth:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Read-only paginated inventory with aggregate output only
+      - name: Inspect history depth with dates and counts only
         env:
           WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
         shell: bash
@@ -23,64 +23,71 @@ jobs:
           const token=process.env.WHAPI_TOKEN;
           let requests=0,errors=0;
           async function get(path){
-            if(!/^\/(health\?wakeup=false|chats\?count=500&offset=\d+|contacts\?count=500&offset=\d+|labels)$/.test(path))throw Error('PATH_NOT_ALLOWED');
-            for(let attempt=0;attempt<4;attempt++){
-              await pause(3000);
-              let response;
-              try{
-                requests++;
-                response=await fetch('https://gate.whapi.cloud'+path,{method:'GET',headers:{Authorization:'Bearer '+token,Accept:'application/json'},redirect:'error',signal:AbortSignal.timeout(30000)});
-              }catch{
-                errors++;
-                if(attempt===3)throw Error('TRANSPORT_ERROR');
-                await pause(5000*2**attempt);continue;
-              }
-              if(response.ok)return await response.json();
-              errors++;
-              if([429,500,502,503,504].includes(response.status)&&attempt<3){
-                const retry=Number(response.headers.get('retry-after'));
-                if(Number.isFinite(retry)&&retry>60)throw Error('LONG_RETRY_REQUIRED');
-                await pause(Math.max(5000*2**attempt,Number.isFinite(retry)?retry*1000:0));continue;
-              }
-              throw Error('HTTP_'+response.status);
-            }
+           const url=new URL('https://gate.whapi.cloud'+path);
+           const allowed=url.pathname==='/health'||url.pathname==='/chats'||url.pathname==='/messages/list'||/^\/messages\/list\/[\d%a-zA-Z.@-]+$/.test(url.pathname);
+           if(!allowed||url.origin!=='https://gate.whapi.cloud')throw Error('PATH_NOT_ALLOWED');
+           for(let attempt=0;attempt<4;attempt++){
+            await pause(3000);requests++;
+            let r;
+            try{r=await fetch(url,{method:'GET',headers:{Authorization:'Bearer '+token,Accept:'application/json'},redirect:'error',signal:AbortSignal.timeout(30000)});}
+            catch{errors++;if(attempt===3)throw Error('TRANSPORT_ERROR');await pause(5000*2**attempt);continue;}
+            if(r.ok)return await r.json();
+            errors++;
+            if([429,500,502,503,504].includes(r.status)&&attempt<3){const wait=Number(r.headers.get('retry-after'));if(wait>60)throw Error('LONG_RETRY_REQUIRED');await pause(Math.max(5000*2**attempt,Number.isFinite(wait)?wait*1000:0));continue;}
+            throw Error('HTTP_'+r.status);
+           }
           }
-          async function inventory(endpoint,key){
-            const seen=new Set();const types={};let pages=0,duplicates=0,offset=0,lastReportedTotal=null;
-            for(;;){
-              const data=await get(endpoint+'?count=500&offset='+offset);
-              const rows=data[key];if(!Array.isArray(rows))throw Error('UNEXPECTED_LIST_SCHEMA');
-              pages++;
-              if(Number.isFinite(data.total))lastReportedTotal=data.total;
-              if(rows.length===0)break;
-              let added=0;
-              for(const row of rows){
-                if(typeof row.id!=='string')throw Error('MISSING_ID');
-                if(seen.has(row.id)){duplicates++;continue;}
-                seen.add(row.id);added++;
-                if(key==='chats'){const type=['group','contact','broadcast','newsletter','stories','announcement','unknown'].includes(row.type)?row.type:'unknown';types[type]=(types[type]||0)+1;}
-              }
-              if(added===0)throw Error('PAGINATION_NO_PROGRESS');
-              offset+=500;
-              if(offset>500000)throw Error('INVENTORY_SAFETY_STOP');
-            }
-            console.log('RESULT INVENTORY',JSON.stringify({kind:key,unique:seen.size,pages,duplicates,lastReportedTotal,types,complete:true}));
-          }
+          const valid=t=>typeof t==='number'&&t>0&&t<4102444800;
+          const iso=t=>valid(t)?new Date(t*1000).toISOString():null;
+          const periodStart=Date.parse('2022-10-23T20:00:00Z')/1000;
+          const periodEnd=Date.parse('2022-10-29T20:00:00Z')/1000;
           try{
-            if(!token)throw Error('TOKEN_MISSING');
-            const health=await get('/health?wakeup=false');
-            if(health.status?.text!=='AUTH')throw Error('CHANNEL_NOT_AUTH');
-            console.log('RESULT CHANNEL_AUTH');
-            await inventory('/chats','chats');
-            await inventory('/contacts','contacts');
-            const result=await get('/labels');
-            const labels=Array.isArray(result)?result:result.labels;
-            if(!Array.isArray(labels))throw Error('UNEXPECTED_LABEL_SCHEMA');
-            console.log('RESULT LABELS_COUNT',labels.length);
-            console.log('RESULT REQUESTS',requests,'API_ERRORS',errors);
-            console.log('RESULT HISTORY_COVERAGE NOT_VERIFIED');
+           if(!token)throw Error('TOKEN_MISSING');
+           const health=await get('/health?wakeup=false');
+           if(health.status?.text!=='AUTH')throw Error('CHANNEL_NOT_AUTH');
+           const chats=new Map();let duplicates=0;
+           for(let offset=0;;offset+=500){
+            const data=await get('/chats?count=500&offset='+offset);
+            if(!Array.isArray(data.chats))throw Error('UNEXPECTED_SCHEMA');
+            if(!data.chats.length)break;
+            let added=0;for(const c of data.chats){if(chats.has(c.id))duplicates++;else added++;chats.set(c.id,c);}
+            if(!added)throw Error('PAGINATION_NO_PROGRESS');
+           }
+           const values=[...chats.values()];
+           const personal=values.filter(c=>(c.type==='contact'||/@(s\.whatsapp\.net|lid)$/.test(c.id))&&!['group','newsletter','broadcast','stories','announcement'].includes(c.type));
+           const yearCounts={};let oldestChat=null,oldestLast=null;
+           for(const c of personal){
+            if(valid(c.timestamp))oldestChat=oldestChat===null?c.timestamp:Math.min(oldestChat,c.timestamp);
+            const t=c.last_message?.timestamp;
+            if(valid(t)){oldestLast=oldestLast===null?t:Math.min(oldestLast,t);const year=new Date(t*1000).getUTCFullYear();yearCounts[year]=(yearCounts[year]||0)+1;}
+           }
+           const candidates=personal.filter(c=>{const t=c.last_message?.timestamp??c.timestamp;return valid(t)&&t>=periodStart&&t<periodEnd;});
+           console.log('RESULT CHAT_SCAN',JSON.stringify({unique:chats.size,duplicates,personal_or_personal_suffix:personal.length,oldest_chat_timestamp:iso(oldestChat),oldest_last_message_timestamp:iso(oldestLast),last_message_year_counts:yearCounts,period_candidates:candidates.length}));
+           const oldest=await get('/messages/list?count=1&offset=0&sort=asc&normal_types=false');
+           if(!Array.isArray(oldest.messages))throw Error('UNEXPECTED_SCHEMA');
+           console.log('RESULT OLDEST_GLOBAL_MESSAGE',JSON.stringify({returned:oldest.messages.length,timestamp:iso(oldest.messages[0]?.timestamp)}));
+           const window=await get('/messages/list?count=1&offset=0&sort=asc&normal_types=false&time_from='+periodStart+'&time_to='+(periodEnd-1));
+           if(!Array.isArray(window.messages))throw Error('UNEXPECTED_SCHEMA');
+           console.log('RESULT PERIOD_MESSAGE_PROBE',JSON.stringify({returned:window.messages.length,timestamp:iso(window.messages[0]?.timestamp)}));
+           const targets=candidates.sort((a,b)=>(a.last_message?.timestamp??a.timestamp)-(b.last_message?.timestamp??b.timestamp)).slice(0,3);
+           for(let index=0;index<targets.length;index++){
+            const target=targets[index];let count=0,earliest=null,latest=null,pages=0;const ids=new Set();
+            for(let offset=0;;offset+=500){
+             const data=await get('/messages/list/'+encodeURIComponent(target.id)+'?count=500&offset='+offset+'&sort=desc&normal_types=false');
+             if(!Array.isArray(data.messages))throw Error('UNEXPECTED_SCHEMA');pages++;
+             if(!data.messages.length)break;
+             let added=0;
+             for(const m of data.messages){
+              if(ids.has(m.id))continue;ids.add(m.id);added++;count++;
+              if(valid(m.timestamp)){earliest=earliest===null?m.timestamp:Math.min(earliest,m.timestamp);latest=latest===null?m.timestamp:Math.max(latest,m.timestamp);}
+             }
+             if(!added)throw Error('PAGINATION_NO_PROGRESS');
+            }
+            console.log('RESULT ANONYMOUS_PERIOD_CHAT',JSON.stringify({probe:index+1,messages:count,pages,earliest:iso(earliest),latest:iso(latest),history_coverage:'NOT_VERIFIED'}));
+           }
+           console.log('RESULT COMPLETE',JSON.stringify({requests,errors}));
           }catch(e){
-            const safe=/^(HTTP_\d{3}|PATH_NOT_ALLOWED|TRANSPORT_ERROR|LONG_RETRY_REQUIRED|UNEXPECTED_LIST_SCHEMA|MISSING_ID|PAGINATION_NO_PROGRESS|INVENTORY_SAFETY_STOP|TOKEN_MISSING|CHANNEL_NOT_AUTH|UNEXPECTED_LABEL_SCHEMA)$/.test(e.message)?e.message:'RESPONSE_ERROR';
-            console.log('RESULT STOP',safe,'REQUESTS',requests,'API_ERRORS',errors);process.exitCode=1;
+           const msg=/^(PATH_NOT_ALLOWED|HTTP_\d{3}|TOKEN_MISSING|CHANNEL_NOT_AUTH|UNEXPECTED_SCHEMA|PAGINATION_NO_PROGRESS|TRANSPORT_ERROR|LONG_RETRY_REQUIRED)$/.test(e.message)?e.message:'RESPONSE_ERROR';
+           console.log('RESULT STOP',msg,'REQUESTS',requests,'ERRORS',errors);process.exitCode=1;
           }
           NODE
