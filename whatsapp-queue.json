@@ -21,7 +21,7 @@
       "imageVerified": true,
       "imageSha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc",
       "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "First of two daily posts; eligible after verified website delivery"
+      "scheduleReason": "First of two daily posts; retry requested after production deployment. Preserve original event key and 08:00 slot; publisher must check sent history."
     },
     {
       "projectId": "modon-wadeem-gardens",
