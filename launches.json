@@ -820,6 +820,94 @@
           "label": "Indexed first-release E1/E2 caption; full post inaccessible"
         }
       ]
+    },
+    {
+      "id": "meraas-solaya-building-8",
+      "project": "Solaya — Building 8",
+      "developer": "Meraas / Brookfield Properties",
+      "developerId": "meraas",
+      "emirate": "Dubai",
+      "location": "Jumeirah beachfront, Solaya community",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "parentId": "solaya",
+      "phase": "Building 8",
+      "launchWindow": "Upcoming release; a 14 September 2026 WhatsApp sales briefing says EOI will open. Exact opening date not specified.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "teaser": "Building 8 enters pre-launch circulation with an upcoming EOI signal.",
+      "summary": "A directly reviewed WhatsApp sales briefing dated 14 September identifies Solaya Building 8 as an upcoming release and says expressions of interest will open. Solaya is the Meraas and Brookfield Properties beachfront community in Jumeirah; the public project website corroborates that master-project identity, not the Building 8 sales timetable. Building-specific inventory, prices, payment terms and handover were not supplied in the reviewed briefing. The release is relevant for buyers seeking early access to this established beachfront project.",
+      "whatNext": "The Building 8 EOI opening date and release terms are awaited; subscribe on this page for the next verified update.",
+      "confidenceNote": "Direct WhatsApp sales intelligence from a named, recurring DHRE-focused source; independent employment verification is incomplete. The release signal is published with attribution to the briefing, without claiming a public developer announcement. Master-project unit mix and prices are not assumed to apply to Building 8.",
+      "sources": [
+        {
+          "url": "https://solaya.meraas.com/",
+          "label": "Official master-project identity and location only; Building 8 EOI evidence retained privately from 14 September",
+          "primary": true
+        }
+      ],
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "seoTitle": "Solaya Building 8: Upcoming EOI and Release Watch | GRAF",
+      "seoDescription": "Solaya Building 8 in Jumeirah: a direct sales briefing signals an upcoming EOI. Follow release-specific prices, inventory and confirmed timing."
+    },
+    {
+      "id": "ohana-manchester-city-yas-residences-phase-2",
+      "project": "Manchester City Yas Residences — Phase 2",
+      "developer": "Ohana Development",
+      "emirate": "Abu Dhabi",
+      "location": "Yas Canal; precise Phase 2 plot awaiting release documents",
+      "type": [
+        "townhouses",
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "parentId": "manchester-city-yas-residences",
+      "phase": "Phase 2",
+      "launchWindow": "October 2026 expected in a directly reviewed 15 September WhatsApp sales briefing; exact date remains provisional.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "The 15 September sales briefing indicates an AVERAGE AED 3.8 million for 2BR + maid townhouses, below AED 5 million for 3BR + maid townhouses, and approximately AED 2,000/sqft for villas. These are provisional indications, not verified starting prices or a final developer price list.",
+      "paymentPlan": "40/60 expected in the 15 September briefing; explicitly subject to final confirmation",
+      "handover": "Q4 2029 indicated in the 15 September briefing; provisional",
+      "unitMix": [
+        {
+          "type": "2BR + maid townhouse",
+          "note": "Phase 2 sales-briefing indication"
+        },
+        {
+          "type": "3BR + maid townhouse",
+          "note": "Phase 2 sales-briefing indication"
+        },
+        {
+          "type": "4BR standalone villa",
+          "note": "Phase 2 sales-briefing indication"
+        },
+        {
+          "type": "5BR standalone villa",
+          "note": "Phase 2 sales-briefing indication"
+        }
+      ],
+      "teaser": "Phase 2 is expected in October, with townhouses and standalone villas.",
+      "summary": "A directly reviewed WhatsApp sales briefing dated 15 September describes an October 2026 Phase 2 release at Manchester City Yas Residences by Ohana. It indicates approximately 600 homes, including two- and three-bedroom townhouses with maid rooms and four- and five-bedroom standalone villas. The stated payment plan and handover are preliminary; the AED 3.8 million townhouse figure is an average, not a starting price. This is a phase-specific early-access lead within the Yas Canal development, rather than a new announcement of the entire master project.",
+      "whatNext": "The briefing points to October; subscribe on this page for the confirmed release date, available units and final booking terms.",
+      "confidenceNote": "Specific, dated direct WhatsApp sales intelligence. The sender's legal employer has not been independently established. Public coverage supports the master-project identity and Yas Canal location only, not the Phase 2 date or commercial terms; those remain explicitly preliminary.",
+      "sources": [
+        {
+          "url": "https://www.thesun.co.uk/sport/40283364/man-city-fans-abu-dhabi-homes-private-beach/",
+          "label": "Public master-project identity/location only; Phase 2 evidence retained privately from 15 September",
+          "date": "2026-09-05",
+          "primary": true
+        }
+      ],
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "seoTitle": "Manchester City Yas Residences Phase 2: October Watch | GRAF",
+      "seoDescription": "Phase 2 sales intelligence for Manchester City Yas Residences: October timing, townhouse and villa mix, and clearly labelled provisional terms."
     }
   ],
   "version": 1
