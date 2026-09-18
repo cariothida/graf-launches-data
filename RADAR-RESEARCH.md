@@ -102,3 +102,12 @@ EXECUTION AND COVERAGE:
 - Keep Instagram, YouTube, Propsearch Latest buildings, official developers and the existing news-source checks; do not replace the other channels with keyword searches. End with actual source coverage, distinguishing queries issued, accounts inspected, indexed-only leads and inaccessible sources.
 
 Public-link policy: preserve developer/broker evidence internally. Public channel and website copy link only to the matching graf.ae launch page. Delivery follows WHATSAPP-PUBLISHING.md and the latest user production authorization.
+
+
+## Alex's 18 September 2026 scope correction
+- Read radar-watchlist.json including projectReview at the start of research. Evidence: research/2026-09-18-propsearch-review.json.
+- Exclude ALL International City projects. Verify exact geography; do not extend this exclusion to Majan, Dubai Science Park, Al Jaddaf or Ras Al Khor by analogy.
+- Investigate every potentially investable Latest buildings entry and save its disposition. Missing launch details should create a watch item, not silently lose the lead. First Trace/registration is not a sales-launch date.
+- If web opening fails, try ordinary public HTTP retrieval of homepage/building pages, without access-control bypass. On the homepage inspect ONLY Latest buildings.
+- Distinguish exact-project Instagram post evidence, broker website marketing and a website-linked Instagram profile. Never invent handles or claim multiple Instagram advertisers without matching posts.
+- The 14 projects in the 18 September review remain research-only, on publication hold until Alex selects them. Watchlist inclusion alone does not authorize site or WhatsApp publication.

@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12",
+  "updatedAt": "2026-09-18",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
     "Homepage access establishes a discovery source, not freshness or reliability of every listing. Qualify dated events independently.",
     "Rotate tomorrow toward verified individual Abu Dhabi and RAK brokers and official developer-linked Instagram handles; remove repetitive low-signal sources after sufficient observed history.",
-    "Equity Edge calendar entry dates are catalogue-addition dates, not launch dates. Aumra Nova homepage is a limited app shell."
+    "Equity Edge calendar entry dates are catalogue-addition dates, not launch dates. Aumra Nova homepage is a limited app shell.",
+    "2026-09-18 Alex excludes ALL International City projects. Reviewed 14 Latest buildings entries; hold publication pending selection. First Trace is not launch date. Instagram exact-project broker posts unverified."
   ],
   "sources": [
     {
@@ -305,9 +306,35 @@
       "kind": "broker-or-property-adviser",
       "coverage": "UAE",
       "access": "homepage-opened",
-      "lastAccessCheck": "2026-09-12",
+      "lastAccessCheck": "2026-09-18",
       "launchFocus": "candidate for rotated launch-signal inspection; not an endorsement",
-      "instagramHandle": null
+      "instagramHandle": null,
+      "projectEvidence": [
+        {
+          "name": "Top Luxury Property",
+          "url": "https://topluxuryproperty.com/ae/dubai-projects/the-vault-by-imtiaz-at-majan-dubai/",
+          "project": "the-vault-by-imtiaz",
+          "instagramHandle": null,
+          "instagramPostVerified": false,
+          "qualification": "Marketing-site evidence only; independence not verified"
+        },
+        {
+          "name": "Top Luxury Property",
+          "url": "https://topluxuryproperty.com/ae/dubai-projects/element-by-iman-at-dubai-science-park/",
+          "project": "element-by-iman",
+          "instagramHandle": null,
+          "instagramPostVerified": false,
+          "qualification": "Marketing-site evidence only; independence not verified"
+        },
+        {
+          "name": "Top Luxury Property",
+          "url": "https://topluxuryproperty.com/ae/dubai-projects/the-verso-by-reportage-at-meydan-horizon-dubai/",
+          "project": "the-verso",
+          "instagramHandle": null,
+          "instagramPostVerified": false,
+          "qualification": "Marketing-site evidence only; independence not verified"
+        }
+      ]
     },
     {
       "name": "SANSAV / Luxury Offplan",
@@ -468,9 +495,9 @@
       "url": "https://propsearch.ae/",
       "kind": "portal",
       "coverage": "Dubai",
-      "access": "homepage 502; Latest buildings snapshot not recoverable",
+      "access": "Homepage Latest buildings and 14 building pages retrieved by ordinary public HTTP after web-tool open failures",
       "restriction": "Latest buildings ONLY. Do not inspect Latest areas or Recently updated.",
-      "lastAttempt": "2026-09-12"
+      "lastAttempt": "2026-09-18"
     },
     {
       "name": "Property Finder New Projects",
@@ -487,6 +514,71 @@
       "coverage": "UAE",
       "access": "opened",
       "lastAccessCheck": "2026-09-12"
+    },
+    {
+      "name": "Dubai Housing",
+      "url": "https://www.dubaihousing-ae.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "launchFocus": "candidate, not endorsement",
+      "instagramHandle": "dubaihousingae",
+      "lastAccessCheck": "2026-09-18",
+      "projectEvidence": [
+        {
+          "name": "Dubai Housing",
+          "url": "https://www.dubaihousing-ae.com/project/the-vault-by-imtiaz",
+          "project": "the-vault-by-imtiaz",
+          "instagramHandle": "dubaihousingae",
+          "instagramPostVerified": false,
+          "qualification": "Profile linked from own website; exact-project post not verified"
+        }
+      ]
+    },
+    {
+      "name": "HCO Real Estates",
+      "url": "https://www.hcorealestates.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "launchFocus": "candidate, not endorsement",
+      "instagramHandle": "hcorealestates",
+      "lastAccessCheck": "2026-09-18",
+      "projectEvidence": [
+        {
+          "name": "HCO Real Estates",
+          "url": "https://www.hcorealestates.com/project/imtiaz-the-vault",
+          "project": "the-vault-by-imtiaz",
+          "instagramHandle": "hcorealestates",
+          "instagramPostVerified": false,
+          "qualification": "Profile linked from own website; exact-project post not verified"
+        }
+      ]
+    },
+    {
+      "name": "Top Ultra Luxury",
+      "url": "https://topultraluxury.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "launchFocus": "candidate, not endorsement",
+      "instagramHandle": null,
+      "lastAccessCheck": "2026-09-18",
+      "projectEvidence": [
+        {
+          "name": "Top Ultra Luxury",
+          "url": "https://topultraluxury.com/new-projects/element-by-iman/",
+          "project": "element-by-iman",
+          "instagramHandle": null,
+          "instagramPostVerified": false,
+          "qualification": "Marketing-site evidence only; independence not verified"
+        },
+        {
+          "name": "Top Ultra Luxury",
+          "url": "https://topultraluxury.com/new-projects/the-verso-by-reportage/",
+          "project": "the-verso",
+          "instagramHandle": null,
+          "instagramPostVerified": false,
+          "qualification": "Marketing-site evidence only; independence not verified"
+        }
+      ]
     }
   ],
   "additionalCandidates": [
@@ -519,6 +611,208 @@
     "bloom-living-alhambra",
     "marsa-al-saadiyat",
     "binghatti-spectre",
-    "richmond-residences-mira-coral-bay"
+    "richmond-residences-mira-coral-bay",
+    "rove-home-the-greens",
+    "the-vault-by-imtiaz",
+    "element-by-iman",
+    "the-verso"
+  ],
+  "projectReview": [
+    {
+      "id": "epoque-by-reportage",
+      "name": "Epoque by Reportage",
+      "developer": "Reportage Capital Real Estate Development",
+      "location": "Ras Al Khor Industrial Area 1",
+      "type": "planned residential",
+      "disposition": "watch-low",
+      "source": "https://propsearch.ae/dubai/epoque-by-reportage",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "beachfront-gates-3",
+      "name": "Beachfront Gates 3",
+      "developer": "Dubai South Properties",
+      "location": "Dubai South Residential District",
+      "type": "planned residential",
+      "disposition": "watch",
+      "source": "https://propsearch.ae/dubai/beachfront-gates-3",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "rove-home-the-greens",
+      "name": "Rove Home The Greens",
+      "developer": "IRTH Group / Rove Hotels",
+      "location": "The Greens, Emirates Living",
+      "type": "200-home planned residential",
+      "disposition": "watch-high",
+      "source": "https://propsearch.ae/dubai/rove-home-the-greens",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "cluster-w-drive-thru",
+      "name": "Cluster W Drive Thru",
+      "developer": null,
+      "location": "JLT",
+      "type": "existing Starbucks drive-through",
+      "disposition": "exclude",
+      "source": "https://propsearch.ae/dubai/cluster-w-drive-thru",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "untitled-plot-3830327",
+      "name": "Untitled Plot 3830327",
+      "developer": null,
+      "location": "Barsha Heights",
+      "type": "15-storey residential under development; First Trace 2025",
+      "disposition": "identity-watch",
+      "source": "https://propsearch.ae/dubai/untitled-plot-3830327",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "american-university-student-accommodation",
+      "name": "American University Student Accommodation",
+      "developer": null,
+      "location": "Dubai Media City, Al Sufouh 2",
+      "type": "existing student accommodation",
+      "disposition": "exclude",
+      "source": "https://propsearch.ae/dubai/american-university-student-accommodation",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "american-university-faculty-building",
+      "name": "American University Faculty Building",
+      "developer": null,
+      "location": "Dubai Media City, Al Sufouh 2",
+      "type": "existing 11-storey faculty housing",
+      "disposition": "exclude",
+      "source": "https://propsearch.ae/dubai/american-university-faculty-building",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "the-vault-by-imtiaz",
+      "name": "The Vault by Imtiaz",
+      "developer": "Imtiaz Developments / Imtiaz Vault Real Estate Development",
+      "location": "Majan, Wadi Al Safa 3",
+      "type": "8-storey planned residential",
+      "disposition": "watch-high",
+      "source": "https://propsearch.ae/dubai/the-vault-by-imtiaz",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "boutique-residences",
+      "name": "Boutique Residences",
+      "developer": "AHD Capital Real Estate",
+      "location": "Al Jaddaf",
+      "type": "17-storey planned residential",
+      "disposition": "watch",
+      "source": "https://propsearch.ae/dubai/boutique-residences",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "cluster-n-drive-thru",
+      "name": "Cluster N Drive Thru",
+      "developer": null,
+      "location": "JLT",
+      "type": "existing McCafe drive-through",
+      "disposition": "exclude",
+      "source": "https://propsearch.ae/dubai/cluster-n-drive-thru",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "jlt-south-plot",
+      "name": "JLT South Plot",
+      "developer": null,
+      "location": "JLT",
+      "type": "envisioned building; developer and sales product unknown",
+      "disposition": "identity-watch",
+      "source": "https://propsearch.ae/dubai/jlt-south-plot",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "element-by-iman",
+      "name": "Element by Iman",
+      "developer": "Iman Developers",
+      "location": "Dubai Science Park, Al Barsha South 2",
+      "type": "12-storey planned residential",
+      "disposition": "watch-high",
+      "source": "https://propsearch.ae/dubai/element-by-iman",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "the-verso",
+      "name": "The Verso",
+      "developer": "Reportage Capital Real Estate Development",
+      "location": "Meydan Horizon, Bu Kadra, Meydan, MBR City",
+      "type": "planned residential",
+      "disposition": "watch-high",
+      "source": "https://propsearch.ae/dubai/the-verso",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "samana-barari-resort",
+      "name": "Samana Barari Resort",
+      "developer": "Samana Holding / Samana Signature Real Estate Developments",
+      "location": "Majan, Wadi Al Safa 3",
+      "type": "35-storey planned HOTEL per Propsearch; residential marketing conflicts",
+      "disposition": "classification-hold",
+      "source": "https://propsearch.ae/dubai/samana-barari-resort",
+      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "instagramExactBrokerPosts": [],
+      "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
+      "confirmedStartingPriceAED": null,
+      "publication": "hold pending Alex selection"
+    }
   ]
 }
