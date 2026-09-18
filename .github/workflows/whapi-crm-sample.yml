@@ -1,0 +1,84 @@
+name: Private CRM sample
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/whapi-crm-sample.yml']
+permissions:
+  contents: read
+concurrency:
+  group: whatsapp-research-readonly
+  cancel-in-progress: false
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Read and encrypt sample in memory
+        env:
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+        run: |
+          node --input-type=module <<'NODE'
+          import {randomBytes,publicEncrypt,createCipheriv,constants} from 'node:crypto';
+          import {writeFileSync} from 'node:fs';
+          const pub="-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAvdaX5k21hPw5cLKW2WQZ\nz95dT4sSjv4GydL+KXlwXO4McLPo4ZCIQo2KlcwcaziVXf5MgIUgcS2iCi2tR3/D\nqbCM+bC7eCtwq2TcGpqB5DAoixh7ZPRDfRZWpjlQ91q5Qvny/lkTKneKMOSiRVhi\nFipYAPdgdyD4m4Xk+7ZKRS0ZdkoWhgEp/wj2EIYLKgkEBQ1a8o28fE8IKLFkc8Yk\nyhIYG4LYxrPCAR84gsrzfSVqI6UmvcHWC2zFvbpZQr2Ahkcbqk601rwzDbElEaTm\nhTU3l3+MxlD90WaT4ReTEdam27qSs/XiE+Su22jXWCupkVD3VZR00TnEZDfy+Shl\nphOYwjAmIjC29TpJUm3GWUPL999J6CaO1F5rXW0su4R94vgErrYv46IGGQho6KNM\nltP+oqSDRHxqMmkBcfiLxmSUxe5NIk+zNdvUA9mVBtIVQHf6C9S7YTd5p79eSO1y\nyJM84Bnxg5YKVkBqi7vjRDhELch7kXxkoVsNVnvHhTsdAgMBAAE=\n-----END PUBLIC KEY-----";
+          const token=process.env.WHAPI_TOKEN;
+          const state={started:new Date().toISOString(),history_coverage:'PARTIAL_HISTORY',chats:[],contacts:[],labels:[],labelAssociations:[],selected:[],processed:[],errors:[]};
+          function checkpoint(){
+           const key=randomBytes(32),iv=randomBytes(12),cipher=createCipheriv('aes-256-gcm',key,iv);
+           const raw=Buffer.from(JSON.stringify(state).split(token).join('[REDACTED]'));
+           const body=Buffer.concat([cipher.update(raw),cipher.final()]);raw.fill(0);
+           const env={v:1,key:publicEncrypt({key:pub,padding:constants.RSA_PKCS1_OAEP_PADDING,oaepHash:'sha256'},key).toString('base64'),iv:iv.toString('base64'),tag:cipher.getAuthTag().toString('base64'),ciphertext:body.toString('base64')};
+           writeFileSync('crm-sample.encrypted.json',JSON.stringify(env));key.fill(0);
+          }
+          const pause=ms=>new Promise(r=>setTimeout(r,ms));let requests=0;
+          async function get(path){
+           if(!/^\/(health\?wakeup=false|chats\?|contacts\?|labels(?:\/\d{1,2})?$|messages\/list\/)/.test(path))throw Error('PATH');
+           for(let a=0;a<4;a++){
+            await pause(3000);requests++;
+            let r;try{r=await fetch('https://gate.whapi.cloud'+path,{headers:{Authorization:'Bearer '+token},redirect:'error',signal:AbortSignal.timeout(30000)});}catch{if(a===3)throw Error('NETWORK');await pause(5000*2**a);continue;}
+            if(r.ok)return await r.json();
+            if([429,500,502,503,504].includes(r.status)&&a<3){const t=Number(r.headers.get('retry-after'));if(t>60)throw Error('LONG_RETRY');await pause(Math.max(5000*2**a,(t||0)*1000));continue;}
+            throw Error('HTTP_'+r.status);
+           }
+          }
+          async function list(path,key){const seen=new Map();for(let offset=0;;offset+=500){const d=await get(path+'?count=500&offset='+offset);if(!Array.isArray(d[key]))throw Error('SCHEMA');if(!d[key].length)return [...seen.values()];let n=0;for(const row of d[key]){if(!seen.has(row.id))n++;seen.set(row.id,row);}if(!n)throw Error('PAGINATION');}}
+          try{
+           if(!token)throw Error('TOKEN');
+           const h=await get('/health?wakeup=false');if(h.status?.text!=='AUTH')throw Error('NOT_AUTH');
+           state.chats=await list('/chats','chats');state.contacts=await list('/contacts','contacts');
+           const l=await get('/labels');state.labels=Array.isArray(l)?l:l.labels;
+           if(!Array.isArray(state.labels))throw Error('LABEL_SCHEMA');
+           for(const label of state.labels){try{state.labelAssociations.push({id:label.id,result:await get('/labels/'+encodeURIComponent(label.id))});}catch(e){state.errors.push({stage:'label',id:label.id,error:/^HTTP_\d+$/.test(e.message)?e.message:'READ_FAILED'});}}
+           const personal=state.chats.filter(c=>(c.type==='contact'||/@(s\.whatsapp\.net|lid)$/.test(c.id))&&!['group','newsletter','broadcast','stories','announcement'].includes(c.type));
+           const chosen=new Map();const add=(arr,n)=>{let count=0;for(const c of arr){if(chosen.has(c.id))continue;chosen.set(c.id,c);if(++count>=n)break;}};
+           const leadIds=new Set(state.labels.filter(l=>/lead|client|клиент/i.test(l.name)).map(l=>String(l.id)));
+           add(personal.filter(c=>(c.labels||[]).some(l=>leadIds.has(String(typeof l==='object'?l.id:l)))),8);
+           add(personal,8);
+           add([...personal].sort((a,b)=>(a.last_message?.timestamp??a.timestamp??Infinity)-(b.last_message?.timestamp??b.timestamp??Infinity)),8);
+           if(chosen.size<24)add(personal,24-chosen.size);
+           state.selected=[...chosen.keys()];checkpoint();
+           for(const c of chosen.values()){
+            const item={chat_id:c.id,messages:[],status:'in_progress',offset:0};state.processed.push(item);
+            const seen=new Set();
+            try{
+             for(let offset=0;;offset+=500){
+              item.offset=offset;
+              const d=await get('/messages/list/'+encodeURIComponent(c.id)+'?count=500&offset='+offset+'&sort=desc&normal_types=false');
+              if(!Array.isArray(d.messages))throw Error('SCHEMA');if(!d.messages.length){item.status='complete';break;}
+              let n=0;for(const m of d.messages){if(seen.has(m.id))continue;seen.add(m.id);item.messages.push(m);n++;}
+              checkpoint();if(!n)throw Error('PAGINATION');
+             }
+            }catch(e){item.status='error';item.error=/^HTTP_\d+$/.test(e.message)?e.message:'READ_FAILED';}
+            checkpoint();console.log('PROGRESS completed_chats',state.processed.length);
+           }
+           state.finished=new Date().toISOString();state.requests=requests;checkpoint();
+           console.log('RESULT encrypted_sample_ready',state.processed.length);
+          }catch(e){state.errors.push({stage:'fatal',error:/^HTTP_\d+$/.test(e.message)?e.message:'FAILED'});if(token)checkpoint();console.log('RESULT FAILED_DETAILS_ENCRYPTED');process.exitCode=1;}
+          NODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crm-sample-encrypted
+          path: crm-sample.encrypted.json
+          retention-days: 1
+          if-no-files-found: error
