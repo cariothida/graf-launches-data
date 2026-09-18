@@ -429,6 +429,71 @@
       "firstReported": "2026-09-13",
       "updatedAt": "2026-09-13",
       "published": true
+    },
+    {
+      "id": "modon-wadeem-gardens",
+      "project": "Wadeem Gardens",
+      "developer": "Modon",
+      "emirate": "Abu Dhabi",
+      "location": "Hudayriyat Island, Abu Dhabi",
+      "type": [
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "September 2026: brokers cite launch materials dated 14 September; EOIs advertised as open. Exact public sales-opening date not independently confirmed.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Masterpiece Property and Luxury Located advertise villas from AED 8.7 million. No developer-side price list independently verified.",
+      "paymentPlan": "Broker-reported 25/75 with 5% on reservation; advertised financing terms are subject to off-plan mortgage approval.",
+      "handover": "Q2 2031, broker-reported by Masterpiece Property; not independently developer-confirmed.",
+      "teaser": "Brokers open EOIs for Modon's 4–6BR villas on Hudayriyat Island.",
+      "summary": "Multiple brokers are marketing Wadeem Gardens by Modon, a collection of 4-, 5- and 6-bedroom villas across three gated clusters on Hudayriyat Island. Masterpiece Property cites launch materials dated 14 September 2026, while Luxury Located advertises EOIs as open. This is a substantial new family-villa opportunity in an established island development programme; commercial terms remain broker-reported.",
+      "whatNext": "The exact sales-opening date and developer-confirmed commercial terms are awaited; subscribe on this page for verified updates.",
+      "confidenceNote": "Likely / broker intelligence. Multiple public broker sources agree on identity, location and unit mix. No accessible Modon announcement or original price list was independently verified.",
+      "unitMix": [
+        {
+          "type": "4BR villa",
+          "note": "Broker-reported"
+        },
+        {
+          "type": "5BR villa",
+          "note": "Broker-reported"
+        },
+        {
+          "type": "6BR villa",
+          "note": "Broker-reported"
+        }
+      ],
+      "eoi": {
+        "amount": 50000,
+        "refundable": true,
+        "note": "Luxury Located advertises a refundable AED 50,000 EOI; developer terms not independently verified."
+      },
+      "sources": [
+        {
+          "url": "https://www.mpinv.ae/wadeem-gardens",
+          "label": "Masterpiece Property: launch details citing 14 September 2026 materials",
+          "primary": true
+        },
+        {
+          "url": "https://luxurylocated.com/wadeem-gardens",
+          "label": "Luxury Located: EOI, villa mix and conditional financing"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdR5iojMlxd/",
+          "label": "Indexed Instagram launch report; full reel inaccessible"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6Qf-fwsEGo4",
+          "label": "Broker launch presentation report"
+        }
+      ],
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "seoTitle": "Wadeem Gardens by Modon: Hudayriyat Villa Launch | GRAF",
+      "seoDescription": "Wadeem Gardens on Hudayriyat Island: broker-reported 4–6BR villas, EOI and indicative terms. Follow GRAF for developer-confirmed launch updates."
     }
   ],
   "version": 1
