@@ -3,45 +3,92 @@
   "briefingDate": "2026-09-18",
   "posts": [
     {
-      "projectId": "aldar-talay-marsa-al-saadiyat",
-      "eventKey": "aldar-talay-marsa-al-saadiyat:2026-09-17-first-villa-release",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "Aldar officially named the first residential release at Marsa Al Saadiyat on 17 September: 351 villas; sales open 23 September 2026.",
-      "sources": [
-        "https://www.aldar.com/en/news-and-media/aldar-launches-first-homes-at-marsa-al-saadiyat-with-351-exclusive-villas-at-talay",
-        "https://vazeno.files.cmp.optimizely.com/download/assets/260917%2BAldar%2BTalay%2BPress%2BRelease%2BEn.pdf/fb34d9d4b28f11f18e6f8e7f8cce680b",
-        "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/"
-      ],
-      "siteUrl": "https://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
-      "body": "TALAY — FIRST VILLAS AT MARSA AL SAADIYAT\n\nAldar has announced 351 standalone 4–6 bedroom villas on Saadiyat Island. Sales open on 23 September 2026.\n\nThis is the first named residential release within the Marsa Al Saadiyat masterplan — a new opportunity for buyers following the island's next waterfront district.\n\nDeveloper-confirmed starting prices, booking terms and handover were not included in the announcement checked.\n\nhttps://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
-      "imageRepoPath": "assets/whatsapp/aldar-talay-marsa-al-saadiyat.jpg",
-      "imageVerified": true,
-      "imageSha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc",
-      "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "Alex requested all daily launch posts at 08:00 Dubai; deliver today's remaining unsent post now."
-    },
-    {
-      "projectId": "modon-wadeem-gardens",
-      "eventKey": "modon-wadeem-gardens:2026-09-14-broker-launch-eoi",
+      "projectId": "aldar-yas-riva-reserve",
+      "eventKey": "aldar-yas-riva-reserve:2026-09-17-prelaunch-collection",
       "kind": "hot-launch",
       "language": "en",
       "status": "broker-intelligence",
       "approved": true,
-      "materialUpdate": "Multiple brokers cite 14 September launch materials and open EOIs for Modon's Wadeem Gardens 4–6BR villas.",
+      "materialUpdate": "Coming soon: pre-launch material circulated 17 September 2026; exact sales-opening date not confirmed",
       "sources": [
-        "https://www.mpinv.ae/wadeem-gardens",
-        "https://luxurylocated.com/wadeem-gardens"
+        "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas"
       ],
-      "siteUrl": "https://graf.ae/launches/modon-wadeem-gardens/",
-      "body": "WADEEM GARDENS — HUDAYRIYAT ISLAND\n\nBroker intelligence: Modon's new villa collection is being marketed with 4, 5 and 6 bedrooms across three gated clusters.\n\nBrokers quote prices from AED 8.7 million and a refundable AED 50,000 EOI. Advertised terms include 25/75 payments, 5% on reservation and Q2 2031 handover, with financing subject to approval. These figures are not yet independently developer-confirmed.\n\nA new family-villa option in Abu Dhabi's major island development programme.\n\nImage: project marketing render.\nhttps://graf.ae/launches/modon-wadeem-gardens/",
-      "imageRepoPath": "assets/whatsapp/modon-wadeem-gardens.jpg",
-      "imageVerified": true,
-      "imageSha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10",
+      "siteUrl": "https://graf.ae/launches/aldar-yas-riva-reserve/",
+      "body": "YAS RIVA RESERVE | Aldar\nYas Island, Abu Dhabi\n\nBroker intelligence: a new collection of 4–6 bedroom villas is being promoted ahead of launch. Briefings circulated on 17 September; the sales date, starting prices, payment plan and handover are not yet confirmed.\n\nAn early-access opportunity for buyers seeking family villas on Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
       "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "Alex requested all daily launch posts at 08:00 Dubai; deliver today's remaining unsent post now."
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
+    },
+    {
+      "projectId": "binghatti-starfall",
+      "eventKey": "binghatti-starfall:2026-09-22-tentative-launch",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "Pre-launch; 22 September 2026 is advertised as a tentative launch date by Remington, not independently confirmed by the developer",
+      "sources": [
+        "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/",
+        "https://hoomanjt.com/articles/binghatti-starfall-al-jaddaf/",
+        "https://ae.linkedin.com/in/hesham-ahmed-helmy-08092938"
+      ],
+      "siteUrl": "https://graf.ae/launches/binghatti-starfall/",
+      "body": "BINGHATTI STARFALL | Al Jaddaf, Dubai\n\nBroker intelligence: studios and 1–2 bedroom apartments, with limited Royal layouts. Brokers advertise a tentative 22 September launch; developer confirmation is awaited.\n\nPreliminary studio guidance is AED 750,000–799,000 and 1BR from AED 1.25m. These figures are unconfirmed and vary between brokers. Final payment and handover terms remain pending.\n\nA release to watch for buyers targeting central Dubai.\n\nDetails and updates:\nhttps://graf.ae/launches/binghatti-starfall/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
+    },
+    {
+      "projectId": "irth-rove-home-the-greens",
+      "eventKey": "irth-rove-home-the-greens:2026-09-17-project-announcement",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "Project announced 17 September 2026 as the next Rove Home launch; sales-opening date not announced in the reviewed release",
+      "sources": [
+        "https://www.ttnworldwide.com/ArticleTA/486446/rove-hotels,-irth-group-announce-uae-residential-expansion",
+        "https://propsearch.ae/dubai/rove-home-the-greens"
+      ],
+      "siteUrl": "https://graf.ae/launches/irth-rove-home-the-greens/",
+      "body": "ROVE HOME THE GREENS | IRTH × Rove\nThe Greens, Dubai\n\nProject announced on 17 September: 200 homes in an established Dubai neighbourhood.\n\nThis is confirmation of the upcoming project; sales opening has not yet been announced. Unit mix, starting prices, payment plan and handover were not specified in the announcement.\n\nA limited announced collection in a mature community makes this an early-access release worth following.\n\nDetails and updates:\nhttps://graf.ae/launches/irth-rove-home-the-greens/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
+    },
+    {
+      "projectId": "meraas-nad-al-sheba-gardens-phase-12",
+      "eventKey": "meraas-nad-al-sheba-gardens-phase-12:2026-09-14-phase-12-eoi-signal",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "September 2026 broker pre-launch/EOI signal; exact public sales-opening date not independently confirmed",
+      "sources": [
+        "https://www.dubairealestatedata.com/projects/nad-al-sheba-gardens-phase-12",
+        "https://www.lankea.com/en/projects/nad-al-sheba-gardens-phase-12",
+        "https://urbanvibe-re.ae/properties?type=apartment"
+      ],
+      "siteUrl": "https://graf.ae/launches/meraas-nad-al-sheba-gardens-phase-12/",
+      "body": "NAD AL SHEBA GARDENS — PHASE 12 | Meraas\nNad Al Sheba 1, Dubai\n\nBroker intelligence: a 14 September briefing signals an upcoming EOI opening. Register-derived records indicate 97 villas, with 4BR and 5BR homes; the final sales mix remains unconfirmed.\n\nThe exact sales date, EOI amount, starting prices and payment terms are still awaited.\n\nA distinct new phase for buyers seeking early access to this established villa community.\n\nDetails and updates:\nhttps://graf.ae/launches/meraas-nad-al-sheba-gardens-phase-12/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
+    },
+    {
+      "projectId": "reportage-the-wadi-e1-e2",
+      "eventKey": "reportage-the-wadi-e1-e2:2026-09-18-e1-e2-launch-event",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "Launch event advertised for 18 September 2026 at the Ritz-Carlton Abu Dhabi; E1/E2 first-release material circulating from 14–15 September",
+      "sources": [
+        "https://alnair.ae/en/news/the-wadi-official-launch-event",
+        "https://alnair.ae/en/news/broker-tour-recording-the-wadi-by-reportage-properties",
+        "https://www.instagram.com/p/DdRYmSGCP1f/",
+        "https://www.instagram.com/p/DdTcGHUDcyh/"
+      ],
+      "siteUrl": "https://graf.ae/launches/reportage-the-wadi-e1-e2/",
+      "body": "THE WADI — E1 & E2 | Reportage Properties\nYas Canal corridor, Abu Dhabi\n\nBroker intelligence: a launch event is advertised for 18 September, with E1 and E2 presented as the first release.\n\nBroker material describes 530 homes: studios, 1–3BR apartments and 4BR duplexes. The location is described as between Al Raha Beach and Yas Island. Starting prices and final payment terms are not yet verified; advertised Q4 2030 handover remains provisional.\n\nA new two-building release to watch near Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/reportage-the-wadi-e1-e2/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
     }
   ]
 }
