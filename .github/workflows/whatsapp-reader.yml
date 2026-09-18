@@ -1,0 +1,32 @@
+name: Private WhatsApp research export
+on:
+  push:
+    branches: [main]
+    paths: ['whatsapp-reader-request.json']
+permissions:
+  contents: read
+concurrency:
+  group: whatsapp-research-readonly
+  cancel-in-progress: false
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save @modelcontextprotocol/sdk@^1
+      - name: Read and encrypt in memory
+        run: node scripts/whatsapp-reader.mjs
+        env:
+          API_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+      - name: Save encrypted result only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: whatsapp-research-encrypted
+          path: whatsapp-research.encrypted.json
+          retention-days: 1
+          if-no-files-found: error
