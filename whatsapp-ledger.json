@@ -151,7 +151,7 @@
         }
       ],
       "replacementReason": "User deleted original and explicitly requested identical caption with approved card",
-      "state": "pending",
+      "state": "sent",
       "projectId": "binghatti-starfall",
       "body": "BINGHATTI STARFALL | Al Jaddaf, Dubai\n\nBroker intelligence: studios and 1–2 bedroom apartments, with limited Royal layouts. Brokers advertise a tentative 22 September launch; developer confirmation is awaited.\n\nPreliminary studio guidance is AED 750,000–799,000 and 1BR from AED 1.25m. These figures are unconfirmed and vary between brokers. Final payment and handover terms remain pending.\n\nA release to watch for buyers targeting central Dubai.\n\nDetails and updates:\nhttps://graf.ae/launches/binghatti-starfall/",
       "imageRepoPath": "assets/whatsapp/binghatti-starfall-card.jpg",
@@ -162,7 +162,8 @@
         "sha256": "893cdf44cbe45e5c446dfb3e5b0566ef8648e2a11c164f6a540ac265d6aadaae"
       },
       "attemptedAt": "2026-09-18T10:21:54.393Z",
-      "messageId": "PsrC7A.NB3fWsnI-17IBq53f_uALiA-qA"
+      "messageId": "PsrC7A.NB3fWsnI-17IBq53f_uALiA-qA",
+      "verifiedAt": "2026-09-18T10:22:01.869Z"
     },
     "irth-rove-home-the-greens:2026-09-17-project-announcement": {
       "state": "sent",
