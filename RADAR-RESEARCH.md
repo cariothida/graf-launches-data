@@ -132,3 +132,6 @@ Alex authorized reading broker groups, channels and manager broadcasts as early 
 - Public verification remains required: Propsearch Latest buildings, exact project/phase Instagram and web searches, developer/news/portal cross-checks. WhatsApp supplements these channels.
 - New candidates from today's extended pass are research-only pending Alex's selection; do not populate launches.json or WhatsApp queue from this review alone.
 - The next unattended morning execution of this expanded reader is not yet proven. An instruction update is not evidence of a successful scheduled run.
+
+## Publication authorization — subsequent 18 September instruction
+Alex explicitly authorized additional internet/Instagram verification and website publication of the eight projects in the WhatsApp-derived shortlist. That supersedes the earlier hold for those eight candidates only. Publish qualifying confirmed or multi-source broker-intelligence records; retain uncorroborated single-source phases and recycled launches as research leads. This request does not direct manual WhatsApp sending. Do not alter schedules, secrets, workflows or release refs.
