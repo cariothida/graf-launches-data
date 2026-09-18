@@ -176,7 +176,7 @@
       "verifiedAt": "2026-09-18T09:09:41.453Z"
     },
     "avenue-park-towers-ii:2026-09-09-registration-opening": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "avenue-park-towers-ii",
       "body": "AVENUE PARK TOWERS II | Wasl\nWasl 1, Al Kifaf, Dubai\n\nRegistration is open for the final development within Wasl 1, announced on 9 September and marked launching soon.\n\nResidential and commercial space beside Zabeel Park and Max Metro Station. Starting prices and the exact sales-opening date have not been released in the reviewed launch material.\n\nA central-Dubai release with strong park, Metro, DIFC and Downtown access.\n\nDetails and updates:\nhttps://graf.ae/launches/avenue-park-towers-ii/",
       "imageRepoPath": "assets/whatsapp/avenue-park-towers-ii.jpg",
@@ -187,7 +187,8 @@
         "sha256": "3cced745d158ad3279c8d2ed792939c6a7857d5d36acc95ae3ccc4f5a7d96493"
       },
       "attemptedAt": "2026-09-18T09:12:32.202Z",
-      "messageId": "PsrB4UO2WIip7YI-10IBq53f_uALiA-pg"
+      "messageId": "PsrB4UO2WIip7YI-10IBq53f_uALiA-pg",
+      "verifiedAt": "2026-09-18T09:12:40.094Z"
     }
   }
 }
