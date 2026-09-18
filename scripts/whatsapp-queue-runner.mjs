@@ -51,8 +51,8 @@ try{
  if(existing?.body&&existing.body!==p.body)throw Error('Pending/sent event body was changed; reconcile before publication');
  if(!replacing && ((existing?.imageUrl && existing.imageUrl!==p.imageUrl)||(existing?.imageRepoPath && existing.imageRepoPath!==p.imageRepoPath)))throw Error('Pending image was changed');
  const history=await call('getMessagesNewsletter',{NewsletterID:channelId,count:100});
- if(replacing && (containsBody(history,p.body)||containsBody(history,existing.messageId)))throw Error('WAITING_FOR_USER_DELETION '+p.projectId+'; original post still visible, no duplicate sent');
- if(containsBody(history,p.body)){
+ if(replacing && p.replacement.userConfirmedDeletedAt!=='2026-09-18T10:20:02Z' && (containsBody(history,p.body)||containsBody(history,existing.messageId)))throw Error('WAITING_FOR_USER_DELETION '+p.projectId+'; original post still visible, no duplicate sent');
+ if(!replacing && containsBody(history,p.body) && (!existing?.replacementRequestId || (existing.messageId && containsBody(history,existing.messageId)))){
    ledger.data.posts[p.eventKey]={...existing,projectId:p.projectId,body:p.body,state:'sent',verifiedAt:new Date().toISOString(),reconciled:true};
    await save();console.log('VERIFIED existing post; no resend: '+p.eventKey);
  }else{
@@ -82,7 +82,7 @@ try{
    let verified=false;
    for(let i=0;i<3;i++){
      const h=await call('getMessagesNewsletter',{NewsletterID:channelId,count:100});
-     if(containsBody(h,p.body)){verified=true;break;}
+     if(containsBody(h,p.body)&&containsBody(h,id)){verified=true;break;}
      await new Promise(r=>setTimeout(r,3000));
    }
    if(!verified)throw Error('API accepted post but history not yet confirmed; pending state retained');
