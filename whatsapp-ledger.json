@@ -220,12 +220,29 @@
       "verifiedAt": "2026-09-18T10:22:23.892Z"
     },
     "reportage-the-wadi-e1-e2:2026-09-18-e1-e2-launch-event": {
-      "state": "sent",
+      "replacementRequestId": "alex-2026-09-18-nine-image-cards",
+      "previousPublications": [
+        {
+          "state": "sent",
+          "projectId": "reportage-the-wadi-e1-e2",
+          "body": "THE WADI — E1 & E2 | Reportage Properties\nYas Canal corridor, Abu Dhabi\n\nBroker intelligence: a launch event is advertised for 18 September, with E1 and E2 presented as the first release.\n\nBroker material describes 530 homes: studios, 1–3BR apartments and 4BR duplexes. The location is described as between Al Raha Beach and Yas Island. Starting prices and final payment terms are not yet verified; advertised Q4 2030 handover remains provisional.\n\nA new two-building release to watch near Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/reportage-the-wadi-e1-e2/",
+          "attemptedAt": "2026-09-18T09:08:13.139Z",
+          "messageId": "PsrzJzcNaDrkMTI-1y0Bq53f_uALiA-og",
+          "verifiedAt": "2026-09-18T09:08:18.006Z"
+        }
+      ],
+      "replacementReason": "User deleted original and explicitly requested identical caption with approved card",
+      "state": "pending",
       "projectId": "reportage-the-wadi-e1-e2",
       "body": "THE WADI — E1 & E2 | Reportage Properties\nYas Canal corridor, Abu Dhabi\n\nBroker intelligence: a launch event is advertised for 18 September, with E1 and E2 presented as the first release.\n\nBroker material describes 530 homes: studios, 1–3BR apartments and 4BR duplexes. The location is described as between Al Raha Beach and Yas Island. Starting prices and final payment terms are not yet verified; advertised Q4 2030 handover remains provisional.\n\nA new two-building release to watch near Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/reportage-the-wadi-e1-e2/",
-      "attemptedAt": "2026-09-18T09:08:13.139Z",
-      "messageId": "PsrzJzcNaDrkMTI-1y0Bq53f_uALiA-og",
-      "verifiedAt": "2026-09-18T09:08:18.006Z"
+      "imageRepoPath": "assets/whatsapp/reportage-the-wadi-e1-e2-card.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 178112,
+        "sha256": "3a96aa17f879d07c97bd1df66183810b08c6c1cd6c91f5399cfb79bac85e95de"
+      },
+      "attemptedAt": "2026-09-18T10:22:26.664Z"
     },
     "meraas-solaya-building-8:2026-09-14-building-8-eoi-signal": {
       "state": "sent",
