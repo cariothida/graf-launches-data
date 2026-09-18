@@ -97,7 +97,7 @@
       "verifiedAt": "2026-09-18T04:58:26.628Z"
     },
     "modon-wadeem-gardens:2026-09-14-broker-launch-eoi": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "modon-wadeem-gardens",
       "body": "WADEEM GARDENS — HUDAYRIYAT ISLAND\n\nBroker intelligence: Modon's new villa collection is being marketed with 4, 5 and 6 bedrooms across three gated clusters.\n\nBrokers quote prices from AED 8.7 million and a refundable AED 50,000 EOI. Advertised terms include 25/75 payments, 5% on reservation and Q2 2031 handover, with financing subject to approval. These figures are not yet independently developer-confirmed.\n\nA new family-villa option in Abu Dhabi's major island development programme.\n\nImage: project marketing render.\nhttps://graf.ae/launches/modon-wadeem-gardens/",
       "imageRepoPath": "assets/whatsapp/modon-wadeem-gardens.jpg",
@@ -108,7 +108,8 @@
         "sha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10"
       },
       "attemptedAt": "2026-09-18T05:21:39.327Z",
-      "messageId": "PsrdeBK3q1zQIzg-19IBq53f_uALiA-nQ"
+      "messageId": "PsrdeBK3q1zQIzg-19IBq53f_uALiA-nQ",
+      "verifiedAt": "2026-09-18T05:21:47.008Z"
     }
   }
 }
