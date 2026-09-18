@@ -54,6 +54,7 @@ try{
    await save();console.log('VERIFIED existing post; no resend: '+p.eventKey);
  }else{
    if(existing)throw Error('UNRESOLVED previous send attempt for '+p.eventKey+'; no blind resend');
+   if(!(p.imageUrl||p.imageRepoPath)||p.imageVerified!==true)throw Error('PUBLICATION BLOCKED: every launch requires a verified image; text-only fallback is forbidden');
    const page=await fetch(p.siteUrl,{redirect:'error',signal:AbortSignal.timeout(20000)});
    if(!page.ok)throw Error('Launch page not live HTTP '+page.status);
    const html=await page.text();
