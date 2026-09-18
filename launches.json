@@ -552,6 +552,274 @@
       "published": true,
       "seoTitle": "Talay at Marsa Al Saadiyat: 23 September Sales Launch | GRAF",
       "seoDescription": "Aldar announces 351 four- to six-bedroom Talay villas on Saadiyat Island. Sales open 23 September 2026. Verified launch facts and broker indications."
+    },
+    {
+      "aliases": [],
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "id": "aldar-yas-riva-reserve",
+      "project": "Yas Riva Reserve",
+      "developer": "Aldar",
+      "developerId": "aldar",
+      "emirate": "Abu Dhabi",
+      "location": "Yas Island, Abu Dhabi; exact plot and canal frontage awaiting confirmation",
+      "type": [
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Coming soon: pre-launch material circulated 17 September 2026; exact sales-opening date not confirmed",
+      "teaser": "A new 4–6BR Yas Island villa collection appears in pre-launch briefings.",
+      "summary": "Yas Riva Reserve is being promoted as an upcoming Aldar villa collection on Yas Island. A dated 17 September portal announcement and a separately reviewed broker briefing describe four- to six-bedroom homes across approximately 50 hectares. This named collection is tracked separately from the older Yas Riva villas and Yas Riva Residences apartments. It offers an early allocation lead for family-villa buyers, while prices, payment terms, EOI and handover remain unverified.",
+      "unitMix": [
+        {
+          "type": "4BR villa",
+          "note": "Pre-launch broker/portal indication; final developer schedule awaited"
+        },
+        {
+          "type": "5BR villa",
+          "note": "Pre-launch broker/portal indication; final developer schedule awaited"
+        },
+        {
+          "type": "6BR villa",
+          "note": "Pre-launch broker/portal indication; final developer schedule awaited"
+        }
+      ],
+      "confidenceNote": "Medium: a public dated portal announcement corroborates the private broker signal. An original Aldar announcement for this Reserve collection has not been independently verified; no commercial terms are presented as confirmed.",
+      "whatNext": "The sales date and official commercial terms are awaited; subscribe on this page for verified launch updates.",
+      "seoTitle": "Yas Riva Reserve by Aldar: Upcoming Yas Island Villas | GRAF",
+      "seoDescription": "Yas Riva Reserve: broker-reported 4–6BR villas on Yas Island. Track the upcoming Aldar collection, sales date and developer-confirmed terms.",
+      "sources": [
+        {
+          "url": "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas",
+          "label": "Alnair dated upcoming-project report; corroborating private briefing retained privately",
+          "date": "2026-09-17",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "id": "binghatti-starfall",
+      "project": "Binghatti Starfall",
+      "developer": "Binghatti",
+      "developerId": "binghatti",
+      "emirate": "Dubai",
+      "location": "Al Jaddaf, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Pre-launch; 22 September 2026 is advertised as a tentative launch date by Remington, not independently confirmed by the developer",
+      "teaser": "Al Jaddaf pre-launch with studios, 1–2BR apartments and Royal layouts.",
+      "summary": "Binghatti Starfall is being marketed as an upcoming Al Jaddaf release, with Remington advertising a tentative launch on 22 September 2026. Its preliminary schedule lists 754 homes plus 17 retail units, including studios, one- and two-bedroom apartments and limited Royal Suite layouts; final allocation documents are awaited. Multiple sources support the project and unit categories, but payment plans and completion dates conflict. Buyers can prepare for the release while treating all circulating prices as provisional.",
+      "brokerPriceNote": "Remington advertises preliminary studio guidance of AED 750,000–799,000 and one-bedroom homes from AED 1.25 million. Other brokers quote different entry figures. No original developer price list independently verified.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "528 in the preliminary broker schedule"
+        },
+        {
+          "type": "1BR apartment",
+          "note": "168 standard apartments plus one Royal Suite, preliminary"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "55 standard apartments plus two Royal Suites, preliminary"
+        }
+      ],
+      "confidenceNote": "Medium-high on project identity and Al Jaddaf location; medium on preliminary inventory. The launch day, prices, payment plan and handover remain unconfirmed. Conflicting handover dates were omitted.",
+      "whatNext": "A launch is provisionally advertised for 22 September; subscribe on this page for the confirmed date, price list and booking terms.",
+      "seoTitle": "Binghatti Starfall, Al Jaddaf: Pre-Launch Details | GRAF",
+      "seoDescription": "Binghatti Starfall in Al Jaddaf: studio and 1–2BR pre-launch information, provisional 22 September date and clearly labelled broker price guidance.",
+      "sources": [
+        {
+          "url": "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/",
+          "label": "Remington: preliminary schedule and tentative launch date",
+          "primary": true
+        },
+        {
+          "url": "https://hoomanjt.com/articles/binghatti-starfall-al-jaddaf/",
+          "label": "Independent broker review of dated floor plans",
+          "date": "2026-09-16"
+        },
+        {
+          "url": "https://ae.linkedin.com/in/hesham-ahmed-helmy-08092938",
+          "label": "Indexed sales-profile launch indication; not an original developer announcement"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "id": "irth-rove-home-the-greens",
+      "project": "Rove Home The Greens",
+      "developer": "IRTH Group",
+      "emirate": "Dubai",
+      "location": "The Greens, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Project announced 17 September 2026 as the next Rove Home launch; sales-opening date not announced in the reviewed release",
+      "teaser": "IRTH and Rove announce a 200-home project in established The Greens.",
+      "summary": "Rove Hotels and IRTH Group announced Rove Home The Greens on 17 September 2026 as the next project under their expanded residential partnership. The announcement identifies 200 homes in Dubai's established The Greens community. This confirms the upcoming project, not an opening of sales: unit configurations, starting prices, payment plan and handover were not specified in the reviewed announcement. The established neighbourhood and limited announced home count make it a relevant early-access opportunity.",
+      "confidenceNote": "High on the announced project, IRTH/Rove partnership, location and 200-home total, supported by dated announcement coverage. Sales opening and commercial terms remain unknown.",
+      "whatNext": "Detailed launch and sales information is awaited; subscribe on this page for confirmed prices, floor plans and booking dates.",
+      "seoTitle": "Rove Home The Greens by IRTH: New Project Announced | GRAF",
+      "seoDescription": "IRTH and Rove announce 200 homes at Rove Home The Greens in Dubai. Follow the upcoming launch, unit mix and pricing as official details are released.",
+      "sources": [
+        {
+          "url": "https://www.ttnworldwide.com/ArticleTA/486446/rove-hotels,-irth-group-announce-uae-residential-expansion",
+          "label": "Dated Rove/IRTH partnership and project announcement coverage",
+          "date": "2026-09-17",
+          "primary": true
+        },
+        {
+          "url": "https://propsearch.ae/dubai/rove-home-the-greens",
+          "label": "Propsearch building record; registration is not treated as a sales launch"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "id": "meraas-nad-al-sheba-gardens-phase-12",
+      "project": "Nad Al Sheba Gardens Phase 12",
+      "developer": "Meraas",
+      "developerId": "meraas",
+      "emirate": "Dubai",
+      "location": "Nad Al Sheba 1, Dubai",
+      "parentId": "nad-al-sheba-gardens",
+      "phase": "Phase 12",
+      "type": [
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "September 2026 broker pre-launch/EOI signal; exact public sales-opening date not independently confirmed",
+      "teaser": "Phase 12 enters broker pre-launch coverage in Nad Al Sheba Gardens.",
+      "summary": "Brokers are circulating a Phase 12 release at Meraas' Nad Al Sheba Gardens, with a 14 September channel briefing indicating that EOI would open. Public project-register aggregators identify 97 villas under NAS Estates L.L.C.; one lists 55 four-bedroom and 42 five-bedroom homes. Registry dates establish project identity, not the date sales open. This is a distinct phase opportunity in the existing community, with official availability, pricing and booking conditions still awaited.",
+      "unitMix": [
+        {
+          "type": "4BR villa",
+          "note": "55 indicated by third-party registry aggregator; final sales mix unverified"
+        },
+        {
+          "type": "5BR villa",
+          "note": "42 indicated by third-party registry aggregator; final sales mix unverified"
+        }
+      ],
+      "confidenceNote": "Medium: phase identity is supported by public register-derived records and broker coverage. NAS Estates L.L.C. is the registered entity shown by aggregators; Meraas is the marketed developer. No phase-specific developer price list or final EOI terms verified.",
+      "whatNext": "Phase-specific EOI terms, the sales date and official prices are awaited; subscribe on this page for confirmed updates.",
+      "seoTitle": "Nad Al Sheba Gardens Phase 12: Pre-Launch Watch | GRAF",
+      "seoDescription": "Track Meraas Nad Al Sheba Gardens Phase 12 in Dubai: broker EOI signals, register-derived villa mix and pending official prices and sales dates.",
+      "sources": [
+        {
+          "url": "https://www.dubairealestatedata.com/projects/nad-al-sheba-gardens-phase-12",
+          "label": "Third-party DLD-register-derived phase identity and 97-unit count",
+          "primary": true
+        },
+        {
+          "url": "https://www.lankea.com/en/projects/nad-al-sheba-gardens-phase-12",
+          "label": "Registry-derived 4BR/5BR villa split; not a launch announcement"
+        },
+        {
+          "url": "https://urbanvibe-re.ae/properties?type=apartment",
+          "label": "Broker collection includes Phase 12; pricing not developer-confirmed"
+        }
+      ]
+    },
+    {
+      "aliases": [],
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "id": "reportage-the-wadi-e1-e2",
+      "project": "The WADI — E1 & E2",
+      "developer": "Reportage Properties",
+      "emirate": "Abu Dhabi",
+      "location": "Yas Canal corridor, between Al Raha Beach and Yas Island, Abu Dhabi; marketed by brokers as Yas Island",
+      "parentId": "reportage-the-wadi",
+      "phase": "First release: E1 and E2",
+      "type": [
+        "apartments",
+        "duplexes"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Launch event advertised for 18 September 2026 at the Ritz-Carlton Abu Dhabi; E1/E2 first-release material circulating from 14–15 September",
+      "teaser": "E1 and E2 first-release briefings accompany an 18 September launch event.",
+      "summary": "Reportage Properties' The WADI is being marketed with an E1/E2 first release and a launch event advertised for 18 September 2026 in Abu Dhabi. Broker materials describe 530 homes across the two buildings, including studios, one- to three-bedroom apartments and four-bedroom duplexes. Public broker-tour coverage places it on the Yas Canal between Al Raha Beach and Yas Island, rather than establishing an on-island address. This update concerns the two-building release; payment-dependent prices and exact legal sales details require confirmation.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Broker-reported"
+        },
+        {
+          "type": "1BR apartment",
+          "note": "Broker-reported"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Broker-reported"
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Broker-reported"
+        },
+        {
+          "type": "4BR duplex",
+          "note": "Broker-reported"
+        }
+      ],
+      "handover": "Q4 2030 in E1/E2 broker material; not independently confirmed in developer sales documents",
+      "confidenceNote": "Medium: multiple indexed broker posts identify E1/E2, and dated portal material corroborates the launch event. Legal seller/registration, exact plot, final payment plan and official starting price have not been verified. Cash-payment promotions are not treated as general starting prices.",
+      "whatNext": "The launch event is advertised for 18 September; subscribe on this page for verified release prices, payment terms and availability.",
+      "seoTitle": "The WADI E1 & E2: Abu Dhabi First-Release Details | GRAF",
+      "seoDescription": "The WADI E1/E2 release near Yas Island: broker-reported apartments and duplexes, 18 September launch event and pending verified sales terms.",
+      "sources": [
+        {
+          "url": "https://alnair.ae/en/news/the-wadi-official-launch-event",
+          "label": "Dated launch-event announcement attributed to Reportage",
+          "date": "2026-09-18",
+          "primary": true
+        },
+        {
+          "url": "https://alnair.ae/en/news/broker-tour-recording-the-wadi-by-reportage-properties",
+          "label": "Broker-tour report clarifies Yas Canal location",
+          "date": "2026-09-17"
+        },
+        {
+          "url": "https://www.instagram.com/p/DdRYmSGCP1f/",
+          "label": "ali.realtyuae indexed E1/E2 broker caption; full post inaccessible",
+          "date": "2026-09-14"
+        },
+        {
+          "url": "https://www.instagram.com/p/DdTcGHUDcyh/",
+          "label": "Indexed first-release E1/E2 caption; full post inaccessible"
+        }
+      ]
     }
   ],
   "version": 1
