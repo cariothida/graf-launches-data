@@ -814,5 +814,84 @@
       "confirmedStartingPriceAED": null,
       "publication": "hold pending Alex selection"
     }
-  ]
+  ],
+  "hotLaunchReview": {
+    "reviewedAt": "2026-09-18",
+    "publication": "hold-pending-Alex-selection",
+    "privateEvidence": "whatsapp-broker-watchlist-private.json in private user storage; never publish raw messages",
+    "candidates": [
+      {
+        "project": "Rove Home The Greens",
+        "developer": "IRTH Group / Rove",
+        "location": "The Greens, Dubai",
+        "status": "confirmed-project-announcement",
+        "eventDate": "2026-09-17",
+        "source": "https://www.ttnworldwide.com/ArticleTA/486446/rove-hotels,-irth-group-announce-uae-residential-expansion",
+        "notes": "200 homes; sales opening date and prices not verified"
+      },
+      {
+        "project": "Yas Riva Reserve",
+        "developer": "Aldar",
+        "location": "Yas Island, Abu Dhabi",
+        "status": "broker-intelligence",
+        "eventDate": "2026-09-17",
+        "notes": "Coming soon 4-6BR villas; price/launch date unconfirmed; public Alnair upcoming item corroborates project"
+      },
+      {
+        "project": "Binghatti Starfall",
+        "developer": "Binghatti",
+        "location": "Al Jaddaf, Dubai",
+        "status": "broker-intelligence",
+        "eventDate": "2026-09-14",
+        "notes": "Broker launch briefing: 754 homes + 17 retail, 771 total units; event expected within 10 days of original message, not an official date"
+      },
+      {
+        "project": "Nad Al Sheba Gardens Phase 12",
+        "developer": "Meraas / DHRE",
+        "location": "Nad Al Sheba, Dubai",
+        "status": "broker-intelligence",
+        "eventDate": "2026-09-14",
+        "notes": "EOI expected to open; phase-specific price/unit mix not verified"
+      },
+      {
+        "project": "Solaya Building 8",
+        "developer": "Meraas / Brookfield",
+        "location": "Jumeirah beachfront, Dubai",
+        "status": "single-source-broker-intelligence",
+        "eventDate": "2026-09-14",
+        "notes": "Keep Building 8 distinct from Solaya master project; forwarded source is not multiple confirmations"
+      },
+      {
+        "project": "Manchester City Yas Residences Phase 2",
+        "developer": "Ohana",
+        "location": "Yas Canal area, Abu Dhabi; exact phase geography requires corroboration",
+        "status": "single-source-broker-intelligence",
+        "eventDate": "2026-09-15",
+        "notes": "October 2026 broker window; ~600 homes; AED3.8m described as average 2BR price, not starting price"
+      },
+      {
+        "project": "The WADI E1/E2",
+        "developer": "Reportage; exact seller/legal entity requires confirmation",
+        "location": "Yas, Abu Dhabi",
+        "status": "broker-intelligence-material-release",
+        "eventDate": "2026-09-14",
+        "notes": "E1/E2 availability indicated 15Sep and sales event 18-19Sep. Do not announce entire masterplan as new. Cash and installment prices differ."
+      },
+      {
+        "project": "Wyndham Residences Al Marjan Island",
+        "developer": "Divine One Group",
+        "location": "Al Marjan Island, Ras Al Khaimah",
+        "status": "EOI-lead-needs-original-launch-date-check",
+        "eventDate": "2026-08-27",
+        "source": "https://www.propertyfinder.ae/en/new-projects/divine-one-group/wyndham-residences",
+        "notes": "Agency EOI message; AED1.165m advertised; Q42028 vs Q12029 conflict; portal March2026 construction date means initial launch freshness unproven"
+      }
+    ],
+    "excludedRepeat": [
+      {
+        "project": "Le Château Piétrus",
+        "reason": "September new-launch marketing repeats same source's July offering/terms; no material new event proven"
+      }
+    ]
+  }
 }
