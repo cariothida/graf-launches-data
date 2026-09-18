@@ -9,20 +9,39 @@ concurrency:
   group: whatsapp-research-readonly
   cancel-in-progress: false
 jobs:
-  documentation:
+  health:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 2
     steps:
-      - name: Inspect public API schema only
+      - name: Read connection status without waking channel
+        env:
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
         shell: python
         run: |
-          import urllib.request, json
-          import yaml
-          with urllib.request.urlopen('https://panel.whapi.cloud/yaml/openapi.yaml', timeout=30) as r:
-              d=yaml.safe_load(r.read())
-          print('SCHEMA_VERSION',d.get('info',{}).get('version'))
-          paths=d.get('paths',{})
-          for p,o in paths.items():
-              if p in ['/health','/chats','/contacts','/labels','/messages/list','/messages/list/{ChatID}'] or 'lid' in p.lower() or 'labels/' in p:
-                  print(json.dumps({p:o},ensure_ascii=False))
-          print('PARAMETERS',json.dumps(d.get('components',{}).get('parameters',{})))
+          import os, urllib.request, urllib.error, json
+          token=os.environ.get('WHAPI_TOKEN')
+          if not token:
+              print('RESULT TOKEN_MISSING')
+              raise SystemExit(1)
+          req=urllib.request.Request('https://gate.whapi.cloud/health?wakeup=false',headers={'Authorization':'Bearer '+token,'Accept':'application/json'})
+          try:
+              with urllib.request.urlopen(req,timeout=30) as response:
+                  data=json.load(response)
+                  print('RESULT HTTP_STATUS',response.status)
+              status=data.get('status')
+              if isinstance(status,dict):
+                  for field in ['code','text']:
+                      value=status.get(field)
+                      if field=='code' and isinstance(value,int):
+                          print('RESULT STATUS_CODE',value)
+                      elif field=='text' and value in ['AUTH','INIT','LAUNCH','QR','STOP','ERROR','READY','DISCONNECTED','CONNECTED']:
+                          print('RESULT STATUS_TEXT',value)
+              elif isinstance(status,str) and status in ['AUTH','INIT','LAUNCH','QR','STOP','ERROR','READY','DISCONNECTED','CONNECTED']:
+                  print('RESULT STATUS_TEXT',status)
+              print('RESULT BODY_WITHHELD_NO_PERSONAL_DATA_LOGGED')
+          except urllib.error.HTTPError as error:
+              print('RESULT HTTP_ERROR',error.code)
+              raise SystemExit(1)
+          except Exception:
+              print('RESULT TRANSPORT_OR_RESPONSE_ERROR')
+              raise SystemExit(1)
