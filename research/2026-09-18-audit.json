@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-18",
+  "qualifying": [
+    "aldar-talay-marsa-al-saadiyat",
+    "modon-wadeem-gardens"
+  ],
+  "coverage": {
+    "instagramTargetedQueriesAtLeast": 45,
+    "namedBrokerSearchAttempts": 20,
+    "nativeInstagramAccountsInspected": 0,
+    "instagramIndexedRelevantPostsApprox": 10,
+    "brokerProjectPagesOpened": 2,
+    "watchlistSources": 52,
+    "youtube": "Indexed Wadeem Gardens launch video leads; full video open throttled",
+    "propsearch": "Homepage 502; Latest buildings inaccessible. No other columns used.",
+    "news": "Aldar original 17 September PDF verified; UAE property/news searches returned mixed relevance. Zawya robots blocked; Arabian Business article open failed.",
+    "limitations": "Many Instagram-targeted queries returned unrelated results. They are attempts, not account inspections. 20 distinct successfully inspected Instagram broker accounts target NOT met."
+  },
+  "publication": {
+    "feedSha": "c6af85dcf4cf9649f7d08003dc81fb18ead6755f",
+    "sitePR": 67,
+    "siteDeployRun": 35307996436,
+    "originalSyncFailure": "GH013: Changes must be made through a pull request. No workflow or branch protection changed.",
+    "status": "Site production build in progress at report creation; live delivery not yet confirmed."
+  },
+  "images": [
+    {
+      "project": "modon-wadeem-gardens",
+      "source": "https://media.luxurylocated.com/launches/wadeem-gardens/villa4-1200.webp",
+      "identity": "4-bedroom villa developer rendering, explicitly labelled on broker page; visually inspected. Centered intact on blurred background.",
+      "sha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10"
+    },
+    {
+      "project": "aldar-talay-marsa-al-saadiyat",
+      "source": "Previously approved assets/whatsapp/marsa-al-saadiyat.jpg Aldar logo",
+      "identity": "GRAF factual card with Aldar logo; NOT an architectural render. Original developer image download failed.",
+      "sha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc"
+    }
+  ]
+}
