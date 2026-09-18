@@ -1,0 +1,301 @@
+name: Private CRM full read-only archive
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/whapi-crm-full.yml']
+permissions:
+  contents: read
+concurrency:
+  group: whatsapp-research-readonly
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    env:
+      WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+      CRM_CUTOFF: '1789736966'
+      CRM_PUBLIC_KEY: "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAvdaX5k21hPw5cLKW2WQZ\nz95dT4sSjv4GydL+KXlwXO4McLPo4ZCIQo2KlcwcaziVXf5MgIUgcS2iCi2tR3/D\nqbCM+bC7eCtwq2TcGpqB5DAoixh7ZPRDfRZWpjlQ91q5Qvny/lkTKneKMOSiRVhi\nFipYAPdgdyD4m4Xk+7ZKRS0ZdkoWhgEp/wj2EIYLKgkEBQ1a8o28fE8IKLFkc8Yk\nyhIYG4LYxrPCAR84gsrzfSVqI6UmvcHWC2zFvbpZQr2Ahkcbqk601rwzDbElEaTm\nhTU3l3+MxlD90WaT4ReTEdam27qSs/XiE+Su22jXWCupkVD3VZR00TnEZDfy+Shl\nphOYwjAmIjC29TpJUm3GWUPL999J6CaO1F5rXW0su4R94vgErrYv46IGGQho6KNM\nltP+oqSDRHxqMmkBcfiLxmSUxe5NIk+zNdvUA9mVBtIVQHf6C9S7YTd5p79eSO1y\nyJM84Bnxg5YKVkBqi7vjRDhELch7kXxkoVsNVnvHhTsdAgMBAAE=\n-----END PUBLIC KEY-----"
+    steps:
+      - name: Read encrypted batch 0
+        env:
+          CRM_BATCH: '0'
+        run: &reader |
+          node --input-type=module <<'NODE'
+          import {randomBytes,publicEncrypt,createCipheriv,constants,createHash} from 'node:crypto';
+          import {appendFileSync} from 'node:fs';
+          const token=process.env.WHAPI_TOKEN;
+          const pub=process.env.CRM_PUBLIC_KEY;
+          const batch=Number(process.env.CRM_BATCH);
+          const cutoff=Number(process.env.CRM_CUTOFF);
+          const path='crm-full-'+batch+'.encrypted.jsonl';
+          let requests=0,completed=0,pages=0;
+          const pause=ms=>new Promise(r=>setTimeout(r,ms));
+          function save(record){
+           const key=randomBytes(32),iv=randomBytes(12),c=createCipheriv('aes-256-gcm',key,iv);
+           const raw=Buffer.from(JSON.stringify(record).split(token).join('[REDACTED]'));
+           const body=Buffer.concat([c.update(raw),c.final()]);raw.fill(0);
+           const envelope={v:1,key:publicEncrypt({key:pub,padding:constants.RSA_PKCS1_OAEP_PADDING,oaepHash:'sha256'},key).toString('base64'),iv:iv.toString('base64'),tag:c.getAuthTag().toString('base64'),ciphertext:body.toString('base64')};
+           appendFileSync(path,JSON.stringify(envelope)+'\n',{mode:0o600});key.fill(0);
+          }
+          function allowed(p){
+           return p==='/health?wakeup=false'||/^\/(chats|contacts)\?count=500&offset=\d+$/.test(p)||/^\/labels(?:\/[0-9]+)?$/.test(p)||/^\/contacts\/ids\/[0-9]+%40lid$/.test(p)||/^\/messages\/list\/[0-9]+%40(?:lid|s\.whatsapp\.net)\?count=500&offset=\d+&sort=desc&normal_types=false&time_to=\d+$/.test(p);
+          }
+          async function get(p){
+           if(!allowed(p))throw Error('PATH_NOT_ALLOWED');
+           for(let attempt=0;attempt<5;attempt++){
+            await pause(5000);requests++;
+            let r;try{r=await fetch('https://gate.whapi.cloud'+p,{method:'GET',headers:{Authorization:'Bearer '+token},redirect:'error',signal:AbortSignal.timeout(45000)});}catch{if(attempt===4)throw Error('NETWORK');await pause(10000*2**attempt);continue;}
+            if(r.ok)return r.json();
+            if([401,403].includes(r.status))throw Error('AUTH_STOP_'+r.status);
+            if([429,500,502,503,504].includes(r.status)){
+             if(attempt===4)throw Error('SERVICE_STOP_'+r.status);
+             const retry=r.headers.get('retry-after');const seconds=retry?Number(retry):0;
+             const delay=Number.isFinite(seconds)?seconds*1000:Math.max(0,Date.parse(retry)-Date.now());
+             if(delay>300000)throw Error('LONG_RETRY_STOP');
+             await pause(Math.max(30000*2**attempt,delay||0));continue;
+            }
+            throw Error('HTTP_'+r.status);
+           }
+          }
+          async function list(base,key){
+           const seen=new Map();
+           for(let offset=0;;offset+=500){
+            const d=await get(base+'?count=500&offset='+offset);
+            if(!Array.isArray(d[key]))throw Error('SCHEMA');
+            if(!d[key].length)return [...seen.values()];
+            let added=0;for(const row of d[key]){if(!seen.has(row.id))added++;seen.set(row.id,row);}
+            if(!added)throw Error('PAGINATION_STALLED');
+           }
+          }
+          try{
+           if(!token)throw Error('MISSING_TOKEN');
+           const h=await get('/health?wakeup=false');
+           if(h.status?.text!=='AUTH')throw Error('CHANNEL_NOT_AUTH');
+           console.log('CHANNEL_AUTHORIZED batch',batch);
+           const chats=await list('/chats','chats');
+           const personal=chats.filter(c=>!['group','newsletter','broadcast','stories','announcement'].includes(c.type)&&/^[0-9]+@(s\.whatsapp\.net|lid)$/.test(c.id));
+           const selected=personal.filter(c=>parseInt(createHash('sha256').update(c.id).digest('hex').slice(0,8),16)%16===batch).sort((a,b)=>a.id.localeCompare(b.id));
+           save({kind:'inventory',batch,cutoff,started:new Date().toISOString(),chats,personal_ids:personal.map(c=>c.id),selected_ids:selected.map(c=>c.id),history_coverage:'PARTIAL_HISTORY'});
+           console.log('INVENTORY total_chats',chats.length,'personal_chats',personal.length,'batch_chats',selected.length);
+           if(batch===0){
+            save({kind:'contacts',contacts:await list('/contacts','contacts')});
+            const lr=await get('/labels'),labels=Array.isArray(lr)?lr:lr.labels;if(!Array.isArray(labels))throw Error('LABEL_SCHEMA');
+            save({kind:'labels',labels});
+            for(const l of labels){try{save({kind:'label_association',label_id:l.id,result:await get('/labels/'+encodeURIComponent(l.id))});}catch(e){if(e.message!=='HTTP_404')throw e;save({kind:'label_error',label_id:l.id,error:'HTTP_404'});}}
+           }
+           for(const chat of selected){
+            if(completed&&completed%20===0){const h=await get('/health?wakeup=false');if(h.status?.text!=='AUTH')throw Error('CHANNEL_NOT_AUTH');}
+            const seen=new Set();let oldest=null;let totalAtFirst=null;let offset=0;
+            try{
+             for(;;offset+=500){
+              const d=await get('/messages/list/'+encodeURIComponent(chat.id)+'?count=500&offset='+offset+'&sort=desc&normal_types=false&time_to='+cutoff);
+              if(!Array.isArray(d.messages))throw Error('MESSAGE_SCHEMA');
+              if(offset===0)totalAtFirst=d.total??d.count??null;
+              if(!d.messages.length){save({kind:'chat_checkpoint',chat_id:chat.id,last_processed_offset:offset,oldest_processed_timestamp:oldest,message_count:seen.size,api_total_field:totalAtFirst,processing_status:seen.size?'complete':'empty',error:null});break;}
+              const unique=[];for(const m of d.messages){if(seen.has(m.id))continue;seen.add(m.id);unique.push(m);oldest=oldest===null?m.timestamp:Math.min(oldest,m.timestamp);}
+              save({kind:'message_page',chat_id:chat.id,offset,messages:unique,api_total:d.total??null,last_processed_offset:offset,oldest_processed_timestamp:oldest,message_count:seen.size,processing_status:'in_progress'});pages++;
+              if(!unique.length)throw Error('PAGINATION_STALLED');
+             }
+             if(chat.id.endsWith('@lid')){try{save({kind:'lid_mapping',chat_id:chat.id,result:await get('/contacts/ids/'+encodeURIComponent(chat.id))});}catch(e){if(!['HTTP_404','HTTP_400'].includes(e.message))throw e;save({kind:'lid_mapping',chat_id:chat.id,error:e.message});}}
+            }catch(e){
+             save({kind:'chat_checkpoint',chat_id:chat.id,last_processed_offset:offset,oldest_processed_timestamp:oldest,message_count:seen.size,processing_status:'error',error:/^(HTTP_\d+|AUTH_STOP_\d+|SERVICE_STOP_\d+|[A-Z_]+)$/.test(e.message)?e.message:'READ_FAILED'});
+             if(e.message!=='HTTP_404')throw e;
+            }
+            completed++;console.log('PROGRESS batch',batch,'chats',completed,'pages',pages,'requests',requests);
+           }
+           save({kind:'batch_complete',batch,completed,pages,requests,finished:new Date().toISOString()});
+           console.log('BATCH_COMPLETE',batch,'chats',completed);
+          }catch(e){
+           if(token)save({kind:'fatal',batch,completed,pages,requests,error:/^(HTTP_\d+|AUTH_STOP_\d+|SERVICE_STOP_\d+|[A-Z_]+)$/.test(e.message)?e.message:'FAILED'});
+           console.log('STOPPED_DETAILS_ENCRYPTED');process.exitCode=1;
+          }
+          NODE
+      - name: Save encrypted batch 0
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-0
+          path: crm-full-0.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 1
+        env:
+          CRM_BATCH: '1'
+        run: *reader
+      - name: Save encrypted batch 1
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-1
+          path: crm-full-1.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 2
+        env:
+          CRM_BATCH: '2'
+        run: *reader
+      - name: Save encrypted batch 2
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-2
+          path: crm-full-2.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 3
+        env:
+          CRM_BATCH: '3'
+        run: *reader
+      - name: Save encrypted batch 3
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-3
+          path: crm-full-3.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 4
+        env:
+          CRM_BATCH: '4'
+        run: *reader
+      - name: Save encrypted batch 4
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-4
+          path: crm-full-4.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 5
+        env:
+          CRM_BATCH: '5'
+        run: *reader
+      - name: Save encrypted batch 5
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-5
+          path: crm-full-5.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 6
+        env:
+          CRM_BATCH: '6'
+        run: *reader
+      - name: Save encrypted batch 6
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-6
+          path: crm-full-6.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 7
+        env:
+          CRM_BATCH: '7'
+        run: *reader
+      - name: Save encrypted batch 7
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-7
+          path: crm-full-7.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 8
+        env:
+          CRM_BATCH: '8'
+        run: *reader
+      - name: Save encrypted batch 8
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-8
+          path: crm-full-8.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 9
+        env:
+          CRM_BATCH: '9'
+        run: *reader
+      - name: Save encrypted batch 9
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-9
+          path: crm-full-9.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 10
+        env:
+          CRM_BATCH: '10'
+        run: *reader
+      - name: Save encrypted batch 10
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-10
+          path: crm-full-10.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 11
+        env:
+          CRM_BATCH: '11'
+        run: *reader
+      - name: Save encrypted batch 11
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-11
+          path: crm-full-11.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 12
+        env:
+          CRM_BATCH: '12'
+        run: *reader
+      - name: Save encrypted batch 12
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-12
+          path: crm-full-12.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 13
+        env:
+          CRM_BATCH: '13'
+        run: *reader
+      - name: Save encrypted batch 13
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-13
+          path: crm-full-13.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 14
+        env:
+          CRM_BATCH: '14'
+        run: *reader
+      - name: Save encrypted batch 14
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-14
+          path: crm-full-14.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
+      - name: Read encrypted batch 15
+        env:
+          CRM_BATCH: '15'
+        run: *reader
+      - name: Save encrypted batch 15
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: crm-full-encrypted-15
+          path: crm-full-15.encrypted.jsonl
+          retention-days: 1
+          if-no-files-found: ignore
