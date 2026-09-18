@@ -82,7 +82,7 @@
       "verifiedAt": "2026-09-14T06:33:44.035Z"
     },
     "aldar-talay-marsa-al-saadiyat:2026-09-17-first-villa-release": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "aldar-talay-marsa-al-saadiyat",
       "body": "TALAY — FIRST VILLAS AT MARSA AL SAADIYAT\n\nAldar has announced 351 standalone 4–6 bedroom villas on Saadiyat Island. Sales open on 23 September 2026.\n\nThis is the first named residential release within the Marsa Al Saadiyat masterplan — a new opportunity for buyers following the island's next waterfront district.\n\nDeveloper-confirmed starting prices, booking terms and handover were not included in the announcement checked.\n\nhttps://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
       "imageRepoPath": "assets/whatsapp/aldar-talay-marsa-al-saadiyat.jpg",
@@ -93,7 +93,8 @@
         "sha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc"
       },
       "attemptedAt": "2026-09-18T04:58:18.924Z",
-      "messageId": "Psr1lWTh9X5Ind8-134Bq53f_uALiA-nA"
+      "messageId": "Psr1lWTh9X5Ind8-134Bq53f_uALiA-nA",
+      "verifiedAt": "2026-09-18T04:58:26.628Z"
     }
   }
 }
