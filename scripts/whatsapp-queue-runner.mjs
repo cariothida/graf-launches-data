@@ -31,7 +31,7 @@ if(!p){console.log('No due unpublished hot launches');process.exit(0);}
 if(!process.env.API_TOKEN)throw Error('WHAPI_TOKEN is missing');
 const transport=new StdioClientTransport({command:'npx',args:['-y','whapi-mcp@0.0.21'],env:{...process.env},stderr:'pipe'});
 const client=new Client({name:'graf-hot-launch-queue',version:'1.0.0'});
-const timer=setTimeout(()=>{console.error('Deadline; inspect durable pending state before retrying');process.exit(1)},150000);
+const timer=setTimeout(()=>{console.error('Deadline; inspect durable pending state before retrying');process.exit(1)},480000);
 async function call(name,args){
  const r=await client.callTool({name,arguments:args},undefined,{timeout:45000});
  if(r.isError)throw Error(name+' tool error');
@@ -44,6 +44,7 @@ try{
  await client.connect(transport);
  const channel=await call('getNewsletterByInviteCode',{NewsletterInviteCode:inviteCode});
  if(channel.id!==channelId||channel.invite_code!==inviteCode)throw Error('Recipient identity mismatch');
+ do {
  const existing=ledger.data.posts[p.eventKey];
  if(existing?.body&&existing.body!==p.body)throw Error('Pending/sent event body was changed; reconcile before publication');
  if((existing?.imageUrl && existing.imageUrl!==p.imageUrl)||(existing?.imageRepoPath && existing.imageRepoPath!==p.imageRepoPath))throw Error('Pending image was changed');
@@ -85,5 +86,7 @@ try{
    ledger.data.posts[p.eventKey].verifiedAt=new Date().toISOString();
    await save();console.log('PUBLICATION_VERIFIED '+p.eventKey+' '+id);
  }
+ p=due(q,ledger.data);
+ } while(p);
 }catch(e){console.error(String(e.message).replaceAll(process.env.API_TOKEN||'__NO_TOKEN__','[REDACTED]'));process.exitCode=1;}
 finally{clearTimeout(timer);await client.close();}
