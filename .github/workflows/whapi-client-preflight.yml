@@ -5,30 +5,39 @@ on:
     paths: ['.github/workflows/whapi-client-preflight.yml']
 permissions:
   contents: read
-concurrency:
-  group: whatsapp-research-readonly
-  cancel-in-progress: false
 jobs:
-  health:
+  schema:
     runs-on: ubuntu-latest
     timeout-minutes: 2
     steps:
-      - name: One read-only health request using built-in Node fetch
-        env:
-          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
-        shell: bash
+      - name: Retrieve public schema without credentials
         run: |
           node --input-type=module <<'NODE'
-          try {
-            const token=process.env.WHAPI_TOKEN;
-            if(!token){console.log('RESULT TOKEN_MISSING');process.exit(1);}
-            const response=await fetch('https://gate.whapi.cloud/health?wakeup=false',{method:'GET',headers:{Authorization:'Bearer '+token,Accept:'application/json'},redirect:'error',signal:AbortSignal.timeout(30000)});
-            console.log('RESULT HTTP_STATUS',response.status);
-            if(!response.ok){process.exit(1);}
-            const body=await response.json();
-            const status=body.status;
-            if(Number.isInteger(status?.code))console.log('RESULT STATUS_CODE',status.code);
-            if(['AUTH','QR','INIT','LAUNCH','STOP','SYNC_ERROR','ERROR'].includes(status?.text))console.log('RESULT STATUS_TEXT',status.text);
-            console.log('RESULT NO_PERSONAL_DATA_LOGGED');
-          }catch{console.log('RESULT TRANSPORT_OR_RESPONSE_ERROR');process.exitCode=1;}
+          import {writeFileSync} from 'node:fs';
+          const r=await fetch('https://panel.whapi.cloud/yaml/openapi.yaml',{signal:AbortSignal.timeout(30000)});
+          if(!r.ok)throw Error('Public schema HTTP '+r.status);
+          writeFileSync('schema.yaml',await r.text());
           NODE
+      - name: Inspect public read endpoints
+        shell: python
+        run: |
+          import yaml,json
+          d=yaml.safe_load(open('schema.yaml'))
+          print('SCHEMA_VERSION',d['info']['version'])
+          def resolve(x):
+              if isinstance(x,dict):
+                  if '$ref' in x and x['$ref'].startswith('#/'):
+                      y=d
+                      for part in x['$ref'][2:].split('/'): y=y[part]
+                      return resolve(y)
+                  return {k:resolve(v) for k,v in x.items()}
+              if isinstance(x,list):return [resolve(v) for v in x]
+              return x
+          for p,o in d['paths'].items():
+              if p in ['/health','/chats','/contacts','/labels','/messages/list','/messages/list/{ChatID}'] or 'lid' in p.lower() or 'labels/' in p:
+                  if 'get' in o:
+                      g=o['get']
+                      print('ENDPOINT',json.dumps({'path':p,'summary':g.get('summary'),'description':g.get('description'),'parameters':resolve(g.get('parameters',[]))}))
+          for n,s in d.get('components',{}).get('schemas',{}).items():
+              if n.lower() in ['chat','contact','label','chatslist','contactslist','labelslist'] or 'Chats' in n or 'Contacts' in n:
+                  print('RESPONSE_SCHEMA',n,json.dumps(s))
