@@ -1,48 +1,47 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-14",
+  "briefingDate": "2026-09-18",
   "posts": [
     {
-      "projectId": "valia-dubai-creek-harbour",
-      "eventKey": "valia-dubai-creek-harbour:2026-08-31-sales-launch",
+      "projectId": "aldar-talay-marsa-al-saadiyat",
+      "eventKey": "aldar-talay-marsa-al-saadiyat:2026-09-17-first-villa-release",
       "kind": "hot-launch",
       "language": "en",
       "status": "confirmed",
       "approved": true,
-      "materialUpdate": "Emaar's live Valia page confirms 1–4BR apartments and a starting price of AED 1.96 million; dated broker material reports sales opening on 31 August 2026.",
+      "materialUpdate": "Aldar officially named the first residential release at Marsa Al Saadiyat on 17 September: 351 villas; sales open 23 September 2026.",
       "sources": [
-        "https://www.emaar.com/en/properties/valia-at-dubai-creek-harbour",
-        "https://www.instagram.com/p/Dc1BcM3iEUj/",
-        "https://www.aktrealestate.ae/en/offplan/valia-by-emaar-dubai-creek-harbour"
+        "https://www.aldar.com/en/news-and-media/aldar-launches-first-homes-at-marsa-al-saadiyat-with-351-exclusive-villas-at-talay",
+        "https://vazeno.files.cmp.optimizely.com/download/assets/260917%2BAldar%2BTalay%2BPress%2BRelease%2BEn.pdf/fb34d9d4b28f11f18e6f8e7f8cce680b",
+        "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/"
       ],
-      "siteUrl": "https://graf.ae/launches/valia-dubai-creek-harbour/",
-      "body": "VALIA — DUBAI CREEK HARBOUR\n\nEmaar has launched Valia, a waterfront residential tower with 1–4 bedroom apartments. Emaar's official page confirms prices from AED 1.96 million.\n\nCurrent broker material indicates an 80/20 payment plan and Q4 2030 handover; those commercial terms still need confirmation against Emaar's sales documents.\n\nhttps://graf.ae/launches/valia-dubai-creek-harbour/",
-      "imageRepoPath": "assets/whatsapp/valia-dubai-creek-harbour.jpg",
+      "siteUrl": "https://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
+      "body": "TALAY — FIRST VILLAS AT MARSA AL SAADIYAT\n\nAldar has announced 351 standalone 4–6 bedroom villas on Saadiyat Island. Sales open on 23 September 2026.\n\nThis is the first named residential release within the Marsa Al Saadiyat masterplan — a new opportunity for buyers following the island's next waterfront district.\n\nDeveloper-confirmed starting prices, booking terms and handover were not included in the announcement checked.\n\nhttps://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
+      "imageRepoPath": "assets/whatsapp/aldar-talay-marsa-al-saadiyat.jpg",
       "imageVerified": true,
-      "imageSha256": "8c94ba7eb5bea9b855e4a43f6d43cbf0903bf94c9c7dc2096cb98829d77f0940",
-      "scheduledAt": "2026-09-14T08:00:00+04:00",
-      "scheduleReason": "Strongest unsent verified launch from the latest briefing; publish first"
+      "imageSha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "First of two daily posts; eligible after verified website delivery"
     },
     {
-      "projectId": "avenue-park-towers-ii",
-      "eventKey": "avenue-park-towers-ii:2026-09-09-launching-soon-announcement",
+      "projectId": "modon-wadeem-gardens",
+      "eventKey": "modon-wadeem-gardens:2026-09-14-broker-launch-eoi",
       "kind": "hot-launch",
       "language": "en",
-      "status": "confirmed",
+      "status": "broker-intelligence",
       "approved": true,
-      "materialUpdate": "Wasl announced Avenue Park Towers II on 9 September 2026, opened registration and marked the project launching soon.",
+      "materialUpdate": "Multiple brokers cite 14 September launch materials and open EOIs for Modon's Wadeem Gardens 4–6BR villas.",
       "sources": [
-        "https://www.wasl.ae/en/project/avenue-park-towers2",
-        "https://www.instagram.com/p/DdEbUhXlANe/",
-        "https://datahabibi.ae/dubai/new-projects/avenue-park-towers-ii"
+        "https://www.mpinv.ae/wadeem-gardens",
+        "https://luxurylocated.com/wadeem-gardens"
       ],
-      "siteUrl": "https://graf.ae/launches/avenue-park-towers-ii/",
-      "body": "AVENUE PARK TOWERS II — LAUNCHING SOON\n\nWasl has opened registration for the final development within Wasl 1, beside Zabeel Park and within walking distance of Max Metro Station.\n\nDLD-derived records indicate 1–4 bedroom apartments plus offices and retail. Wasl has not yet released the sales-opening date or starting prices.\n\nhttps://graf.ae/launches/avenue-park-towers-ii/",
-      "imageRepoPath": "assets/whatsapp/avenue-park-towers-ii.jpg",
+      "siteUrl": "https://graf.ae/launches/modon-wadeem-gardens/",
+      "body": "WADEEM GARDENS — HUDAYRIYAT ISLAND\n\nBroker intelligence: Modon's new villa collection is being marketed with 4, 5 and 6 bedrooms across three gated clusters.\n\nBrokers quote prices from AED 8.7 million and a refundable AED 50,000 EOI. Advertised terms include 25/75 payments, 5% on reservation and Q2 2031 handover, with financing subject to approval. These figures are not yet independently developer-confirmed.\n\nA new family-villa option in Abu Dhabi's major island development programme.\n\nImage: project marketing render.\nhttps://graf.ae/launches/modon-wadeem-gardens/",
+      "imageRepoPath": "assets/whatsapp/modon-wadeem-gardens.jpg",
       "imageVerified": true,
-      "imageSha256": "3cced745d158ad3279c8d2ed792939c6a7857d5d36acc95ae3ccc4f5a7d96493",
-      "scheduledAt": "2026-09-14T20:00:00+04:00",
-      "scheduleReason": "Second unsent verified launch; preserve the evening slot"
+      "imageSha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10",
+      "scheduledAt": "2026-09-18T20:00:00+04:00",
+      "scheduleReason": "Second of two daily posts; evening spacing"
     }
   ]
 }
