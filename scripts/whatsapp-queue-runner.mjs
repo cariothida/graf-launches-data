@@ -2,6 +2,7 @@ import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StdioClientTransport } from '@modelcontextprotocol/sdk/client/stdio.js';
 import { channelId, inviteCode, validate, due, containsBody } from './whatsapp-queue-policy.mjs';
 import {checkImage} from './whatsapp-queue-image.mjs';
+import { replacementDue, isReplacement, archiveReplacement } from './whatsapp-queue-replacement.mjs';
 const repo = 'cariothida/graf-launches-data';
 const dry = process.env.DRY_RUN === 'true';
 async function github(path, options = {}) {
@@ -22,10 +23,10 @@ async function save() {
  ledger.sha=r.content.sha;
 }
 if(dry){console.log('DRY_RUN: queue validation passed; no messages or ledger writes');process.exit(0);}
-let p=due(q,ledger.data);
+let p=replacementDue(q,ledger.data);
 if(!p){
  const next=q.posts.find(x=>x.scheduledAt && ledger.data.posts[x.eventKey]?.state!=='sent' && Date.parse(x.scheduledAt)>Date.now() && Date.parse(x.scheduledAt)-Date.now()<=240000);
- if(next){console.log('Waiting for explicit authorized slot '+next.scheduledAt);while(Date.now()<Date.parse(next.scheduledAt))await new Promise(r=>setTimeout(r,Math.min(15000,Date.parse(next.scheduledAt)-Date.now())));p=due(q,ledger.data);}
+ if(next){console.log('Waiting for explicit authorized slot '+next.scheduledAt);while(Date.now()<Date.parse(next.scheduledAt))await new Promise(r=>setTimeout(r,Math.min(15000,Date.parse(next.scheduledAt)-Date.now())));p=replacementDue(q,ledger.data);}
 }
 if(!p){console.log('No due unpublished hot launches');process.exit(0);}
 if(!process.env.API_TOKEN)throw Error('WHAPI_TOKEN is missing');
@@ -46,14 +47,16 @@ try{
  if(channel.id!==channelId||channel.invite_code!==inviteCode)throw Error('Recipient identity mismatch');
  do {
  const existing=ledger.data.posts[p.eventKey];
+ const replacing=isReplacement(p,existing);
  if(existing?.body&&existing.body!==p.body)throw Error('Pending/sent event body was changed; reconcile before publication');
- if((existing?.imageUrl && existing.imageUrl!==p.imageUrl)||(existing?.imageRepoPath && existing.imageRepoPath!==p.imageRepoPath))throw Error('Pending image was changed');
+ if(!replacing && ((existing?.imageUrl && existing.imageUrl!==p.imageUrl)||(existing?.imageRepoPath && existing.imageRepoPath!==p.imageRepoPath)))throw Error('Pending image was changed');
  const history=await call('getMessagesNewsletter',{NewsletterID:channelId,count:100});
+ if(replacing && (containsBody(history,p.body)||containsBody(history,existing.messageId)))throw Error('WAITING_FOR_USER_DELETION '+p.projectId+'; original post still visible, no duplicate sent');
  if(containsBody(history,p.body)){
    ledger.data.posts[p.eventKey]={...existing,projectId:p.projectId,body:p.body,state:'sent',verifiedAt:new Date().toISOString(),reconciled:true};
    await save();console.log('VERIFIED existing post; no resend: '+p.eventKey);
  }else{
-   if(existing)throw Error('UNRESOLVED previous send attempt for '+p.eventKey+'; no blind resend');
+   if(existing && !replacing)throw Error('UNRESOLVED previous send attempt for '+p.eventKey+'; no blind resend');
    if(!(p.imageUrl||p.imageRepoPath)||p.imageVerified!==true)throw Error('PUBLICATION BLOCKED: every launch requires a verified image; text-only fallback is forbidden');
    const page=await fetch(p.siteUrl,{redirect:'error',signal:AbortSignal.timeout(20000)});
    if(!page.ok)throw Error('Launch page not live HTTP '+page.status);
@@ -68,7 +71,7 @@ try{
      if(p.imageSha256 && p.imageSha256!==imageQA.sha256)throw Error('Published image differs from approved asset');
    }
    // Persist BEFORE sending. If the runner dies, later runs reconcile history, never blindly resend.
-   ledger.data.posts[p.eventKey]={state:'pending',projectId:p.projectId,body:p.body,imageUrl:p.imageUrl,imageRepoPath:p.imageRepoPath,imageQA,attemptedAt:new Date().toISOString()};
+   ledger.data.posts[p.eventKey]={...archiveReplacement(p,existing),state:'pending',projectId:p.projectId,body:p.body,imageUrl:p.imageUrl,imageRepoPath:p.imageRepoPath,imageQA,attemptedAt:new Date().toISOString()};
    await save();
    const hasImage=!!(p.imageUrl||p.imageRepoPath);
    const sent=await call(hasImage?'sendMessageImage':'sendMessageText',hasImage?{to:channelId,media:p.imageRepoPath?'data:image/jpeg;name='+p.projectId+'.jpg;base64,'+imageBytes.toString('base64'):p.imageUrl,caption:p.body}:{to:channelId,body:p.body,no_link_preview:true});
@@ -87,7 +90,7 @@ try{
    ledger.data.posts[p.eventKey].verifiedAt=new Date().toISOString();
    await save();console.log('PUBLICATION_VERIFIED '+p.eventKey+' '+id);
  }
- p=due(q,ledger.data);
+ p=replacementDue(q,ledger.data);
  } while(p);
 }catch(e){console.error(String(e.message).replaceAll(process.env.API_TOKEN||'__NO_TOKEN__','[REDACTED]'));process.exitCode=1;}
 finally{clearTimeout(timer);await client.close();}

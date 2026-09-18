@@ -3,76 +3,132 @@
   "briefingDate": "2026-09-18",
   "posts": [
     {
-      "projectId": "meraas-solaya-building-8",
-      "eventKey": "meraas-solaya-building-8:2026-09-14-building-8-eoi-signal",
+      "projectId": "aldar-yas-riva-reserve",
+      "eventKey": "aldar-yas-riva-reserve:2026-09-17-prelaunch-collection",
       "kind": "hot-launch",
       "language": "en",
       "status": "broker-intelligence",
       "approved": true,
-      "materialUpdate": "Upcoming release; a 14 September 2026 WhatsApp sales briefing says EOI will open. Exact opening date not specified.",
+      "materialUpdate": "Coming soon: pre-launch material circulated 17 September 2026; exact sales-opening date not confirmed",
       "sources": [
-        "https://solaya.meraas.com/"
+        "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas"
       ],
-      "siteUrl": "https://graf.ae/launches/meraas-solaya-building-8/",
-      "body": "SOLAYA — BUILDING 8 | Meraas / Brookfield\nJumeirah beachfront, Dubai\n\nBroker intelligence: a directly reviewed sales briefing dated 14 September identifies Building 8 as an upcoming release and signals that EOI will open.\n\nThe opening date, building-specific unit mix, starting prices and payment terms are not yet confirmed. Existing Solaya prices should not be assumed to apply to this release.\n\nAn early-access lead for buyers seeking Jumeirah beachfront homes.\n\nDetails and updates:\nhttps://graf.ae/launches/meraas-solaya-building-8/",
+      "siteUrl": "https://graf.ae/launches/aldar-yas-riva-reserve/",
+      "body": "YAS RIVA RESERVE | Aldar\nYas Island, Abu Dhabi\n\nBroker intelligence: a new collection of 4–6 bedroom villas is being promoted ahead of launch. Briefings circulated on 17 September; the sales date, starting prices, payment plan and handover are not yet confirmed.\n\nAn early-access opportunity for buyers seeking family villas on Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
       "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
-    },
-    {
-      "projectId": "ohana-manchester-city-yas-residences-phase-2",
-      "eventKey": "ohana-manchester-city-yas-residences-phase-2:2026-09-15-phase-2-october-briefing",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "broker-intelligence",
-      "approved": true,
-      "materialUpdate": "October 2026 expected in a directly reviewed 15 September WhatsApp sales briefing; exact date remains provisional.",
-      "sources": [
-        "https://www.thesun.co.uk/sport/40283364/man-city-fans-abu-dhabi-homes-private-beach/"
-      ],
-      "siteUrl": "https://graf.ae/launches/ohana-manchester-city-yas-residences-phase-2/",
-      "body": "MANCHESTER CITY YAS RESIDENCES — PHASE 2 | Ohana\nYas Canal, Abu Dhabi\n\nBroker intelligence: a 15 September sales briefing points to an October release, with approximately 600 homes: 2–3BR + maid townhouses and 4–5BR standalone villas.\n\nThe briefing indicates an AVERAGE AED 3.8m for 2BR townhouses — not a starting price. An expected 40/60 plan and Q4 2029 handover remain provisional, subject to final confirmation.\n\nA phase-specific opportunity to prepare for ahead of the confirmed release.\n\nDetails and updates:\nhttps://graf.ae/launches/ohana-manchester-city-yas-residences-phase-2/",
-      "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
-    },
-    {
-      "projectId": "bloom-living-alhambra",
-      "eventKey": "bloom-living-alhambra:2026-09-09-final-release",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "Launch announcement reported 9 September 2026; exact sales-opening day not separately specified",
-      "sources": [
-        "https://gulftime.ae/bloom-holding-launches-alhambra-the-vibrant-heart-and-final-release-of-bloom-living/",
-        "https://bloomholding.com/ar/press-releases/bloom-holding-launches-final-phase-of-bloom-living-alhambra",
-        "https://www.instagram.com/p/DdDyByrNQzX/",
-        "https://abudhabioffplan.ae/developers/bloom-properties"
-      ],
-      "siteUrl": "https://graf.ae/launches/bloom-living-alhambra/",
-      "body": "ALHAMBRA AT BLOOM LIVING | Bloom Holding\nZayed City, Abu Dhabi\n\nA recent launch you may have missed: Bloom Living's final residential release, announced on 9 September.\n\nStudios–3BR apartments, 3BR townhouses and limited 4BR penthouses. Announced starting price: AED 865,000; current availability requires confirmation.\n\nFinal booking terms remain to be verified. The planned Souk Alhambra retail and services centre adds interest for family and rental buyers.\n\nDetails and updates:\nhttps://graf.ae/launches/bloom-living-alhambra/",
-      "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up."
-    },
-    {
-      "projectId": "avenue-park-towers-ii",
-      "eventKey": "avenue-park-towers-ii:2026-09-09-registration-opening",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "Officially announced 9 September 2026 and marked launching soon; exact sales-opening date not released",
-      "sources": [
-        "https://www.wasl.ae/en/project/avenue-park-towers2",
-        "https://www.instagram.com/p/DdEbUhXlANe/",
-        "https://datahabibi.ae/dubai/new-projects/avenue-park-towers-ii"
-      ],
-      "siteUrl": "https://graf.ae/launches/avenue-park-towers-ii/",
-      "body": "AVENUE PARK TOWERS II | Wasl\nWasl 1, Al Kifaf, Dubai\n\nRegistration is open for the final development within Wasl 1, announced on 9 September and marked launching soon.\n\nResidential and commercial space beside Zabeel Park and Max Metro Station. Starting prices and the exact sales-opening date have not been released in the reviewed launch material.\n\nA central-Dubai release with strong park, Metro, DIFC and Downtown access.\n\nDetails and updates:\nhttps://graf.ae/launches/avenue-park-towers-ii/",
-      "scheduledAt": "2026-09-18T08:00:00+04:00",
-      "scheduleReason": "Alex requested remaining announcements now; retry after repairing the approved image asset. No prior send attempt for this event.",
-      "imageRepoPath": "assets/whatsapp/avenue-park-towers-ii.jpg",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up.",
+      "imageRepoPath": "assets/whatsapp/aldar-yas-riva-reserve-card.jpg",
       "imageVerified": true,
-      "imageSha256": "3cced745d158ad3279c8d2ed792939c6a7857d5d36acc95ae3ccc4f5a7d96493"
+      "imageSha256": "00378ea40613ec9960290a4dce6c556bdfe5ba05c1c37b867958e4e8f017c6d9",
+      "replacement": {
+        "requestId": "alex-2026-09-18-nine-image-cards",
+        "authorizedBy": "Alex explicit delete-and-republish request",
+        "originalMessageId": "PsrFs_32ZsSLquo-1_gBq53f_uALiA-ng"
+      }
+    },
+    {
+      "projectId": "binghatti-starfall",
+      "eventKey": "binghatti-starfall:2026-09-22-tentative-launch",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "Pre-launch; 22 September 2026 is advertised as a tentative launch date by Remington, not independently confirmed by the developer",
+      "sources": [
+        "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/",
+        "https://hoomanjt.com/articles/binghatti-starfall-al-jaddaf/",
+        "https://ae.linkedin.com/in/hesham-ahmed-helmy-08092938"
+      ],
+      "siteUrl": "https://graf.ae/launches/binghatti-starfall/",
+      "body": "BINGHATTI STARFALL | Al Jaddaf, Dubai\n\nBroker intelligence: studios and 1–2 bedroom apartments, with limited Royal layouts. Brokers advertise a tentative 22 September launch; developer confirmation is awaited.\n\nPreliminary studio guidance is AED 750,000–799,000 and 1BR from AED 1.25m. These figures are unconfirmed and vary between brokers. Final payment and handover terms remain pending.\n\nA release to watch for buyers targeting central Dubai.\n\nDetails and updates:\nhttps://graf.ae/launches/binghatti-starfall/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up.",
+      "imageRepoPath": "assets/whatsapp/binghatti-starfall-card.jpg",
+      "imageVerified": true,
+      "imageSha256": "893cdf44cbe45e5c446dfb3e5b0566ef8648e2a11c164f6a540ac265d6aadaae",
+      "replacement": {
+        "requestId": "alex-2026-09-18-nine-image-cards",
+        "authorizedBy": "Alex explicit delete-and-republish request",
+        "originalMessageId": "Psq8lSJLPK85WuU-19UBq53f_uALiA-nw"
+      }
+    },
+    {
+      "projectId": "irth-rove-home-the-greens",
+      "eventKey": "irth-rove-home-the-greens:2026-09-17-project-announcement",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "Project announced 17 September 2026 as the next Rove Home launch; sales-opening date not announced in the reviewed release",
+      "sources": [
+        "https://www.ttnworldwide.com/ArticleTA/486446/rove-hotels,-irth-group-announce-uae-residential-expansion",
+        "https://propsearch.ae/dubai/rove-home-the-greens"
+      ],
+      "siteUrl": "https://graf.ae/launches/irth-rove-home-the-greens/",
+      "body": "ROVE HOME THE GREENS | IRTH × Rove\nThe Greens, Dubai\n\nProject announced on 17 September: 200 homes in an established Dubai neighbourhood.\n\nThis is confirmation of the upcoming project; sales opening has not yet been announced. Unit mix, starting prices, payment plan and handover were not specified in the announcement.\n\nA limited announced collection in a mature community makes this an early-access release worth following.\n\nDetails and updates:\nhttps://graf.ae/launches/irth-rove-home-the-greens/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up.",
+      "imageRepoPath": "assets/whatsapp/irth-rove-home-the-greens-card.jpg",
+      "imageVerified": true,
+      "imageSha256": "688e919ade7975d1bdc0dd2456e2b1581b7faf4e827a10f54421475032366d46",
+      "replacement": {
+        "requestId": "alex-2026-09-18-nine-image-cards",
+        "authorizedBy": "Alex explicit delete-and-republish request",
+        "originalMessageId": "PsqqXi7quUkcfMo-11MBq53f_uALiA-oA"
+      }
+    },
+    {
+      "projectId": "meraas-nad-al-sheba-gardens-phase-12",
+      "eventKey": "meraas-nad-al-sheba-gardens-phase-12:2026-09-14-phase-12-eoi-signal",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "September 2026 broker pre-launch/EOI signal; exact public sales-opening date not independently confirmed",
+      "sources": [
+        "https://www.dubairealestatedata.com/projects/nad-al-sheba-gardens-phase-12",
+        "https://www.lankea.com/en/projects/nad-al-sheba-gardens-phase-12",
+        "https://urbanvibe-re.ae/properties?type=apartment"
+      ],
+      "siteUrl": "https://graf.ae/launches/meraas-nad-al-sheba-gardens-phase-12/",
+      "body": "NAD AL SHEBA GARDENS — PHASE 12 | Meraas\nNad Al Sheba 1, Dubai\n\nBroker intelligence: a 14 September briefing signals an upcoming EOI opening. Register-derived records indicate 97 villas, with 4BR and 5BR homes; the final sales mix remains unconfirmed.\n\nThe exact sales date, EOI amount, starting prices and payment terms are still awaited.\n\nA distinct new phase for buyers seeking early access to this established villa community.\n\nDetails and updates:\nhttps://graf.ae/launches/meraas-nad-al-sheba-gardens-phase-12/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up.",
+      "imageRepoPath": "assets/whatsapp/meraas-nad-al-sheba-gardens-phase-12-card.jpg",
+      "imageVerified": true,
+      "imageSha256": "40b424a1064c7c6fef0ca118cbf50e9d0e0237930d3f32bd8833aaac02b6834b",
+      "replacement": {
+        "requestId": "alex-2026-09-18-nine-image-cards",
+        "authorizedBy": "Alex explicit delete-and-republish request",
+        "originalMessageId": "Pso2vDEB1fz9avE-1.UBq53f_uALiA-oQ"
+      }
+    },
+    {
+      "projectId": "reportage-the-wadi-e1-e2",
+      "eventKey": "reportage-the-wadi-e1-e2:2026-09-18-e1-e2-launch-event",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "Launch event advertised for 18 September 2026 at the Ritz-Carlton Abu Dhabi; E1/E2 first-release material circulating from 14–15 September",
+      "sources": [
+        "https://alnair.ae/en/news/the-wadi-official-launch-event",
+        "https://alnair.ae/en/news/broker-tour-recording-the-wadi-by-reportage-properties",
+        "https://www.instagram.com/p/DdRYmSGCP1f/",
+        "https://www.instagram.com/p/DdTcGHUDcyh/"
+      ],
+      "siteUrl": "https://graf.ae/launches/reportage-the-wadi-e1-e2/",
+      "body": "THE WADI — E1 & E2 | Reportage Properties\nYas Canal corridor, Abu Dhabi\n\nBroker intelligence: a launch event is advertised for 18 September, with E1 and E2 presented as the first release.\n\nBroker material describes 530 homes: studios, 1–3BR apartments and 4BR duplexes. The location is described as between Al Raha Beach and Yas Island. Starting prices and final payment terms are not yet verified; advertised Q4 2030 handover remains provisional.\n\nA new two-building release to watch near Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/reportage-the-wadi-e1-e2/",
+      "scheduledAt": "2026-09-18T08:00:00+04:00",
+      "scheduleReason": "Alex requested all remaining unsent launch announcements now; same-day catch-up.",
+      "imageRepoPath": "assets/whatsapp/reportage-the-wadi-e1-e2-card.jpg",
+      "imageVerified": true,
+      "imageSha256": "3a96aa17f879d07c97bd1df66183810b08c6c1cd6c91f5399cfb79bac85e95de",
+      "replacement": {
+        "requestId": "alex-2026-09-18-nine-image-cards",
+        "authorizedBy": "Alex explicit delete-and-republish request",
+        "originalMessageId": "PsrzJzcNaDrkMTI-1y0Bq53f_uALiA-og"
+      }
     }
   ]
 }
