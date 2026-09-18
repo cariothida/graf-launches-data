@@ -494,6 +494,64 @@
       "published": true,
       "seoTitle": "Wadeem Gardens by Modon: Hudayriyat Villa Launch | GRAF",
       "seoDescription": "Wadeem Gardens on Hudayriyat Island: broker-reported 4–6BR villas, EOI and indicative terms. Follow GRAF for developer-confirmed launch updates."
+    },
+    {
+      "id": "aldar-talay-marsa-al-saadiyat",
+      "parentId": "marsa-al-saadiyat",
+      "phase": "Talay - first residential community",
+      "project": "Talay at Marsa Al Saadiyat",
+      "developer": "Aldar",
+      "developerId": "aldar",
+      "emirate": "Abu Dhabi",
+      "location": "Marsa Al Saadiyat, Saadiyat Island, Abu Dhabi",
+      "type": [
+        "villas"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Announced 17 September 2026; sales open 23 September 2026, confirmed in Aldar's press release.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Saadiyat Marina advertises prices from AED 13.5 million; no developer-side starting price independently verified.",
+      "paymentPlan": "50/50, broker-reported by Saadiyat Marina; not confirmed in Aldar's announcement.",
+      "handover": "Broker-reported Q4 2029–Q4 2030; not confirmed in Aldar's launch announcement.",
+      "teaser": "Aldar opens sales for 351 Saadiyat villas on 23 September.",
+      "summary": "Aldar announced Talay on 17 September 2026 as the first residential community at Marsa Al Saadiyat. The release comprises 351 standalone four-, five- and six-bedroom villas, with sales opening on 23 September. This is a named first release within the previously reported masterplan, rather than a relaunch of the masterplan itself. For brokers it creates a near-term villa allocation opportunity on Saadiyat Island.",
+      "whatNext": "Sales open on 23 September; subscribe on this page for verified pricing, booking terms and availability updates.",
+      "confidenceNote": "High on developer, location, villa count, unit mix and sales date, verified against Aldar's original press release. Price, payment plan and handover remain broker indications.",
+      "unitMix": [
+        {
+          "type": "4BR villa"
+        },
+        {
+          "type": "5BR villa"
+        },
+        {
+          "type": "6BR villa"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.aldar.com/en/news-and-media/aldar-launches-first-homes-at-marsa-al-saadiyat-with-351-exclusive-villas-at-talay",
+          "label": "Aldar official announcement",
+          "date": "2026-09-17",
+          "primary": true
+        },
+        {
+          "url": "https://vazeno.files.cmp.optimizely.com/download/assets/260917%2BAldar%2BTalay%2BPress%2BRelease%2BEn.pdf/fb34d9d4b28f11f18e6f8e7f8cce680b",
+          "label": "Aldar original press release: 23 September sales opening",
+          "date": "2026-09-17"
+        },
+        {
+          "url": "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/",
+          "label": "Broker commercial indications"
+        }
+      ],
+      "firstReported": "2026-09-18",
+      "updatedAt": "2026-09-18",
+      "published": true,
+      "seoTitle": "Talay at Marsa Al Saadiyat: 23 September Sales Launch | GRAF",
+      "seoDescription": "Aldar announces 351 four- to six-bedroom Talay villas on Saadiyat Island. Sales open 23 September 2026. Verified launch facts and broker indications."
     }
   ],
   "version": 1
