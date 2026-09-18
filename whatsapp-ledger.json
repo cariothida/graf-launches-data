@@ -134,7 +134,8 @@
         "bytes": 155688,
         "sha256": "00378ea40613ec9960290a4dce6c556bdfe5ba05c1c37b867958e4e8f017c6d9"
       },
-      "attemptedAt": "2026-09-18T10:21:43.187Z"
+      "attemptedAt": "2026-09-18T10:21:43.187Z",
+      "messageId": "PsqZnqJ15AYFCHs-1.QBq53f_uALiA-pw"
     },
     "binghatti-starfall:2026-09-22-tentative-launch": {
       "state": "sent",
