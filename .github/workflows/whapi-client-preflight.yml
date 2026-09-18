@@ -5,39 +5,82 @@ on:
     paths: ['.github/workflows/whapi-client-preflight.yml']
 permissions:
   contents: read
+concurrency:
+  group: whatsapp-research-readonly
+  cancel-in-progress: false
 jobs:
-  schema:
+  inventory:
     runs-on: ubuntu-latest
-    timeout-minutes: 2
+    timeout-minutes: 20
     steps:
-      - name: Retrieve public schema without credentials
+      - name: Read-only paginated inventory with aggregate output only
+        env:
+          WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
+        shell: bash
         run: |
           node --input-type=module <<'NODE'
-          import {writeFileSync} from 'node:fs';
-          const r=await fetch('https://panel.whapi.cloud/yaml/openapi.yaml',{signal:AbortSignal.timeout(30000)});
-          if(!r.ok)throw Error('Public schema HTTP '+r.status);
-          writeFileSync('schema.yaml',await r.text());
+          const pause=ms=>new Promise(r=>setTimeout(r,ms));
+          const token=process.env.WHAPI_TOKEN;
+          let requests=0,errors=0;
+          async function get(path){
+            if(!/^\/(health\?wakeup=false|chats\?count=500&offset=\d+|contacts\?count=500&offset=\d+|labels)$/.test(path))throw Error('PATH_NOT_ALLOWED');
+            for(let attempt=0;attempt<4;attempt++){
+              await pause(3000);
+              let response;
+              try{
+                requests++;
+                response=await fetch('https://gate.whapi.cloud'+path,{method:'GET',headers:{Authorization:'Bearer '+token,Accept:'application/json'},redirect:'error',signal:AbortSignal.timeout(30000)});
+              }catch{
+                errors++;
+                if(attempt===3)throw Error('TRANSPORT_ERROR');
+                await pause(5000*2**attempt);continue;
+              }
+              if(response.ok)return await response.json();
+              errors++;
+              if([429,500,502,503,504].includes(response.status)&&attempt<3){
+                const retry=Number(response.headers.get('retry-after'));
+                if(Number.isFinite(retry)&&retry>60)throw Error('LONG_RETRY_REQUIRED');
+                await pause(Math.max(5000*2**attempt,Number.isFinite(retry)?retry*1000:0));continue;
+              }
+              throw Error('HTTP_'+response.status);
+            }
+          }
+          async function inventory(endpoint,key){
+            const seen=new Set();const types={};let pages=0,duplicates=0,offset=0,lastReportedTotal=null;
+            for(;;){
+              const data=await get(endpoint+'?count=500&offset='+offset);
+              const rows=data[key];if(!Array.isArray(rows))throw Error('UNEXPECTED_LIST_SCHEMA');
+              pages++;
+              if(Number.isFinite(data.total))lastReportedTotal=data.total;
+              if(rows.length===0)break;
+              let added=0;
+              for(const row of rows){
+                if(typeof row.id!=='string')throw Error('MISSING_ID');
+                if(seen.has(row.id)){duplicates++;continue;}
+                seen.add(row.id);added++;
+                if(key==='chats'){const type=['group','contact','broadcast','newsletter','stories','announcement','unknown'].includes(row.type)?row.type:'unknown';types[type]=(types[type]||0)+1;}
+              }
+              if(added===0)throw Error('PAGINATION_NO_PROGRESS');
+              offset+=500;
+              if(offset>500000)throw Error('INVENTORY_SAFETY_STOP');
+            }
+            console.log('RESULT INVENTORY',JSON.stringify({kind:key,unique:seen.size,pages,duplicates,lastReportedTotal,types,complete:true}));
+          }
+          try{
+            if(!token)throw Error('TOKEN_MISSING');
+            const health=await get('/health?wakeup=false');
+            if(health.status?.text!=='AUTH')throw Error('CHANNEL_NOT_AUTH');
+            console.log('RESULT CHANNEL_AUTH');
+            await inventory('/chats','chats');
+            await inventory('/contacts','contacts');
+            const result=await get('/labels');
+            const labels=Array.isArray(result)?result:result.labels;
+            if(!Array.isArray(labels))throw Error('UNEXPECTED_LABEL_SCHEMA');
+            console.log('RESULT LABELS_COUNT',labels.length);
+            console.log('RESULT REQUESTS',requests,'API_ERRORS',errors);
+            console.log('RESULT HISTORY_COVERAGE NOT_VERIFIED');
+          }catch(e){
+            const safe=/^(HTTP_\d{3}|PATH_NOT_ALLOWED|TRANSPORT_ERROR|LONG_RETRY_REQUIRED|UNEXPECTED_LIST_SCHEMA|MISSING_ID|PAGINATION_NO_PROGRESS|INVENTORY_SAFETY_STOP|TOKEN_MISSING|CHANNEL_NOT_AUTH|UNEXPECTED_LABEL_SCHEMA)$/.test(e.message)?e.message:'RESPONSE_ERROR';
+            console.log('RESULT STOP',safe,'REQUESTS',requests,'API_ERRORS',errors);process.exitCode=1;
+          }
           NODE
-      - name: Inspect public read endpoints
-        shell: python
-        run: |
-          import yaml,json
-          d=yaml.safe_load(open('schema.yaml'))
-          print('SCHEMA_VERSION',d['info']['version'])
-          def resolve(x):
-              if isinstance(x,dict):
-                  if '$ref' in x and x['$ref'].startswith('#/'):
-                      y=d
-                      for part in x['$ref'][2:].split('/'): y=y[part]
-                      return resolve(y)
-                  return {k:resolve(v) for k,v in x.items()}
-              if isinstance(x,list):return [resolve(v) for v in x]
-              return x
-          for p,o in d['paths'].items():
-              if p in ['/health','/chats','/contacts','/labels','/messages/list','/messages/list/{ChatID}'] or 'lid' in p.lower() or 'labels/' in p:
-                  if 'get' in o:
-                      g=o['get']
-                      print('ENDPOINT',json.dumps({'path':p,'summary':g.get('summary'),'description':g.get('description'),'parameters':resolve(g.get('parameters',[]))}))
-          for n,s in d.get('components',{}).get('schemas',{}).items():
-              if n.lower() in ['chat','contact','label','chatslist','contactslist','labelslist'] or 'Chats' in n or 'Contacts' in n:
-                  print('RESPONSE_SCHEMA',n,json.dumps(s))
