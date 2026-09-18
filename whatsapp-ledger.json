@@ -112,12 +112,29 @@
       "verifiedAt": "2026-09-18T05:21:47.008Z"
     },
     "aldar-yas-riva-reserve:2026-09-17-prelaunch-collection": {
-      "state": "sent",
+      "replacementRequestId": "alex-2026-09-18-nine-image-cards",
+      "previousPublications": [
+        {
+          "state": "sent",
+          "projectId": "aldar-yas-riva-reserve",
+          "body": "YAS RIVA RESERVE | Aldar\nYas Island, Abu Dhabi\n\nBroker intelligence: a new collection of 4–6 bedroom villas is being promoted ahead of launch. Briefings circulated on 17 September; the sales date, starting prices, payment plan and handover are not yet confirmed.\n\nAn early-access opportunity for buyers seeking family villas on Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
+          "attemptedAt": "2026-09-18T09:07:40.421Z",
+          "messageId": "PsrFs_32ZsSLquo-1_gBq53f_uALiA-ng",
+          "verifiedAt": "2026-09-18T09:07:46.031Z"
+        }
+      ],
+      "replacementReason": "User deleted original and explicitly requested identical caption with approved card",
+      "state": "pending",
       "projectId": "aldar-yas-riva-reserve",
       "body": "YAS RIVA RESERVE | Aldar\nYas Island, Abu Dhabi\n\nBroker intelligence: a new collection of 4–6 bedroom villas is being promoted ahead of launch. Briefings circulated on 17 September; the sales date, starting prices, payment plan and handover are not yet confirmed.\n\nAn early-access opportunity for buyers seeking family villas on Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
-      "attemptedAt": "2026-09-18T09:07:40.421Z",
-      "messageId": "PsrFs_32ZsSLquo-1_gBq53f_uALiA-ng",
-      "verifiedAt": "2026-09-18T09:07:46.031Z"
+      "imageRepoPath": "assets/whatsapp/aldar-yas-riva-reserve-card.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 155688,
+        "sha256": "00378ea40613ec9960290a4dce6c556bdfe5ba05c1c37b867958e4e8f017c6d9"
+      },
+      "attemptedAt": "2026-09-18T10:21:43.187Z"
     },
     "binghatti-starfall:2026-09-22-tentative-launch": {
       "state": "sent",
