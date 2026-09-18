@@ -124,7 +124,7 @@
         }
       ],
       "replacementReason": "User deleted original and explicitly requested identical caption with approved card",
-      "state": "pending",
+      "state": "sent",
       "projectId": "aldar-yas-riva-reserve",
       "body": "YAS RIVA RESERVE | Aldar\nYas Island, Abu Dhabi\n\nBroker intelligence: a new collection of 4–6 bedroom villas is being promoted ahead of launch. Briefings circulated on 17 September; the sales date, starting prices, payment plan and handover are not yet confirmed.\n\nAn early-access opportunity for buyers seeking family villas on Yas Island.\n\nDetails and updates:\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
       "imageRepoPath": "assets/whatsapp/aldar-yas-riva-reserve-card.jpg",
@@ -135,7 +135,8 @@
         "sha256": "00378ea40613ec9960290a4dce6c556bdfe5ba05c1c37b867958e4e8f017c6d9"
       },
       "attemptedAt": "2026-09-18T10:21:43.187Z",
-      "messageId": "PsqZnqJ15AYFCHs-1.QBq53f_uALiA-pw"
+      "messageId": "PsqZnqJ15AYFCHs-1.QBq53f_uALiA-pw",
+      "verifiedAt": "2026-09-18T10:21:51.420Z"
     },
     "binghatti-starfall:2026-09-22-tentative-launch": {
       "state": "sent",
