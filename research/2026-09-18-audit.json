@@ -21,7 +21,7 @@
     "sitePR": 67,
     "siteDeployRun": 35307996436,
     "originalSyncFailure": "GH013: Changes must be made through a pull request. No workflow or branch protection changed.",
-    "status": "Site production build in progress at report creation; live delivery not yet confirmed."
+    "status": "Production deploy 35307996436 succeeded; both new HTML paths transferred, full SEO coverage gate passed. Independent direct page/marker requests from research environment returned 502, so individual live HTTP verification remains incomplete."
   },
   "images": [
     {
@@ -36,5 +36,13 @@
       "identity": "GRAF factual card with Aldar logo; NOT an architectural render. Original developer image download failed.",
       "sha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc"
     }
-  ]
+  ],
+  "whatsapp": {
+    "queueCommit": "c90bab99eab000826547b6aa07e71bc69481dfce",
+    "run": 35308639534,
+    "status": "failed before send",
+    "error": "getNewsletterByInviteCode HTTP 404",
+    "ledger": "No new sent/pending event for Talay; Wadeem queued for 20:00 Dubai, sending not guaranteed until channel access is restored.",
+    "possibleCause": "Earlier user screenshot showed Whapi trial expiry 2026-09-17; not independently verified as cause."
+  }
 }
