@@ -1,0 +1,28 @@
+name: Whapi client database preflight
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/whapi-client-preflight.yml']
+permissions:
+  contents: read
+concurrency:
+  group: whatsapp-research-readonly
+  cancel-in-progress: false
+jobs:
+  documentation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Inspect public API schema only
+        shell: python
+        run: |
+          import urllib.request, json
+          import yaml
+          with urllib.request.urlopen('https://panel.whapi.cloud/yaml/openapi.yaml', timeout=30) as r:
+              d=yaml.safe_load(r.read())
+          print('SCHEMA_VERSION',d.get('info',{}).get('version'))
+          paths=d.get('paths',{})
+          for p,o in paths.items():
+              if p in ['/health','/chats','/contacts','/labels','/messages/list','/messages/list/{ChatID}'] or 'lid' in p.lower() or 'labels/' in p:
+                  print(json.dumps({p:o},ensure_ascii=False))
+          print('PARAMETERS',json.dumps(d.get('components',{}).get('parameters',{})))
