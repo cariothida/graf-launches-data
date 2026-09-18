@@ -18,9 +18,9 @@ pages on the site (~40 minutes after commit), with no human in the loop.
   developer+project+location combination, and will reject duplicates).
 - **Status drives publication:**
   - `confirmed` — officially announced by the developer → full indexed page.
-  - `broker-intelligence` — multi-source broker signal, no official confirmation → indexed
+  - `broker-intelligence` — corroborated broker intelligence OR a specific dated direct WhatsApp sales briefing from an identifiable recurring source (Alex's 18 September correction), no official confirmation → indexed
     page with explicit caution wording; prices render only as "broker indication".
-  - `rumour` — weak/single-source → **no page is generated** until the status is upgraded.
+  - `rumour` — weak/unattributed information → **no page is generated** until the status is upgraded. A specific dated direct WhatsApp briefing is not automatically a rumour merely because no public announcement exists.
 - **Prices are guilty until proven confirmed.** `startingPrice`/`pricePerSqft` render as
   facts only with `priceConfirmed: true` (developer price list). Everything else goes in
   `brokerPriceNote` with attribution. The site will never print an unconfirmed number as
