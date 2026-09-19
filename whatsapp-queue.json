@@ -1,5 +1,48 @@
 {
   "version": 1,
   "briefingDate": "2026-09-19",
-  "posts": []
+  "posts": [
+    {
+      "projectId": "atara-sheraton-al-marjan-residences",
+      "eventKey": "atara-sheraton-al-marjan-residences:2026-09-17-revised-collection",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "Dated 17 September 2026 coverage of a revised 168-home collection; explicitly not the original project launch.",
+      "sources": [
+        "https://meconstructionnews.com/69140/atara-development-launches-the-residences-at-sheraton-al-marjan-island-resort",
+        "https://atara.ae/projects/sheraton-branded-residences-uae/",
+        "https://ataradevelopment.com/"
+      ],
+      "siteUrl": "https://graf.ae/launches/atara-sheraton-al-marjan-residences/",
+      "body": "SHERATON AL MARJAN — REVISED COLLECTION\nAtara Development | Al Marjan Island, Ras Al Khaimah\n\nA material update, not a first launch: the revised collection reported on 17 September comprises 168 fully furnished beachfront homes — 97 one-bedroom and 71 two-bedroom apartments.\n\nDeveloper handover target: Q3 2028.\nStarting price, payment plan and booking terms for this release: not reliably confirmed; the developer's pages conflict.\n\nWhy it matters: revised branded beachfront inventory worth monitoring once the commercial terms are reconciled.\nConfidence: high on identity and unit mix; commercial terms unresolved.\n\nhttps://graf.ae/launches/atara-sheraton-al-marjan-residences/",
+      "scheduledAt": "2026-09-19T08:00:00+04:00",
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch; same-day recovery after verified site publication.",
+      "imageRepoPath": "assets/whatsapp/atara-sheraton-al-marjan-residences.jpg",
+      "imageSha256": "ad3a3570c2c4d9c5afe463e52c0dca11252451c4cc003e96544c6956afbb53c9",
+      "imageVerified": true
+    },
+    {
+      "projectId": "danube-shahrukhz-2-residences",
+      "eventKey": "danube-shahrukhz-2-residences:2026-09-19-prelaunch-eoi-watch",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "Newly verified 19 September: public broker report of EOI opening and expected October 2026 launch. Source page is undated; 19 September is the research date, not an asserted launch date.",
+      "sources": [
+        "https://directdealuae.com/projects/shahrukhz-2-residences-by-danube",
+        "https://whitecollarrealty.com/residential_property/shahrukhz-2-residences-by-danube",
+        "https://propsearch.ae/dubai/shahrukhz-2-by-danube"
+      ],
+      "siteUrl": "https://graf.ae/launches/danube-shahrukhz-2-residences/",
+      "body": "SHAHRUKHZ 2 RESIDENCES — PRELAUNCH WATCH\nDanube Properties | Dubai Maritime City\n\nBROKER INTELLIGENCE — not yet officially confirmed.\nBrokers are marketing a new residential tower; one brokerage reports EOIs open and expects a formal launch in October 2026.\n\nUnit mix, starting price, payment plan, EOI amount and handover: not confirmed.\nThis is separate from the original Shahrukhz office tower on Sheikh Zayed Road — its terms must not be carried over.\n\nWhy it matters: an early waterfront residential lead before the full sales pack is available.\nConfidence: medium on identity/location; timing and EOI remain broker-reported.\n\nhttps://graf.ae/launches/danube-shahrukhz-2-residences/",
+      "scheduledAt": "2026-09-19T08:00:00+04:00",
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch; same-day recovery after verified site publication.",
+      "imageRepoPath": "assets/whatsapp/danube-shahrukhz-2-residences.jpg",
+      "imageSha256": "259a7db64382c4f74e2d966981cbf65f0bec80a19964dc0ca647f05afe336133",
+      "imageVerified": true
+    }
+  ]
 }
