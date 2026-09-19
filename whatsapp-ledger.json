@@ -286,7 +286,7 @@
       "verifiedAt": "2026-09-18T09:12:40.094Z"
     },
     "atara-sheraton-al-marjan-residences:2026-09-17-revised-collection": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "atara-sheraton-al-marjan-residences",
       "body": "SHERATON AL MARJAN — REVISED COLLECTION\nAtara Development | Al Marjan Island, Ras Al Khaimah\n\nA material update, not a first launch: the revised collection reported on 17 September comprises 168 fully furnished beachfront homes — 97 one-bedroom and 71 two-bedroom apartments.\n\nDeveloper handover target: Q3 2028.\nStarting price, payment plan and booking terms for this release: not reliably confirmed; the developer's pages conflict.\n\nWhy it matters: revised branded beachfront inventory worth monitoring once the commercial terms are reconciled.\nConfidence: high on identity and unit mix; commercial terms unresolved.\n\nhttps://graf.ae/launches/atara-sheraton-al-marjan-residences/",
       "imageRepoPath": "assets/whatsapp/atara-sheraton-al-marjan-residences.jpg",
@@ -297,7 +297,8 @@
         "sha256": "ad3a3570c2c4d9c5afe463e52c0dca11252451c4cc003e96544c6956afbb53c9"
       },
       "attemptedAt": "2026-09-19T04:22:19.149Z",
-      "messageId": "PsrgYshygspVVek-14EBq53f_uALiA-rA"
+      "messageId": "PsrgYshygspVVek-14EBq53f_uALiA-rA",
+      "verifiedAt": "2026-09-19T04:22:29.352Z"
     }
   }
 }
