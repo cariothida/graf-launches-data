@@ -1,13 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-18",
+  "updatedAt": "2026-09-19",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
     "Homepage access establishes a discovery source, not freshness or reliability of every listing. Qualify dated events independently.",
     "Rotate tomorrow toward verified individual Abu Dhabi and RAK brokers and official developer-linked Instagram handles; remove repetitive low-signal sources after sufficient observed history.",
     "Equity Edge calendar entry dates are catalogue-addition dates, not launch dates. Aumra Nova homepage is a limited app shell.",
-    "2026-09-18 Alex excludes ALL International City projects. Reviewed 14 Latest buildings entries; hold publication pending selection. First Trace is not launch date. Instagram exact-project broker posts unverified."
+    "2026-09-18 Alex excludes ALL International City projects. Reviewed 14 Latest buildings entries; hold publication pending selection. First Trace is not launch date. Instagram exact-project broker posts unverified.",
+    "2026-09-19: 45 Instagram-targeted query formulations, including 20 named-broker attempts; NOT 20 successful account inspections. Zero native Instagram accounts inspected. Exact Sorei/Tessera/Samana Eden dated sales signals unverified. Private WhatsApp fresh export blocked by permission gate; no current private-message coverage claimed."
   ],
   "sources": [
     {
@@ -579,6 +580,35 @@
           "qualification": "Marketing-site evidence only; independence not verified"
         }
       ]
+    },
+    {
+      "name": "Direct Deal UAE",
+      "url": "https://directdealuae.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "project-page-opened",
+      "lastAccessCheck": "2026-09-19",
+      "instagramHandle": null,
+      "launchFocus": "Shahrukhz 2 EOI and October 2026 broker expectation; undated page, not official timing"
+    },
+    {
+      "name": "White Collar Realty",
+      "url": "https://whitecollarrealty.com/",
+      "kind": "broker-or-property-adviser",
+      "coverage": "Dubai",
+      "access": "project-page-opened",
+      "lastAccessCheck": "2026-09-19",
+      "instagramHandle": null,
+      "launchFocus": "Shahrukhz 2 identity/location corroboration; not independent confirmation of EOI date"
+    },
+    {
+      "name": "Atara Development",
+      "url": "https://atara.ae/",
+      "kind": "developer",
+      "coverage": "Ras Al Khaimah",
+      "access": "project-page-opened",
+      "lastAccessCheck": "2026-09-19",
+      "launchFocus": "Sheraton revised 168-home collection; price/payment conflict across official pages"
     }
   ],
   "additionalCandidates": [
@@ -615,7 +645,12 @@
     "rove-home-the-greens",
     "the-vault-by-imtiaz",
     "element-by-iman",
-    "the-verso"
+    "the-verso",
+    "atara-sheraton-al-marjan-residences",
+    "danube-shahrukhz-2-residences",
+    "sorei-by-zoya",
+    "tessera-residences",
+    "samana-eden-barari"
   ],
   "projectReview": [
     {
@@ -813,6 +848,39 @@
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
       "publication": "hold pending Alex selection"
+    },
+    {
+      "id": "sorei-by-zoya",
+      "name": "Sorei by Zoya",
+      "developer": "Zoya One Real Estate Development",
+      "location": "Dubai South Residential District",
+      "source": "https://propsearch.ae/dubai/sorei-by-zoya",
+      "disposition": "watch",
+      "sourceAccess": "public building page retrieved 2026-09-19",
+      "publication": "hold: dated launch/EOI not verified",
+      "instagramExactBrokerPosts": []
+    },
+    {
+      "id": "tessera-residences",
+      "name": "Tessera Residences",
+      "developer": "South Sanctuary Road Real Estate Development",
+      "location": "Dubai South Residential District",
+      "source": "https://propsearch.ae/dubai/tessera-residences",
+      "disposition": "watch",
+      "sourceAccess": "public building page retrieved 2026-09-19",
+      "publication": "hold: dated launch/EOI not verified",
+      "instagramExactBrokerPosts": []
+    },
+    {
+      "id": "samana-eden-barari",
+      "name": "Samana Eden Barari",
+      "developer": "Samana",
+      "location": "Majan",
+      "source": "https://propsearch.ae/dubai/samana-eden-barari",
+      "disposition": "watch",
+      "sourceAccess": "public building page retrieved 2026-09-19",
+      "publication": "hold: dated launch/EOI not verified",
+      "instagramExactBrokerPosts": []
     }
   ],
   "hotLaunchReview": {
