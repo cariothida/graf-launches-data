@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-19",
+  "window": {
+    "past": "2026-08-20",
+    "future": "2026-12-19"
+  },
+  "feedCommit": "8a389d6b24f6eeab9a8502abaf2dda8d67cf7b09",
+  "recoveryPullRequest": 73,
+  "recoveryMergeCommit": "2748d551a1882c6840d4c40688428aacfebb4eb5",
+  "coverage": {
+    "instagramQueries": 45,
+    "namedBrokerAttempts": 20,
+    "nativeAccountsInspected": 0,
+    "approximatelyIdentifiableIndexedBrokerSources": 6,
+    "target20InspectedMet": false,
+    "note": "Indexed-only snippets: D&B, Primo Capital UAE, DRE Homes/Qurat Ul Ain, Edwards & Towers, fam-related lead, Square Yards; mostly old/non-launch. Do not infer launch freshness from a crawl date or a profile result.",
+    "youtube": "Queries and indexed results reviewed; targeted Ellington queries returned irrelevant results; no fresh video confirmation",
+    "propsearch": "Latest buildings column retrieved successfully by ordinary public HTTP; 20 entries, 14 potentially relevant building pages investigated. Never used Latest areas or Recently updated.",
+    "official": "Ellington, Aldar, Atara (two sites), RAK Properties, Modon, Dubai South, Imtiaz read; some other developer pages failed or returned shells",
+    "news": "ME Construction News, Zawya, Gulf News, Khaleej Times, The National, portals inspected; Arabian Business and Construction Week access gaps",
+    "privateWhatsapp": "Fresh encrypted read-only export blocked by approval gate. No fresh chats/messages read; no alternate route attempted."
+  },
+  "qualified": [
+    {
+      "id": "atara-sheraton-al-marjan-residences",
+      "eventDate": "2026-09-17",
+      "event": "Revised 168-home collection, not first launch",
+      "price": "Unresolved conflict across developer pages; no confirmed numeric price",
+      "sources": [
+        {
+          "url": "https://meconstructionnews.com/69140/atara-development-launches-the-residences-at-sheraton-al-marjan-island-resort",
+          "label": "Dated report of the revised residential collection",
+          "date": "2026-09-17",
+          "primary": true
+        },
+        {
+          "url": "https://atara.ae/projects/sheraton-branded-residences-uae/",
+          "label": "Developer project page: 168 homes, unit mix, target handover; conflicting payment wording"
+        },
+        {
+          "url": "https://ataradevelopment.com/",
+          "label": "Developer landing page: inconsistent commercial terms, not a verified revised-release price"
+        }
+      ]
+    },
+    {
+      "id": "danube-shahrukhz-2-residences",
+      "observedDate": "2026-09-19",
+      "event": "Broker EOI report; expected October 2026 launch, undated source page",
+      "status": "broker-intelligence",
+      "sources": [
+        {
+          "url": "https://directdealuae.com/projects/shahrukhz-2-residences-by-danube",
+          "label": "Broker report: EOIs open and October 2026 expected launch; page undated",
+          "primary": true
+        },
+        {
+          "url": "https://whitecollarrealty.com/residential_property/shahrukhz-2-residences-by-danube",
+          "label": "Second brokerage marketing the same waterfront residential project; page undated"
+        },
+        {
+          "url": "https://propsearch.ae/dubai/shahrukhz-2-by-danube",
+          "label": "Building registration lead; not proof of a sales launch"
+        }
+      ]
+    }
+  ],
+  "excludedOrHeld": [
+    {
+      "project": "Sorei by Zoya",
+      "reason": "Building registry only; dated launch or EOI not verified"
+    },
+    {
+      "project": "Tessera Residences",
+      "reason": "Registry/early marketing only, dated launch not verified"
+    },
+    {
+      "project": "Samana Eden Barari",
+      "reason": "Catalogue/registry marketing, no dated material sales signal"
+    },
+    {
+      "project": "Samana Barari Resort",
+      "reason": "Portal classifies hotel; saleable residences not established"
+    },
+    {
+      "project": "Original 14 Propsearch user-selected review list",
+      "reason": "Existing hold/selection policy preserved; no blind registry-to-launch conversion"
+    },
+    {
+      "project": "International City",
+      "reason": "User excludes all projects there"
+    },
+    {
+      "project": "Ellington Al Yalayis and proposed SZR offices",
+      "reason": "No material new verified detail found today"
+    }
+  ],
+  "imageEvidence": [
+    {
+      "path": "assets/whatsapp/atara-sheraton-al-marjan-residences.jpg",
+      "source": "https://atara.ae/wp-content/uploads/2026/06/RA_SHERATON_DROP-OFF_FINAL_241125_1080_Desktop.webp",
+      "type": "official promotional project render",
+      "normalized": "1200x900 opaque JPEG",
+      "sha256": "ad3a3570c2c4d9c5afe463e52c0dca11252451c4cc003e96544c6956afbb53c9",
+      "visuallyInspected": true
+    },
+    {
+      "path": "assets/whatsapp/danube-shahrukhz-2-residences.jpg",
+      "type": "GRAF information card, AI-generated typography/layout, plain developer name, no invented architecture or logo",
+      "normalized": "1200x900 opaque JPEG",
+      "sha256": "259a7db64382c4f74e2d966981cbf65f0bec80a19964dc0ca647f05afe336133",
+      "visuallyInspected": true
+    }
+  ],
+  "status": "Content merged through normal PR after automatic direct-main push failed GH013. Production build currently running. Queue remains today's explicit empty until live identity verified. Images committed separately; no text-only fallback."
+}
