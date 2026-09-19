@@ -908,6 +908,106 @@
       "published": true,
       "seoTitle": "Manchester City Yas Residences Phase 2: October Watch | GRAF",
       "seoDescription": "Phase 2 sales intelligence for Manchester City Yas Residences: October timing, townhouse and villa mix, and clearly labelled provisional terms."
+    },
+    {
+      "id": "atara-sheraton-al-marjan-residences",
+      "aliases": [],
+      "project": "The Residences at Sheraton Al Marjan Island Resort",
+      "developer": "Atara Development",
+      "emirate": "Ras Al Khaimah",
+      "location": "Al Marjan Island, Ras Al Khaimah; beachfront plot 2APT.004B",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Revised residential collection presented to brokers; announcement coverage dated 17 September 2026. Not the project's first launch.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "handover": "Q3 2028 (developer target)",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "note": "97 residences on the developer's current project page; fully furnished."
+        },
+        {
+          "type": "2BR apartment",
+          "note": "71 residences on the developer's current project page; fully furnished."
+        }
+      ],
+      "teaser": "Updated Sheraton-branded collection: 168 one- and two-bedroom beachfront homes.",
+      "summary": "Atara has presented a revised collection of 168 fully furnished Sheraton-branded residences on Al Marjan Island, reported on 17 September 2026. The developer's current project page confirms 97 one-bedroom and 71 two-bedroom homes, with Q3 2028 completion targeted. This is a material product update to an existing project, not a first launch. Revised-release starting price, payment schedule and booking terms are not reconciled across the developer's pages.",
+      "whatNext": "Awaiting a consistent price list and payment schedule for the revised collection; subscribe on this page for confirmed updates.",
+      "confidenceNote": "High confidence on project identity, revised 168-home mix and the dated update. Commercial terms remain unresolved: the current project page advertises AED 2.2m and a 30/70 headline but reverses the percentages in its prose; another Atara landing page advertises AED 2.415m and 70/30. No confirmed numeric price is published here.",
+      "sources": [
+        {
+          "url": "https://meconstructionnews.com/69140/atara-development-launches-the-residences-at-sheraton-al-marjan-island-resort",
+          "label": "Dated report of the revised residential collection",
+          "date": "2026-09-17",
+          "primary": true
+        },
+        {
+          "url": "https://atara.ae/projects/sheraton-branded-residences-uae/",
+          "label": "Developer project page: 168 homes, unit mix, target handover; conflicting payment wording"
+        },
+        {
+          "url": "https://ataradevelopment.com/",
+          "label": "Developer landing page: inconsistent commercial terms, not a verified revised-release price"
+        }
+      ],
+      "firstReported": "2026-09-19",
+      "updatedAt": "2026-09-19",
+      "published": true,
+      "seoTitle": "Sheraton Al Marjan Residences: Revised Collection | GRAF",
+      "seoDescription": "Atara's revised 168-home Sheraton collection on Al Marjan Island: 1–2BR residences, Q3 2028 target and commercial terms awaiting clarification."
+    },
+    {
+      "id": "danube-shahrukhz-2-residences",
+      "aliases": [],
+      "project": "Shahrukhz 2 Residences",
+      "developer": "Danube Properties",
+      "developerId": "danube",
+      "emirate": "Dubai",
+      "location": "Dubai Maritime City, Dubai; precise plot to be confirmed",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "October 2026 expected by Direct Deal UAE from preliminary sales-team information; official launch date unconfirmed.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Broker-reported EOI stage for a new Danube waterfront residential tower.",
+      "summary": "Direct Deal UAE reports that expressions of interest are open for Shahrukhz 2 Residences in Dubai Maritime City, with a formal launch expected in October 2026 subject to Danube's confirmation. A second brokerage is also marketing the waterfront residential project. This is separate from the original Shahrukhz commercial tower on Sheikh Zayed Road; its prices, payment plan and specifications must not be carried over. Unit mix, starting price, EOI amount, payment plan and handover remain unconfirmed.",
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "EOIs open according to Direct Deal UAE, citing preliminary Danube sales-team information; official amount, allocation and refund terms not verified."
+      },
+      "whatNext": "Awaiting official launch timing, unit mix and booking terms; subscribe on this page for confirmed updates.",
+      "confidenceNote": "Medium confidence: two public broker project pages support identity and location; the October 2026 window and EOI status come from Direct Deal UAE. No official dated Danube announcement was verified. No return, view or allocation is guaranteed.",
+      "sources": [
+        {
+          "url": "https://directdealuae.com/projects/shahrukhz-2-residences-by-danube",
+          "label": "Broker report: EOIs open and October 2026 expected launch; page undated",
+          "primary": true
+        },
+        {
+          "url": "https://whitecollarrealty.com/residential_property/shahrukhz-2-residences-by-danube",
+          "label": "Second brokerage marketing the same waterfront residential project; page undated"
+        },
+        {
+          "url": "https://propsearch.ae/dubai/shahrukhz-2-by-danube",
+          "label": "Building registration lead; not proof of a sales launch"
+        }
+      ],
+      "firstReported": "2026-09-19",
+      "updatedAt": "2026-09-19",
+      "published": true,
+      "seoTitle": "Shahrukhz 2 Residences: Danube Prelaunch Watch | GRAF",
+      "seoDescription": "Broker-reported Shahrukhz 2 Residences EOI in Dubai Maritime City. October 2026 launch expected; prices, unit mix and handover await confirmation."
     }
   ],
   "version": 1
