@@ -112,5 +112,44 @@
       "visuallyInspected": true
     }
   ],
-  "status": "Content merged through normal PR after automatic direct-main push failed GH013. Production build currently running. Queue remains today's explicit empty until live identity verified. Images committed separately; no text-only fallback."
+  "status": "Published. Normal content-only PR recovery merged; production deploy succeeded. Publisher fetched both live matching launch pages, checked image hashes and recipient, sent each once, and confirmed exact caption plus message ID in channel history. Direct web/browser visual checks from research environment remained inaccessible (502); not claimed visually accepted.",
+  "publication": {
+    "siteRun": 35420638184,
+    "siteCommit": "2748d551a1882c6840d4c40688428aacfebb4eb5",
+    "feedCommit": "8a389d6b24f6eeab9a8502abaf2dda8d67cf7b09",
+    "processedMarker": "8a389d6b24f6eeab9a8502abaf2dda8d67cf7b09",
+    "markerDirectReadVerified": false,
+    "siteEvidence": "Production rsync listed both new index.html files and launches-feed-version.txt; SEO gate passed; WhatsApp runner independently fetched and checked matching live HTML before both sends.",
+    "whatsappRun": 35421087844,
+    "queueCommit": "ac0fcf600d7face898de9ea165ba91c94ba3a9a7",
+    "posts": [
+      {
+        "projectId": "atara-sheraton-al-marjan-residences",
+        "eventKey": "atara-sheraton-al-marjan-residences:2026-09-17-revised-collection",
+        "state": "sent",
+        "messageId": "PsrgYshygspVVek-14EBq53f_uALiA-rA",
+        "verifiedAt": "2026-09-19T04:22:29.352Z",
+        "imageQA": {
+          "width": 1200,
+          "height": 900,
+          "bytes": 361930,
+          "sha256": "ad3a3570c2c4d9c5afe463e52c0dca11252451c4cc003e96544c6956afbb53c9"
+        }
+      },
+      {
+        "projectId": "danube-shahrukhz-2-residences",
+        "eventKey": "danube-shahrukhz-2-residences:2026-09-19-prelaunch-eoi-watch",
+        "state": "sent",
+        "messageId": "PsrgTpetwGtE9tI-17sBq53f_uALiA-rQ",
+        "verifiedAt": "2026-09-19T04:22:41.323Z",
+        "imageQA": {
+          "width": 1200,
+          "height": 900,
+          "bytes": 181558,
+          "sha256": "259a7db64382c4f74e2d966981cbf65f0bec80a19964dc0ca647f05afe336133"
+        }
+      }
+    ]
+  },
+  "operationalFollowup": "Automatic site sync still attempts direct push to PR-protected main (GH013). Today's recovery used a normal content-only PR; no workflow, secret, release-ref or schedule changes were made. Future sync needs an authorized workflow fix. Keep daily research enabled."
 }
