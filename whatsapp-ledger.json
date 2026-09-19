@@ -299,6 +299,19 @@
       "attemptedAt": "2026-09-19T04:22:19.149Z",
       "messageId": "PsrgYshygspVVek-14EBq53f_uALiA-rA",
       "verifiedAt": "2026-09-19T04:22:29.352Z"
+    },
+    "danube-shahrukhz-2-residences:2026-09-19-prelaunch-eoi-watch": {
+      "state": "pending",
+      "projectId": "danube-shahrukhz-2-residences",
+      "body": "SHAHRUKHZ 2 RESIDENCES — PRELAUNCH WATCH\nDanube Properties | Dubai Maritime City\n\nBROKER INTELLIGENCE — not yet officially confirmed.\nBrokers are marketing a new residential tower; one brokerage reports EOIs open and expects a formal launch in October 2026.\n\nUnit mix, starting price, payment plan, EOI amount and handover: not confirmed.\nThis is separate from the original Shahrukhz office tower on Sheikh Zayed Road — its terms must not be carried over.\n\nWhy it matters: an early waterfront residential lead before the full sales pack is available.\nConfidence: medium on identity/location; timing and EOI remain broker-reported.\n\nhttps://graf.ae/launches/danube-shahrukhz-2-residences/",
+      "imageRepoPath": "assets/whatsapp/danube-shahrukhz-2-residences.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 181558,
+        "sha256": "259a7db64382c4f74e2d966981cbf65f0bec80a19964dc0ca647f05afe336133"
+      },
+      "attemptedAt": "2026-09-19T04:22:32.535Z"
     }
   }
 }
