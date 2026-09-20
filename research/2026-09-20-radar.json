@@ -130,7 +130,18 @@
     "automaticSiteConclusion": "failure GH013: changes to main require PR",
     "contentOnlyRecoveryPR": 74,
     "productionRun": 35486701750,
-    "status": "in progress; final proof to follow"
+    "productionConclusion": "success",
+    "livePage": "https://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
+    "liveVerifiedAt": "2026-09-20T03:42:00Z",
+    "deployedFeedSha": "88225409bbf261699504872348e4c31c08cbc8ab",
+    "sitemapLastmod": "2026-09-20",
+    "llmsUpdated": true,
+    "seoTitleCanonicalAndDatesVerified": true,
+    "queueCommit": "c1ce21195053eebe2f3300c4ce91099e49790694",
+    "queuePosts": 1,
+    "queueImage": "verified opaque 1200x900 RGB JPEG",
+    "whatsappStatus": "queued for 08:00 Dubai; pre-slot publisher success/no due posts, not sent",
+    "preSlotRun": 35487258056
   },
   "schemaValidation": "All 19 records validated against current strict schema; existing IDs preserved; unconfirmed prices null.",
   "visualChecks": {
