@@ -140,8 +140,10 @@
     "queueCommit": "c1ce21195053eebe2f3300c4ce91099e49790694",
     "queuePosts": 1,
     "queueImage": "verified opaque 1200x900 RGB JPEG",
-    "whatsappStatus": "queued for 08:00 Dubai; pre-slot publisher success/no due posts, not sent",
-    "preSlotRun": 35487258056
+    "whatsappStatus": "Queued with approved image, not attempted/sent in ledger as of 2026-09-20T04:07:56Z; no scheduled publisher run visible since the successful pre-slot push run. Do not claim delivery.",
+    "preSlotRun": 35487258056,
+    "lastCheckedAt": "2026-09-20T04:07:56Z",
+    "remainingOperationalRisk": "Automatic site sync still attempts a direct push rejected by main's PR rule. Today's content-only PR recovery succeeded; workflow and branch protections were not modified."
   },
   "schemaValidation": "All 19 records validated against current strict schema; existing IDs preserved; unconfirmed prices null.",
   "visualChecks": {
