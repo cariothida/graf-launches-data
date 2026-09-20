@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-20",
+  "window": {
+    "pastFrom": "2026-08-21",
+    "futureThrough": "2026-12-20"
+  },
+  "coverage": {
+    "instagramTargetedQueries": 52,
+    "distinctNamedBrokerSourcesAttempted": 21,
+    "identifiableIndexedBrokerSourcesApproximately": 5,
+    "nativeInstagramAccountsInspected": 0,
+    "instagramInspectionTargetMet": false,
+    "propsearchLatestBuildings": 20,
+    "propsearchBuildingPagesRead": 14,
+    "limitations": [
+      "Instagram search results often irrelevant or stale; query counts are not inspected account counts.",
+      "No native Instagram feeds, Stories or private groups inspected through Instagram.",
+      "YouTube search results only; no video/audio watched."
+    ]
+  },
+  "publicWatchlistSources": 58,
+  "instagramQueries": [
+    "site:instagram.com Dubai \"pre launch\" \"September\" \"2026\"",
+    "site:instagram.com Dubai \"broker briefing\" \"September 2026\"",
+    "site:instagram.com Abu Dhabi \"EOI\" \"September\" \"2026\"",
+    "site:instagram.com Abu Dhabi \"launching soon\" \"September 2026\"",
+    "site:instagram.com \"Ras Al Khaimah\" \"EOI\"",
+    "site:instagram.com \"Al Marjan\" \"coming soon\"",
+    "site:instagram.com Ellington \"Al Yalayis\"",
+    "site:instagram.com Ellington \"office\" \"launch\"",
+    "site:instagram.com \"Aldar\" \"Talay\"",
+    "site:instagram.com \"Modon\" \"Wadeem\"",
+    "site:instagram.com \"RAK Properties\" \"launch\"",
+    "site:instagram.com \"Al Hamra\" \"EOI\"",
+    "site:instagram.com \"Dubai\" \"new phase\" EOI",
+    "site:instagram.com \"Abu Dhabi\" \"new collection\"",
+    "site:instagram.com \"Ras Al Khaimah\" \"broker briefing\"",
+    "site:instagram.com \"Dubai\" \"price list\" \"September\"",
+    "site:instagram.com \"Binghatti Starfall\"",
+    "site:instagram.com \"Yas Riva Reserve\"",
+    "site:instagram.com \"Epoque by Reportage\"",
+    "site:instagram.com \"Sorei\" \"Zoya\"",
+    "site:instagram.com دبي \"إطلاق\" \"سبتمبر\"",
+    "site:instagram.com أبوظبي \"حجز\" \"جديد\"",
+    "site:instagram.com Дубай \"старт продаж\" сентябрь",
+    "site:instagram.com \"Рас-эль-Хайма\" \"новый проект\"",
+    "site:instagram.com \"Luxhabitat\" \"launch\"",
+    "site:instagram.com \"TruHauz\" \"launch\"",
+    "site:instagram.com \"Grand Reve\" \"launch\"",
+    "site:instagram.com \"Future Key\" \"launch\"",
+    "site:instagram.com Propsense Realty launch",
+    "site:instagram.com Equity Edge Dubai launch",
+    "site:instagram.com Luxury Falcon Properties launch",
+    "site:instagram.com Aumra Nova launch",
+    "site:instagram.com Top Luxury Property prelaunch",
+    "site:instagram.com Luxury Offplan SANSAV launch",
+    "site:instagram.com Metropolitan Abu Dhabi EOI",
+    "site:instagram.com Hunt Harris Ras Khaimah launch",
+    "site:instagram.com \"Talay\" \"13.5\"",
+    "site:instagram.com \"Talay Beach\"",
+    "site:instagram.com \"Remington\" \"Starfall\"",
+    "site:instagram.com \"Hooman\" \"Starfall\"",
+    "site:instagram.com \"Sky View Real Estate\" \"new launch\"",
+    "site:instagram.com \"Remington\" \"Dubai\"",
+    "site:instagram.com \"HCO\" \"Dubai\" \"launch\"",
+    "site:instagram.com \"Direct Deal\" \"Dubai\"",
+    "site:instagram.com \"White Collar Realty\" \"Dubai\"",
+    "site:instagram.com \"Royal Lounge\" \"launch\"",
+    "site:instagram.com \"Top Ultra Luxury\"",
+    "site:instagram.com \"Dubai Housing\" \"launch\"",
+    "site:instagram.com/ \"ellington\" \"offices\" \"Sheikh Zayed\"",
+    "site:instagram.com/ \"Al Yalayis\" \"September\" \"Ellington\"",
+    "site:instagram.com/ \"Talay\" \"167\" \"184\"",
+    "site:instagram.com/ \"Ras Al Khaimah\" \"September 2026\" \"launch\""
+  ],
+  "qualifying": [
+    {
+      "date": "2026-09-20",
+      "projectId": "aldar-talay-marsa-al-saadiyat",
+      "eventDate": "2026-09-18",
+      "change": "Public broker corroboration distinguishes Talay (167 villas) and Talay Beach (184 villas), with Q4 2029/Q4 2030 handover indications. Not a new masterplan or first announcement.",
+      "sources": [
+        "https://marsa-saadiyat.com/talay/",
+        "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/"
+      ],
+      "feedCommit": "88225409bbf261699504872348e4c31c08cbc8ab"
+    }
+  ],
+  "propsearchProcedure": "Only Latest buildings homepage column; 20 entries, 14 potentially relevant building pages independently read. Web tool homepage 502; ordinary public HTML fetch succeeded. No Latest areas or Recently updated used.",
+  "held": [
+    "Ellington Al Yalayis: no independently verified new material terms",
+    "Ellington Business Bay/SZR office: no independently verified new material terms",
+    "Sorei, Tessera, Epoque, Beachfront Gates 3, Vault, Boutique, Element, Verso, Samana Eden: registry leads, not independently dated sales launches",
+    "Samana Barari Resort: hotel classification; saleable residences not verified"
+  ],
+  "deduplicated": [
+    "Talay original 17 September announcement already sent; only newly clarified collection detail is queued",
+    "Sheraton revised collection and Shahrukhz 2 sent 19 September; unchanged today",
+    "Rove Home The Greens and other existing 18 September records unchanged"
+  ],
+  "sources": {
+    "official": [
+      "https://www.aldar.com/en/news-and-media/aldar-launches-first-homes-at-marsa-al-saadiyat-with-351-exclusive-villas-at-talay",
+      "https://ellingtonproperties.ae/",
+      "https://www.rakproperties.ae/",
+      "https://www.binghatti.com/"
+    ],
+    "newsAndPortals": [
+      "https://meconstructionnews.com/",
+      "https://www.zawya.com/en/business/real-estate",
+      "https://gulfnews.com/business/property",
+      "https://www.khaleejtimes.com/business/realty",
+      "https://www.thenationalnews.com/business/property/",
+      "https://gulfbusiness.com/en/real-estate/",
+      "https://www.propertyfinder.ae/en/new-projects",
+      "https://www.bayut.com/new-projects/uae/"
+    ],
+    "accessGaps": [
+      "Arabian Business 403",
+      "Construction Week 405",
+      "MEED open failed",
+      "Zawya snapshot stale",
+      "Ellington newsroom inaccessible",
+      "Instagram full post captions not reliably accessible"
+    ]
+  },
+  "feedCommit": "88225409bbf261699504872348e4c31c08cbc8ab",
+  "delivery": {
+    "automaticSiteRun": 35486416966,
+    "automaticSiteConclusion": "failure GH013: changes to main require PR",
+    "contentOnlyRecoveryPR": 74,
+    "productionRun": 35486701750,
+    "status": "in progress; final proof to follow"
+  },
+  "schemaValidation": "All 19 records validated against current strict schema; existing IDs preserved; unconfirmed prices null.",
+  "visualChecks": {
+    "before": "Production page inspected in cloud browser at desktop viewport; existing raw Markdown asterisks, repeated Abu Dhabi location and double punctuation observed. No template edits within this feed task.",
+    "mobile": "No supported viewport-resize method exposed in current browser API; mobile visual acceptance not claimed."
+  }
+}
