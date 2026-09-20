@@ -512,13 +512,13 @@
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
-      "brokerPriceNote": "Saadiyat Marina advertises prices from AED 13.5 million; no developer-side starting price independently verified.",
-      "paymentPlan": "50/50, broker-reported by Saadiyat Marina; not confirmed in Aldar's announcement.",
-      "handover": "Broker-reported Q4 2029–Q4 2030; not confirmed in Aldar's launch announcement.",
-      "teaser": "Aldar opens sales for 351 Saadiyat villas on 23 September.",
-      "summary": "Aldar announced Talay on 17 September 2026 as the first residential community at Marsa Al Saadiyat. The release comprises 351 standalone four-, five- and six-bedroom villas, with sales opening on 23 September. This is a named first release within the previously reported masterplan, rather than a relaunch of the masterplan itself. For brokers it creates a near-term villa allocation opportunity on Saadiyat Island.",
-      "whatNext": "Sales open on 23 September; subscribe on this page for verified pricing, booking terms and availability updates.",
-      "confidenceNote": "High on developer, location, villa count, unit mix and sales date, verified against Aldar's original press release. Price, payment plan and handover remain broker indications.",
+      "brokerPriceNote": "An 18 September sales briefing and current Saadiyat Marina / Marsa Saadiyat broker material indicate Talay from AED 13.5 million. This is not an independently verified developer price list and must not be applied to Talay Beach, whose separate starting price remains unverified.",
+      "paymentPlan": "50/50, reiterated in an 18 September sales briefing and current broker material; final developer sales documents remain to be verified.",
+      "handover": "Talay: Q4 2029; Talay Beach: Q4 2030. Collection-specific targets from an 18 September sales briefing, corroborated by broker pages; not independently verified against final developer documents.",
+      "teaser": "Talay and Talay Beach: 167 and 184 villas, with separate handover targets.",
+      "summary": "Aldar's first Marsa Al Saadiyat release comprises 351 standalone four-, five- and six-bedroom villas, with sales opening on 23 September 2026. An 18 September sales briefing, reviewed on 20 September and corroborated by current broker material, separates the release into Talay (167 villas) and Talay Beach (184 villas), with reported handover targets of Q4 2029 and Q4 2030 respectively. This updates the previously announced collection rather than introducing another launch. For brokers, the distinction matters when matching buyers to delivery timing and collection-specific pricing.",
+      "whatNext": "Sales open on 23 September; subscribe on this page for verified collection-specific prices, booking terms and allocation updates.",
+      "confidenceNote": "High on Aldar, Saadiyat location, the 351-villa total, 4–6BR mix and 23 September sales opening. Medium on the 167/184 collection split and separate handover targets, supported by a dated recurring sales-source briefing and broker material. Price and payment terms remain indicative; Talay Beach pricing is unverified.",
       "unitMix": [
         {
           "type": "4BR villa"
@@ -545,13 +545,17 @@
         {
           "url": "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/",
           "label": "Broker commercial indications"
+        },
+        {
+          "url": "https://marsa-saadiyat.com/talay/",
+          "label": "Broker corroboration of the 167/184 collection split and separate handover targets; checked 20 September 2026"
         }
       ],
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-09-20",
       "published": true,
-      "seoTitle": "Talay at Marsa Al Saadiyat: 23 September Sales Launch | GRAF",
-      "seoDescription": "Aldar announces 351 four- to six-bedroom Talay villas on Saadiyat Island. Sales open 23 September 2026. Verified launch facts and broker indications."
+      "seoTitle": "Talay & Talay Beach: Villa Collections and Launch Update | GRAF",
+      "seoDescription": "Talay and Talay Beach at Marsa Al Saadiyat: 351 villas, 23 September sales opening and newly clarified collection-specific handover indications."
     },
     {
       "aliases": [],
