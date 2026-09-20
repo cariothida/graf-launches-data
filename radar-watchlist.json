@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19",
+  "updatedAt": "2026-09-20",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -650,7 +650,8 @@
     "danube-shahrukhz-2-residences",
     "sorei-by-zoya",
     "tessera-residences",
-    "samana-eden-barari"
+    "samana-eden-barari",
+    "aldar-talay-marsa-al-saadiyat"
   ],
   "projectReview": [
     {
@@ -661,11 +662,11 @@
       "type": "planned residential",
       "disposition": "watch-low",
       "source": "https://propsearch.ae/dubai/epoque-by-reportage",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "beachfront-gates-3",
@@ -675,11 +676,11 @@
       "type": "planned residential",
       "disposition": "watch",
       "source": "https://propsearch.ae/dubai/beachfront-gates-3",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "rove-home-the-greens",
@@ -689,11 +690,11 @@
       "type": "200-home planned residential",
       "disposition": "watch-high",
       "source": "https://propsearch.ae/dubai/rove-home-the-greens",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Already published and sent: 17 September announcement; no new material release verified 20 September"
     },
     {
       "id": "cluster-w-drive-thru",
@@ -707,7 +708,7 @@
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Excluded non-investable/non-saleable entry"
     },
     {
       "id": "untitled-plot-3830327",
@@ -717,11 +718,11 @@
       "type": "15-storey residential under development; First Trace 2025",
       "disposition": "identity-watch",
       "source": "https://propsearch.ae/dubai/untitled-plot-3830327",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "american-university-student-accommodation",
@@ -735,7 +736,7 @@
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Excluded non-investable/non-saleable entry"
     },
     {
       "id": "american-university-faculty-building",
@@ -749,7 +750,7 @@
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Excluded non-investable/non-saleable entry"
     },
     {
       "id": "the-vault-by-imtiaz",
@@ -759,11 +760,11 @@
       "type": "8-storey planned residential",
       "disposition": "watch-high",
       "source": "https://propsearch.ae/dubai/the-vault-by-imtiaz",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "boutique-residences",
@@ -773,11 +774,11 @@
       "type": "17-storey planned residential",
       "disposition": "watch",
       "source": "https://propsearch.ae/dubai/boutique-residences",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "cluster-n-drive-thru",
@@ -791,7 +792,7 @@
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Excluded non-investable/non-saleable entry"
     },
     {
       "id": "jlt-south-plot",
@@ -805,7 +806,7 @@
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "element-by-iman",
@@ -815,11 +816,11 @@
       "type": "12-storey planned residential",
       "disposition": "watch-high",
       "source": "https://propsearch.ae/dubai/element-by-iman",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "the-verso",
@@ -829,11 +830,11 @@
       "type": "planned residential",
       "disposition": "watch-high",
       "source": "https://propsearch.ae/dubai/the-verso",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "samana-barari-resort",
@@ -843,11 +844,11 @@
       "type": "35-storey planned HOTEL per Propsearch; residential marketing conflicts",
       "disposition": "classification-hold",
       "source": "https://propsearch.ae/dubai/samana-barari-resort",
-      "sourceAccess": "full public HTML retrieved 2026-09-18",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
       "instagramExactBrokerPosts": [],
       "instagramStatus": "Exact-project broker Instagram advertising not verified; not proof of absence",
       "confirmedStartingPriceAED": null,
-      "publication": "hold pending Alex selection"
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists"
     },
     {
       "id": "sorei-by-zoya",
@@ -856,19 +857,19 @@
       "location": "Dubai South Residential District",
       "source": "https://propsearch.ae/dubai/sorei-by-zoya",
       "disposition": "watch",
-      "sourceAccess": "public building page retrieved 2026-09-19",
-      "publication": "hold: dated launch/EOI not verified",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists",
       "instagramExactBrokerPosts": []
     },
     {
       "id": "tessera-residences",
       "name": "Tessera Residences",
-      "developer": "South Sanctuary Road Real Estate Development",
+      "developer": "Al Ghurair Real Estate, through South Sanctuary Road Real Estate Development (Propsearch attribution; legal sales entity not independently confirmed)",
       "location": "Dubai South Residential District",
       "source": "https://propsearch.ae/dubai/tessera-residences",
       "disposition": "watch",
-      "sourceAccess": "public building page retrieved 2026-09-19",
-      "publication": "hold: dated launch/EOI not verified",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists",
       "instagramExactBrokerPosts": []
     },
     {
@@ -878,15 +879,14 @@
       "location": "Majan",
       "source": "https://propsearch.ae/dubai/samana-eden-barari",
       "disposition": "watch",
-      "sourceAccess": "public building page retrieved 2026-09-19",
-      "publication": "hold: dated launch/EOI not verified",
+      "sourceAccess": "Public building HTML read 20 September 2026; registry data is not launch confirmation",
+      "publication": "Hold: dated qualifying sales launch/EOI not verified; not a statement that no launch exists",
       "instagramExactBrokerPosts": []
     }
   ],
   "hotLaunchReview": {
     "reviewedAt": "2026-09-18",
     "publication": "Alex authorized website publication; five qualifying records committed, live deployment verification pending",
-    "privateEvidence": "whatsapp-broker-watchlist-private.json in private user storage; never publish raw messages",
     "candidates": [
       {
         "project": "Rove Home The Greens",
@@ -970,5 +970,30 @@
     ],
     "feedCommit": "33441970c31b38a701d104feb6aaf0e3cd4c7e3f",
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
+  },
+  "lastRunCoverage": {
+    "instagramTargetedQueries": 48,
+    "distinctNamedBrokerSourcesAttempted": 21,
+    "identifiableIndexedBrokerSourcesApproximately": 5,
+    "nativeInstagramAccountsInspected": 0,
+    "instagramInspectionTargetMet": false,
+    "propsearchLatestBuildings": 20,
+    "propsearchBuildingPagesRead": 14,
+    "limitations": [
+      "Instagram search results often irrelevant or stale; query counts are not inspected account counts.",
+      "No native Instagram feeds, Stories or private groups inspected through Instagram.",
+      "YouTube search results only; no video/audio watched."
+    ]
+  },
+  "lastMaterialUpdate": {
+    "date": "2026-09-20",
+    "projectId": "aldar-talay-marsa-al-saadiyat",
+    "eventDate": "2026-09-18",
+    "change": "Public broker corroboration distinguishes Talay (167 villas) and Talay Beach (184 villas), with Q4 2029/Q4 2030 handover indications. Not a new masterplan or first announcement.",
+    "sources": [
+      "https://marsa-saadiyat.com/talay/",
+      "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/"
+    ],
+    "feedCommit": "88225409bbf261699504872348e4c31c08cbc8ab"
   }
 }
