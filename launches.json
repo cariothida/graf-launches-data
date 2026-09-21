@@ -563,47 +563,53 @@
       "pricePerSqft": null,
       "priceConfirmed": false,
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-09-21",
       "published": true,
       "id": "aldar-yas-riva-reserve",
       "project": "Yas Riva Reserve",
       "developer": "Aldar",
       "developerId": "aldar",
       "emirate": "Abu Dhabi",
-      "location": "Yas Island, Abu Dhabi; exact plot and canal frontage awaiting confirmation",
+      "location": "Northeast waterfront of Yas Island, Abu Dhabi, opposite the original Yas Riva community",
       "type": [
         "villas"
       ],
       "status": "broker-intelligence",
-      "launchWindow": "Coming soon: pre-launch material circulated 17 September 2026; exact sales-opening date not confirmed",
-      "teaser": "A new 4–6BR Yas Island villa collection appears in pre-launch briefings.",
-      "summary": "Yas Riva Reserve is being promoted as an upcoming Aldar villa collection on Yas Island. A dated 17 September portal announcement and a separately reviewed broker briefing describe four- to six-bedroom homes across approximately 50 hectares. This named collection is tracked separately from the older Yas Riva villas and Yas Riva Residences apartments. It offers an early allocation lead for family-villa buyers, while prices, payment terms, EOI and handover remain unverified.",
+      "launchWindow": "Gulf News reported the launch on 18 September 2026 and sales opening on 26 September 2026; original developer announcement not independently retrieved",
+      "teaser": "292 reported 4–6BR villas; sales opening indicated for 26 September.",
+      "summary": "An 18 September Gulf News launch report adds a 26 September 2026 sales-opening date for Yas Riva Reserve. It describes 292 four- to six-bedroom villas on northeast Yas Island, including 45 directly on the waterway with an optional private pontoon. This is a separate collection opposite the original Yas Riva community, not a relaunch of that older project. The report indicates entry pricing from AED 8.5 million, but an original developer price list, payment plan, EOI and handover have not been independently verified.",
       "unitMix": [
         {
           "type": "4BR villa",
-          "note": "Pre-launch broker/portal indication; final developer schedule awaited"
+          "note": "Part of the 292-home collection reported by Gulf News; bedroom allocation not specified"
         },
         {
           "type": "5BR villa",
-          "note": "Pre-launch broker/portal indication; final developer schedule awaited"
+          "note": "Part of the reported collection; bedroom allocation not specified"
         },
         {
           "type": "6BR villa",
-          "note": "Pre-launch broker/portal indication; final developer schedule awaited"
+          "note": "Part of the reported collection; 45 homes overall are reported directly on the waterway"
         }
       ],
-      "confidenceNote": "Medium: a public dated portal announcement corroborates the private broker signal. An original Aldar announcement for this Reserve collection has not been independently verified; no commercial terms are presented as confirmed.",
-      "whatNext": "The sales date and official commercial terms are awaited; subscribe on this page for verified launch updates.",
-      "seoTitle": "Yas Riva Reserve by Aldar: Upcoming Yas Island Villas | GRAF",
-      "seoDescription": "Yas Riva Reserve: broker-reported 4–6BR villas on Yas Island. Track the upcoming Aldar collection, sales date and developer-confirmed terms.",
+      "confidenceNote": "Medium-high on the named collection and dated media-reported launch details. The 26 September sales date and AED 8.5 million entry figure come from Gulf News; original Aldar release/price-list confirmation is still awaited, so numeric price fields remain null.",
+      "whatNext": "Sales are reported to open on 26 September; subscribe on this page for developer-confirmed booking terms, prices and handover.",
+      "seoTitle": "Yas Riva Reserve: Reported 26 September Sales Opening | GRAF",
+      "seoDescription": "Yas Riva Reserve by Aldar: 292 reported 4–6BR villas on Yas Island, sales indicated for 26 September and media-reported prices from AED 8.5m.",
       "sources": [
+        {
+          "url": "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693",
+          "label": "Gulf News dated launch report: inventory, location, sales date and indicative entry price; not a developer price list",
+          "date": "2026-09-18",
+          "primary": true
+        },
         {
           "url": "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas",
           "label": "Alnair dated upcoming-project report; corroborating private briefing retained privately",
-          "date": "2026-09-17",
-          "primary": true
+          "date": "2026-09-17"
         }
-      ]
+      ],
+      "brokerPriceNote": "Gulf News, 18 September 2026, reports starting prices of AED 8.5 million. This is a media-reported indication, not an independently verified Aldar price list."
     },
     {
       "aliases": [],
@@ -611,7 +617,7 @@
       "pricePerSqft": null,
       "priceConfirmed": false,
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-09-21",
       "published": true,
       "id": "binghatti-starfall",
       "project": "Binghatti Starfall",
@@ -622,10 +628,10 @@
       "type": [
         "apartments"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "Pre-launch; 22 September 2026 is advertised as a tentative launch date by Remington, not independently confirmed by the developer",
-      "teaser": "Al Jaddaf pre-launch with studios, 1–2BR apartments and Royal layouts.",
-      "summary": "Binghatti Starfall is being marketed as an upcoming Al Jaddaf release, with Remington advertising a tentative launch on 22 September 2026. Its preliminary schedule lists 754 homes plus 17 retail units, including studios, one- and two-bedroom apartments and limited Royal Suite layouts; final allocation documents are awaited. Multiple sources support the project and unit categories, but payment plans and completion dates conflict. Buyers can prepare for the release while treating all circulating prices as provisional.",
+      "status": "confirmed",
+      "launchWindow": "Project identity now confirmed on Binghatti's official registration page, verified 21 September 2026; page undated. A 22 September sales launch remains a provisional broker indication.",
+      "teaser": "Official project page verified; broker-advertised 22 September date remains provisional.",
+      "summary": "Binghatti's own Starfall registration page now corroborates the project name and Al Jaddaf location, upgrading the previously broker-only project identification. This is confirmation of the project and registration page, not independent confirmation that sales have opened or that the provisional 22 September 2026 launch date is final. The earlier broker schedule describes studios, one- and two-bedroom homes with limited Royal layouts, but its inventory counts, pricing, payment plan and handover still require final developer documentation.",
       "brokerPriceNote": "Remington advertises preliminary studio guidance of AED 750,000–799,000 and one-bedroom homes from AED 1.25 million. Other brokers quote different entry figures. No original developer price list independently verified.",
       "unitMix": [
         {
@@ -641,15 +647,19 @@
           "note": "55 standard apartments plus two Royal Suites, preliminary"
         }
       ],
-      "confidenceNote": "Medium-high on project identity and Al Jaddaf location; medium on preliminary inventory. The launch day, prices, payment plan and handover remain unconfirmed. Conflicting handover dates were omitted.",
-      "whatNext": "A launch is provisionally advertised for 22 September; subscribe on this page for the confirmed date, price list and booking terms.",
-      "seoTitle": "Binghatti Starfall, Al Jaddaf: Pre-Launch Details | GRAF",
-      "seoDescription": "Binghatti Starfall in Al Jaddaf: studio and 1–2BR pre-launch information, provisional 22 September date and clearly labelled broker price guidance.",
+      "confidenceNote": "High on project identity and location, now supported by Binghatti's own page. Medium on the broker-described unit mix and preliminary inventory; the 22 September launch date and all commercial terms remain provisional. The official page is undated; 21 September is our verification date, not an asserted announcement date.",
+      "whatNext": "Brokers indicate a 22 September launch; subscribe on this page for the developer-confirmed sales date, prices and booking terms.",
+      "seoTitle": "Binghatti Starfall: Official Project Page Verified | GRAF",
+      "seoDescription": "Binghatti Starfall in Al Jaddaf now has an official registration page. The broker-advertised 22 September launch and commercial terms remain provisional.",
       "sources": [
         {
-          "url": "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/",
-          "label": "Remington: preliminary schedule and tentative launch date",
+          "url": "https://www.binghatti.com/en/projects/binghatti-starfall",
+          "label": "Official Binghatti project registration page; undated, verified 21 September 2026",
           "primary": true
+        },
+        {
+          "url": "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/",
+          "label": "Remington: preliminary schedule and tentative launch date"
         },
         {
           "url": "https://hoomanjt.com/articles/binghatti-starfall-al-jaddaf/",
