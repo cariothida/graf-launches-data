@@ -1,27 +1,46 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-20",
+  "briefingDate": "2026-09-21",
   "posts": [
     {
-      "projectId": "aldar-talay-marsa-al-saadiyat",
-      "eventKey": "aldar-talay-marsa-al-saadiyat:2026-09-18-collection-split-handover",
+      "projectId": "aldar-yas-riva-reserve",
+      "eventKey": "aldar-yas-riva-reserve:2026-09-18-reported-sales-date-and-inventory",
       "kind": "hot-launch",
       "language": "en",
       "status": "broker-intelligence",
       "approved": true,
-      "materialUpdate": "An 18 September sales briefing, reviewed 20 September and corroborated by public broker pages, separates the existing release into Talay (167 villas) and Talay Beach (184 villas) with different handover targets. Not the previously sent initial announcement.",
+      "materialUpdate": "Gulf News report dated 18 September adds sales opening 26 September 2026, 292 villas (45 on waterway) and AED8.5m indicated entry price to the previously sent undated pre-launch collection. Original developer price-list confirmation remains unavailable.",
       "sources": [
-        "https://www.aldar.com/en/news-and-media/aldar-launches-first-homes-at-marsa-al-saadiyat-with-351-exclusive-villas-at-talay",
-        "https://marsa-saadiyat.com/talay/",
-        "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/"
+        "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693",
+        "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas"
       ],
-      "siteUrl": "https://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
-      "body": "TALAY & TALAY BEACH — COLLECTION UPDATE\nAldar | Marsa Al Saadiyat, Abu Dhabi\n\nAn 18 September sales briefing clarifies the previously announced 351-villa release:\n• Talay: 167 villas; indicated handover Q4 2029.\n• Talay Beach: 184 villas; indicated handover Q4 2030.\nBoth offer 4–6 bedroom standalone villas. These collection details remain sales-briefing/broker intelligence.\n\nAldar confirms sales open on 23 September 2026.\nTalay is indicated from AED 13.5m with 50/50 payments; final developer terms are not independently verified. Talay Beach pricing remains unconfirmed. Verified booking/EOI amount not found.\n\nWhy it matters: different delivery targets when selecting a collection.\nConfidence: high on the official sales date; medium on collection-specific details and terms.\n\nhttps://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
-      "scheduledAt": "2026-09-20T08:00:00+04:00",
-      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after verified site publication.",
-      "imageRepoPath": "assets/whatsapp/aldar-talay-marsa-al-saadiyat.jpg",
-      "imageSha256": "9ddb98c53fff857348da78092c7c6d44bd957ef8aee5b4ad9a732d3bba1491bc",
-      "imageVerified": true
+      "siteUrl": "https://graf.ae/launches/aldar-yas-riva-reserve/",
+      "body": "YAS RIVA RESERVE — SALES-DATE UPDATE\nAldar | Northeast Yas Island, Abu Dhabi\n\nNew details beyond our earlier pre-launch alert: Gulf News reports sales opening on 26 September 2026, with 292 four- to six-bedroom villas. It says 45 homes sit directly on the waterway, with an optional private pontoon.\n\nReported starting price: AED 8.5m (unconfirmed by the developer). This is a media indication, not an independently verified Aldar price list. Payment plan, booking/EOI and handover remain unverified.\n\nWhy it matters: a near-term family-villa release with a limited waterfront subset, separate from the original Yas Riva community.\nConfidence: medium-high on reported project details; developer confirmation of commercial terms awaited.\n\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
+      "scheduledAt": "2026-09-21T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/aldar-yas-riva-reserve-20260921.jpg",
+      "imageSha256": "f977258e07e1ff5109108be32721eaf3ff7e8b4db59f0aff68332ac9ebc58a13",
+      "imageVerified": true,
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after matching production pages are verified live."
+    },
+    {
+      "projectId": "binghatti-starfall",
+      "eventKey": "binghatti-starfall:2026-09-21-official-project-page-verified",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "confirmed",
+      "approved": true,
+      "materialUpdate": "Official Binghatti registration page verified 21 September upgrades previously broker-only project identity. Page is undated; this is not a new claim that sales opened. The previously advertised 22 September date remains provisional.",
+      "sources": [
+        "https://www.binghatti.com/en/projects/binghatti-starfall",
+        "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/"
+      ],
+      "siteUrl": "https://graf.ae/launches/binghatti-starfall/",
+      "body": "BINGHATTI STARFALL — OFFICIAL PROJECT CONFIRMATION\nAl Jaddaf, Dubai\n\nBinghatti's own project registration page now corroborates the name and location from our earlier broker alert. It does NOT independently confirm that sales are open: the broker-advertised 22 September 2026 launch remains provisional.\n\nEarlier broker schedules list studios and 1–2 bedroom apartments. Remington indicates studios at AED 750,000–799,000 and 1BR from AED 1.25m; prices remain unconfirmed. Final payment plan, booking/EOI and handover are not verified.\n\nWhy it matters: developer-backed project identity ahead of a potentially imminent central-Dubai release.\nConfidence: high on identity; medium on broker launch and commercial details.\n\nhttps://graf.ae/launches/binghatti-starfall/",
+      "scheduledAt": "2026-09-21T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/binghatti-starfall-20260921.jpg",
+      "imageSha256": "099c6e18d1f792f5d17234c53a9058aa2c7283521583017de0bb63d1ad1aea80",
+      "imageVerified": true,
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after matching production pages are verified live."
     }
   ]
 }
