@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20",
+  "updatedAt": "2026-09-21",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -972,28 +972,53 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "instagramTargetedQueries": 48,
-    "distinctNamedBrokerSourcesAttempted": 21,
-    "identifiableIndexedBrokerSourcesApproximately": 5,
+    "date": "2026-09-21",
+    "instagramTargetedQueries": 46,
+    "distinctNamedBrokerSourcesAttempted": 20,
     "nativeInstagramAccountsInspected": 0,
     "instagramInspectionTargetMet": false,
+    "qualifyingIndexedPostLeads": 3,
     "propsearchLatestBuildings": 20,
-    "propsearchBuildingPagesRead": 14,
+    "propsearchBuildingPagesRead": 15,
+    "whatsappStatusRecords": 145,
+    "whatsappStatusAuthors": 39,
+    "whatsappChatEntriesListed": 200,
+    "whatsappHistoriesRequested": 44,
+    "whatsappNonemptyHistories": 35,
+    "whatsappUniqueMessages": 1228,
     "limitations": [
-      "Instagram search results often irrelevant or stale; query counts are not inspected account counts.",
-      "No native Instagram feeds, Stories or private groups inspected through Instagram.",
-      "YouTube search results only; no video/audio watched."
+      "Instagram retrieval produced predominantly irrelevant or stale hits; named searches are not inspected accounts. Three exact-name Starfall indexed post/reel leads, including a possible same-source repost, are not three independent confirmations.",
+      "Instagram Stories inaccessible. WhatsApp Status text/captions screened; only three low-resolution previews viewed, not full image/video inspection.",
+      "YouTube search results inspected; no video/audio watched.",
+      "Propsearch web-tool 502; ordinary public homepage request succeeded. Only Latest buildings used."
     ]
   },
   "lastMaterialUpdate": {
-    "date": "2026-09-20",
-    "projectId": "aldar-talay-marsa-al-saadiyat",
-    "eventDate": "2026-09-18",
-    "change": "Public broker corroboration distinguishes Talay (167 villas) and Talay Beach (184 villas), with Q4 2029/Q4 2030 handover indications. Not a new masterplan or first announcement.",
-    "sources": [
-      "https://marsa-saadiyat.com/talay/",
-      "https://saadiyatmarina.de/en/projects/marsa-al-saadiyat/talay/"
+    "date": "2026-09-21",
+    "feedCommit": "b37060ce357956d0b585c929fec4ea27106d82bb",
+    "updates": [
+      {
+        "projectId": "aldar-yas-riva-reserve",
+        "eventDate": "2026-09-18",
+        "change": "Gulf News reports 292 villas, 45 on waterway, 26 September sales opening and AED8.5m entry price. Developer original not independently found; media terms labelled provisional.",
+        "sources": [
+          "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693"
+        ]
+      },
+      {
+        "projectId": "binghatti-starfall",
+        "observedDate": "2026-09-21",
+        "change": "Official Binghatti registration page confirms project identity; undated page not assigned a launch date. Broker 22 September date remains provisional.",
+        "sources": [
+          "https://www.binghatti.com/en/projects/binghatti-starfall"
+        ]
+      }
     ],
-    "feedCommit": "88225409bbf261699504872348e4c31c08cbc8ab"
+    "held": [
+      "Talay circulating registration weekdays/date combination conflicts with 2026 calendar and official 23 September release; no changed sales date published.",
+      "Dubai Pearl Redevelopment: Dubai Holding planning lead in Al Sufouh 2, no investable sale release established.",
+      "Tessera Residences: no dated new sale release verified.",
+      "Ellington Al Yalayis and proposed SZR office launch: no qualifying new corroborated material update."
+    ]
   }
 }
