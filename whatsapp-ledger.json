@@ -346,7 +346,7 @@
       "verifiedAt": "2026-09-21T04:07:11.243Z"
     },
     "binghatti-starfall:2026-09-21-official-project-page-verified": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "binghatti-starfall",
       "body": "BINGHATTI STARFALL — OFFICIAL PROJECT CONFIRMATION\nAl Jaddaf, Dubai\n\nBinghatti's own project registration page now corroborates the name and location from our earlier broker alert. It does NOT independently confirm that sales are open: the broker-advertised 22 September 2026 launch remains provisional.\n\nEarlier broker schedules list studios and 1–2 bedroom apartments. Remington now lists studios from AED 759,999 and 1BR from AED 1,234,999, with 50/50 for studios/2BR, 60/40 for 1BR and Q4 2028 handover. These are unconfirmed broker terms, not an official price list. Booking/EOI remains unverified.\n\nWhy it matters: developer-backed project identity ahead of a potentially imminent central-Dubai release.\nConfidence: high on identity; medium on broker launch and commercial details.\n\nhttps://graf.ae/launches/binghatti-starfall/",
       "imageRepoPath": "assets/whatsapp/binghatti-starfall-20260921.jpg",
@@ -357,7 +357,8 @@
         "sha256": "099c6e18d1f792f5d17234c53a9058aa2c7283521583017de0bb63d1ad1aea80"
       },
       "attemptedAt": "2026-09-21T04:07:13.742Z",
-      "messageId": "Pso6IFDmjVIccB8-1wIBq53f_uALiA-sA"
+      "messageId": "Pso6IFDmjVIccB8-1wIBq53f_uALiA-sA",
+      "verifiedAt": "2026-09-21T04:07:20.890Z"
     }
   }
 }
