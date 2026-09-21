@@ -329,6 +329,19 @@
       "attemptedAt": "2026-09-20T08:54:02.928Z",
       "messageId": "Psr7eZlbvimvY.U-12cBq53f_uALiA-rg",
       "verifiedAt": "2026-09-20T08:54:10.784Z"
+    },
+    "aldar-yas-riva-reserve:2026-09-18-reported-sales-date-and-inventory": {
+      "state": "pending",
+      "projectId": "aldar-yas-riva-reserve",
+      "body": "YAS RIVA RESERVE — SALES-DATE UPDATE\nAldar | Northeast Yas Island, Abu Dhabi\n\nNew details beyond our earlier pre-launch alert: Gulf News reports sales opening on 26 September 2026, with 292 four- to six-bedroom villas. It says 45 homes sit directly on the waterway, with an optional private pontoon.\n\nReported starting price: AED 8.5m (unconfirmed by the developer). This is a media indication, not an independently verified Aldar price list. Payment plan, booking/EOI and handover remain unverified.\n\nWhy it matters: a near-term family-villa release with a limited waterfront subset, separate from the original Yas Riva community.\nConfidence: medium-high on reported project details; developer confirmation of commercial terms awaited.\n\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
+      "imageRepoPath": "assets/whatsapp/aldar-yas-riva-reserve-20260921.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 257798,
+        "sha256": "f977258e07e1ff5109108be32721eaf3ff7e8b4db59f0aff68332ac9ebc58a13"
+      },
+      "attemptedAt": "2026-09-21T04:07:03.217Z"
     }
   }
 }
