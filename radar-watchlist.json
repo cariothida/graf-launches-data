@@ -995,7 +995,7 @@
   },
   "lastMaterialUpdate": {
     "date": "2026-09-21",
-    "feedCommit": "b37060ce357956d0b585c929fec4ea27106d82bb",
+    "feedCommit": "b453a0535c3ccf02bfadce19a30904f6973d803b",
     "updates": [
       {
         "projectId": "aldar-yas-riva-reserve",
@@ -1008,9 +1008,10 @@
       {
         "projectId": "binghatti-starfall",
         "observedDate": "2026-09-21",
-        "change": "Official Binghatti registration page confirms project identity; undated page not assigned a launch date. Broker 22 September date remains provisional.",
+        "change": "Official Binghatti registration page confirms project identity; undated page not assigned a launch date. Broker 22 September date remains provisional. A fresh Remington reread replaces earlier price guidance with studios AED759,999 / standard 1BR AED1,234,999 and attributed unit-dependent 50/50 or60/40 / Q42028. These remain unconfirmed broker indications.",
         "sources": [
-          "https://www.binghatti.com/en/projects/binghatti-starfall"
+          "https://www.binghatti.com/en/projects/binghatti-starfall",
+          "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/"
         ]
       }
     ],
