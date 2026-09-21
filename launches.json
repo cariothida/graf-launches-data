@@ -632,7 +632,7 @@
       "launchWindow": "Project identity now confirmed on Binghatti's official registration page, verified 21 September 2026; page undated. A 22 September sales launch remains a provisional broker indication.",
       "teaser": "Official project page verified; broker-advertised 22 September date remains provisional.",
       "summary": "Binghatti's own Starfall registration page now corroborates the project name and Al Jaddaf location, upgrading the previously broker-only project identification. This is confirmation of the project and registration page, not independent confirmation that sales have opened or that the provisional 22 September 2026 launch date is final. The earlier broker schedule describes studios, one- and two-bedroom homes with limited Royal layouts, but its inventory counts, pricing, payment plan and handover still require final developer documentation.",
-      "brokerPriceNote": "Remington advertises preliminary studio guidance of AED 750,000–799,000 and one-bedroom homes from AED 1.25 million. Other brokers quote different entry figures. No original developer price list independently verified.",
+      "brokerPriceNote": "Remington's page, rechecked 21 September 2026, now lists studios from AED 759,999 and standard one-bedroom homes from AED 1,234,999. These replace the earlier broad broker guidance; an original developer price list is still not independently verified.",
       "unitMix": [
         {
           "type": "Studio",
@@ -659,7 +659,7 @@
         },
         {
           "url": "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/",
-          "label": "Remington: preliminary schedule and tentative launch date"
+          "label": "Remington: current indicative inventory, pricing, differentiated payment plans and handover; rechecked 21 September 2026, page undated"
         },
         {
           "url": "https://hoomanjt.com/articles/binghatti-starfall-al-jaddaf/",
@@ -669,8 +669,14 @@
         {
           "url": "https://ae.linkedin.com/in/hesham-ahmed-helmy-08092938",
           "label": "Indexed sales-profile launch indication; not an original developer announcement"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DdecVdstvlC/",
+          "label": "Publicly indexed broker caption advertising 22 September launch; full Instagram reel inaccessible"
         }
-      ]
+      ],
+      "paymentPlan": "Broker-listed by Remington, checked 21 September: 50/50 for studios and 2BR; 60/40 for 1BR. Unit-specific schedule and developer confirmation awaited.",
+      "handover": "Q4 2028 indicated by Remington; unconfirmed by the developer and subject to conflicting broker material."
     },
     {
       "aliases": [],
