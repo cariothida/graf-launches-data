@@ -359,6 +359,19 @@
       "attemptedAt": "2026-09-21T04:07:13.742Z",
       "messageId": "Pso6IFDmjVIccB8-1wIBq53f_uALiA-sA",
       "verifiedAt": "2026-09-21T04:07:20.890Z"
+    },
+    "modon-wadeem-gardens:2026-09-21-release-timeline": {
+      "state": "pending",
+      "projectId": "modon-wadeem-gardens",
+      "body": "WADEEM GARDENS — RELEASE-TIMELINE UPDATE\nModon | Hudayriyat Island, Abu Dhabi\n\nNew broker intelligence adds a provisional release sequence: AED 50,000 EOI closes 28 September, VIP sales are indicated for 29 September and public sales for 1 October. Modon has not independently confirmed these dates in accessible public material.\n\nBroker-indicated prices: 4BR from AED 8.7m, 5BR from AED 10.2m and 6BR from AED 11.6m. Advertised 25/75 payment and Q2 2031 handover remain unconfirmed developer-side terms.\n\nWhy it matters: buyers now have a near-term decision window for the 4–6BR villa release on Hudayriyat Island.\nConfidence: medium-high on project and product; medium on timing and commercial terms.\n\nhttps://graf.ae/launches/modon-wadeem-gardens/",
+      "imageRepoPath": "assets/whatsapp/modon-wadeem-gardens.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 201513,
+        "sha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10"
+      },
+      "attemptedAt": "2026-09-22T04:40:11.493Z"
     }
   }
 }
