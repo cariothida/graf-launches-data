@@ -1,46 +1,26 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-21",
+  "briefingDate": "2026-09-22",
   "posts": [
     {
-      "projectId": "aldar-yas-riva-reserve",
-      "eventKey": "aldar-yas-riva-reserve:2026-09-18-reported-sales-date-and-inventory",
+      "projectId": "modon-wadeem-gardens",
+      "eventKey": "modon-wadeem-gardens:2026-09-21-release-timeline",
       "kind": "hot-launch",
       "language": "en",
       "status": "broker-intelligence",
       "approved": true,
-      "materialUpdate": "Gulf News report dated 18 September adds sales opening 26 September 2026, 292 villas (45 on waterway) and AED8.5m indicated entry price to the previously sent undated pre-launch collection. Original developer price-list confirmation remains unavailable.",
+      "materialUpdate": "A directly reviewed sales Status dated 21 September adds a provisional release sequence: EOI close 28 September, VIP sales 29 September and public launch 1 October, plus bedroom-specific broker price indications.",
       "sources": [
-        "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693",
-        "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas"
+        "https://www.instagram.com/reel/DdYaiRyo94H/",
+        "https://www.instagram.com/p/DdTIUsDjNno/"
       ],
-      "siteUrl": "https://graf.ae/launches/aldar-yas-riva-reserve/",
-      "body": "YAS RIVA RESERVE — SALES-DATE UPDATE\nAldar | Northeast Yas Island, Abu Dhabi\n\nNew details beyond our earlier pre-launch alert: Gulf News reports sales opening on 26 September 2026, with 292 four- to six-bedroom villas. It says 45 homes sit directly on the waterway, with an optional private pontoon.\n\nReported starting price: AED 8.5m (unconfirmed by the developer). This is a media indication, not an independently verified Aldar price list. Payment plan, booking/EOI and handover remain unverified.\n\nWhy it matters: a near-term family-villa release with a limited waterfront subset, separate from the original Yas Riva community.\nConfidence: medium-high on reported project details; developer confirmation of commercial terms awaited.\n\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
-      "scheduledAt": "2026-09-21T08:00:00+04:00",
-      "imageRepoPath": "assets/whatsapp/aldar-yas-riva-reserve-20260921.jpg",
-      "imageSha256": "f977258e07e1ff5109108be32721eaf3ff7e8b4db59f0aff68332ac9ebc58a13",
+      "siteUrl": "https://graf.ae/launches/modon-wadeem-gardens/",
+      "body": "WADEEM GARDENS — RELEASE-TIMELINE UPDATE\nModon | Hudayriyat Island, Abu Dhabi\n\nNew broker intelligence adds a provisional release sequence: AED 50,000 EOI closes 28 September, VIP sales are indicated for 29 September and public sales for 1 October. Modon has not independently confirmed these dates in accessible public material.\n\nBroker-indicated prices: 4BR from AED 8.7m, 5BR from AED 10.2m and 6BR from AED 11.6m. Advertised 25/75 payment and Q2 2031 handover remain unconfirmed developer-side terms.\n\nWhy it matters: buyers now have a near-term decision window for the 4–6BR villa release on Hudayriyat Island.\nConfidence: medium-high on project and product; medium on timing and commercial terms.\n\nhttps://graf.ae/launches/modon-wadeem-gardens/",
+      "scheduledAt": "2026-09-22T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/modon-wadeem-gardens.jpg",
+      "imageSha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10",
       "imageVerified": true,
-      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after matching production pages are verified live."
-    },
-    {
-      "projectId": "binghatti-starfall",
-      "eventKey": "binghatti-starfall:2026-09-21-official-project-page-verified",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "Official Binghatti registration page verified 21 September upgrades previously broker-only project identity. Page is undated; this is not a new claim that sales opened. The previously advertised 22 September date remains provisional.",
-      "sources": [
-        "https://www.binghatti.com/en/projects/binghatti-starfall",
-        "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/"
-      ],
-      "siteUrl": "https://graf.ae/launches/binghatti-starfall/",
-      "body": "BINGHATTI STARFALL — OFFICIAL PROJECT CONFIRMATION\nAl Jaddaf, Dubai\n\nBinghatti's own project registration page now corroborates the name and location from our earlier broker alert. It does NOT independently confirm that sales are open: the broker-advertised 22 September 2026 launch remains provisional.\n\nEarlier broker schedules list studios and 1–2 bedroom apartments. Remington now lists studios from AED 759,999 and 1BR from AED 1,234,999, with 50/50 for studios/2BR, 60/40 for 1BR and Q4 2028 handover. These are unconfirmed broker terms, not an official price list. Booking/EOI remains unverified.\n\nWhy it matters: developer-backed project identity ahead of a potentially imminent central-Dubai release.\nConfidence: high on identity; medium on broker launch and commercial details.\n\nhttps://graf.ae/launches/binghatti-starfall/",
-      "scheduledAt": "2026-09-21T08:00:00+04:00",
-      "imageRepoPath": "assets/whatsapp/binghatti-starfall-20260921.jpg",
-      "imageSha256": "099c6e18d1f792f5d17234c53a9058aa2c7283521583017de0bb63d1ad1aea80",
-      "imageVerified": true,
-      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after matching production pages are verified live."
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after the matching production page is verified live."
     }
   ]
 }
