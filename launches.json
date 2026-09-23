@@ -513,7 +513,7 @@
         "villas"
       ],
       "status": "confirmed",
-      "launchWindow": "Announced 17 September 2026; sales open 23 September 2026, confirmed in Aldar's press release.",
+      "launchWindow": "Aldar's public release said sales commence 23 September 2026. A developer-partner allocation briefing subsequently separated registration from launch: non-resident allocations on 24 September and public launch on 25 September.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
@@ -521,9 +521,9 @@
       "paymentPlan": "50/50, reiterated in an 18 September sales briefing and current broker material; final developer sales documents remain to be verified.",
       "handover": "Talay: Q4 2029; Talay Beach: Q4 2030. Collection-specific targets from an 18 September sales briefing, corroborated by broker pages; not independently verified against final developer documents.",
       "teaser": "Talay and Talay Beach: 167 and 184 villas, with separate handover targets.",
-      "summary": "Aldar's first Marsa Al Saadiyat release comprises 351 standalone four-, five- and six-bedroom villas, with sales opening on 23 September 2026. An 18 September sales briefing, reviewed on 20 September and corroborated by current broker material, separates the release into Talay (167 villas) and Talay Beach (184 villas), with reported handover targets of Q4 2029 and Q4 2030 respectively. This updates the previously announced collection rather than introducing another launch. For brokers, the distinction matters when matching buyers to delivery timing and collection-specific pricing.",
-      "whatNext": "Sales open on 23 September; subscribe on this page for verified collection-specific prices, booking terms and allocation updates.",
-      "confidenceNote": "High on Aldar, Saadiyat location, the 351-villa total, 4–6BR mix and 23 September sales opening. Medium on the 167/184 collection split and separate handover targets, supported by a dated recurring sales-source briefing and broker material. Price and payment terms remain indicative; Talay Beach pricing is unverified.",
+      "summary": "Aldar's first Marsa Al Saadiyat release comprises 351 standalone four-, five- and six-bedroom villas across Talay and Talay Beach. A developer-partner allocation briefing reviewed on 23 September clarifies the sequence behind Aldar's published 23 September sales commencement: registration opens first, non-resident allocations are indicated for 24 September and the public launch for 25 September. Talay is broker-indicated from AED 13.5 million with a 50/50 payment structure; final collection-specific availability and Talay Beach pricing remain to be verified.",
+      "whatNext": "Public allocations are indicated for 25 September; subscribe on this page for verified availability, booking terms and Talay Beach pricing.",
+      "confidenceNote": "High on Aldar, Saadiyat location, the 351-villa total and 4–6BR mix. High on the published 23 September sales commencement; medium-high on the 24/25 September allocation sequence from a directly reviewed developer-partner briefing. Price and payment terms remain indicative, and Talay Beach pricing is unverified.",
       "unitMix": [
         {
           "type": "4BR villa"
@@ -557,10 +557,10 @@
         }
       ],
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-20",
+      "updatedAt": "2026-09-23",
       "published": true,
       "seoTitle": "Talay & Talay Beach: Villa Collections and Launch Update | GRAF",
-      "seoDescription": "Talay and Talay Beach at Marsa Al Saadiyat: 351 villas, 23 September sales opening and newly clarified collection-specific handover indications."
+      "seoDescription": "Talay and Talay Beach at Marsa Al Saadiyat: 351 villas, registration under way and public allocations indicated for 25 September."
     },
     {
       "aliases": [],
@@ -1033,6 +1033,72 @@
       "published": true,
       "seoTitle": "Shahrukhz 2 Residences: Danube Prelaunch Watch | GRAF",
       "seoDescription": "Broker-reported Shahrukhz 2 Residences EOI in Dubai Maritime City. October 2026 launch expected; prices, unit mix and handover await confirmation."
+    },
+    {
+      "id": "nakheel-bay-estate-dubai-islands",
+      "aliases": [],
+      "parentId": "dubai-islands",
+      "phase": "Bay Estate — first residential release on Island E",
+      "project": "Bay Estate",
+      "developer": "Nakheel",
+      "developerId": "nakheel",
+      "emirate": "Dubai",
+      "location": "Island E, Dubai Islands, Dubai",
+      "type": [
+        "townhouses",
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Registration is open. Current broker pages and directly reviewed developer-manager material point to sales on 25 September 2026; the planned 22 September broker briefing was cancelled during the mourning period.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Current public broker pages quote approximately AED 4.7–5.5 million for a 3BR townhouse. The figures conflict and no Nakheel price list has been independently verified, so numeric price fields remain null.",
+      "paymentPlan": null,
+      "teaser": "Nakheel's reported Island E release: 3–4BR townhouses and 4BR villas.",
+      "summary": "Bay Estate is being prepared as Nakheel's first residential release on Island E at Dubai Islands. Current developer-manager material and multiple public broker references describe 3- and 4-bedroom townhouses plus 4-bedroom garden or standalone villas, with sales reported for 25 September after the 22 September broker briefing was cancelled. Prices, payment structure, handover and final inventory remain unconfirmed by an independently accessible Nakheel launch pack.",
+      "whatNext": "Sales are reported for 25 September; subscribe on this page for Nakheel-confirmed pricing, payment terms, handover and allocation rules.",
+      "confidenceNote": "Medium-high on the project name, Nakheel, Island E location and townhouse/villa mix from repeated current manager and broker coverage. Medium on 25 September timing after the briefing cancellation. Prices and commercial terms remain unconfirmed.",
+      "unitMix": [
+        {
+          "type": "3BR townhouse",
+          "note": "Repeated in current developer-manager and broker material"
+        },
+        {
+          "type": "4BR townhouse",
+          "note": "Repeated in current developer-manager and broker material"
+        },
+        {
+          "type": "4BR garden / standalone villa",
+          "note": "Current developer-manager and broker material; final naming awaits Nakheel"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://metropolitan.realestate/dubai-islands/bay-estate/",
+          "label": "Current public broker reference for project identity, Island E and 3BR townhouses",
+          "date": "2026-09-14",
+          "primary": true
+        },
+        {
+          "url": "https://www.aktrealestate.ae/en/offplan/dubai-islands-by-nakheel",
+          "label": "Current broker reference reporting 25 September sales and townhouse/villa mix"
+        },
+        {
+          "url": "https://www.propertyfinder.ae/en/new-projects/nakheel/bay-estate",
+          "label": "Portal corroboration of Bay Estate as the first Island E residential release"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=9y2pPbNDjlg",
+          "label": "Recent on-site Island E masterplan review; commercial evidence retained privately",
+          "date": "2026-09-17"
+        }
+      ],
+      "firstReported": "2026-09-23",
+      "updatedAt": "2026-09-23",
+      "published": true,
+      "seoTitle": "Bay Estate by Nakheel: Island E Launch Intelligence | GRAF",
+      "seoDescription": "Bay Estate at Dubai Islands: reported 3–4BR townhouses and 4BR villas on Island E, with sales indicated for 25 September."
     }
   ],
   "version": 1
