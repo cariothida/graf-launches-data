@@ -1,24 +1,44 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-22",
+  "briefingDate": "2026-09-23",
   "posts": [
     {
-      "projectId": "modon-wadeem-gardens",
-      "eventKey": "modon-wadeem-gardens:2026-09-21-release-timeline",
+      "projectId": "nakheel-bay-estate-dubai-islands",
+      "eventKey": "nakheel-bay-estate-dubai-islands:2026-09-23-initial",
       "kind": "hot-launch",
       "language": "en",
       "status": "broker-intelligence",
       "approved": true,
-      "materialUpdate": "A directly reviewed sales Status dated 21 September adds a provisional release sequence: EOI close 28 September, VIP sales 29 September and public launch 1 October, plus bedroom-specific broker price indications.",
+      "materialUpdate": "Current developer-manager and public broker material identifies Bay Estate as Nakheel's first Island E residential release and reports sales on 25 September after the 22 September broker briefing was cancelled.",
       "sources": [
-        "https://www.instagram.com/reel/DdYaiRyo94H/",
-        "https://www.instagram.com/p/DdTIUsDjNno/"
+        "https://metropolitan.realestate/dubai-islands/bay-estate/",
+        "https://aktrealestate.ae/offplan-projects/bay-estate-dubai-islands/",
+        "https://www.propertyfinder.ae/en/new-projects/nakheel/bay-estate"
       ],
-      "siteUrl": "https://graf.ae/launches/modon-wadeem-gardens/",
-      "body": "WADEEM GARDENS — RELEASE-TIMELINE UPDATE\nModon | Hudayriyat Island, Abu Dhabi\n\nNew broker intelligence adds a provisional release sequence: AED 50,000 EOI closes 28 September, VIP sales are indicated for 29 September and public sales for 1 October. Modon has not independently confirmed these dates in accessible public material.\n\nBroker-indicated prices: 4BR from AED 8.7m, 5BR from AED 10.2m and 6BR from AED 11.6m. Advertised 25/75 payment and Q2 2031 handover remain unconfirmed developer-side terms.\n\nWhy it matters: buyers now have a near-term decision window for the 4–6BR villa release on Hudayriyat Island.\nConfidence: medium-high on project and product; medium on timing and commercial terms.\n\nhttps://graf.ae/launches/modon-wadeem-gardens/",
-      "scheduledAt": "2026-09-22T08:00:00+04:00",
-      "imageRepoPath": "assets/whatsapp/modon-wadeem-gardens.jpg",
-      "imageSha256": "18fe22b5bbad2c9cdd567211d255294b6fe9381a65c4a219bf3597d1a6b9df10",
+      "siteUrl": "https://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
+      "body": "BAY ESTATE — BROKER INTELLIGENCE\nNakheel | Island E, Dubai Islands\n\nCurrent developer-manager and broker material points to 3–4BR townhouses and 4BR garden or standalone villas, with sales reportedly on 25 September after the planned 22 September briefing was cancelled.\n\nPublic broker pages currently quote approximately AED 4.7m–5.5m for a 3BR townhouse, but the figures conflict and no Nakheel price list has been verified. Payment plan, handover and final inventory remain unconfirmed.\n\nWhy it matters: this is the first reported residential release on Island E.\nConfidence: medium-high on identity, location and product mix; medium on timing; commercial terms unconfirmed.\n\nhttps://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
+      "scheduledAt": "2026-09-23T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/bay-estate-20260923.jpg",
+      "imageSha256": "6a7810810a22773eb3d0bb5eb0692832375a42b99a306fc9cbaa734ac3fa6d4a",
+      "imageVerified": true,
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after the matching production page is verified live."
+    },
+    {
+      "projectId": "aldar-talay-marsa-al-saadiyat",
+      "eventKey": "aldar-talay-marsa-al-saadiyat:2026-09-23-allocation-timeline",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "A developer-partner allocation briefing reviewed on 23 September clarifies the sequence behind Aldar's public 23 September sales commencement: non-resident allocations on 24 September and public launch on 25 September.",
+      "sources": [
+        "https://www.aldar.com/en/news-and-media/aldar-launches-first-homes-at-marsa-al-saadiyat-with-351-exclusive-villas-at-talay"
+      ],
+      "siteUrl": "https://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
+      "body": "TALAY — ALLOCATION-TIMING UPDATE\nAldar | Marsa Al Saadiyat, Abu Dhabi\n\nA developer-partner briefing clarifies Aldar's published 23 September sales commencement: non-resident allocations are indicated for 24 September and the public launch for 25 September.\n\nThe release comprises 351 standalone 4–6BR villas across Talay and Talay Beach. Broker material indicates Talay from AED 13.5m with 50/50 payments and Q4 2029 handover; Talay Beach is indicated for Q4 2030. These commercial terms remain unverified against final Aldar sales documents, and Talay Beach pricing is still unknown.\n\nWhy it matters: buyers now have a clearer allocation sequence for the first Marsa Al Saadiyat villa release.\nConfidence: high on project and official sales commencement; medium-high on the 24/25 September allocation sequence; commercial terms remain indicative.\n\nhttps://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
+      "scheduledAt": "2026-09-23T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/talay-update-20260923.jpg",
+      "imageSha256": "49062f4e11a178e609774ea8cfe2c7f338eb5761b507e6c1c76f9076455702b3",
       "imageVerified": true,
       "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after the matching production page is verified live."
     }
