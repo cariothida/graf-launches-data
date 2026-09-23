@@ -389,6 +389,19 @@
       "attemptedAt": "2026-09-23T04:11:49.720Z",
       "messageId": "PsrnabVLCGtrE1k-1_IBq53f_uALiA-sg",
       "verifiedAt": "2026-09-23T04:11:58.347Z"
+    },
+    "aldar-talay-marsa-al-saadiyat:2026-09-23-allocation-timeline": {
+      "state": "pending",
+      "projectId": "aldar-talay-marsa-al-saadiyat",
+      "body": "TALAY — ALLOCATION-TIMING UPDATE\nAldar | Marsa Al Saadiyat, Abu Dhabi\n\nA developer-partner briefing clarifies Aldar's published 23 September sales commencement: non-resident allocations are indicated for 24 September and the public launch for 25 September.\n\nThe release comprises 351 standalone 4–6BR villas across Talay and Talay Beach. Broker material indicates Talay from AED 13.5m with 50/50 payments and Q4 2029 handover; Talay Beach is indicated for Q4 2030. These commercial terms remain unverified against final Aldar sales documents, and Talay Beach pricing is still unknown.\n\nWhy it matters: buyers now have a clearer allocation sequence for the first Marsa Al Saadiyat villa release.\nConfidence: high on project and official sales commencement; medium-high on the 24/25 September allocation sequence; commercial terms remain indicative.\n\nhttps://graf.ae/launches/aldar-talay-marsa-al-saadiyat/",
+      "imageRepoPath": "assets/whatsapp/talay-update-20260923.jpg",
+      "imageQA": {
+        "width": 1200,
+        "height": 900,
+        "bytes": 108533,
+        "sha256": "49062f4e11a178e609774ea8cfe2c7f338eb5761b507e6c1c76f9076455702b3"
+      },
+      "attemptedAt": "2026-09-23T04:12:01.136Z"
     }
   }
 }
