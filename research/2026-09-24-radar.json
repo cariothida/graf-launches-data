@@ -167,6 +167,11 @@
     "manualSend": false,
     "priorQueueEventsBothAlreadySent": true,
     "scheduleChanged": false,
-    "reason": "No candidate cleared dated-new-event and identity checks; no filler or duplicate posts."
+    "reason": "No candidate cleared dated-new-event and identity checks; no filler or duplicate posts.",
+    "publisherRun": 35951185621,
+    "publisherConclusion": "success",
+    "queueReadBackVerified": true,
+    "feedUnchangedVerified": true,
+    "ledgerUnchangedVerified": true
   }
 }
