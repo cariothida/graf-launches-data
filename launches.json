@@ -689,7 +689,7 @@
       "pricePerSqft": null,
       "priceConfirmed": false,
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-09-25",
       "published": true,
       "id": "irth-rove-home-the-greens",
       "project": "Rove Home The Greens",
@@ -700,11 +700,11 @@
         "apartments"
       ],
       "status": "confirmed",
-      "launchWindow": "Project announced 17 September 2026 as the next Rove Home launch; sales-opening date not announced in the reviewed release",
+      "launchWindow": "Rove Hotels expects project launch before the end of 2026; sales-opening date not announced",
       "teaser": "IRTH and Rove announce a 200-home project in established The Greens.",
-      "summary": "Rove Hotels and IRTH Group announced Rove Home The Greens on 17 September 2026 as the next project under their expanded residential partnership. The announcement identifies 200 homes in Dubai's established The Greens community. This confirms the upcoming project, not an opening of sales: unit configurations, starting prices, payment plan and handover were not specified in the reviewed announcement. The established neighbourhood and limited announced home count make it a relevant early-access opportunity.",
-      "confidenceNote": "High on the announced project, IRTH/Rove partnership, location and 200-home total, supported by dated announcement coverage. Sales opening and commercial terms remain unknown.",
-      "whatNext": "Detailed launch and sales information is awaited; subscribe on this page for confirmed prices, floor plans and booking dates.",
+      "summary": "Rove Hotels and IRTH Group announced Rove Home The Greens on 17 September 2026 as the next project under their expanded residential partnership. The announcement identifies 200 homes in Dubai's established The Greens community. Rove Hotels has since indicated a launch before the end of 2026, but no exact sales-opening date, unit configurations, starting prices, payment plan or handover were released in the reviewed material. The established neighbourhood and limited announced home count make this a relevant early-access opportunity.",
+      "confidenceNote": "High on project identity, IRTH/Rove partnership, location and 200-home total. Rove's own post indicates launch before the end of 2026; exact sales opening and commercial terms remain unknown.",
+      "whatNext": "Watch for the precise sales-opening date, unit mix and prices; subscribe on this page for verified release details.",
       "seoTitle": "Rove Home The Greens by IRTH: New Project Announced | GRAF",
       "seoDescription": "IRTH and Rove announce 200 homes at Rove Home The Greens in Dubai. Follow the upcoming launch, unit mix and pricing as official details are released.",
       "sources": [
@@ -717,6 +717,10 @@
         {
           "url": "https://propsearch.ae/dubai/rove-home-the-greens",
           "label": "Propsearch building record; registration is not treated as a sales launch"
+        },
+        {
+          "url": "https://www.linkedin.com/company/rove-hotels/",
+          "label": "Rove Hotels official project announcement and before-year-end launch window"
         }
       ]
     },
