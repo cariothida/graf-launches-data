@@ -406,7 +406,7 @@
       "verifiedAt": "2026-09-23T04:12:09.076Z"
     },
     "nakheel-bay-estate-dubai-islands:2026-09-25-eoi-open": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "nakheel-bay-estate-dubai-islands",
       "body": "BAY ESTATE — EOI OPENS TODAY\nNakheel | Island E, Dubai Islands\n\nA current Nakheel/Dubai Holding Real Estate manager briefing opens EOI submissions at 10:00 AM GST on 25 September 2026. It identifies townhouses, attached villas, garden villas and villa plots.\n\nBroker indications: AED 100,000 EOI; 3BR townhouses from AED 5.9m; 4BR townhouses from AED 6.9m; 4BR attached villas from AED 7.2m; 4BR garden villas from AED 10m; 60/40 payment and January 2031 handover. These commercial terms are broker-reported and remain unconfirmed by Nakheel.\n\nWhy it matters: Bay Estate has moved from advance reporting to a live EOI intake window for Nakheel's first residential release on Island E.\nConfidence: high on project identity and EOI timing; medium-high on product mix; commercial terms unconfirmed.\n\nhttps://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
       "imageRepoPath": "assets/whatsapp/bay-estate-eoi-20260925.jpg",
@@ -417,7 +417,8 @@
         "sha256": "43c89fff5477ec75ad38cbe1d391390e3298b88e47a80bd7903c38a008c4a2c0"
       },
       "attemptedAt": "2026-09-25T04:17:30.975Z",
-      "messageId": "PspCaOlw401zaPM-18EBq53f_uALiA-tA"
+      "messageId": "PspCaOlw401zaPM-18EBq53f_uALiA-tA",
+      "verifiedAt": "2026-09-25T04:17:39.797Z"
     }
   }
 }
