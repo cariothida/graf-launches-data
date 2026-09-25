@@ -21,7 +21,7 @@
       "imageRepoPath": "assets/whatsapp/bay-estate-eoi-20260925.jpg",
       "imageSha256": "43c89fff5477ec75ad38cbe1d391390e3298b88e47a80bd7903c38a008c4a2c0",
       "imageVerified": true,
-      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after the matching production page is verified live."
+      "scheduleReason": "08:00 Dubai morning batch; same-day recovery invocation after the scheduled runner was delayed. The event body and image are unchanged."
     }
   ]
 }
