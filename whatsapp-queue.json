@@ -1,5 +1,27 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-24",
-  "posts": []
+  "briefingDate": "2026-09-25",
+  "posts": [
+    {
+      "projectId": "nakheel-bay-estate-dubai-islands",
+      "eventKey": "nakheel-bay-estate-dubai-islands:2026-09-25-eoi-open",
+      "kind": "hot-launch",
+      "language": "en",
+      "status": "broker-intelligence",
+      "approved": true,
+      "materialUpdate": "A current Nakheel/Dubai Holding Real Estate manager briefing opens Bay Estate EOI intake at 10:00 AM GST on 25 September and expands the stated product mix to townhouses, attached villas, garden villas and villa plots.",
+      "sources": [
+        "https://metropolitan.realestate/dubai-islands/bay-estate/",
+        "https://www.aktrealestate.ae/en/offplan/dubai-islands-by-nakheel",
+        "https://www.propertyfinder.ae/en/new-projects/nakheel/bay-estate"
+      ],
+      "siteUrl": "https://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
+      "body": "BAY ESTATE — EOI OPENS TODAY\nNakheel | Island E, Dubai Islands\n\nA current Nakheel/Dubai Holding Real Estate manager briefing opens EOI submissions at 10:00 AM GST on 25 September 2026. It identifies townhouses, attached villas, garden villas and villa plots.\n\nBroker indications: AED 100,000 EOI; 3BR townhouses from AED 5.9m; 4BR townhouses from AED 6.9m; 4BR attached villas from AED 7.2m; 4BR garden villas from AED 10m; 60/40 payment and January 2031 handover. These commercial terms are broker-reported and remain unconfirmed by Nakheel.\n\nWhy it matters: Bay Estate has moved from advance reporting to a live EOI intake window for Nakheel's first residential release on Island E.\nConfidence: high on project identity and EOI timing; medium-high on product mix; commercial terms unconfirmed.\n\nhttps://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
+      "scheduledAt": "2026-09-25T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/bay-estate-eoi-20260925.jpg",
+      "imageSha256": "43c89fff5477ec75ad38cbe1d391390e3298b88e47a80bd7903c38a008c4a2c0",
+      "imageVerified": true,
+      "scheduleReason": "All approved daily posts target one 08:00 Dubai morning batch after the matching production page is verified live."
+    }
+  ]
 }
