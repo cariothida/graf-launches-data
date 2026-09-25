@@ -8,7 +8,8 @@
     "Rotate tomorrow toward verified individual Abu Dhabi and RAK brokers and official developer-linked Instagram handles; remove repetitive low-signal sources after sufficient observed history.",
     "Equity Edge calendar entry dates are catalogue-addition dates, not launch dates. Aumra Nova homepage is a limited app shell.",
     "2026-09-18 Alex excludes ALL International City projects. Reviewed 14 Latest buildings entries; hold publication pending selection. First Trace is not launch date. Instagram exact-project broker posts unverified.",
-    "2026-09-19: 45 Instagram-targeted query formulations, including 20 named-broker attempts; NOT 20 successful account inspections. Zero native Instagram accounts inspected. Exact Sorei/Tessera/Samana Eden dated sales signals unverified. Private WhatsApp fresh export blocked by permission gate; no current private-message coverage claimed."
+    "2026-09-19: 45 Instagram-targeted query formulations, including 20 named-broker attempts; NOT 20 successful account inspections. Zero native Instagram accounts inspected. Exact Sorei/Tessera/Samana Eden dated sales signals unverified. Private WhatsApp fresh export blocked by permission gate; no current private-message coverage claimed.",
+    "2026-09-25: User-supplied WhatsApp Status screenshot from Maxim Kolchanov (Raisa) shows Blue Marina Residence at a 24 September presentation. This identifies a candidate lead, not his employer or a newly launched phase. Existing Propsearch trace from October 2025 and Property Finder transaction history in March-April 2026 show project predates event; Segrex collaboration is a sales/distribution relaunch. Follow exact project/phase for material new terms, no duplicate initial-launch post."
   ],
   "sources": [
     {
@@ -609,6 +610,24 @@
       "access": "project-page-opened",
       "lastAccessCheck": "2026-09-19",
       "launchFocus": "Sheraton revised 168-home collection; price/payment conflict across official pages"
+    },
+    {
+      "name": "Shakirov Developments",
+      "url": "https://shakirovdevelopments.ae/blue-marina-residence/",
+      "kind": "developer",
+      "coverage": "Dubai",
+      "access": "official-project-page-opened",
+      "lastAccessCheck": "2026-09-25",
+      "launchFocus": "Watch dated first releases or phase updates; Blue Marina Residence predates the 24 September 2026 Segrex presentation"
+    },
+    {
+      "name": "Segrex Sales Center",
+      "url": "https://www.segrexsalescenter.com/",
+      "kind": "sales-center",
+      "coverage": "Dubai",
+      "access": "official-sales-center-site-indexed; dated-partnership-event-verified",
+      "lastAccessCheck": "2026-09-25",
+      "launchFocus": "Blue Marina Residence distribution partner as of 24 September 2026; verify new project/phase, fresh EOI or commercial terms before reporting"
     }
   ],
   "additionalCandidates": [
