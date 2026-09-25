@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24",
+  "updatedAt": "2026-09-25",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -972,167 +972,114 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "watchlistSources": 58,
-    "instagramTargetedQueries": 48,
+    "instagramTargetedQueries": 24,
     "distinctNamedBrokerSourcesAttempted": 20,
     "nativeInstagramAccountsInspected": 0,
     "instagramStoriesInspected": 0,
     "whatsappChatEntriesListed": 200,
-    "whatsappHistoriesRequested": 45,
-    "whatsappNonemptyHistories": 38,
-    "whatsappUniqueMessages": 1475,
-    "whatsappStatusRecords": 250,
+    "whatsappHistoriesRequested": 41,
+    "whatsappNonemptyHistories": 34,
+    "whatsappUniqueMessages": 1119,
+    "whatsappStatusRecords": 248,
     "whatsappStatusCap": 500,
     "statusCapReached": false,
     "statusImagePreviewsViewed": 3,
     "fullStatusImagesViewed": 0,
     "statusVideosViewed": 0,
     "propsearchLatestBuildings": 20,
-    "propsearchPotentiallyInvestableBuildingPagesRead": 3,
+    "propsearchPotentiallyInvestableBuildingPagesRead": 2,
     "limitations": [
-      "20 named broker searches are attempts, not 20 inspected accounts. Search repeatedly returned irrelevant results even for exact queries; no claim of complete Instagram coverage.",
-      "The current WhatsApp reader samples the first 200 chat entries and selects at most 45 histories. Not every saved source or account chat is covered.",
-      "250 Status records were screened by available text/caption/metadata. Only three low-resolution image previews were viewed; full images, PDF documents and videos were not reviewed. An image record alone is not content coverage.",
-      "Instagram Stories remain inaccessible. Indexed YouTube searches were attempted, but no relevant new launch video was fully watched.",
-      "Aldar newsroom rendered zero items in the retrieved shell; not evidence that no announcements exist.",
-      "Propsearch web-tool opens failed; ordinary public HTTP retrieval succeeded for homepage and three relevant building pages."
+      "The 20 named Instagram broker searches are source attempts, not native account inspections; indexed access was sparse and no native Instagram account was inspected.",
+      "The WhatsApp reader listed the first 200 chats and selected 41 histories; 34 returned nonempty message sets. This is substantial but not exhaustive account coverage.",
+      "248 visible Status records were screened through text, captions and metadata. Three low-resolution previews were visually reviewed; no full-resolution Status image or video was reviewed.",
+      "Only Status updates visible to the connected WhatsApp account can be retrieved. Expired or privacy-restricted updates are unavailable.",
+      "Instagram Stories remain inaccessible. Public Reels were not counted as Stories.",
+      "Propsearch Latest buildings was checked; Park Infinia and Yigo Luxe were read as potentially investable pages. Other fresh entries were non-investment campus blocks or unresolved directory records."
     ]
   },
   "lastMaterialUpdate": {
-    "date": "2026-09-21",
-    "feedCommit": "b453a0535c3ccf02bfadce19a30904f6973d803b",
+    "date": "2026-09-25",
     "updates": [
       {
-        "projectId": "aldar-yas-riva-reserve",
-        "eventDate": "2026-09-18",
-        "change": "Gulf News reports 292 villas, 45 on waterway, 26 September sales opening and AED8.5m entry price. Developer original not independently found; media terms labelled provisional.",
-        "sources": [
-          "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693"
-        ]
-      },
-      {
-        "projectId": "binghatti-starfall",
-        "observedDate": "2026-09-21",
-        "change": "Official Binghatti registration page confirms project identity; undated page not assigned a launch date. Broker 22 September date remains provisional. A fresh Remington reread replaces earlier price guidance with studios AED759,999 / standard 1BR AED1,234,999 and attributed unit-dependent 50/50 or60/40 / Q42028. These remain unconfirmed broker indications.",
-        "sources": [
-          "https://www.binghatti.com/en/projects/binghatti-starfall",
-          "https://remington.ae/binghatti-starfall-by-binghatti-al-jaddaf/"
+        "projectId": "nakheel-bay-estate-dubai-islands",
+        "eventDate": "2026-09-25",
+        "change": "Current Nakheel/DHRE manager circulation opens EOI intake at 10:00 AM GST and expands the product description to townhouses, attached villas, garden villas and villa plots. Broker terms remain explicitly unconfirmed.",
+        "publicSources": [
+          "https://metropolitan.realestate/dubai-islands/bay-estate/",
+          "https://www.aktrealestate.ae/en/offplan/dubai-islands-by-nakheel",
+          "https://www.propertyfinder.ae/en/new-projects/nakheel/bay-estate"
         ]
       }
     ],
     "held": [
-      "Talay circulating registration weekdays/date combination conflicts with 2026 calendar and official 23 September release; no changed sales date published.",
-      "Dubai Pearl Redevelopment: Dubai Holding planning lead in Al Sufouh 2, no investable sale release established.",
-      "Tessera Residences: no dated new sale release verified.",
+      "The Verso: detailed sales circulation found, but sender affiliation and original dated release status remain unverified.",
+      "Rosewood Residences Dubai – Peninsula: renewed advertising found, but the project was announced in 2025 and no distinct new sales event was established.",
+      "Park Infinia: new Propsearch building trace, no dated sales launch or EOI found.",
+      "Yigo Luxe: portal launch-price claim found, but original date and independent launch verification remain unresolved.",
       "Ellington Al Yalayis and proposed SZR office launch: no qualifying new corroborated material update."
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "items": [
       {
-        "name": "Yigo 27",
-        "url": "https://propsearch.ae/dubai/yigo-27",
+        "name": "Park Infinia",
+        "url": "https://propsearch.ae/dubai/park-infinia",
         "disposition": "early-watch",
-        "facts": "Yigo Developments; Dubai Silicon Oasis; studios/1BR/2BR; estimated Q3 2028; First Trace September 2026 is NOT a launch date.",
-        "nextCheck": "Dated developer or recurring-manager launch/EOI, confirmed sales identity, pricing."
+        "facts": "Riyasaa Properties; Jumeirah Village Triangle; seven-storey residential building with two basement levels; First Trace September 2026 is not a sales launch date.",
+        "nextCheck": "Developer-confirmed project identity, unit mix, sales/EOI date and commercial terms."
       },
       {
-        "name": "Latitude 25",
-        "url": "https://propsearch.ae/dubai/latitude-25",
-        "disposition": "early-watch",
-        "facts": "Karma Real Estate Development through Karma DDI Developers; 31-storey planned office building, Liwan/Wadi Al Safa 2; estimated 243 units and Q4 2029. Portal estimates, not confirmed sales inventory.",
-        "nextCheck": "Sales availability, named developer announcement/EOI and dated commercial launch."
-      },
-      {
-        "name": "Dubai Pearl Redevelopment",
-        "url": "https://propsearch.ae/dubai/dubai-pearl-redevelopment",
-        "disposition": "unchanged-early-watch",
-        "facts": "Dubai Holding attribution; Al Sufouh 2; redevelopment distinct from cancelled old project. Existing 18 September Accor-interest reporting already saved; no new signed agreement established.",
-        "nextCheck": "Dubai Holding/Accor contract, approved masterplan, residential saleability and phases."
+        "name": "Yigo Luxe",
+        "url": "https://propsearch.ae/dubai/yigo-luxe",
+        "disposition": "watch-freshness-unresolved",
+        "facts": "Yigo Developments/Yangtze International; Dubai Silicon Oasis; portal estimates about 355 studios, 1BR and 2BR apartments, AED 798k launch price and Q2 2030 handover. Original launch date and authoritative sales release not located.",
+        "nextCheck": "Dated developer or recurring-manager release, verified inventory and price sheet."
       },
       {
         "name": "17 Dubai Knowledge Park block entries",
         "disposition": "excluded",
-        "reason": "Existing campus/building directory entries, no new investable sales release."
+        "reason": "Campus/building directory entries, not new investable residential or office sales releases."
+      },
+      {
+        "name": "Latitude 25",
+        "url": "https://propsearch.ae/dubai/latitude-25",
+        "disposition": "unchanged-early-watch",
+        "facts": "Liwan office project; no newly dated sales/EOI event established.",
+        "nextCheck": "Developer-confirmed sales launch and dated commercial terms."
       }
     ]
   },
   "earlySignalReview": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "items": [
       {
-        "name": "Oceara Park View Residences / Oceara Park Views",
-        "disposition": "watch-freshness-unresolved",
-        "sources": [
-          "https://portfolio.refinedubai.com/",
-          "https://www.luxhabitat.ae/developments/dubai/oceara-park-view-residences/",
-          "https://maisondubai.com/projects/oceara-park-view-residences-phase-1",
-          "https://theinfinixrealestate.com/properties/oceara-park-view-residences-location",
-          "https://www.propertyfinder.ae/en/buy/dubai/apartments-for-sale-dubai-islands-oceara-parkview-residences.html"
-        ],
-        "finding": "Refine portfolio says coming soon; multiple broker pages establish PPS/Dubai Islands project identity. An indexed page carries 22 August 2026; recent advertisement alone does not establish original launch or a materially new phase. Conflicting advertised prices and building configurations not reconciled. No numeric confirmed price or launch date assigned.",
-        "nextCheck": "Dated launch/EOI/phase event, original source, authoritative unit mix and price list."
+        "name": "The Verso",
+        "disposition": "hold-source-affiliation-unverified",
+        "finding": "Detailed circulation includes 174 units, apartments and penthouse, EOI and commercial terms, but the sender's developer affiliation and original release date are unresolved.",
+        "nextCheck": "Recurring developer-manager corroboration or official dated release."
       },
       {
-        "name": "Ellington proposed SZR / Business Bay office launch",
-        "disposition": "identity-watch",
-        "sources": [
-          "https://www.facebook.com/monika.kalicinska.58/posts/a-new-commercial-landmark-is-coming-to-one-of-the-most-interesting-pockets-of-bu/10245383095137751/",
-          "https://topultraluxury.com/new-projects/ellington-the-atelier/"
-        ],
-        "finding": "Indexed broker chatter about a 60–66-floor commercial tower and one broker page using The Atelier name. Original dates and authoritative identity unresolved. Do not conflate with Eaton Square, announced August 2025.",
-        "nextCheck": "Ellington confirmation of exact name/site and a dated release; original social date."
+        "name": "Rosewood Residences Dubai – Peninsula",
+        "disposition": "renewed-advertising-not-new-launch",
+        "finding": "Fresh indexed posts and Status advertising were found; the project was announced in 2025 and no distinct new release or allocation event was verified."
       },
       {
         "name": "Ellington Al Yalayis",
         "disposition": "unchanged-watch",
-        "sources": [
-          "https://stridehomes.ae/landingpages/ellington",
-          "https://www.facebook.com/guildrealestate/videos/ellington-is-entering-a-new-chapter-with-its-first-ever-flagship-community-featu/1443832030920901/"
-        ],
-        "finding": "Existing flagship-community marketing; dated September 1 indexed broker video is not today's announcement. No newly verified phase/date/EOI change."
+        "finding": "No newly verified phase, date or EOI change."
+      },
+      {
+        "name": "Ellington proposed SZR office launch",
+        "disposition": "identity-watch",
+        "finding": "Exact name, site and dated Ellington release remain unresolved."
       },
       {
         "name": "Emaar unnamed urban development",
         "disposition": "early-watch-not-sales-launch",
-        "sources": [
-          {
-            "url": "https://www.reuters.com/world/middle-east/emaar-develop-55-billion-real-estate-project-dubai-founder-says-2026-06-11/",
-            "date": "2026-06-11"
-          },
-          {
-            "url": "https://www.reuters.com/world/middle-east/emaar-expects-return-pre-war-occupancy-levels-dubai-hotels-next-12-months-2026-09-21/",
-            "date": "2026-09-21"
-          }
-        ],
-        "access": "Indexed Reuters excerpts; full-text open failed.",
-        "finding": "June report describes a $55bn scheme for 150,000 residents. September report says launch preparation awaits easing regional tensions. No verified project name, exact site, sale date or terms; not presented as September initial launch.",
-        "nextCheck": "Official identity/location and a material readiness announcement."
-      },
-      {
-        "name": "Eden House The Park",
-        "disposition": "unchanged-inventory-hold",
-        "sources": [
-          "https://www.h-h.ae/development/eden-house-the-park"
-        ],
-        "finding": "Current promotional release language did not identify a distinct new building/phase event."
-      },
-      {
-        "name": "Yas Riva Reserve",
-        "disposition": "already-published-no-new-event",
-        "finding": "Fresh factsheet metadata is not proof of reviewed document contents; no new verified material event accepted."
-      },
-      {
-        "name": "Jumeirah Residences Emirates Towers Tower B",
-        "disposition": "brochure-only-hold",
-        "finding": "Receipt of a brochure alone does not establish a newly dated sales release; no automatic post."
-      },
-      {
-        "name": "Masaar 3 phase 7",
-        "disposition": "geography-excluded",
-        "reason": "Sharjah outside Dubai/Abu Dhabi/RAK scope."
+        "finding": "No verified name, exact site or sale date."
       }
     ]
   }

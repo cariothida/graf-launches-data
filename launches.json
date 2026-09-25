@@ -1049,28 +1049,36 @@
         "villas"
       ],
       "status": "broker-intelligence",
-      "launchWindow": "Registration is open. Current broker pages and directly reviewed developer-manager material point to sales on 25 September 2026; the planned 22 September broker briefing was cancelled during the mourning period.",
+      "launchWindow": "EOI submissions open from 10:00 AM GST on 25 September 2026. The exact intake time comes from a directly reviewed current Nakheel/Dubai Holding Real Estate manager briefing; the subsequent allocation and sales timetable remains unconfirmed.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
-      "brokerPriceNote": "Current public broker pages quote approximately AED 4.7–5.5 million for a 3BR townhouse. The figures conflict and no Nakheel price list has been independently verified, so numeric price fields remain null.",
+      "brokerPriceNote": "Current broker indications are AED 100,000 EOI; 3BR townhouses from AED 5.9m; 4BR townhouses from AED 6.9m; 4BR attached villas from AED 7.2m; 4BR garden villas from AED 10m; waterfront plots from AED 17.5m and beach plots from AED 19m. A 60/40 payment plan and January 2031 handover are also circulating. Nakheel has not independently confirmed these commercial terms, so numeric price and payment fields remain null.",
       "paymentPlan": null,
-      "teaser": "Nakheel's reported Island E release: 3–4BR townhouses and 4BR villas.",
-      "summary": "Bay Estate is being prepared as Nakheel's first residential release on Island E at Dubai Islands. Current developer-manager material and multiple public broker references describe 3- and 4-bedroom townhouses plus 4-bedroom garden or standalone villas, with sales reported for 25 September after the 22 September broker briefing was cancelled. Prices, payment structure, handover and final inventory remain unconfirmed by an independently accessible Nakheel launch pack.",
-      "whatNext": "Sales are reported for 25 September; subscribe on this page for Nakheel-confirmed pricing, payment terms, handover and allocation rules.",
-      "confidenceNote": "Medium-high on the project name, Nakheel, Island E location and townhouse/villa mix from repeated current manager and broker coverage. Medium on 25 September timing after the briefing cancellation. Prices and commercial terms remain unconfirmed.",
+      "teaser": "EOI intake opens for Nakheel's Bay Estate on Island E, with townhouses, attached and garden villas, and villa plots.",
+      "summary": "Bay Estate is Nakheel's first residential release on Island E at Dubai Islands. A directly reviewed current Nakheel/Dubai Holding Real Estate manager briefing opens EOI submissions at 10:00 AM GST on 25 September 2026 and identifies townhouses, attached villas, garden villas and villa plots. Broker-circulated prices, AED 100,000 EOI, 60/40 payment and January 2031 handover remain unconfirmed by an independently accessible Nakheel launch pack.",
+      "whatNext": "EOI intake is open; subscribe on this page for Nakheel-confirmed pricing, payment terms, handover and allocation rules.",
+      "confidenceNote": "High on project identity, Nakheel, Island E and the 25 September 10:00 AM EOI opening from directly reviewed current manager material. Medium-high on the expanded product mix. Broker prices, EOI amount, payment and handover remain unconfirmed.",
       "unitMix": [
         {
           "type": "3BR townhouse",
-          "note": "Repeated in current developer-manager and broker material"
+          "note": "Current broker circulation; final inventory awaits Nakheel confirmation"
         },
         {
           "type": "4BR townhouse",
-          "note": "Repeated in current developer-manager and broker material"
+          "note": "Current broker circulation; final inventory awaits Nakheel confirmation"
         },
         {
-          "type": "4BR garden / standalone villa",
-          "note": "Current developer-manager and broker material; final naming awaits Nakheel"
+          "type": "4BR attached villa",
+          "note": "Current manager and broker circulation; final naming awaits Nakheel"
+        },
+        {
+          "type": "4BR garden villa",
+          "note": "Current manager and broker circulation; final naming awaits Nakheel"
+        },
+        {
+          "type": "Villa plot",
+          "note": "Waterfront and beach plot categories are circulating; final release details await Nakheel"
         }
       ],
       "sources": [
@@ -1095,10 +1103,10 @@
         }
       ],
       "firstReported": "2026-09-23",
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "published": true,
       "seoTitle": "Bay Estate by Nakheel: Island E Launch Intelligence | GRAF",
-      "seoDescription": "Bay Estate at Dubai Islands: reported 3–4BR townhouses and 4BR villas on Island E, with sales indicated for 25 September."
+      "seoDescription": "Bay Estate at Dubai Islands: EOI intake opens 25 September for townhouses, villas and plots on Island E."
     }
   ],
   "version": 1

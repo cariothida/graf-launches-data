@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-25",
+  "qualifyingUpdates": [
+    {
+      "projectId": "nakheel-bay-estate-dubai-islands",
+      "event": "EOI intake opens at 10:00 AM GST; expanded product categories.",
+      "confidence": "high on EOI timing; medium-high on mix; broker terms unconfirmed"
+    }
+  ],
+  "held": [
+    {
+      "name": "The Verso",
+      "reason": "sender affiliation and original release date unresolved"
+    },
+    {
+      "name": "Rosewood Residences Dubai – Peninsula",
+      "reason": "renewed advertising, no new sales event"
+    },
+    {
+      "name": "Park Infinia",
+      "reason": "building trace only"
+    },
+    {
+      "name": "Yigo Luxe",
+      "reason": "original launch date and source unresolved"
+    }
+  ],
+  "coverage": {
+    "date": "2026-09-25",
+    "watchlistSources": 58,
+    "instagramTargetedQueries": 24,
+    "distinctNamedBrokerSourcesAttempted": 20,
+    "nativeInstagramAccountsInspected": 0,
+    "instagramStoriesInspected": 0,
+    "whatsappChatEntriesListed": 200,
+    "whatsappHistoriesRequested": 41,
+    "whatsappNonemptyHistories": 34,
+    "whatsappUniqueMessages": 1119,
+    "whatsappStatusRecords": 248,
+    "whatsappStatusCap": 500,
+    "statusCapReached": false,
+    "statusImagePreviewsViewed": 3,
+    "fullStatusImagesViewed": 0,
+    "statusVideosViewed": 0,
+    "propsearchLatestBuildings": 20,
+    "propsearchPotentiallyInvestableBuildingPagesRead": 2,
+    "limitations": [
+      "The 20 named Instagram broker searches are source attempts, not native account inspections; indexed access was sparse and no native Instagram account was inspected.",
+      "The WhatsApp reader listed the first 200 chats and selected 41 histories; 34 returned nonempty message sets. This is substantial but not exhaustive account coverage.",
+      "248 visible Status records were screened through text, captions and metadata. Three low-resolution previews were visually reviewed; no full-resolution Status image or video was reviewed.",
+      "Only Status updates visible to the connected WhatsApp account can be retrieved. Expired or privacy-restricted updates are unavailable.",
+      "Instagram Stories remain inaccessible. Public Reels were not counted as Stories.",
+      "Propsearch Latest buildings was checked; Park Infinia and Yigo Luxe were read as potentially investable pages. Other fresh entries were non-investment campus blocks or unresolved directory records."
+    ]
+  },
+  "privacy": "Raw WhatsApp messages, Status records and identities remain encrypted and are not stored in this audit."
+}
