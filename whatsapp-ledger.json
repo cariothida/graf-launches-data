@@ -421,7 +421,7 @@
       "verifiedAt": "2026-09-25T04:17:39.797Z"
     },
     "aldar-yas-riva-reserve:2026-09-26-official-sales-opening-and-price": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "aldar-yas-riva-reserve",
       "body": "YAS RIVA RESERVE — SALES OPEN TODAY\nAldar | Northeast Yas Island, Abu Dhabi\n\nAldar confirms that sales open on 26 September 2026. The gated collection has 292 four- to six-bedroom villas, including 45 homes along the waterway.\n\nOfficial starting price: AED 7.9 million. This replaces the earlier preliminary AED 8.5 million figure quoted in our first update. Payment plan, EOI amount and handover have not been confirmed in the official release reviewed.\n\nWhy it matters: the verified entry price and today's sales opening give buyers a clear basis for assessing this limited Yas Island release.\n\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
       "imageRepoPath": "assets/whatsapp/yas-riva-official-20260926.jpg",
@@ -432,7 +432,8 @@
         "sha256": "05c099dc865aaa4454d3d72158dd14dfbf6c713b6bcda24ffaea732baf9b1c36"
       },
       "attemptedAt": "2026-09-26T04:02:12.857Z",
-      "messageId": "PsrMdwb3wO0GN.M-1yQBq53f_uALiA-tQ"
+      "messageId": "PsrMdwb3wO0GN.M-1yQBq53f_uALiA-tQ",
+      "verifiedAt": "2026-09-26T04:02:20.246Z"
     }
   }
 }
