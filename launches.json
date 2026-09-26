@@ -564,11 +564,11 @@
     },
     {
       "aliases": [],
-      "startingPrice": null,
+      "startingPrice": 7900000,
       "pricePerSqft": null,
-      "priceConfirmed": false,
+      "priceConfirmed": true,
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-21",
+      "updatedAt": "2026-09-26",
       "published": true,
       "id": "aldar-yas-riva-reserve",
       "project": "Yas Riva Reserve",
@@ -579,10 +579,10 @@
       "type": [
         "villas"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "Gulf News reported the launch on 18 September 2026 and sales opening on 26 September 2026; original developer announcement not independently retrieved",
-      "teaser": "292 reported 4–6BR villas; sales opening indicated for 26 September.",
-      "summary": "An 18 September Gulf News launch report adds a 26 September 2026 sales-opening date for Yas Riva Reserve. It describes 292 four- to six-bedroom villas on northeast Yas Island, including 45 directly on the waterway with an optional private pontoon. This is a separate collection opposite the original Yas Riva community, not a relaunch of that older project. The report indicates entry pricing from AED 8.5 million, but an original developer price list, payment plan, EOI and handover have not been independently verified.",
+      "status": "confirmed",
+      "launchWindow": "Aldar announced the project on 18 September 2026; sales open 26 September 2026",
+      "teaser": "292 Aldar villas on northeast Yas Island; official prices from AED 7.9m, sales open 26 September.",
+      "summary": "Aldar's 18 September 2026 press release confirms Yas Riva Reserve as a separate gated community opposite the original Yas Riva development. It comprises 292 four- to six-bedroom villas on Yas Island's northeast waterfront, including 45 waterway-fronted homes with optional private pontoons. Aldar states that sales open on 26 September 2026 from AED 7.9 million. The official release does not specify payment plan, EOI amount or handover.",
       "unitMix": [
         {
           "type": "4BR villa",
@@ -597,24 +597,31 @@
           "note": "Part of the reported collection; 45 homes overall are reported directly on the waterway"
         }
       ],
-      "confidenceNote": "Medium-high on the named collection and dated media-reported launch details. The 26 September sales date and AED 8.5 million entry figure come from Gulf News; original Aldar release/price-list confirmation is still awaited, so numeric price fields remain null.",
-      "whatNext": "Sales are reported to open on 26 September; subscribe on this page for developer-confirmed booking terms, prices and handover.",
-      "seoTitle": "Yas Riva Reserve: Reported 26 September Sales Opening | GRAF",
-      "seoDescription": "Yas Riva Reserve by Aldar: 292 reported 4–6BR villas on Yas Island, sales indicated for 26 September and media-reported prices from AED 8.5m.",
+      "confidenceNote": "High: project identity, location, 292-home mix, 26 September sales date and AED 7.9m starting price are stated in Aldar's dated official press release. Payment plan, EOI and handover remain unverified.",
+      "whatNext": "Sales open on 26 September; subscribe on this page for verified availability, booking terms and handover.",
+      "seoTitle": "Yas Riva Reserve: Sales Open 26 September, From AED 7.9m | GRAF",
+      "seoDescription": "Aldar Yas Riva Reserve: 292 4–6BR villas on northeast Yas Island, including 45 waterfront homes. Official sales open 26 September 2026 from AED 7.9m.",
       "sources": [
         {
-          "url": "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693",
-          "label": "Gulf News dated launch report: inventory, location, sales date and indicative entry price; not a developer price list",
+          "url": "https://vazeno.files.cmp.optimizely.com/download/assets/260918%2BAldar%2BPress%2BRelease%2BYas%2BRiva%2BReserve%2BEnglish%2BFINAL.pdf/1a3fd30ab36811f1a76d9e477f798d36",
+          "label": "Aldar official press release dated 18 September 2026; confirms inventory, location, 26 September sales opening and AED 7.9m starting price",
           "date": "2026-09-18",
           "primary": true
         },
         {
+          "url": "https://gulfnews.com/business/property/aldar-launches-yas-riva-reserve-a-waterfront-villa-community-on-yas-island-1.500679693",
+          "label": "Gulf News dated launch report: inventory, location, sales date and indicative entry price; not a developer price list",
+          "date": "2026-09-18",
+          "primary": false
+        },
+        {
           "url": "https://alnair.ae/en/news/aldar-unveils-yas-riva-reserve-a-new-collection-of-waterfront-villas",
           "label": "Alnair dated upcoming-project report; corroborating private briefing retained privately",
-          "date": "2026-09-17"
+          "date": "2026-09-17",
+          "primary": false
         }
       ],
-      "brokerPriceNote": "Gulf News, 18 September 2026, reports starting prices of AED 8.5 million. This is a media-reported indication, not an independently verified Aldar price list."
+      "confirmedBy": "https://vazeno.files.cmp.optimizely.com/download/assets/260918%2BAldar%2BPress%2BRelease%2BYas%2BRiva%2BReserve%2BEnglish%2BFINAL.pdf/1a3fd30ab36811f1a76d9e477f798d36"
     },
     {
       "aliases": [],
