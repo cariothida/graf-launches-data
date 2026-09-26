@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-26",
+  "qualifyingUpdates": [
+    {
+      "projectId": "aldar-yas-riva-reserve",
+      "event": "Aldar's official 18 September release verifies 26 September sales opening and AED 7.9m starting price; earlier AED 8.5m media/broker figure superseded.",
+      "source": "https://vazeno.files.cmp.optimizely.com/download/assets/260918%2BAldar%2BPress%2BRelease%2BYas%2BRiva%2BReserve%2BEnglish%2BFINAL.pdf/1a3fd30ab36811f1a76d9e477f798d36",
+      "confidence": "high"
+    }
+  ],
+  "held": [
+    {
+      "name": "Unnamed Dubai Hills Estate branded residence teaser",
+      "reason": "25 September WhatsApp message suggests coming-soon branded living but lacks project/developer identity; public searches did not resolve a distinct new release."
+    },
+    {
+      "name": "Lawncrest by Zimaya",
+      "reason": "Official Zimaya Instagram announcement dates to 7 September; public listings already marketed by mid-September, while 26 September launch marketing is not independently established as a new release."
+    },
+    {
+      "name": "Ellington Al Yalayis and proposed Business Bay/SZR office",
+      "reason": "No newly verified developer announcement or dated material change this morning."
+    }
+  ],
+  "coverage": {
+    "watchlistSources": "58 in existing watchlist; not all inspected",
+    "instagramTargetedQueries": 24,
+    "distinctNamedBrokerSourcesAttempted": 20,
+    "nativeInstagramAccountsInspected": 0,
+    "indexedInstagramProjectLeads": 2,
+    "instagramStoriesInspected": 0,
+    "whatsappChatEntriesListed": 200,
+    "whatsappHistoriesRequested": 40,
+    "whatsappNonemptyHistories": 34,
+    "whatsappUniqueMessages": 1124,
+    "whatsappStatusRecordsReturned": 239,
+    "whatsappStatusWindowHours": 24,
+    "whatsappStatusCap": 500,
+    "fullStatusImagesViewed": 0,
+    "statusVideosViewed": 0,
+    "propsearchLatestBuildingsInspected": 0,
+    "propsearchError": "Homepage fetch returned 502; current Latest buildings not verified.",
+    "youtube": "Indexed search attempted; no separate qualifying dated lead.",
+    "developerAndNews": "Aldar original PDF, RAK Properties/Marjan press pages, Gulf News and construction press checked."
+  },
+  "privacy": "No WhatsApp messages, Status media or contact identities stored in this audit. Private reader artifacts remain encrypted."
+}
