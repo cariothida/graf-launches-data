@@ -1,27 +1,24 @@
 {
   "version": 1,
-  "briefingDate": "2026-09-25",
+  "briefingDate": "2026-09-26",
   "posts": [
     {
-      "projectId": "nakheel-bay-estate-dubai-islands",
-      "eventKey": "nakheel-bay-estate-dubai-islands:2026-09-25-eoi-open",
+      "projectId": "aldar-yas-riva-reserve",
+      "eventKey": "aldar-yas-riva-reserve:2026-09-26-official-sales-opening-and-price",
       "kind": "hot-launch",
       "language": "en",
-      "status": "broker-intelligence",
+      "status": "confirmed",
       "approved": true,
-      "materialUpdate": "A current Nakheel/Dubai Holding Real Estate manager briefing opens Bay Estate EOI intake at 10:00 AM GST on 25 September and expands the stated product mix to townhouses, attached villas, garden villas and villa plots.",
+      "materialUpdate": "Aldar's 18 September official press release independently verifies AED 7.9m starting price, superseding the broker-reported AED 8.5m figure, and confirms that sales open on 26 September 2026.",
       "sources": [
-        "https://metropolitan.realestate/dubai-islands/bay-estate/",
-        "https://www.aktrealestate.ae/en/offplan/dubai-islands-by-nakheel",
-        "https://www.propertyfinder.ae/en/new-projects/nakheel/bay-estate"
+        "https://vazeno.files.cmp.optimizely.com/download/assets/260918%2BAldar%2BPress%2BRelease%2BYas%2BRiva%2BReserve%2BEnglish%2BFINAL.pdf/1a3fd30ab36811f1a76d9e477f798d36"
       ],
-      "siteUrl": "https://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
-      "body": "BAY ESTATE — EOI OPENS TODAY\nNakheel | Island E, Dubai Islands\n\nA current Nakheel/Dubai Holding Real Estate manager briefing opens EOI submissions at 10:00 AM GST on 25 September 2026. It identifies townhouses, attached villas, garden villas and villa plots.\n\nBroker indications: AED 100,000 EOI; 3BR townhouses from AED 5.9m; 4BR townhouses from AED 6.9m; 4BR attached villas from AED 7.2m; 4BR garden villas from AED 10m; 60/40 payment and January 2031 handover. These commercial terms are broker-reported and remain unconfirmed by Nakheel.\n\nWhy it matters: Bay Estate has moved from advance reporting to a live EOI intake window for Nakheel's first residential release on Island E.\nConfidence: high on project identity and EOI timing; medium-high on product mix; commercial terms unconfirmed.\n\nhttps://graf.ae/launches/nakheel-bay-estate-dubai-islands/",
-      "scheduledAt": "2026-09-25T08:00:00+04:00",
-      "imageRepoPath": "assets/whatsapp/bay-estate-eoi-20260925.jpg",
-      "imageSha256": "43c89fff5477ec75ad38cbe1d391390e3298b88e47a80bd7903c38a008c4a2c0",
-      "imageVerified": true,
-      "scheduleReason": "08:00 Dubai morning batch; same-day recovery invocation after the scheduled runner was delayed. The event body and image are unchanged."
+      "siteUrl": "https://graf.ae/launches/aldar-yas-riva-reserve/",
+      "body": "YAS RIVA RESERVE — SALES OPEN TODAY\nAldar | Northeast Yas Island, Abu Dhabi\n\nAldar confirms that sales open on 26 September 2026. The gated collection has 292 four- to six-bedroom villas, including 45 homes along the waterway.\n\nOfficial starting price: AED 7.9 million. This replaces the earlier preliminary AED 8.5 million figure quoted in our first update. Payment plan, EOI amount and handover have not been confirmed in the official release reviewed.\n\nWhy it matters: the verified entry price and today's sales opening give buyers a clear basis for assessing this limited Yas Island release.\n\nhttps://graf.ae/launches/aldar-yas-riva-reserve/",
+      "scheduledAt": "2026-09-26T08:00:00+04:00",
+      "imageRepoPath": "assets/whatsapp/yas-riva-official-20260926.jpg",
+      "imageSha256": "05c099dc865aaa4454d3d72158dd14dfbf6c713b6bcda24ffaea732baf9b1c36",
+      "imageVerified": true
     }
   ]
 }
