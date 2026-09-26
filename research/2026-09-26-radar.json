@@ -20,6 +20,24 @@
     {
       "name": "Ellington Al Yalayis and proposed Business Bay/SZR office",
       "reason": "No newly verified developer announcement or dated material change this morning."
+    },
+    {
+      "name": "Ghaf Woods 349-apartment tower, marketed as a new launch",
+      "reason": "A 25 September WhatsApp Status caption and multiple broker pages describe a 349-home 1–2BR tower near Ghaf Woods Mall. One 21 September broker listing assigns it to Distrikt 4, yet DLD-linked transaction listings show Distrikt 4 sales from July–September 2026. Whether this is a distinct pending phase or recycled Distrikt inventory remains unresolved; no confirmed name, EOI date or developer price. Do not publish until phase identity is established.",
+      "publicSources": [
+        "https://metropolitan.realestate/ghaf-woods/ghaf-woods-new-launch-majid-al-futtaim-dubailand-dubai/",
+        "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/21/new-launch-10-down-payment-forest-commu-2-211724/",
+        "https://www.propertyfinder.ae/en/area-insights/dubai/ghaf-woods-distrikt-at-ghaf-woods"
+      ]
+    },
+    {
+      "name": "Blue Marina Residence, Dubai Islands",
+      "reason": "A 24 September 2026 developer/agency presentation and 25 September broker coverage are real, but the named project was already marketed with a Property Finder sales-start date of 1 July 2025. 2026 reports disagree on building count, price and handover; no distinct new phase verified. Treat the event as a presentation, not an independently established first launch.",
+      "publicSources": [
+        "https://alnair.ae/en/news/blue-marina-residence-exclusive-presentation-in-dubai-islands",
+        "https://www.propertyfinder.ae/en/new-projects/shakirov-developments/blue-marina-residence",
+        "https://shakirovdevelopments.ae/"
+      ]
     }
   ],
   "coverage": {
