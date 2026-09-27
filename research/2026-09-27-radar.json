@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-27",
+  "qualifyingUpdates": [],
+  "held": [
+    {
+      "name": "Yas Riva Residences — 28 September Status reminder",
+      "reason": "Two duplicate WhatsApp Status captions advertised a 28 September public launch and an appointment system. Independent checking resolved Yas Riva Residences as the separate 950-home apartment project already launched in 2025 with active resale inventory. The reminder is not treated as a new launch or as a correction to Yas Riva Reserve."
+    },
+    {
+      "name": "Bay Estate, Dubai Islands",
+      "reason": "One fresh Status said the project had launched and EOIs were open, but those events were already published and channel-verified on 25 September 2026. No new dated allocation, price or phase was supplied; duplicate suppressed."
+    },
+    {
+      "name": "Address The Bay, Emaar Beachfront",
+      "reason": "Fresh hospitality coverage refers to the forthcoming hotel opening. Emaar investor materials date the residential project launch to June 2022; no distinct new residential sales release was verified."
+    },
+    {
+      "name": "Muheira and Tara Park, Reem Island",
+      "reason": "Current official pages and freshly crawled press were checked. Muheira is already marketed with September listings and Tara Park final-phase coverage dates to April 2026; no new 27 September allocation or release was established."
+    },
+    {
+      "name": "Ghaf Woods 349-apartment tower",
+      "reason": "Phase identity remains unresolved. Public pages conflict between a new unnamed tower and already-transacting Distrikt 4 inventory; no confirmed name, EOI date or developer price."
+    },
+    {
+      "name": "Blue Marina Residence, Dubai Islands",
+      "reason": "The September presentation is real, but the named project was marketed from July 2025 and no distinct new phase has been verified."
+    },
+    {
+      "name": "Dolce Residences by Wyndham, Al Marjan Island",
+      "reason": "One broker source continues to report AED 100,000 early-access EOI, but no independent dated confirmation of the EOI opening or amount was found."
+    },
+    {
+      "name": "Dubai Pearl / Accor",
+      "reason": "Accor interest in the revived site is an early redevelopment/operator signal, not a named saleable launch. No unit mix, EOI or sales release exists."
+    },
+    {
+      "name": "Ellington Al Yalayis and proposed SZR/Business Bay office",
+      "reason": "No newly verified project identity, developer announcement, date or material commercial change."
+    }
+  ],
+  "coverage": {
+    "watchlistSources": "58 in the existing watchlist; not all inspected today",
+    "instagramTargetedQueries": 24,
+    "distinctNamedBrokerSourcesAttempted": 20,
+    "nativeInstagramAccountsInspected": 0,
+    "indexedInstagramProjectLeads": 1,
+    "instagramStoriesInspected": 0,
+    "whatsappChatEntriesListed": 200,
+    "whatsappHistoriesRequested": 38,
+    "whatsappNonemptyHistories": 35,
+    "whatsappUniqueMessages": 1226,
+    "whatsappStatusRecordsReturned": 136,
+    "whatsappStatusWindowHours": 24,
+    "whatsappStatusCap": 500,
+    "whatsappStatusCapReached": false,
+    "statusImagePreviewsViewed": 1,
+    "fullStatusImagesViewed": 0,
+    "statusVideosViewed": 0,
+    "propsearchLatestBuildingsInspected": 0,
+    "propsearchError": "Current Propsearch homepage Latest buildings could not be inspected: web search did not expose the live module and managed-browser access to the domain was unavailable.",
+    "youtube": "Indexed YouTube searches attempted; no separate qualifying dated lead.",
+    "developerAndNews": "Aldar, Modon, Emaar and Nakheel official pages plus current UAE property news and broker portals were checked."
+  },
+  "privacy": "No WhatsApp messages, Status media or contact identities are stored in this public audit. Private reader artifacts remain local/encrypted."
+}
