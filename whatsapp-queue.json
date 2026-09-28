@@ -12,27 +12,10 @@
       "scheduledAt": "2026-09-28T08:00:00+04:00",
       "materialUpdate": "Fresh exact-project broker posts dated 26 September 2026 plus DLD-derived identity and registration verification.",
       "sources": [
-        {
-          "url": "https://certifiedpoor.com/projects/yigo-luxe",
-          "label": "DLD-derived project register snapshot",
-          "date": "2026-09-25",
-          "primary": true
-        },
-        {
-          "url": "https://www.instagram.com/p/Ddv_DTondNt/",
-          "label": "Indexed exact-project broker post",
-          "date": "2026-09-26"
-        },
-        {
-          "url": "https://www.instagram.com/p/DdwYO6JiPAi/",
-          "label": "Indexed pre-launch broker post",
-          "date": "2026-09-26"
-        },
-        {
-          "url": "https://www.gyhdubai.com/projects/yigo-luxe",
-          "label": "Broker project data",
-          "date": "2026-09-26"
-        }
+        "https://certifiedpoor.com/projects/yigo-luxe",
+        "https://www.instagram.com/p/Ddv_DTondNt/",
+        "https://www.instagram.com/p/DdwYO6JiPAi/",
+        "https://www.gyhdubai.com/projects/yigo-luxe"
       ],
       "siteUrl": "https://graf.ae/launches/yigo-luxe-dubai-silicon-oasis/",
       "body": "YIGO LUXE — PRE-LAUNCH / EOI\nYIGO Development | Dubai Silicon Oasis, Dubai\n\nFresh indexed broker posts dated 26 September are promoting early access to a furnished high-rise with studios, 1BR, 1.5BR and 2BR apartments.\n\nBroker and portal indications start from AED 798,000, with 50/50 and post-handover structures circulating. These are NOT confirmed developer terms. A DLD-derived register snapshot identifies the legal developer and a March 2030 filed completion, but an open escrow account was not verified.\n\nWhy it matters: an early DSO launch signal before the official price list and escrow confirmation.\nConfidence: high on identity/location; medium on the pre-launch package.\n\nhttps://graf.ae/launches/yigo-luxe-dubai-silicon-oasis/",
