@@ -1118,6 +1118,76 @@
       "published": true,
       "seoTitle": "Bay Estate by Nakheel: Island E Launch Intelligence | GRAF",
       "seoDescription": "Bay Estate at Dubai Islands: EOI intake opens 25 September for townhouses, villas and plots on Island E."
+    },
+    {
+      "id": "yigo-luxe-dubai-silicon-oasis",
+      "project": "Yigo Luxe",
+      "developer": "YIGO Development",
+      "emirate": "Dubai",
+      "location": "Nadd Hessa, marketed as Dubai Silicon Oasis",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Pre-launch / EOI promoted from 26 September 2026",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Broker and portal material quotes apartments from AED 798,000; no developer price list or open escrow account was verified.",
+      "paymentPlan": null,
+      "handover": "Q2 2030 (broker-advertised; a DLD-derived register snapshot files 30 March 2030)",
+      "teaser": "DLD-registered studios-to-2BR pre-launch in Dubai Silicon Oasis.",
+      "summary": "Fresh broker material dated 26 September promotes Yigo Luxe for early access in Dubai Silicon Oasis. DLD-derived registry reporting identifies Yangtze International Real Estate Developer L.L.C. as the legal developer and shows a filed completion in March 2030, but no open escrow account was verified. Broker portals advertise furnished studios, 1BR, 1.5BR and 2BR apartments from AED 798,000 with differing payment schedules; all commercial terms remain unconfirmed.",
+      "whatNext": "Await YIGO's official launch, escrow confirmation, final price list and payment schedule.",
+      "confidenceNote": "High on registered identity and location; medium on pre-launch status and unit mix; commercial terms remain unverified.",
+      "sources": [
+        {
+          "url": "https://certifiedpoor.com/projects/yigo-luxe",
+          "label": "DLD-derived project register snapshot",
+          "date": "2026-09-25",
+          "primary": true
+        },
+        {
+          "url": "https://www.instagram.com/p/Ddv_DTondNt/",
+          "label": "Indexed exact-project broker post",
+          "date": "2026-09-26"
+        },
+        {
+          "url": "https://www.instagram.com/p/DdwYO6JiPAi/",
+          "label": "Indexed pre-launch broker post",
+          "date": "2026-09-26"
+        },
+        {
+          "url": "https://www.gyhdubai.com/projects/yigo-luxe",
+          "label": "Broker project data",
+          "date": "2026-09-26"
+        }
+      ],
+      "firstReported": "2026-09-28",
+      "updatedAt": "2026-09-28",
+      "published": true,
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Broker/portal-advertised"
+        },
+        {
+          "type": "1BR",
+          "note": "Broker/portal-advertised"
+        },
+        {
+          "type": "1.5BR",
+          "note": "Broker/portal-advertised"
+        },
+        {
+          "type": "2BR",
+          "note": "Broker/portal-advertised"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Broker sources report pre-launch/EOI availability; amount and refundability are unverified."
+      }
     }
   ],
   "version": 1
