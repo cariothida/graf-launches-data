@@ -436,7 +436,7 @@
       "verifiedAt": "2026-09-26T04:02:20.246Z"
     },
     "yigo-luxe-dubai-silicon-oasis:2026-09-26-prelaunch-eoi": {
-      "state": "pending",
+      "state": "sent",
       "projectId": "yigo-luxe-dubai-silicon-oasis",
       "body": "YIGO LUXE — PRE-LAUNCH / EOI\nYIGO Development | Dubai Silicon Oasis, Dubai\n\nFresh indexed broker posts dated 26 September are promoting early access to a furnished high-rise with studios, 1BR, 1.5BR and 2BR apartments.\n\nBroker and portal indications start from AED 798,000, with 50/50 and post-handover structures circulating. These are NOT confirmed developer terms. A DLD-derived register snapshot identifies the legal developer and a March 2030 filed completion, but an open escrow account was not verified.\n\nWhy it matters: an early DSO launch signal before the official price list and escrow confirmation.\nConfidence: high on identity/location; medium on the pre-launch package.\n\nhttps://graf.ae/launches/yigo-luxe-dubai-silicon-oasis/",
       "imageRepoPath": "assets/whatsapp/yigo-luxe-20260928.jpg",
@@ -447,7 +447,8 @@
         "sha256": "7f813b9aaf4c1916b17b69063bb7f011b248c6d4d1c10f906601d5e657fae2c8"
       },
       "attemptedAt": "2026-09-28T04:24:07.322Z",
-      "messageId": "PspR2QZIg6Rv8L8-170Bq53f_uALiA-tg"
+      "messageId": "PspR2QZIg6Rv8L8-170Bq53f_uALiA-tg",
+      "verifiedAt": "2026-09-28T04:24:16.210Z"
     }
   }
 }
