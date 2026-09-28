@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-28",
+  "outcome": "one-qualified-launch",
+  "qualifying": [
+    "yigo-luxe-dubai-silicon-oasis"
+  ],
+  "coverage": {
+    "whatsapp": {
+      "chatsListed": 200,
+      "historiesSelected": 41,
+      "nonemptyHistories": 38,
+      "uniqueMessages": 1440,
+      "recentMessages": 65,
+      "statusRecords": 104,
+      "statusPreviewsVisuallyInspected": 93,
+      "fullStatusMediaInspected": 0,
+      "statusCap": 500,
+      "capReached": false
+    },
+    "instagram": {
+      "targetedQueries": 24,
+      "namedBrokerSourcesAttempted": 20,
+      "nativeAccountsInspected": 0,
+      "indexedExactProjectLeads": 2,
+      "storiesAccess": false
+    },
+    "propsearch": {
+      "method": "Fresh indexed Latest buildings snapshot; direct homepage returned HTTP 502",
+      "latestCandidatesReviewed": 8,
+      "investableCandidatesCrossChecked": 3
+    },
+    "youtube": {
+      "exactProjectResults": 0
+    },
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ]
+  },
+  "exclusions": [
+    {
+      "name": "Fairmont Residences Al Marjan Island",
+      "reason": "Official sales launch dates to May/June 2025; today's stream listing is not a new launch."
+    },
+    {
+      "name": "WAADA Phase 1",
+      "reason": "Repeat circulation of a 2025 launch."
+    },
+    {
+      "name": "Aqua Arc",
+      "reason": "Repeat circulation of a 2024 launch."
+    },
+    {
+      "name": "Pioneer Residences & Offices",
+      "reason": "Identity only; no verified launch, EOI or terms."
+    },
+    {
+      "name": "Park Infinia",
+      "reason": "Identity only; no verified sales opening or terms."
+    }
+  ],
+  "accessGaps": [
+    "No native Instagram account or Instagram Story access.",
+    "WhatsApp Status full-resolution image/video content unavailable; previews only.",
+    "Propsearch homepage direct access returned HTTP 502."
+  ]
+}
