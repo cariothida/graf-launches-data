@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-09-29",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -991,33 +991,34 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "watchlistSources": 60,
     "instagramTargetedQueries": 24,
     "distinctNamedBrokerSourcesAttempted": 20,
     "nativeInstagramAccountsInspected": 0,
     "instagramStoriesInspected": 0,
     "whatsappChatEntriesListed": 200,
-    "whatsappHistoriesRequested": 41,
-    "whatsappNonemptyHistories": 38,
-    "whatsappUniqueMessages": 1440,
-    "whatsappRecentMessages": 65,
-    "whatsappStatusRecords": 104,
+    "whatsappHistoriesRequested": 39,
+    "whatsappNonemptyHistories": 37,
+    "whatsappUniqueMessages": 1328,
+    "whatsappRecentMessages": 39,
+    "whatsappStatusRecords": 166,
     "whatsappStatusCap": 500,
     "statusCapReached": false,
-    "statusImageVideoPreviewsViewed": 93,
+    "statusImageVideoPreviewsExtracted": 145,
+    "statusRelevantPreviewsVisuallyViewed": 5,
     "fullStatusImagesViewed": 0,
     "statusVideosViewed": 0,
-    "propsearchLatestBuildings": 8,
-    "propsearchPotentiallyInvestableBuildingPagesRead": 3,
+    "propsearchLatestBuildings": 20,
+    "propsearchPotentiallyInvestableBuildingPagesRead": 6,
     "youtubeExactProjectResults": 0,
     "limitations": [
       "The 20 named Instagram broker searches were indexed-source attempts, not native account inspections; no native Instagram account was inspected.",
-      "Instagram's index returned two exact-project Yigo Luxe posts, but native post media and Instagram Stories were unavailable.",
-      "The encrypted WhatsApp reader listed the first 200 chats, selected 41 histories and returned 38 nonempty histories; this is substantial but not exhaustive account coverage.",
-      "104 visible WhatsApp Status records were screened and 93 image/video previews were visually reviewed; full-resolution Status images and videos were unavailable.",
+      "Instagram Stories remained unavailable; indexed public posts/Reels are not a substitute.",
+      "The encrypted WhatsApp reader listed the first 200 chats, selected 39 histories and returned 37 nonempty histories; this is substantial but not exhaustive account coverage.",
+      "166 visible WhatsApp Status records were screened by text/caption; 145 media previews were extracted and five relevant previews were visually inspected. Full-resolution Status images and videos were unavailable.",
       "Only Status updates visible to the connected WhatsApp account can be retrieved; expired or privacy-restricted updates are unavailable.",
-      "Direct Propsearch access returned HTTP 502; Latest buildings coverage used a fresh indexed snapshot and independent cross-checks."
+      "Propsearch homepage and six potentially investable building pages were accessed directly."
     ]
   },
   "lastMaterialUpdate": {
@@ -1036,63 +1037,78 @@
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "items": [
+      {
+        "name": "Aris by Grid",
+        "disposition": "early-watch",
+        "finding": "Dubai South residential identity; First Trace August 2026, with no verified launch, EOI or commercial terms."
+      },
+      {
+        "name": "Celeste Dubai South",
+        "disposition": "early-watch",
+        "finding": "Meraki residential identity in Dubai South; First Trace September 2026, with no verified sales opening or terms."
+      },
+      {
+        "name": "NBCC Al Waha",
+        "disposition": "excluded-location",
+        "finding": "Planned 11-storey project in International City, which is outside Alex's scope."
+      },
       {
         "name": "Pioneer Residences & Offices",
         "disposition": "early-watch",
-        "finding": "Newly indexed mixed-use building in Ras Al Khor Industrial Area 1; no verified launch, EOI or commercial terms."
+        "finding": "23-storey mixed-use project in Ras Al Khor Industrial Area 1; no verified launch, EOI or terms."
       },
       {
         "name": "Park Infinia",
         "disposition": "early-watch",
-        "finding": "Newly indexed Riyasaa Properties project in JVT; project identity surfaced but no independently verified sales opening or terms."
+        "finding": "Seven-storey Riyasaa residential project in JVT; DLD pending identity only, without verified sales opening."
       },
       {
         "name": "Yigo Luxe",
-        "disposition": "qualified-prelaunch",
-        "finding": "Fresh exact-project broker posts from 26 September plus DLD-derived registration evidence support a broker-intelligence pre-launch record."
+        "disposition": "already-published",
+        "finding": "Previously qualified and published; no material new information today."
       },
       {
-        "name": "Dubai Knowledge Park Blocks 3, 5, 7 and 13",
+        "name": "Dubai Knowledge Park Blocks 6–19",
         "disposition": "excluded-non-saleable",
-        "finding": "Educational/commercial campus buildings, not a residential or office sales launch."
+        "finding": "Campus/educational-commercial buildings rather than a new residential or investor-sales launch."
+      },
+      {
+        "name": "Dubai Customs Nursery and Daycare",
+        "disposition": "excluded-non-saleable",
+        "finding": "Nursery/daycare facility, not an investor-sales launch."
       }
     ],
-    "error": "Direct Propsearch homepage access returned HTTP 502; the current Latest buildings module was reconstructed from fresh indexed results and cross-checked against DLD-derived/new-project indexes."
+    "error": null
   },
   "earlySignalReview": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "items": [
       {
-        "name": "Pioneer Residences & Offices",
-        "disposition": "early-watch",
-        "finding": "Mixed-use identity found; no verified launch, EOI or commercial terms."
+        "name": "Palace-branded Dubai Hills teaser",
+        "disposition": "identity-ambiguous",
+        "finding": "Multiple WhatsApp Status teasers mention branded living and a Palace-branded building, but the visible wording does not establish a new phase; existing Palace Residences/Hillside records are older."
       },
       {
-        "name": "Park Infinia",
-        "disposition": "early-watch",
-        "finding": "JVT identity found; no verified sales opening or terms."
-      },
-      {
-        "name": "Yigo 27",
-        "disposition": "identity-watch",
-        "finding": "Newly indexed project identity without enough public launch detail to publish."
-      },
-      {
-        "name": "Fairmont Residences Al Marjan Island",
-        "disposition": "stale-event-excluded",
-        "finding": "Today's broker livestream listing is not a new launch; official sales opened in June 2025."
+        "name": "Manchester City Yas Residences collection",
+        "disposition": "no-material-update",
+        "finding": "Townhouse/villa teaser and groundbreaking posts refer to the already launched 2026 master project; no distinct phase identity or new commercial terms verified."
       },
       {
         "name": "WAADA Phase 1",
         "disposition": "repeat-inventory-excluded",
-        "finding": "Fresh WhatsApp circulation repeats a project launched in 2025."
+        "finding": "Fresh WhatsApp circulation repeats a 2025 launch; no material new event."
       },
       {
-        "name": "Aqua Arc",
+        "name": "113 Residences",
         "disposition": "repeat-inventory-excluded",
-        "finding": "Fresh indexed marketing traces to a 2024 launch, not a material new event."
+        "finding": "Fresh brochure circulation reflects an existing Iman Al Sufouh project with prior sales; no new launch event."
+      },
+      {
+        "name": "Oceara Parkview Residences",
+        "disposition": "repeat-inventory-excluded",
+        "finding": "Unit-of-the-day inventory promotion, not a new launch or material phase update."
       },
       {
         "name": "Ellington Al Yalayis and proposed SZR office",
