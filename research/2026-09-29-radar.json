@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-29",
+  "outcome": "no-qualifying-additions",
+  "qualifying": [],
+  "coverage": {
+    "whatsapp": {
+      "chatsListed": 200,
+      "historiesSelected": 39,
+      "nonemptyHistories": 37,
+      "uniqueMessages": 1328,
+      "recentMessages": 39,
+      "statusRecords": 166,
+      "statusPreviewsExtracted": 145,
+      "statusRelevantPreviewsVisuallyInspected": 5,
+      "fullStatusMediaInspected": 0,
+      "statusCap": 500,
+      "capReached": false
+    },
+    "instagram": {
+      "targetedQueries": 24,
+      "namedBrokerSourcesAttempted": 20,
+      "nativeAccountsInspected": 0,
+      "indexedRelevantLeads": 1,
+      "storiesAccess": false
+    },
+    "propsearch": {
+      "method": "Direct homepage HTTP 200; Latest buildings module parsed and six potentially investable pages opened directly.",
+      "latestBuildingsReviewed": 20,
+      "potentiallyInvestableBuildingPagesRead": 6
+    },
+    "youtube": {
+      "exactProjectResults": 0
+    },
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ]
+  },
+  "exclusions": [
+    {
+      "name": "Palace-branded Dubai Hills teaser",
+      "disposition": "identity-ambiguous",
+      "finding": "Multiple WhatsApp Status teasers mention branded living and a Palace-branded building, but the visible wording does not establish a new phase; existing Palace Residences/Hillside records are older."
+    },
+    {
+      "name": "Manchester City Yas Residences collection",
+      "disposition": "no-material-update",
+      "finding": "Townhouse/villa teaser and groundbreaking posts refer to the already launched 2026 master project; no distinct phase identity or new commercial terms verified."
+    },
+    {
+      "name": "WAADA Phase 1",
+      "disposition": "repeat-inventory-excluded",
+      "finding": "Fresh WhatsApp circulation repeats a 2025 launch; no material new event."
+    },
+    {
+      "name": "113 Residences",
+      "disposition": "repeat-inventory-excluded",
+      "finding": "Fresh brochure circulation reflects an existing Iman Al Sufouh project with prior sales; no new launch event."
+    },
+    {
+      "name": "Oceara Parkview Residences",
+      "disposition": "repeat-inventory-excluded",
+      "finding": "Unit-of-the-day inventory promotion, not a new launch or material phase update."
+    },
+    {
+      "name": "Ellington Al Yalayis and proposed SZR office",
+      "disposition": "unchanged-watch",
+      "finding": "No new developer-confirmed identity, timing or terms."
+    },
+    {
+      "name": "Aris by Grid",
+      "disposition": "early-watch",
+      "finding": "Dubai South residential identity; First Trace August 2026, with no verified launch, EOI or commercial terms."
+    },
+    {
+      "name": "Celeste Dubai South",
+      "disposition": "early-watch",
+      "finding": "Meraki residential identity in Dubai South; First Trace September 2026, with no verified sales opening or terms."
+    },
+    {
+      "name": "NBCC Al Waha",
+      "disposition": "excluded-location",
+      "finding": "Planned 11-storey project in International City, which is outside Alex's scope."
+    },
+    {
+      "name": "Pioneer Residences & Offices",
+      "disposition": "early-watch",
+      "finding": "23-storey mixed-use project in Ras Al Khor Industrial Area 1; no verified launch, EOI or terms."
+    },
+    {
+      "name": "Park Infinia",
+      "disposition": "early-watch",
+      "finding": "Seven-storey Riyasaa residential project in JVT; DLD pending identity only, without verified sales opening."
+    },
+    {
+      "name": "Yigo Luxe",
+      "disposition": "already-published",
+      "finding": "Previously qualified and published; no material new information today."
+    },
+    {
+      "name": "Dubai Knowledge Park Blocks 6–19",
+      "disposition": "excluded-non-saleable",
+      "finding": "Campus/educational-commercial buildings rather than a new residential or investor-sales launch."
+    },
+    {
+      "name": "Dubai Customs Nursery and Daycare",
+      "disposition": "excluded-non-saleable",
+      "finding": "Nursery/daycare facility, not an investor-sales launch."
+    }
+  ],
+  "accessGaps": [
+    "No native Instagram account or Instagram Story access.",
+    "WhatsApp Status full-resolution image/video content unavailable; relevant previews only.",
+    "The WhatsApp reader covered the first 200 chats and 39 selected histories, not every account history."
+  ]
+}
