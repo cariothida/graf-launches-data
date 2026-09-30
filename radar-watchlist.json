@@ -402,7 +402,15 @@
       "kind": "news",
       "coverage": "UAE",
       "access": "query-issued; direct-access-failed",
-      "lastAttempt": "2026-09-12"
+      "lastAttempt": "2026-09-12",
+      "requiredEveryMorning": true,
+      "discoveryDomain": "arabianbusiness.com",
+      "discoveryRoutes": [
+        "Accessible property/business category headlines",
+        "Google News searches",
+        "Domain-targeted indexed searches"
+      ],
+      "paywallPolicy": "Retain relevant visible headlines as leads; verify details separately and log actual access level."
     },
     {
       "name": "Zawya",
@@ -434,7 +442,15 @@
       "kind": "news",
       "coverage": "UAE",
       "access": "query-issued",
-      "lastAttempt": "2026-09-12"
+      "lastAttempt": "2026-09-12",
+      "requiredEveryMorning": true,
+      "discoveryDomain": "gulfnews.com",
+      "discoveryRoutes": [
+        "Accessible property/business category headlines",
+        "Google News searches",
+        "Domain-targeted indexed searches"
+      ],
+      "paywallPolicy": "Retain relevant visible headlines as leads; verify details separately and log actual access level."
     },
     {
       "name": "Khaleej Times",
@@ -442,7 +458,15 @@
       "kind": "news",
       "coverage": "UAE",
       "access": "indexed-leads-inspected",
-      "lastAttempt": "2026-09-12"
+      "lastAttempt": "2026-09-12",
+      "requiredEveryMorning": true,
+      "discoveryDomain": "khaleejtimes.com",
+      "discoveryRoutes": [
+        "Accessible property/business category headlines",
+        "Google News searches",
+        "Domain-targeted indexed searches"
+      ],
+      "paywallPolicy": "Retain relevant visible headlines as leads; verify details separately and log actual access level."
     },
     {
       "name": "The National",
@@ -450,7 +474,15 @@
       "kind": "news",
       "coverage": "UAE",
       "access": "query-issued",
-      "lastAttempt": "2026-09-12"
+      "lastAttempt": "2026-09-12",
+      "requiredEveryMorning": true,
+      "discoveryDomain": "thenationalnews.com",
+      "discoveryRoutes": [
+        "Accessible property/business category headlines",
+        "Google News searches",
+        "Domain-targeted indexed searches"
+      ],
+      "paywallPolicy": "Retain relevant visible headlines as leads; verify details separately and log actual access level."
     },
     {
       "name": "Gulf Business",
@@ -646,6 +678,31 @@
       "access": "indexed category/tag and Pullman report",
       "lastAccessCheck": "2026-09-30",
       "launchFocus": "signing and early residential/commercial announcements; TTN and TradeArabia same publisher family counted once"
+    },
+    {
+      "name": "Gulf Today",
+      "url": "https://www.gulftoday.ae/",
+      "kind": "news",
+      "coverage": "UAE",
+      "access": "not-yet-tested",
+      "requiredEveryMorning": true,
+      "discoveryDomain": "gulftoday.ae",
+      "discoveryRoutes": [
+        "Accessible property/business category headlines",
+        "Google News searches",
+        "Domain-targeted indexed searches"
+      ],
+      "paywallPolicy": "Retain relevant visible headlines as leads; verify details separately and log actual access level."
+    },
+    {
+      "name": "Google News — UAE launch discovery",
+      "url": "https://news.google.com/",
+      "kind": "news-aggregator",
+      "coverage": "Dubai; Abu Dhabi; Ras Al Khaimah",
+      "access": "configured-not-yet-tested",
+      "requiredEveryMorning": true,
+      "launchFocus": "Launches, EOI, new projects, branded residences and offices, partnerships and redevelopment",
+      "notes": "Log actual route; do not claim Google News inspected when only ordinary web search was used."
     }
   ],
   "additionalCandidates": [
@@ -1131,5 +1188,19 @@
       }
     ],
     "correctedAfterUserScreenshot": true
+  },
+  "newsDiscoveryPolicy": {
+    "updatedAt": "2026-09-30",
+    "requiredNewspapers": [
+      "Gulf News",
+      "Khaleej Times",
+      "The National",
+      "Arabian Business",
+      "Gulf Today"
+    ],
+    "separateEmirateSearches": true,
+    "retainPaywalledHeadlineLeads": true,
+    "requiredCandidateReconciliation": true,
+    "coverageMustRecordActualAccess": true
   }
 }
