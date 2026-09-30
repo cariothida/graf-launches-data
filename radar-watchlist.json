@@ -628,6 +628,24 @@
       "access": "official-sales-center-site-indexed; dated-partnership-event-verified",
       "lastAccessCheck": "2026-09-25",
       "launchFocus": "Blue Marina Residence distribution partner as of 24 September 2026; verify new project/phase, fresh EOI or commercial terms before reporting"
+    },
+    {
+      "name": "Hospitality Net — UAE branded residences/offices",
+      "url": "https://www.hospitalitynet.org/",
+      "kind": "hospitality-trade-news",
+      "coverage": "UAE",
+      "access": "full Pullman company-contributed announcement read",
+      "lastAccessCheck": "2026-09-30",
+      "launchFocus": "brand agreements, mixed-use residences, offices for sale"
+    },
+    {
+      "name": "TradeArabia/TTN hospitality categories and developer tags",
+      "url": "https://www.tradearabia.com/categories/TTN",
+      "kind": "hospitality-trade-news",
+      "coverage": "UAE",
+      "access": "indexed category/tag and Pullman report",
+      "lastAccessCheck": "2026-09-30",
+      "launchFocus": "signing and early residential/commercial announcements; TTN and TradeArabia same publisher family counted once"
     }
   ],
   "additionalCandidates": [
@@ -992,7 +1010,7 @@
   },
   "lastRunCoverage": {
     "date": "2026-09-30",
-    "watchlistSources": 60,
+    "watchlistSources": 62,
     "instagramTargetedQueries": 24,
     "distinctNamedBrokerSourcesAttempted": 20,
     "nativeInstagramAccountsInspected": 0,
@@ -1073,7 +1091,45 @@
         "name": "Ellington Al Yalayis and proposed SZR/Business Bay office",
         "disposition": "unchanged-watch",
         "finding": "No new developer-confirmed identity, timing or commercial terms were found."
+      },
+      {
+        "name": "Pullman Residences & Offices Dubai Meydan",
+        "disposition": "confirmed-early-announcement",
+        "finding": "CITYVIEW and Accor signing reported 29 September 2026. Meydan Horizon; 282 branded 1–4BR residences plus branded offices for sale; planned opening 2029. Sales opening, price, EOI and payment plan unknown. Missed in original morning review; must appear in private early-signals briefing.",
+        "sources": [
+          "https://www.tradearabia.com/News/486999/Accor-CITYVIEW-Developments-announce-Pullman-Residences-and-Offices-Dubai-Meydan/TTN",
+          "https://www.hospitalitynet.org/announcement/41015179/accor-and-cityview-developments-expand-their-partnership-with-pullman-residences-offices-dubai-meydan"
+        ],
+        "nextCheck": "Developer/Accor sales documentation, original signing date, pricing/EOI and separate office inventory."
+      },
+      {
+        "name": "Meriden Gate",
+        "disposition": "single-source-early-watch",
+        "finding": "User screenshot establishes a Latest Buildings listing. Indexed GenieMap syndication attributes it to Green Horizon in Jabal Ali Industrial Second with studios/1BR/2BR/retail and preliminary 35/65. Original message date and developer confirmation unavailable; do not merge with Meriden Beach.",
+        "sources": [
+          "https://telemetr.io/en/channels/2216084116-geniemap"
+        ],
+        "nextCheck": "Original dated announcement, developer/legal entity, registration, location and EOI."
+      },
+      {
+        "name": "Lunara Tower",
+        "disposition": "unresolved-identity",
+        "finding": "User screenshot establishes this exact name. Public catalogues concern Lunara Residence by Cavara in Al Satwa/Jumeirah Garden City, 84 studios–3BR, advertised from AED818225 and conflicting handover dates. Equivalence of Tower and Residence unverified; do not alias or transfer terms.",
+        "sources": [
+          "https://takweenaldar.ae/en/off-plan/project/lunara-residence"
+        ],
+        "nextCheck": "Resolve exact Propsearch title against developer and registered project identity."
+      },
+      {
+        "name": "Mövenpick Residences Dubai Motor City",
+        "disposition": "brand-signing-follow-up",
+        "finding": "CITYVIEW tag page reports 23 September signing, 408 residences and 2028 opening. Sales catalogues call a 307-home Phase1 and show pre-announcement offers; total/phase identity requires reconciliation before fresh-launch publication.",
+        "sources": [
+          "https://tradearabia.com/tag/CITYVIEW-Developments"
+        ],
+        "nextCheck": "Resolve 408 vs307 and prior Velos/project identity; distinguish brand signing from new inventory."
       }
-    ]
+    ],
+    "correctedAfterUserScreenshot": true
   }
 }
