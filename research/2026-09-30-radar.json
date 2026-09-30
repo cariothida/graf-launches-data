@@ -1,6 +1,6 @@
 {
   "date": "2026-09-30",
-  "outcome": "no-qualifying-additions",
+  "outcome": "no-verified-sales-launch-additions-with-missed-early-announcement-corrected",
   "qualifying": [],
   "coverage": {
     "whatsapp": {
@@ -82,5 +82,48 @@
     "WhatsApp Status full-resolution image/video content unavailable; relevant previews only.",
     "The WhatsApp reader covered the first 200 chats and 40 selected histories, not every account history.",
     "Propsearch Latest Buildings could not be re-read today because site access was blocked by runtime policy."
-  ]
+  ],
+  "correction": {
+    "reason": "User's current Latest Buildings screenshot revealed omitted early announcements after the morning report.",
+    "items": [
+      {
+        "name": "Pullman Residences & Offices Dubai Meydan",
+        "disposition": "confirmed-early-announcement",
+        "finding": "CITYVIEW and Accor signing reported 29 September 2026. Meydan Horizon; 282 branded 1–4BR residences plus branded offices for sale; planned opening 2029. Sales opening, price, EOI and payment plan unknown. Missed in original morning review; must appear in private early-signals briefing.",
+        "sources": [
+          "https://www.tradearabia.com/News/486999/Accor-CITYVIEW-Developments-announce-Pullman-Residences-and-Offices-Dubai-Meydan/TTN",
+          "https://www.hospitalitynet.org/announcement/41015179/accor-and-cityview-developments-expand-their-partnership-with-pullman-residences-offices-dubai-meydan"
+        ],
+        "nextCheck": "Developer/Accor sales documentation, original signing date, pricing/EOI and separate office inventory."
+      },
+      {
+        "name": "Meriden Gate",
+        "disposition": "single-source-early-watch",
+        "finding": "User screenshot establishes a Latest Buildings listing. Indexed GenieMap syndication attributes it to Green Horizon in Jabal Ali Industrial Second with studios/1BR/2BR/retail and preliminary 35/65. Original message date and developer confirmation unavailable; do not merge with Meriden Beach.",
+        "sources": [
+          "https://telemetr.io/en/channels/2216084116-geniemap"
+        ],
+        "nextCheck": "Original dated announcement, developer/legal entity, registration, location and EOI."
+      },
+      {
+        "name": "Lunara Tower",
+        "disposition": "unresolved-identity",
+        "finding": "User screenshot establishes this exact name. Public catalogues concern Lunara Residence by Cavara in Al Satwa/Jumeirah Garden City, 84 studios–3BR, advertised from AED818225 and conflicting handover dates. Equivalence of Tower and Residence unverified; do not alias or transfer terms.",
+        "sources": [
+          "https://takweenaldar.ae/en/off-plan/project/lunara-residence"
+        ],
+        "nextCheck": "Resolve exact Propsearch title against developer and registered project identity."
+      },
+      {
+        "name": "Mövenpick Residences Dubai Motor City",
+        "disposition": "brand-signing-follow-up",
+        "finding": "CITYVIEW tag page reports 23 September signing, 408 residences and 2028 opening. Sales catalogues call a 307-home Phase1 and show pre-announcement offers; total/phase identity requires reconciliation before fresh-launch publication.",
+        "sources": [
+          "https://tradearabia.com/tag/CITYVIEW-Developments"
+        ],
+        "nextCheck": "Resolve 408 vs307 and prior Velos/project identity; distinguish brand signing from new inventory."
+      }
+    ],
+    "publication": "Research/watchlist correction only. No public launch page or WhatsApp post added in this correction."
+  }
 }
