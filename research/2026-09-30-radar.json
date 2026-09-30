@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-30",
+  "outcome": "no-qualifying-additions",
+  "qualifying": [],
+  "coverage": {
+    "whatsapp": {
+      "chatsListed": 200,
+      "historiesSelected": 40,
+      "nonemptyHistories": 39,
+      "uniqueMessages": 1518,
+      "recentMessages": 76,
+      "statusRecords": 160,
+      "statusPreviewsExtracted": 151,
+      "statusRelevantPreviewsVisuallyInspected": 5,
+      "fullStatusMediaInspected": 0,
+      "statusCap": 500,
+      "capReached": false
+    },
+    "instagram": {
+      "targetedQueries": 24,
+      "namedBrokerSourcesAttempted": 20,
+      "nativeAccountsInspected": 0,
+      "indexedRelevantLeads": 0,
+      "storiesAccess": false
+    },
+    "propsearch": {
+      "method": "Access blocked by runtime site policy; safe indexed-search fallback returned no current Latest Buildings module.",
+      "latestBuildingsReviewed": 0,
+      "potentiallyInvestableBuildingPagesRead": 0
+    },
+    "youtube": {
+      "exactProjectResults": 0
+    },
+    "newsAndOfficial": {
+      "qualifyingNewLaunches": 0
+    },
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ]
+  },
+  "exclusions": [
+    {
+      "name": "Palace Residences Hillside / Tower B",
+      "disposition": "repeat-inventory-excluded",
+      "finding": "Fresh WhatsApp sales copy describes remaining direct-developer inventory. Public registry and market evidence resolve Palace Residences Hillside as a 2025 Emaar launch with recorded transactions, not a new 2026 launch."
+    },
+    {
+      "name": "Wadeem Gardens",
+      "disposition": "no-material-update",
+      "finding": "Two fresh Status posts repeat the already-published project and AED 8.7m broker price; no distinct new phase or material term."
+    },
+    {
+      "name": "Mira Coral Bay",
+      "disposition": "repeat-project-excluded",
+      "finding": "Fresh Status naming alone did not establish a distinct new phase, EOI or sales release."
+    },
+    {
+      "name": "WAADA Phase 1",
+      "disposition": "repeat-inventory-excluded",
+      "finding": "Fresh circulation repeats a 2025 launch; no material new event."
+    },
+    {
+      "name": "Listone Residence and Arisha Terraces",
+      "disposition": "catalogue-inventory-excluded",
+      "finding": "Deal/promotional inventory, not fresh launch intelligence."
+    },
+    {
+      "name": "Ellington Al Yalayis and proposed SZR/Business Bay office",
+      "disposition": "unchanged-watch",
+      "finding": "No newly verified project identity, developer announcement, timing or terms."
+    },
+    {
+      "name": "Dubai Pearl / Accor and Vienna House Deira resort",
+      "disposition": "pipeline-not-saleable-launch",
+      "finding": "Hospitality-development pipeline signals do not yet constitute named investor-sales launches with unit mix or EOI."
+    }
+  ],
+  "accessGaps": [
+    "No native Instagram account or Instagram Story access.",
+    "WhatsApp Status full-resolution image/video content unavailable; relevant previews only.",
+    "The WhatsApp reader covered the first 200 chats and 40 selected histories, not every account history.",
+    "Propsearch Latest Buildings could not be re-read today because site access was blocked by runtime policy."
+  ]
+}
