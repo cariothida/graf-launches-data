@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30",
+  "updatedAt": "2026-10-01",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -1066,35 +1066,74 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-09-30",
-    "watchlistSources": 62,
-    "instagramTargetedQueries": 24,
+    "date": "2026-10-01",
+    "watchlistSources": 64,
+    "instagramTargetedQueries": 47,
     "distinctNamedBrokerSourcesAttempted": 20,
     "nativeInstagramAccountsInspected": 0,
+    "relevantInstagramMediaInspected": 0,
     "instagramStoriesInspected": 0,
-    "whatsappChatEntriesListed": 200,
-    "whatsappHistoriesRequested": 40,
-    "whatsappNonemptyHistories": 39,
-    "whatsappUniqueMessages": 1518,
-    "whatsappRecentMessages": 76,
-    "whatsappStatusRecords": 160,
-    "whatsappStatusCap": 500,
-    "statusCapReached": false,
-    "statusImageVideoPreviewsExtracted": 151,
-    "statusRelevantPreviewsVisuallyViewed": 5,
-    "fullStatusImagesViewed": 0,
-    "statusVideosViewed": 0,
-    "propsearchLatestBuildings": 0,
-    "propsearchPotentiallyInvestableBuildingPagesRead": 0,
-    "youtubeExactProjectResults": 0,
-    "limitations": [
-      "The 20 named Instagram broker searches were indexed-source attempts, not native account inspections; no native Instagram account was inspected.",
-      "Instagram Stories remained unavailable; indexed public posts/Reels are not a substitute.",
-      "The encrypted WhatsApp reader listed the first 200 chats, selected 40 histories and returned 39 nonempty histories; this is substantial but not exhaustive account coverage.",
-      "160 visible WhatsApp Status records were screened by text/caption; 151 media previews were extracted and five relevant previews were visually inspected. Full-resolution Status images and videos were unavailable.",
-      "Only Status updates visible to the connected WhatsApp account can be retrieved; expired or privacy-restricted updates are unavailable.",
-      "Propsearch Latest Buildings could not be re-read today because the site was blocked by the runtime site-access policy; no current Propsearch count is claimed."
-    ]
+    "instagramAccessGap": "Indexed searches returned empty or irrelevant matches; native Instagram accounts and Stories not inspected.",
+    "googleNews": {
+      "route": "Google News RSS, hl=en-US gl=AE ceid=AE:en",
+      "emirateSearches": 3,
+      "headlineRecordsScreened": 45,
+      "exactNameFollowupQueries": 1,
+      "scope": "Dubai, Abu Dhabi, Ras Al Khaimah separately; previous 30 days"
+    },
+    "newspapers": {
+      "required": 5,
+      "categoryHeadlinesAccessible": [
+        "Gulf News",
+        "The National",
+        "Gulf Today"
+      ],
+      "categoryAccessFailures": [
+        "Khaleej Times",
+        "Arabian Business"
+      ],
+      "domainTargetedSearchAttempted": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Arabian Business",
+        "Gulf Today"
+      ],
+      "note": "Indexed/excerpt retrieval supplements blocked category pages; not full coverage of each newspaper."
+    },
+    "propsearch": {
+      "latestBuildingsScreened": 20,
+      "investableBuildingPagesInspected": 10,
+      "nonInvestableOrExcluded": 10
+    },
+    "youtube": {
+      "indexedQueryAttempts": 5,
+      "relevantVideosInspected": 0,
+      "note": "No relevant dated videos were returned; no native video review."
+    },
+    "whatsapp": {
+      "storiesRequestId": "radar-20261001-stories-1790826221050",
+      "storiesRun": 36811849054,
+      "storiesReturned": 0,
+      "storiesMediaInspected": 0,
+      "truncated": false,
+      "chatsRequestId": "radar-20261001-chats-1790826322803",
+      "chatsRun": 36811981257,
+      "chatsListed": 0,
+      "messagesInspected": 0,
+      "note": "Both privately decrypted artifacts report HTTP 200 with zero records. Chat workflow failed because no candidate histories were available. No manager-message coverage established today."
+    },
+    "publication": {
+      "feedCommit": "bbdd4f0b25a4b184ac154a6c2dad916fe0a6442f",
+      "added": [
+        "al-ghurair-tessera-dubai-south",
+        "cityview-pullman-meydan-residences-offices"
+      ],
+      "automaticSiteSync": "Blocked by required pull-request rule",
+      "recoveryPR": 85,
+      "productionDeliveryRun": 36812771356,
+      "status": "Delivery in progress; live verification required before queueing."
+    }
   },
   "lastMaterialUpdate": {
     "date": "2026-09-27",
@@ -1112,82 +1151,183 @@
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-09-30",
-    "items": [],
-    "error": "Propsearch homepage Latest Buildings could not be accessed under the runtime site-access policy; no workaround was attempted. Previous candidates remain on the watchlist."
-  },
-  "earlySignalReview": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
+    "route": "Live Propsearch homepage Latest buildings; ordinary HTTP retrieval",
     "items": [
       {
-        "name": "Palace Residences Hillside / Tower B",
-        "disposition": "repeat-inventory-excluded",
-        "finding": "A fresh WhatsApp sales message described remaining direct-developer inventory, but independent checking resolves the project as an Emaar launch from 2025 with registered transactions; no new phase launch was established."
-      },
-      {
-        "name": "Wadeem Gardens",
-        "disposition": "no-material-update",
-        "finding": "Two visible Status posts repeated the already-published Modon project and AED 8.7m broker starting figure; no newly verified date, allocation or commercial term."
-      },
-      {
-        "name": "Mira Coral Bay",
-        "disposition": "repeat-project-excluded",
-        "finding": "A fresh Status image named the existing master project without a distinct new phase, EOI or sales event."
-      },
-      {
-        "name": "WAADA Phase 1",
-        "disposition": "repeat-inventory-excluded",
-        "finding": "A fresh WhatsApp inventory message repeats a 2025 launch; no material new event."
-      },
-      {
-        "name": "Listone Residence and Arisha Terraces",
-        "disposition": "catalogue-inventory-excluded",
-        "finding": "Deal and promotion messages concern ordinary existing inventory, not a fresh launch."
-      },
-      {
-        "name": "Ellington Al Yalayis and proposed SZR/Business Bay office",
-        "disposition": "unchanged-watch",
-        "finding": "No new developer-confirmed identity, timing or commercial terms were found."
+        "name": "Eterea by Zoya",
+        "disposition": "named-early-watch",
+        "finding": "Zoya; Majan / Wadi Al Safa 3; 92 residences reported by portal. First Trace September is not sales-launch date; original developer event date and terms unresolved."
       },
       {
         "name": "Pullman Residences & Offices Dubai Meydan",
-        "disposition": "confirmed-early-announcement",
-        "finding": "CITYVIEW and Accor signing reported 29 September 2026. Meydan Horizon; 282 branded 1–4BR residences plus branded offices for sale; planned opening 2029. Sales opening, price, EOI and payment plan unknown. Missed in original morning review; must appear in private early-signals briefing.",
-        "sources": [
-          "https://www.tradearabia.com/News/486999/Accor-CITYVIEW-Developments-announce-Pullman-Residences-and-Offices-Dubai-Meydan/TTN",
-          "https://www.hospitalitynet.org/announcement/41015179/accor-and-cityview-developments-expand-their-partnership-with-pullman-residences-offices-dubai-meydan"
-        ],
-        "nextCheck": "Developer/Accor sales documentation, original signing date, pricing/EOI and separate office inventory."
-      },
-      {
-        "name": "Meriden Gate",
-        "disposition": "single-source-early-watch",
-        "finding": "User screenshot establishes a Latest Buildings listing. Indexed GenieMap syndication attributes it to Green Horizon in Jabal Ali Industrial Second with studios/1BR/2BR/retail and preliminary 35/65. Original message date and developer confirmation unavailable; do not merge with Meriden Beach.",
-        "sources": [
-          "https://telemetr.io/en/channels/2216084116-geniemap"
-        ],
-        "nextCheck": "Original dated announcement, developer/legal entity, registration, location and EOI."
+        "disposition": "verified-early-announcement-published-to-feed",
+        "finding": "Accor / CITYVIEW company-contributed signing announcement 29 September; 282 1–4BR residences plus branded offices in Meydan Horizon. Planned opening 2029; commercial terms unknown."
       },
       {
         "name": "Lunara Tower",
-        "disposition": "unresolved-identity",
-        "finding": "User screenshot establishes this exact name. Public catalogues concern Lunara Residence by Cavara in Al Satwa/Jumeirah Garden City, 84 studios–3BR, advertised from AED818225 and conflicting handover dates. Equivalence of Tower and Residence unverified; do not alias or transfer terms.",
-        "sources": [
-          "https://takweenaldar.ae/en/off-plan/project/lunara-residence"
-        ],
-        "nextCheck": "Resolve exact Propsearch title against developer and registered project identity."
+        "disposition": "named-identity-resolved-watch",
+        "finding": "Propsearch attributes the exact Tower name to Tarrad in Majan. Distinct from Cavara Lunara Residence in Satwa and other Lunara projects. AED85,000 portal figure not accepted as full starting price. Original announcement date unresolved."
       },
       {
-        "name": "Mövenpick Residences Dubai Motor City",
-        "disposition": "brand-signing-follow-up",
-        "finding": "CITYVIEW tag page reports 23 September signing, 408 residences and 2028 opening. Sales catalogues call a 307-home Phase1 and show pre-announcement offers; total/phase identity requires reconciliation before fresh-launch publication.",
-        "sources": [
-          "https://tradearabia.com/tag/CITYVIEW-Developments"
-        ],
-        "nextCheck": "Resolve 408 vs307 and prior Velos/project identity; distinguish brand signing from new inventory."
+        "name": "Meriden Gate",
+        "disposition": "named-early-watch",
+        "finding": "Green Horizon; Downtown Jebel Ali / Jebel Ali Industrial 2. Distinct from Meriden Beach. Developer confirmation and original launch date unresolved."
+      },
+      {
+        "name": "Aris by Grid",
+        "disposition": "named-early-watch",
+        "finding": "Grid Horizon; Dubai South Residential District. Portal First Trace August 2026 is not a launch date; no new dated event established."
+      },
+      {
+        "name": "Celeste Dubai South",
+        "disposition": "named-early-watch",
+        "finding": "Meraki; Dubai South Residential District. Do not merge with Celeste Al Jaddaf or Zimaya Celeste Heights. Original date and commercial terms unresolved."
+      },
+      {
+        "name": "NBCC Al Waha",
+        "disposition": "excluded-location",
+        "finding": "International City excluded under Alex's research instructions."
+      },
+      {
+        "name": "Dubai Customs Nursery and Daycare",
+        "disposition": "excluded-non-investable",
+        "finding": "Institutional nursery, not a residential/commercial investment launch."
+      },
+      {
+        "name": "Pioneer Residences & Offices",
+        "disposition": "named-early-watch",
+        "finding": "Pioneer Horizon; Ras Al Khor Industrial 1, mixed use. Exact original announcement date and office/residential release terms unresolved."
+      },
+      {
+        "name": "Park Infinia",
+        "disposition": "named-early-watch",
+        "finding": "Riyasaa; JVT district 5. Portal listing is a discovery lead; original dated announcement unresolved."
+      },
+      {
+        "name": "Yigo Luxe",
+        "disposition": "already-published-no-material-update",
+        "finding": "Existing feed and channel event. No verified material new terms found."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 7",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 13",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 12",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 8",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 9",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 10",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 14",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 15",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
+      },
+      {
+        "name": "Dubai Knowledge Park Block 11",
+        "disposition": "excluded-existing-non-investable",
+        "finding": "Existing institutional/commercial block; no new investable launch signal."
       }
     ],
-    "correctedAfterUserScreenshot": true
+    "pagesInspected": 10
+  },
+  "earlySignalReview": {
+    "date": "2026-10-01",
+    "items": [
+      {
+        "name": "Tessera",
+        "disposition": "verified-early-announcement-published-to-feed",
+        "finding": "Al Ghurair official newsroom dated 21 September; Dubai South, 2BR-plus/3BR-plus including duplexes, expected completion 2028. No verified price/payment/EOI or exact plot.",
+        "sources": [
+          "https://development.al-ghurair.com/en/news/newsdetails/al-ghurair-introduces-new-residential-concept-Tessera-bringing-townhouse-living-experience-to-apartments"
+        ],
+        "nextCheck": "Sales pack, exact plot, prices and payment/EOI"
+      },
+      {
+        "name": "Aldar / Arada Seih Sdeirah community",
+        "disposition": "confirmed-private-early-development-signal",
+        "finding": "Official 30 September strategic partnership: villa/townhouse mixed-use community on up to 1.5 million sqm at Seih Sdeirah, Abu Dhabi–Dubai border. Joint branding/sales; Arada development/construction management. Sales date, name, unit mix/count, prices, EOI and handover unknown. Not a current sales launch.",
+        "sources": [
+          "https://www.arada.com/en/latest-news/aldar-and-arada-form-landmark-aed15-billion-strategic-partnership-to-deliver-major-new-developments-in-abu-dhabi/"
+        ],
+        "nextCheck": "Named masterplan, phase identities and expected sales window"
+      },
+      {
+        "name": "Arada Yas Island residential plots",
+        "disposition": "confirmed-private-early-development-signal",
+        "finding": "Same 30 September agreement separately covers three Yas Island residential plots, two canal-facing. Not one named project or three launched projects; distinct schemes/phase identities pending. Sales and terms unknown.",
+        "sources": [
+          "https://www.arada.com/en/latest-news/aldar-and-arada-form-landmark-aed15-billion-strategic-partnership-to-deliver-major-new-developments-in-abu-dhabi/"
+        ],
+        "nextCheck": "Project names, plot-level product, sales horizon and release documents"
+      },
+      {
+        "name": "Kempinski Residences The Creek",
+        "disposition": "old-project-revised-phase-watch",
+        "finding": "Google News carried 17 September announcement. Original project disclosed May2022, so not a new first launch. Recent report calls a new phase and revised total279 versus285 on older pages; named phase/inventory and developer explanation not verified. Retain for material-update check; no public queue.",
+        "sources": [
+          "https://ftnnews.com/travel-news/accommodation/kempinski-residences-the-creek-dubai-launch/"
+        ],
+        "nextCheck": "Primary updated announcement, exact phase and released inventory; reconcile counts"
+      },
+      {
+        "name": "Al Haseen 6 / Garden Living",
+        "disposition": "dated-news-with-earlier-marketing-watch",
+        "finding": "Dugasta company social post confirms IPS unveiling; 15 September news reports two schemes/456 combined homes. Al Haseen6 was marketed before this announcement; original first sale and distinct release identity require reconciliation, not automatically a fresh first launch.",
+        "sources": [
+          "https://www.linkedin.com/posts/dugasta_dugastaproperties-ips2026-internationalpropertyshow-activity-7503770884172632065-t_DW",
+          "https://www.gulfconstructiononline.com/ArticleTA/486305/dugasta-properties-unveils-two-new-residential-projects-in-dubai"
+        ],
+        "nextCheck": "Original project registration/sales dates and any distinct newly released inventory"
+      },
+      {
+        "name": "Cheval Residences Dubai Islands",
+        "disposition": "old-project-excluded",
+        "finding": "Primary Cheval press release is20April2026 and April launch tracker agrees. A calendar label29September2026 is not accepted as a new first launch.",
+        "sources": [
+          "https://www.chevalcollection.com/wp-content/uploads/2026/04/20.04.2026_Cheval-Residences-Dubai-Islands.pdf"
+        ],
+        "nextCheck": "Only new distinct phase or material fresh terms qualify"
+      },
+      {
+        "name": "Mövenpick / Velos Motor City; Blue Marina; Lawncrest; Bristol",
+        "disposition": "earlier-projects-not-new-launches",
+        "finding": "Retain Alex's correction and original event checks: prior project identities and older announcements must not be reset by brand signing, advert or article date.",
+        "nextCheck": "Require explicit material new phase/terms before repeating"
+      },
+      {
+        "name": "Ellington Al Yalayis and proposed SZR office",
+        "disposition": "unchanged-watch",
+        "finding": "Broker Al Yalayis pages repeat speculative October guidance with conflicting quantities and EOI figures; no fresh developer confirmation. SZR office identity/timing not established.",
+        "nextCheck": "Developer announcement, project registration and fresh dated broker documents"
+      }
+    ]
   },
   "newsDiscoveryPolicy": {
     "updatedAt": "2026-09-30",
