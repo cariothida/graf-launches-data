@@ -8,9 +8,22 @@ Do not send/upload to WhatsApp, enqueue approved posts, trigger or retry the pub
 
 Today's Tessera and Pullman cards/captions were handed to Alex for manual publication; automatic pending queue entries were removed at his request. Manual publication is not confirmed.
 
-## Visual variety — Alex's instruction, 1 October 2026
+## Editorial cards — revised after Alex's rejection, 1 October 2026
 
-Use a consistent editorial system with varied palettes and compositions; do not repeat a flat green background across all posts. Prioritize verified official imagery of the exact project. Preserve actual architecture when composing official images. If no verified project image exists, use a verified developer logo or plainly typeset developer name with varied tasteful backgrounds, or generic AI-created imagery appropriate to apartments/offices/villas, clearly labelled "Concept illustration — Not a project rendering". Generic imagery must never imply a verified design, view, amenities or actual location. Never invent a developer logo. Maintain strong phone-readable contrast via calm opaque panels or gradients; avoid busy images behind text. Use a small amount of essential verified text, place full details in the caption. Rotate navy, ivory/sand, charcoal/copper, burgundy and cool blue palettes with project imagery where suitable. Final recurring template choices await Alex's selection from T1–T5 and P1–P5 test designs. Do not publish these tests automatically.
+Alex rejected ALL T1–T5 and P1–P5 test designs. Do not use or promote those designs. The original plain GRAF information cards are the approved baseline: clear, restrained, legible, not an AI luxury advertisement.
+
+Build simple cards with precise typesetting and layout (HTML/CSS, SVG or a standard graphic renderer), rather than generating the entire poster with AI. No generated architecture, generic AI buildings, cinematic golden-hour lighting, yellow colour grading, faux-luxury stock scenes, ornate serif headlines, glossy effects or excessive icons. This supersedes the earlier permission to use generic AI imagery. Use neutral/cool colour balance. Vary flat background/one subtle accent conservatively while preserving the original layout and legibility; avoid saturated blue excess and repetitive green.
+
+Card content is a teaser, not a brochure: project name, short location, developer name or verified logo, and at most ONE concise material announcement fact. Small graf.ae branding is sufficient. Aim for roughly 15–25 words total excluding proper names, not a rigid quota. Price tables, unit counts/mix lists, payment/EOI, handover, confidence and qualifications belong in the caption unless one fact is the actual headline. Do not list multiple unknown terms on the image. Use one straightforward sans-serif family, clear hierarchy, left alignment, generous spacing, no decorative separators. Check every draft at approximately 360px display width without zoom; if essential text needs enlargement, simplify the card.
+
+If exact-project official imagery materially helps, use the original image as an unchanged inserted photograph/render with neutral colour and a separate calm text area. Never regenerate official architecture or claim an AI recreation is an official rendering. Do not force imagery when a typographic card is clearer. No matching official image: use verified logo or plain developer name and flat background. Developer logos must not dominate the project headline.
+
+Caption carries the detailed verified announcement, original date/status, product/location, known or unknown prices/terms and the matching live graf.ae link. Keep it concise and scannable with short paragraphs. Do not create a new batch of speculative image designs unless requested.
+
+Research references (design principles, not WhatsApp-specific evidence):
+- BBC GEL typography and cards: https://bbc.github.io/gel/foundations/typography/ ; https://bbc.github.io/gel/components/cards/
+- Home Office layout/typography: https://design.homeoffice.gov.uk/accessibility/page-structure/layout-typography
+- Nielsen Norman Group mobile secondary content: https://www.nngroup.com/articles/defer-secondary-content-for-mobile/
 
 ## Historical automatic publication contract — superseded
 
