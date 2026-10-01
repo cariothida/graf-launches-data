@@ -1133,11 +1133,14 @@
       "automaticSiteSync": "Blocked by required pull-request rule",
       "recoveryPR": 85,
       "productionDeliveryRun": 36812771356,
-      "status": "Website publication verified live. Initial queue publisher failed at channel lookup HTTP401 before sending; ordinary failed-job rerun executed in dry-run mode because HEAD had moved. Retrying via unchanged queue content push; original event bodies, keys, images and slots retained.",
+      "status": "COMPLETE WEBSITE / WHATSAPP BLOCKED. Both English launch page identities and facts verified live HTTP200 with matching feed marker bbdd4f0b25a4b184ac154a6c2dad916fe0a6442f; production delivery run36812771356 completed success. Two image posts remain queued. Initial publisher36813430759 and real retry36813725747 both failed before sending at getNewsletterByInviteCode HTTP401. Intermediate rerun was dry validation only. Latest ledger has no Tessera/Pullman events; zero sent-history verification.",
       "publisherRun": 36813430759,
       "deliveryError": "getNewsletterByInviteCode HTTP 401 — channel authorization rejected before send",
       "sentHistoryVerified": 0,
-      "queued": 2
+      "queued": 2,
+      "queueCommit": "e74c24bdd395d7fcd95041233d1d5123f26d7f4e",
+      "publisherRetryRun": 36813725747,
+      "requiredRecovery": "Restore connected Whapi channel authorization through the existing account/secret management; do not retrieve token into research or chat."
     }
   },
   "lastMaterialUpdate": {
