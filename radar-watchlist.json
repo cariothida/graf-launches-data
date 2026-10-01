@@ -1133,7 +1133,11 @@
       "automaticSiteSync": "Blocked by required pull-request rule",
       "recoveryPR": 85,
       "productionDeliveryRun": 36812771356,
-      "status": "Both new page identities and facts verified live HTTP200; matching feed marker bbdd4f0b25a4b184ac154a6c2dad916fe0a6442f. Production delivery run passed. Two inspected-image posts queued; publisher failure under investigation, not yet sent."
+      "status": "Both pages verified live HTTP200 with matching feed marker; production run36812771356 completed success. Queue commit b6851659eb07dd8713e4c9350b1a531a917dc9be contains two inspected-image posts. Publisher run36813430759 failed before sending at getNewsletterByInviteCode HTTP401; no new ledger events. Retrying existing failed job once.",
+      "publisherRun": 36813430759,
+      "deliveryError": "getNewsletterByInviteCode HTTP 401 — channel authorization rejected before send",
+      "sentHistoryVerified": 0,
+      "queued": 2
     }
   },
   "lastMaterialUpdate": {
