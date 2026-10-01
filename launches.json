@@ -1188,6 +1188,101 @@
         "refundable": null,
         "note": "Broker sources report pre-launch/EOI availability; amount and refundability are unverified."
       }
+    },
+    {
+      "id": "al-ghurair-tessera-dubai-south",
+      "project": "Tessera",
+      "developer": "Al Ghurair Development",
+      "emirate": "Dubai",
+      "location": "Dubai South; precise plot address not yet verified",
+      "type": [
+        "apartments",
+        "duplexes"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official announcement 21 September 2026; sales-opening date not yet verified",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "handover": "Expected completion in 2028, according to Al Ghurair Development",
+      "teaser": "Townhouse-inspired 2BR-plus and 3BR-plus homes announced in Dubai South.",
+      "summary": "Al Ghurair Development announced Tessera in Dubai South on 21 September 2026. Designed by Aires Mateus, the project offers two-bedroom-plus and three-bedroom-plus homes, including duplex layouts, with expected completion in 2028. The developer announcement confirms the project and product; a dated sales opening, starting price, payment plan and EOI terms remain unverified.",
+      "unitMix": [
+        {
+          "type": "2BR-plus",
+          "note": "Developer-announced; lateral and vertical townhouse-style layouts"
+        },
+        {
+          "type": "3BR-plus",
+          "note": "Developer-announced; includes duplex homes"
+        }
+      ],
+      "whatNext": "Await the official sales pack, exact plot address and commercial terms; subscribe for confirmed updates.",
+      "confidenceNote": "High confidence in the developer announcement, unit mix and expected completion year; no verified sales-opening date or commercial terms.",
+      "sources": [
+        {
+          "url": "https://development.al-ghurair.com/en/news/newsdetails/al-ghurair-introduces-new-residential-concept-Tessera-bringing-townhouse-living-experience-to-apartments",
+          "label": "Al Ghurair Development — Tessera announcement",
+          "date": "2026-09-21",
+          "primary": true
+        },
+        {
+          "url": "https://gulfconstructiononline.com/ArticleTA/486584/al-ghurair-development-launches-new-residential-address-in-dubai-south",
+          "label": "Gulf Construction — dated announcement coverage",
+          "date": "2026-09-21",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-09-21",
+      "updatedAt": "2026-10-01",
+      "published": true
+    },
+    {
+      "id": "cityview-pullman-meydan-residences-offices",
+      "project": "Pullman Residences & Offices Dubai Meydan",
+      "developer": "CITYVIEW Developments",
+      "emirate": "Dubai",
+      "location": "Meydan Horizon, Dubai",
+      "type": [
+        "apartments",
+        "offices"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Partnership and project signing announced 29 September 2026; sales-opening date unverified",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "282 branded residences and Pullman offices for sale announced in Meydan Horizon.",
+      "summary": "Accor and CITYVIEW Developments announced Pullman Residences & Offices Dubai Meydan at FHS World 2026 on 29 September 2026. The Meydan Horizon development includes 282 branded residences with one- to four-bedroom configurations alongside branded offices for sale. Planned opening is 2029; contractual handover, sales-opening date, prices, payment plan and EOI terms remain unverified.",
+      "unitMix": [
+        {
+          "type": "1BR–4BR residences",
+          "note": "Accor-announced; 282 residences in total"
+        },
+        {
+          "type": "Offices",
+          "note": "Branded offices for sale; sizes and number not confirmed"
+        }
+      ],
+      "whatNext": "Await the official residential and office sales packs and contractual delivery terms; subscribe for confirmed updates.",
+      "confidenceNote": "High confidence in the company-contributed announcement and product mix. Planned 2029 opening is not a verified contractual handover date; commercial terms are unknown.",
+      "sources": [
+        {
+          "url": "https://www.hospitalitynet.org/announcement/41015179/accor-and-cityview-developments-expand-their-partnership-with-pullman-residences-offices-dubai-meydan",
+          "label": "Accor / Pullman company-contributed announcement",
+          "date": "2026-09-29",
+          "primary": true
+        },
+        {
+          "url": "https://www.tradearabia.com/News/486999/Accor-CITYVIEW-Developments-announce-Pullman-Residences-and-Offices-Dubai-Meydan/TTN",
+          "label": "TradeArabia — dated signing coverage",
+          "date": "2026-09-29",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-09-29",
+      "updatedAt": "2026-10-01",
+      "published": true
     }
   ],
   "version": 1
