@@ -1077,9 +1077,10 @@
     "googleNews": {
       "route": "Google News RSS, hl=en-US gl=AE ceid=AE:en",
       "emirateSearches": 3,
-      "headlineRecordsScreened": 45,
+      "headlineRecordsScreened": 75,
       "exactNameFollowupQueries": 1,
-      "scope": "Dubai, Abu Dhabi, Ras Al Khaimah separately; previous 30 days"
+      "scope": "Dubai, Abu Dhabi, Ras Al Khaimah separately; previous 30 days",
+      "aliasSearches": 2
     },
     "newspapers": {
       "required": 5,
@@ -1132,7 +1133,7 @@
       "automaticSiteSync": "Blocked by required pull-request rule",
       "recoveryPR": 85,
       "productionDeliveryRun": 36812771356,
-      "status": "Delivery in progress; live verification required before queueing."
+      "status": "Both new page identities and facts verified live HTTP200; matching feed marker bbdd4f0b25a4b184ac154a6c2dad916fe0a6442f. Production delivery run passed. Two inspected-image posts queued; publisher failure under investigation, not yet sent."
     }
   },
   "lastMaterialUpdate": {
@@ -1326,6 +1327,36 @@
         "disposition": "unchanged-watch",
         "finding": "Broker Al Yalayis pages repeat speculative October guidance with conflicting quantities and EOI figures; no fresh developer confirmation. SZR office identity/timing not established.",
         "nextCheck": "Developer announcement, project registration and fresh dated broker documents"
+      },
+      {
+        "name": "Mondrian Al Marjan Island Beach Residences — 2BR / guest-suite release",
+        "disposition": "dated-material-release-lead-held-for-primary-verification",
+        "finding": "Google News reports Zawya distribution23September; a complete developer-attributed press release reports previously unreleased 2BR beachfront homes with connected guest suites purchasable together or separately and advertised40/60. Copies are one underlying PR, not independent confirmations. Developer page inaccessible; primary release/inventory verification pending. Earlier40/60 adverts already existed, so payment plan alone is not new.",
+        "sources": [
+          "https://uaenews247.com/2026/09/23/rising-demand-for-al-marjan-island-beachfront-homes-drives-new-mondrian-residence-release/"
+        ],
+        "nextCheck": "Authenticate ELEVATE original release and identify newly released units; distinguish ELEVATE's scheme from other Mondrian catalogues"
+      },
+      {
+        "name": "Baccarat Residences Saadiyat",
+        "disposition": "old-launch-excluded",
+        "finding": "28 September feature rediscovered in Google News. Aldar official first launch dated10February2026; no new phase established.",
+        "sources": [
+          "https://www.aldar.com/en/news-and-media/aldar-launches-baccarat-residences-saadiyat"
+        ],
+        "nextCheck": "Only a newly documented phase or terms qualify"
+      },
+      {
+        "name": "Nasim Al Bahr payment-plan headline",
+        "disposition": "existing-project-terms-lead",
+        "finding": "Google News surfaced OBG report23September. Developer/phase attribution and material change versus existing plan need verification; no public queue.",
+        "nextCheck": "Original OBG document and comparison with prior developer schedule"
+      },
+      {
+        "name": "Radisson regional pipeline and Wynn Al Marjan accommodation",
+        "disposition": "hospitality-pipeline-not-sales-launch",
+        "finding": "Fresh headlines concern hotel signings/openings and luxury accommodation. No newly released for-sale residences verified.",
+        "nextCheck": "Named separately saleable residential inventory and dated sales signal"
       }
     ]
   },
