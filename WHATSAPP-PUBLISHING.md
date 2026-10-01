@@ -8,6 +8,10 @@ Do not send/upload to WhatsApp, enqueue approved posts, trigger or retry the pub
 
 Today's Tessera and Pullman cards/captions were handed to Alex for manual publication; automatic pending queue entries were removed at his request. Manual publication is not confirmed.
 
+## Visual variety — Alex's instruction, 1 October 2026
+
+Use a consistent editorial system with varied palettes and compositions; do not repeat a flat green background across all posts. Prioritize verified official imagery of the exact project. Preserve actual architecture when composing official images. If no verified project image exists, use a verified developer logo or plainly typeset developer name with varied tasteful backgrounds, or generic AI-created imagery appropriate to apartments/offices/villas, clearly labelled "Concept illustration — Not a project rendering". Generic imagery must never imply a verified design, view, amenities or actual location. Never invent a developer logo. Maintain strong phone-readable contrast via calm opaque panels or gradients; avoid busy images behind text. Use a small amount of essential verified text, place full details in the caption. Rotate navy, ivory/sand, charcoal/copper, burgundy and cool blue palettes with project imagery where suitable. Final recurring template choices await Alex's selection from T1–T5 and P1–P5 test designs. Do not publish these tests automatically.
+
 ## Historical automatic publication contract — superseded
 
 # Daily hot-launch publication contract
