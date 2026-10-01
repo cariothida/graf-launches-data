@@ -1,3 +1,15 @@
+# Manual WhatsApp handoff — current contract (1 October 2026)
+
+Alex revoked automatic WhatsApp publishing on 1 October 2026. This section supersedes ALL automatic sending, queueing, scheduling and retry instructions below.
+
+Publish qualifying new launch information to the production website first and verify each matching live page. Then deliver each approved English launch caption directly to Alex in the morning conversation with its own verified, inspected opaque 1200x900 image displayed inline, a downloadable image link, a concise description and the matching live graf.ae launch URL. Alex publishes manually to his channel/Status. Prefer verified project imagery; otherwise use the established factual GRAF information card. Never invent buildings or logos. Retain original announcement dates and distinguish early announcement from sales opening. Unknown prices/terms remain unknown; explicitly hedge broker evidence, exclude public rumours and repeated unchanged announcements.
+
+Do not send/upload to WhatsApp, enqueue approved posts, trigger or retry the publisher. Keep whatsapp-queue.json empty (version 1, current briefingDate, posts []). Do not change workflows, secrets or release refs. Do not edit the workflow-owned ledger or mark a handoff as sent. Track drafts handed to Alex separately from confirmed publication. Reading WhatsApp chats and visible Status updates for research remains authorized; this publishing change does not cancel read-only research.
+
+Today's Tessera and Pullman cards/captions were handed to Alex for manual publication; automatic pending queue entries were removed at his request. Manual publication is not confirmed.
+
+## Historical automatic publication contract — superseded
+
 # Daily hot-launch publication contract
 
 Alex authorized daily English posts to Alex Graf Dubai, invite 0029Vb5yX5A4Y9ltaBC4aH3G, API recipient 120363400434813832@newsletter.
