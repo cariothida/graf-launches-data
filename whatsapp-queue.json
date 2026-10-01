@@ -1,47 +1,5 @@
 {
   "version": 1,
   "briefingDate": "2026-10-01",
-  "posts": [
-    {
-      "projectId": "al-ghurair-tessera-dubai-south",
-      "eventKey": "al-ghurair-tessera-dubai-south:2026-09-21-official-announcement",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "First publication of the verified 2026-09-21 early announcement; not a claim of a new sales opening today.",
-      "sources": [
-        "https://development.al-ghurair.com/en/news/newsdetails/al-ghurair-introduces-new-residential-concept-Tessera-bringing-townhouse-living-experience-to-apartments",
-        "https://gulfconstructiononline.com/ArticleTA/486584/al-ghurair-development-launches-new-residential-address-in-dubai-south"
-      ],
-      "siteUrl": "https://graf.ae/launches/al-ghurair-tessera-dubai-south/",
-      "scheduledAt": "2026-10-01T08:00:00+04:00",
-      "scheduleReason": "All approved morning posts share Alex's 08:00 Dubai slot; delayed preparation is delivered on the next same-day successful run.",
-      "imageRepoPath": "assets/whatsapp/tessera-20261001.jpg",
-      "imageSha256": "c14eb97a2ba5b876bda1119560b8712e3d7719ec78cb9efa87af0f5ab87e5ea7",
-      "imageVerified": true,
-      "body": "Tessera — Al Ghurair Development\n\nOfficially announced on 21 September 2026. Location: Dubai South; exact plot address awaited.\n\n2BR-plus and 3BR-plus homes, including duplex layouts, designed by Aires Mateus. Developer expects completion in 2028.\n\nStarting AED price, payment plan, EOI and sales-opening date: not verified.\n\nBroker value: family-sized, townhouse-inspired apartments to track ahead of confirmed commercial terms.\n\nConfidence: high on the official announcement and product.\n\nhttps://graf.ae/launches/al-ghurair-tessera-dubai-south/"
-    },
-    {
-      "projectId": "cityview-pullman-meydan-residences-offices",
-      "eventKey": "cityview-pullman-meydan-residences-offices:2026-09-29-official-announcement",
-      "kind": "hot-launch",
-      "language": "en",
-      "status": "confirmed",
-      "approved": true,
-      "materialUpdate": "First publication of the verified 2026-09-29 early announcement; not a claim of a new sales opening today.",
-      "sources": [
-        "https://www.hospitalitynet.org/announcement/41015179/accor-and-cityview-developments-expand-their-partnership-with-pullman-residences-offices-dubai-meydan",
-        "https://www.tradearabia.com/News/486999/Accor-CITYVIEW-Developments-announce-Pullman-Residences-and-Offices-Dubai-Meydan/TTN"
-      ],
-      "siteUrl": "https://graf.ae/launches/cityview-pullman-meydan-residences-offices/",
-      "scheduledAt": "2026-10-01T08:00:00+04:00",
-      "scheduleReason": "All approved morning posts share Alex's 08:00 Dubai slot; delayed preparation is delivered on the next same-day successful run.",
-      "imageRepoPath": "assets/whatsapp/pullman-20261001.jpg",
-      "imageSha256": "945951023dd9126030632e93a18ab3bd3165046b94b61675ca2ed3377f8e5eb1",
-      "imageVerified": true,
-      "body": "Pullman Residences & Offices Dubai Meydan — CITYVIEW / Accor\n\nOfficially announced on 29 September 2026 at FHS World. Location: Meydan Horizon, Dubai.\n\n282 branded 1–4BR residences, alongside branded offices for sale. Planned opening: 2029; contractual handover unverified.\n\nStarting AED price, payment plan, EOI and sales-opening date: not verified.\n\nBroker value: a confirmed branded residential and office scheme to track before the commercial sales packs arrive.\n\nConfidence: high on the announcement and product; sales terms awaited.\n\nhttps://graf.ae/launches/cityview-pullman-meydan-residences-offices/"
-    }
-  ]
+  "posts": []
 }
-
