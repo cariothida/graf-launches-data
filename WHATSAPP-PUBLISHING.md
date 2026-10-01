@@ -8,22 +8,13 @@ Do not send/upload to WhatsApp, enqueue approved posts, trigger or retry the pub
 
 Today's Tessera and Pullman cards/captions were handed to Alex for manual publication; automatic pending queue entries were removed at his request. Manual publication is not confirmed.
 
-## Editorial cards — revised after Alex's rejection, 1 October 2026
+## Approved baseline and experimental concepts — 1 October 2026
 
-Alex rejected ALL T1–T5 and P1–P5 test designs. Do not use or promote those designs. The original plain GRAF information cards are the approved baseline: clear, restrained, legible, not an AI luxury advertisement.
+The original plain GRAF teal/white/gold information card remains the ONLY approved production method and template. Keep using the existing ordinary rendering method, original layout and content rules. Alex has NOT approved any replacement, a new palette, a changed card content limit, a new production renderer or a new design system. Manual handoff and website-first publication instructions above remain in force.
 
-Build simple cards with precise typesetting and layout (HTML/CSS, SVG or a standard graphic renderer), rather than generating the entire poster with AI. No generated architecture, generic AI buildings, cinematic golden-hour lighting, yellow colour grading, faux-luxury stock scenes, ornate serif headlines, glossy effects or excessive icons. This supersedes the earlier permission to use generic AI imagery. Use neutral/cool colour balance. Vary flat background/one subtle accent conservatively while preserving the original layout and legibility; avoid saturated blue excess and repetitive green.
+ALL T1–T5 and P1–P5 AI poster tests were rejected. Do not use them for morning delivery or publication.
 
-Card content is a teaser, not a brochure: project name, short location, developer name or verified logo, and at most ONE concise material announcement fact. Small graf.ae branding is sufficient. Aim for roughly 15–25 words total excluding proper names, not a rigid quota. Price tables, unit counts/mix lists, payment/EOI, handover, confidence and qualifications belong in the caption unless one fact is the actual headline. Do not list multiple unknown terms on the image. Use one straightforward sans-serif family, clear hierarchy, left alignment, generous spacing, no decorative separators. Check every draft at approximately 360px display width without zoom; if essential text needs enlargement, simplify the card.
-
-If exact-project official imagery materially helps, use the original image as an unchanged inserted photograph/render with neutral colour and a separate calm text area. Never regenerate official architecture or claim an AI recreation is an official rendering. Do not force imagery when a typographic card is clearer. No matching official image: use verified logo or plain developer name and flat background. Developer logos must not dominate the project headline.
-
-Caption carries the detailed verified announcement, original date/status, product/location, known or unknown prices/terms and the matching live graf.ae link. Keep it concise and scannable with short paragraphs. Do not create a new batch of speculative image designs unless requested.
-
-Research references (design principles, not WhatsApp-specific evidence):
-- BBC GEL typography and cards: https://bbc.github.io/gel/foundations/typography/ ; https://bbc.github.io/gel/components/cards/
-- Home Office layout/typography: https://design.homeoffice.gov.uk/accessibility/page-structure/layout-typography
-- Nielsen Norman Group mobile secondary content: https://www.nngroup.com/articles/defer-secondary-content-for-mobile/
+Alex requested ten NEW concept previews on 1 October 2026: five for Tessera and five for Pullman. These are exploration only, not production. Mark them separately as concepts and wait for Alex to select/approve any adoption. They should be restrained, phone-readable and low-information; main detail belongs in the caption. Avoid AI-looking buildings, golden-hour/yellow grading, decorative luxury effects, ornate typography and information overload. Use plain typesetting, calm backgrounds and genuine exact-project images only when appropriate; no generated project architecture or invented logos. Concept goals are not changes to the approved baseline.
 
 ## Historical automatic publication contract — superseded
 
