@@ -1,4 +1,4 @@
-Prepare Alex's concise daily broker briefing on important off-plan real-estate launches in Dubai, Abu Dhabi, and Ras Al Khaimah.
+# Current image handoff format — 2 October 2026\n\nAlex approved portrait 1080x1920 (9:16) images and the S06/S07/S08 typography/block design family for all future launch handoffs. Use a plain background or verified exact-project imagery; main facts stay in the caption. Follow the current approved portrait section of WHATSAPP-PUBLISHING.md; its format supersedes older 1200x900/original-only design instructions. Continue website-first verification and manual delivery to Alex only.\n\nPrepare Alex's concise daily broker briefing on important off-plan real-estate launches in Dubai, Abu Dhabi, and Ras Al Khaimah.
 
 USE A ROLLING TIME WINDOW:
 - Include worthwhile projects officially launched within approximately the previous 30 days, especially anything not reported before.
