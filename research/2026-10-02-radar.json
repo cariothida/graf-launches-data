@@ -1,0 +1,409 @@
+{
+  "version": 1,
+  "date": "2026-10-02",
+  "coverage": {
+    "date": "2026-10-02",
+    "watchlistSources": 64,
+    "instagram": {
+      "queryAttempts": 59,
+      "namedBrokerSourceAttempts": 20,
+      "nativeAccountsInspected": 0,
+      "nativeStoriesInspected": 0,
+      "access": "Indexed post/reel discovery only. Initial 24-query engine-2 pass returned empty; retried engine 1. Snippets and surrounding captions are not full native inspection."
+    },
+    "news": {
+      "requiredNewspapers": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Arabian Business",
+        "Gulf Today"
+      ],
+      "categoryHttp200": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Gulf Today"
+      ],
+      "categoryHttp403": [
+        "Arabian Business"
+      ],
+      "domainTargetedDiscoveryAttempted": 5,
+      "googleNewsRSS": {
+        "Dubai": 100,
+        "AbuDhabi": 100,
+        "RasAlKhaimah": 47
+      },
+      "note": "Broad 30-day RSS returned 247 headlines including non-property items; 100-item responses may be capped. Relevant headlines reconciled with candidates. Not complete coverage."
+    },
+    "propsearch": {
+      "latestBuildingsScreened": 20,
+      "investableBuildingPagesRead": 10,
+      "excludedEntries": 10,
+      "scope": "Homepage Latest buildings ONLY, no Latest areas or Recently updated"
+    },
+    "youtube": {
+      "coverage": "Indexed discovery results only, including Modon launch/financing video and Al Jaddaf teaser. No native full-video inspection."
+    },
+    "whatsapp": {
+      "storiesRequestId": "radar-20261002-stories-1790912448924",
+      "storiesRun": 36961237632,
+      "storiesReturned": 0,
+      "storiesMediaInspected": 0,
+      "truncated": false,
+      "chatsRequestId": "radar-20261002-chats-1790912620639",
+      "chatsRun": 36961435596,
+      "chatsListed": 0,
+      "messagesInspected": 0,
+      "note": "Artifacts downloaded and privately decrypted. Stories workflow succeeded with zero visible records; recent-chat workflow failed with zero chats selected. No developer-manager message or Status-media coverage established."
+    },
+    "website": {
+      "launchesCommit": "10528e52641712b16395a028d04b4d07a7a3e5ef",
+      "attributionCorrectionCommit": "93f7ef6a8e1f9aca6f0947c3e9e733100f2cba38",
+      "recoveryPR": 86,
+      "recoveryMerge": "ebe211dcd719e37e7a37c26148a4d91e20401332",
+      "deliveryRun": 36962783983,
+      "status": "live-verified",
+      "verifiedAt": "2026-10-02T04:15:00Z",
+      "deployedMarker": "93f7ef6a8e1f9aca6f0947c3e9e733100f2cba38",
+      "pages": [
+        {
+          "id": "taraf-one-only-al-maryah-private-residences",
+          "url": "https://graf.ae/launches/taraf-one-only-al-maryah-private-residences/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        },
+        {
+          "id": "modon-wadeem-gardens",
+          "url": "https://graf.ae/launches/modon-wadeem-gardens/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        },
+        {
+          "id": "rosewood-abu-dhabi-private-ownership-release",
+          "url": "https://graf.ae/launches/rosewood-abu-dhabi-private-ownership-release/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        }
+      ]
+    },
+    "whatsappPublication": {
+      "mode": "manual-handoff",
+      "queueDate": "2026-10-02",
+      "queuePosts": 0,
+      "sentHistoryVerified": 0,
+      "noPublisherTriggeredOrRetried": true,
+      "ledgerUnchanged": true,
+      "manualDrafts": 3
+    }
+  },
+  "publicItems": [
+    {
+      "id": "taraf-one-only-al-maryah-private-residences",
+      "record": {
+        "id": "taraf-one-only-al-maryah-private-residences",
+        "project": "One&Only Private Residences Al Maryah Island",
+        "developer": "TARAF / Mubadala; One&Only by Kerzner International",
+        "emirate": "Abu Dhabi",
+        "location": "Al Maryah Island, Abu Dhabi; connected to The Galleria",
+        "type": [
+          "apartments",
+          "duplexes",
+          "penthouses"
+        ],
+        "status": "confirmed",
+        "launchWindow": "Official project partnership announced 1 October 2026 at LIVEX. Sales-opening date not announced.",
+        "startingPrice": null,
+        "priceConfirmed": false,
+        "paymentPlan": null,
+        "teaser": "Officially announced Al Maryah branded residences; sales terms awaited.",
+        "summary": "Mubadala, TARAF and Kerzner International announced One&Only Private Residences on Al Maryah Island on 1 October 2026. The proposed 44-storey, approximately 230-metre tower will offer one- to three-bedroom residences, duplexes and a penthouse, with a connection to The Galleria. This is an early project announcement, not confirmation that sales or EOIs are open. Prices, payment plan, reservation/EOI and handover are not yet disclosed.",
+        "whatNext": "Await the sales-opening date, released inventory and commercial terms; subscribe for verified updates.",
+        "confidenceNote": "High: project identity, location and stated residential mix are confirmed in Mubadala's dated announcement. Sales timing and commercial terms remain unknown.",
+        "unitMix": [
+          {
+            "type": "1BR residence",
+            "note": "Officially announced."
+          },
+          {
+            "type": "2BR residence",
+            "note": "Officially announced."
+          },
+          {
+            "type": "3BR residence",
+            "note": "Officially announced."
+          },
+          {
+            "type": "Duplex",
+            "note": "Officially announced; bedroom counts not supplied."
+          },
+          {
+            "type": "Penthouse",
+            "note": "Officially announced; bedroom count not supplied."
+          }
+        ],
+        "sources": [
+          {
+            "url": "https://www.mubadala.com/en/news/mubadala-and-taraf-partner-with-kerzner-international-to-introduce-one-and-only-private-residences-on-al-maryah-island",
+            "label": "Mubadala official One&Only / TARAF / Kerzner project announcement",
+            "date": "2026-10-01",
+            "primary": true
+          },
+          {
+            "url": "https://www.cbnme.com/news/mubadala-taraf-partner-with-kerzner-for-oneonly-private-residences-in-abu-dhabi/",
+            "label": "CBNME reporting the same partnership announcement",
+            "date": "2026-10-01",
+            "primary": false
+          }
+        ],
+        "firstReported": "2026-10-02",
+        "updatedAt": "2026-10-02",
+        "published": true
+      }
+    },
+    {
+      "id": "modon-wadeem-gardens",
+      "record": {
+        "id": "modon-wadeem-gardens",
+        "project": "Wadeem Gardens",
+        "developer": "Modon",
+        "emirate": "Abu Dhabi",
+        "location": "Hudayriyat Island, Abu Dhabi",
+        "type": [
+          "villas"
+        ],
+        "status": "confirmed",
+        "launchWindow": "Phase one officially launched 30 September 2026. Earlier broker VIP/EOI/public-sale dates were provisional and are superseded by Modon's dated announcement.",
+        "startingPrice": 8700000,
+        "pricePerSqft": null,
+        "priceConfirmed": true,
+        "paymentPlan": "25/75, confirmed on Modon's project factsheet.",
+        "handover": "Q2 2031, developer-confirmed.",
+        "teaser": "Modon confirms phase-one launch, AED 8.7m entry price and 25/75 terms.",
+        "summary": "Modon officially launched phase one of Wadeem Gardens on Hudayriyat Island on 30 September 2026. Its project factsheet confirms 4-, 5- and 6-bedroom villas from AED 8.7 million, AED 10.2 million and AED 11.6 million respectively, a 25/75 payment plan and Q2 2031 handover. The launch also introduces ADIB off-plan financing of up to 75% for eligible applicants, subject to bank approval. This is an official-confirmation update to the earlier broker prelaunch alert; the villas are not directly on the waterfront.",
+        "whatNext": "Subscribe for confirmed allocation availability and current reservation/EOI requirements following the phase-one launch.",
+        "confidenceNote": "High on phase-one announcement, product, starting prices, 25/75 payment plan and Q2 2031 handover: verified directly against Modon's release and project factsheet. Financing is conditional, not guaranteed. Historical broker EOI amount/closing dates have not been independently developer-confirmed and must not be treated as current reservation terms.",
+        "unitMix": [
+          {
+            "type": "4BR villa",
+            "note": "Modon: 532 sqm; from AED 8.7 million."
+          },
+          {
+            "type": "5BR villa",
+            "note": "Modon: 630 sqm; from AED 10.2 million."
+          },
+          {
+            "type": "6BR villa",
+            "note": "Modon: 720 sqm; from AED 11.6 million."
+          }
+        ],
+        "eoi": {
+          "amount": 50000,
+          "refundable": true,
+          "note": "Historical 21 September broker-reported refundable AED 50,000 EOI; the reported close was 28 September. Not verified as a current post-launch reservation requirement by Modon."
+        },
+        "sources": [
+          {
+            "url": "https://www.modon.com/real-estate/wadeem-gardens",
+            "label": "Modon official factsheet: bedroom-specific prices, payment plan and handover",
+            "primary": true
+          },
+          {
+            "url": "https://www.modon.com/about-modon/media-centre/details/2026/09/30/modon-launches-phase-one-of-wadeem-gardens--abu-dhabi-s-first-villa-community-to-offer-up-to-75--off-plan-home-finance-with-adib",
+            "label": "Modon official phase-one launch announcement",
+            "date": "2026-09-30",
+            "primary": false
+          },
+          {
+            "url": "https://www.mpinv.ae/wadeem-gardens",
+            "label": "Masterpiece Property: launch details citing 14 September 2026 materials",
+            "primary": false
+          },
+          {
+            "url": "https://luxurylocated.com/wadeem-gardens",
+            "label": "Luxury Located: EOI, villa mix and conditional financing",
+            "primary": false
+          },
+          {
+            "url": "https://www.instagram.com/reel/DdR5iojMlxd/",
+            "label": "Indexed Instagram launch report; full reel inaccessible",
+            "primary": false
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=6Qf-fwsEGo4",
+            "label": "Broker launch presentation report",
+            "primary": false
+          },
+          {
+            "url": "https://www.instagram.com/reel/DdYaiRyo94H/",
+            "label": "Indexed current broker launch coverage; release-timeline evidence retained privately",
+            "date": "2026-09-17",
+            "primary": false
+          }
+        ],
+        "firstReported": "2026-09-18",
+        "updatedAt": "2026-10-02",
+        "published": true,
+        "seoTitle": "Wadeem Gardens by Modon: Hudayriyat Villa Launch | GRAF",
+        "seoDescription": "Wadeem Gardens phase one: Modon confirms 4–6BR Hudayriyat villas from AED 8.7m, 25/75 payment and Q2 2031 handover. Follow allocation updates.",
+        "confirmedBy": "https://www.modon.com/real-estate/wadeem-gardens"
+      }
+    },
+    {
+      "id": "rosewood-abu-dhabi-private-ownership-release",
+      "record": {
+        "id": "rosewood-abu-dhabi-private-ownership-release",
+        "project": "Rosewood Residences Abu Dhabi — private ownership release",
+        "developer": "Mubadala; branded and managed by Rosewood Hotel Group (reported release)",
+        "emirate": "Abu Dhabi",
+        "location": "Within Rosewood Abu Dhabi, Al Maryah Island",
+        "type": [
+          "apartments"
+        ],
+        "status": "broker-intelligence",
+        "launchWindow": "A company-release report published 1 October 2026 indicates first private-ownership release of 73 completed residences in Q4 2026; exact sale-opening date awaits direct confirmation.",
+        "startingPrice": null,
+        "priceConfirmed": false,
+        "paymentPlan": null,
+        "teaser": "Reported first private-ownership release of 73 completed residences in Q4.",
+        "summary": "A company-release report published on 1 October 2026 says Mubadala and Rosewood will offer 73 completed residences within Rosewood Abu Dhabi for private ownership for the first time in Q4 2026. Abu Dhabi Sotheby's International Realty is named as exclusive sales agency in the report. The hotel and residences already exist; the news is the reported ownership release, not a new building launch. Sale inventory, bedroom mix, prices, payment/EOI terms and transfer timing remain unverified.",
+        "whatNext": "Await direct seller or operator confirmation of the ownership release, sales-opening date, inventory and commercial terms; subscribe for updates.",
+        "confidenceNote": "Medium: a dated published company-release report supports the proposed Q4 ownership event; Rosewood's own site independently confirms the existing residences and Al Maryah identity, but does not yet authenticate the 73-home sale release. Syndicated copies are the same source, not independent confirmations. An independently operated project-named advisory website is not an official Rosewood or Mubadala source.",
+        "sources": [
+          {
+            "url": "https://mid-east.info/rosewood-abu-dhabi-to-offer-limited-collection-of-completed-residences-for-private-ownership-on-al-maryah-island/",
+            "label": "Published company-release report: 73 completed homes, Q4 2026 first ownership release; direct authentication pending",
+            "date": "2026-10-01",
+            "primary": true
+          },
+          {
+            "url": "https://www.rosewoodhotels.com/en/abu-dhabi/residences",
+            "label": "Rosewood official existing-residences page: project/location identity only; not ownership-release confirmation",
+            "primary": false
+          }
+        ],
+        "firstReported": "2026-10-02",
+        "updatedAt": "2026-10-02",
+        "published": true
+      }
+    }
+  ],
+  "held": [
+    "ORAYA Marjan Beach: 1 October company-entry release is verified, but it does not name a new sales release; own website already markets Wyndham Residences. Do not infer that the release is a first sales launch or substitute Divine One's separate Wyndham project.",
+    "Radisson Residences Phase Two: matches existing Tower 3 page, not a fourth tower. 21 September articles coexist with 9 September announcement references; original dated filing and genuinely new inventory facts need reconciliation before another alert.",
+    "Marquis Aura / Eterea / Lunara / Meriden Gate / Aris by Grid / Celeste Dubai South / Pioneer / Park Infinia: identity leads and planning/registration information found, but dated qualifying sales/EOI event remains unresolved; First Trace and registered construction start dates are not launch dates.",
+    "Sobha City: April 2026 first announcement/EOI; current EOI adverts do not identify a new release.",
+    "Ellington Al Yalayis and proposed SZR office launch: current indexed adverts do not independently establish a new named release or current official dates. Do not substitute already-announced Atelier."
+  ],
+  "privatePlanningSignals": [
+    {
+      "name": "TARAF / Mubadala Al Reem waterfront proposal",
+      "disposition": "confirmed-private-planning-signal",
+      "finding": "30 September MoU to explore a mixed-use waterfront development across 10 plots; about 655,000 sqft land and 5.4 million sqft GFA. Proposed 1–4BR apartments/penthouses, commercial/retail/F&B. No named project, sales window, prices or EOI. An MoU is not a sales launch.",
+      "sources": [
+        "https://www.mubadala.com/en/news/taraf-signs-mou-with-mubadala-to-explore-major-mixed-use-waterfront-development-on-al-reem-island"
+      ],
+      "nextCheck": "Named schemes/phase identity, signed development agreement and sales horizon."
+    }
+  ],
+  "latestBuildings": {
+    "date": "2026-10-02",
+    "scope": "Homepage Latest buildings ONLY",
+    "screened": 20,
+    "detailPagesRead": 10,
+    "items": [
+      {
+        "name": "Marquis Aura",
+        "disposition": "early-watch",
+        "finding": "Marquis Developers / Marquis Star Development, Dubai South Residential District, 10 storeys. First Trace October2026 is not launch timing. Await dated announcement, unit mix and EOI/sales pack."
+      },
+      {
+        "name": "Eterea by Zoya",
+        "disposition": "early-watch",
+        "finding": "Zoya One, Majan. Portal mix/prices/handover are unconfirmed. Original sales/EOI event still unresolved."
+      },
+      {
+        "name": "Pullman Residences & Offices Dubai Meydan",
+        "disposition": "already-published",
+        "finding": "29 September Accor/CITYVIEW announcement, handed off1October; no new commercial release today."
+      },
+      {
+        "name": "Lunara Tower",
+        "disposition": "early-watch",
+        "finding": "Tarrad, Majan; do not merge with RAK/Lunara names. Brokers indicate prelaunch; dates and official terms unresolved."
+      },
+      {
+        "name": "Meriden Gate",
+        "disposition": "early-watch",
+        "finding": "Green Horizon, Downtown Jebel Ali / Jebel Ali Industrial2; not Meriden Beach. Planning/mix listings do not independently date the first launch."
+      },
+      {
+        "name": "Aris by Grid",
+        "disposition": "early-watch",
+        "finding": "Grid / Grid Horizon, Dubai South; no corroborated dated release."
+      },
+      {
+        "name": "Celeste Dubai South",
+        "disposition": "early-watch",
+        "finding": "Meraki, Dubai South; not Celeste by Zimaya. Listing identity verified; qualifying dated event unresolved."
+      },
+      {
+        "name": "NBCC Al Waha",
+        "disposition": "excluded",
+        "finding": "International City, excluded by Alex's standing instruction."
+      },
+      {
+        "name": "Dubai Customs Nursery and Daycare",
+        "disposition": "excluded",
+        "finding": "Institutional childcare facility, no investable residential sales release."
+      },
+      {
+        "name": "Pioneer Residences & Offices",
+        "disposition": "early-watch",
+        "finding": "Pioneer Horizon, Ras Al Khor Industrial1,23storey mixed-use. Registered construction start/completion dates are not sales-opening dates."
+      },
+      {
+        "name": "Park Infinia",
+        "disposition": "early-watch",
+        "finding": "Riyasaa, JVT District5,7storeys; date/terms unverified."
+      },
+      {
+        "name": "Yigo Luxe",
+        "disposition": "already-published",
+        "finding": "Existing DSO prelaunch alert; no new dated allocation or terms."
+      },
+      {
+        "name": "Dubai Knowledge Park Blocks7,13,12,8,9,10,14,15",
+        "disposition": "excluded",
+        "finding": "Eight existing institutional buildings, not new residential releases."
+      }
+    ]
+  },
+  "manualHandoffs": [
+    {
+      "projectId": "taraf-one-only-al-maryah-private-residences",
+      "eventKey": "taraf-one-only-al-maryah-private-residences:2026-10-01-official-announcement",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-02"
+    },
+    {
+      "projectId": "modon-wadeem-gardens",
+      "eventKey": "modon-wadeem-gardens:2026-09-30-official-launch-terms",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-02"
+    },
+    {
+      "projectId": "rosewood-abu-dhabi-private-ownership-release",
+      "eventKey": "rosewood-abu-dhabi-private-ownership-release:2026-10-01-reported-q4-ownership-release",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-02"
+    }
+  ],
+  "manualHandoffNote": "These drafts are delivered to Alex in this conversation after live verification; delivery is not evidence of WhatsApp publication. Do not repeat unchanged handoffs."
+}
