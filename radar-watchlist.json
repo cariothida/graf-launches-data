@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01",
+  "updatedAt": "2026-10-02",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -1066,207 +1066,194 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "watchlistSources": 64,
-    "instagramTargetedQueries": 47,
-    "distinctNamedBrokerSourcesAttempted": 20,
-    "nativeInstagramAccountsInspected": 0,
-    "relevantInstagramMediaInspected": 0,
-    "instagramStoriesInspected": 0,
-    "instagramAccessGap": "Indexed searches returned empty or irrelevant matches; native Instagram accounts and Stories not inspected.",
-    "googleNews": {
-      "route": "Google News RSS, hl=en-US gl=AE ceid=AE:en",
-      "emirateSearches": 3,
-      "headlineRecordsScreened": 75,
-      "exactNameFollowupQueries": 1,
-      "scope": "Dubai, Abu Dhabi, Ras Al Khaimah separately; previous 30 days",
-      "aliasSearches": 2
+    "instagram": {
+      "queryAttempts": 59,
+      "namedBrokerSourceAttempts": 20,
+      "nativeAccountsInspected": 0,
+      "nativeStoriesInspected": 0,
+      "access": "Indexed post/reel discovery only. Initial 24-query engine-2 pass returned empty; retried engine 1. Snippets and surrounding captions are not full native inspection."
     },
-    "newspapers": {
-      "required": 5,
-      "categoryHeadlinesAccessible": [
-        "Gulf News",
-        "The National",
-        "Gulf Today"
-      ],
-      "categoryAccessFailures": [
-        "Khaleej Times",
-        "Arabian Business"
-      ],
-      "domainTargetedSearchAttempted": [
+    "news": {
+      "requiredNewspapers": [
         "Gulf News",
         "Khaleej Times",
         "The National",
         "Arabian Business",
         "Gulf Today"
       ],
-      "note": "Indexed/excerpt retrieval supplements blocked category pages; not full coverage of each newspaper."
+      "categoryHttp200": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Gulf Today"
+      ],
+      "categoryHttp403": [
+        "Arabian Business"
+      ],
+      "domainTargetedDiscoveryAttempted": 5,
+      "googleNewsRSS": {
+        "Dubai": 100,
+        "AbuDhabi": 100,
+        "RasAlKhaimah": 47
+      },
+      "note": "Broad 30-day RSS returned 247 headlines including non-property items; 100-item responses may be capped. Relevant headlines reconciled with candidates. Not complete coverage."
     },
     "propsearch": {
       "latestBuildingsScreened": 20,
-      "investableBuildingPagesInspected": 10,
-      "nonInvestableOrExcluded": 10
+      "investableBuildingPagesRead": 10,
+      "excludedEntries": 10,
+      "scope": "Homepage Latest buildings ONLY, no Latest areas or Recently updated"
     },
     "youtube": {
-      "indexedQueryAttempts": 5,
-      "relevantVideosInspected": 0,
-      "note": "No relevant dated videos were returned; no native video review."
+      "coverage": "Indexed discovery results only, including Modon launch/financing video and Al Jaddaf teaser. No native full-video inspection."
     },
     "whatsapp": {
-      "storiesRequestId": "radar-20261001-stories-1790826221050",
-      "storiesRun": 36811849054,
+      "storiesRequestId": "radar-20261002-stories-1790912448924",
+      "storiesRun": 36961237632,
       "storiesReturned": 0,
       "storiesMediaInspected": 0,
       "truncated": false,
-      "chatsRequestId": "radar-20261001-chats-1790826322803",
-      "chatsRun": 36811981257,
+      "chatsRequestId": "radar-20261002-chats-1790912620639",
+      "chatsRun": 36961435596,
       "chatsListed": 0,
       "messagesInspected": 0,
-      "note": "Both privately decrypted artifacts report HTTP 200 with zero records. Chat workflow failed because no candidate histories were available. No manager-message coverage established today."
+      "note": "Artifacts downloaded and privately decrypted. Stories workflow succeeded with zero visible records; recent-chat workflow failed with zero chats selected. No developer-manager message or Status-media coverage established."
     },
-    "publication": {
-      "feedCommit": "bbdd4f0b25a4b184ac154a6c2dad916fe0a6442f",
-      "added": [
-        "al-ghurair-tessera-dubai-south",
-        "cityview-pullman-meydan-residences-offices"
-      ],
-      "automaticSiteSync": "Blocked by required pull-request rule",
-      "recoveryPR": 85,
-      "productionDeliveryRun": 36812771356,
-      "status": "COMPLETE WEBSITE / WHATSAPP BLOCKED. Both English launch page identities and facts verified live HTTP200 with matching feed marker bbdd4f0b25a4b184ac154a6c2dad916fe0a6442f; production delivery run36812771356 completed success. Two image posts remain queued. Initial publisher36813430759 and real retry36813725747 both failed before sending at getNewsletterByInviteCode HTTP401. Intermediate rerun was dry validation only. Latest ledger has no Tessera/Pullman events; zero sent-history verification.",
-      "publisherRun": 36813430759,
-      "deliveryError": "getNewsletterByInviteCode HTTP 401 — channel authorization rejected before send",
+    "website": {
+      "launchesCommit": "10528e52641712b16395a028d04b4d07a7a3e5ef",
+      "attributionCorrectionCommit": "93f7ef6a8e1f9aca6f0947c3e9e733100f2cba38",
+      "recoveryPR": 86,
+      "recoveryMerge": "ebe211dcd719e37e7a37c26148a4d91e20401332",
+      "deliveryRun": 36962783983,
+      "status": "live-verified",
+      "verifiedAt": "2026-10-02T04:15:00Z",
+      "deployedMarker": "93f7ef6a8e1f9aca6f0947c3e9e733100f2cba38",
+      "pages": [
+        {
+          "id": "taraf-one-only-al-maryah-private-residences",
+          "url": "https://graf.ae/launches/taraf-one-only-al-maryah-private-residences/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        },
+        {
+          "id": "modon-wadeem-gardens",
+          "url": "https://graf.ae/launches/modon-wadeem-gardens/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        },
+        {
+          "id": "rosewood-abu-dhabi-private-ownership-release",
+          "url": "https://graf.ae/launches/rosewood-abu-dhabi-private-ownership-release/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        }
+      ]
+    },
+    "whatsappPublication": {
+      "mode": "manual-handoff",
+      "queueDate": "2026-10-02",
+      "queuePosts": 0,
       "sentHistoryVerified": 0,
-      "queued": 2,
-      "queueCommit": "e74c24bdd395d7fcd95041233d1d5123f26d7f4e",
-      "publisherRetryRun": 36813725747,
-      "requiredRecovery": "Restore connected Whapi channel authorization through the existing account/secret management; do not retrieve token into research or chat."
+      "noPublisherTriggeredOrRetried": true,
+      "ledgerUnchanged": true,
+      "manualDrafts": 3
     }
   },
   "lastMaterialUpdate": {
-    "date": "2026-09-27",
-    "updates": [],
+    "date": "2026-10-02",
+    "updates": [
+      "taraf-one-only-al-maryah-private-residences",
+      "modon-wadeem-gardens",
+      "rosewood-abu-dhabi-private-ownership-release"
+    ],
     "held": [
-      "Yas Riva Residences — 28 September Status reminder: Two duplicate WhatsApp Status captions advertised a 28 September public launch and an appointment system. Independent checking resolved Yas Riva Residences as the separate 950-home apartment project already launched in 2025 with active resale inventory. The reminder is not treated as a new launch or as a correction to Yas Riva Reserve.",
-      "Bay Estate, Dubai Islands: One fresh Status said the project had launched and EOIs were open, but those events were already published and channel-verified on 25 September 2026. No new dated allocation, price or phase was supplied; duplicate suppressed.",
-      "Address The Bay, Emaar Beachfront: Fresh hospitality coverage refers to the forthcoming hotel opening. Emaar investor materials date the residential project launch to June 2022; no distinct new residential sales release was verified.",
-      "Muheira and Tara Park, Reem Island: Current official pages and freshly crawled press were checked. Muheira is already marketed with September listings and Tara Park final-phase coverage dates to April 2026; no new 27 September allocation or release was established.",
-      "Ghaf Woods 349-apartment tower: Phase identity remains unresolved. Public pages conflict between a new unnamed tower and already-transacting Distrikt 4 inventory; no confirmed name, EOI date or developer price.",
-      "Blue Marina Residence, Dubai Islands: The September presentation is real, but the named project was marketed from July 2025 and no distinct new phase has been verified.",
-      "Dolce Residences by Wyndham, Al Marjan Island: One broker source continues to report AED 100,000 early-access EOI, but no independent dated confirmation of the EOI opening or amount was found.",
-      "Dubai Pearl / Accor: Accor interest in the revived site is an early redevelopment/operator signal, not a named saleable launch. No unit mix, EOI or sales release exists.",
-      "Ellington Al Yalayis and proposed SZR/Business Bay office: No newly verified project identity, developer announcement, date or material commercial change."
+      "ORAYA Marjan Beach: 1 October company-entry release is verified, but it does not name a new sales release; own website already markets Wyndham Residences. Do not infer that the release is a first sales launch or substitute Divine One's separate Wyndham project.",
+      "Radisson Residences Phase Two: matches existing Tower 3 page, not a fourth tower. 21 September articles coexist with 9 September announcement references; original dated filing and genuinely new inventory facts need reconciliation before another alert.",
+      "Marquis Aura / Eterea / Lunara / Meriden Gate / Aris by Grid / Celeste Dubai South / Pioneer / Park Infinia: identity leads and planning/registration information found, but dated qualifying sales/EOI event remains unresolved; First Trace and registered construction start dates are not launch dates.",
+      "Sobha City: April 2026 first announcement/EOI; current EOI adverts do not identify a new release.",
+      "Ellington Al Yalayis and proposed SZR office launch: current indexed adverts do not independently establish a new named release or current official dates. Do not substitute already-announced Atelier."
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-10-01",
-    "route": "Live Propsearch homepage Latest buildings; ordinary HTTP retrieval",
+    "date": "2026-10-02",
+    "scope": "Homepage Latest buildings ONLY",
+    "screened": 20,
+    "detailPagesRead": 10,
     "items": [
       {
+        "name": "Marquis Aura",
+        "disposition": "early-watch",
+        "finding": "Marquis Developers / Marquis Star Development, Dubai South Residential District, 10 storeys. First Trace October2026 is not launch timing. Await dated announcement, unit mix and EOI/sales pack."
+      },
+      {
         "name": "Eterea by Zoya",
-        "disposition": "named-early-watch",
-        "finding": "Zoya; Majan / Wadi Al Safa 3; 92 residences reported by portal. First Trace September is not sales-launch date; original developer event date and terms unresolved."
+        "disposition": "early-watch",
+        "finding": "Zoya One, Majan. Portal mix/prices/handover are unconfirmed. Original sales/EOI event still unresolved."
       },
       {
         "name": "Pullman Residences & Offices Dubai Meydan",
-        "disposition": "verified-early-announcement-published-to-feed",
-        "finding": "Accor / CITYVIEW company-contributed signing announcement 29 September; 282 1–4BR residences plus branded offices in Meydan Horizon. Planned opening 2029; commercial terms unknown."
+        "disposition": "already-published",
+        "finding": "29 September Accor/CITYVIEW announcement, handed off1October; no new commercial release today."
       },
       {
         "name": "Lunara Tower",
-        "disposition": "named-identity-resolved-watch",
-        "finding": "Propsearch attributes the exact Tower name to Tarrad in Majan. Distinct from Cavara Lunara Residence in Satwa and other Lunara projects. AED85,000 portal figure not accepted as full starting price. Original announcement date unresolved."
+        "disposition": "early-watch",
+        "finding": "Tarrad, Majan; do not merge with RAK/Lunara names. Brokers indicate prelaunch; dates and official terms unresolved."
       },
       {
         "name": "Meriden Gate",
-        "disposition": "named-early-watch",
-        "finding": "Green Horizon; Downtown Jebel Ali / Jebel Ali Industrial 2. Distinct from Meriden Beach. Developer confirmation and original launch date unresolved."
+        "disposition": "early-watch",
+        "finding": "Green Horizon, Downtown Jebel Ali / Jebel Ali Industrial2; not Meriden Beach. Planning/mix listings do not independently date the first launch."
       },
       {
         "name": "Aris by Grid",
-        "disposition": "named-early-watch",
-        "finding": "Grid Horizon; Dubai South Residential District. Portal First Trace August 2026 is not a launch date; no new dated event established."
+        "disposition": "early-watch",
+        "finding": "Grid / Grid Horizon, Dubai South; no corroborated dated release."
       },
       {
         "name": "Celeste Dubai South",
-        "disposition": "named-early-watch",
-        "finding": "Meraki; Dubai South Residential District. Do not merge with Celeste Al Jaddaf or Zimaya Celeste Heights. Original date and commercial terms unresolved."
+        "disposition": "early-watch",
+        "finding": "Meraki, Dubai South; not Celeste by Zimaya. Listing identity verified; qualifying dated event unresolved."
       },
       {
         "name": "NBCC Al Waha",
-        "disposition": "excluded-location",
-        "finding": "International City excluded under Alex's research instructions."
+        "disposition": "excluded",
+        "finding": "International City, excluded by Alex's standing instruction."
       },
       {
         "name": "Dubai Customs Nursery and Daycare",
-        "disposition": "excluded-non-investable",
-        "finding": "Institutional nursery, not a residential/commercial investment launch."
+        "disposition": "excluded",
+        "finding": "Institutional childcare facility, no investable residential sales release."
       },
       {
         "name": "Pioneer Residences & Offices",
-        "disposition": "named-early-watch",
-        "finding": "Pioneer Horizon; Ras Al Khor Industrial 1, mixed use. Exact original announcement date and office/residential release terms unresolved."
+        "disposition": "early-watch",
+        "finding": "Pioneer Horizon, Ras Al Khor Industrial1,23storey mixed-use. Registered construction start/completion dates are not sales-opening dates."
       },
       {
         "name": "Park Infinia",
-        "disposition": "named-early-watch",
-        "finding": "Riyasaa; JVT district 5. Portal listing is a discovery lead; original dated announcement unresolved."
+        "disposition": "early-watch",
+        "finding": "Riyasaa, JVT District5,7storeys; date/terms unverified."
       },
       {
         "name": "Yigo Luxe",
-        "disposition": "already-published-no-material-update",
-        "finding": "Existing feed and channel event. No verified material new terms found."
+        "disposition": "already-published",
+        "finding": "Existing DSO prelaunch alert; no new dated allocation or terms."
       },
       {
-        "name": "Dubai Knowledge Park Block 7",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 13",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 12",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 8",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 9",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 10",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 14",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 15",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
-      },
-      {
-        "name": "Dubai Knowledge Park Block 11",
-        "disposition": "excluded-existing-non-investable",
-        "finding": "Existing institutional/commercial block; no new investable launch signal."
+        "name": "Dubai Knowledge Park Blocks7,13,12,8,9,10,14,15",
+        "disposition": "excluded",
+        "finding": "Eight existing institutional buildings, not new residential releases."
       }
-    ],
-    "pagesInspected": 10
+    ]
   },
   "earlySignalReview": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "items": [
       {
         "name": "Tessera",
@@ -1364,6 +1351,15 @@
         "disposition": "hospitality-pipeline-not-sales-launch",
         "finding": "Fresh headlines concern hotel signings/openings and luxury accommodation. No newly released for-sale residences verified.",
         "nextCheck": "Named separately saleable residential inventory and dated sales signal"
+      },
+      {
+        "name": "TARAF / Mubadala Al Reem waterfront proposal",
+        "disposition": "confirmed-private-planning-signal",
+        "finding": "30 September MoU to explore a mixed-use waterfront development across 10 plots; about 655,000 sqft land and 5.4 million sqft GFA. Proposed 1–4BR apartments/penthouses, commercial/retail/F&B. No named project, sales window, prices or EOI. An MoU is not a sales launch.",
+        "sources": [
+          "https://www.mubadala.com/en/news/taraf-signs-mou-with-mubadala-to-explore-major-mixed-use-waterfront-development-on-al-reem-island"
+        ],
+        "nextCheck": "Named schemes/phase identity, signed development agreement and sales horizon."
       }
     ]
   },
@@ -1380,5 +1376,28 @@
     "retainPaywalledHeadlineLeads": true,
     "requiredCandidateReconciliation": true,
     "coverageMustRecordActualAccess": true
-  }
+  },
+  "manualHandoffs": [
+    {
+      "projectId": "taraf-one-only-al-maryah-private-residences",
+      "eventKey": "taraf-one-only-al-maryah-private-residences:2026-10-01-official-announcement",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-02"
+    },
+    {
+      "projectId": "modon-wadeem-gardens",
+      "eventKey": "modon-wadeem-gardens:2026-09-30-official-launch-terms",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-02"
+    },
+    {
+      "projectId": "rosewood-abu-dhabi-private-ownership-release",
+      "eventKey": "rosewood-abu-dhabi-private-ownership-release:2026-10-01-reported-q4-ownership-release",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-02"
+    }
+  ]
 }
