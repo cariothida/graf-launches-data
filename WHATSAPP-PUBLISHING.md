@@ -1,3 +1,11 @@
+# Approved portrait image update — 2 October 2026
+
+Alex's latest instructions: “S 07 and 08 also add design. Background either blank or building as you used. Add this for all future images and generate today like that”; “Размеры да сделай вытянутые ... в статус будет красиво”.
+
+For future manual launch handoffs use elongated 1080x1920 (9:16) opaque JPEG images in the S06/S07/S08 design family, with large readable titles and details in the caption. A background may be blank or a verified image of this exact project, with dark overlay or opaque text panels for contrast. Do not invent buildings or logos. Inspect each image before handoff. This latest approval supersedes the older 1200x900/default-original-only design restrictions below; all website-first verification, manual-only delivery, empty-queue, unchanged-ledger, evidence and deduplication safeguards remain in force. Historical rejected AI architecture tests remain rejected.
+
+---
+
 # Manual WhatsApp handoff — current contract (1 October 2026)
 
 Alex revoked automatic WhatsApp publishing on 1 October 2026. This section supersedes ALL automatic sending, queueing, scheduling and retry instructions below.
