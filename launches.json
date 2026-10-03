@@ -1393,6 +1393,68 @@
       "firstReported": "2026-10-02",
       "updatedAt": "2026-10-02",
       "published": true
+    },
+    {
+      "id": "lead-rimas-jubail-island",
+      "project": "RIMAS — Jubail Island",
+      "developer": "LEAD Development / Jubail Island Investment Company",
+      "emirate": "Abu Dhabi",
+      "location": "Jubail Island, between Yas Island and Saadiyat Island, Abu Dhabi",
+      "type": [
+        "villas"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Formal unveiling at LIVEX on 29 September 2026; developer newsroom dated 30 September. Earlier August registration/marketing existed, so this is not presented as the first-ever sales opening.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "LEAD confirms a 167-villa RIMAS collection on Jubail Island; commercial terms awaited.",
+      "summary": "LEAD Development formally unveiled RIMAS at LIVEX on 29 September 2026, with its own newsroom publishing the announcement on 30 September. The announced collection comprises 167 four- to six-bedroom villas on Jubail Island, between Yas Island and Saadiyat Island: 76 four-bedroom, 76 five-bedroom and 15 six-bedroom homes, on plots of approximately 850–1,716 sqm. RIMAS had already appeared in August registration and broker marketing; this report covers the dated official unveiling and announced villa collection, not a first-ever sales opening. Initial AED prices, payment plan, current reservation/EOI, available inventory and developer-confirmed handover remain unverified.",
+      "unitMix": [
+        {
+          "type": "4BR villa",
+          "note": "76 homes in the collection announced at LIVEX."
+        },
+        {
+          "type": "5BR villa",
+          "note": "76 homes in the collection announced at LIVEX."
+        },
+        {
+          "type": "6BR villa",
+          "note": "15 homes in the collection announced at LIVEX."
+        }
+      ],
+      "whatNext": "Await the current inventory, official price list, reservation/EOI, payment plan and handover; subscribe for verified updates.",
+      "confidenceNote": "High on the developer-confirmed RIMAS identity, location and dated formal unveiling; WAM reports the 167-villa mix. Earlier broker registry summaries describe a broader 316-home scheme and are not treated as the same released collection. WAM quotes around 70% sold since launch; no remaining availability is inferred. Commercial terms and a first-ever sales date are not verified.",
+      "sources": [
+        {
+          "url": "https://leaddevelopment.ae/news/lead-development-unveils-rimas-at-livex-2026-a-new-addition-to-jubail-islands-premium-community-offering/",
+          "label": "LEAD Development official RIMAS unveiling; newsroom dated 30 September",
+          "date": "2026-09-30",
+          "primary": true
+        },
+        {
+          "url": "https://www.wam.ae/en/article/c2holw7-lead-development-launches-rimas-livex-2026",
+          "label": "WAM: dated 29 September LIVEX announcement, 167-villa mix and sales context",
+          "date": "2026-09-29",
+          "primary": false
+        },
+        {
+          "url": "https://leaddevelopment.ae/rimas/",
+          "label": "LEAD official project page: 4BR, 5BR and 6BR villas; commercial terms not supplied",
+          "primary": false
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/jubail-island-unveils-new-residential-phase-rimas-ayman-sadieh-khixf",
+          "label": "Earlier 15 August broker registration report; 316-home broader scheme, not accepted as current collection inventory",
+          "date": "2026-08-15",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "published": true
     }
   ],
   "version": 1
