@@ -99,17 +99,33 @@
         1080,
         1920
       ],
-      "style": "S06"
+      "style": "S06",
+      "persistentAttachmentSave": "failed; local downloads and inline card provided in conversation"
     },
     "website": {
       "launchesCommit": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
       "recoveryPR": 87,
       "recoveryMerge": "6f38eba92e375fbe51c6297169195169756d4956",
       "deliveryRun": 37096004389,
-      "status": "production-build-running",
+      "deliveryConclusion": "success",
+      "status": "live-verified",
+      "verifiedAt": "2026-10-03T04:27:22Z",
+      "deployedMarker": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
       "automaticSyncRun": 37095829924,
       "automaticSyncFailure": "GH013: Changes must be made through a pull request",
-      "unrelatedRecordsPreserved": true
+      "unrelatedFeedRecordsPreserved": true,
+      "unrelatedYigoAutoRewriteNotApplied": true,
+      "pages": [
+        {
+          "id": "lead-rimas-jubail-island",
+          "url": "https://graf.ae/launches/lead-rimas-jubail-island/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        }
+      ],
+      "listingContainsRimas": true,
+      "visualCheck": "Desktop screenshot inspected; mobile viewports were not checked."
     }
   },
   "qualifying": [
@@ -418,6 +434,33 @@
     "queueExplicitlyEmpty": true,
     "ledgerUnchanged": true,
     "noWhatsAppSent": true,
-    "productionStatus": "building"
+    "productionStatus": "live-verified",
+    "deliveryRun": 37096004389,
+    "deliveryConclusion": "success",
+    "website": {
+      "launchesCommit": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
+      "recoveryPR": 87,
+      "recoveryMerge": "6f38eba92e375fbe51c6297169195169756d4956",
+      "deliveryRun": 37096004389,
+      "deliveryConclusion": "success",
+      "status": "live-verified",
+      "verifiedAt": "2026-10-03T04:27:22Z",
+      "deployedMarker": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
+      "automaticSyncRun": 37095829924,
+      "automaticSyncFailure": "GH013: Changes must be made through a pull request",
+      "unrelatedFeedRecordsPreserved": true,
+      "unrelatedYigoAutoRewriteNotApplied": true,
+      "pages": [
+        {
+          "id": "lead-rimas-jubail-island",
+          "url": "https://graf.ae/launches/lead-rimas-jubail-island/",
+          "httpStatus": 200,
+          "identityAndMaterialFactsVerified": true,
+          "browserInspected": true
+        }
+      ],
+      "listingContainsRimas": true,
+      "visualCheck": "Desktop screenshot inspected; mobile viewports were not checked."
+    }
   }
 }
