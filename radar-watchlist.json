@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02",
+  "updatedAt": "2026-10-03",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -1066,14 +1066,15 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "watchlistSources": 64,
     "instagram": {
-      "queryAttempts": 59,
+      "queryAttempts": 93,
       "namedBrokerSourceAttempts": 20,
       "nativeAccountsInspected": 0,
       "nativeStoriesInspected": 0,
-      "access": "Indexed post/reel discovery only. Initial 24-query engine-2 pass returned empty; retried engine 1. Snippets and surrounding captions are not full native inspection."
+      "qualifyingIndexedBrokerLeads": 0,
+      "access": "24 multilingual queries plus 24 stronger-engine retries; 20 named broker queries and 20 retries; four domain-based fallbacks; one Eterea follow-up. Results were empty or irrelevant; no native account/Stories inspection established."
     },
     "news": {
       "requiredNewspapers": [
@@ -1094,74 +1095,63 @@
       ],
       "domainTargetedDiscoveryAttempted": 5,
       "googleNewsRSS": {
-        "Dubai": 100,
-        "AbuDhabi": 100,
-        "RasAlKhaimah": 47
+        "Dubai": 54,
+        "AbuDhabi": 58,
+        "RasAlKhaimah": 17
       },
-      "note": "Broad 30-day RSS returned 247 headlines including non-property items; 100-item responses may be capped. Relevant headlines reconciled with candidates. Not complete coverage."
+      "note": "129 rolling-30-day RSS headlines screened. Category headlines and indexed newspaper excerpts reviewed; not complete article/account coverage."
     },
     "propsearch": {
       "latestBuildingsScreened": 20,
       "investableBuildingPagesRead": 10,
       "excludedEntries": 10,
-      "scope": "Homepage Latest buildings ONLY, no Latest areas or Recently updated"
+      "scope": "Homepage Latest buildings ONLY"
     },
     "youtube": {
-      "coverage": "Indexed discovery results only, including Modon launch/financing video and Al Jaddaf teaser. No native full-video inspection."
+      "coverage": "Indexed discovery for Dubai, Abu Dhabi and Ras Al Khaimah; no full native video inspection."
+    },
+    "hospitality": {
+      "sources": [
+        "Hospitality Net",
+        "TTN",
+        "TradeArabia"
+      ],
+      "coverage": "Category headlines and indexed releases checked. Minor's 2 October Dubai Islands hotel signing has no verified separately saleable residences."
     },
     "whatsapp": {
-      "storiesRequestId": "radar-20261002-stories-1790912448924",
-      "storiesRun": 36961237632,
+      "storiesRequestId": "radar-20261003-stories-10a7df14-3cbd-48ac-af27-e4cf8a10ff77",
+      "storiesRun": 37094950122,
       "storiesReturned": 0,
       "storiesMediaInspected": 0,
       "truncated": false,
-      "chatsRequestId": "radar-20261002-chats-1790912620639",
-      "chatsRun": 36961435596,
+      "chatsRun": 37095412296,
       "chatsListed": 0,
       "messagesInspected": 0,
-      "note": "Artifacts downloaded and privately decrypted. Stories workflow succeeded with zero visible records; recent-chat workflow failed with zero chats selected. No developer-manager message or Status-media coverage established."
-    },
-    "website": {
-      "launchesCommit": "10528e52641712b16395a028d04b4d07a7a3e5ef",
-      "attributionCorrectionCommit": "93f7ef6a8e1f9aca6f0947c3e9e733100f2cba38",
-      "recoveryPR": 86,
-      "recoveryMerge": "ebe211dcd719e37e7a37c26148a4d91e20401332",
-      "deliveryRun": 36962783983,
-      "status": "live-verified",
-      "verifiedAt": "2026-10-02T04:15:00Z",
-      "deployedMarker": "93f7ef6a8e1f9aca6f0947c3e9e733100f2cba38",
-      "pages": [
-        {
-          "id": "taraf-one-only-al-maryah-private-residences",
-          "url": "https://graf.ae/launches/taraf-one-only-al-maryah-private-residences/",
-          "httpStatus": 200,
-          "identityAndMaterialFactsVerified": true,
-          "browserInspected": true
-        },
-        {
-          "id": "modon-wadeem-gardens",
-          "url": "https://graf.ae/launches/modon-wadeem-gardens/",
-          "httpStatus": 200,
-          "identityAndMaterialFactsVerified": true,
-          "browserInspected": true
-        },
-        {
-          "id": "rosewood-abu-dhabi-private-ownership-release",
-          "url": "https://graf.ae/launches/rosewood-abu-dhabi-private-ownership-release/",
-          "httpStatus": 200,
-          "identityAndMaterialFactsVerified": true,
-          "browserInspected": true
-        }
-      ]
+      "note": "Encrypted artifacts downloaded and privately decrypted. Stories succeeded with zero visible records; chat reader returned an empty getChats list and workflow failed. No private-message or media coverage established."
     },
     "whatsappPublication": {
       "mode": "manual-handoff",
-      "queueDate": "2026-10-02",
+      "queueDate": "2026-10-03",
       "queuePosts": 0,
-      "sentHistoryVerified": 0,
       "noPublisherTriggeredOrRetried": true,
       "ledgerUnchanged": true,
-      "manualDrafts": 3
+      "channelSent": false,
+      "manualDrafts": 1,
+      "imageDimensions": [
+        1080,
+        1920
+      ],
+      "style": "S06"
+    },
+    "website": {
+      "launchesCommit": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
+      "recoveryPR": 87,
+      "recoveryMerge": "6f38eba92e375fbe51c6297169195169756d4956",
+      "deliveryRun": 37096004389,
+      "status": "production-build-running",
+      "automaticSyncRun": 37095829924,
+      "automaticSyncFailure": "GH013: Changes must be made through a pull request",
+      "unrelatedRecordsPreserved": true
     }
   },
   "lastMaterialUpdate": {
@@ -1180,7 +1170,7 @@
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "scope": "Homepage Latest buildings ONLY",
     "screened": 20,
     "detailPagesRead": 10,
@@ -1253,7 +1243,7 @@
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "items": [
       {
         "name": "Tessera",
@@ -1360,6 +1350,39 @@
           "https://www.mubadala.com/en/news/taraf-signs-mou-with-mubadala-to-explore-major-mixed-use-waterfront-development-on-al-reem-island"
         ],
         "nextCheck": "Named schemes/phase identity, signed development agreement and sales horizon."
+      },
+      {
+        "name": "RIMAS — Jubail Island",
+        "disposition": "verified-official-unveiling-published-to-feed",
+        "finding": "LEAD official newsroom dated30September; WAM29September formal LIVEX unveiling,167 four- to six-bedroom villas (76/76/15). Earlier15August broker registration/marketing describes316-home broader scheme. This is the dated official collection/unveiling, not first-ever sales. Current price/availability/payment/EOI/handover unknown.",
+        "sources": [
+          "https://leaddevelopment.ae/news/lead-development-unveils-rimas-at-livex-2026-a-new-addition-to-jubail-islands-premium-community-offering/",
+          "https://www.wam.ae/en/article/c2holw7-lead-development-launches-rimas-livex-2026",
+          "https://leaddevelopment.ae/rimas/",
+          "https://www.linkedin.com/pulse/jubail-island-unveils-new-residential-phase-rimas-ayman-sadieh-khixf"
+        ],
+        "nextCheck": "Current villa inventory and official commercial terms."
+      },
+      {
+        "name": "Ritz-Carlton Residences Al Maryah Island / SAAS",
+        "disposition": "older-project-formal-ceremony-not-new-sales",
+        "finding": "KT Partner Content2October describes LIVEX formal event. Official ADGM10December2025 communication already announced project and EOIs. No distinct fresh released phase, allocation or changed commercial terms verified.",
+        "nextCheck": "New sales release/phase documents or materially changed terms."
+      },
+      {
+        "name": "Rockefeller Tower / Continental / LMD",
+        "disposition": "held-project-use-and-event-date-conflict",
+        "finding": "DiarLaunch2October20:00 is a webcast time, not a proven first launch; other broadcasts dated21/29September. Older marketing exists. Conflicting residential versus office inventories require official developer identity/use verification.",
+        "nextCheck": "Developer project documentation and original launch/EOI event."
+      },
+      {
+        "name": "Ampersand Beach House / Colbert Collection / Dubai Islands",
+        "disposition": "hospitality-only-signing-excluded",
+        "finding": "Minor Hotels official indexed2October announcement:111-key hotel planned2029. No separately saleable residential product verified.",
+        "sources": [
+          "https://media.minorhotels.com/en-GLO/270173-minor-hotels-accelerates-colbert-collection-growth-with-dubai-islands-signing/"
+        ],
+        "nextCheck": "Only separately saleable residences and a fresh release qualify."
       }
     ]
   },
@@ -1398,6 +1421,18 @@
       "state": "prepared-for-current-conversation-handoff",
       "channelSent": false,
       "handoffDate": "2026-10-02"
+    },
+    {
+      "projectId": "lead-rimas-jubail-island",
+      "eventKey": "lead-rimas-jubail-island:2026-09-29-official-unveiling",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-03",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ]
     }
   ]
 }
