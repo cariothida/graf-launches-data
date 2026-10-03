@@ -1,0 +1,423 @@
+{
+  "date": "2026-10-03",
+  "researchWindow": {
+    "pastFrom": "2026-09-03",
+    "pastThrough": "2026-10-03",
+    "futureWeeks": [
+      1,
+      2
+    ],
+    "futureMonths": [
+      1,
+      2,
+      3
+    ]
+  },
+  "contractsRead": [
+    "RADAR-RESEARCH.md",
+    "WHATSAPP-PUBLISHING.md",
+    "README.md",
+    "schema.json",
+    "launches.json",
+    "whatsapp-queue.json",
+    "whatsapp-ledger.json",
+    "radar-watchlist.json"
+  ],
+  "coverage": {
+    "date": "2026-10-03",
+    "watchlistSources": 64,
+    "instagram": {
+      "queryAttempts": 93,
+      "namedBrokerSourceAttempts": 20,
+      "nativeAccountsInspected": 0,
+      "nativeStoriesInspected": 0,
+      "qualifyingIndexedBrokerLeads": 0,
+      "access": "24 multilingual queries plus 24 stronger-engine retries; 20 named broker queries and 20 retries; four domain-based fallbacks; one Eterea follow-up. Results were empty or irrelevant; no native account/Stories inspection established."
+    },
+    "news": {
+      "requiredNewspapers": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Arabian Business",
+        "Gulf Today"
+      ],
+      "categoryHttp200": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Gulf Today"
+      ],
+      "categoryHttp403": [
+        "Arabian Business"
+      ],
+      "domainTargetedDiscoveryAttempted": 5,
+      "googleNewsRSS": {
+        "Dubai": 54,
+        "AbuDhabi": 58,
+        "RasAlKhaimah": 17
+      },
+      "note": "129 rolling-30-day RSS headlines screened. Category headlines and indexed newspaper excerpts reviewed; not complete article/account coverage."
+    },
+    "propsearch": {
+      "latestBuildingsScreened": 20,
+      "investableBuildingPagesRead": 10,
+      "excludedEntries": 10,
+      "scope": "Homepage Latest buildings ONLY"
+    },
+    "youtube": {
+      "coverage": "Indexed discovery for Dubai, Abu Dhabi and Ras Al Khaimah; no full native video inspection."
+    },
+    "hospitality": {
+      "sources": [
+        "Hospitality Net",
+        "TTN",
+        "TradeArabia"
+      ],
+      "coverage": "Category headlines and indexed releases checked. Minor's 2 October Dubai Islands hotel signing has no verified separately saleable residences."
+    },
+    "whatsapp": {
+      "storiesRequestId": "radar-20261003-stories-10a7df14-3cbd-48ac-af27-e4cf8a10ff77",
+      "storiesRun": 37094950122,
+      "storiesReturned": 0,
+      "storiesMediaInspected": 0,
+      "truncated": false,
+      "chatsRun": 37095412296,
+      "chatsListed": 0,
+      "messagesInspected": 0,
+      "note": "Encrypted artifacts downloaded and privately decrypted. Stories succeeded with zero visible records; chat reader returned an empty getChats list and workflow failed. No private-message or media coverage established."
+    },
+    "whatsappPublication": {
+      "mode": "manual-handoff",
+      "queueDate": "2026-10-03",
+      "queuePosts": 0,
+      "noPublisherTriggeredOrRetried": true,
+      "ledgerUnchanged": true,
+      "channelSent": false,
+      "manualDrafts": 1,
+      "imageDimensions": [
+        1080,
+        1920
+      ],
+      "style": "S06"
+    },
+    "website": {
+      "launchesCommit": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
+      "recoveryPR": 87,
+      "recoveryMerge": "6f38eba92e375fbe51c6297169195169756d4956",
+      "deliveryRun": 37096004389,
+      "status": "production-build-running",
+      "automaticSyncRun": 37095829924,
+      "automaticSyncFailure": "GH013: Changes must be made through a pull request",
+      "unrelatedRecordsPreserved": true
+    }
+  },
+  "qualifying": [
+    {
+      "id": "lead-rimas-jubail-island",
+      "project": "RIMAS — Jubail Island",
+      "developer": "LEAD Development / Jubail Island Investment Company",
+      "emirate": "Abu Dhabi",
+      "location": "Jubail Island, between Yas Island and Saadiyat Island, Abu Dhabi",
+      "type": [
+        "villas"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Formal unveiling at LIVEX on 29 September 2026; developer newsroom dated 30 September. Earlier August registration/marketing existed, so this is not presented as the first-ever sales opening.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "LEAD confirms a 167-villa RIMAS collection on Jubail Island; commercial terms awaited.",
+      "summary": "LEAD Development formally unveiled RIMAS at LIVEX on 29 September 2026, with its own newsroom publishing the announcement on 30 September. The announced collection comprises 167 four- to six-bedroom villas on Jubail Island, between Yas Island and Saadiyat Island: 76 four-bedroom, 76 five-bedroom and 15 six-bedroom homes, on plots of approximately 850–1,716 sqm. RIMAS had already appeared in August registration and broker marketing; this report covers the dated official unveiling and announced villa collection, not a first-ever sales opening. Initial AED prices, payment plan, current reservation/EOI, available inventory and developer-confirmed handover remain unverified.",
+      "unitMix": [
+        {
+          "type": "4BR villa",
+          "note": "76 homes in the collection announced at LIVEX."
+        },
+        {
+          "type": "5BR villa",
+          "note": "76 homes in the collection announced at LIVEX."
+        },
+        {
+          "type": "6BR villa",
+          "note": "15 homes in the collection announced at LIVEX."
+        }
+      ],
+      "whatNext": "Await the current inventory, official price list, reservation/EOI, payment plan and handover; subscribe for verified updates.",
+      "confidenceNote": "High on the developer-confirmed RIMAS identity, location and dated formal unveiling; WAM reports the 167-villa mix. Earlier broker registry summaries describe a broader 316-home scheme and are not treated as the same released collection. WAM quotes around 70% sold since launch; no remaining availability is inferred. Commercial terms and a first-ever sales date are not verified.",
+      "sources": [
+        {
+          "url": "https://leaddevelopment.ae/news/lead-development-unveils-rimas-at-livex-2026-a-new-addition-to-jubail-islands-premium-community-offering/",
+          "label": "LEAD Development official RIMAS unveiling; newsroom dated 30 September",
+          "date": "2026-09-30",
+          "primary": true
+        },
+        {
+          "url": "https://www.wam.ae/en/article/c2holw7-lead-development-launches-rimas-livex-2026",
+          "label": "WAM: dated 29 September LIVEX announcement, 167-villa mix and sales context",
+          "date": "2026-09-29",
+          "primary": false
+        },
+        {
+          "url": "https://leaddevelopment.ae/rimas/",
+          "label": "LEAD official project page: 4BR, 5BR and 6BR villas; commercial terms not supplied",
+          "primary": false
+        },
+        {
+          "url": "https://www.linkedin.com/pulse/jubail-island-unveils-new-residential-phase-rimas-ayman-sadieh-khixf",
+          "label": "Earlier 15 August broker registration report; 316-home broader scheme, not accepted as current collection inventory",
+          "date": "2026-08-15",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-03",
+      "updatedAt": "2026-10-03",
+      "published": true
+    }
+  ],
+  "candidateDispositions": [
+    {
+      "name": "RIMAS — Jubail Island",
+      "disposition": "verified-official-unveiling-published-to-feed",
+      "finding": "LEAD official newsroom dated30September; WAM29September formal LIVEX unveiling,167 four- to six-bedroom villas (76/76/15). Earlier15August broker registration/marketing describes316-home broader scheme. This is the dated official collection/unveiling, not first-ever sales. Current price/availability/payment/EOI/handover unknown.",
+      "sources": [
+        "https://leaddevelopment.ae/news/lead-development-unveils-rimas-at-livex-2026-a-new-addition-to-jubail-islands-premium-community-offering/",
+        "https://www.wam.ae/en/article/c2holw7-lead-development-launches-rimas-livex-2026",
+        "https://leaddevelopment.ae/rimas/",
+        "https://www.linkedin.com/pulse/jubail-island-unveils-new-residential-phase-rimas-ayman-sadieh-khixf"
+      ],
+      "nextCheck": "Current villa inventory and official commercial terms."
+    },
+    {
+      "name": "Ritz-Carlton Residences Al Maryah Island / SAAS",
+      "disposition": "older-project-formal-ceremony-not-new-sales",
+      "finding": "KT Partner Content2October describes LIVEX formal event. Official ADGM10December2025 communication already announced project and EOIs. No distinct fresh released phase, allocation or changed commercial terms verified.",
+      "nextCheck": "New sales release/phase documents or materially changed terms."
+    },
+    {
+      "name": "Rockefeller Tower / Continental / LMD",
+      "disposition": "held-project-use-and-event-date-conflict",
+      "finding": "DiarLaunch2October20:00 is a webcast time, not a proven first launch; other broadcasts dated21/29September. Older marketing exists. Conflicting residential versus office inventories require official developer identity/use verification.",
+      "nextCheck": "Developer project documentation and original launch/EOI event."
+    },
+    {
+      "name": "Ampersand Beach House / Colbert Collection / Dubai Islands",
+      "disposition": "hospitality-only-signing-excluded",
+      "finding": "Minor Hotels official indexed2October announcement:111-key hotel planned2029. No separately saleable residential product verified.",
+      "sources": [
+        "https://media.minorhotels.com/en-GLO/270173-minor-hotels-accelerates-colbert-collection-growth-with-dubai-islands-signing/"
+      ],
+      "nextCheck": "Only separately saleable residences and a fresh release qualify."
+    }
+  ],
+  "latestBuildings": {
+    "date": "2026-10-03",
+    "scope": "Homepage Latest buildings ONLY",
+    "screened": 20,
+    "detailPagesRead": 10,
+    "items": [
+      {
+        "name": "Marquis Aura",
+        "disposition": "early-watch",
+        "finding": "Marquis Developers / Marquis Star Development, Dubai South Residential District, 10 storeys. First Trace October2026 is not launch timing. Await dated announcement, unit mix and EOI/sales pack."
+      },
+      {
+        "name": "Eterea by Zoya",
+        "disposition": "early-watch",
+        "finding": "Zoya One, Majan. Portal mix/prices/handover are unconfirmed. Original sales/EOI event still unresolved."
+      },
+      {
+        "name": "Pullman Residences & Offices Dubai Meydan",
+        "disposition": "already-published",
+        "finding": "29 September Accor/CITYVIEW announcement, handed off1October; no new commercial release today."
+      },
+      {
+        "name": "Lunara Tower",
+        "disposition": "early-watch",
+        "finding": "Tarrad, Majan; do not merge with RAK/Lunara names. Brokers indicate prelaunch; dates and official terms unresolved."
+      },
+      {
+        "name": "Meriden Gate",
+        "disposition": "early-watch",
+        "finding": "Green Horizon, Downtown Jebel Ali / Jebel Ali Industrial2; not Meriden Beach. Planning/mix listings do not independently date the first launch."
+      },
+      {
+        "name": "Aris by Grid",
+        "disposition": "early-watch",
+        "finding": "Grid / Grid Horizon, Dubai South; no corroborated dated release."
+      },
+      {
+        "name": "Celeste Dubai South",
+        "disposition": "early-watch",
+        "finding": "Meraki, Dubai South; not Celeste by Zimaya. Listing identity verified; qualifying dated event unresolved."
+      },
+      {
+        "name": "NBCC Al Waha",
+        "disposition": "excluded",
+        "finding": "International City, excluded by Alex's standing instruction."
+      },
+      {
+        "name": "Dubai Customs Nursery and Daycare",
+        "disposition": "excluded",
+        "finding": "Institutional childcare facility, no investable residential sales release."
+      },
+      {
+        "name": "Pioneer Residences & Offices",
+        "disposition": "early-watch",
+        "finding": "Pioneer Horizon, Ras Al Khor Industrial1,23storey mixed-use. Registered construction start/completion dates are not sales-opening dates."
+      },
+      {
+        "name": "Park Infinia",
+        "disposition": "early-watch",
+        "finding": "Riyasaa, JVT District5,7storeys; date/terms unverified."
+      },
+      {
+        "name": "Yigo Luxe",
+        "disposition": "already-published",
+        "finding": "Existing DSO prelaunch alert; no new dated allocation or terms."
+      },
+      {
+        "name": "Dubai Knowledge Park Blocks7,13,12,8,9,10,14,15",
+        "disposition": "excluded",
+        "finding": "Eight existing institutional buildings, not new residential releases."
+      }
+    ]
+  },
+  "queries": {
+    "instagramInitial": [
+      "site:instagram.com Dubai \"coming soon\" \"October 2026\"",
+      "site:instagram.com Dubai \"EOI\" \"new launch\"",
+      "site:instagram.com \"Abu Dhabi\" \"pre launch\"",
+      "site:instagram.com \"Abu Dhabi\" \"coming soon\"",
+      "site:instagram.com \"Ras Al Khaimah\" \"new launch\"",
+      "site:instagram.com \"Al Marjan\" \"EOI\"",
+      "site:instagram.com Ellington \"Al Yalayis\"",
+      "site:instagram.com Ellington \"Sheikh Zayed\" offices",
+      "site:instagram.com Aldar \"new launch\" October",
+      "site:instagram.com Modon \"broker briefing\"",
+      "site:instagram.com \"RAK Properties\" \"coming soon\"",
+      "site:instagram.com \"Atara\" launch",
+      "site:instagram.com Dubai \"new phase\" October",
+      "site:instagram.com \"Abu Dhabi\" \"collection\" launch",
+      "site:instagram.com \"Al Marjan\" \"broker briefing\"",
+      "site:instagram.com Dubai \"registration\" prelaunch",
+      "site:instagram.com \"Ritz Carlton\" \"Al Maryah\"",
+      "site:instagram.com \"Rockefeller Tower\" launch",
+      "site:instagram.com \"Marquis Aura\"",
+      "site:instagram.com \"Eterea\" Zoya",
+      "site:instagram.com دبي إطلاق جديد أكتوبر",
+      "site:instagram.com أبوظبي رأس الخيمة مشروع جديد",
+      "site:instagram.com Дубай \"предстарт\"",
+      "site:instagram.com Абу-Даби Рас-эль-Хайма \"старт продаж\""
+    ],
+    "instagramStrongerEngineRetries": [
+      "site:instagram.com Dubai coming soon ",
+      "site:instagram.com Dubai EOI new launch",
+      "site:instagram.com Abu Dhabi pre launch",
+      "site:instagram.com Abu Dhabi coming soon",
+      "site:instagram.com Ras Al Khaimah new launch",
+      "site:instagram.com Al Marjan EOI",
+      "site:instagram.com Ellington Al Yalayis",
+      "site:instagram.com Ellington Sheikh Zayed offices",
+      "site:instagram.com Aldar new launch ",
+      "site:instagram.com Modon broker briefing",
+      "site:instagram.com RAK Properties coming soon",
+      "site:instagram.com Atara launch",
+      "site:instagram.com Dubai new phase ",
+      "site:instagram.com Abu Dhabi collection launch",
+      "site:instagram.com Al Marjan broker briefing",
+      "site:instagram.com Dubai registration prelaunch",
+      "site:instagram.com Ritz Carlton Al Maryah",
+      "site:instagram.com Rockefeller Tower launch",
+      "site:instagram.com Marquis Aura",
+      "site:instagram.com Eterea Zoya",
+      "site:instagram.com دبي إطلاق جديد أكتوبر",
+      "site:instagram.com أبوظبي رأس الخيمة مشروع جديد",
+      "site:instagram.com Дубай предстарт",
+      "site:instagram.com Абу-Даби Рас-эль-Хайма старт продаж"
+    ],
+    "namedBrokerInitial": [
+      "site:instagram.com Savills Middle East launch",
+      "site:instagram.com Edwards & Towers launch",
+      "site:instagram.com Engel & Volkers Dubai launch",
+      "site:instagram.com Luxhabitat launch",
+      "site:instagram.com TruHauz launch",
+      "site:instagram.com Albina Sultanova launch",
+      "site:instagram.com Grand Reve Realty launch",
+      "site:instagram.com Future Key Properties launch",
+      "site:instagram.com Propsense Realty launch",
+      "site:instagram.com DRE Homes launch",
+      "site:instagram.com Equity Edge launch",
+      "site:instagram.com Off Plan Dubai launch",
+      "site:instagram.com Luxury Falcon Properties launch",
+      "site:instagram.com Aumra Nova launch",
+      "site:instagram.com Top Luxury Property launch",
+      "site:instagram.com SANSAV / Luxury Offplan launch",
+      "site:instagram.com Dubai Housing launch",
+      "site:instagram.com HCO Real Estates launch",
+      "site:instagram.com Top Ultra Luxury launch",
+      "site:instagram.com Direct Deal UAE launch"
+    ],
+    "namedBrokerRetryNames": [
+      "Savills Middle East",
+      "Edwards & Towers",
+      "Engel & Volkers Dubai",
+      "Luxhabitat",
+      "TruHauz",
+      "Albina Sultanova",
+      "Grand Reve Realty",
+      "Future Key Properties",
+      "Propsense Realty",
+      "DRE Homes",
+      "Equity Edge",
+      "Off Plan Dubai",
+      "Luxury Falcon Properties",
+      "Aumra Nova",
+      "Top Luxury Property",
+      "SANSAV / Luxury Offplan",
+      "Dubai Housing",
+      "HCO Real Estates",
+      "Top Ultra Luxury",
+      "Direct Deal UAE"
+    ],
+    "note": "Engine-2 named broker retries repeated20initialqueries; four domain-based fallbacks plus one EtereaInstagramquery. Queries are attempts, not inspected accounts."
+  },
+  "manualHandoffs": [
+    {
+      "projectId": "lead-rimas-jubail-island",
+      "eventKey": "lead-rimas-jubail-island:2026-09-29-official-unveiling",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-03",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "image": {
+    "path": "artifacts/launch-radar-20261003/rimas-jubail-island-status.jpg",
+    "style": "S06",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "opaque": true,
+    "inspected": true,
+    "imageSha256": "67b0f96642a39c08db7eabc61e4490213f0edd06bd0c9b744f87d343a9a50dca",
+    "persistentSave": "failed: transfer_failed; both ordered prepared-upload attempts failed",
+    "captionFile": "artifacts/launch-radar-20261003/rimas-whatsapp-caption.txt"
+  },
+  "publication": {
+    "feedReadBackSha": "ab61321e063f06953b6793439c31407058e5fa0e",
+    "schemaValidated": true,
+    "records": 26,
+    "unrelatedRecordsUnchanged": true,
+    "queueExplicitlyEmpty": true,
+    "ledgerUnchanged": true,
+    "noWhatsAppSent": true,
+    "productionStatus": "building"
+  }
+}
