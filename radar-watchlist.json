@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03",
+  "updatedAt": "2026-10-04",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -9,7 +9,8 @@
     "Equity Edge calendar entry dates are catalogue-addition dates, not launch dates. Aumra Nova homepage is a limited app shell.",
     "2026-09-18 Alex excludes ALL International City projects. Reviewed 14 Latest buildings entries; hold publication pending selection. First Trace is not launch date. Instagram exact-project broker posts unverified.",
     "2026-09-19: 45 Instagram-targeted query formulations, including 20 named-broker attempts; NOT 20 successful account inspections. Zero native Instagram accounts inspected. Exact Sorei/Tessera/Samana Eden dated sales signals unverified. Private WhatsApp fresh export blocked by permission gate; no current private-message coverage claimed.",
-    "2026-09-25: A privately supplied Status screenshot shows Blue Marina Residence at a 24 September presentation. This is a candidate lead, not evidence of a newly launched phase. Propsearch traced the project by October 2025 and Property Finder shows sales history in March-April 2026; the 24 September event introduced Segrex as sales/distribution partner. Follow exact project/phase for material new terms; do not repeat the initial launch."
+    "2026-09-25: A privately supplied Status screenshot shows Blue Marina Residence at a 24 September presentation. This is a candidate lead, not evidence of a newly launched phase. Propsearch traced the project by October 2025 and Property Finder shows sales history in March-April 2026; the 24 September event introduced Segrex as sales/distribution partner. Follow exact project/phase for material new terms; do not repeat the initial launch.",
+    "2026-10-04: ORAYA corporate-entry release was traced to already marketed Wyndham Residences Marjan Beach (public Instagram content dated 10 August and Wyndham executive reference before September); do not reset project age without a distinct new phase or material commercial release."
   ],
   "sources": [
     {
@@ -1066,109 +1067,46 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-03",
-    "watchlistSources": 64,
-    "instagram": {
-      "queryAttempts": 93,
-      "namedBrokerSourceAttempts": 20,
-      "nativeAccountsInspected": 0,
-      "nativeStoriesInspected": 0,
-      "qualifyingIndexedBrokerLeads": 0,
-      "access": "24 multilingual queries plus 24 stronger-engine retries; 20 named broker queries and 20 retries; four domain-based fallbacks; one Eterea follow-up. Results were empty or irrelevant; no native account/Stories inspection established."
+    "date": "2026-10-04",
+    "sourceWatchlistSize": 64,
+    "instagramNamedSourceAttempts": 20,
+    "instagramVariedQueries": 24,
+    "instagramLanguages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "instagramNativeAccess": false,
+    "instagramFinding": "Indexed search produced no qualifying fresh project signal; native account pages and Stories were not inspected.",
+    "youtubeQueries": 4,
+    "pressAndNewsQueries": 20,
+    "officialDeveloperAndGovernmentQueries": 4,
+    "propsearchLatestBuildings": {
+      "attempted": true,
+      "inspected": false,
+      "reason": "Browser access was blocked by the user's saved site-permission setting; no current Latest buildings list claimed."
     },
-    "news": {
-      "requiredNewspapers": [
-        "Gulf News",
-        "Khaleej Times",
-        "The National",
-        "Arabian Business",
-        "Gulf Today"
-      ],
-      "categoryHttp200": [
-        "Gulf News",
-        "Khaleej Times",
-        "The National",
-        "Gulf Today"
-      ],
-      "categoryHttp403": [
-        "Arabian Business"
-      ],
-      "domainTargetedDiscoveryAttempted": 5,
-      "googleNewsRSS": {
-        "Dubai": 54,
-        "AbuDhabi": 58,
-        "RasAlKhaimah": 17
-      },
-      "note": "129 rolling-30-day RSS headlines screened. Category headlines and indexed newspaper excerpts reviewed; not complete article/account coverage."
-    },
-    "propsearch": {
-      "latestBuildingsScreened": 20,
-      "investableBuildingPagesRead": 10,
-      "excludedEntries": 10,
-      "scope": "Homepage Latest buildings ONLY"
-    },
-    "youtube": {
-      "coverage": "Indexed discovery for Dubai, Abu Dhabi and Ras Al Khaimah; no full native video inspection."
-    },
-    "hospitality": {
-      "sources": [
-        "Hospitality Net",
-        "TTN",
-        "TradeArabia"
-      ],
-      "coverage": "Category headlines and indexed releases checked. Minor's 2 October Dubai Islands hotel signing has no verified separately saleable residences."
-    },
-    "whatsapp": {
-      "storiesRequestId": "radar-20261003-stories-10a7df14-3cbd-48ac-af27-e4cf8a10ff77",
-      "storiesRun": 37094950122,
-      "storiesReturned": 0,
-      "storiesMediaInspected": 0,
+    "whatsappStories": {
+      "requestId": "radar-20261004-stories-41fe2c1430677bc761c0d901b5622dde",
+      "visibleRecords": 0,
+      "windowHours": 24,
+      "cap": 500,
       "truncated": false,
-      "chatsRun": 37095412296,
+      "mediaFullyInspected": 0,
+      "finding": "Official getStories returned zero visible records for the connected account."
+    },
+    "whatsappChats": {
+      "requestId": "radar-20261004-chats-c3ddd4ee8371677fa09cb4ac61477d4b",
       "chatsListed": 0,
-      "messagesInspected": 0,
-      "note": "Encrypted artifacts downloaded and privately decrypted. Stories succeeded with zero visible records; chat reader returned an empty getChats list and workflow failed. No private-message or media coverage established."
+      "historyChatsSelected": 0,
+      "finding": "Official getChats returned HTTP 200 with an empty chat list; workflow concluded failure because no histories were available."
     },
-    "whatsappPublication": {
-      "mode": "manual-handoff",
-      "queueDate": "2026-10-03",
-      "queuePosts": 0,
-      "noPublisherTriggeredOrRetried": true,
-      "ledgerUnchanged": true,
-      "channelSent": false,
-      "manualDrafts": 1,
-      "imageDimensions": [
-        1080,
-        1920
-      ],
-      "style": "S06",
-      "persistentAttachmentSave": "failed; local downloads and inline card provided in conversation"
-    },
-    "website": {
-      "launchesCommit": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
-      "recoveryPR": 87,
-      "recoveryMerge": "6f38eba92e375fbe51c6297169195169756d4956",
-      "deliveryRun": 37096004389,
-      "deliveryConclusion": "success",
-      "status": "live-verified",
-      "verifiedAt": "2026-10-03T04:27:22Z",
-      "deployedMarker": "b9b64e03b9ed5f8c2a051629fb2f6a8872d850b8",
-      "automaticSyncRun": 37095829924,
-      "automaticSyncFailure": "GH013: Changes must be made through a pull request",
-      "unrelatedFeedRecordsPreserved": true,
-      "unrelatedYigoAutoRewriteNotApplied": true,
-      "pages": [
-        {
-          "id": "lead-rimas-jubail-island",
-          "url": "https://graf.ae/launches/lead-rimas-jubail-island/",
-          "httpStatus": 200,
-          "identityAndMaterialFactsVerified": true,
-          "browserInspected": true
-        }
-      ],
-      "listingContainsRimas": true,
-      "visualCheck": "Desktop screenshot inspected; mobile viewports were not checked."
-    }
+    "regionsReviewed": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "qualifyingAdditions": 0
   },
   "lastMaterialUpdate": {
     "date": "2026-10-02",
@@ -1259,7 +1197,7 @@
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "items": [
       {
         "name": "Tessera",
@@ -1399,6 +1337,19 @@
           "https://media.minorhotels.com/en-GLO/270173-minor-hotels-accelerates-colbert-collection-growth-with-dubai-islands-signing/"
         ],
         "nextCheck": "Only separately saleable residences and a fresh release qualify."
+      },
+      {
+        "name": "Wyndham Residences Marjan Beach / ORAYA",
+        "disposition": "older-project-corporate-entry-release-excluded",
+        "finding": "ORAYA's 30 September corporate-entry press release describes its first furnished Marjan Beach residence without naming it. ORAYA's own site identifies Wyndham Residences Marjan Beach and advertises limited premium units; indexed project Instagram content dates to 10 August 2026 and a Wyndham executive publicly referenced the project before September. No distinct fresh phase, inventory, price, EOI or sales-opening event was disclosed. Do not treat the press-release date as project launch date.",
+        "sources": [
+          "https://www.globenewswire.com/news-release/2026/10/01/3373464/0/en/oraya-developer-announces-first-uae-project-on-marjan-beach.html",
+          "https://oraya.ae/",
+          "https://www.instagram.com/wyndhamresidencesmarjanbeach/",
+          "https://www.instagram.com/p/Db2fWuUNGsP/",
+          "https://gulfbusiness.com/en/2026/hospitality/wyndhams-dimitris-manikis-on-taking-branded-living-beyond-luxury/"
+        ],
+        "nextCheck": "Only publish a named new phase, dated fresh inventory release, or material official commercial terms."
       }
     ]
   },
