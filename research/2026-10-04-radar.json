@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-04",
+  "completedAt": "2026-10-04T04:04:00Z",
+  "scope": {
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "pastWindowDays": 30,
+    "forwardWindows": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "2 months",
+      "3 months"
+    ],
+    "priority": "Early prelaunch, EOI, broker briefing and material release signals; exclude catalogue repeats."
+  },
+  "repositorySnapshot": {
+    "launchesSha": "ab61321e063f06953b6793439c31407058e5fa0e",
+    "ledgerSha": "2034f261b9311dde01d2d9ca64c111b69344a848",
+    "queueBeforeSha": "35f5c3c18e457de96e5be1d44ea5e3ef5aaf243d",
+    "queueAfterSha": "aff44a39f0a7ca22479071a6c99a3892fab17fce",
+    "watchlistBeforeSha": "3c9d7fd02b1161a3980336b04ae59432f343cfa8",
+    "watchlistAfterSha": "27158009da75a733552e0fa3a840264816ff8199"
+  },
+  "coverage": {
+    "sourceWatchlistSize": 64,
+    "instagram": {
+      "namedSourcesAttempted": [
+        "Allsopp & Allsopp",
+        "haus & haus",
+        "fam Properties",
+        "AX Capital",
+        "Driven Properties",
+        "D&B Properties",
+        "Provident Estate",
+        "Betterhomes",
+        "Whitewill",
+        "Metropolitan Group",
+        "Hunt & Harris",
+        "Primo Capital",
+        "Royal Lounge Properties",
+        "Savills Middle East",
+        "Edwards & Towers",
+        "Engel & Volkers Dubai",
+        "Luxhabitat",
+        "TruHauz",
+        "Albina Sultanova",
+        "Grand Reve Realty"
+      ],
+      "variedQueries": 24,
+      "languages": [
+        "English",
+        "Arabic",
+        "Russian"
+      ],
+      "access": "Indexed web search only; native Instagram account inspection unavailable.",
+      "qualifyingSignals": 0
+    },
+    "youtube": {
+      "queries": 4,
+      "qualifyingSignals": 0
+    },
+    "press": {
+      "outlets": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Arabian Business",
+        "Gulf Business",
+        "Gulf Today",
+        "Construction Week Middle East",
+        "Middle East Construction News"
+      ],
+      "indexedQueries": 8,
+      "broaderNewsQueries": 12,
+      "qualifyingSignals": 0
+    },
+    "official": {
+      "sources": [
+        "WAM",
+        "Dubai Media Office",
+        "Abu Dhabi Media Office",
+        "Marjan",
+        "developer sites"
+      ],
+      "queries": 4,
+      "qualifyingSignals": 0
+    },
+    "propsearch": {
+      "scope": "Homepage Latest buildings ONLY",
+      "attempted": true,
+      "inspected": false,
+      "error": "Browser blocked by saved site-permission setting. No alternative browser bypass attempted and no current list claimed."
+    },
+    "whatsappStories": {
+      "mode": "stories-24h",
+      "requestId": "radar-20261004-stories-41fe2c1430677bc761c0d901b5622dde",
+      "readAt": "2026-10-04T03:50:27.878Z",
+      "returned": 0,
+      "cap": 500,
+      "truncated": false,
+      "mediaFullyInspected": 0
+    },
+    "whatsappChats": {
+      "mode": "recent-100",
+      "requestId": "radar-20261004-chats-c3ddd4ee8371677fa09cb4ac61477d4b",
+      "readAt": "2026-10-04T03:55:46.499Z",
+      "getChatsStatus": 200,
+      "chatsListed": 0,
+      "historiesInspected": 0,
+      "workflowConclusion": "failure because empty chat list"
+    }
+  },
+  "candidates": [
+    {
+      "project": "Wyndham Residences Marjan Beach",
+      "developer": "ORAYA Developer; Wyndham brand",
+      "location": "Marjan Beach, Ras Al Khaimah",
+      "evidenceDate": "2026-09-30",
+      "discovery": "ORAYA Developer corporate-entry press release distributed 30 September/1 October",
+      "checks": [
+        "ORAYA's own site names Wyndham Residences Marjan Beach and advertises limited premium units.",
+        "Indexed project Instagram content is dated 10 August 2026.",
+        "A Wyndham executive publicly referenced the project before September."
+      ],
+      "decision": "exclude-repeat",
+      "reason": "The press release is not the first public project signal and discloses no distinct new phase, inventory, pricing, EOI, payment plan, sales opening or handover."
+    }
+  ],
+  "standingTracks": [
+    {
+      "project": "Ellington Al Yalayis",
+      "result": "No fresh developer confirmation or reliable dated release."
+    },
+    {
+      "project": "Ellington proposed Sheikh Zayed Road office",
+      "result": "Identity and launch timing remain unverified."
+    }
+  ],
+  "publication": {
+    "qualifyingAdditions": 0,
+    "launchesChanged": false,
+    "websiteDeploymentRequired": false,
+    "whatsappQueueDate": "2026-10-04",
+    "whatsappQueuePosts": 0,
+    "manualHandoffs": 0,
+    "whatsappPublished": false
+  }
+}
