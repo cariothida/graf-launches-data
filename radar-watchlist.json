@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -1067,7 +1067,7 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "sourceWatchlistSize": 64,
     "instagramNamedSourceAttempts": 20,
     "instagramVariedQueries": 24,
@@ -1077,50 +1077,46 @@
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "Indexed search produced no qualifying fresh project signal; native account pages and Stories were not inspected.",
+    "instagramFinding": "Twenty named indexed source attempts plus 24 English/Arabic/Russian queries were completed. A matching indexed launch post supported the Mondrian release, but native account pages and Instagram Stories were not inspected.",
     "youtubeQueries": 4,
     "pressAndNewsQueries": 20,
     "officialDeveloperAndGovernmentQueries": 4,
     "propsearchLatestBuildings": {
       "attempted": true,
       "inspected": false,
-      "reason": "Browser access was blocked by the user's saved site-permission setting; no current Latest buildings list claimed."
+      "reason": "The current homepage Latest buildings list was not reliably retrievable; no current list claimed."
     },
     "whatsappStories": {
-      "requestId": "radar-20261004-stories-41fe2c1430677bc761c0d901b5622dde",
+      "requestId": "radar-20261005-stories-1c0ac3320ff0af94a9b6cdb8a543243d",
       "visibleRecords": 0,
       "windowHours": 24,
       "cap": 500,
       "truncated": false,
       "mediaFullyInspected": 0,
-      "finding": "Official getStories returned zero visible records for the connected account."
+      "finding": "Official getStories returned HTTP 200 with zero visible records for the connected account."
     },
     "whatsappChats": {
-      "requestId": "radar-20261004-chats-c3ddd4ee8371677fa09cb4ac61477d4b",
+      "requestId": "radar-20261005-chats-93dfabbc501c6d0bce2f2648b99f1050",
       "chatsListed": 0,
       "historyChatsSelected": 0,
-      "finding": "Official getChats returned HTTP 200 with an empty chat list; workflow concluded failure because no histories were available."
+      "finding": "Official getChats returned HTTP 200 with an empty chat list; the reader workflow concluded failure because there were no histories to inspect."
     },
     "regionsReviewed": [
       "Dubai",
       "Abu Dhabi",
       "Ras Al Khaimah"
     ],
-    "qualifyingAdditions": 0
+    "qualifyingAdditions": 1
   },
   "lastMaterialUpdate": {
-    "date": "2026-10-02",
+    "date": "2026-10-05",
     "updates": [
-      "taraf-one-only-al-maryah-private-residences",
-      "modon-wadeem-gardens",
-      "rosewood-abu-dhabi-private-ownership-release"
+      "elevate-mondrian-al-marjan-island-beach-residences"
     ],
     "held": [
-      "ORAYA Marjan Beach: 1 October company-entry release is verified, but it does not name a new sales release; own website already markets Wyndham Residences. Do not infer that the release is a first sales launch or substitute Divine One's separate Wyndham project.",
-      "Radisson Residences Phase Two: matches existing Tower 3 page, not a fourth tower. 21 September articles coexist with 9 September announcement references; original dated filing and genuinely new inventory facts need reconciliation before another alert.",
-      "Marquis Aura / Eterea / Lunara / Meriden Gate / Aris by Grid / Celeste Dubai South / Pioneer / Park Infinia: identity leads and planning/registration information found, but dated qualifying sales/EOI event remains unresolved; First Trace and registered construction start dates are not launch dates.",
-      "Sobha City: April 2026 first announcement/EOI; current EOI adverts do not identify a new release.",
-      "Ellington Al Yalayis and proposed SZR office launch: current indexed adverts do not independently establish a new named release or current official dates. Do not substitute already-announced Atelier."
+      "The Plaza at The Yards by BEYOND: one broker listing only; official identity and original event date not verified.",
+      "Ellington Al Yalayis and proposed SZR office launch: no fresh official identity, date or launch pack.",
+      "Soma Residences and Mirasol II: older project signals; current listing or article activity does not establish a new release."
     ]
   },
   "latestBuildingReview": {
@@ -1197,7 +1193,7 @@
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "items": [
       {
         "name": "Tessera",
@@ -1267,13 +1263,15 @@
         "nextCheck": "Developer announcement, project registration and fresh dated broker documents"
       },
       {
-        "name": "Mondrian Al Marjan Island Beach Residences — 2BR / guest-suite release",
-        "disposition": "dated-material-release-lead-held-for-primary-verification",
-        "finding": "Google News reports Zawya distribution23September; a complete developer-attributed press release reports previously unreleased 2BR beachfront homes with connected guest suites purchasable together or separately and advertised40/60. Copies are one underlying PR, not independent confirmations. Developer page inaccessible; primary release/inventory verification pending. Earlier40/60 adverts already existed, so payment plan alone is not new.",
+        "name": "Mondrian Al Marjan Island Beach Residences — frontline 2BR / guest-suite release",
+        "disposition": "verified-material-inventory-release-published-to-feed",
+        "finding": "Developer-attributed release dated 23 September 2026 announces previously unreleased frontline 2BR beachfront residences with connected guest suites purchasable together or independently and an advertised 40/60 plan. ELEVATE and Accor project pages independently confirm the underlying project and Q4 2028 opening target. The project itself is older; this is recorded only as a material inventory release. No public ELEVATE starting price or contractual handover date was found.",
         "sources": [
-          "https://uaenews247.com/2026/09/23/rising-demand-for-al-marjan-island-beachfront-homes-drives-new-mondrian-residence-release/"
+          "https://uaenews4u.com/2026/09/23/rising-demand-for-al-marjan-island-beachfront-homes-drives-new-mondrian-residence-release/",
+          "https://liveelevated.com/mondrian-to-debut-uaes-first-branded-beachfront-residences-on-al-marjan-island/",
+          "https://accor-residences.com/property/mondrian-al-marjan-island-beach-residences-uae/"
         ],
-        "nextCheck": "Authenticate ELEVATE original release and identify newly released units; distinguish ELEVATE's scheme from other Mondrian catalogues"
+        "nextCheck": "ELEVATE public unit schedule, official price list and contractual handover date."
       },
       {
         "name": "Baccarat Residences Saadiyat",
@@ -1350,6 +1348,24 @@
           "https://gulfbusiness.com/en/2026/hospitality/wyndhams-dimitris-manikis-on-taking-branded-living-beyond-luxury/"
         ],
         "nextCheck": "Only publish a named new phase, dated fresh inventory release, or material official commercial terms."
+      },
+      {
+        "name": "Soma Residences",
+        "disposition": "old-project-listing-refresh-excluded",
+        "finding": "DLD-derived first trace dates to March 2026 and dated selling material existed by 10 September. Current portal/listing activity does not establish a new phase or fresh sales event.",
+        "nextCheck": "Only a named new phase, released inventory or material official terms qualify."
+      },
+      {
+        "name": "The Plaza at The Yards by BEYOND",
+        "disposition": "single-broker-lead-held",
+        "finding": "One commercial broker listing was found, but no official announcement, corroborating source or reliable original event date was verified.",
+        "nextCheck": "Developer confirmation, exact phase identity and dated sales/EOI evidence."
+      },
+      {
+        "name": "Mirasol II",
+        "disposition": "old-project-excluded",
+        "finding": "RAK Properties material confirms the scheme, but launch evidence dates to 2025. No distinct October 2026 phase or material new terms were found.",
+        "nextCheck": "Only a documented new release or materially changed official terms qualify."
       }
     ]
   },
@@ -1396,6 +1412,18 @@
       "channelSent": false,
       "handoffDate": "2026-10-03",
       "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "projectId": "elevate-mondrian-al-marjan-island-beach-residences",
+      "eventKey": "elevate-mondrian-al-marjan-island-beach-residences:2026-09-23-frontline-2br-release",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-05",
+      "imageStyle": "S08",
       "dimensions": [
         1080,
         1920
