@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-05",
+  "completedAt": "2026-10-05T03:31:00Z",
+  "scope": {
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "pastWindowDays": 30,
+    "forwardWindows": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "2 months",
+      "3 months"
+    ],
+    "priority": "Early prelaunch, EOI, broker briefing and material release signals; exclude catalogue repeats."
+  },
+  "repositorySnapshot": {
+    "launchesBlobSha": "706221033d577f786b8deba343761d59f93aef2c",
+    "launchesCommitSha": "d3252f6df6fe94143869c37586bd6c3246a4788d",
+    "ledgerSha": "2034f261b9311dde01d2d9ca64c111b69344a848",
+    "queueSha": "eea94be9c7adcceb64ed377f5976d3b243b9785f",
+    "watchlistBeforeSha": "27158009da75a733552e0fa3a840264816ff8199",
+    "watchlistAfterSha": "8889fbcd5512f53e20808226af4f4f1e7684816a"
+  },
+  "coverage": {
+    "sourceWatchlistSize": 64,
+    "instagram": {
+      "namedSourcesAttempted": [
+        "Allsopp & Allsopp",
+        "haus & haus",
+        "fam Properties",
+        "AX Capital",
+        "Driven Properties",
+        "D&B Properties",
+        "Dacha Real Estate",
+        "Provident Estate",
+        "Betterhomes",
+        "Unique Properties",
+        "Whitewill",
+        "Metropolitan Group",
+        "Hunt & Harris",
+        "Primo Capital",
+        "Royal Lounge Properties",
+        "Savills Middle East",
+        "Edwards & Towers",
+        "Engel & Volkers Dubai",
+        "Luxhabitat",
+        "TruHauz"
+      ],
+      "variedQueries": 24,
+      "languages": [
+        "English",
+        "Arabic",
+        "Russian"
+      ],
+      "access": "Indexed web search only; native account inspection and Instagram Stories unavailable.",
+      "qualifyingSignals": 1
+    },
+    "youtube": {
+      "queries": 4,
+      "qualifyingSignals": 0
+    },
+    "press": {
+      "outlets": [
+        "Gulf News",
+        "Khaleej Times",
+        "The National",
+        "Arabian Business",
+        "Gulf Business",
+        "Gulf Today",
+        "Construction Week Middle East",
+        "Middle East Construction News"
+      ],
+      "combinedQueries": 20,
+      "qualifyingSignals": 1
+    },
+    "official": {
+      "sources": [
+        "WAM",
+        "Dubai Media Office",
+        "Abu Dhabi Media Office",
+        "Marjan",
+        "developer and operator sites"
+      ],
+      "queries": 4,
+      "qualifyingSignals": 1
+    },
+    "propsearch": {
+      "scope": "Homepage Latest buildings ONLY",
+      "attempted": true,
+      "inspected": false,
+      "error": "Current homepage list was not reliably retrievable; no current list claimed."
+    },
+    "whatsappStories": {
+      "mode": "stories-24h",
+      "requestId": "radar-20261005-stories-1c0ac3320ff0af94a9b6cdb8a543243d",
+      "returned": 0,
+      "cap": 500,
+      "truncated": false,
+      "mediaFullyInspected": 0
+    },
+    "whatsappChats": {
+      "requestId": "radar-20261005-chats-93dfabbc501c6d0bce2f2648b99f1050",
+      "getChatsStatus": 200,
+      "chatsListed": 0,
+      "historiesInspected": 0,
+      "workflowConclusion": "failure because empty chat list"
+    }
+  },
+  "candidates": [
+    {
+      "project": "Mondrian Al Marjan Island Beach Residences — frontline 2BR release",
+      "developer": "ELEVATE",
+      "location": "Al Marjan Island, Ras Al Khaimah",
+      "evidenceDate": "2026-09-23",
+      "decision": "publish-material-update",
+      "checks": [
+        "Developer-attributed release states previously unreleased frontline 2BR homes and connected guest suites purchasable together or independently.",
+        "ELEVATE and Accor pages independently confirm the underlying project and Q4 2028 opening target.",
+        "The project itself predates this event; publication is explicitly framed as a new inventory release.",
+        "No public starting price or contractual handover date found."
+      ]
+    },
+    {
+      "project": "Soma Residences",
+      "decision": "exclude-repeat",
+      "reason": "DLD first trace in March 2026 and selling material by 10 September; current listing activity is not a new release."
+    },
+    {
+      "project": "The Plaza at The Yards by BEYOND",
+      "decision": "hold",
+      "reason": "Single broker listing only; official phase identity and original event date unresolved."
+    },
+    {
+      "project": "Mirasol II",
+      "decision": "exclude-old",
+      "reason": "Official launch evidence dates to 2025; no distinct current release."
+    },
+    {
+      "project": "Wyndham Residences Marjan Beach / ORAYA",
+      "decision": "exclude-repeat",
+      "reason": "Corporate-entry article does not name a distinct new phase or material sales release."
+    }
+  ],
+  "standingTracks": [
+    {
+      "project": "Ellington Al Yalayis",
+      "result": "No fresh developer confirmation or reliable dated release."
+    },
+    {
+      "project": "Ellington proposed Sheikh Zayed Road office",
+      "result": "Identity and launch timing remain unverified."
+    }
+  ],
+  "publication": {
+    "qualifyingAdditions": 1,
+    "launchesChanged": true,
+    "websitePullRequest": 88,
+    "websiteMergeSha": "0bef7651a74ae233e6ba59240c4db3c0bc9899e5",
+    "websiteDeploymentRun": 37259182512,
+    "websiteDeploymentConclusion": "success",
+    "livePageVerified": true,
+    "liveUrl": "https://graf.ae/launches/elevate-mondrian-al-marjan-island-beach-residences/",
+    "whatsappQueueDate": "2026-10-05",
+    "whatsappQueuePosts": 0,
+    "manualHandoffs": 1,
+    "whatsappPublished": false,
+    "imageStyle": "S08",
+    "imageDimensions": [
+      1080,
+      1920
+    ]
+  }
+}
