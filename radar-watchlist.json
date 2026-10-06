@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-06",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -10,7 +10,8 @@
     "2026-09-18 Alex excludes ALL International City projects. Reviewed 14 Latest buildings entries; hold publication pending selection. First Trace is not launch date. Instagram exact-project broker posts unverified.",
     "2026-09-19: 45 Instagram-targeted query formulations, including 20 named-broker attempts; NOT 20 successful account inspections. Zero native Instagram accounts inspected. Exact Sorei/Tessera/Samana Eden dated sales signals unverified. Private WhatsApp fresh export blocked by permission gate; no current private-message coverage claimed.",
     "2026-09-25: A privately supplied Status screenshot shows Blue Marina Residence at a 24 September presentation. This is a candidate lead, not evidence of a newly launched phase. Propsearch traced the project by October 2025 and Property Finder shows sales history in March-April 2026; the 24 September event introduced Segrex as sales/distribution partner. Follow exact project/phase for material new terms; do not repeat the initial launch.",
-    "2026-10-04: ORAYA corporate-entry release was traced to already marketed Wyndham Residences Marjan Beach (public Instagram content dated 10 August and Wyndham executive reference before September); do not reset project age without a distinct new phase or material commercial release."
+    "2026-10-04: ORAYA corporate-entry release was traced to already marketed Wyndham Residences Marjan Beach (public Instagram content dated 10 August and Wyndham executive reference before September); do not reset project age without a distinct new phase or material commercial release.",
+    "2026-10-06: Rabdan Avenue qualified on a dated 1 October launch event plus Rabdan's official launch recap/project page. Official page confirms 147 homes, 1–3BR plus 3BR duplexes, AED 1.3m start and 40/60; it contains conflicting completion fields (Q1 2028 versus Q2 2029), which must remain disclosed."
   ],
   "sources": [
     {
@@ -1067,7 +1068,7 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "sourceWatchlistSize": 64,
     "instagramNamedSourceAttempts": 20,
     "instagramVariedQueries": 24,
@@ -1077,29 +1078,30 @@
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "Twenty named indexed source attempts plus 24 English/Arabic/Russian queries were completed. A matching indexed launch post supported the Mondrian release, but native account pages and Instagram Stories were not inspected.",
+    "instagramFinding": "Twenty named indexed broker-source attempts and 24 varied English/Arabic/Russian Instagram-targeted queries were issued. Search indexing returned no reliable new native-account evidence; Instagram Stories remained inaccessible.",
     "youtubeQueries": 4,
+    "youtubeFinding": "Four targeted YouTube queries were attempted; results were noisy and produced no qualifying new lead.",
     "pressAndNewsQueries": 20,
     "officialDeveloperAndGovernmentQueries": 4,
     "propsearchLatestBuildings": {
       "attempted": true,
       "inspected": false,
-      "reason": "The current homepage Latest buildings list was not reliably retrievable; no current list claimed."
+      "reason": "Propsearch homepage returned a 502 fetch failure, so no current Latest buildings list was claimed. Latest areas and Recently updated were not used."
     },
     "whatsappStories": {
-      "requestId": "radar-20261005-stories-1c0ac3320ff0af94a9b6cdb8a543243d",
+      "requestId": "radar-20261006-stories-a77a5b77c8f06cd99f0bf9e4925f6eb9",
       "visibleRecords": 0,
       "windowHours": 24,
       "cap": 500,
       "truncated": false,
       "mediaFullyInspected": 0,
-      "finding": "Official getStories returned HTTP 200 with zero visible records for the connected account."
+      "finding": "Official getStories returned HTTP 200 with zero visible records."
     },
     "whatsappChats": {
-      "requestId": "radar-20261005-chats-93dfabbc501c6d0bce2f2648b99f1050",
+      "requestId": "radar-20261006-chats-5d88b08e192a4f49b634b1d58bd88d51",
       "chatsListed": 0,
       "historyChatsSelected": 0,
-      "finding": "Official getChats returned HTTP 200 with an empty chat list; the reader workflow concluded failure because there were no histories to inspect."
+      "finding": "Encrypted export returned HTTP 200 with an empty chat list; the reader workflow concluded failure because there were no histories to inspect."
     },
     "regionsReviewed": [
       "Dubai",
@@ -1109,14 +1111,14 @@
     "qualifyingAdditions": 1
   },
   "lastMaterialUpdate": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "updates": [
-      "elevate-mondrian-al-marjan-island-beach-residences"
+      "rabdan-rabdan-avenue-meydan"
     ],
     "held": [
-      "The Plaza at The Yards by BEYOND: one broker listing only; official identity and original event date not verified.",
-      "Ellington Al Yalayis and proposed SZR office launch: no fresh official identity, date or launch pack.",
-      "Soma Residences and Mirasol II: older project signals; current listing or article activity does not establish a new release."
+      "Boulevard Living 1/2 by Wasl: current registrations/listings do not establish a fresh launch event; older marketing exists.",
+      "Mayflower Residences: excluded under Alex's International City rule and traced to an older launch.",
+      "Ellington Al Yalayis and proposed SZR office launch: no fresh official identity, date or launch pack."
     ]
   },
   "latestBuildingReview": {
@@ -1193,7 +1195,7 @@
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "items": [
       {
         "name": "Tessera",
@@ -1366,6 +1368,17 @@
         "disposition": "old-project-excluded",
         "finding": "RAK Properties material confirms the scheme, but launch evidence dates to 2025. No distinct October 2026 phase or material new terms were found.",
         "nextCheck": "Only a documented new release or materially changed official terms qualify."
+      },
+      {
+        "name": "Rabdan Avenue",
+        "disposition": "verified-official-launch-published-to-feed",
+        "finding": "Rabdan official project page confirms 147 residences in Meydan, one- to three-bedroom apartments plus 3BR duplexes, from AED 1.3m and a 40/60 plan. Dated launch coverage is 1 October 2026 and Rabdan published an official launch recap. Official page contains conflicting completion fields: Q1 2028 in progress and Q2 2029 in the payment schedule.",
+        "sources": [
+          "https://www.rabdan.ae/properties/rabdan-avenue",
+          "https://www.facebook.com/rabdandevelopments/videos/a-look-back-at-the-launch-of-rabdan-avenue-in-meydana-milestone-that-brought-tog/929369186912520/",
+          "https://alnair.ae/en/news/rabdan-avenue-launches-in-meydan-with-homes-from-aed-133m"
+        ],
+        "nextCheck": "Developer clarification of completion date and current unit-by-unit availability."
       }
     ]
   },
@@ -1424,6 +1437,18 @@
       "channelSent": false,
       "handoffDate": "2026-10-05",
       "imageStyle": "S08",
+      "dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "eventKey": "rabdan-rabdan-avenue-meydan:2026-10-01-official-launch",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-06",
+      "imageStyle": "S07",
       "dimensions": [
         1080,
         1920
