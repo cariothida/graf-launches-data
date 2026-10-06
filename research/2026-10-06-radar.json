@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Dubai",
+  "result": "one_qualifying_launch",
+  "qualifying": [
+    {
+      "id": "rabdan-rabdan-avenue-meydan",
+      "project": "Rabdan Avenue",
+      "developer": "Rabdan Developments",
+      "emirate": "Dubai",
+      "location": "Meydan, Nad Al Sheba 1",
+      "status": "confirmed",
+      "event": "official launch coverage",
+      "eventDate": "2026-10-01",
+      "unitMix": [
+        "1BR apartments",
+        "2BR apartments",
+        "3BR apartments",
+        "3BR duplexes"
+      ],
+      "residences": 147,
+      "startingPriceAED": 1300000,
+      "paymentPlan": "40/60",
+      "completionConflict": {
+        "progressSection": "Q1 2028",
+        "paymentSchedule": "Q2 2029",
+        "treatment": "flagged; awaiting official clarification"
+      },
+      "sources": [
+        {
+          "type": "official project page",
+          "url": "https://www.rabdan.ae/properties/rabdan-avenue",
+          "supports": [
+            "identity",
+            "location",
+            "147 residences",
+            "unit mix",
+            "sizes 687–2,937 sq ft",
+            "AED 1.3m starting price",
+            "40/60 plan",
+            "conflicting completion fields"
+          ]
+        },
+        {
+          "type": "official launch recap",
+          "url": "https://www.facebook.com/rabdandevelopments/videos/rabdan-avenue-launch/929369186912520/",
+          "supports": [
+            "official launch recap"
+          ]
+        },
+        {
+          "type": "dated launch coverage",
+          "publisher": "Alnair Real Estate",
+          "date": "2026-10-01",
+          "supports": [
+            "original launch date",
+            "launch commercial terms"
+          ]
+        }
+      ],
+      "website": {
+        "sourceCommit": "8c1fe8960730f41baf08a6b5a9a56eb33f8a399e",
+        "siteMergeCommit": "038caf9169447d09170c4456afde0d964d0309b3",
+        "deployRunId": 37408651897,
+        "deployConclusion": "success",
+        "liveVerifiedAt": "2026-10-06T03:31:00Z",
+        "url": "https://graf.ae/launches/rabdan-rabdan-avenue-meydan/"
+      },
+      "manualHandoff": {
+        "state": "prepared_not_published",
+        "image": "rabdan-avenue-s07-status.jpg",
+        "imageDimensions": "1080x1920",
+        "style": "S07",
+        "usesVerifiedProjectImage": true
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "lead": "Movin Peak",
+      "reason": "historical/previously published; not a new launch"
+    },
+    {
+      "lead": "Boulevard Living phases 1 and 2",
+      "reason": "older marketing; no new qualifying launch event"
+    },
+    {
+      "lead": "Mayflower International City",
+      "reason": "older launch, not a new event in this window"
+    },
+    {
+      "lead": "ORAYA / Wyndham Residences",
+      "reason": "older announcements; no material fresh launch change"
+    },
+    {
+      "lead": "The Ritz-Carlton Residences Al Maryah Island",
+      "reason": "older formal launch/ceremony; not a new early-launch event"
+    },
+    {
+      "lead": "Oceara Park Views",
+      "reason": "launch timing still unresolved"
+    },
+    {
+      "lead": "unnamed Al Jaddaf prelaunch",
+      "reason": "project identity still unresolved"
+    }
+  ],
+  "trackedNoMaterialChange": [
+    "Ellington Al Yalayis",
+    "Ellington proposed Sheikh Zayed Road office launch",
+    "Rove Home The Greens",
+    "Blue Marina Residences"
+  ],
+  "coverage": {
+    "sourceWatchlistSize": 64,
+    "instagramNamedBrokerSourceAttempts": 20,
+    "instagramQueries": 24,
+    "languages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "youtubeQueries": 4,
+    "pressAndNewsQueries": 20,
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "developerAndOfficialChannels": true,
+    "whatsappStories": {
+      "mode": "stories-24h",
+      "httpStatus": 200,
+      "returned": 0,
+      "cap": 500,
+      "truncated": false,
+      "mediaInspected": 0
+    },
+    "whatsappChats": {
+      "mode": "recent-100",
+      "httpStatus": 200,
+      "chatsListed": 0,
+      "historiesSelected": 0,
+      "workflowConclusion": "failure_no_histories"
+    },
+    "propsearch": {
+      "homepageAttempted": true,
+      "latestBuildingsInspected": 0,
+      "result": "HTTP 502; no coverage claimed"
+    }
+  },
+  "accessGaps": [
+    "Native Instagram account inspection was unavailable; Instagram Stories were not accessible.",
+    "Indexed Instagram results were sparse/noisy, so only attempted-query coverage is claimed.",
+    "Propsearch homepage returned HTTP 502; Latest buildings could not be inspected.",
+    "WhatsApp visible Stories returned zero records in the previous 24 hours.",
+    "The WhatsApp recent-chats reader returned zero chats and its workflow failed because there were no histories to process."
+  ],
+  "whatsapp": {
+    "publicationMode": "manual by Alex",
+    "queue": {
+      "briefingDate": "2026-10-06",
+      "posts": []
+    },
+    "publisherTriggered": false,
+    "ledgerEdited": false
+  }
+}
