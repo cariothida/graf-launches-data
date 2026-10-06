@@ -1504,6 +1504,69 @@
       "firstReported": "2026-10-05",
       "updatedAt": "2026-10-05",
       "published": true
+    },
+    {
+      "id": "rabdan-rabdan-avenue-meydan",
+      "project": "Rabdan Avenue",
+      "developer": "Rabdan Developments",
+      "emirate": "Dubai",
+      "location": "Meydan, Nad Al Sheba 1, Dubai",
+      "type": [
+        "apartments",
+        "duplexes"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Public launch coverage dated 1 October 2026; Rabdan has published an official launch recap.",
+      "startingPrice": 1300000,
+      "priceConfirmed": true,
+      "confirmedBy": "https://www.rabdan.ae/properties/rabdan-avenue",
+      "paymentPlan": "40/60",
+      "handover": "Q2 2029 per Rabdan's payment schedule; the same page also shows an inconsistent Q1 2028 progress-date field",
+      "teaser": "Rabdan has launched 147 one- to three-bedroom residences in Meydan.",
+      "summary": "Rabdan Developments has launched Rabdan Avenue in Meydan, Nad Al Sheba 1. Its official project page lists 147 residences: one-, two- and three-bedroom apartments plus three-bedroom duplexes, starting from AED 1.3 million, with a 40/60 payment plan. The official payment schedule places the 60% balance at completion in Q2 2029, although the same page separately displays an inconsistent Q1 2028 estimated-completion field.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "sizeSqftFrom": 687,
+          "note": "Official range across the development starts at 687 sq ft; configuration-specific upper size not published on the page."
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Confirmed on Rabdan's official project page."
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Confirmed on Rabdan's official project page."
+        },
+        {
+          "type": "3BR duplex",
+          "sizeSqftTo": 2937,
+          "note": "Official range across the development extends to 2,937 sq ft; configuration-specific lower size not published on the page."
+        }
+      ],
+      "whatNext": "Await clarification of the conflicting completion fields and the current unit-by-unit availability; subscribe for verified updates.",
+      "confidenceNote": "High confidence in the project identity, unit mix, official starting price and 40/60 schedule from Rabdan's project page. Launch coverage is dated 1 October 2026 and Rabdan has published an official launch recap. Completion timing is flagged because Rabdan's own page contains two inconsistent fields.",
+      "sources": [
+        {
+          "url": "https://www.rabdan.ae/properties/rabdan-avenue",
+          "label": "Rabdan official project page: 147 residences, unit mix, AED 1.3m starting price and 40/60 schedule",
+          "primary": true
+        },
+        {
+          "url": "https://www.facebook.com/rabdandevelopments/videos/a-look-back-at-the-launch-of-rabdan-avenue-in-meydana-milestone-that-brought-tog/929369186912520/",
+          "label": "Rabdan official launch recap",
+          "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news/rabdan-avenue-launches-in-meydan-with-homes-from-aed-133m",
+          "label": "Dated launch coverage",
+          "date": "2026-10-01",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-06",
+      "updatedAt": "2026-10-06",
+      "published": true
     }
   ],
   "version": 1
