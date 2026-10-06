@@ -1510,7 +1510,7 @@
       "project": "Rabdan Avenue",
       "developer": "Rabdan Developments",
       "emirate": "Dubai",
-      "location": "Meydan, Nad Al Sheba 1, Dubai",
+      "location": "Meydan, Nad Al Sheba 1",
       "type": [
         "apartments",
         "duplexes"
@@ -1528,20 +1528,20 @@
         {
           "type": "1BR apartment",
           "sizeSqftFrom": 687,
-          "note": "Official range across the development starts at 687 sq ft; configuration-specific upper size not published on the page."
+          "note": "Official development-wide range starts at 687 sq ft; configuration-specific upper size is not published"
         },
         {
           "type": "2BR apartment",
-          "note": "Confirmed on Rabdan's official project page."
+          "note": "Confirmed on Rabdan's official project page"
         },
         {
           "type": "3BR apartment",
-          "note": "Confirmed on Rabdan's official project page."
+          "note": "Confirmed on Rabdan's official project page"
         },
         {
           "type": "3BR duplex",
           "sizeSqftTo": 2937,
-          "note": "Official range across the development extends to 2,937 sq ft; configuration-specific lower size not published on the page."
+          "note": "Official development-wide range extends to 2,937 sq ft; configuration-specific lower size is not published"
         }
       ],
       "whatNext": "Await clarification of the conflicting completion fields and the current unit-by-unit availability; subscribe for verified updates.",
