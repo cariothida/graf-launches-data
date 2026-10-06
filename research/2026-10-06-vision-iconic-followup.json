@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-06",
+  "project": "Vision Iconic",
+  "developer": "Binghatti",
+  "parentProject": "Mercedes-Benz Places | Binghatti City",
+  "location": "Nad Al Sheba 1 / Meydan, Dubai",
+  "disposition": "material_event_lead_pending_release_identity",
+  "eventEvidence": {
+    "source": "User-supplied invitation screenshot; private sender identity omitted",
+    "date": "2026-10-06",
+    "time": "17:30–22:00 Asia/Dubai",
+    "venue": "Coca-Cola Arena, City Walk",
+    "wording": "Vision Iconic; next chapter of Mercedes-Benz branded living; new launch"
+  },
+  "historicalEvidence": {
+    "url": "https://www.binghatti.com/en-uk/pr/mercedes-benz-binghatti-city-launch-event-dubai",
+    "date": "2026-01-15",
+    "finding": "Official announcement already names Vision Iconic tower and 4–5BR homes. Do not claim first-ever project announcement in October."
+  },
+  "officialCurrentContext": {
+    "url": "https://www.binghatti.com/en/property-search/nad-al-shiba-first/vision-iconic",
+    "finding": "Official project identity and advertised 1BR from AED 2,599,000; this is current catalogue pricing, not verified October event launch price."
+  },
+  "publicEventCorroboration": {
+    "url": "https://ae.linkedin.com/in/iamabrorganiev",
+    "access": "indexed excerpt only; native page HTTP 999",
+    "finding": "Self-described Binghatti sales source advertises 6–7 October Coca-Cola Arena launch with 7% offer. Employment and precise sales-release scope not independently verified."
+  },
+  "conflicts": [
+    "Event invitation specifies 6 October; indexed sales source mentions 6–7 October.",
+    "Third-party October pricing differs from current official catalogue; no numeric launch price confirmed.",
+    "Several listings mix Vision Iconic with Maybach 6/AMG Vision; do not merge identities."
+  ],
+  "nextChecks": [
+    "Authenticated October sales pack identifying tranche, newly released units and booking opening.",
+    "Official developer event/launch recap and dated price list.",
+    "Preserve project versus masterplan identity and first-announcement distinction."
+  ],
+  "publication": {
+    "feedChanged": false,
+    "whatsappPublished": false,
+    "reason": "New event is credible; exact material inventory change and current event commercial terms unresolved."
+  }
+}
