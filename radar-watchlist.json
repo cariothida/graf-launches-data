@@ -1068,134 +1068,256 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "sourceWatchlistSize": 64,
-    "instagramNamedSourceAttempts": 20,
+    "instagramNamedBrokerSourceAttempts": 20,
+    "instagramBrokerSources": [
+      "Allsopp & Allsopp",
+      "haus & haus",
+      "fam Properties",
+      "AX Capital",
+      "Driven Properties",
+      "D&B Properties",
+      "Dacha",
+      "Provident Estate",
+      "Betterhomes",
+      "Unique Properties",
+      "Whitewill",
+      "Metropolitan Group",
+      "Hunt & Harris",
+      "Primo Capital",
+      "Royal Lounge Properties",
+      "Savills Middle East",
+      "Edwards & Towers",
+      "Engel & Volkers Dubai",
+      "Luxhabitat",
+      "TruHauz"
+    ],
     "instagramVariedQueries": 24,
+    "instagramAdditionalMixedNamedSourceAttempts": 20,
     "instagramLanguages": [
       "English",
       "Arabic",
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "Twenty named indexed broker-source attempts and 24 varied English/Arabic/Russian Instagram-targeted queries were issued. Search indexing returned no reliable new native-account evidence; Instagram Stories remained inaccessible.",
+    "instagramFinding": "Indexed queries were attempted for 20 broker sources and 24 varied queries; an additional 20 mixed broker/developer/news source queries were also attempted. Most search batches were empty or irrelevant. No native Instagram account or Stories inspection is claimed.",
     "youtubeQueries": 4,
-    "youtubeFinding": "Four targeted YouTube queries were attempted; results were noisy and produced no qualifying new lead.",
-    "pressAndNewsQueries": 20,
-    "officialDeveloperAndGovernmentQueries": 4,
+    "youtubeFinding": "Four YouTube-targeted queries returned unrelated index results; no project video was fully inspected.",
+    "googleNews": {
+      "route": "Public Google News RSS, separate emirate queries",
+      "dateWindow": "2026-09-07 to 2026-10-07",
+      "headlineCounts": {
+        "Dubai": 66,
+        "Abu Dhabi": 58,
+        "Ras Al Khaimah": 48
+      },
+      "note": "172 feed records before cross-region deduplication; headline screening, not 172 full article reads."
+    },
+    "requiredNewspapers": [
+      {
+        "name": "Gulf News",
+        "discovery": "Domain-targeted search and accessible property category headlines; BAMX X11 article fully read"
+      },
+      {
+        "name": "Khaleej Times",
+        "discovery": "Domain-targeted search and accessible property headlines; 4 October Reportage interview fully read"
+      },
+      {
+        "name": "The National",
+        "discovery": "Domain-targeted search attempted; property category HTML accessible but few extractable headlines"
+      },
+      {
+        "name": "Arabian Business",
+        "discovery": "Domain-targeted searches and indexed leads; category access returned 403"
+      },
+      {
+        "name": "Gulf Today",
+        "discovery": "Domain-targeted search and accessible business headlines"
+      }
+    ],
+    "hospitality": "Hospitality Net initial list route failed; homepage and Development page read. TTN homepage hospitality headlines read. TradeArabia real-estate launch article inspected. Full UAE archive coverage is not claimed.",
     "propsearchLatestBuildings": {
       "attempted": true,
-      "inspected": false,
-      "reason": "Propsearch homepage returned a 502 fetch failure, so no current Latest buildings list was claimed. Latest areas and Recently updated were not used."
+      "inspected": true,
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "detailPagesRead": 20,
+      "access": "Public HTTP fallback; search fetch initially failed"
     },
     "whatsappStories": {
-      "requestId": "radar-20261006-stories-a77a5b77c8f06cd99f0bf9e4925f6eb9",
+      "requestId": "radar-20261007-stories-6c58a215b6394c90b91bca1bb2d526ec",
+      "runId": 37567976412,
+      "artifactPrivatelyDecrypted": true,
       "visibleRecords": 0,
       "windowHours": 24,
       "cap": 500,
       "truncated": false,
       "mediaFullyInspected": 0,
-      "finding": "Official getStories returned HTTP 200 with zero visible records."
+      "finding": "getStories returned zero visible records; no media to inspect"
     },
     "whatsappChats": {
-      "requestId": "radar-20261006-chats-5d88b08e192a4f49b634b1d58bd88d51",
+      "requestId": "radar-20261007-chats-6c8e8e6c550e45fe8f01f3ac9380c62f",
+      "runId": 37568294852,
+      "artifactPrivatelyDecrypted": true,
       "chatsListed": 0,
       "historyChatsSelected": 0,
-      "finding": "Encrypted export returned HTTP 200 with an empty chat list; the reader workflow concluded failure because there were no histories to inspect."
+      "finding": "Export returned an empty chat list; workflow concluded failure because no histories were available"
     },
     "regionsReviewed": [
       "Dubai",
       "Abu Dhabi",
       "Ras Al Khaimah"
     ],
-    "qualifyingAdditions": 1
+    "qualifyingNewRecords": 4,
+    "qualifyingMaterialUpdates": 1
   },
   "lastMaterialUpdate": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "updates": [
-      "rabdan-rabdan-avenue-meydan"
+      "beyond-the-yards-plaza",
+      "imtiaz-kore-dubailand",
+      "nakheel-bay-estate-dubai-islands",
+      "reportage-verso-meydan-horizon",
+      "reportage-epoque-meydan-horizon"
     ],
     "held": [
-      "Boulevard Living 1/2 by Wasl: current registrations/listings do not establish a fresh launch event; older marketing exists.",
-      "Mayflower Residences: excluded under Alex's International City rule and traced to an older launch.",
-      "Ellington Al Yalayis and proposed SZR office launch: no fresh official identity, date or launch pack."
+      "Vision Iconic: conflicting advertised discount dates; no dated independently inspected developer commercial pack.",
+      "X11: 15 October upcoming formal launch reported, but earlier March construction/listing and current commercial pack need reconciliation.",
+      "Janu Al Marjan: late-October sales window is a new press signal; repeated articles trace to the same September 25 underlying feature, commercial terms await independent developer confirmation.",
+      "Bab Al Qasr Residence 77: September 3 prelaunch evidence predates latest articles; exact fresh formal event date conflicts and official news access is 403."
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-10-03",
+    "date": "2026-10-07",
     "scope": "Homepage Latest buildings ONLY",
     "screened": 20,
-    "detailPagesRead": 10,
+    "detailPagesRead": 20,
     "items": [
+      {
+        "name": "Velu by ASAK",
+        "disposition": "early-watch",
+        "finding": " Velu by ASAK is a residential building planned for Arjan , Al Barsha South 3 , Al Barsha South , Dubai. shield The developer The project is a development by Asak Real Estate Development . Milestones Velu by ASAK Milestones First Trace October 2026 Construction Information Follow the construction of Velu by ASAK with information sourced directly from the government regulatory departments combined with our on-the-ground research. Join Propsearch Pro today to unlock t Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
+      {
+        "name": "Gloas by Acube",
+        "disposition": "early-watch",
+        "finding": " Gloas by Acube is an eight-storey residential building planned for Dubai Islands , Deira , Dubai. shield The developer The project is a development by Acube Real Estate Development through its subsidiary Acube Gloas Real Estate Development . Milestones Gloas by Acube Milestones First Trace October 2026 Construction Information Follow the construction of Gloas by Acube with information sourced directly from the government regulatory departments combined with our on- Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
+      {
+        "name": "Joud by Aras",
+        "disposition": "early-watch",
+        "finding": " Joud by Aras is an eight-storey residential building planned for Al Jaddaf , Dubai. shield The developer The project is a development by Aras Development . sell Launch price At the time of the sales launch, units were priced from AED 56k . date_range Key dates The estimated handover date is Q2 2028. Milestones Joud by Aras Milestones First Trace October 2026 Estimated Completion Q2 2028 Design Stage Images depicting the initial concept designs for Joud by Aras. Pro Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
+      {
+        "name": "Jamal by Aras",
+        "disposition": "early-watch",
+        "finding": " Jamal by Aras is a seven-storey residential building planned for Culture Village , Al Jaddaf , Dubai. shield The developer The project is a development by Aras Development . sell Launch price At the time of the sales launch, units were priced from AED 56k . date_range Key dates The estimated handover date is Q2 2028. Show all 2 photos Milestones Jamal by Aras Milestones First Trace October 2026 Estimated Completion Q2 2028 Design Stage Images depicting the initial  Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
+      {
+        "name": "Callista by Zoya",
+        "disposition": "early-watch",
+        "finding": " Callista by Zoya is a five-storey residential building planned for Dubai South Residential District , Dubai South , Dubai. shield The developer The project is a development by Zoya One Real Estate Developments . Milestones Callista by Zoya Milestones First Trace October 2026 Construction Information Follow the construction of Callista by Zoya with information sourced directly from the government regulatory departments combined with our on-the-ground research. Join  Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
+      {
+        "name": "06 Life Residences",
+        "disposition": "excluded",
+        "finding": "International City exclusion",
+        "nextCheck": "Only a change in investable saleable product would change this disposition"
+      },
+      {
+        "name": "Rigel by Acube",
+        "disposition": "early-watch",
+        "finding": " Rigel by Acube is a 12-storey residential building planned for Dubai Production City , Me'aisem First , DubaiLand , Dubai. shield The developer The project is a development by Acube Real Estate Development through its subsidiary Acube Rigel Real Estate Development . corporate_fare Structure The substructure contains two basement levels which are used for parking. Milestones Rigel by Acube Milestones First Trace October 2026 Construction Information Follow the const Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
+      {
+        "name": "Ampersand Beach House",
+        "disposition": "excluded",
+        "finding": "111-key hospitality-only signing; no separately saleable residences",
+        "nextCheck": "Only a change in investable saleable product would change this disposition"
+      },
+      {
+        "name": "The Plaza by Beyond",
+        "disposition": "publishable-broker-intelligence",
+        "finding": "Corroborated commercial office release; 7 October briefing; broker commercial terms hedged",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
+      },
       {
         "name": "Marquis Aura",
         "disposition": "early-watch",
-        "finding": "Marquis Developers / Marquis Star Development, Dubai South Residential District, 10 storeys. First Trace October2026 is not launch timing. Await dated announcement, unit mix and EOI/sales pack."
+        "finding": " Marquis Aura is a 10-storey residential building planned for Dubai South Residential District , Dubai South , Dubai. shield The developer The project is a development by Marquis Developers through its subsidiary Marquis Star Development . corporate_fare Structure The substructure contains two basement levels which are used for parking. Milestones Marquis Aura Milestones First Trace October 2026 Construction Information Follow the construction of Marquis Aura with i Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Eterea by Zoya",
         "disposition": "early-watch",
-        "finding": "Zoya One, Majan. Portal mix/prices/handover are unconfirmed. Original sales/EOI event still unresolved."
+        "finding": " Eterea by Zoya is a 10-storey residential building planned for Majan , Wadi Al Safa 3 , DubaiLand , Dubai. shield The developer The project is a development by Zoya One Real Estate Developments . pin Units The development will contain an estimated 92 units. night_shelter Unit layouts Eterea by Zoya will comprise a mix of one- , two- , and three-bedroom apartments. sell Launch price At the time of the sales launch, units were priced from AED 1.13m . date_range Key d Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Pullman Residences & Offices Dubai Meydan",
         "disposition": "already-published",
-        "finding": "29 September Accor/CITYVIEW announcement, handed off1October; no new commercial release today."
+        "finding": "Previously announced 29 September and handed off 1 October; no fresh commercial update",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Lunara Tower",
         "disposition": "early-watch",
-        "finding": "Tarrad, Majan; do not merge with RAK/Lunara names. Brokers indicate prelaunch; dates and official terms unresolved."
+        "finding": " Lunara Tower is a residential building planned for Majan , Wadi Al Safa 3 , DubaiLand , Dubai. shield The developer The project is a development by Tarrad Development . sell Launch price At the time of the sales launch, units were priced from AED 85k . Milestones Lunara Tower Milestones First Trace September 2026 Construction Information Follow the construction of Lunara Tower with information sourced directly from the government regulatory departments combined wit Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Meriden Gate",
         "disposition": "early-watch",
-        "finding": "Green Horizon, Downtown Jebel Ali / Jebel Ali Industrial2; not Meriden Beach. Planning/mix listings do not independently date the first launch."
+        "finding": " Meriden Gate is a residential building planned for Downtown Jebel Ali , Jebel Ali Industrial Area 2 , Dubai. shield The developer The project is a development by Green Horizon Real Estate Development . Milestones Meriden Gate Milestones First Trace September 2026 Construction Information Follow the construction of Meriden Gate with information sourced directly from the government regulatory departments combined with our on-the-ground research. Join Propsearch Pro t Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Aris by Grid",
         "disposition": "early-watch",
-        "finding": "Grid / Grid Horizon, Dubai South; no corroborated dated release."
+        "finding": " Aris by Grid is a residential building planned for Dubai South Residential District , Dubai South , Dubai. shield The developer The project is a development by Grid through its subsidiary Grid Horizon Real Estate Development . Milestones Aris by Grid Milestones First Trace August 2026 Construction Information Follow the construction of Aris by Grid with information sourced directly from the government regulatory departments combined with our on-the-ground research. Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Celeste Dubai South",
         "disposition": "early-watch",
-        "finding": "Meraki, Dubai South; not Celeste by Zimaya. Listing identity verified; qualifying dated event unresolved."
+        "finding": " Celeste Dubai South is a residential building planned for Dubai South Residential District , Dubai South , Dubai. shield The developer The project is a development by Meraki Developers . Milestones Celeste Dubai South Milestones First Trace September 2026 Construction Information Follow the construction of Celeste Dubai South with information sourced directly from the government regulatory departments combined with our on-the-ground research. Join Propsearch Pro to Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "NBCC Al Waha",
         "disposition": "excluded",
-        "finding": "International City, excluded by Alex's standing instruction."
+        "finding": "International City exclusion",
+        "nextCheck": "Only a change in investable saleable product would change this disposition"
       },
       {
         "name": "Dubai Customs Nursery and Daycare",
         "disposition": "excluded",
-        "finding": "Institutional childcare facility, no investable residential sales release."
+        "finding": "Institutional nursery, no investable sales release",
+        "nextCheck": "Only a change in investable saleable product would change this disposition"
       },
       {
         "name": "Pioneer Residences & Offices",
         "disposition": "early-watch",
-        "finding": "Pioneer Horizon, Ras Al Khor Industrial1,23storey mixed-use. Registered construction start/completion dates are not sales-opening dates."
+        "finding": " Pioneer Residences & Offices is a 23-storey mixed-use building planned for Ras Al Khor Industrial Area 1 , Dubai. shield The developer The project is a development by Pioneer Horizon Real Estate Development . corporate_fare Structure The substructure contains one basement level which is used for parking. Milestones Pioneer Residences & Offices Milestones First Trace September 2026 Construction Information Follow the construction of Pioneer Residences & Offices with Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       },
       {
         "name": "Park Infinia",
         "disposition": "early-watch",
-        "finding": "Riyasaa, JVT District5,7storeys; date/terms unverified."
-      },
-      {
-        "name": "Yigo Luxe",
-        "disposition": "already-published",
-        "finding": "Existing DSO prelaunch alert; no new dated allocation or terms."
-      },
-      {
-        "name": "Dubai Knowledge Park Blocks7,13,12,8,9,10,14,15",
-        "disposition": "excluded",
-        "finding": "Eight existing institutional buildings, not new residential releases."
+        "finding": " Park Infinia is a seven-storey residential building planned for JVT District 5 , Jumeirah Village Triangle , Dubai. shield The developer The project is a development by Riyasaa Properties Development . corporate_fare Structure The substructure contains two basement levels which are used for parking. Milestones Park Infinia Milestones First Trace September 2026 Construction Information Follow the construction of Park Infinia with information sourced directly from th Dated developer/EOI event and current commercial pack remain to be verified. First Trace is not launch timing.",
+        "nextCheck": "Developer announcement and original release date; current unit inventory and terms"
       }
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "items": [
       {
         "name": "Tessera",
@@ -1358,12 +1480,6 @@
         "nextCheck": "Only a named new phase, released inventory or material official terms qualify."
       },
       {
-        "name": "The Plaza at The Yards by BEYOND",
-        "disposition": "single-broker-lead-held",
-        "finding": "One commercial broker listing was found, but no official announcement, corroborating source or reliable original event date was verified.",
-        "nextCheck": "Developer confirmation, exact phase identity and dated sales/EOI evidence."
-      },
-      {
         "name": "Mirasol II",
         "disposition": "old-project-excluded",
         "finding": "RAK Properties material confirms the scheme, but launch evidence dates to 2025. No distinct October 2026 phase or material new terms were found.",
@@ -1379,6 +1495,51 @@
           "https://alnair.ae/en/news/rabdan-avenue-launches-in-meydan-with-homes-from-aed-133m"
         ],
         "nextCheck": "Developer clarification of completion date and current unit-by-unit availability."
+      },
+      {
+        "name": "The Yards Plaza by BEYOND",
+        "disposition": "corroborated-commercial-release-published-to-feed",
+        "finding": "Multiple broker pages plus Alnair briefing invitation and dated 5 October OffPlan Insider report identify 7 October commercial release; 272 shell-and-core offices. Prices/payment/EOI/handover remain broker indications.",
+        "sources": [
+          "https://edwardsandtowers.com/property/beyond-by-omniyat-new-launch/",
+          "https://www.mitchellscommercialrealty.com/new-launches/the-plaza-the-yards-by-beyond",
+          "https://t.me/s/alnairae",
+          "https://propsearch.ae/dubai/the-plaza-by-beyond",
+          "https://offplaninsider.com/news/beyond-the-yards-plaza-launch-7-october-2026/"
+        ],
+        "nextCheck": "Briefing results and developer commercial pack"
+      },
+      {
+        "name": "KORE by Imtiaz",
+        "disposition": "official-coming-soon-project-published-to-feed",
+        "finding": "Official Imtiaz LinkedIn confirms wellness concept. 1 October dated broker invitation report places reveal 8 October. Prices and three-year post-handover terms remain broker indications, and 3BR inventory is unresolved.",
+        "sources": [
+          "https://www.linkedin.com/posts/imtiaz-developments_imtiazdevelopments-korebyimtiaz-wellnessresidence-activity-7510353216027676672-4cfK",
+          "https://offplaninsider.com/news/imtiaz-kore-project-reveal-8-october-2026/",
+          "https://www.dubaivastgoed.com/projecten/imtiaz-developments-kore-by-imtiaz",
+          "https://t.me/s/alnairae"
+        ],
+        "nextCheck": "8 October reveal and developer price/payment pack"
+      },
+      {
+        "name": "Reportage Abu Dhabi Fourth Corridor development",
+        "disposition": "confirmed-private-planning-signal",
+        "finding": "4 October Khaleej Times interview with Reportage managing director reports acquired approximately 750,000 sqm site and approximately 3,800 homes in design, probable market launch 2027/2028. Exact project name/plot, final unit mix and sales terms unknown.",
+        "sources": [
+          "https://www.khaleejtimes.com/business/property/uae-property-developers-eye-fourth-corridor-highway-linking-sharjah-dubai-and-abu-dhabi?amp=1"
+        ],
+        "nextCheck": "Named scheme and plot-level identity; developer formal planning announcement"
+      },
+      {
+        "name": "Janu Al Marjan Island",
+        "disposition": "press-reported-future-sales-window-watch",
+        "finding": "25 September Mansion Global feature republished Kanebridge 1 October reports late-October sales and USD2.3m starting indication; 6 October OffPlan Insider repeats that source rather than independently confirms. Official Janu page confirms 1–5BR homes and five villas but opening2028 conflicts with July Marjan2029 guidance. Do not claim fresh initial project or confirmed price/handover.",
+        "sources": [
+          "https://www.janu.com/janu-al-marjan-island/",
+          "https://kanebridgenews.com/dubai-and-abu-dhabis-trophy-home-developers-are-doubling-down-on-waterfront-living/",
+          "https://offplaninsider.com/news/janu-al-marjan-island-residences-sales-late-october-2026/"
+        ],
+        "nextCheck": "Dated official sales opening and price/SPA schedule"
       }
     ]
   },

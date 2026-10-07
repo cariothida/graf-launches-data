@@ -1072,67 +1072,77 @@
       "location": "Island E, Dubai Islands, Dubai",
       "type": [
         "townhouses",
-        "villas"
+        "villas",
+        "plots"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "EOI submissions open from 10:00 AM GST on 25 September 2026. The exact intake time comes from a directly reviewed current Nakheel/Dubai Holding Real Estate manager briefing; the subsequent allocation and sales timetable remains unconfirmed.",
+      "status": "confirmed",
+      "launchWindow": "Nakheel officially unveiled Bay Estate on 5 October 2026, following the previously reported 25 September EOI intake.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "brokerPriceNote": "Current broker indications are AED 100,000 EOI; 3BR townhouses from AED 5.9m; 4BR townhouses from AED 6.9m; 4BR attached villas from AED 7.2m; 4BR garden villas from AED 10m; waterfront plots from AED 17.5m and beach plots from AED 19m. A 60/40 payment plan and January 2031 handover are also circulating. Nakheel has not independently confirmed these commercial terms, so numeric price and payment fields remain null.",
       "paymentPlan": null,
-      "teaser": "Bay Estate EOI opens on Island E for townhouses, villas and villa plots.",
-      "summary": "Bay Estate is Nakheel's first residential release on Island E at Dubai Islands. A directly reviewed current Nakheel/Dubai Holding Real Estate manager briefing opens EOI submissions at 10:00 AM GST on 25 September 2026 and identifies townhouses, attached villas, garden villas and villa plots. Broker-circulated prices, AED 100,000 EOI, 60/40 payment and January 2031 handover remain unconfirmed by an independently accessible Nakheel launch pack.",
-      "whatNext": "EOI intake is open; subscribe on this page for Nakheel-confirmed pricing, payment terms, handover and allocation rules.",
-      "confidenceNote": "High on project identity, Nakheel, Island E and the 25 September 10:00 AM EOI opening from directly reviewed current manager material. Medium-high on the expanded product mix. Broker prices, EOI amount, payment and handover remain unconfirmed.",
+      "teaser": "Nakheel confirms around 360 homes, villa plots and three Bay Estate collections.",
+      "summary": "Nakheel officially unveiled Bay Estate at Dubai Islands on 5 October 2026, confirming approximately 360 three- and four-bedroom homes plus beachfront and waterfront plots. The announced product mix includes garden villas, attached villas and townhouses across Cala, Verda and Agora. The estate combines swimmable lagoons, beach access and landscaped pedestrian spaces. This updates the earlier EOI report; current prices, payment terms, allocation rules and contractual handover remain unconfirmed.",
+      "whatNext": "Await Nakheel's current price list, contractual payment and handover schedule and allocation rules; subscribe for verified updates.",
+      "confidenceNote": "High confidence in Nakheel's 5 October official unveiling, approximately 360 homes, three collections and the announced product mix. Island E and the earlier 25 September EOI intake came from previously reviewed manager/broker material. Previously circulated commercial figures remain broker indications.",
       "unitMix": [
         {
           "type": "3BR townhouse",
-          "note": "Current broker circulation; final inventory awaits Nakheel confirmation"
+          "note": "Nakheel confirms three- and four-bedroom homes and these product categories; category-specific current inventory awaits the sales pack"
         },
         {
           "type": "4BR townhouse",
-          "note": "Current broker circulation; final inventory awaits Nakheel confirmation"
+          "note": "Nakheel confirms three- and four-bedroom homes and these product categories; category-specific current inventory awaits the sales pack"
         },
         {
           "type": "4BR attached villa",
-          "note": "Current manager and broker circulation; final naming awaits Nakheel"
+          "note": "Nakheel confirms three- and four-bedroom homes and these product categories; category-specific current inventory awaits the sales pack"
         },
         {
           "type": "4BR garden villa",
-          "note": "Current manager and broker circulation; final naming awaits Nakheel"
+          "note": "Nakheel confirms three- and four-bedroom homes and these product categories; category-specific current inventory awaits the sales pack"
         },
         {
           "type": "Villa plot",
-          "note": "Waterfront and beach plot categories are circulating; final release details await Nakheel"
+          "note": "Beachfront and waterfront plots confirmed by Nakheel; allocation sizes and commercial terms await confirmation"
         }
       ],
       "sources": [
         {
-          "url": "https://metropolitan.realestate/dubai-islands/bay-estate/",
-          "label": "Current public broker reference for project identity, Island E and 3BR townhouses",
-          "date": "2026-09-14",
+          "url": "https://www.nakheel.com/en/media-centre/press-releases/news-detail/2026/10/05/nakheel-unveils-bay-estate-a-new-gated-waterfront-community-at-dubai-islands",
+          "label": "Nakheel official Bay Estate unveiling and product mix",
+          "date": "2026-10-05",
           "primary": true
         },
         {
+          "url": "https://metropolitan.realestate/dubai-islands/bay-estate/",
+          "label": "Current public broker reference for project identity, Island E and 3BR townhouses",
+          "date": "2026-09-14",
+          "primary": false
+        },
+        {
           "url": "https://www.aktrealestate.ae/en/offplan/dubai-islands-by-nakheel",
-          "label": "Current broker reference reporting 25 September sales and townhouse/villa mix"
+          "label": "Current broker reference reporting 25 September sales and townhouse/villa mix",
+          "primary": false
         },
         {
           "url": "https://www.propertyfinder.ae/en/new-projects/nakheel/bay-estate",
-          "label": "Portal corroboration of Bay Estate as the first Island E residential release"
+          "label": "Portal corroboration of Bay Estate as the first Island E residential release",
+          "primary": false
         },
         {
           "url": "https://www.youtube.com/watch?v=9y2pPbNDjlg",
           "label": "Recent on-site Island E masterplan review; commercial evidence retained privately",
-          "date": "2026-09-17"
+          "date": "2026-09-17",
+          "primary": false
         }
       ],
       "firstReported": "2026-09-23",
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-10-07",
       "published": true,
-      "seoTitle": "Bay Estate by Nakheel: Island E Launch Intelligence | GRAF",
-      "seoDescription": "Bay Estate at Dubai Islands: EOI intake opens 25 September for townhouses, villas and plots on Island E."
+      "seoTitle": "Bay Estate by Nakheel: Official Launch Update | GRAF",
+      "seoDescription": "Nakheel confirms Bay Estate at Dubai Islands: approximately 360 homes, plots and Cala, Verda and Agora collections. Commercial terms await confirmation."
     },
     {
       "id": "yigo-luxe-dubai-silicon-oasis",
@@ -1566,6 +1576,250 @@
       ],
       "firstReported": "2026-10-06",
       "updatedAt": "2026-10-06",
+      "published": true
+    },
+    {
+      "id": "imtiaz-kore-dubailand",
+      "project": "KORE by Imtiaz",
+      "developer": "Imtiaz Developments",
+      "developerId": "imtiaz",
+      "emirate": "Dubai",
+      "location": "Dubailand Residence Complex, Wadi Al Safa 5, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Imtiaz has announced KORE as coming soon. Dated broker coverage published 1 October reports the project reveal on 8 October 2026, 10:00 AM–7:00 PM, at Imtiaz Experience Centre on Sheikh Zayed Road.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "OffPlan Insider's 1 October report indicates studios from AED 690,000, 1BR from AED 1.1m and 2BR from AED 1.6m. DubaiVastgoed lists an AED 679,000 starting figure. These differing indications are not an independently verified Imtiaz price list.",
+      "paymentPlan": "Broker-reported alternatives: 50/50, or 60/40 with the final 40% paid over three years after handover; signed schedules await confirmation.",
+      "handover": "Q4 2028, broker-reported; contractual handover not independently confirmed",
+      "teaser": "Imtiaz announces a wellness residence; brokers report an 8 October reveal.",
+      "summary": "Imtiaz has announced KORE, a forthcoming wellness and longevity-focused residence in Dubailand. Dated broker coverage reports an 8 October 2026 project reveal at its Sheikh Zayed Road Experience Centre; broker project pages place the building in Dubailand Residence Complex, Wadi Al Safa 5. Studios and one- and two-bedroom apartments are reported; some listings also advertise three-bedroom apartments, which require confirmation. Broker price indications and a reported three-year post-handover option remain subject to the current developer sales pack.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Broker-reported; final Imtiaz inventory awaited"
+        },
+        {
+          "type": "1BR apartment",
+          "note": "Broker-reported; final Imtiaz inventory awaited"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Broker-reported; final Imtiaz inventory awaited"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Alnair reports AED 50,000 for studios, AED 80,000 for 1BR and AED 100,000 for 2BR/3BR. Refundability, final inventory and developer-confirmed terms are unknown."
+      },
+      "whatNext": "Await the 8 October reveal, current Imtiaz price list, final unit mix and signed payment schedule; subscribe for verified updates.",
+      "confidenceNote": "High on the official project name and coming-soon wellness concept from Imtiaz's own LinkedIn post. Medium on the independently reported 8 October reveal, DLRC location and broker terms. Starting-price indications differ and three-bedroom availability is unresolved.",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/imtiaz-developments_imtiazdevelopments-korebyimtiaz-wellnessresidence-activity-7510353216027676672-4cfK",
+          "label": "Imtiaz official KORE coming-soon announcement",
+          "primary": true
+        },
+        {
+          "url": "https://offplaninsider.com/news/imtiaz-kore-project-reveal-8-october-2026/",
+          "label": "Dated broker report of reveal invitation and indicative commercial terms",
+          "date": "2026-10-01",
+          "primary": false
+        },
+        {
+          "url": "https://www.dubaivastgoed.com/projecten/imtiaz-developments-kore-by-imtiaz",
+          "label": "Independent broker location, inventory and reveal corroboration",
+          "primary": false
+        },
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair reveal invitation and EOI report; public text inspected",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-07",
+      "updatedAt": "2026-10-07",
+      "published": true
+    },
+    {
+      "id": "beyond-the-yards-plaza",
+      "parentId": "beyond-the-yards",
+      "phase": "The Plaza — commercial release",
+      "project": "The Yards Plaza",
+      "developer": "BEYOND Developments",
+      "emirate": "Dubai",
+      "location": "The Yards, City of Arabia, Wadi Al Safa 4, Dubai",
+      "type": [
+        "offices"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Edwards & Towers reports launch on 7 October 2026. Alnair's dated invitation specifies commercial briefing sessions on 7 October at 10:00 AM, BEYOND Sales Gallery; this is not independent confirmation that sales are open.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Mitchell's Commercial Realty indicates starting prices around AED 3.05m and AED 2,300/sqft; Alnair indicates around AED 3m. These are broker indications, not a verified BEYOND price list.",
+      "paymentPlan": "50/50, reported by Alnair; current BEYOND contractual schedule not independently confirmed",
+      "handover": "Q4 2029, broker-indicated; contractual handover not independently confirmed",
+      "teaser": "Brokers report a 7 October briefing for 272 offices at The Yards.",
+      "summary": "Brokers identify The Yards Plaza as BEYOND's commercial release in City of Arabia, distinct from the older The Yards residential masterplan. Edwards & Towers and Mitchell's Commercial Realty describe 272 shell-and-core offices across four blocks; reported layouts can be combined horizontally. A public Alnair invitation specifies a commercial briefing on 7 October 2026 at BEYOND Sales Gallery. Pricing, AED 100,000 EOI, 50/50 payment and Q4 2029 handover remain broker indications pending a current developer launch pack.",
+      "unitMix": [
+        {
+          "type": "Shell-and-core office",
+          "sizeSqftFrom": 1316,
+          "sizeSqftTo": 3186,
+          "note": "Broker-listed: E&T minimum 1,316 sqft; Mitchell's approximately 1,324–3,186 sqft. Final measured areas require the BEYOND unit schedule."
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Edwards & Towers and Alnair report AED 100,000 EOI; refundability and allocation conditions await BEYOND confirmation."
+      },
+      "whatNext": "Await the 7 October briefing results, BEYOND price list, current office inventory and EOI/payment conditions; subscribe for verified updates.",
+      "confidenceNote": "Medium-high on office identity and the reported briefing, corroborated by two commercial brokers, Alnair and Propsearch's current building identity. A formal BEYOND sales announcement or developer-confirmed commercial pack has not been independently inspected. Broker descriptions differ on whether 68 offices are per block or per floor; only the consistent total of 272 is used.",
+      "sources": [
+        {
+          "url": "https://edwardsandtowers.com/property/beyond-by-omniyat-new-launch/",
+          "label": "Edwards & Towers office mix, EOI and 7 October launch report",
+          "primary": true
+        },
+        {
+          "url": "https://www.mitchellscommercialrealty.com/new-launches/the-plaza-the-yards-by-beyond",
+          "label": "Independent commercial broker: office mix and indicative price/handover",
+          "primary": false
+        },
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair commercial briefing invitation and EOI report; public text inspected",
+          "primary": false
+        },
+        {
+          "url": "https://propsearch.ae/dubai/the-plaza-by-beyond",
+          "label": "Current building identity at The Yards, City of Arabia; First Trace is not a launch date",
+          "primary": false
+        },
+        {
+          "url": "https://offplaninsider.com/news/beyond-the-yards-plaza-launch-7-october-2026/",
+          "label": "Dated 5 October report citing BEYOND's launch invitation",
+          "date": "2026-10-05",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-07",
+      "updatedAt": "2026-10-07",
+      "published": true
+    },
+    {
+      "id": "reportage-verso-meydan-horizon",
+      "project": "Verso",
+      "developer": "Reportage Group",
+      "emirate": "Dubai",
+      "location": "Meydan Horizon, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Reportage-attributed joint launch release dated 2 October 2026, published 5 October; Khaleej Times independently reported from the launch on 4 October. Earlier broker marketing existed, so this is the formal launch update, not the project's first-ever appearance.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Reportage's formal Meydan Horizon launch confirms 174 Verso residences.",
+      "summary": "Reportage's joint launch release dated 2 October 2026 identifies Verso as one of its first two projects in Meydan Horizon. Verso contains 174 residences: 113 1BR apartments, 59 2BR apartments, 2 4BR residences. Reported amenities include a padel court, gym, swimming pool, yoga area and children's facilities. The community setting includes access to lagoons, a canal, boardwalk and central park. Current developer-confirmed prices, payment terms, EOI and handover were not disclosed in the inspected announcement.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "note": "113 residences in the developer-attributed formal launch release"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "59 residences in the developer-attributed formal launch release"
+        },
+        {
+          "type": "4BR residence",
+          "note": "2 residences in the developer-attributed formal launch release"
+        }
+      ],
+      "whatNext": "Await the current Reportage price list, unit availability, payment/EOI terms and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the formal joint launch and product counts: developer-attributed release independently corroborated by Khaleej Times reporting from the launch. The release is dated 2 October; earlier September broker listings prevent a claim of first-ever sales on that date. Commercial terms remain unknown.",
+      "sources": [
+        {
+          "url": "https://reportagegroup.com/projects/residential-communities/verso/",
+          "label": "Reportage official project page: identity, location, residence count and amenities",
+          "primary": true
+        },
+        {
+          "url": "https://uaenews4u.com/2026/10/05/reportage-group-makes-its-meydan-horizon-debut-with-verso-and-epoque-introducing-234-residential-units-in-dubai/",
+          "label": "Reportage-attributed joint launch release dated 2 October; published 5 October",
+          "date": "2026-10-05",
+          "primary": false
+        },
+        {
+          "url": "https://www.khaleejtimes.com/business/property/uae-property-developers-eye-fourth-corridor-highway-linking-sharjah-dubai-and-abu-dhabi?amp=1",
+          "label": "Independent Khaleej Times reporting from the Verso and Époque launch",
+          "date": "2026-10-04",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-07",
+      "updatedAt": "2026-10-07",
+      "published": true
+    },
+    {
+      "id": "reportage-epoque-meydan-horizon",
+      "project": "Époque",
+      "developer": "Reportage Group",
+      "emirate": "Dubai",
+      "location": "Meydan Horizon, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Reportage-attributed joint launch release dated 2 October 2026, published 5 October; Khaleej Times independently reported from the launch on 4 October. Earlier broker marketing existed, so this is the formal launch update, not the project's first-ever appearance.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Reportage's formal Meydan Horizon launch confirms 60 Époque residences.",
+      "summary": "Reportage's joint launch release dated 2 October 2026 identifies Époque as one of its first two projects in Meydan Horizon. Époque contains 60 residences: 15 1BR apartments, 45 2BR apartments. Reported amenities include a residents' lounge, swimming pool, gym, landscaped promenade and children's facilities. The community setting includes access to lagoons, a canal, boardwalk and central park. Current developer-confirmed prices, payment terms, EOI and handover were not disclosed in the inspected announcement.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "note": "15 residences in the developer-attributed formal launch release"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "45 residences in the developer-attributed formal launch release"
+        }
+      ],
+      "whatNext": "Await the current Reportage price list, unit availability, payment/EOI terms and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the formal joint launch and product counts: developer-attributed release independently corroborated by Khaleej Times reporting from the launch. The release is dated 2 October; earlier September broker listings prevent a claim of first-ever sales on that date. Commercial terms remain unknown.",
+      "sources": [
+        {
+          "url": "https://reportagegroup.com/projects/residential-communities/epoque-2/",
+          "label": "Reportage official project page: identity, location, residence count and amenities",
+          "primary": true
+        },
+        {
+          "url": "https://uaenews4u.com/2026/10/05/reportage-group-makes-its-meydan-horizon-debut-with-verso-and-epoque-introducing-234-residential-units-in-dubai/",
+          "label": "Reportage-attributed joint launch release dated 2 October; published 5 October",
+          "date": "2026-10-05",
+          "primary": false
+        },
+        {
+          "url": "https://www.khaleejtimes.com/business/property/uae-property-developers-eye-fourth-corridor-highway-linking-sharjah-dubai-and-abu-dhabi?amp=1",
+          "label": "Independent Khaleej Times reporting from the Verso and Époque launch",
+          "date": "2026-10-04",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-07",
+      "updatedAt": "2026-10-07",
       "published": true
     }
   ],
