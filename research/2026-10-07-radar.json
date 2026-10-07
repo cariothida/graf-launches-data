@@ -641,12 +641,58 @@
     }
   ],
   "publication": {
-    "state": "awaiting-matching-delivery-run",
-    "priorSiteFailure": "37558194861: GH013; main requires pull requests; no workflow/secrets/release-reference changes authorized",
+    "state": "feed-saved-production-delivery-failed",
+    "feedCommit": "c0158fa51bccac2b8201b15255bebdcbe1a6c8de",
+    "feedReadbackVerified": true,
+    "schemaValidated": true,
+    "notifySite": {
+      "runId": 37569027937,
+      "conclusion": "success"
+    },
+    "siteDelivery": {
+      "runId": 37569035491,
+      "jobId": 112623267955,
+      "conclusion": "failure",
+      "processedFeedSha": "c0158fa51bccac2b8201b15255bebdcbe1a6c8de",
+      "created": 4,
+      "updated": 1,
+      "rejected": 0,
+      "reason": "GH013: main requires a pull request; automated release-ref push declined. Build, rsync and live-marker verification skipped."
+    },
+    "liveChecks": [
+      {
+        "id": "beyond-the-yards-plaza",
+        "http": 404
+      },
+      {
+        "id": "imtiaz-kore-dubailand",
+        "http": 404
+      },
+      {
+        "id": "nakheel-bay-estate-dubai-islands",
+        "http": 200,
+        "currentUpdatePresent": false
+      },
+      {
+        "id": "reportage-verso-meydan-horizon",
+        "http": 404
+      },
+      {
+        "id": "reportage-epoque-meydan-horizon",
+        "http": 404
+      }
+    ],
     "manualHandoffs": [],
+    "manualHandoffFinding": "Withheld because current matching live pages are not verified; no draft is marked sent.",
     "whatsappQueue": {
       "briefingDate": "2026-10-07",
-      "posts": []
-    }
+      "posts": [],
+      "verifiedReadback": true,
+      "scheduledCheckRunId": 37569027944,
+      "scheduledCheckConclusion": "success",
+      "triggeredManually": false
+    },
+    "ledgerUnchanged": true,
+    "researchContinues": true
   }
 }
