@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-08",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -11,7 +11,9 @@
     "2026-09-19: 45 Instagram-targeted query formulations, including 20 named-broker attempts; NOT 20 successful account inspections. Zero native Instagram accounts inspected. Exact Sorei/Tessera/Samana Eden dated sales signals unverified. Private WhatsApp fresh export blocked by permission gate; no current private-message coverage claimed.",
     "2026-09-25: A privately supplied Status screenshot shows Blue Marina Residence at a 24 September presentation. This is a candidate lead, not evidence of a newly launched phase. Propsearch traced the project by October 2025 and Property Finder shows sales history in March-April 2026; the 24 September event introduced Segrex as sales/distribution partner. Follow exact project/phase for material new terms; do not repeat the initial launch.",
     "2026-10-04: ORAYA corporate-entry release was traced to already marketed Wyndham Residences Marjan Beach (public Instagram content dated 10 August and Wyndham executive reference before September); do not reset project age without a distinct new phase or material commercial release.",
-    "2026-10-06: Rabdan Avenue qualified on a dated 1 October launch event plus Rabdan's official launch recap/project page. Official page confirms 147 homes, 1–3BR plus 3BR duplexes, AED 1.3m start and 40/60; it contains conflicting completion fields (Q1 2028 versus Q2 2029), which must remain disclosed."
+    "2026-10-06: Rabdan Avenue qualified on a dated 1 October launch event plus Rabdan's official launch recap/project page. Official page confirms 147 homes, 1–3BR plus 3BR duplexes, AED 1.3m start and 40/60; it contains conflicting completion fields (Q1 2028 versus Q2 2029), which must remain disclosed.",
+    "2026-10-08: Mercedes-Benz Places Office Towers is held as an unresolved Propsearch-only first trace. Propsearch lists two planned 25-storey office towers, while Binghatti’s official Binghatti City page describes a 12-tower residential community; do not publish offices without developer or independently corroborated commercial evidence.",
+    "2026-10-08: Samana South Haven 2 is a 7 October early-access sales update, not a project first appearing that day; DLD-linked traces predate the event."
   ],
   "sources": [
     {
@@ -747,7 +749,9 @@
     "sorei-by-zoya",
     "tessera-residences",
     "samana-eden-barari",
-    "aldar-talay-marsa-al-saadiyat"
+    "aldar-talay-marsa-al-saadiyat",
+    "zoya-eterea-majan",
+    "samana-south-haven-2"
   ],
   "projectReview": [
     {

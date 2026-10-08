@@ -1,0 +1,469 @@
+{
+  "version": 1,
+  "date": "2026-10-08",
+  "coverage": {
+    "sourceWatchlistSize": 64,
+    "instagramNamedBrokerSourceAttempts": 20,
+    "instagramBrokerSources": [
+      "Allsopp & Allsopp",
+      "haus & haus",
+      "fam Properties",
+      "AX Capital",
+      "Driven Properties",
+      "D&B Properties",
+      "Dacha",
+      "Provident Estate",
+      "Betterhomes",
+      "Unique Properties",
+      "Whitewill",
+      "Metropolitan Group",
+      "Hunt & Harris",
+      "Primo Capital",
+      "Royal Lounge Properties",
+      "Savills Middle East",
+      "Edwards & Towers",
+      "Engel & Volkers Dubai",
+      "Luxhabitat",
+      "TruHauz"
+    ],
+    "instagramVariedQueries": 24,
+    "instagramLanguages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "instagramNativeAccess": false,
+    "instagramFinding": "Indexed searches were attempted for 20 named broker/brokerage sources and 24 varied launch queries. Search visibility was sparse and inconsistent; no native Instagram account or Instagram Stories inspection is claimed.",
+    "youtubeQueries": 4,
+    "youtubeFinding": "Four targeted YouTube queries returned unrelated or non-project results; no current project video was fully inspected.",
+    "googleNews": {
+      "route": "Public Google News RSS, separate emirate queries",
+      "dateWindow": "2026-09-08 to 2026-10-08",
+      "headlineCounts": {
+        "Dubai": 46,
+        "Abu Dhabi": 36,
+        "Ras Al Khaimah": 13
+      },
+      "note": "95 feed records before cross-region deduplication; headline screening, not 95 full article reads."
+    },
+    "requiredNewspapers": [
+      {
+        "name": "Gulf News",
+        "discovery": "Domain-targeted search; Shahrukhz launch report fully read"
+      },
+      {
+        "name": "Khaleej Times",
+        "discovery": "Domain-targeted search; Shahrukhz launch report fully read"
+      },
+      {
+        "name": "The National",
+        "discovery": "Domain-targeted search attempted; no new qualifying launch found"
+      },
+      {
+        "name": "Arabian Business",
+        "discovery": "Domain-targeted indexed searches; no new qualifying launch found"
+      },
+      {
+        "name": "Gulf Today",
+        "discovery": "Domain-targeted search; no new qualifying launch found"
+      }
+    ],
+    "hospitality": "Hospitality Net development and UAE branded-residence searches checked; TradeArabia/TTN targeted searches checked. No new qualifying saleable residence release found beyond already tracked projects.",
+    "propsearchLatestBuildings": {
+      "attempted": true,
+      "inspected": true,
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "detailPagesRead": 3,
+      "access": "Homepage retrieved by public HTTP; new Mercedes-Benz office complex and two sub-building pages read in full. The remaining entries were compared with the 7 October full-page review; no fresh homepage identity change was found."
+    },
+    "whatsappStories": {
+      "requestId": "radar-20261008-stories-32b92fe9d5eda3ce72c1810b524ec5fb",
+      "runId": 37722100256,
+      "artifactPrivatelyDecrypted": true,
+      "visibleRecords": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "mediaFullyInspected": 0,
+      "finding": "getStories returned zero visible records; no media to inspect."
+    },
+    "regionsReviewed": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "qualifyingNewRecords": 2,
+    "qualifyingMaterialUpdates": 2
+  },
+  "instagramQueries": [
+    "Dubai new launch October 2026",
+    "Dubai broker briefing October 2026",
+    "Abu Dhabi coming soon October 2026",
+    "Al Reem new launch October 2026",
+    "Ras Al Khaimah prelaunch October 2026",
+    "Al Marjan EOI October 2026",
+    "KORE Imtiaz reveal",
+    "ETÉREA Zoya first presentation",
+    "Samana South Haven 2 early access",
+    "Eagle Hills Bristol Ramhan",
+    "new phase Dubai October 2026",
+    "new tower Dubai October 2026",
+    "new collection UAE October 2026",
+    "broker allocation Dubai October 2026",
+    "EOI open Dubai October 2026",
+    "sales open Dubai October 2026",
+    "Ellington Al Yalayis",
+    "Ellington Sheikh Zayed Road offices",
+    "Radiant Legacy Al Reem",
+    "The Yards Plaza BEYOND",
+    "إطلاق جديد دبي أكتوبر 2026",
+    "فتح باب الحجز أبوظبي",
+    "старт продаж Дубай октябрь 2026",
+    "сбор EOI Рас-эль-Хайма"
+  ],
+  "instagramBrokerQueries": [
+    "site:instagram.com \"Allsopp & Allsopp\" UAE launch October 2026",
+    "site:instagram.com \"haus & haus\" UAE launch October 2026",
+    "site:instagram.com \"fam Properties\" UAE launch October 2026",
+    "site:instagram.com \"AX Capital\" UAE launch October 2026",
+    "site:instagram.com \"Driven Properties\" UAE launch October 2026",
+    "site:instagram.com \"D&B Properties\" UAE launch October 2026",
+    "site:instagram.com \"Dacha\" UAE launch October 2026",
+    "site:instagram.com \"Provident Estate\" UAE launch October 2026",
+    "site:instagram.com \"Betterhomes\" UAE launch October 2026",
+    "site:instagram.com \"Unique Properties\" UAE launch October 2026",
+    "site:instagram.com \"Whitewill\" UAE launch October 2026",
+    "site:instagram.com \"Metropolitan Group\" UAE launch October 2026",
+    "site:instagram.com \"Hunt & Harris\" UAE launch October 2026",
+    "site:instagram.com \"Primo Capital\" UAE launch October 2026",
+    "site:instagram.com \"Royal Lounge Properties\" UAE launch October 2026",
+    "site:instagram.com \"Savills Middle East\" UAE launch October 2026",
+    "site:instagram.com \"Edwards & Towers\" UAE launch October 2026",
+    "site:instagram.com \"Engel & Volkers Dubai\" UAE launch October 2026",
+    "site:instagram.com \"Luxhabitat\" UAE launch October 2026",
+    "site:instagram.com \"TruHauz\" UAE launch October 2026"
+  ],
+  "qualifying": [
+    {
+      "id": "danube-shahrukhz-2-residences",
+      "aliases": [
+        "danube-shahrukhz-residences",
+        "shahrukhz-residences-by-danube"
+      ],
+      "project": "Shahrukhz Residences",
+      "developer": "Danube Properties",
+      "developerId": "danube",
+      "emirate": "Dubai",
+      "location": "Dubai Maritime City, Dubai",
+      "type": [
+        "apartments",
+        "penthouses"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Officially launched on 7 October 2026.",
+      "startingPrice": 1650000,
+      "pricePerSqft": null,
+      "priceConfirmed": true,
+      "confirmedBy": "https://danubeproperties.com/portfolio/shahrukhz-residences/",
+      "paymentPlan": "30/70: 30% during construction and 70% on handover",
+      "handover": "Q4 2029",
+      "teaser": "Danube launches fully furnished waterfront homes from AED 1.65 million.",
+      "summary": "Danube officially launched Shahrukhz Residences on 7 October 2026 as a fully furnished waterfront tower in Dubai Maritime City. The official collection runs from studios to four-bedroom apartments and penthouses, with more than 40 amenities, a rooftop King’s Club and private-yacht access. Penthouses are designed by Gauri Khan.",
+      "unitMix": [
+        {
+          "type": "Studio apartment"
+        },
+        {
+          "type": "1BR apartment"
+        },
+        {
+          "type": "2BR apartment"
+        },
+        {
+          "type": "3BR apartment"
+        },
+        {
+          "type": "4BR apartment"
+        },
+        {
+          "type": "Penthouse",
+          "note": "Interiors designed by Gauri Khan"
+        }
+      ],
+      "whatNext": "Sales are open; subscribe on this page for verified inventory and unit-specific availability updates.",
+      "confidenceNote": "High confidence: Danube’s official project page confirms the project name, location, unit mix, AED 1.65m starting price, 30/70 plan and Q4 2029 completion. Availability remains unit-specific.",
+      "sources": [
+        {
+          "url": "https://danubeproperties.com/portfolio/shahrukhz-residences/",
+          "label": "Danube official project page: price, payment plan, completion and unit mix",
+          "date": "2026-10-07",
+          "primary": true
+        },
+        {
+          "url": "https://gulfnews.com/business/corporate-news/shah-rukh-khan-rizwan-sajan-reunite-for-shahrukhz-residences-by-danube-1.500701625",
+          "label": "Gulf News launch report and amenity detail",
+          "date": "2026-10-07",
+          "primary": false
+        },
+        {
+          "url": "https://www.khaleejtimes.com/business/property/shah-rukh-khan-rizwan-sajan-reunite-for-shahrukhz-residences-by-danube-with-gauri-khan-designed-penthouses",
+          "label": "Khaleej Times launch report",
+          "date": "2026-10-07",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-09-19",
+      "updatedAt": "2026-10-08",
+      "published": true,
+      "seoTitle": "Shahrukhz Residences by Danube: Official Launch | GRAF",
+      "seoDescription": "Danube launches fully furnished Shahrukhz Residences in Dubai Maritime City from AED 1.65m, with a 30/70 plan and Q4 2029 completion."
+    },
+    {
+      "id": "beyond-the-yards-plaza",
+      "parentId": "beyond-the-yards",
+      "phase": "The Yards Plaza — commercial release",
+      "project": "The Yards Plaza",
+      "developer": "BEYOND Developments",
+      "emirate": "Dubai",
+      "location": "The Yards, City of Arabia, Wadi Al Safa 4, Dubai",
+      "type": [
+        "offices"
+      ],
+      "status": "confirmed",
+      "launchWindow": "BEYOND officially introduced the project on 7 October 2026; M&M Real Estate reports the sales launch for 19 October and EOIs open now.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "M&M Real Estate reports offices from AED 2.85m; other brokers had indicated about AED 3.0m–3.05m and around AED 2,300/sqft. A current BEYOND price list was not independently inspected.",
+      "paymentPlan": "M&M reports 40/60; earlier brokers circulated 50/50, so the final BEYOND schedule still requires confirmation.",
+      "handover": "Q3 2029, broker/DLD-indicated; contractual handover not independently confirmed",
+      "teaser": "BEYOND confirms four connected office blocks at The Yards.",
+      "summary": "BEYOND officially introduced The Yards Plaza on 7 October 2026 as the commercial chapter of The Yards in City of Arabia. Four connected office blocks sit above retail and dining, with landscape, wellbeing and leisure integrated into the workplace concept. DLD-linked research and current broker material describe 272 shell-and-core offices; current price, EOI and payment terms remain broker indications.",
+      "unitMix": [
+        {
+          "type": "Shell-and-core office",
+          "sizeSqftFrom": 1320,
+          "sizeSqftTo": 3189,
+          "note": "Current DLD-linked portal and broker range; final BEYOND inventory schedule awaited"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Current brokers report AED 100,000 EOI; refundability and allocation conditions await direct BEYOND confirmation."
+      },
+      "whatNext": "Await BEYOND’s sales release, developer price list, current office inventory and signed EOI/payment conditions; subscribe for verified updates.",
+      "confidenceNote": "High confidence in identity, location, four-block concept and official announcement from BEYOND. Medium on 272 offices, sizes and commercial terms, which remain broker/DLD-linked indications.",
+      "sources": [
+        {
+          "url": "https://www.linkedin.com/posts/beyonddevelopments_the-yards-plaza-by-beyond-activity-7513529920099287041-ERLE",
+          "label": "BEYOND official introduction of The Yards Plaza",
+          "date": "2026-10-07",
+          "primary": true
+        },
+        {
+          "url": "https://www.mandmrealestate.ae/insights/the-yards-plaza-beyond-city-of-arabia-offices-investment-case",
+          "label": "M&M dated broker analysis: 272 offices, indicative price, launch timing and handover",
+          "date": "2026-10-07",
+          "primary": false
+        },
+        {
+          "url": "https://www.propertyae.ae/projects/the-yards-plaza-by-beyond",
+          "label": "DLD-linked project data: four buildings, 272 offices and sizes",
+          "primary": false
+        },
+        {
+          "url": "https://propsearch.ae/dubai/the-plaza-by-beyond",
+          "label": "Propsearch building identity at The Yards; First Trace is not used as launch timing",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-07",
+      "updatedAt": "2026-10-08",
+      "published": true
+    },
+    {
+      "id": "zoya-eterea-majan",
+      "aliases": [
+        "eterea-by-zoya"
+      ],
+      "project": "ETÉREA by Zoya",
+      "developer": "Zoya Developments",
+      "emirate": "Dubai",
+      "location": "Majan, Wadi Al Safa 3, DubaiLand, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "The first project presentation is scheduled for 8 October 2026, 10:00 AM–12:00 PM, at Zoya Sales Gallery in Bay Square.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Property Finder indicates an AED 1.1m launch price; Silver Oak lists AED 1.13m–4m. A developer-issued price list was not independently inspected.",
+      "paymentPlan": "Property Finder advertises 15% at launch, 34% during construction, 11% on handover and 40% post-handover; developer confirmation is awaited.",
+      "handover": "Q3 2029, portal/broker-indicated",
+      "teaser": "First presentation today for 92 fully furnished homes in Majan.",
+      "summary": "Broker and portal sources identify ETÉREA as a 92-home fully furnished residence by Zoya Developments in Majan, with one- to three-bedroom apartments. A dated invitation describes 8 October as the project’s first presentation and official commission announcement. Prices, payment terms and handover remain unconfirmed by an independently inspected developer sales pack.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "sizeSqftFrom": 560,
+          "note": "Broker-listed; final developer schedule awaited"
+        },
+        {
+          "type": "2BR apartment",
+          "sizeSqftFrom": 790,
+          "note": "Broker-listed; final developer schedule awaited"
+        },
+        {
+          "type": "3BR apartment",
+          "sizeSqftFrom": 1826,
+          "sizeSqftTo": 1956,
+          "note": "Broker-listed; final developer schedule awaited"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Presale/EOI status is reported, but the amount and refund terms were not verified."
+      },
+      "whatNext": "Await today’s presentation outcome, Zoya’s current price list, signed payment schedule and EOI terms; subscribe for verified updates.",
+      "confidenceNote": "Medium confidence: a dated first-presentation invitation, Property Finder project page, Propsearch identity and an independent broker corroborate the same project. No accessible dated developer project page or price list was inspected.",
+      "sources": [
+        {
+          "url": "https://alnair.ae/uk/news/etrea-by-zoya-exclusive-breakfast-experience",
+          "label": "Dated first-presentation invitation for 8 October 2026",
+          "date": "2026-10-07",
+          "primary": true
+        },
+        {
+          "url": "https://www.propertyfinder.ae/en/new-projects/zoya-developments/eterea",
+          "label": "Property Finder: location, unit mix and indicative commercial terms",
+          "primary": false
+        },
+        {
+          "url": "https://www.silveroakglobal.com/projects/et-rea-by-zoya-e9719052",
+          "label": "Independent broker corroboration: furnishing, sizes and price range",
+          "primary": false
+        },
+        {
+          "url": "https://propsearch.ae/dubai/eterea-by-zoya",
+          "label": "Propsearch building identity and estimated 92-unit count",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "published": true
+    },
+    {
+      "id": "samana-south-haven-2",
+      "parentId": "samana-south-haven",
+      "phase": "South Haven 2",
+      "project": "Samana South Haven 2",
+      "developer": "Samana Developers",
+      "emirate": "Dubai",
+      "location": "Saih Shuaib 2, Dubai Industrial City, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "A dated broker notice says early access opened on 7 October 2026. The underlying project was already registered and visible before this sales event, so 7 October is not treated as its first trace.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Property Finder and Augusta list prices from AED 599,000; Alnair’s 7 October early-access release quotes studios from AED 644,000, 1BR from AED 949,000 and 2BR from AED 1.31m. A current Samana price list was not independently inspected.",
+      "paymentPlan": "A current listing advertises 40% post-handover; the complete developer payment schedule was not verified.",
+      "handover": "Q2 2029, broker/DLD-registry indicated",
+      "teaser": "Early access opens for 137 homes in Dubai Industrial City.",
+      "summary": "A dated 7 October broker notice says early access is open for Samana South Haven 2 in Dubai Industrial City; this is a sales-stage update, not a claim that the registered project itself first appeared yesterday. DLD-linked sources describe 137 homes: 48 studios, 84 one-bedroom and five two-bedroom apartments. Prices, AED 40,000 EOI and post-handover terms remain broker indications pending Samana’s current sales pack.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "sizeSqftFrom": 344,
+          "sizeSqftTo": 369,
+          "note": "48 units; DLD-registry-linked broker data"
+        },
+        {
+          "type": "1BR apartment",
+          "sizeSqftFrom": 608,
+          "sizeSqftTo": 671,
+          "note": "84 units; DLD-registry-linked broker data"
+        },
+        {
+          "type": "2BR apartment",
+          "sizeSqftFrom": 1059,
+          "sizeSqftTo": 1085,
+          "note": "5 units; DLD-registry-linked broker data"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Alnair reports AED 40,000 EOI; refundability and allocation terms await developer confirmation."
+      },
+      "whatNext": "Await Samana’s current price list, full payment plan, EOI refund terms and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "Medium confidence: the 7 October early-access event is dated, while project identity, location, unit counts and Q2 2029 handover are corroborated by portal and DLD-linked sources. No accessible current Samana project page or price list was inspected.",
+      "sources": [
+        {
+          "url": "https://alnair.ae/en/news/early-access-opens-for-samana-south-haven-2-in-dubai",
+          "label": "Dated 7 October early-access and EOI report",
+          "date": "2026-10-07",
+          "primary": true
+        },
+        {
+          "url": "https://www.propertyfinder.ae/en/new-projects/samana-developers/samana-south-haven-2",
+          "label": "Property Finder project identity, location and indicative starting price",
+          "primary": false
+        },
+        {
+          "url": "https://www.augusta-properties.com/explore/samana-developers-samana-south-haven-2",
+          "label": "Licensed broker: DLD-linked 137-unit mix, handover and indicative price",
+          "primary": false
+        },
+        {
+          "url": "https://continentalclub.ae/project/samana-south-haven-2-dubai-industrial-city/",
+          "label": "DLD-registry-linked unit sizes and counts",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-08",
+      "updatedAt": "2026-10-08",
+      "published": true
+    }
+  ],
+  "candidateDispositions": [
+    "Mercedes-Benz Places Office Towers: hold; Propsearch conflicts with Binghatti’s current residential-only city description.",
+    "KORE by Imtiaz: 8 October reveal had not begun at research time; no new developer price list verified.",
+    "Radiant Legacy: conflicting residential-versus-office descriptions remain unresolved.",
+    "The Bristol Hotel & Residences: no distinct new phase or material developer update verified.",
+    "Elemental78: completed/ready project, excluded."
+  ],
+  "latestBuildings": {
+    "date": "2026-10-08",
+    "scope": "Homepage Latest buildings ONLY",
+    "screened": 20,
+    "detailPagesRead": 3,
+    "newTopEntry": {
+      "name": "Mercedes-Benz Places Office Towers",
+      "disposition": "hold-unresolved",
+      "finding": "Propsearch first trace October 2026; two planned 25-storey office buildings. Conflicts with current official Binghatti 12-residential-tower description.",
+      "nextCheck": "Developer office announcement, sales identity, unit mix and commercial terms"
+    }
+  },
+  "publication": {
+    "state": "feed-commit-pending-site-delivery",
+    "schemaValidated": true,
+    "liveChecks": [],
+    "manualHandoffs": [],
+    "manualHandoffFinding": "Withheld until matching live pages are verified.",
+    "whatsappQueue": {
+      "briefingDate": "2026-10-08",
+      "posts": [],
+      "triggeredManually": false
+    },
+    "ledgerUnchanged": true,
+    "researchContinues": true
+  }
+}
