@@ -1993,6 +1993,89 @@
       "firstReported": "2026-10-08",
       "updatedAt": "2026-10-08",
       "published": true
+    },
+    {
+      "id": "burtville-bab-al-qasr-beach-resort-residence-77",
+      "project": "Bab Al Qasr Beach Resort Residence 77",
+      "developer": "Burtville Developments",
+      "emirate": "Abu Dhabi",
+      "location": "Bilshu'oum Street, beside Reem Central Park, Al Reem Island, Abu Dhabi",
+      "type": [
+        "apartments",
+        "duplexes",
+        "penthouses"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official project launch and brokers briefing confirmed by Burtville. The announcement is datelined 1 October 2026 and was published on 5 October; the exact event day is not independently established. Earlier prelaunch marketing existed, so this is the formal unveiling, not a claim of first-ever sales.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Impala's project page, checked 27 September 2026, advertises a base starting figure of AED 2.2m; Casadior advertises AED 2.37m. These are broker indications with different offer and inventory assumptions, not a verified current Burtville price list.",
+      "paymentPlan": "Impala reports 10/40/50, 20/40/40 and 30/40/30 alternatives, with incentives linked to the initial payment. Current developer schedules and offer eligibility are unverified.",
+      "handover": "Q4 2031, developer-stated target",
+      "teaser": "Burtville confirms a beachfront broker launch beside Reem Central Park.",
+      "summary": "Burtville has confirmed the official launch and brokers briefing for Bab Al Qasr Beach Resort Residence 77 on Al Reem Island, following earlier prelaunch marketing. The project offers fully furnished one- to three-bedroom residences and four- and five-bedroom duplex penthouses in three towers, with direct beach access and a connected Beach Club. Its location is on Bilshu'oum Street beside Reem Central Park; amenities include pools, a spa, fitness facilities, padel and a 650-metre walking and jogging track. The developer targets Q4 2031 handover; current prices, payment incentives and EOI terms still await a verified sales pack.",
+      "unitMix": [
+        {
+          "type": "1BR residence"
+        },
+        {
+          "type": "2BR residence"
+        },
+        {
+          "type": "3BR residence"
+        },
+        {
+          "type": "4BR duplex penthouse"
+        },
+        {
+          "type": "5BR duplex penthouse"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "No current developer-confirmed EOI amount or refundability terms inspected."
+      },
+      "whatNext": "Await the current Burtville price list, released inventory, signed payment schedule and EOI terms; subscribe for verified updates.",
+      "confidenceNote": "High on the official launch recap, exact location, furnished unit mix, beach access and Q4 2031 target. The 1 October release dateline and later publication dates do not establish an exact event day. Prices and payment options remain broker indications.",
+      "sources": [
+        {
+          "url": "https://burtville.com/en/projects/bab-al-qasr-beach-resort-residence-77/",
+          "label": "Burtville official project page: location, furnished unit mix, amenities and handover",
+          "primary": true
+        },
+        {
+          "url": "https://www.linkedin.com/posts/burtville-developments_we-were-delighted-to-welcome-our-valued-brokers-activity-7512493538979504128-Wv6t",
+          "label": "Burtville official launch and brokers briefing recap",
+          "primary": false
+        },
+        {
+          "url": "https://uaenews247.com/2026/10/05/burtville-unveils-bab-al-qasr-beach-resort-residence-77-in-abu-dhabi/",
+          "label": "Launch release datelined 1 October; article published 5 October",
+          "date": "2026-10-05",
+          "primary": false
+        },
+        {
+          "url": "https://impalarealestate.com/projects/bab-al-qasr-residence-77/",
+          "label": "Broker pricing and payment alternatives; not current developer confirmation",
+          "primary": false
+        },
+        {
+          "url": "https://maisondubai.com/projects/bab-al-qasr-residence-77",
+          "label": "Separate broker price indication",
+          "primary": false
+        },
+        {
+          "url": "https://dda-realestate.com/posts/bab-al-qasr-residence-77-a-beach-address-with-a-30-discount",
+          "label": "Earlier 24 August marketing: formal unveiling is not first-ever appearance",
+          "date": "2026-08-24",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-09",
+      "updatedAt": "2026-10-09",
+      "published": true
     }
   ],
   "version": 1
