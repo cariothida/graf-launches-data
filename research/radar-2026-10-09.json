@@ -190,15 +190,20 @@
       "syncRunId": 37881924384,
       "syncConclusion": "failure: protected main requires PR",
       "recoveryPr": 91,
-      "state": "merged; awaiting production deployment",
-      "recoveryMerge": "0727d442d6e687a6eb56ec5242c8e37963cd08f9"
+      "state": "live-verified",
+      "recoveryMerge": "0727d442d6e687a6eb56ec5242c8e37963cd08f9",
+      "deployRunId": 37882519257,
+      "deployConclusion": "success",
+      "pageStatus": 200,
+      "feedMarkerMatched": true,
+      "liveUrl": "https://graf.ae/launches/burtville-bab-al-qasr-beach-resort-residence-77/"
     },
     "queue": {
       "date": "2026-10-09",
       "posts": 0,
       "commit": "5a0216a43b8561185d262f28bf0f36d6168660cb"
     },
-    "manualHandoff": "Prepared, not delivered or channel-published; pending live publication"
+    "manualHandoff": "Prepared for current conversation handoff with inspected S06 portrait card and complete English caption; Alex posts manually, no channel publication claimed."
   },
   "instagramUniqueQueries": [
     "site:instagram.com Dubai \"coming soon\" \"October 2026\"",
@@ -251,10 +256,27 @@
     "exactProjectImageUrl": "https://d3ghol0e93b0z5.cloudfront.net/images/2/29a6b6553a2b0d651999957569ae0e1fba293fdb3388629b43a36f20baa6dba8.webp"
   },
   "delivery": {
-    "state": "production deploy in progress",
+    "state": "live-verified; prepared-for-current-conversation-handoff",
     "runId": 37882519257,
     "mergeCommit": "0727d442d6e687a6eb56ec5242c8e37963cd08f9",
     "manualOnly": true,
-    "channelPublication": false
+    "channelPublication": false,
+    "pageStatus": 200,
+    "matchingFeedMarker": "5a0216a43b8561185d262f28bf0f36d6168660cb",
+    "deployConclusion": "success",
+    "handoff": {
+      "projectId": "burtville-bab-al-qasr-beach-resort-residence-77",
+      "eventKey": "burtville-bab-al-qasr-beach-resort-residence-77:2026-10-formal-unveiling",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-09",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_41a8d92ec6e881919aac789b426157f1"
+    }
   }
 }
