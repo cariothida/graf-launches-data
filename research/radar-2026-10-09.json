@@ -1,0 +1,260 @@
+{
+  "date": "2026-10-09",
+  "approved": [
+    {
+      "id": "burtville-bab-al-qasr-beach-resort-residence-77",
+      "project": "Bab Al Qasr Beach Resort Residence 77",
+      "developer": "Burtville Developments",
+      "emirate": "Abu Dhabi",
+      "location": "Bilshu'oum Street, beside Reem Central Park, Al Reem Island, Abu Dhabi",
+      "type": [
+        "apartments",
+        "duplexes",
+        "penthouses"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official project launch and brokers briefing confirmed by Burtville. The announcement is datelined 1 October 2026 and was published on 5 October; the exact event day is not independently established. Earlier prelaunch marketing existed, so this is the formal unveiling, not a claim of first-ever sales.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Impala's project page, checked 27 September 2026, advertises a base starting figure of AED 2.2m; Casadior advertises AED 2.37m. These are broker indications with different offer and inventory assumptions, not a verified current Burtville price list.",
+      "paymentPlan": "Impala reports 10/40/50, 20/40/40 and 30/40/30 alternatives, with incentives linked to the initial payment. Current developer schedules and offer eligibility are unverified.",
+      "handover": "Q4 2031, developer-stated target",
+      "teaser": "Burtville confirms a beachfront broker launch beside Reem Central Park.",
+      "summary": "Burtville has confirmed the official launch and brokers briefing for Bab Al Qasr Beach Resort Residence 77 on Al Reem Island, following earlier prelaunch marketing. The project offers fully furnished one- to three-bedroom residences and four- and five-bedroom duplex penthouses in three towers, with direct beach access and a connected Beach Club. Its location is on Bilshu'oum Street beside Reem Central Park; amenities include pools, a spa, fitness facilities, padel and a 650-metre walking and jogging track. The developer targets Q4 2031 handover; current prices, payment incentives and EOI terms still await a verified sales pack.",
+      "unitMix": [
+        {
+          "type": "1BR residence"
+        },
+        {
+          "type": "2BR residence"
+        },
+        {
+          "type": "3BR residence"
+        },
+        {
+          "type": "4BR duplex penthouse"
+        },
+        {
+          "type": "5BR duplex penthouse"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "No current developer-confirmed EOI amount or refundability terms inspected."
+      },
+      "whatNext": "Await the current Burtville price list, released inventory, signed payment schedule and EOI terms; subscribe for verified updates.",
+      "confidenceNote": "High on the official launch recap, exact location, furnished unit mix, beach access and Q4 2031 target. The 1 October release dateline and later publication dates do not establish an exact event day. Prices and payment options remain broker indications.",
+      "sources": [
+        {
+          "url": "https://burtville.com/en/projects/bab-al-qasr-beach-resort-residence-77/",
+          "label": "Burtville official project page: location, furnished unit mix, amenities and handover",
+          "primary": true
+        },
+        {
+          "url": "https://www.linkedin.com/posts/burtville-developments_we-were-delighted-to-welcome-our-valued-brokers-activity-7512493538979504128-Wv6t",
+          "label": "Burtville official launch and brokers briefing recap",
+          "primary": false
+        },
+        {
+          "url": "https://uaenews247.com/2026/10/05/burtville-unveils-bab-al-qasr-beach-resort-residence-77-in-abu-dhabi/",
+          "label": "Launch release datelined 1 October; article published 5 October",
+          "date": "2026-10-05",
+          "primary": false
+        },
+        {
+          "url": "https://impalarealestate.com/projects/bab-al-qasr-residence-77/",
+          "label": "Broker pricing and payment alternatives; not current developer confirmation",
+          "primary": false
+        },
+        {
+          "url": "https://maisondubai.com/projects/bab-al-qasr-residence-77",
+          "label": "Separate broker price indication",
+          "primary": false
+        },
+        {
+          "url": "https://dda-realestate.com/posts/bab-al-qasr-residence-77-a-beach-address-with-a-30-discount",
+          "label": "Earlier 24 August marketing: formal unveiling is not first-ever appearance",
+          "date": "2026-08-24",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-09",
+      "updatedAt": "2026-10-09",
+      "published": true
+    }
+  ],
+  "coverage": {
+    "date": "2026-10-09",
+    "sourceWatchlistSize": 64,
+    "regionsReviewed": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "dateWindow": "2026-09-09 to 2026-10-09; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
+    "instagramNamedBrokerSourceAttempts": 20,
+    "instagramBrokerSources": [
+      "Allsopp & Allsopp",
+      "haus & haus",
+      "fam Properties",
+      "AX Capital",
+      "Driven Properties",
+      "D&B Properties",
+      "Dacha",
+      "Provident Estate",
+      "Betterhomes",
+      "Unique Properties",
+      "Whitewill",
+      "Metropolitan Properties",
+      "Hunt & Harris",
+      "Primo Capital",
+      "Royal Lounge Properties",
+      "Edwards & Towers",
+      "Engel Volkers Dubai",
+      "DRE Homes",
+      "Top Luxury Property",
+      "Offplan Insider"
+    ],
+    "instagramVariedQueries": 24,
+    "instagramQueryAttempts": 48,
+    "instagramLanguages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "instagramNativeAccess": false,
+    "instagramFinding": "20 named-source searches and 24 unique varied queries attempted. The 24 varied queries were retried on the stronger search engine after sparse/empty initial results. Indexed discovery only; zero native accounts/Stories or full Instagram media inspections claimed.",
+    "googleNews": {
+      "route": "Separate public RSS requests for Dubai, Abu Dhabi and Ras Al Khaimah",
+      "retrieval": "All three requests returned HTTP 503; no feed records inspected",
+      "fallback": "Fresh domain-targeted newspaper and launch searches"
+    },
+    "requiredNewspapers": [
+      {
+        "name": "Gulf News",
+        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+      },
+      {
+        "name": "Khaleej Times",
+        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+      },
+      {
+        "name": "The National",
+        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+      },
+      {
+        "name": "Arabian Business",
+        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+      },
+      {
+        "name": "Gulf Today",
+        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+      }
+    ],
+    "hospitality": "Hospitality Net, TTN and TradeArabia targeted search. TTN 8 October Accor Pullman/Movenpick signing article repeats existing announcements and is excluded.",
+    "youtubeFinding": "Targeted YouTube discovery produced sparse/unrelated results; no full project video inspection.",
+    "propsearchLatestBuildings": {
+      "attempted": true,
+      "inspected": true,
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "detailPagesRead": 20,
+      "access": "HTTP fallback; all 20 detail reads returned 200"
+    },
+    "whatsappStories": {
+      "requestId": "radar-20261009-stories-4d9f0214e962c57a690107a6f4f7e157",
+      "runId": 37880893372,
+      "artifactPrivatelyDecrypted": true,
+      "visibleRecords": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "mediaFullyInspected": 0,
+      "finding": "Official getStories returned zero visible records; no media to inspect"
+    },
+    "whatsappChats": {
+      "requestId": "radar-20261009-chats-a48aa9503ef0d03f8a4d9a690d211311",
+      "runId": 37881600372,
+      "artifactPrivatelyDecrypted": true,
+      "chatsListed": 0,
+      "historyChatsSelected": 0,
+      "finding": "Empty getChats response; workflow failed, no message histories inspected"
+    },
+    "qualifyingNewRecords": 1,
+    "qualifyingMaterialUpdates": 0,
+    "website": {
+      "feedCommit": "6c430eef796331d78e548169dd216b8111e86222",
+      "feedVersion": "5a0216a43b8561185d262f28bf0f36d6168660cb",
+      "syncRunId": 37881924384,
+      "syncConclusion": "failure: protected main requires PR",
+      "recoveryPr": 91,
+      "state": "merged; awaiting production deployment",
+      "recoveryMerge": "0727d442d6e687a6eb56ec5242c8e37963cd08f9"
+    },
+    "queue": {
+      "date": "2026-10-09",
+      "posts": 0,
+      "commit": "5a0216a43b8561185d262f28bf0f36d6168660cb"
+    },
+    "manualHandoff": "Prepared, not delivered or channel-published; pending live publication"
+  },
+  "instagramUniqueQueries": [
+    "site:instagram.com Dubai \"coming soon\" \"October 2026\"",
+    "site:instagram.com Dubai \"EOI\" \"October\"",
+    "site:instagram.com \"Abu Dhabi\" \"pre-launch\" October",
+    "site:instagram.com \"Abu Dhabi\" \"launching soon\"",
+    "site:instagram.com \"Ras Al Khaimah\" \"new launch\" October",
+    "site:instagram.com \"Al Marjan\" \"prelaunch\" October",
+    "site:instagram.com Ellington \"Al Yalayis\"",
+    "site:instagram.com Ellington \"office\" \"Sheikh Zayed\"",
+    "site:instagram.com Aldar \"new phase\" October",
+    "site:instagram.com Modon \"EOI\" October 2026",
+    "site:instagram.com \"RAK Properties\" \"launch\" October",
+    "site:instagram.com \"BNW\" \"coming soon\"",
+    "site:instagram.com Dubai \"broker briefing\" October 2026",
+    "site:instagram.com \"Abu Dhabi\" \"new collection\" October",
+    "site:instagram.com \"Al Marjan\" \"registration open\"",
+    "site:instagram.com Dubai \"inventory release\" October",
+    "site:instagram.com \"KORE\" Imtiaz",
+    "site:instagram.com \"ETÉREA\" Zoya",
+    "site:instagram.com \"Ritz Carlton\" \"SAAS\" Maryah",
+    "site:instagram.com \"Bab Al Qasr\" \"77\"",
+    "site:instagram.com \"دبي\" \"إطلاق جديد\" أكتوبر",
+    "site:instagram.com \"أبوظبي\" \"قريباً\" عقارات",
+    "site:instagram.com \"Рас-эль-Хайма\" \"старт продаж\"",
+    "site:instagram.com \"Дубай\" \"сбор EOI\" октябрь"
+  ],
+  "dispositions": {
+    "date": "2026-10-09",
+    "updates": [
+      "burtville-bab-al-qasr-beach-resort-residence-77"
+    ],
+    "held": [
+      "KORE by Imtiaz: Broker posts report 8 October reveal; no new independently inspected developer price/payment pack or distinct material terms versus existing feed.",
+      "X11 by BAMX: 15 October formal launch was already retained on 7 October; earlier March/July marketing exists. No fresh distinct release or commercial terms verified.",
+      "Vision Iconic / Mercedes-Benz Places Binghatti City: 6 October event does not reset January project identity; broker discount and payment claims conflict. New office identity separately remains uncorroborated.",
+      "Ellington Al Yalayis and proposed SZR office: No independently verified fresh developer announcement or reconciled identity; Atelier/The Langston labels and EOI figures remain unresolved broker leads.",
+      "Radisson Residences Marjan Island Tower 3 / Phase 2: Existing older site identity and broker September Phase2 marketing with conflicting completion dates; no new October inventory event established."
+    ]
+  },
+  "publicAssets": {
+    "imageStyle": "S06",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "opaque": true,
+    "imageInspected": true,
+    "source": "https://burtville.com/en/projects/bab-al-qasr-beach-resort-residence-77/",
+    "exactProjectImageUrl": "https://d3ghol0e93b0z5.cloudfront.net/images/2/29a6b6553a2b0d651999957569ae0e1fba293fdb3388629b43a36f20baa6dba8.webp"
+  },
+  "delivery": {
+    "state": "production deploy in progress",
+    "runId": 37882519257,
+    "mergeCommit": "0727d442d6e687a6eb56ec5242c8e37963cd08f9",
+    "manualOnly": true,
+    "channelPublication": false
+  }
+}
