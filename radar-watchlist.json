@@ -1177,15 +1177,20 @@
       "syncRunId": 37881924384,
       "syncConclusion": "failure: protected main requires PR",
       "recoveryPr": 91,
-      "state": "merged; awaiting production deployment",
-      "recoveryMerge": "0727d442d6e687a6eb56ec5242c8e37963cd08f9"
+      "state": "live-verified",
+      "recoveryMerge": "0727d442d6e687a6eb56ec5242c8e37963cd08f9",
+      "deployRunId": 37882519257,
+      "deployConclusion": "success",
+      "pageStatus": 200,
+      "feedMarkerMatched": true,
+      "liveUrl": "https://graf.ae/launches/burtville-bab-al-qasr-beach-resort-residence-77/"
     },
     "queue": {
       "date": "2026-10-09",
       "posts": 0,
       "commit": "5a0216a43b8561185d262f28bf0f36d6168660cb"
     },
-    "manualHandoff": "Prepared, not delivered or channel-published; pending live publication"
+    "manualHandoff": "Prepared for current conversation handoff with inspected S06 portrait card and complete English caption; Alex posts manually, no channel publication claimed."
   },
   "lastMaterialUpdate": {
     "date": "2026-10-09",
@@ -1672,6 +1677,20 @@
         1080,
         1920
       ]
+    },
+    {
+      "projectId": "burtville-bab-al-qasr-beach-resort-residence-77",
+      "eventKey": "burtville-bab-al-qasr-beach-resort-residence-77:2026-10-formal-unveiling",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-09",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_41a8d92ec6e881919aac789b426157f1"
     }
   ]
 }
