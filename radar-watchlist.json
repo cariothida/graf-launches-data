@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09",
+  "updatedAt": "2026-10-10",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -14,7 +14,8 @@
     "2026-10-06: Rabdan Avenue qualified on a dated 1 October launch event plus Rabdan's official launch recap/project page. Official page confirms 147 homes, 1–3BR plus 3BR duplexes, AED 1.3m start and 40/60; it contains conflicting completion fields (Q1 2028 versus Q2 2029), which must remain disclosed.",
     "2026-10-08: Mercedes-Benz Places Office Towers is held as an unresolved Propsearch-only first trace. Propsearch lists two planned 25-storey office towers, while Binghatti’s official Binghatti City page describes a 12-tower residential community; do not publish offices without developer or independently corroborated commercial evidence.",
     "2026-10-08: Samana South Haven 2 is a 7 October early-access sales update, not a project first appearing that day; DLD-linked traces predate the event.",
-    "2026-10-09: Residence 77 is a formal unveiling following earlier marketing, not a first-ever sales claim. Exact event day is unresolved; developer commercial prices/payment/EOI await a current pack. Production sync validation accepted 1 new record and skipped 34 unchanged records, but direct push was blocked by protected main; recover through PR without changing workflows."
+    "2026-10-09: Residence 77 is a formal unveiling following earlier marketing, not a first-ever sales claim. Exact event day is unresolved; developer commercial prices/payment/EOI await a current pack. Production sync validation accepted 1 new record and skipped 34 unchanged records, but direct push was blocked by protected main; recover through PR without changing workflows.",
+    "2026-10-10: Lunara Tower qualifies as a dated 6 October broker EOI update after September/3 October marketing. Propsearch AED 85k is not a verified full purchase price. Broker payment split is 50% on booking / 50% on handover, not staged construction instalments. Matching-copy brokers counted as one information origin."
   ],
   "sources": [
     {
@@ -1073,140 +1074,158 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "sourceWatchlistSize": 64,
     "regionsReviewed": [
       "Dubai",
       "Abu Dhabi",
       "Ras Al Khaimah"
     ],
-    "dateWindow": "2026-09-09 to 2026-10-09; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
+    "dateWindow": "2026-09-10 to 2026-10-10; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
     "instagramNamedBrokerSourceAttempts": 20,
     "instagramBrokerSources": [
-      "Allsopp & Allsopp",
-      "haus & haus",
-      "fam Properties",
-      "AX Capital",
-      "Driven Properties",
-      "D&B Properties",
-      "Dacha",
-      "Provident Estate",
-      "Betterhomes",
-      "Unique Properties",
-      "Whitewill",
-      "Metropolitan Properties",
-      "Hunt & Harris",
-      "Primo Capital",
-      "Royal Lounge Properties",
-      "Edwards & Towers",
-      "Engel Volkers Dubai",
+      "Albina Sultanova",
+      "Grand Reve Realty",
+      "Future Key Properties",
+      "Propsense Realty",
       "DRE Homes",
+      "Equity Edge",
+      "Off Plan Dubai",
+      "Luxury Falcon Properties",
       "Top Luxury Property",
-      "Offplan Insider"
+      "SANSAV",
+      "Royal Lounge Properties",
+      "Hunt & Harris",
+      "TruHauz",
+      "Whitewill",
+      "Primo Capital",
+      "Metropolitan Group",
+      "Engel Volkers Dubai",
+      "Savills Middle East",
+      "Edwards & Towers",
+      "Luxhabitat"
     ],
     "instagramVariedQueries": 24,
-    "instagramQueryAttempts": 48,
+    "instagramQueryAttempts": 68,
     "instagramLanguages": [
       "English",
       "Arabic",
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "20 named-source searches and 24 unique varied queries attempted. The 24 varied queries were retried on the stronger search engine after sparse/empty initial results. Indexed discovery only; zero native accounts/Stories or full Instagram media inspections claimed.",
+    "instagramFinding": "20 named broker/indexed-source searches and 24 unique varied formulations attempted; 44 initial queries and 24 stronger-engine retries. Zero native accounts, Instagram Stories or full Instagram media inspected. Search results were sparse, absent or unrelated; accessible broker websites were used with dated source checks.",
     "googleNews": {
-      "route": "Separate public RSS requests for Dubai, Abu Dhabi and Ras Al Khaimah",
-      "retrieval": "All three requests returned HTTP 503; no feed records inspected",
-      "fallback": "Fresh domain-targeted newspaper and launch searches"
+      "route": "Three regional Google News RSS feeds",
+      "retrieval": "HTTP 200 for all three",
+      "headlinesScreened": {
+        "Dubai": 59,
+        "AbuDhabi": 63,
+        "RasAlKhaimah": 48
+      },
+      "totalHeaders": 170,
+      "limitation": "Headers and original publication dates screened before cross-region/syndication dedup; not 170 full article reviews."
     },
     "requiredNewspapers": [
       {
         "name": "Gulf News",
-        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+        "categoryStatus": 200
       },
       {
         "name": "Khaleej Times",
-        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+        "categoryStatus": 200
       },
       {
         "name": "The National",
-        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+        "categoryStatus": 200
       },
       {
         "name": "Arabian Business",
-        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+        "categoryStatus": 403,
+        "limitation": "Direct category access failed; indexed domain-targeted discovery only"
       },
       {
         "name": "Gulf Today",
-        "discovery": "Domain-targeted launch search; accessible relevant results inspected; no full archive claim"
+        "categoryStatus": 200
       }
     ],
-    "hospitality": "Hospitality Net, TTN and TradeArabia targeted search. TTN 8 October Accor Pullman/Movenpick signing article repeats existing announcements and is excluded.",
-    "youtubeFinding": "Targeted YouTube discovery produced sparse/unrelated results; no full project video inspection.",
+    "hospitality": "Hospitality Net and TTN initial category URLs returned 404; homepages and Hospitality Net development section then read successfully. TradeArabia construction page read. Operator agreements were checked against older original announcements.",
+    "youtubeFinding": "Targeted indexed YouTube searches produced sparse or unrelated results; no relevant full video inspected.",
     "propsearchLatestBuildings": {
       "attempted": true,
       "inspected": true,
       "scope": "Homepage Latest buildings ONLY",
       "screened": 20,
       "detailPagesRead": 20,
-      "access": "HTTP fallback; all 20 detail reads returned 200"
+      "access": "All 20 detail pages returned HTTP 200; first trace dates not interpreted as sales launch dates."
     },
     "whatsappStories": {
-      "requestId": "radar-20261009-stories-4d9f0214e962c57a690107a6f4f7e157",
-      "runId": 37880893372,
+      "requestId": "radar-20261010-stories-5a19c6572d402f4a04dce81adec7602b",
+      "runId": 38020506402,
       "artifactPrivatelyDecrypted": true,
       "visibleRecords": 0,
       "windowHours": 24,
       "cap": 500,
       "truncated": false,
       "mediaFullyInspected": 0,
-      "finding": "Official getStories returned zero visible records; no media to inspect"
+      "finding": "Official getStories returned zero updates visible to the connected account; no media to inspect."
     },
     "whatsappChats": {
-      "requestId": "radar-20261009-chats-a48aa9503ef0d03f8a4d9a690d211311",
-      "runId": 37881600372,
+      "requestId": "radar-20261010-chats-b9f38b315948800cfc6c3e1364c90096",
+      "runId": 38020902283,
       "artifactPrivatelyDecrypted": true,
       "chatsListed": 0,
       "historyChatsSelected": 0,
-      "finding": "Empty getChats response; workflow failed, no message histories inspected"
+      "finding": "Empty getChats response; reader failed. No manager chat histories inspected."
     },
     "qualifyingNewRecords": 1,
     "qualifyingMaterialUpdates": 0,
     "website": {
-      "feedCommit": "6c430eef796331d78e548169dd216b8111e86222",
-      "feedVersion": "5a0216a43b8561185d262f28bf0f36d6168660cb",
-      "syncRunId": 37881924384,
-      "syncConclusion": "failure: protected main requires PR",
-      "recoveryPr": 91,
+      "feedCommit": "ebd4d7882e15156b2195be2dd5baeb11a6d80eb4",
+      "feedVersion": "ebd4d7882e15156b2195be2dd5baeb11a6d80eb4",
+      "syncRunId": 38021616179,
+      "syncConclusion": "failure: GH013 protected main requires pull request",
+      "recoveryPr": 92,
       "state": "live-verified",
-      "recoveryMerge": "0727d442d6e687a6eb56ec5242c8e37963cd08f9",
-      "deployRunId": 37882519257,
+      "recoveryMerge": "030a66209ecff8b01c763def30fa617ab6ee5ed0",
+      "deployRunId": 38022159265,
       "deployConclusion": "success",
       "pageStatus": 200,
       "feedMarkerMatched": true,
-      "liveUrl": "https://graf.ae/launches/burtville-bab-al-qasr-beach-resort-residence-77/"
+      "liveUrl": "https://graf.ae/launches/tarrad-lunara-tower-majan/",
+      "visualInspection": "Live desktop screenshot inspected: correct project, developer/location, broker EOI date and unconfirmed commercial terms; no content overflow observed.",
+      "checks": {
+        "schemaAndSync": "passed: 1 created, 0 updated, 0 retired, 0 rejected",
+        "mobilePerformance": "success",
+        "productionBuild": "success",
+        "productionSeo": "success",
+        "internalLinks": "success",
+        "outboundLinkReport": "still running at verification"
+      }
     },
     "queue": {
-      "date": "2026-10-09",
+      "date": "2026-10-10",
       "posts": 0,
-      "commit": "5a0216a43b8561185d262f28bf0f36d6168660cb"
+      "commit": "648b0b64b818414b917eec94d92554d0be007233"
     },
-    "manualHandoff": "Prepared for current conversation handoff with inspected S06 portrait card and complete English caption; Alex posts manually, no channel publication claimed."
+    "manualHandoff": "Prepared for current conversation delivery with inspected S07 1080x1920 JPEG and complete English caption. Alex publishes manually; no channel publication claimed."
   },
   "lastMaterialUpdate": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "updates": [
-      "burtville-bab-al-qasr-beach-resort-residence-77"
+      "tarrad-lunara-tower-majan"
     ],
     "held": [
-      "KORE by Imtiaz: Broker posts report 8 October reveal; no new independently inspected developer price/payment pack or distinct material terms versus existing feed.",
-      "X11 by BAMX: 15 October formal launch was already retained on 7 October; earlier March/July marketing exists. No fresh distinct release or commercial terms verified.",
-      "Vision Iconic / Mercedes-Benz Places Binghatti City: 6 October event does not reset January project identity; broker discount and payment claims conflict. New office identity separately remains uncorroborated.",
-      "Ellington Al Yalayis and proposed SZR office: No independently verified fresh developer announcement or reconciled identity; Atelier/The Langston labels and EOI figures remain unresolved broker leads.",
-      "Radisson Residences Marjan Island Tower 3 / Phase 2: Existing older site identity and broker September Phase2 marketing with conflicting completion dates; no new October inventory event established."
+      "Tarrad Jebel Ali Residence: catalogues and a circulating generic new-project EOI offer do not independently establish a new dated release; developer sales pack and identity/date reconciliation awaited.",
+      "KORE by Imtiaz: official wellness amenities inspected; current prices/payment dates conflict across brokers and no new confirmed commercial pack established.",
+      "Nine Collective: October broker EOI report checked against February 2026 brochure and 25 February broker briefing; no distinct new October inventory established.",
+      "Lawncrest: 10 October broker event invitation is a discovery/release event following September marketing; no separately verified new inventory or terms.",
+      "Ellington Al Yalayis / SZR office: no new verified primary release or reconciled Atelier/The Langston identity.",
+      "Mandarin Oriental Abu Dhabi: October headline repeats 18 May announcement; no fresh for-sale release.",
+      "Vision Iconic: 6 October event is not a new first launch of the January project; office tower identity remains unresolved."
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "scope": "Homepage Latest buildings ONLY",
     "screened": 20,
     "detailPagesRead": 20,
@@ -1226,11 +1245,11 @@
         "finding": "Two office towers are a portal lead; developer-backed office sales release remains unverified."
       },
       {
-        "name": "Velu by ASAK",
-        "url": "https://propsearch.ae/dubai/velu-by-asak",
+        "name": "Volu by ASAK",
+        "url": "https://propsearch.ae/dubai/volu-by-asak",
         "status": 200,
         "disposition": "early-watch",
-        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+        "finding": "Portal label differs from 9 October Velu entry; no independent name/identity equivalence established. Retain without merging aliases."
       },
       {
         "name": "Gloas by Acube",
@@ -1313,8 +1332,8 @@
         "name": "Lunara Tower",
         "url": "https://propsearch.ae/dubai/lunara-tower",
         "status": 200,
-        "disposition": "early-watch",
-        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+        "disposition": "dated-broker-eoi-update-added-to-feed",
+        "finding": "Reported EOI collection 6 October after September/3 October marketing; separate 5 October Alnair report and portal identity corroboration. Prices/terms unconfirmed."
       },
       {
         "name": "Meriden Gate",
@@ -1354,7 +1373,7 @@
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "items": [
       {
         "name": "Tessera",
@@ -1603,6 +1622,18 @@
         "disposition": "phase-and-original-date-verification-held",
         "finding": "Existing older site identity and broker September Phase2 marketing with conflicting completion dates; no new October inventory event established.",
         "nextCheck": "Official phase-specific inventory and handover"
+      },
+      {
+        "name": "Lunara Tower",
+        "disposition": "dated-broker-eoi-update-added-to-feed",
+        "finding": "6 October EOI report after earlier marketing; Majan/Tarrad identity separately corroborated. Medium broker intelligence; unconfirmed prices remain null numeric.",
+        "sources": [
+          "https://www.augusta-properties.com/explore/tarrad-lunara-tower",
+          "https://alnair.ae/en/news/lunara-tower-by-tarrad-development-is-coming-to-majan-dubai",
+          "https://propsearch.ae/dubai/lunara-tower",
+          "https://takweenaldar.ae/en/off-plan/project/lunara-tower"
+        ],
+        "nextCheck": "Tarrad dated sales pack, exact plot, confirmed unit schedule and EOI/escrow terms"
       }
     ]
   },
@@ -1691,6 +1722,20 @@
       ],
       "liveVerified": true,
       "imageLibraryId": "libfile_41a8d92ec6e881919aac789b426157f1"
+    },
+    {
+      "projectId": "tarrad-lunara-tower-majan",
+      "eventKey": "tarrad-lunara-tower-majan:2026-10-06-eoi-report",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-10",
+      "imageStyle": "S07",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_24d5c855968c8191acfc13a4506f0605"
     }
   ]
 }
