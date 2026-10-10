@@ -1,0 +1,1206 @@
+{
+  "date": "2026-10-10",
+  "policy": "Early launch/EOI signals; recent catalogue additions and syndicated older announcements are not fresh launches.",
+  "coverage": {
+    "date": "2026-10-10",
+    "sourceWatchlistSize": 64,
+    "regionsReviewed": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "dateWindow": "2026-09-10 to 2026-10-10; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
+    "instagramNamedBrokerSourceAttempts": 20,
+    "instagramBrokerSources": [
+      "Albina Sultanova",
+      "Grand Reve Realty",
+      "Future Key Properties",
+      "Propsense Realty",
+      "DRE Homes",
+      "Equity Edge",
+      "Off Plan Dubai",
+      "Luxury Falcon Properties",
+      "Top Luxury Property",
+      "SANSAV",
+      "Royal Lounge Properties",
+      "Hunt & Harris",
+      "TruHauz",
+      "Whitewill",
+      "Primo Capital",
+      "Metropolitan Group",
+      "Engel Volkers Dubai",
+      "Savills Middle East",
+      "Edwards & Towers",
+      "Luxhabitat"
+    ],
+    "instagramVariedQueries": 24,
+    "instagramQueryAttempts": 68,
+    "instagramLanguages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "instagramNativeAccess": false,
+    "instagramFinding": "20 named broker/indexed-source searches and 24 unique varied formulations attempted; 44 initial queries and 24 stronger-engine retries. Zero native accounts, Instagram Stories or full Instagram media inspected. Search results were sparse, absent or unrelated; accessible broker websites were used with dated source checks.",
+    "googleNews": {
+      "route": "Three regional Google News RSS feeds",
+      "retrieval": "HTTP 200 for all three",
+      "headlinesScreened": {
+        "Dubai": 59,
+        "AbuDhabi": 63,
+        "RasAlKhaimah": 48
+      },
+      "totalHeaders": 170,
+      "limitation": "Headers and original publication dates screened before cross-region/syndication dedup; not 170 full article reviews."
+    },
+    "requiredNewspapers": [
+      {
+        "name": "Gulf News",
+        "categoryStatus": 200
+      },
+      {
+        "name": "Khaleej Times",
+        "categoryStatus": 200
+      },
+      {
+        "name": "The National",
+        "categoryStatus": 200
+      },
+      {
+        "name": "Arabian Business",
+        "categoryStatus": 403,
+        "limitation": "Direct category access failed; indexed domain-targeted discovery only"
+      },
+      {
+        "name": "Gulf Today",
+        "categoryStatus": 200
+      }
+    ],
+    "hospitality": "Hospitality Net and TTN initial category URLs returned 404; homepages and Hospitality Net development section then read successfully. TradeArabia construction page read. Operator agreements were checked against older original announcements.",
+    "youtubeFinding": "Targeted indexed YouTube searches produced sparse or unrelated results; no relevant full video inspected.",
+    "propsearchLatestBuildings": {
+      "attempted": true,
+      "inspected": true,
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "detailPagesRead": 20,
+      "access": "All 20 detail pages returned HTTP 200; first trace dates not interpreted as sales launch dates."
+    },
+    "whatsappStories": {
+      "requestId": "radar-20261010-stories-5a19c6572d402f4a04dce81adec7602b",
+      "runId": 38020506402,
+      "artifactPrivatelyDecrypted": true,
+      "visibleRecords": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "mediaFullyInspected": 0,
+      "finding": "Official getStories returned zero updates visible to the connected account; no media to inspect."
+    },
+    "whatsappChats": {
+      "requestId": "radar-20261010-chats-b9f38b315948800cfc6c3e1364c90096",
+      "runId": 38020902283,
+      "artifactPrivatelyDecrypted": true,
+      "chatsListed": 0,
+      "historyChatsSelected": 0,
+      "finding": "Empty getChats response; reader failed. No manager chat histories inspected."
+    },
+    "qualifyingNewRecords": 1,
+    "qualifyingMaterialUpdates": 0,
+    "website": {
+      "feedCommit": "ebd4d7882e15156b2195be2dd5baeb11a6d80eb4",
+      "feedVersion": "ebd4d7882e15156b2195be2dd5baeb11a6d80eb4",
+      "syncRunId": 38021616179,
+      "syncConclusion": "failure: GH013 protected main requires pull request",
+      "recoveryPr": 92,
+      "state": "live-verified",
+      "recoveryMerge": "030a66209ecff8b01c763def30fa617ab6ee5ed0",
+      "deployRunId": 38022159265,
+      "deployConclusion": "success",
+      "pageStatus": 200,
+      "feedMarkerMatched": true,
+      "liveUrl": "https://graf.ae/launches/tarrad-lunara-tower-majan/",
+      "visualInspection": "Live desktop screenshot inspected: correct project, developer/location, broker EOI date and unconfirmed commercial terms; no content overflow observed.",
+      "checks": {
+        "schemaAndSync": "passed: 1 created, 0 updated, 0 retired, 0 rejected",
+        "mobilePerformance": "success",
+        "productionBuild": "success",
+        "productionSeo": "success",
+        "internalLinks": "success",
+        "outboundLinkReport": "still running at verification"
+      }
+    },
+    "queue": {
+      "date": "2026-10-10",
+      "posts": 0,
+      "commit": "648b0b64b818414b917eec94d92554d0be007233"
+    },
+    "manualHandoff": "Prepared for current conversation delivery with inspected S07 1080x1920 JPEG and complete English caption. Alex publishes manually; no channel publication claimed."
+  },
+  "newRecords": [
+    {
+      "id": "tarrad-lunara-tower-majan",
+      "project": "Lunara Tower",
+      "developer": "Tarrad Development",
+      "emirate": "Dubai",
+      "location": "Majan, Wadi Al Safa 3, Dubailand, Dubai; exact plot awaiting confirmation",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Broker reports describe a 3 October 2026 teaser and EOI collection announced on 6 October. Alnair's dated 5 October report separately reports the upcoming project. No developer-confirmed sales-opening date has been established.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Alnair's 5 October report indicates 1BR from AED 850,000 and 2BR from AED 1.2m; Augusta Properties and DirectDXB repeat these figures. No Tarrad price list has been independently verified. Propsearch's AED 85,000 field is not accepted as the full purchase price.",
+      "paymentPlan": "Takween Aldar lists 50% on booking / 50% upon handover; developer-confirmed schedule awaited.",
+      "handover": "Q1 2029 is indicated by Propsearch and Takween Aldar; contractual handover remains unconfirmed.",
+      "teaser": "Brokers report EOI collection for a 119-home Majan development.",
+      "summary": "Broker reports identify Lunara Tower by Tarrad Development in Majan, with a dated teaser followed by reported EOI collection on 6 October 2026. The proposed seven residential floors above ground level and two basements are described as containing 119 apartments: 105 one-bedroom homes and 14 two-bedroom homes with a study. Alnair separately identifies the upcoming project and circulating starting prices. This is an early-access report following earlier marketing, not a developer-confirmed first sales launch; exact plot, current inventory and commercial terms await confirmation.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "sizeSqftFrom": 530,
+          "note": "Broker-reported; 105 homes indicated, final unit schedule unconfirmed"
+        },
+        {
+          "type": "2BR apartment with study",
+          "note": "Broker-reported; 14 homes indicated, final unit schedule unconfirmed"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Augusta Properties and DirectDXB date reported EOI collection to 6 October 2026 and indicate at least three months before unit allocation/escrow processing. No developer-confirmed EOI amount, refund policy or escrow status has been verified."
+      },
+      "whatNext": "Await Tarrad's dated sales pack, exact plot, confirmed unit schedule and EOI/escrow terms; subscribe for verified updates.",
+      "confidenceNote": "Medium: dated broker reports and Propsearch agree on project/developer/location; the 6 October EOI report is broker intelligence. Augusta/DirectDXB/DubaiVastgoed reproduce matching offer text and are not counted as independent origins. Alnair and Propsearch provide separate identity corroboration. Office units in some broker copy are unresolved and excluded from the confirmed product description.",
+      "sources": [
+        {
+          "url": "https://www.augusta-properties.com/explore/tarrad-lunara-tower",
+          "label": "Broker page: dated 3 October teaser and 6 October EOI report",
+          "date": "2026-10-06",
+          "primary": true
+        },
+        {
+          "url": "https://alnair.ae/en/news/lunara-tower-by-tarrad-development-is-coming-to-majan-dubai",
+          "label": "Separate 5 October upcoming-project report and broker price indications",
+          "date": "2026-10-05",
+          "primary": false
+        },
+        {
+          "url": "https://propsearch.ae/dubai/lunara-tower",
+          "label": "Portal identity/location and indicative completion; first trace is not a launch date",
+          "primary": false
+        },
+        {
+          "url": "https://takweenaldar.ae/en/off-plan/project/lunara-tower",
+          "label": "Broker listing: presale stage, furnishing, payment split and indicative completion",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-10",
+      "updatedAt": "2026-10-10",
+      "published": true
+    }
+  ],
+  "held": [
+    "Tarrad Jebel Ali Residence: catalogues and a circulating generic new-project EOI offer do not independently establish a new dated release; developer sales pack and identity/date reconciliation awaited.",
+    "KORE by Imtiaz: official wellness amenities inspected; current prices/payment dates conflict across brokers and no new confirmed commercial pack established.",
+    "Nine Collective: October broker EOI report checked against February 2026 brochure and 25 February broker briefing; no distinct new October inventory established.",
+    "Lawncrest: 10 October broker event invitation is a discovery/release event following September marketing; no separately verified new inventory or terms.",
+    "Ellington Al Yalayis / SZR office: no new verified primary release or reconciled Atelier/The Langston identity.",
+    "Mandarin Oriental Abu Dhabi: October headline repeats 18 May announcement; no fresh for-sale release.",
+    "Vision Iconic: 6 October event is not a new first launch of the January project; office tower identity remains unresolved."
+  ],
+  "instagramQueries": [
+    "site:instagram.com Dubai \"coming soon\" property",
+    "site:instagram.com Dubai \"EOI\" new project",
+    "site:instagram.com Abu Dhabi \"pre launch\"",
+    "site:instagram.com Abu Dhabi \"new residences\"",
+    "site:instagram.com Ras Al Khaimah \"new launch\"",
+    "site:instagram.com Al Marjan \"EOI\"",
+    "site:instagram.com Ellington Al Yalayis",
+    "site:instagram.com Aldar \"launching soon\"",
+    "site:instagram.com RAK Properties \"new phase\"",
+    "site:instagram.com Imtiaz KORE",
+    "site:instagram.com Modon \"coming soon\"",
+    "site:instagram.com Nakheel \"new release\"",
+    "site:instagram.com \"broker briefing\" Dubai October",
+    "site:instagram.com \"new phase\" Abu Dhabi",
+    "site:instagram.com \"EOI open\" Ras Al Khaimah",
+    "site:instagram.com \"launch invitation\" Dubai",
+    "site:instagram.com \"Ellington\" \"Atelier\"",
+    "site:instagram.com \"Rove Home\" \"Greens\"",
+    "site:instagram.com \"X11\" \"BAMX\"",
+    "site:instagram.com \"Janu\" \"Al Marjan\"",
+    "site:instagram.com \"دبي\" \"قريباً\" عقارات",
+    "site:instagram.com \"أبوظبي\" \"إطلاق\" مشروع",
+    "site:instagram.com \"Дубай\" \"сбор EOI\"",
+    "site:instagram.com \"Рас-эль-Хайма\" \"старт продаж\""
+  ],
+  "instagramBrokerSourceAttempts": [
+    "Albina Sultanova",
+    "Grand Reve Realty",
+    "Future Key Properties",
+    "Propsense Realty",
+    "DRE Homes",
+    "Equity Edge",
+    "Off Plan Dubai",
+    "Luxury Falcon Properties",
+    "Top Luxury Property",
+    "SANSAV",
+    "Royal Lounge Properties",
+    "Hunt & Harris",
+    "TruHauz",
+    "Whitewill",
+    "Primo Capital",
+    "Metropolitan Group",
+    "Engel Volkers Dubai",
+    "Savills Middle East",
+    "Edwards & Towers",
+    "Luxhabitat"
+  ],
+  "sourceFiles": "Public source titles/URLs and detailed Latest buildings screening retained with this audit. Raw WhatsApp data, contacts, cryptographic keys and media remain private; none committed.",
+  "manualHandoffs": [
+    {
+      "projectId": "tarrad-lunara-tower-majan",
+      "eventKey": "tarrad-lunara-tower-majan:2026-10-06-eoi-report",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-10",
+      "imageStyle": "S07",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_24d5c855968c8191acfc13a4506f0605"
+    }
+  ],
+  "latestBuildings": {
+    "date": "2026-10-10",
+    "scope": "Homepage Latest buildings ONLY",
+    "screened": 20,
+    "detailPagesRead": 20,
+    "items": [
+      {
+        "name": "Tarrad Jebel Ali Residence",
+        "url": "https://propsearch.ae/dubai/tarrad-jebel-ali-residence",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Mercedes-Benz Places Office Towers",
+        "url": "https://propsearch.ae/dubai/mercedes-benz-places-office-towers",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Two office towers are a portal lead; developer-backed office sales release remains unverified."
+      },
+      {
+        "name": "Volu by ASAK",
+        "url": "https://propsearch.ae/dubai/volu-by-asak",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal label differs from 9 October Velu entry; no independent name/identity equivalence established. Retain without merging aliases."
+      },
+      {
+        "name": "Gloas by Acube",
+        "url": "https://propsearch.ae/dubai/gloas-by-acube",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Joud by Aras",
+        "url": "https://propsearch.ae/dubai/joud-by-aras",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Jamal by Aras",
+        "url": "https://propsearch.ae/dubai/jamal-by-aras",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Callista by Zoya",
+        "url": "https://propsearch.ae/dubai/callista-by-zoya",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "06 Life Residences",
+        "url": "https://propsearch.ae/dubai/06-life-residences",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Rigel by Acube",
+        "url": "https://propsearch.ae/dubai/rigel-by-acube",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Ampersand Beach House",
+        "url": "https://propsearch.ae/dubai/ampersand-beach-house",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "The Yards Plaza",
+        "url": "https://propsearch.ae/dubai/the-yards-plaza",
+        "status": 200,
+        "disposition": "already-published-no-material-change",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Marquis Aura",
+        "url": "https://propsearch.ae/dubai/marquis-aura",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Eterea by Zoya",
+        "url": "https://propsearch.ae/dubai/eterea-by-zoya",
+        "status": 200,
+        "disposition": "already-published-no-material-change",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Pullman Residences & Offices Dubai Meydan",
+        "url": "https://propsearch.ae/dubai/pullman-residences-offices-dubai-meydan",
+        "status": 200,
+        "disposition": "already-published-no-material-change",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Lunara Tower",
+        "url": "https://propsearch.ae/dubai/lunara-tower",
+        "status": 200,
+        "disposition": "dated-broker-eoi-update-added-to-feed",
+        "finding": "Reported EOI collection 6 October after September/3 October marketing; separate 5 October Alnair report and portal identity corroboration. Prices/terms unconfirmed."
+      },
+      {
+        "name": "Meriden Gate",
+        "url": "https://propsearch.ae/dubai/meriden-gate",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Aris by Grid",
+        "url": "https://propsearch.ae/dubai/aris-by-grid",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Celeste Dubai South",
+        "url": "https://propsearch.ae/dubai/celeste-dubai-south",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "NBCC Al Waha",
+        "url": "https://propsearch.ae/dubai/nbcc-al-waha",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      },
+      {
+        "name": "Dubai Customs Nursery and Daycare",
+        "url": "https://propsearch.ae/dubai/dubai-customs-nursery-and-daycare",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
+      }
+    ]
+  },
+  "publicCandidateSources": [
+    {
+      "url": "https://www.augusta-properties.com/explore/tarrad-lunara-tower",
+      "label": "Broker page: dated 3 October teaser and 6 October EOI report",
+      "date": "2026-10-06",
+      "primary": true
+    },
+    {
+      "url": "https://alnair.ae/en/news/lunara-tower-by-tarrad-development-is-coming-to-majan-dubai",
+      "label": "Separate 5 October upcoming-project report and broker price indications",
+      "date": "2026-10-05",
+      "primary": false
+    },
+    {
+      "url": "https://propsearch.ae/dubai/lunara-tower",
+      "label": "Portal identity/location and indicative completion; first trace is not a launch date",
+      "primary": false
+    },
+    {
+      "url": "https://takweenaldar.ae/en/off-plan/project/lunara-tower",
+      "label": "Broker listing: presale stage, furnishing, payment split and indicative completion",
+      "primary": false
+    }
+  ],
+  "googleNewsHeadlineScreen": [
+    {
+      "region": "Dubai",
+      "status": "200",
+      "headlines": [
+        {
+          "title": "Dubai and Abu Dhabi’s Trophy-Home Developers Are Doubling Down on Waterfront Living - Mansion Global",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Inside the branded residences boom: How Versace, Armani and Fendi are redesigning luxury real estate - Firstpost",
+          "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Shah Rukh Khan and Rizwan Sajan Reunite For Shahrukhz Residences by Danube With Gauri Khan-Designed Penthouses - Business Wire",
+          "date": "Wed, 07 Oct 2026 10:14:00 GMT"
+        },
+        {
+          "title": "Branded Residences Set for Major Global Expansion - The World Property Journal",
+          "date": "Wed, 16 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "DHG Hands Over Helvetia Residences in JVC: 430 Homes, $200M Project - News and Statistics - IndexBox",
+          "date": "Wed, 07 Oct 2026 14:02:15 GMT"
+        },
+        {
+          "title": "9 Top Ways Fashion Affects Branded Residences - Prestige Online - Singapore",
+          "date": "Thu, 08 Oct 2026 06:25:48 GMT"
+        },
+        {
+          "title": "Dubai’s off-plan launch drought shows up in tumbling sales - Arabian Gulf Business Insight | AGBI",
+          "date": "Fri, 09 Oct 2026 00:00:00 GMT"
+        },
+        {
+          "title": "World’s First Standalone Mövenpick Residences Planned for Dubai Motor City - Business Traveller",
+          "date": "Wed, 30 Sep 2026 09:01:35 GMT"
+        },
+        {
+          "title": "DHG Properties hands over $200mln Helvetia Residences, its first completed development in Dubai - Zawya",
+          "date": "Wed, 07 Oct 2026 10:29:00 GMT"
+        },
+        {
+          "title": "Dubai Leads the World's Branded Residence Market - Luxhabitat",
+          "date": "Tue, 29 Sep 2026 09:51:39 GMT"
+        },
+        {
+          "title": "DHG Properties completes $200m JVC development within two years - Arabian Business",
+          "date": "Fri, 09 Oct 2026 11:54:23 GMT"
+        },
+        {
+          "title": "DHG begins handover of US $200mn Helvetia Residences - Middle East Construction News",
+          "date": "Fri, 09 Oct 2026 05:23:35 GMT"
+        },
+        {
+          "title": "Accor to debut Pullman branded offices in Dubai - Boutique Hotel News",
+          "date": "Thu, 01 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Shahrukhz Residences by Danube - Full Analysis - YouTube",
+          "date": "Tue, 06 Oct 2026 19:08:34 GMT"
+        },
+        {
+          "title": "Accor to launch two new branded residential developments in Dubai - TradeArabia",
+          "date": "Thu, 08 Oct 2026 07:23:39 GMT"
+        },
+        {
+          "title": "Atara Development Elevates Sheraton Al Marjan Island Residences With a Sharper Luxury Offering - Construction Business News Middle East",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Accor and Cityview Developments Sign Two Branded Projects in Dubai, Adding 690 Residences - IndexBox",
+          "date": "Thu, 08 Oct 2026 14:20:59 GMT"
+        },
+        {
+          "title": "Karim Benzema leads growing wave of football stars investing in Dubai real estate - Zawya",
+          "date": "Wed, 07 Oct 2026 09:25:00 GMT"
+        },
+        {
+          "title": "DIB and Expo City Dubai Launch Off-Plan Home Finance - News and Statistics - IndexBox",
+          "date": "Tue, 06 Oct 2026 17:40:59 GMT"
+        },
+        {
+          "title": "Mövenpick Residences to debut in Dubai Motor City in 2028 - Hotelier Middle East",
+          "date": "Tue, 29 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "DHG Properties completes first Dubai project; starts handover of $200m Helvetia Residences - Gulf News",
+          "date": "Thu, 08 Oct 2026 12:48:22 GMT"
+        },
+        {
+          "title": "DHG Properties completes first Dubai residential project in JVC - Arabian Business",
+          "date": "Wed, 16 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai Longevity Moves Into the Floor Plan - Dubai Chronicle",
+          "date": "Wed, 30 Sep 2026 16:06:49 GMT"
+        },
+        {
+          "title": "Karim Benzema makes major move away from football - Gulf News",
+          "date": "Wed, 07 Oct 2026 10:10:23 GMT"
+        },
+        {
+          "title": "Dubai property: Studio sales jump 185% in Dubai South as developers hold prices - Arabian Business",
+          "date": "Wed, 30 Sep 2026 21:08:34 GMT"
+        },
+        {
+          "title": "Nakheel unveils Bay Estate, Dubai Islands - Middle East Construction News",
+          "date": "Tue, 06 Oct 2026 07:01:12 GMT"
+        },
+        {
+          "title": "Minor Hotels to open 111-key boutique hotel on Dubai Islands in 2029 - Gulf News",
+          "date": "Fri, 02 Oct 2026 11:42:39 GMT"
+        },
+        {
+          "title": "Shah Rukh Khan-branded Dubai luxury tower targets NCR investors - The Tribune",
+          "date": "Wed, 07 Oct 2026 12:43:10 GMT"
+        },
+        {
+          "title": "Global football star Karim Benzema acquires residential units at Mercedes-Benz Places | Binghatti City in Dubai - Construction Week Online",
+          "date": "Wed, 07 Oct 2026 05:21:42 GMT"
+        },
+        {
+          "title": "Dubai leads world in luxury branded residences with 175 projects, report says - Emirates 24|7",
+          "date": "Tue, 29 Sep 2026 08:03:00 GMT"
+        },
+        {
+          "title": "Dubai’s celebrity-branded homes trend grows with new SRK tower launch - Khaleej Times",
+          "date": "Wed, 07 Oct 2026 11:49:11 GMT"
+        },
+        {
+          "title": "Global footballers Karim Benzema and Medhi Amine buy properties in Dubai - Khaleej Times",
+          "date": "Thu, 08 Oct 2026 11:01:12 GMT"
+        },
+        {
+          "title": "Dubai real estate sector recorded $3bn of transactions last week, including $19m Palm Jumeirah apartment - Arabian Business",
+          "date": "Sat, 26 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Nakheel awards Dh800 million deal to build 537 Dubai Islands homes - Gulf News",
+          "date": "Thu, 17 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai Land Department, University of Dubai launch first Real Estate Management Degree programme - Emirates 24|7",
+          "date": "Wed, 07 Oct 2026 12:28:00 GMT"
+        },
+        {
+          "title": "Dubai launches $817m Creek Gardens project with 1,400 homes and UAE-first branded residences - Arabian Business",
+          "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai Creek Gardens Launches With 1,400+ Homes & UAE’s First Branded Residences - Curly Tales",
+          "date": "Fri, 11 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Atara Development launches The Residences at Sheraton Al Marjan Island Resort - Middle East Construction News",
+          "date": "Thu, 17 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "DHG Properties completes Helvetia Residences, its first development in Dubai - Khaleej Times",
+          "date": "Thu, 01 Oct 2026 11:01:58 GMT"
+        },
+        {
+          "title": "$750k ‘golden visa’: Aus landlords flee to tax-free offshore mansions - Real Estate",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Danube Properties launches Shahrukhz Residences by Danube - Middle East Construction News",
+          "date": "Thu, 08 Oct 2026 05:21:57 GMT"
+        },
+        {
+          "title": "Gulf News and Aurex Privy launch SheOwns, a new property platform putting women at the centre of ownership decisions - Gulf News",
+          "date": "Wed, 16 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai Healthcare City begins work on Dh3b Dubai Creek Gardens - Gulf News",
+          "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE Business: Dubai records 335 sales of $10m+ homes in first eight months, says report - Gulf Daily News (Bahrain)",
+          "date": "Sun, 27 Sep 2026 06:26:10 GMT"
+        },
+        {
+          "title": "BAMX Developments shines at IPS 2026 - Gulf News",
+          "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Etihad Rail launches: What Abu Dhabi-Dubai trains could mean for property prices and rents - Arabian Business",
+          "date": "Thu, 01 Oct 2026 21:33:21 GMT"
+        },
+        {
+          "title": "Dubai’s air taxi network: Routes, locations and launch plans explained - Arabian Business",
+          "date": "Sat, 26 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Huspy acquires LuxuryX ahead of major push into UAE’s luxury property market - Arabian Business",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Nakheel awards contract to Metac General Contracting - Middle East Construction News",
+          "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE Business: Accor to launch two new branded residential developments in Dubai - GDNOnline",
+          "date": "Thu, 08 Oct 2026 07:25:54 GMT"
+        },
+        {
+          "title": "Accor and CITYVIEW Expand Pullman Partnership in Dubai - https://safariindia.com/",
+          "date": "Thu, 01 Oct 2026 11:36:50 GMT"
+        },
+        {
+          "title": "Dubai retains crown as world’s top market for branded residences, Knight Frank says - Arabian Business",
+          "date": "Tue, 29 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE petrol prices, Dubai rents, Etihad Rail launch: 10 stories you missed this week - Arabian Business",
+          "date": "Sat, 26 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai has more branded residences than any other city, with 116 new projects in pipeline - Arabian Business",
+          "date": "Wed, 07 Oct 2026 05:06:01 GMT"
+        },
+        {
+          "title": "Dubai Holding awards US $1.36bn contract to CSCEC ME - Middle East Construction News",
+          "date": "Mon, 14 Sep 2026 06:58:08 GMT"
+        },
+        {
+          "title": "Top 10 Expo Dubai Group Off-Plan Projects in Dubai - Excel Properties",
+          "date": "Thu, 08 Oct 2026 09:05:22 GMT"
+        },
+        {
+          "title": "Kempinski Residences The Creek Launches in Dubai - FTN news",
+          "date": "Fri, 18 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "RegNews - regnews.in",
+          "date": "Wed, 07 Oct 2026 15:18:16 GMT"
+        },
+        {
+          "title": "DHG Properties Hands Over USD 200 Million Helvetia Residences, Its First Completed Development In Dubai - Menafn",
+          "date": "Thu, 08 Oct 2026 06:46:35 GMT"
+        }
+      ]
+    },
+    {
+      "region": "Abu Dhabi",
+      "status": "200",
+      "headlines": [
+        {
+          "title": "Dubai and Abu Dhabi’s Trophy-Home Developers Are Doubling Down on Waterfront Living - Mansion Global",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Mubadala and TARAF Partner with Kerzner International to Introduce One&Only Private Residences on Al Maryah Island - Mubadala Investment Company",
+          "date": "Thu, 01 Oct 2026 11:17:35 GMT"
+        },
+        {
+          "title": "Mubadala and TARAF Partner with Kerzner for One&Only Private Residences on Al Maryah Island - News and Statistics - IndexBox",
+          "date": "Fri, 02 Oct 2026 04:31:37 GMT"
+        },
+        {
+          "title": "Abu Dhabi Is Building Its Next Architectural Identity - LUXUO",
+          "date": "Tue, 22 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Superman And Lex Luthor Are Getting A Connected Universe At Warner Bros. World Abu Dhabi - Forbes",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "ZAWYA: Abu Dhabi tops in JLL’s 2026 Global Real Estate Transparency Index - TradingView",
+          "date": "Mon, 28 Sep 2026 11:39:10 GMT"
+        },
+        {
+          "title": "Zayed Waterfront Development in Abu Dhabi, UAE - e-architect",
+          "date": "Tue, 29 Sep 2026 15:55:01 GMT"
+        },
+        {
+          "title": "Rosewood Abu Dhabi to offer limited collection of completed residences for private ownership on Al Maryah Island - Zawya",
+          "date": "Thu, 01 Oct 2026 14:32:00 GMT"
+        },
+        {
+          "title": "Abu Dhabi reveals 230m One&Only luxury residences tower connected to The Galleria - Arabian Business",
+          "date": "Thu, 01 Oct 2026 22:13:46 GMT"
+        },
+        {
+          "title": "UAE remains at the forefront of global branded residences market - Consultancy-me.com",
+          "date": "Thu, 01 Oct 2026 15:23:57 GMT"
+        },
+        {
+          "title": "East & West breaks ground on Rixos Al Reem residences in Abu Dhabi - Gulf News",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Abu Dhabi Finance Week 2026 expands programme with 75 events across 8 stages - مكتب أبوظبي الإعلامي",
+          "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Aedas-designed Rixos Al Reem Residences breaks ground in Abu Dhabi - Construction Week Online",
+          "date": "Tue, 15 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Mandarin Oriental Announces Luxury Residences in Abu Dhabi - https://safariindia.com/",
+          "date": "Mon, 05 Oct 2026 10:06:31 GMT"
+        },
+        {
+          "title": "Mnzil, TDG & Capital Partners Launch USD 267M Fund to Develop Workforce Housing in Saudi - waya.media",
+          "date": "Tue, 06 Oct 2026 10:04:34 GMT"
+        },
+        {
+          "title": "Inception42 marks AI Everything Abu Dhabi with Insight launch - TradeArabia",
+          "date": "Thu, 08 Oct 2026 10:08:21 GMT"
+        },
+        {
+          "title": "Living in Abu Dhabi: How a Growing Capital Plans for Modern Life - Dubai Chronicle",
+          "date": "Sat, 03 Oct 2026 12:04:33 GMT"
+        },
+        {
+          "title": "Abu Dhabi named world’s most improved real estate market for transparency - Khaleej Times",
+          "date": "Mon, 28 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Mubadala and TARAF partner with Kerzner International to introduce One&Only private residences on Al Maryah Island - www.wam.ae",
+          "date": "Thu, 01 Oct 2026 11:20:46 GMT"
+        },
+        {
+          "title": "Ohana Development breaks ground on AED 15bln Manchester City Yas Residences by Ohana - Zawya",
+          "date": "Fri, 25 Sep 2026 06:57:00 GMT"
+        },
+        {
+          "title": "Abu Dhabi's branded residences enter major growth phase, says expert - Zawya",
+          "date": "Fri, 09 Oct 2026 03:28:17 GMT"
+        },
+        {
+          "title": "How Etihad Rail is changing the UAE property market - The Week",
+          "date": "Mon, 05 Oct 2026 10:27:16 GMT"
+        },
+        {
+          "title": "Abu Dhabi's Yas Island gets new Dh6 billion community with launch of THE WADI - Gulf News",
+          "date": "Sat, 19 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Eagle Hills & Government of Maldives ink deal for US $12bn waterfront development - Middle East Construction News",
+          "date": "Wed, 23 Sep 2026 07:06:17 GMT"
+        },
+        {
+          "title": "Abu Dhabi Projects and Infrastructure Centre and The Boring Company partner to explore underground infrastructure opportunities - Construction Week Online",
+          "date": "Fri, 09 Oct 2026 05:43:24 GMT"
+        },
+        {
+          "title": "Ohana Development and Manchester City break ground at Manchester City Yas Residences by Ohana - Gulf News",
+          "date": "Tue, 29 Sep 2026 08:54:00 GMT"
+        },
+        {
+          "title": "Fibrex wins $217m Abu Dhabi Seamont residences contract - MEED | Middle East business intelligence",
+          "date": "Fri, 09 Oct 2026 10:02:04 GMT"
+        },
+        {
+          "title": "Dubai Leads the World's Branded Residence Market - Luxhabitat",
+          "date": "Tue, 29 Sep 2026 09:51:39 GMT"
+        },
+        {
+          "title": "What the iPhone 18 launch did to the UAE’s second-hand market - Gulf Business",
+          "date": "Tue, 29 Sep 2026 11:10:58 GMT"
+        },
+        {
+          "title": "Burtville debuts Bab Al Qasr Beach Resort Residence 77 - Middle East Construction News",
+          "date": "Tue, 06 Oct 2026 06:50:46 GMT"
+        },
+        {
+          "title": "Aldar and Arada unveil $4 billion Abu Dhabi real estate partnership - Arabian Business",
+          "date": "Wed, 30 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Etihad Rail launches: What Abu Dhabi-Dubai trains could mean for property prices and rents - Arabian Business",
+          "date": "Thu, 01 Oct 2026 21:33:21 GMT"
+        },
+        {
+          "title": "Nakheel unveils Bay Estate, Dubai Islands - Middle East Construction News",
+          "date": "Tue, 06 Oct 2026 07:01:12 GMT"
+        },
+        {
+          "title": "Etihad Rail’s first Dubai-Abu Dhabi passenger train departs from Al Yalayis - Gulf Business",
+          "date": "Wed, 30 Sep 2026 06:03:55 GMT"
+        },
+        {
+          "title": "Shure launches IntelliMix Bar Pro in GCC - Gulf Business",
+          "date": "Tue, 29 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "How Almal Real Estate Development is building momentum on Al Marjan Island - Construction Week Online",
+          "date": "Fri, 09 Oct 2026 11:33:27 GMT"
+        },
+        {
+          "title": "SAAS Properties Launches the Ritz-Carlton Residences, Al Maryah Island at LIVEX 2026 - Khaleej Times",
+          "date": "Fri, 02 Oct 2026 13:57:32 GMT"
+        },
+        {
+          "title": "Want to invest in Abu Dhabi's government land? Now there's an app for that - Gulf News",
+          "date": "Thu, 01 Oct 2026 07:11:45 GMT"
+        },
+        {
+          "title": "Dubai-Built Myndlab Goes Global Following Beta, With US Emerging as Its Largest User Market - The Manila Times",
+          "date": "Wed, 07 Oct 2026 14:32:36 GMT"
+        },
+        {
+          "title": "Top 12 project launches in Sep 2026: Wynn Al Marjan Island, Kempinski, Aldar, Emaar, and more - Construction Week Online",
+          "date": "Wed, 07 Oct 2026 06:18:05 GMT"
+        },
+        {
+          "title": "THE WADI gives UAE landscapes a voice with “Return Within” - Campaign Middle East",
+          "date": "Wed, 07 Oct 2026 11:40:21 GMT"
+        },
+        {
+          "title": "Dubai leads world in luxury branded residences with 175 projects, report says - Emirates 24|7",
+          "date": "Tue, 29 Sep 2026 08:03:00 GMT"
+        },
+        {
+          "title": "Alabbar’s Eagle Hills to build $20 billion waterfront destination in Maldives - Khaleej Times",
+          "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Aldar launches Yas Riva Reserve, a waterfront villa community on Yas Island - Gulf News",
+          "date": "Fri, 18 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Kotak Realty Fund invests Rs 800 crore in Smartworld Sky Arc and Trump Residences - The Economic Times",
+          "date": "Fri, 11 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Etihad Rail map: Where are the other stations as Dubai launch is now just one week away? - Arabian Business",
+          "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "BAMX Developments shines at IPS 2026 - Gulf News",
+          "date": "Thu, 10 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "New Abu Dhabi beachfront homes launched on Al Reem Island - Gulf News",
+          "date": "Mon, 05 Oct 2026 08:45:06 GMT"
+        },
+        {
+          "title": "Minor Hotels to open 111-key boutique hotel on Dubai Islands in 2029 - Gulf News",
+          "date": "Fri, 02 Oct 2026 11:42:39 GMT"
+        },
+        {
+          "title": "BNW Developments launches Sydney office, for Australians to invest in the UAE - Middle East Construction News",
+          "date": "Tue, 06 Oct 2026 07:20:41 GMT"
+        },
+        {
+          "title": "Etihad Rail to influence Abu Dhabi rents first, then sale prices, says new report - Khaleej Times",
+          "date": "Thu, 01 Oct 2026 09:46:29 GMT"
+        },
+        {
+          "title": "UAE announces fuel prices: Here’s how much you will pay from October 1 - Gulf Business",
+          "date": "Wed, 30 Sep 2026 06:43:57 GMT"
+        },
+        {
+          "title": "Al Zorah Development Company outlines project pipeline in Ajman - Middle East Construction News",
+          "date": "Tue, 29 Sep 2026 07:53:57 GMT"
+        },
+        {
+          "title": "Nakheel awards contract to Metac General Contracting - Middle East Construction News",
+          "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE Business: Jindong Property in deal to launch key logistics facility at Kezad - Gulf Daily News (Bahrain)",
+          "date": "Mon, 28 Sep 2026 11:26:05 GMT"
+        },
+        {
+          "title": "Dubai retains crown as world’s top market for branded residences, Knight Frank says - Arabian Business",
+          "date": "Tue, 29 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Cars underground, 6-km running route above: Abu Dhabi’s new Wadi community revealed - Khaleej Times",
+          "date": "Sat, 19 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Abu Dhabi launches academy to train thousands of tourism frontliners - Gulf News",
+          "date": "Sat, 19 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Etihad Rail Freight launches direct Fujairah-Abu Dhabi cargo service - Gulf News",
+          "date": "Sun, 20 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Royal Development Holding, SAAS Properties award AED800 million main works construction contract to Fibrex LLC - Big News Network.com",
+          "date": "Thu, 08 Oct 2026 16:03:00 GMT"
+        },
+        {
+          "title": "Aldar Properties Secures $1.36 Billion in New Housing Sales Amid Surging Abu Dhabi Demand - https://streamlinefeed.co.ke/",
+          "date": "Tue, 29 Sep 2026 08:36:53 GMT"
+        },
+        {
+          "title": "InterContinental Abu Dhabi and InterContinental Residences Abu Dhabi Head to Arabian Travel Market with Five World Travel Awards - مجلة أرقام",
+          "date": "Tue, 15 Sep 2026 11:15:04 GMT"
+        },
+        {
+          "title": "UAE stocks end mixed as geopolitical tensions ease, Dubai gains 0.3% - Profit by Pakistan Today",
+          "date": "Fri, 09 Oct 2026 18:01:52 GMT"
+        }
+      ]
+    },
+    {
+      "region": "Ras Al Khaimah",
+      "status": "200",
+      "headlines": [
+        {
+          "title": "OBG Real Estate Brokers Announces Payment Plan for Nasim Al Bahr Development - USA Today",
+          "date": "Wed, 23 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai and Abu Dhabi’s Trophy-Home Developers Are Doubling Down on Waterfront Living - Mansion Global",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE remains at the forefront of global branded residences market - Consultancy-me.com",
+          "date": "Thu, 01 Oct 2026 15:23:57 GMT"
+        },
+        {
+          "title": "Ras Al Khaimah begins implementing Advanced Air Mobility network through landmark agreement with Skyports - Skyports Infrastructure",
+          "date": "Mon, 28 Sep 2026 15:23:45 GMT"
+        },
+        {
+          "title": "Rising demand for Al Marjan Island beachfront homes drives new Mondrian residence release - Zawya",
+          "date": "Wed, 23 Sep 2026 11:14:00 GMT"
+        },
+        {
+          "title": "Demand for waterfront destinations in Ras Al Khaimah continues to surge - Arabian Business",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Minor Hotels Expands UAE Portfolio with Anantara Siniya Island Resort & Residences - Hospitality Net",
+          "date": "Wed, 07 Oct 2026 11:15:00 GMT"
+        },
+        {
+          "title": "Almal completes superstructure of ‘The Unexpected’ Al Marjan Island - Middle East Construction News",
+          "date": "Tue, 06 Oct 2026 07:30:21 GMT"
+        },
+        {
+          "title": "Atara Development Elevates Sheraton Al Marjan Island Residences With a Sharper Luxury Offering - Construction Business News Middle East",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Al Marjan Island captures nearly two-thirds of off-plan apartment interest in RAK - Gulf News",
+          "date": "Fri, 25 Sep 2026 10:09:47 GMT"
+        },
+        {
+          "title": "Al Marjan Island set to drive Ras Al Khaimah’s hotel growth through 2030 - Focus Gaming News",
+          "date": "Tue, 06 Oct 2026 05:07:19 GMT"
+        },
+        {
+          "title": "How Almal Real Estate Development is building momentum on Al Marjan Island - Construction Week Online",
+          "date": "Fri, 09 Oct 2026 11:33:27 GMT"
+        },
+        {
+          "title": "Emaar announces Address Residences Al Marjan Island Ras Al Khaimah - WOW-RAK",
+          "date": "Wed, 16 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Comes 2027, Wynn Al Marjan Island Unveils Its ‘Palaces In The Sky’ & Ultra-Luxury Townhomes In RAK - Curly Tales",
+          "date": "Tue, 15 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai Leads the World's Branded Residence Market - Luxhabitat",
+          "date": "Tue, 29 Sep 2026 09:51:39 GMT"
+        },
+        {
+          "title": "Ras Al Khaimah property prices jump 18% and rents rise 14% as 34,000 new homes planned - Arabian Business",
+          "date": "Tue, 22 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Rami Farhat has been appointed as Pre-Opening General Manager at Nikki Beach Resort & Spa Muscat - Hospitality Net",
+          "date": "Thu, 08 Oct 2026 13:56:00 GMT"
+        },
+        {
+          "title": "Atara Development launches The Residences at Sheraton Al Marjan Island Resort - Middle East Construction News",
+          "date": "Thu, 17 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE company nets $27m as demand for Al Marjan Island soars - Arabian Business",
+          "date": "Sat, 03 Oct 2026 09:51:50 GMT"
+        },
+        {
+          "title": "Porto Playa on Hayat Island: What Buyers Need to Know Before Handover - WOW-RAK",
+          "date": "Mon, 28 Sep 2026 08:42:56 GMT"
+        },
+        {
+          "title": "Mondrian Al Marjan Island Releases New Frontline Two-Bedroom Beachfront Residences as RAK Property Demand Grows - WOW-RAK",
+          "date": "Wed, 23 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Al Othaim reveals US $4.3bn Saudi real estate investment plans - Middle East Construction News",
+          "date": "Mon, 05 Oct 2026 05:50:24 GMT"
+        },
+        {
+          "title": "Record Dh130 million Sky Palace sale headlines strong H1 for Ras Al Khaimah property - Khaleej Times",
+          "date": "Mon, 21 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "RAK Central: Every Project in Ras Al Khaimah’s New Downtown and When It’s Due - WOW-RAK",
+          "date": "Tue, 29 Sep 2026 08:27:58 GMT"
+        },
+        {
+          "title": "Almal Completes Superstructure of Al Marjan Island Project - Construction World",
+          "date": "Thu, 01 Oct 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE casino: First look at Wynn Al Marjan Island’s 70-storey tower apartments - Arabian Business",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "UAE realty firm BNW Developments expands international footprint with Sydney office - Realty Today",
+          "date": "Tue, 29 Sep 2026 18:30:00 GMT"
+        },
+        {
+          "title": "BNW Developments opens Sydney office to expand UAE property investor outreach - Prop News Time",
+          "date": "Sat, 03 Oct 2026 13:02:22 GMT"
+        },
+        {
+          "title": "IHG signs first Middle East Garner hotels in Dubai and Ras Al Khaimah - Hotelier Middle East",
+          "date": "Mon, 05 Oct 2026 14:00:00 GMT"
+        },
+        {
+          "title": "Karl Lagerfeld strengthens its real estate division with first complex in Mexico - Fashion United",
+          "date": "Fri, 09 Oct 2026 12:24:05 GMT"
+        },
+        {
+          "title": "BNW Developments Opens Sydney Office to Target UAE Investors - Construction World",
+          "date": "Mon, 05 Oct 2026 10:10:46 GMT"
+        },
+        {
+          "title": "Ras Al Khaimah to launch advanced air mobility network by Q3 2027 - Gulf News",
+          "date": "Mon, 28 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Dubai leads world in luxury branded residences with 175 projects, report says - Emirates 24|7",
+          "date": "Tue, 29 Sep 2026 08:03:00 GMT"
+        },
+        {
+          "title": "Sobha breaks ground on 2-key Siniya Island projects in UAQ - Middle East Construction News",
+          "date": "Wed, 07 Oct 2026 06:20:51 GMT"
+        },
+        {
+          "title": "Sheraton Residences Al Marjan Island Enters Its Next Chapter - WOW-RAK",
+          "date": "Wed, 16 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "BNW Developments opens Sydney office to tap investor demand - Construction World",
+          "date": "Thu, 01 Oct 2026 07:42:16 GMT"
+        },
+        {
+          "title": "$750k ‘golden visa’: Aus landlords flee to tax-free offshore mansions - Real Estate",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "BNW Developments launches Sydney office, for Australians to invest in the UAE - Middle East Construction News",
+          "date": "Tue, 06 Oct 2026 07:20:41 GMT"
+        },
+        {
+          "title": "Umm Al Quwain Crown Prince attends groundbreaking of Anantara Sobha Siniya Island Resort and Residences - Construction Week Online",
+          "date": "Tue, 06 Oct 2026 11:11:43 GMT"
+        },
+        {
+          "title": "BNW Developments launches Sydney office, expanding opportunities for Australians to invest in the UAE - Zawya",
+          "date": "Tue, 29 Sep 2026 12:34:00 GMT"
+        },
+        {
+          "title": "Al Zorah Development Company outlines project pipeline in Ajman - Middle East Construction News",
+          "date": "Tue, 29 Sep 2026 07:53:57 GMT"
+        },
+        {
+          "title": "More Than 600 Rooms Are Getting a Makeover as RAK’s Resort Scene Levels Up - WOW-RAK",
+          "date": "Tue, 29 Sep 2026 10:42:31 GMT"
+        },
+        {
+          "title": "Inside the Wynn Enclave: The 323-Key Hotel, Royal Apartments and Townhomes at Wynn Al Marjan Island - WOW-RAK",
+          "date": "Mon, 14 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Submer and ACES ink MoU to increase AI-ready data centre capacity in KSA - Middle East Construction News",
+          "date": "Mon, 05 Oct 2026 05:15:00 GMT"
+        },
+        {
+          "title": "SO/ Ras Al Khaimah Is Going 13+ With a New Adults Only Positioning - WOW-RAK",
+          "date": "Wed, 30 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "Day Pass at Anantara Mina Ras Al Khaimah - WOW-RAK",
+          "date": "Fri, 25 Sep 2026 07:00:00 GMT"
+        },
+        {
+          "title": "How BNW Developments is Bringing the Taj Lifestyle to Al Marjan Island - Mid-Day",
+          "date": "Mon, 05 Oct 2026 08:37:00 GMT"
+        },
+        {
+          "title": "Al Marjan Island’s The Unexpected Hotel tops out as construction crosses 50pc - Travels Dubai",
+          "date": "Thu, 08 Oct 2026 05:38:00 GMT"
+        }
+      ]
+    }
+  ],
+  "publicCategoryAccess": [
+    {
+      "name": "Gulf News",
+      "url": "https://gulfnews.com/business/property",
+      "status": "200"
+    },
+    {
+      "name": "Khaleej Times",
+      "url": "https://www.khaleejtimes.com/business/property",
+      "status": "200"
+    },
+    {
+      "name": "The National",
+      "url": "https://www.thenationalnews.com/business/property/",
+      "status": "200"
+    },
+    {
+      "name": "Arabian Business",
+      "url": "https://www.arabianbusiness.com/industries/real-estate",
+      "status": "403"
+    },
+    {
+      "name": "Gulf Today",
+      "url": "https://www.gulftoday.ae/business",
+      "status": "200"
+    },
+    {
+      "name": "Hospitality Net",
+      "url": "https://www.hospitalitynet.org/list/1-10/development.html",
+      "status": "404"
+    },
+    {
+      "name": "TTN",
+      "url": "https://www.ttnworldwide.com/Article/Tags/Hotels",
+      "status": "404"
+    },
+    {
+      "name": "TradeArabia",
+      "url": "https://www.tradearabia.com/categories/CONS",
+      "status": "200"
+    }
+  ],
+  "image": {
+    "style": "S07",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "opaque": true,
+    "inspected": true,
+    "libraryFileId": "libfile_24d5c855968c8191acfc13a4506f0605"
+  },
+  "caption": "🏢 Lunara Tower — Tarrad Development\n\nBrokers report EOI collection announced on 6 October 2026 for this upcoming apartment development in Majan, Wadi Al Safa 3, Dubailand, Dubai. The exact plot is awaiting confirmation.\n\n• 119 homes reported: 105 one-bedroom apartments and 14 two-bedroom apartments with a study\n• One-bedroom layouts reported from 530 sq ft\n• Broker-indicated prices: 1BR from AED 850,000; 2BR from AED 1.2 million — not developer-confirmed\n• Broker-advertised payment plan: 50% on booking and 50% on handover; signed schedule awaited\n• Indicative completion: Q1 2029; contractual handover unconfirmed\n\nAn early-access opportunity to watch for clients seeking a small apartment development in Majan.\n\nBroker intelligence — medium confidence. This is a reported EOI update following earlier marketing. The EOI amount, refundability, escrow arrangements and current unit availability have not been verified.\n\nhttps://graf.ae/launches/tarrad-lunara-tower-majan/"
+}
