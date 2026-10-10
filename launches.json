@@ -2076,6 +2076,71 @@
       "firstReported": "2026-10-09",
       "updatedAt": "2026-10-09",
       "published": true
+    },
+    {
+      "id": "tarrad-lunara-tower-majan",
+      "project": "Lunara Tower",
+      "developer": "Tarrad Development",
+      "emirate": "Dubai",
+      "location": "Majan, Wadi Al Safa 3, Dubailand, Dubai; exact plot awaiting confirmation",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Broker reports describe a 3 October 2026 teaser and EOI collection announced on 6 October. Alnair's dated 5 October report separately reports the upcoming project. No developer-confirmed sales-opening date has been established.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Alnair's 5 October report indicates 1BR from AED 850,000 and 2BR from AED 1.2m; Augusta Properties and DirectDXB repeat these figures. No Tarrad price list has been independently verified. Propsearch's AED 85,000 field is not accepted as the full purchase price.",
+      "paymentPlan": "Takween Aldar lists 50% on booking / 50% upon handover; developer-confirmed schedule awaited.",
+      "handover": "Q1 2029 is indicated by Propsearch and Takween Aldar; contractual handover remains unconfirmed.",
+      "teaser": "Brokers report EOI collection for a 119-home Majan development.",
+      "summary": "Broker reports identify Lunara Tower by Tarrad Development in Majan, with a dated teaser followed by reported EOI collection on 6 October 2026. The proposed seven residential floors above ground level and two basements are described as containing 119 apartments: 105 one-bedroom homes and 14 two-bedroom homes with a study. Alnair separately identifies the upcoming project and circulating starting prices. This is an early-access report following earlier marketing, not a developer-confirmed first sales launch; exact plot, current inventory and commercial terms await confirmation.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "sizeSqftFrom": 530,
+          "note": "Broker-reported; 105 homes indicated, final unit schedule unconfirmed"
+        },
+        {
+          "type": "2BR apartment with study",
+          "note": "Broker-reported; 14 homes indicated, final unit schedule unconfirmed"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Augusta Properties and DirectDXB date reported EOI collection to 6 October 2026 and indicate at least three months before unit allocation/escrow processing. No developer-confirmed EOI amount, refund policy or escrow status has been verified."
+      },
+      "whatNext": "Await Tarrad's dated sales pack, exact plot, confirmed unit schedule and EOI/escrow terms; subscribe for verified updates.",
+      "confidenceNote": "Medium: dated broker reports and Propsearch agree on project/developer/location; the 6 October EOI report is broker intelligence. Augusta/DirectDXB/DubaiVastgoed reproduce matching offer text and are not counted as independent origins. Alnair and Propsearch provide separate identity corroboration. Office units in some broker copy are unresolved and excluded from the confirmed product description.",
+      "sources": [
+        {
+          "url": "https://www.augusta-properties.com/explore/tarrad-lunara-tower",
+          "label": "Broker page: dated 3 October teaser and 6 October EOI report",
+          "date": "2026-10-06",
+          "primary": true
+        },
+        {
+          "url": "https://alnair.ae/en/news/lunara-tower-by-tarrad-development-is-coming-to-majan-dubai",
+          "label": "Separate 5 October upcoming-project report and broker price indications",
+          "date": "2026-10-05",
+          "primary": false
+        },
+        {
+          "url": "https://propsearch.ae/dubai/lunara-tower",
+          "label": "Portal identity/location and indicative completion; first trace is not a launch date",
+          "primary": false
+        },
+        {
+          "url": "https://takweenaldar.ae/en/off-plan/project/lunara-tower",
+          "label": "Broker listing: presale stage, furnishing, payment split and indicative completion",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-10",
+      "updatedAt": "2026-10-10",
+      "published": true
     }
   ],
   "version": 1
