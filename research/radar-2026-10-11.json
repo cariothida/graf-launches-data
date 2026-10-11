@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "date": "2026-10-11",
+  "timezone": "Asia/Dubai",
+  "scope": {
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "rollingWindow": "2026-09-11 to 2026-10-11",
+    "forwardWindows": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "2 months",
+      "3 months"
+    ]
+  },
+  "outcome": {
+    "qualifyingNewRecords": 0,
+    "qualifyingMaterialUpdates": 0,
+    "launchesJsonChanged": false,
+    "manualHandoffs": 0,
+    "queuePosts": 0
+  },
+  "coverage": {
+    "sourceWatchlistSize": 64,
+    "instagram": {
+      "namedBrokerSourceAttempts": 20,
+      "variedQueryAttempts": 24,
+      "languages": [
+        "English",
+        "Arabic",
+        "Russian"
+      ],
+      "nativeAccess": false,
+      "accessibleNativeAccounts": 0,
+      "indexedExactPostMediaInspected": 0,
+      "notes": "Search routes returned no accessible native Instagram posts or media. Indexed leads were checked through corroborating public pages where available; Instagram Stories remain unavailable."
+    },
+    "youtube": {
+      "queriesAttempted": 4,
+      "fullVideosInspected": 0,
+      "notes": "Search results were unrelated; no qualifying YouTube source was available for full inspection."
+    },
+    "googleNews": {
+      "regionalRoutesAttempted": 3,
+      "accessibleFeeds": 0,
+      "notes": "Direct Google News search URLs were inaccessible in the web tool. Separate regional web/news searches were completed; this is not claimed as Google News feed coverage."
+    },
+    "newspapers": [
+      {
+        "name": "Gulf News",
+        "route": "domain-targeted web search",
+        "access": "indexed/full article snippets; no new qualifying 11 October launch"
+      },
+      {
+        "name": "Khaleej Times",
+        "route": "domain-targeted web search",
+        "access": "indexed/full article snippets; no new qualifying 11 October launch"
+      },
+      {
+        "name": "The National",
+        "route": "domain-targeted web search",
+        "access": "indexed search; no relevant current qualifying result"
+      },
+      {
+        "name": "Arabian Business",
+        "route": "domain-targeted web search",
+        "access": "indexed search; no relevant current qualifying result"
+      },
+      {
+        "name": "Gulf Today",
+        "route": "domain-targeted web search",
+        "access": "full indexed results; no new qualifying 11 October launch"
+      },
+      {
+        "name": "Gulf Business",
+        "route": "domain-targeted web search",
+        "access": "indexed results; no new qualifying 11 October launch"
+      },
+      {
+        "name": "Zawya",
+        "route": "domain-targeted web search",
+        "access": "robots blocked; indexed snippet only"
+      }
+    ],
+    "hospitality": {
+      "hospitalityNet": true,
+      "tradeArabiaTtn": true,
+      "finding": "No new saleable branded-residence or branded-office launch qualifying for publication."
+    },
+    "officialDevelopers": [
+      "Emaar",
+      "Nakheel",
+      "Aldar",
+      "Modon",
+      "Binghatti",
+      "Ellington",
+      "Marjan",
+      "Janu",
+      "Avenew"
+    ],
+    "propsearch": {
+      "scope": "Homepage Latest buildings ONLY",
+      "homepageStatus": 200,
+      "screened": 20,
+      "detailPagesRead": 20,
+      "finding": "Same 20-entry shortlist as 10 October. First Trace and portal appearance were not treated as launch dates."
+    },
+    "whatsappStories": {
+      "requestId": "radar-20261011-stories-e5fda67f965d5e782225cc3ec6",
+      "runId": 38109961397,
+      "artifactPrivatelyDecrypted": true,
+      "visibleRecords": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "mediaFullyInspected": 0
+    },
+    "whatsappChats": {
+      "requestId": "radar-20261011-chats-79f6b750127e4b2a0cc05f0cf8",
+      "runId": 38110324806,
+      "artifactPrivatelyDecrypted": true,
+      "chatsListed": 0,
+      "historyChatsSelected": 0,
+      "finding": "Reader failed after an empty getChats response; no broker histories inspected."
+    }
+  },
+  "dispositions": [
+    {
+      "name": "Janu Residences Al Marjan Island",
+      "decision": "unchanged early watch",
+      "reason": "Late-October sales window and USD2.3m indication trace to the same press report already reviewed on 10 October. Official Janu page confirms 1–5BR plus five villas but not current sale terms; opening guidance conflicts between 2028 and Marjan's 2029 schedule."
+    },
+    {
+      "name": "Cheval Residences Dubai Islands",
+      "decision": "not new",
+      "reason": "Primary launch announcement is 20 April 2026. Current pricing/plan pages do not establish a new dated October inventory event."
+    },
+    {
+      "name": "Mercedes-Benz Places Office Towers",
+      "decision": "early watch only",
+      "reason": "Propsearch and recently indexed broker pages identify two planned 25-storey office towers; no dated developer sales release, official price, unit mix or payment plan was found."
+    },
+    {
+      "name": "Ellington Al Yalayis master community",
+      "decision": "unchanged early watch",
+      "reason": "Broker pages still indicate an October–November expectation, but no official name, dated release, EOI opening or confirmed commercial pack was found."
+    },
+    {
+      "name": "Ellington proposed office launch",
+      "decision": "unresolved",
+      "reason": "No new primary announcement or reconciled identity was found."
+    },
+    {
+      "name": "Tarrad Jebel Ali Residence",
+      "decision": "unchanged early watch",
+      "reason": "Portal First Trace and generic broker marketing do not establish a dated new release."
+    },
+    {
+      "name": "Volu by ASAK / Gloas by Acube / Joud and Jamal by Aras / Callista by Zoya / Rigel by Acube",
+      "decision": "early watch",
+      "reason": "Current Propsearch entries were inspected. Portal registration/First Trace does not establish launch timing; no qualifying dated sales event was verified."
+    },
+    {
+      "name": "Emaar 10 October open house",
+      "decision": "excluded",
+      "reason": "A sales-centre event is not evidence of a distinct project, phase or inventory launch."
+    }
+  ],
+  "writes": {
+    "launchesJson": "unchanged",
+    "whatsappQueue": {
+      "briefingDate": "2026-10-11",
+      "posts": 0,
+      "commit": "722f8ca0e76444920ee0c8496d6310bdbe1011d2"
+    },
+    "whatsappLedger": "unchanged"
+  },
+  "gaps": [
+    "Instagram native accounts, posts, reels and Stories were not accessible.",
+    "Direct Google News feeds were inaccessible; regional web/news search was used but not represented as feed coverage.",
+    "The WhatsApp chat reader returned no chats and failed before history selection.",
+    "Video and private/inaccessible media were not reviewed unless full content was available."
+  ]
+}
