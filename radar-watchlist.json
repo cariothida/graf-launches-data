@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11",
+  "updatedAt": "2026-10-12",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -1075,14 +1075,14 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "sourceWatchlistSize": 64,
     "regionsReviewed": [
       "Dubai",
       "Abu Dhabi",
       "Ras Al Khaimah"
     ],
-    "dateWindow": "2026-09-11 to 2026-10-11; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
+    "dateWindow": "2026-09-12 to 2026-10-12; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
     "instagramNamedBrokerSourceAttempts": 20,
     "instagramBrokerSources": [
       "Allsopp & Allsopp",
@@ -1091,20 +1091,20 @@
       "AX Capital",
       "Driven Properties",
       "D&B Properties",
+      "Dacha",
       "Provident Estate",
       "Betterhomes",
+      "Unique Properties",
       "Whitewill",
       "Metropolitan Group",
       "Hunt & Harris",
+      "Primo Capital",
       "Royal Lounge Properties",
       "Savills Middle East",
+      "Edwards & Towers",
       "Engel & Volkers Dubai",
       "Luxhabitat",
-      "DRE Homes",
-      "Albina Sultanova",
-      "Grand Reve Realty",
-      "Future Key Properties",
-      "Primo Capital"
+      "TruHauz"
     ],
     "instagramVariedQueries": 24,
     "instagramQueryAttempts": 44,
@@ -1114,53 +1114,53 @@
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "20 named broker/indexed-source searches and 24 varied Instagram-targeted formulations were attempted. Zero native accounts, Stories or full Instagram media were accessible; search results were absent or unrelated.",
+    "instagramFinding": "20 named broker/indexed-source searches and 24 varied Instagram-targeted formulations were attempted. Zero native accounts, Stories or full Instagram media were accessible; indexed results were absent or unrelated.",
     "googleNews": {
-      "route": "Three direct regional Google News search URLs",
-      "retrieval": "inaccessible in web tool",
+      "route": "Regional news-search route",
+      "retrieval": "broad news search completed; direct Google News feed not claimed",
       "headlinesScreened": {
         "Dubai": null,
         "AbuDhabi": null,
         "RasAlKhaimah": null
       },
       "totalHeaders": 0,
-      "limitation": "Regional web/news searches were completed, but Google News feed coverage is not claimed."
+      "limitation": "Search results were assessed by emirate and exact name; no direct Google News feed coverage claimed."
     },
     "requiredNewspapers": [
       {
         "name": "Gulf News",
-        "access": "domain-targeted indexed search; accessible relevant archives, no new qualifying 11 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
       },
       {
         "name": "Khaleej Times",
-        "access": "domain-targeted indexed search; no new qualifying 11 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
       },
       {
         "name": "The National",
-        "access": "domain-targeted indexed search; no relevant current qualifying result"
+        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
       },
       {
         "name": "Arabian Business",
-        "access": "domain-targeted indexed search; no relevant current qualifying result"
+        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
       },
       {
         "name": "Gulf Today",
-        "access": "domain-targeted indexed search; accessible results, no new qualifying 11 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
       }
     ],
-    "hospitality": "Hospitality Net and TradeArabia/TTN routes were checked; no new qualifying saleable branded-residence or branded-office announcement.",
-    "youtubeFinding": "Four targeted YouTube queries produced unrelated results; no relevant full video was inspected.",
+    "hospitality": "Hospitality Net and TradeArabia/TTN routes checked; no new qualifying saleable residence or branded-office announcement.",
+    "youtubeFinding": "Four targeted YouTube queries returned unrelated results; no relevant full video inspected.",
     "propsearchLatestBuildings": {
       "attempted": true,
       "inspected": true,
       "scope": "Homepage Latest buildings ONLY",
       "screened": 20,
       "detailPagesRead": 20,
-      "access": "Homepage and all 20 detail pages returned HTTP 200; list unchanged from 10 October."
+      "access": "Homepage and all 20 listed detail pages retrieved by ordinary public HTTP; list unchanged from 11 October."
     },
     "whatsappStories": {
-      "requestId": "radar-20261011-stories-e5fda67f965d5e782225cc3ec6",
-      "runId": 38109961397,
+      "requestId": "radar-20261012-stories-77a2551f2ea0",
+      "runId": 38198821445,
       "artifactPrivatelyDecrypted": true,
       "visibleRecords": 0,
       "windowHours": 24,
@@ -1170,12 +1170,12 @@
       "finding": "Official getStories returned zero updates visible to the connected account; no media to inspect."
     },
     "whatsappChats": {
-      "requestId": "radar-20261011-chats-79f6b750127e4b2a0cc05f0cf8",
-      "runId": 38110324806,
+      "requestId": "radar-20261012-chats-b8dc173a3010",
+      "runId": 38198949335,
       "artifactPrivatelyDecrypted": true,
       "chatsListed": 0,
       "historyChatsSelected": 0,
-      "finding": "Reader failed after an empty getChats response; no manager chat histories inspected."
+      "finding": "Workflow concluded failure after an empty getChats response; no developer-manager chat histories inspected."
     },
     "qualifyingNewRecords": 0,
     "qualifyingMaterialUpdates": 0,
@@ -1185,21 +1185,23 @@
       "liveRecordsPreserved": true
     },
     "queue": {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "posts": 0,
-      "commit": "722f8ca0e76444920ee0c8496d6310bdbe1011d2"
+      "commit": "d9bdad108fab7393805fd590cb0bfcce3cbcd6ae"
     },
     "manualHandoff": "None; no qualifying new launch or material update. Previous Lunara handoff was not repeated."
   },
   "lastMaterialUpdate": {
-    "date": "2026-10-11",
+    "date": "2026-10-12",
     "updates": [],
     "held": [
-      "Janu Residences Al Marjan Island: October sales-window and USD2.3m indication are unchanged from the same 1 October press report already reviewed; official sale terms and reconciled 2028/2029 timing remain outstanding.",
-      "Mercedes-Benz Places Office Towers: two planned 25-storey office towers are now indexed by Propsearch and broker pages, but no dated developer sales release or verified commercial pack was found.",
-      "Ellington Al Yalayis / proposed office launch: October–November broker expectation remains unchanged; no official project name, EOI opening or confirmed sales pack.",
-      "Tarrad Jebel Ali Residence and the current Propsearch First Trace entries: no independent dated launch event.",
-      "Cheval Residences: primary launch was 20 April 2026; current pages do not establish a distinct October release."
+      "Lunara Tower: unchanged 6 October broker EOI update already published and handed to Alex on 10 October; do not repeat.",
+      "Ellington Al Yalayis 1: existing GRAF record already covers the 4,500+ home broker campaign, indicative terms and registration deposit; no dated official Ellington release.",
+      "Ellington proposed office launch: no official project name, dated sales opening or verified commercial pack.",
+      "Janu Residences Al Marjan Island: late-October press-reported window unchanged; official sale opening, price list and reconciled timing remain outstanding.",
+      "Mercedes-Benz Places Office Towers: current Propsearch/broker indexing remains an early lead, not a dated developer sales release.",
+      "X11 by BAMX: 15 October formal launch remains on watch; no material new commercial release today.",
+      "Propsearch Latest buildings: all 20 entries unchanged; First Trace/indexing dates are not launch dates."
     ]
   },
   "latestBuildingReview": {
