@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "window": {
+    "lookbackStart": "2026-09-12",
+    "lookbackEnd": "2026-10-12",
+    "forwardHorizons": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "2 months",
+      "3 months"
+    ]
+  },
+  "regions": [
+    "Dubai",
+    "Abu Dhabi",
+    "Ras Al Khaimah"
+  ],
+  "outcome": {
+    "qualifyingNewRecords": 0,
+    "qualifyingMaterialUpdates": 0,
+    "launchesJsonChanged": false,
+    "manualHandoffs": 0
+  },
+  "instagram": {
+    "namedBrokerSourceAttempts": 20,
+    "namedSources": [
+      "Allsopp & Allsopp",
+      "haus & haus",
+      "fam Properties",
+      "AX Capital",
+      "Driven Properties",
+      "D&B Properties",
+      "Dacha",
+      "Provident Estate",
+      "Betterhomes",
+      "Unique Properties",
+      "Whitewill",
+      "Metropolitan Group",
+      "Hunt & Harris",
+      "Primo Capital",
+      "Royal Lounge Properties",
+      "Savills Middle East",
+      "Edwards & Towers",
+      "Engel & Volkers Dubai",
+      "Luxhabitat",
+      "TruHauz"
+    ],
+    "variedQueryAttempts": 24,
+    "languages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "nativeAccountsInspected": 0,
+    "fullPostsOrReelsInspected": 0,
+    "finding": "Indexed Instagram searches returned no relevant accessible post/reel results. Native Instagram and Instagram Stories remained unavailable."
+  },
+  "youtube": {
+    "queriesAttempted": 4,
+    "fullRelevantVideosInspected": 0,
+    "finding": "Search results were unrelated; no relevant full video could be inspected."
+  },
+  "propsearch": {
+    "scope": "Homepage Latest buildings ONLY",
+    "homepageAccess": "ordinary public HTTP",
+    "latestBuildingCount": 20,
+    "detailPagesAttempted": 20,
+    "listChanged": false,
+    "excludedSections": [
+      "Latest areas",
+      "Recently updated projects"
+    ]
+  },
+  "news": {
+    "requiredNewspapers": {
+      "Gulf News": "domain-targeted indexed search; no new qualifying launch",
+      "Khaleej Times": "domain-targeted indexed search; no new qualifying launch",
+      "The National": "domain-targeted indexed search; no new qualifying launch",
+      "Arabian Business": "domain-targeted indexed search; no new qualifying launch",
+      "Gulf Today": "domain-targeted indexed search; no new qualifying launch"
+    },
+    "additional": [
+      "Gulf Business",
+      "Zawya",
+      "Middle East Construction News",
+      "Construction Week Middle East",
+      "Hospitality Net",
+      "TradeArabia",
+      "TTN"
+    ],
+    "googleNewsRoute": "Broad regional news-search route used; direct Google News feed not claimed.",
+    "accessGaps": [
+      "Zawya robots restriction",
+      "Arabian Business full-article access not independently verified where results were indexed only"
+    ]
+  },
+  "officialDevelopers": [
+    "Emaar",
+    "Nakheel / Dubai Holding Real Estate",
+    "Aldar",
+    "Modon",
+    "Ellington",
+    "Marjan",
+    "RAK Properties",
+    "Arada"
+  ],
+  "whatsapp": {
+    "stories": {
+      "requestId": "radar-20261012-stories-77a2551f2ea0",
+      "workflowRunId": 38198821445,
+      "artifactPrivatelyDecrypted": true,
+      "storiesReturned": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "mediaInspected": 0
+    },
+    "chats": {
+      "requestId": "radar-20261012-chats-b8dc173a3010",
+      "workflowRunId": 38198949335,
+      "artifactPrivatelyDecrypted": true,
+      "chatsListed": 0,
+      "historyChatsSelected": 0,
+      "workflowConclusion": "failure after empty chat list"
+    }
+  },
+  "dispositions": [
+    {
+      "name": "Lunara Tower",
+      "result": "unchanged; 6 October broker EOI update already published and handed off on 10 October"
+    },
+    {
+      "name": "Ellington Al Yalayis 1 master community",
+      "result": "unchanged early broker intelligence; GRAF page already contains 4,500+ homes, indicative prices, 70/30 plan and AED100k registration deposit; no dated official Ellington release"
+    },
+    {
+      "name": "Ellington proposed office launch",
+      "result": "unchanged watch; no official name, dated sales opening or commercial pack"
+    },
+    {
+      "name": "Janu Residences Al Marjan Island",
+      "result": "unchanged late-October press-reported watch; no dated official sales opening or confirmed commercial schedule"
+    },
+    {
+      "name": "Mercedes-Benz Places Office Towers",
+      "result": "unchanged early indexed lead; no dated developer sales release or verified terms"
+    },
+    {
+      "name": "X11 by BAMX",
+      "result": "15 October launch remains upcoming but unchanged from earlier watch; no new material commercial release"
+    },
+    {
+      "name": "Emaar current launch catalogue",
+      "result": "Valia, Golf Fields, Golf Trails, Fior 1 and other catalogue entries reviewed; no same-morning material update established"
+    },
+    {
+      "name": "Propsearch Latest buildings",
+      "result": "all 20 names unchanged from 11 October; First Trace/indexing is not a launch date"
+    }
+  ],
+  "queue": {
+    "briefingDate": "2026-10-12",
+    "posts": 0
+  },
+  "notes": [
+    "No catalogue filler was promoted. No WhatsApp sending, queueing, ledger edit or publisher retry was performed."
+  ]
+}
