@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "date": "2026-10-13",
+  "scope": {
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "rollingWindow": "previous 30 days",
+    "forwardWindows": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "2 months",
+      "3 months"
+    ]
+  },
+  "outcome": {
+    "qualifyingNewRecords": 0,
+    "qualifyingMaterialUpdates": 0,
+    "earlyWatchSignals": 1,
+    "websiteChanged": false,
+    "manualWhatsAppHandoffs": 0
+  },
+  "coverage": {
+    "sourceWatchlistSize": 64,
+    "instagram": {
+      "namedBrokerIndexedSearchesAttempted": 20,
+      "variedQueriesAttempted": 24,
+      "languages": [
+        "English",
+        "Arabic",
+        "Russian"
+      ],
+      "nativeAccountsInspected": 0,
+      "storiesInspected": 0,
+      "limitation": "No authenticated/native Instagram access; public indexed search only."
+    },
+    "news": [
+      "Gulf News",
+      "Khaleej Times",
+      "The National",
+      "Arabian Business",
+      "Gulf Today",
+      "Gulf Business",
+      "Zawya",
+      "Construction Week Middle East",
+      "ME Construction News",
+      "Hospitality Net",
+      "TradeArabia / TTN",
+      "MEED"
+    ],
+    "youtube": {
+      "targetedRoutes": 4,
+      "relevantFullVideosInspected": 0
+    },
+    "officialDevelopers": [
+      "BEYOND Developments",
+      "Ellington Properties",
+      "Emaar",
+      "Aldar",
+      "Modon",
+      "Marjan / RAK Properties"
+    ],
+    "propsearch": {
+      "scope": "Homepage Latest buildings only",
+      "screened": 20,
+      "newEntries": 2,
+      "newDetailPagesRead": 2
+    },
+    "whatsapp": {
+      "stories": {
+        "visibleRecords": 0,
+        "windowHours": 24,
+        "cap": 500,
+        "truncated": false,
+        "mediaFullyInspected": 0
+      },
+      "chats": {
+        "chatsListed": 0,
+        "historyChatsSelected": 0,
+        "workflowStatus": "failure after empty chat listing"
+      }
+    },
+    "limitations": [
+      "Instagram Stories not connected.",
+      "Native Instagram posts/media were not accessible.",
+      "WhatsApp chat history was unavailable because the encrypted reader run ended after an empty chat listing.",
+      "Zawya direct page access was blocked by robots; indexed discovery only.",
+      "Search result quality was weak for some 2026-dated queries."
+    ]
+  },
+  "leads": [
+    {
+      "name": "Melograno Yards",
+      "region": "Dubai",
+      "location": "The Yards, City of Arabia, Wadi Al Safa 4, Dubailand",
+      "developer": "BEYOND Developments; legal/project entity reported as Peninsula Torin Real Estate Development",
+      "classification": "early-watch",
+      "verification": {
+        "confirmed": [
+          "Project identity is indexed by Propsearch.",
+          "Location is The Yards / City of Arabia.",
+          "Residential multi-building concept is consistently reported."
+        ],
+        "unresolved": [
+          "Official BEYOND project page and dated sales opening",
+          "EOI/booking process",
+          "Confirmed price and payment plan",
+          "Reconciled scale: Propsearch 1,205 units versus third-party 256 apartments / 268 total units",
+          "Contractual handover date"
+        ],
+        "timing": "First trace October 2026 is a portal indexing date, not a launch date."
+      },
+      "sources": [
+        {
+          "url": "https://propsearch.ae/dubai/melograno-yards",
+          "role": "new Latest buildings lead"
+        },
+        {
+          "url": "https://www.beyonddevelopments.ae/",
+          "role": "official portfolio check; project not yet shown"
+        },
+        {
+          "url": "https://offplanproject.ae/projects/melograno-yards/",
+          "role": "third-party product/scale indication"
+        },
+        {
+          "url": "https://beyondyards.com/melograno-yards/",
+          "role": "third-party product/timing indication"
+        }
+      ],
+      "disposition": "Do not publish to website or WhatsApp until a dated sales event and core commercial facts are independently verified."
+    },
+    {
+      "name": "Hadley Hills",
+      "region": "Dubai",
+      "location": "International City 2",
+      "developer": "LEOS Developments",
+      "classification": "excluded",
+      "disposition": "Excluded under Alex's blanket exclusion of all International City projects; portal First Trace is not a launch date.",
+      "sources": [
+        {
+          "url": "https://propsearch.ae/dubai/hadley-hills",
+          "role": "Propsearch new Latest buildings entry"
+        }
+      ]
+    },
+    {
+      "name": "Ritz-Carlton Abu Dhabi Grand Canal villa redevelopment",
+      "region": "Abu Dhabi",
+      "classification": "hospitality-planning-watch",
+      "disposition": "Do not treat as a for-sale residence launch; accessible official hotel material establishes redevelopment only, not separately saleable inventory."
+    }
+  ],
+  "trackedUnchanged": [
+    "Ellington Al Yalayis 1",
+    "Ellington proposed SZR office launch",
+    "X11 by BAMX",
+    "Janu Al Marjan Island",
+    "Mercedes-Benz Places Office Towers",
+    "Lunara Tower"
+  ],
+  "publication": {
+    "launchesJson": "unchanged",
+    "whatsappQueue": {
+      "briefingDate": "2026-10-13",
+      "posts": 0
+    },
+    "whatsappLedger": "unchanged",
+    "manualHandoff": "none"
+  }
+}
