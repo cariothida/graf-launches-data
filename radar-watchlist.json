@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12",
+  "updatedAt": "2026-10-13",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -16,7 +16,8 @@
     "2026-10-08: Samana South Haven 2 is a 7 October early-access sales update, not a project first appearing that day; DLD-linked traces predate the event.",
     "2026-10-09: Residence 77 is a formal unveiling following earlier marketing, not a first-ever sales claim. Exact event day is unresolved; developer commercial prices/payment/EOI await a current pack. Production sync validation accepted 1 new record and skipped 34 unchanged records, but direct push was blocked by protected main; recover through PR without changing workflows.",
     "2026-10-10: Lunara Tower qualifies as a dated 6 October broker EOI update after September/3 October marketing. Propsearch AED 85k is not a verified full purchase price. Broker payment split is 50% on booking / 50% on handover, not staged construction instalments. Matching-copy brokers counted as one information origin.",
-    "2026-10-11: The Propsearch Latest buildings list was unchanged from 10 October; all 20 detail pages were re-read. No portal First Trace or homepage appearance was treated as a launch date. Mercedes-Benz Places Office Towers remains an early watch pending a dated developer sales release."
+    "2026-10-11: The Propsearch Latest buildings list was unchanged from 10 October; all 20 detail pages were re-read. No portal First Trace or homepage appearance was treated as a launch date. Mercedes-Benz Places Office Towers remains an early watch pending a dated developer sales release.",
+    "2026-10-13: Melograno Yards is a new Propsearch Latest-buildings early signal, not a verified sales launch. BEYOND's public site does not yet show it; accessible third-party sources conflict on scale (1,205 homes versus 256 apartments / 268 total units). Hold until developer identity, exact phase, sales date and commercial terms are confirmed. Hadley Hills is excluded under Alex's blanket International City exclusion."
   ],
   "sources": [
     {
@@ -754,7 +755,8 @@
     "samana-eden-barari",
     "aldar-talay-marsa-al-saadiyat",
     "zoya-eterea-majan",
-    "samana-south-haven-2"
+    "samana-south-haven-2",
+    "melograno-yards"
   ],
   "projectReview": [
     {
@@ -1075,14 +1077,14 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-12",
+    "date": "2026-10-13",
     "sourceWatchlistSize": 64,
     "regionsReviewed": [
       "Dubai",
       "Abu Dhabi",
       "Ras Al Khaimah"
     ],
-    "dateWindow": "2026-09-12 to 2026-10-12; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
+    "dateWindow": "2026-09-13 to 2026-10-13; upcoming 1 week, 2 weeks, 1 month, 2 months and 3 months",
     "instagramNamedBrokerSourceAttempts": 20,
     "instagramBrokerSources": [
       "Allsopp & Allsopp",
@@ -1114,53 +1116,51 @@
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "20 named broker/indexed-source searches and 24 varied Instagram-targeted formulations were attempted. Zero native accounts, Stories or full Instagram media were accessible; indexed results were absent or unrelated.",
+    "instagramFinding": "20 named broker/indexed-source searches and 24 varied Instagram-targeted formulations were attempted. Zero native accounts, Stories or full Instagram media were accessible; indexed results were absent or irrelevant.",
     "googleNews": {
-      "route": "Regional news-search route",
-      "retrieval": "broad news search completed; direct Google News feed not claimed",
+      "route": "Regional and domain-targeted news-search routes",
+      "retrieval": "Broad current-news searches completed; direct Google News feed not claimed",
       "headlinesScreened": {
         "Dubai": null,
         "AbuDhabi": null,
         "RasAlKhaimah": null
       },
       "totalHeaders": 0,
-      "limitation": "Search results were assessed by emirate and exact name; no direct Google News feed coverage claimed."
+      "limitation": "Results were assessed by emirate and exact project identity; no direct Google News feed coverage claimed."
     },
     "requiredNewspapers": [
       {
         "name": "Gulf News",
-        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 13 October launch"
       },
       {
         "name": "Khaleej Times",
-        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 13 October launch"
       },
       {
         "name": "The National",
-        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 13 October launch"
       },
       {
         "name": "Arabian Business",
-        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 13 October launch"
       },
       {
         "name": "Gulf Today",
-        "access": "domain-targeted indexed search; no new qualifying 12 October launch"
+        "access": "domain-targeted indexed search; no new qualifying 13 October launch"
       }
     ],
-    "hospitality": "Hospitality Net and TradeArabia/TTN routes checked; no new qualifying saleable residence or branded-office announcement.",
-    "youtubeFinding": "Four targeted YouTube queries returned unrelated results; no relevant full video inspected.",
+    "hospitality": "Hospitality Net, TradeArabia/TTN and hotel/developer routes checked. Ritz-Carlton Abu Dhabi Grand Canal villa redevelopment was retained only as a hospitality/planning watch; saleable inventory was not established.",
+    "youtubeFinding": "Four targeted YouTube search routes produced no relevant full video for a qualifying launch.",
     "propsearchLatestBuildings": {
       "attempted": true,
       "inspected": true,
       "scope": "Homepage Latest buildings ONLY",
       "screened": 20,
-      "detailPagesRead": 20,
-      "access": "Homepage and all 20 listed detail pages retrieved by ordinary public HTTP; list unchanged from 11 October."
+      "detailPagesRead": 2,
+      "access": "Homepage list retrieved by ordinary public HTTP. Two new entries were reconciled against 12 October; only their detail pages were read."
     },
     "whatsappStories": {
-      "requestId": "radar-20261012-stories-77a2551f2ea0",
-      "runId": 38198821445,
       "artifactPrivatelyDecrypted": true,
       "visibleRecords": 0,
       "windowHours": 24,
@@ -1170,46 +1170,62 @@
       "finding": "Official getStories returned zero updates visible to the connected account; no media to inspect."
     },
     "whatsappChats": {
-      "requestId": "radar-20261012-chats-b8dc173a3010",
-      "runId": 38198949335,
       "artifactPrivatelyDecrypted": true,
       "chatsListed": 0,
       "historyChatsSelected": 0,
-      "finding": "Workflow concluded failure after an empty getChats response; no developer-manager chat histories inspected."
+      "finding": "Workflow ended unsuccessfully after an empty getChats listing; no developer-manager histories were available for inspection."
     },
     "qualifyingNewRecords": 0,
     "qualifyingMaterialUpdates": 0,
+    "earlyWatchSignals": 1,
     "website": {
-      "state": "unchanged-no-qualifying-update",
+      "state": "unchanged-no-qualifying-sales-update",
       "launchesJsonChanged": false,
       "liveRecordsPreserved": true
     },
     "queue": {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "posts": 0,
-      "commit": "d9bdad108fab7393805fd590cb0bfcce3cbcd6ae"
+      "commit": "1c0a685fcc6d26c90358a09ddddd0bfb7d074d63"
     },
-    "manualHandoff": "None; no qualifying new launch or material update. Previous Lunara handoff was not repeated."
+    "manualHandoff": "None; Melograno Yards is an early watch only, so no public caption or image was prepared."
   },
   "lastMaterialUpdate": {
-    "date": "2026-10-12",
-    "updates": [],
+    "date": "2026-10-13",
+    "updates": [
+      "Melograno Yards: new early-watch lead in The Yards, City of Arabia; identity/location corroborated, but no dated official sales opening and conflicting unit counts. Not published."
+    ],
     "held": [
+      "Hadley Hills: excluded because Alex excludes all International City projects.",
       "Lunara Tower: unchanged 6 October broker EOI update already published and handed to Alex on 10 October; do not repeat.",
-      "Ellington Al Yalayis 1: existing GRAF record already covers the 4,500+ home broker campaign, indicative terms and registration deposit; no dated official Ellington release.",
-      "Ellington proposed office launch: no official project name, dated sales opening or verified commercial pack.",
-      "Janu Residences Al Marjan Island: late-October press-reported window unchanged; official sale opening, price list and reconciled timing remain outstanding.",
-      "Mercedes-Benz Places Office Towers: current Propsearch/broker indexing remains an early lead, not a dated developer sales release.",
-      "X11 by BAMX: 15 October formal launch remains on watch; no material new commercial release today.",
-      "Propsearch Latest buildings: all 20 entries unchanged; First Trace/indexing dates are not launch dates."
+      "Ellington Al Yalayis 1: no dated official Ellington release or material new commercial update.",
+      "Ellington proposed SZR office launch: Northway working identity remains unconfirmed; Eaton Square is an older 2025 MBR City project and not the proposed tower.",
+      "Janu Al Marjan Island: late-October press-reported sales window still lacks a dated official sales opening and reconciled commercial pack.",
+      "Mercedes-Benz Places Office Towers: no dated developer-backed office sales release.",
+      "X11 by BAMX: 15 October formal launch remains on watch; no new commercial pack.",
+      "Ritz-Carlton Abu Dhabi Grand Canal villa redevelopment: hospitality redevelopment signal only; separately saleable residences not established."
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-10-11",
+    "date": "2026-10-13",
     "scope": "Homepage Latest buildings ONLY",
     "screened": 20,
-    "detailPagesRead": 20,
+    "detailPagesRead": 2,
     "items": [
+      {
+        "name": "Melograno Yards",
+        "url": "https://propsearch.ae/dubai/melograno-yards",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "New homepage entry. Propsearch describes three BEYOND buildings in The Yards, City of Arabia and estimates 1,205 units. BEYOND's public portfolio does not yet show the project; third-party sources instead describe 256 apartments or 268 total units. First Trace October 2026 is not a launch date. No dated official sales opening, price, EOI or payment plan verified."
+      },
+      {
+        "name": "Hadley Hills",
+        "url": "https://propsearch.ae/dubai/hadley-hills",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Planned LEOS residential building in International City 2; excluded because Alex excludes all International City projects. First Trace is not a launch date."
+      },
       {
         "name": "Tarrad Jebel Ali Residence",
         "url": "https://propsearch.ae/dubai/tarrad-jebel-ali-residence",
@@ -1335,25 +1351,11 @@
         "status": 200,
         "disposition": "early-watch",
         "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
-      },
-      {
-        "name": "NBCC Al Waha",
-        "url": "https://propsearch.ae/dubai/nbcc-al-waha",
-        "status": 200,
-        "disposition": "excluded",
-        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
-      },
-      {
-        "name": "Dubai Customs Nursery and Daycare",
-        "url": "https://propsearch.ae/dubai/dubai-customs-nursery-and-daycare",
-        "status": 200,
-        "disposition": "excluded",
-        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
       }
     ]
   },
   "earlySignalReview": {
-    "date": "2026-10-10",
+    "date": "2026-10-13",
     "items": [
       {
         "name": "Tessera",
@@ -1614,6 +1616,18 @@
           "https://takweenaldar.ae/en/off-plan/project/lunara-tower"
         ],
         "nextCheck": "Tarrad dated sales pack, exact plot, confirmed unit schedule and EOI/escrow terms"
+      },
+      {
+        "name": "Melograno Yards",
+        "disposition": "new-portal-signal-held-for-verification",
+        "finding": "Propsearch newly lists a three-building residential complex in The Yards, City of Arabia, Wadi Al Safa 4, developed by BEYOND via Peninsula Torin Real Estate Development. Accessible third-party pages indicate 1–3BR apartments and Q2/June 2029, but conflict materially on scale: Propsearch estimates 1,205 units, while project marketing pages describe 256 apartments or 268 total units including retail. BEYOND's public portfolio does not yet show the project. No dated official sales opening, price, payment plan or EOI was verified.",
+        "sources": [
+          "https://propsearch.ae/dubai/melograno-yards",
+          "https://www.beyonddevelopments.ae/",
+          "https://offplanproject.ae/projects/melograno-yards/",
+          "https://beyondyards.com/melograno-yards/"
+        ],
+        "nextCheck": "Official BEYOND project page, exact phase/building identity, dated sales or EOI opening, reconciled inventory, prices, payment plan and handover."
       }
     ]
   },
