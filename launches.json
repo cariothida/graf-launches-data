@@ -910,55 +910,71 @@
       "project": "Manchester City Yas Residences — Phase 2",
       "developer": "Ohana Development",
       "emirate": "Abu Dhabi",
-      "location": "Yas Canal; precise Phase 2 plot awaiting release documents",
+      "location": "Along Yas Canal, adjacent to Yas Island, Abu Dhabi; exact Phase 2 plot awaits release documents",
       "type": [
         "townhouses",
-        "villas"
+        "villas",
+        "duplexes"
       ],
-      "status": "broker-intelligence",
+      "status": "confirmed",
       "parentId": "manchester-city-yas-residences",
       "phase": "Phase 2",
-      "launchWindow": "October 2026 expected in a directly reviewed 15 September WhatsApp sales briefing; exact date remains provisional.",
+      "launchWindow": "Official Ohana announcement dated 12 October 2026 confirms Phase 2 sales commence on 19 October 2026.",
       "startingPrice": null,
       "priceConfirmed": false,
-      "brokerPriceNote": "The 15 September sales briefing indicates an AVERAGE AED 3.8 million for 2BR + maid townhouses, below AED 5 million for 3BR + maid townhouses, and approximately AED 2,000/sqft for villas. These are provisional indications, not verified starting prices or a final developer price list.",
-      "paymentPlan": "40/60 expected in the 15 September briefing; explicitly subject to final confirmation",
-      "handover": "Q4 2029 indicated in the 15 September briefing; provisional",
+      "brokerPriceNote": "The official Phase 2 announcement does not state a starting price. Ohana reports an AVERAGE AED 3.75m for two-bedroom townhouses; this is not a minimum purchase price.",
+      "paymentPlan": null,
+      "handover": "Ohana states community phased delivery by 2029; Phase 2 contractual handover is not confirmed.",
       "unitMix": [
         {
-          "type": "2BR + maid townhouse",
-          "note": "Phase 2 sales-briefing indication"
+          "type": "2BR townhouse",
+          "note": "Official Phase 2 product mix"
         },
         {
-          "type": "3BR + maid townhouse",
-          "note": "Phase 2 sales-briefing indication"
+          "type": "3BR townhouse",
+          "note": "Official Phase 2 product mix"
         },
         {
-          "type": "4BR standalone villa",
-          "note": "Phase 2 sales-briefing indication"
+          "type": "Duplex villa",
+          "note": "Official Phase 2 product; bedroom configuration not specified in announcement"
         },
         {
-          "type": "5BR standalone villa",
-          "note": "Phase 2 sales-briefing indication"
+          "type": "4BR villa",
+          "note": "Official Phase 2 product mix"
+        },
+        {
+          "type": "5BR villa",
+          "note": "Official Phase 2 product mix"
         }
       ],
-      "teaser": "Phase 2 is expected in October, with townhouses and standalone villas.",
-      "summary": "A directly reviewed WhatsApp sales briefing dated 15 September describes an October 2026 Phase 2 release at Manchester City Yas Residences by Ohana. It indicates approximately 600 homes, including two- and three-bedroom townhouses with maid rooms and four- and five-bedroom standalone villas. The stated payment plan and handover are preliminary; the AED 3.8 million townhouse figure is an average, not a starting price. This is a phase-specific early-access lead within the Yas Canal development, rather than a new announcement of the entire master project.",
-      "whatNext": "The briefing points to October; subscribe on this page for the confirmed release date, available units and final booking terms.",
-      "confidenceNote": "Specific, dated direct WhatsApp sales intelligence. The sender's legal employer has not been independently established. Public coverage supports the master-project identity and Yas Canal location only, not the Phase 2 date or commercial terms; those remain explicitly preliminary.",
+      "teaser": "Ohana confirms Phase 2 sales open on 19 October with townhouses and villas.",
+      "summary": "Ohana's official 12 October announcement confirms that Manchester City Yas Residences Phase 2 sales commence on 19 October 2026. The release includes two- and three-bedroom townhouses, duplex villas and four- and five-bedroom villas, with project-wide Phase 2 sizes of 1,938–4,887 sq ft. The developer reports an average AED 3.75m for two-bedroom townhouses, not a starting price. This updates the earlier provisional October watch; final starting prices, payment/EOI terms, released inventory and Phase 2 contractual handover remain unverified.",
+      "whatNext": "Await the 19 October sales release, unit-specific availability and signed payment/booking conditions; subscribe for verified updates.",
+      "confidenceNote": "High confidence in Phase 2 identity, official sales date, product mix, overall size range and developer-reported average townhouse price. The 2029 statement concerns phased community delivery, not a Phase 2 SPA date; Alnair's current broker material instead indicates Q2 2030 and several payment alternatives. Neither the earlier 40/60 indication nor newer alternatives is treated as a confirmed schedule.",
       "sources": [
         {
-          "url": "https://www.thesun.co.uk/sport/40283364/man-city-fans-abu-dhabi-homes-private-beach/",
-          "label": "Public master-project identity/location only; Phase 2 evidence retained privately from 15 September",
-          "date": "2026-09-05",
+          "url": "https://www.ohana.ae/news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch/",
+          "label": "Ohana official Phase 2 announcement and 19 October sales opening",
+          "date": "2026-10-12",
           "primary": true
+        },
+        {
+          "url": "https://www.tradearabia.com/News/487864/Ohana-launches-second-phase-of-Manchester-City-branded-homes-in-Abu-Dhabi/CONS",
+          "label": "TradeArabia Phase 2 report",
+          "date": "2026-10-12",
+          "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news?city_id=2",
+          "label": "Broker-channel terms conflict: Q2 2030 and multiple payment alternatives; unconfirmed",
+          "primary": false
         }
       ],
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-10-14",
       "published": true,
-      "seoTitle": "Manchester City Yas Residences Phase 2: October Watch | GRAF",
-      "seoDescription": "Phase 2 sales intelligence for Manchester City Yas Residences: October timing, townhouse and villa mix, and clearly labelled provisional terms."
+      "seoTitle": "Manchester City Yas Residences Phase 2: 19 October | GRAF",
+      "seoDescription": "Ohana confirms Phase 2 sales on 19 October: townhouses, duplex villas and 4–5BR villas by Yas Canal. Starting prices and final terms await confirmation."
     },
     {
       "id": "atara-sheraton-al-marjan-residences",
@@ -1181,41 +1197,59 @@
         "apartments"
       ],
       "status": "broker-intelligence",
-      "launchWindow": "Pre-launch / EOI promoted from 26 September 2026",
+      "launchWindow": "Broker material indicates a formal launch on 19–20 October 2026; Alnair circulates a 20 October event at Palazzo Versace Dubai. This follows September pre-launch/EOI marketing.",
       "startingPrice": null,
       "priceConfirmed": false,
       "brokerPriceNote": "Broker and portal material quotes apartments from AED 798,000; no developer price list or open escrow account was verified.",
       "paymentPlan": null,
-      "handover": "Q2 2030 (broker-advertised; a DLD-derived register snapshot files 30 March 2030)",
-      "teaser": "DLD-registered studios-to-2BR pre-launch in Dubai Silicon Oasis.",
-      "summary": "Fresh broker material dated 26 September promotes Yigo Luxe for early access in Dubai Silicon Oasis. DLD-derived registry reporting identifies Yangtze International Real Estate Developer L.L.C. as the legal developer and shows a filed completion in March 2030, but no open escrow account was verified. Broker portals advertise furnished studios, 1BR, 1.5BR and 2BR apartments from AED 798,000 with differing payment schedules; all commercial terms remain unconfirmed.",
-      "whatNext": "Await YIGO's official launch, escrow confirmation, final price list and payment schedule.",
-      "confidenceNote": "High on registered identity and location; medium on pre-launch status and unit mix; commercial terms remain unverified.",
+      "handover": "Unresolved: current brokers indicate Q4 2029, while the earlier DLD-derived snapshot files 30 March 2030; contractual delivery awaits confirmation.",
+      "teaser": "Broker material now points to a 19–20 October formal launch window.",
+      "summary": "Yigo Luxe remains the same DSO/Nadd Hessa pre-launch previously reported in September. The material update is an Alnair-circulated launch invitation for 20 October 2026 at Palazzo Versace Dubai, while other broker sources describe a 19–20 October window. DLD-derived reporting identifies Yangtze International Real Estate Developer L.L.C.; the final developer launch pack, escrow arrangements and commercial terms have not been independently inspected. Current marketing also conflicts on delivery timing, so no contractual handover date is claimed.",
+      "whatNext": "Await the reported 19–20 October launch, official price/payment pack, escrow confirmation and reconciled delivery schedule; subscribe for verified updates.",
+      "confidenceNote": "High on previously registered identity and location; medium on the broker-reported 19–20 October launch window. Alnair specifies 20 October, other current marketing 19–20 October. The event invitation is not proof sales have opened; prices, payment plan, EOI/escrow and delivery remain unconfirmed.",
       "sources": [
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair public channel: YIGO event invitation for 20 October at Palazzo Versace",
+          "primary": true
+        },
         {
           "url": "https://certifiedpoor.com/projects/yigo-luxe",
           "label": "DLD-derived project register snapshot",
           "date": "2026-09-25",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://www.instagram.com/p/Ddv_DTondNt/",
           "label": "Indexed exact-project broker post",
-          "date": "2026-09-26"
+          "date": "2026-09-26",
+          "primary": false
         },
         {
           "url": "https://www.instagram.com/p/DdwYO6JiPAi/",
           "label": "Indexed pre-launch broker post",
-          "date": "2026-09-26"
+          "date": "2026-09-26",
+          "primary": false
         },
         {
           "url": "https://www.gyhdubai.com/projects/yigo-luxe",
           "label": "Broker project data",
-          "date": "2026-09-26"
+          "date": "2026-09-26",
+          "primary": false
+        },
+        {
+          "url": "https://greencityre.com/en/properties/gcre-uniland-properties-yigo-luxe-new-launch",
+          "label": "Broker listing: targeted 19–20 October launch and Q4 2029 delivery",
+          "primary": false
+        },
+        {
+          "url": "https://uae-prop.com/properties/yigo-luxe/",
+          "label": "Broker/portal launch window and commercial indications; not developer confirmation",
+          "primary": false
         }
       ],
       "firstReported": "2026-09-28",
-      "updatedAt": "2026-09-28",
+      "updatedAt": "2026-10-14",
       "published": true,
       "unitMix": [
         {
@@ -2141,6 +2175,154 @@
       "firstReported": "2026-10-10",
       "updatedAt": "2026-10-10",
       "published": true
+    },
+    {
+      "id": "cosmo-marlin-icon-al-reem-island",
+      "project": "Marlin Icon",
+      "developer": "Cosmo Developments; supported/marketed by Reportage Properties",
+      "emirate": "Abu Dhabi",
+      "location": "Canal-front Al Reem Island, Abu Dhabi; exact plot awaits official release documents",
+      "type": [
+        "apartments",
+        "duplexes",
+        "penthouses"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Alnair reports pre-sale / EOI collection on 13 October 2026; formal sales-launch date has not been verified.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Alnair's 13 October broker-channel announcement indicates 2BR from AED 1.63m, 3BR from AED 2.51m and 4BR from AED 4.22m. No developer price list was independently inspected.",
+      "paymentPlan": "Broker-reported options include 10%, 20% or 30% down with 1% monthly instalments, plus lump-sum alternatives. Discounts, final balance, conditions and the complete signed schedule are unverified.",
+      "handover": "Q4 2030, broker-advertised; contractual handover unverified",
+      "unitMix": [
+        {
+          "type": "2BR apartment",
+          "note": "Current EOI collection reported by Alnair and broker pages"
+        },
+        {
+          "type": "2BR Plus apartment",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "3BR duplex",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "4BR duplex",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "Duplex penthouse",
+          "note": "Broker-listed; final inventory schedule awaited"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Alnair reports AED 50,000 EOI; refundability, payment recipient, escrow and allocation conditions were not independently verified."
+      },
+      "teaser": "Broker-channel EOI signal for a 140-home canal-front Al Reem development.",
+      "summary": "A dated 13 October Alnair announcement reports early EOI access to Marlin Icon on Al Reem Island. Accessible broker sources identify Cosmo Developments, with Reportage support/marketing, and describe 140 homes including apartments and duplexes. The current offer is reported as two- to four-bedroom homes, although some general marketing also mentions one-bedrooms; the final released mix is not confirmed. Prices, payment options, EOI conditions and Q4 2030 delivery remain broker indications.",
+      "whatNext": "Await Cosmo/Reportage's official project pack, exact plot, reconciled inventory, developer prices and signed EOI/payment conditions; subscribe for verified updates.",
+      "confidenceNote": "Medium confidence in the project identity, canal-front location and current pre-sale signal. The EOI event is dated by Alnair; other accessible brokers corroborate identity/product but do not independently establish the opening date. Formal launch, legal sales entity, price list and commercial conditions are unconfirmed.",
+      "sources": [
+        {
+          "url": "https://alnair.co.th/en/news/reportage-properties-cosmo-developments-are-launching-marlin-icon-on-al-reem-island-early-eoi-starts-at-aed-50k",
+          "label": "Alnair dated 13 October pre-sale / EOI report; regional copy of the same source",
+          "date": "2026-10-13",
+          "primary": true
+        },
+        {
+          "url": "https://theupsides.ae/projects/marlin-icon-abu-dhabi",
+          "label": "Broker project identity, 140 homes, canal-front location and preliminary payment options",
+          "primary": false
+        },
+        {
+          "url": "https://www.lucretia-international.com/en/projects/reportage-properties-marlin-icon",
+          "label": "Broker product/identity corroboration; formal launch date not set",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-14",
+      "updatedAt": "2026-10-14",
+      "published": true,
+      "seoTitle": "Marlin Icon Al Reem Island: Broker EOI Watch | GRAF",
+      "seoDescription": "Broker-reported EOI for Marlin Icon by Cosmo on Al Reem Island: 140 homes, indicative prices and Q4 2030 delivery. Final developer terms unconfirmed."
+    },
+    {
+      "id": "tomorrow-world-the-bay-interiors-by-missoni",
+      "project": "The Bay Interiors by Missoni",
+      "developer": "Tomorrow World Real Estate Development",
+      "emirate": "Dubai",
+      "location": "Marina-front plot DIA-MU-N01, Island A, Dubai Islands, Dubai (broker-placed plot)",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Coming soon on Tomorrow World/OCTA official pages. Alnair circulates a launch briefing invitation for 15 October 2026; actual sales opening remains unverified.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Accessible broker marketing indicates apartments from AED 2.75m. No current Tomorrow World/OCTA developer price list was inspected.",
+      "paymentPlan": null,
+      "unitMix": [
+        {
+          "type": "2BR apartment",
+          "note": "OCTA official project page confirms 2–4BR and 132 residences"
+        },
+        {
+          "type": "3BR apartment",
+          "note": "OCTA official project page"
+        },
+        {
+          "type": "4BR apartment",
+          "note": "OCTA official project page"
+        }
+      ],
+      "teaser": "132 Missoni-interior homes; a broker launch briefing is reported for 15 October.",
+      "summary": "Tomorrow World and exclusive presenter OCTA list The Bay Interiors by Missoni as coming soon, with 132 two- to four-bedroom residences. Broker sources place it directly on the Island A marina at Dubai Islands and describe unfurnished homes with fitted kitchens. Alnair circulates a 15 October 2026 launch-briefing invitation following earlier September/October marketing; this is an upcoming briefing signal, not a claim that the project first appeared today or that sales are already open. Prices, payment/EOI terms and contractual handover remain unconfirmed.",
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "One broker preview quotes AED 50,000 EOI; no official EOI conditions or refundability verified."
+      },
+      "whatNext": "Await the 15 October briefing results, official sales-opening date, price list, inventory and signed payment/EOI schedule; subscribe for verified updates.",
+      "confidenceNote": "High confidence in name, developer, 132 residences and 2–4BR mix from OCTA. Medium on broker-placed marina plot and the Alnair-circulated 15 October briefing. Broker previews conflict on 50/50 versus 60/40 payment and September versus December 2029 delivery; OCTA lists handover as TBC. No conflicting terms are treated as final.",
+      "sources": [
+        {
+          "url": "https://www.octa.ae/projects/the-bay",
+          "label": "OCTA official coming-soon project: 132 homes, 2–4BR, handover TBC",
+          "primary": true
+        },
+        {
+          "url": "https://sales.tomorrowworldgroup.ae/",
+          "label": "Tomorrow World official portfolio lists The Bay as coming soon",
+          "primary": false
+        },
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair public broker channel: invitation for 15 October 2026",
+          "primary": false
+        },
+        {
+          "url": "https://insidersofdubai.com/projects/tomorrow-world-real-estate/the-bay-interiors-by-missoni",
+          "label": "Broker preview: marina plot, indicative price and internally conflicting commercial terms",
+          "primary": false
+        },
+        {
+          "url": "https://www.lucretia-international.com/en/projects/octa-properties-the-bay-interiors-by-missoni",
+          "label": "Broker marina/product corroboration and conflicting delivery fields",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-14",
+      "updatedAt": "2026-10-14",
+      "published": true,
+      "seoTitle": "The Bay Interiors by Missoni: Dubai Islands Watch | GRAF",
+      "seoDescription": "132 two- to four-bedroom homes by Tomorrow World on Dubai Islands. Broker briefing reported for 15 October; final prices and commercial terms pending."
     }
   ],
   "version": 1
