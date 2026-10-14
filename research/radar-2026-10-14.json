@@ -1,0 +1,334 @@
+{
+  "version": 1,
+  "date": "2026-10-14",
+  "coverage": {
+    "sourceWatchlistSize": 65,
+    "regionsReviewed": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "rollingWindow": "2026-09-14 to 2026-10-14",
+    "forwardWindows": [
+      "1 week",
+      "2 weeks",
+      "1 month",
+      "2 months",
+      "3 months"
+    ],
+    "instagram": {
+      "namedSourceAttempts": 20,
+      "variedQueryAttempts": 24,
+      "nativeAccountsInspected": 0,
+      "fullMediaInspected": 0,
+      "languages": [
+        "English",
+        "Arabic",
+        "Russian"
+      ],
+      "namedQueryBank": [
+        "site:instagram.com \"Albina Sultanova\" Dubai launch",
+        "site:instagram.com \"Grand Reve Realty\" pre launch",
+        "site:instagram.com \"Future Key\" Abu Dhabi EOI",
+        "site:instagram.com \"Propsense Realty\" Dubai launch",
+        "site:instagram.com \"DRE Homes\" coming soon",
+        "site:instagram.com \"Equity Edge\" EOI Dubai",
+        "site:instagram.com \"Off Plan Dubai\" October launch",
+        "site:instagram.com \"Luxury Falcon Properties\" launch",
+        "site:instagram.com \"Top Luxury Property\" UAE launch",
+        "site:instagram.com \"SANSAV\" Dubai new launch",
+        "site:instagram.com \"Hunt Harris\" RAK launch",
+        "site:instagram.com \"Royal Lounge\" Abu Dhabi launch",
+        "site:instagram.com \"Whitewill\" October launch Dubai",
+        "site:instagram.com \"Metropolitan\" Al Marjan launch",
+        "site:instagram.com \"Edwards Towers\" Dubai EOI",
+        "site:instagram.com \"Primo Capital\" Dubai launch",
+        "site:instagram.com \"Unique Properties\" launch EOI",
+        "site:instagram.com \"Provident\" pre launch Dubai",
+        "site:instagram.com \"haus haus\" Dubai new launch",
+        "site:instagram.com \"fam Properties\" new phase Dubai"
+      ],
+      "variedQueryBank": [
+        "site:instagram.com Dubai \"pre launch\" October 2026",
+        "site:instagram.com/reel/ Dubai \"EOI\" \"new launch\"",
+        "site:instagram.com Abu Dhabi \"coming soon\" residences",
+        "site:instagram.com/p/ Yas Saadiyat \"new launch\"",
+        "site:instagram.com Ras Al Khaimah \"launching soon\"",
+        "site:instagram.com Al Marjan \"broker briefing\"",
+        "site:instagram.com Ellington \"Al Yalayis\" launch",
+        "site:instagram.com Ellington \"office\" \"coming soon\"",
+        "site:instagram.com Aldar \"sales open\" October",
+        "site:instagram.com Modon \"new phase\" October",
+        "site:instagram.com RAK Properties \"prelaunch\"",
+        "site:instagram.com BEYOND \"Melograno\"",
+        "site:instagram.com Dubai \"new collection\" October",
+        "site:instagram.com Abu Dhabi \"phase 2\" EOI",
+        "site:instagram.com Al Marjan \"EOI open\"",
+        "site:instagram.com Dubai \"broker launch\" October",
+        "site:instagram.com \"Nine Collective\"",
+        "site:instagram.com \"Native Haus\"",
+        "site:instagram.com \"Marlin Icon\"",
+        "site:instagram.com \"X11\" BAMX launch",
+        "site:instagram.com دبي \"فتح باب الحجز\"",
+        "site:instagram.com أبوظبي \"إطلاق مشروع\"",
+        "site:instagram.com Дубай \"старт продаж\" октябрь",
+        "site:instagram.com \"Рас-эль-Хайма\" \"новый проект\""
+      ],
+      "finding": "All 44 indexed search attempts returned no usable relevant Instagram posts. No native Instagram or Instagram Stories access."
+    },
+    "news": {
+      "googleNews": {
+        "route": "Direct public Google News RSS, separate emirate searches",
+        "returnedEntries": {
+          "Dubai": 27,
+          "AbuDhabi": 34,
+          "RasAlKhaimah": 9
+        },
+        "totalEntriesScreened": 70,
+        "duplicatesIncluded": true,
+        "distinctOriginsNotCounted": true
+      },
+      "newspapers": [
+        {
+          "name": "Gulf News",
+          "access": "property category headlines read; domain-targeted query"
+        },
+        {
+          "name": "Khaleej Times",
+          "access": "property category headlines read; domain-targeted query"
+        },
+        {
+          "name": "The National",
+          "access": "property category headlines read; domain-targeted query"
+        },
+        {
+          "name": "Arabian Business",
+          "access": "domain-targeted query; direct category open failed"
+        },
+        {
+          "name": "Gulf Today",
+          "access": "business category headlines read; domain-targeted query"
+        }
+      ],
+      "trade": [
+        "Gulf Business",
+        "Zawya indexed discovery (direct robots block)",
+        "Middle East Construction News",
+        "Construction Week Online",
+        "TradeArabia / TTN",
+        "Hospitality Net"
+      ],
+      "hospitalityLimitations": "Direct Hospitality Net development/search routes were unavailable; TTN homepage timed out. Specific company-contributed announcements and TradeArabia articles were accessible and inspected."
+    },
+    "youtube": {
+      "targetedQueries": 4,
+      "relevantFullVideosInspected": 0,
+      "finding": "Indexed searches returned unrelated results; no usable relevant full video."
+    },
+    "propsearch": {
+      "scope": "Homepage Latest buildings only",
+      "screenedNames": 20,
+      "detailPagesReadToday": 0,
+      "listChanged": false,
+      "finding": "Current list matches 13 October; all names reconciled with saved dispositions. Melograno exact-name sources rechecked; no material new facts."
+    },
+    "privateResearch": {
+      "brokerWatchlistRead": true,
+      "stories": {
+        "runId": 38508768373,
+        "privatelyDecrypted": true,
+        "visibleRecords": 0,
+        "windowHours": 24,
+        "cap": 500,
+        "truncated": false,
+        "mediaInspected": 0
+      },
+      "chats": {
+        "runId": 38508985637,
+        "privatelyDecrypted": true,
+        "workflowConclusion": "failure",
+        "chatsListed": 0,
+        "historyChatsSelected": 0,
+        "limitation": "First 200 chat entries are the reader sample ceiling; empty listing meant no histories available."
+      }
+    }
+  },
+  "approved": [
+    {
+      "projectId": "ohana-manchester-city-yas-residences-phase-2",
+      "kind": "official-material-update",
+      "eventKey": "ohana-manchester-city-yas-residences-phase-2:2026-10-12-official-sales-date",
+      "announcementDate": "2026-10-12",
+      "salesDate": "2026-10-19",
+      "sources": [
+        "https://www.ohana.ae/news/ohana-development-announces-erling-haaland-as-a-proud-homeowner-at-manchester-city-yas-residences-by-ohana-during-phase-2-launch/",
+        "https://www.tradearabia.com/News/487864/Ohana-launches-second-phase-of-Manchester-City-branded-homes-in-Abu-Dhabi/CONS"
+      ],
+      "finding": "Official phase confirmation, sales date, duplex villas, overall size range and average 2BR townhouse price. Average is not a starting price; no official payment/EOI or Phase 2 SPA handover."
+    },
+    {
+      "projectId": "cosmo-marlin-icon-al-reem-island",
+      "kind": "broker-eoi",
+      "eventKey": "cosmo-marlin-icon-al-reem-island:2026-10-13-eoi-report",
+      "announcementDate": "2026-10-13",
+      "sources": [
+        "https://alnair.co.th/en/news/reportage-properties-cosmo-developments-are-launching-marlin-icon-on-al-reem-island-early-eoi-starts-at-aed-50k",
+        "https://theupsides.ae/projects/marlin-icon-abu-dhabi",
+        "https://www.lucretia-international.com/en/projects/reportage-properties-marlin-icon"
+      ],
+      "finding": "Dated Alnair EOI report; separate broker sources corroborate identity/location/product. Multiple reprints are not independent date confirmation. Final sales pack and legal entity unverified; conflicting broad 1BR marketing not adopted as released inventory."
+    },
+    {
+      "projectId": "tomorrow-world-the-bay-interiors-by-missoni",
+      "kind": "upcoming-broker-briefing",
+      "eventKey": "tomorrow-world-the-bay-interiors-by-missoni:2026-10-15-briefing-invitation",
+      "eventDate": "2026-10-15",
+      "sources": [
+        "https://www.octa.ae/projects/the-bay",
+        "https://sales.tomorrowworldgroup.ae/",
+        "https://t.me/s/alnairae",
+        "https://insidersofdubai.com/projects/tomorrow-world-real-estate/the-bay-interiors-by-missoni"
+      ],
+      "finding": "Official partner confirms coming soon, 132 residences and 2–4BR. Alnair-circulated invitation for 15 October follows older marketing. Broker terms conflict even within one preview (50/50 versus 60/40); handover is TBC official-side."
+    },
+    {
+      "projectId": "yigo-luxe-dubai-silicon-oasis",
+      "kind": "launch-window-update",
+      "eventKey": "yigo-luxe-dubai-silicon-oasis:2026-10-19-20-launch-window-report",
+      "eventDateWindow": "2026-10-19 to 2026-10-20",
+      "sources": [
+        "https://t.me/s/alnairae",
+        "https://greencityre.com/en/properties/gcre-uniland-properties-yigo-luxe-new-launch",
+        "https://uae-prop.com/properties/yigo-luxe/"
+      ],
+      "finding": "Existing September EOI project; current broker launch window adds 19–20 October and Alnair specifies 20 October event. Current Q4 2029 marketing conflicts with prior March 2030 DLD-derived snapshot; final delivery unverified."
+    }
+  ],
+  "dispositions": [
+    {
+      "name": "Nine Collective",
+      "disposition": "older-unchanged-marketing",
+      "finding": "September 6–8 portal adverts already contained the same EOI/price ladder. 9 October Alnair repost is not a new first EOI event.",
+      "sources": [
+        "https://dubai.dubizzle.com/property-for-sale/residential/apartment/2026/9/8/3br-apartment-nine-collective-multiple--2-117456/",
+        "https://www.wasl.ae/en/project/wasl-1/nine-collective"
+      ]
+    },
+    {
+      "name": "Native Haus",
+      "disposition": "briefing-follow-up-with-no-verified-material-new-terms",
+      "finding": "14 October briefing after September 29 / early October sales marketing; do not claim first sales today. Retain briefing outcome watch."
+    },
+    {
+      "name": "Lawncrest",
+      "disposition": "old-project-formal-event-watch",
+      "finding": "Earlier September identity retained; 10/12 October presentation/release reports lack independently verified distinct new inventory or changed terms."
+    },
+    {
+      "name": "Vibe by Arsenal East",
+      "disposition": "old-project-event-watch",
+      "finding": "October 2025 traces exist; 15 October 2026 invitation does not by itself establish a new phase."
+    },
+    {
+      "name": "Mandarin Oriental Mansions Abu Dhabi",
+      "disposition": "older-announcement-repost",
+      "finding": "12 October syndication points to the official 18 May 2026 brand announcement; no new sales phase established.",
+      "sources": [
+        "https://press.mandarinoriental.com/residences-emirates-palace-abu-dhabi/?lang=eng"
+      ]
+    },
+    {
+      "name": "Zayed Waterfront",
+      "disposition": "conceptual-early-planning-watch",
+      "finding": "Recent 29 September architect publicity describes a proposed 2.3m sqm conceptual Mina Zayed vision with Cruise/Business/Resort districts. No adopted authority masterplan, developer mandate, residential saleability or sales event established.",
+      "sources": [
+        "https://x-architects.com/news/x-architects-unveils-zayed-waterfront-vision/",
+        "https://x-architects.com/architectural-portfolio/abu-dhabi-maritime-island/",
+        "https://www.e-architect.com/abu-dhabi/zayed-waterfront-development-abu-dhabi-uae"
+      ]
+    },
+    {
+      "name": "Samana unnamed Downtown Jebel Ali project",
+      "disposition": "early-identity-watch",
+      "finding": "Alnair 13 October teaser; exact name, residential/office use and equivalence to existing Business Hub/Portside are unresolved. No public launch page.",
+      "sources": [
+        "https://alnair.ae/en/news/samana-set-to-launch-new-project-in-jebel-ali-downtown"
+      ]
+    },
+    {
+      "name": "Melograno Yards",
+      "disposition": "unchanged-early-watch",
+      "finding": "No official named sales opening or reconciled inventory today; not repeated as a new announcement."
+    },
+    {
+      "name": "Hadley Hills",
+      "disposition": "excluded",
+      "finding": "International City blanket exclusion remains."
+    },
+    {
+      "name": "Ellington Al Yalayis",
+      "disposition": "unchanged-watch",
+      "finding": "No new developer-backed release; current broker EOI marketing predates this run."
+    },
+    {
+      "name": "Ellington SZR offices",
+      "disposition": "unconfirmed-timing-watch",
+      "finding": "Broker pages indicate EOI closes 16 October; final Atelier/The Langston identity and official window still unverified. No independent new commercial event established."
+    },
+    {
+      "name": "X11 by BAMX",
+      "disposition": "unchanged-upcoming-watch",
+      "finding": "15 October formal launch already tracked; new terms not found."
+    },
+    {
+      "name": "Janu Al Marjan Island",
+      "disposition": "unchanged-window-watch",
+      "finding": "Late October press-reported sales window unchanged; official commercial pack outstanding."
+    }
+  ],
+  "publication": {
+    "feedCommit": "2399a94576d3374d324e075a262bf7d662f872f1",
+    "feedBlobSha": "a38ff491f85ece8500f037c864b93d0ccfd9fa03",
+    "queueDate": "2026-10-14",
+    "queuePosts": 0,
+    "ledgerChanged": false,
+    "initialSync": {
+      "runId": 38509525679,
+      "created": 2,
+      "updated": 2,
+      "rejected": 0,
+      "result": "Failed at push: main requires pull request."
+    },
+    "recovery": {
+      "pr": 93,
+      "mergeCommit": "a2657d8f15b60aa758069a0aca01346c0b2d5a87",
+      "deployRunId": 38509902564,
+      "state": "verified-live",
+      "productionDeployConclusion": "success",
+      "liveMarker": "a4b27c53844a63fc630ba6659d772a6a87fb1983",
+      "livePages": [
+        {
+          "projectId": "ohana-manchester-city-yas-residences-phase-2",
+          "status": 200,
+          "matchingIdentityAndUpdateVerified": true
+        },
+        {
+          "projectId": "cosmo-marlin-icon-al-reem-island",
+          "status": 200,
+          "matchingIdentityAndUpdateVerified": true
+        },
+        {
+          "projectId": "tomorrow-world-the-bay-interiors-by-missoni",
+          "status": 200,
+          "matchingIdentityAndUpdateVerified": true
+        },
+        {
+          "projectId": "yigo-luxe-dubai-silicon-oasis",
+          "status": 200,
+          "matchingIdentityAndUpdateVerified": true
+        }
+      ]
+    },
+    "manualHandoffs": "Four inspected approved portrait cards and captions prepared for delivery in this conversation; channel publication is not confirmed."
+  }
+}
