@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "notes": [
     "Source universe, NOT a claim that all accounts or feeds were inspected today.",
     "31 broker/adviser websites opened; Instagram native access remains unavailable. Never infer an Instagram handle from a company name.",
@@ -707,10 +707,11 @@
       "url": "https://news.google.com/",
       "kind": "news-aggregator",
       "coverage": "Dubai; Abu Dhabi; Ras Al Khaimah",
-      "access": "configured-not-yet-tested",
+      "access": "Direct public RSS read separately for Dubai, Abu Dhabi and Ras Al Khaimah",
       "requiredEveryMorning": true,
       "launchFocus": "Launches, EOI, new projects, branded residences and offices, partnerships and redevelopment",
-      "notes": "Log actual route; do not claim Google News inspected when only ordinary web search was used."
+      "notes": "Log actual route; do not claim Google News inspected when only ordinary web search was used.",
+      "lastAccessCheck": "2026-10-15"
     },
     {
       "name": "Alnair — public broker event/news channel",
@@ -718,8 +719,18 @@
       "kind": "broker-launch-discovery-platform",
       "coverage": "Dubai / Abu Dhabi / Ras Al Khaimah",
       "access": "public project/news pages and public Telegram text inspected",
-      "lastAccessCheck": "2026-10-14",
+      "lastAccessCheck": "2026-10-15",
       "launchFocus": "Dated EOI/briefing signals; verify developer facts and dedup older events. Regional mirrors and Telegram are one source origin.",
+      "instagramHandle": null
+    },
+    {
+      "name": "Silver Oak Properties",
+      "url": "https://www.silveroakglobal.com/",
+      "kind": "brokerage-project-pages",
+      "coverage": "Dubai / UAE",
+      "access": "Exact SAMANA Downtown One project page inspected",
+      "lastAccessCheck": "2026-10-15",
+      "launchFocus": "Early project identity and product corroboration; independently confirm dates, prices and terms",
       "instagramHandle": null
     }
   ],
@@ -1087,93 +1098,99 @@
     "coverageNote": "Additional exact-name internet and Instagram searches performed. WADI indexed broker captions corroborated; full Instagram post opens throttled. Do not claim all eight projects have verified Instagram sources."
   },
   "lastRunCoverage": {
-    "date": "2026-10-14",
-    "sourceWatchlistSize": 65,
+    "date": "2026-10-15",
+    "sourceWatchlistSize": 66,
     "regionsReviewed": [
       "Dubai",
       "Abu Dhabi",
       "Ras Al Khaimah"
     ],
-    "dateWindow": "2026-09-14 to 2026-10-14; upcoming 1 week, 2 weeks, 1 month, 2 months, 3 months",
+    "dateWindow": "2026-09-15 to 2026-10-15; upcoming1/2weeks and1/2/3months",
     "instagramNamedBrokerSourceAttempts": 20,
     "instagramVariedQueries": 24,
-    "instagramQueryAttempts": 44,
+    "instagramQueryAttempts": 46,
     "instagramLanguages": [
       "English",
       "Arabic",
       "Russian"
     ],
     "instagramNativeAccess": false,
-    "instagramFinding": "20 rotated named broker/indexed-source searches and 24 varied queries attempted. All lacked usable relevant indexed posts; zero native accounts, Stories or full media inspected.",
+    "instagramFinding": "44main searches plus2 alternate exactqueries;2 relevant indexed Waterfront Reel snippets; native opens throttled. No native accounts,Stories or fullmedia inspected.",
     "googleNews": {
-      "route": "Direct public Google News RSS by emirate",
+      "route": "Direct public Google News RSS separately by emirate",
       "headlinesScreened": {
-        "Dubai": 27,
-        "AbuDhabi": 34,
-        "RasAlKhaimah": 9
+        "Dubai": 26,
+        "AbuDhabi": 33,
+        "RasAlKhaimah": 12
       },
-      "totalHeaders": 70,
-      "duplicatesIncluded": true
+      "total": 71,
+      "includesDuplicates": true,
+      "extraRAKQuery": "One market-analysis headline; not a launch"
     },
     "requiredNewspapers": [
       {
         "name": "Gulf News",
-        "access": "property category headlines read; domain-targeted query"
+        "access": "Category headlines and domain query; Tabeer 13 October partner-content article read"
       },
       {
         "name": "Khaleej Times",
-        "access": "property category headlines read; domain-targeted query"
+        "access": "Category headlines and domain query; no fresh qualifying launch in visible headlines"
       },
       {
         "name": "The National",
-        "access": "property category headlines read; domain-targeted query"
+        "access": "Category headlines and domain query; 14 October Aldar CEO interview read"
       },
       {
         "name": "Arabian Business",
-        "access": "domain-targeted query; direct category open failed"
+        "access": "Domain query; category failed HTTP405"
       },
       {
         "name": "Gulf Today",
-        "access": "business category headlines read; domain-targeted query"
+        "access": "Business category headlines and domain query"
       }
     ],
-    "hospitality": "Direct Hospitality Net development/search routes were unavailable; TTN homepage timed out. Specific company-contributed announcements and TradeArabia articles were accessible and inspected.",
-    "youtubeFinding": "Four indexed YouTube queries; no relevant full videos inspected.",
+    "hospitality": "Hospitality Net development/news routes unavailable; relevant indexed releases inspected. TTN homepage/category and Accor tag attempted; TTN 8 October CITYVIEW/Accor full release inspected and reconciled as old underlying announcement.",
+    "youtubeFinding": "6indexed queries acrossbothengines; no relevant fullvideo inspected.",
     "propsearchLatestBuildings": {
       "scope": "Homepage Latest buildings ONLY",
       "screened": 20,
-      "detailPagesRead": 0,
-      "listChanged": false,
-      "access": "Current public homepage retrieved; all 20 names reconciled with saved dispositions."
+      "newEntries": 1,
+      "detailPagesRead": 1,
+      "newEntry": "Dubai Mall Plaza & Hotel",
+      "disposition": "Excluded: Emaar hotel planned for Downtown Dubai, no saleable residences established; First Trace October is not launch date.",
+      "other19": "Reconciled with existing dispositions; no claim of rereading detail pages"
     },
     "whatsappStories": {
-      "artifactPrivatelyDecrypted": true,
+      "runId": 38677504299,
+      "artifactId": 11946424497,
+      "privatelyDecrypted": true,
       "visibleRecords": 0,
       "windowHours": 24,
       "cap": 500,
       "truncated": false,
-      "mediaFullyInspected": 0
+      "mediaInspected": 0
     },
     "whatsappChats": {
-      "artifactPrivatelyDecrypted": true,
+      "runId": 38677686708,
+      "artifactId": 11946840486,
+      "privatelyDecrypted": true,
+      "workflowResult": "failure",
       "chatsListed": 0,
-      "historyChatsSelected": 0,
-      "finding": "Encrypted export privately decrypted; workflow failed after empty chat listing. No histories inspected."
+      "historiesSelected": 0,
+      "coverage": "No chat histories inspected"
     },
     "qualifyingNewRecords": 2,
-    "qualifyingMaterialUpdates": 2,
+    "qualifyingMaterialUpdates": 1,
     "website": {
-      "state": "verified-live",
-      "feedSha": "a4b27c53844a63fc630ba6659d772a6a87fb1983",
-      "productionRun": 38509902564,
-      "recoveryPR": 93,
-      "matchingPagesVerified": 4
+      "state": "content-PR-checks-pending",
+      "feedSha": "690cc56563291d192e1ba33d643678ed3ab558b9",
+      "recoveryPR": 94
     },
     "queue": {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "posts": 0
     },
-    "manualHandoff": "Four cards/captions prepared for current conversation, not WhatsApp publication."
+    "manualHandoff": "Three drafts prepared and images saved; live website verification remains a delivery gate."
   },
   "lastMaterialUpdate": {
     "date": "2026-10-14",
@@ -1195,11 +1212,18 @@
     ]
   },
   "latestBuildingReview": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "scope": "Homepage Latest buildings ONLY",
     "screened": 20,
-    "detailPagesRead": 0,
+    "detailPagesRead": 1,
     "items": [
+      {
+        "name": "Dubai Mall Plaza & Hotel",
+        "url": "https://propsearch.ae/dubai/dubai-mall-plaza-hotel",
+        "status": 200,
+        "disposition": "excluded-hotel-without-saleable-residences",
+        "finding": "Emaar hotel planned for Downtown Dubai. No saleable residences verified; First TraceOctober2026 is not launch date."
+      },
       {
         "name": "Melograno Yards",
         "url": "https://propsearch.ae/dubai/melograno-yards",
@@ -1332,20 +1356,13 @@
         "status": 200,
         "disposition": "early-watch",
         "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
-      },
-      {
-        "name": "Celeste Dubai South",
-        "url": "https://propsearch.ae/dubai/celeste-dubai-south",
-        "status": 200,
-        "disposition": "early-watch",
-        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required."
       }
     ],
-    "listChanged": false,
-    "reviewNote": "Current Latest Buildings names match 13 October; previous detail dispositions retained. No claim of re-reading all detail pages today."
+    "listChanged": true,
+    "reviewNote": "20 current Latest buildings names reconciled. New hotel lead detail inspected; no claim of re-reading the other19 details."
   },
   "earlySignalReview": {
-    "date": "2026-10-14",
+    "date": "2026-10-15",
     "items": [
       {
         "name": "Tessera",
@@ -1590,10 +1607,14 @@
         "nextCheck": "Dated official commercial terms or distinct office release"
       },
       {
-        "name": "Radisson Residences Marjan Island Tower 3 / Phase 2",
+        "name": "Radisson Residences Al Reem Island Tower 3 / Phase 2",
         "disposition": "phase-and-original-date-verification-held",
-        "finding": "Existing older site identity and broker September Phase2 marketing with conflicting completion dates; no new October inventory event established.",
-        "nextCheck": "Official phase-specific inventory and handover"
+        "finding": "Corrected earlier watchlist mislabel: this is Al Reem Island, Abu Dhabi, NOT Marjan Island. Existing GRAF page dates11September. Official RDH and21September release describe437 furnished studios/1BR and selected2BR townhouses; PropertyFinder records10September sales and Q32029, conflicting with older site delivery. No fresh October release established; do not recycle21September syndication as today's new launch.",
+        "nextCheck": "Reconcile developer's dated phase-specific handover and price pack; older site detail needs separate verification, not a fresh-announcement handoff.",
+        "sources": [
+          "https://rdhuae.com/news/radisson-latest/",
+          "https://www.propertyfinder.ae/en/new-projects/royal-development-holding/radisson-residences-tower-3"
+        ]
       },
       {
         "name": "Lunara Tower",
@@ -1663,12 +1684,36 @@
       },
       {
         "name": "Samana unnamed Downtown Jebel Ali project",
-        "disposition": "early-identity-watch",
-        "finding": "Alnair 13 October teaser; exact name, residential/office use and equivalence to existing Business Hub/Portside are unresolved. No public launch page.",
+        "disposition": "resolved-official-named-launch-published-to-feed",
+        "finding": "SAMANA's 13 October official release and project page resolve this as Downtown One, distinct from Portside and Business Hub. Studios from AED689,000; official extended monthly plans and expected December2029 handover. Alnair 14 October EOI signal added with caveats.",
         "sources": [
           "https://alnair.ae/en/news/samana-set-to-launch-new-project-in-jebel-ali-downtown"
         ],
-        "nextCheck": "Exact named project and use; establish distinctness from Business Hub and Portside before publication."
+        "nextCheck": "Unit-specific inventory and developer-issued EOI conditions"
+      },
+      {
+        "name": "Aldar fourth Dubai villa/townhouse development (unnamed)",
+        "disposition": "CEO-interview planning signal; private watch only",
+        "finding": "The National's interview with Jonathan Emery reports launch by end-2026 and partnership with Dubai Holding. Article body places it near Dubai Silicon Oasis and Blue Line; generated summary instead says Dubai Internet City, so exact plot/location remains unresolved. New timing signal, not sales open.",
+        "sources": [
+          "https://www.thenationalnews.com/business/property/2026/10/14/aldar-to-launch-major-dubai-villa-and-townhouse-project-by-end-of-year/"
+        ],
+        "nextCheck": "Official name, plot and event confirmation; prices, mix, payment/EOI and handover unknown."
+      },
+      {
+        "name": "Tabeer unnamed flagship",
+        "disposition": "Company-attributed planning teaser; private watch only",
+        "finding": "Gulf News partner content attributes a largest-to-date upcoming flagship to Tabeer following 48 Parkside handover. No name, location, sales window or commercial terms; not a public launch.",
+        "sources": [
+          "https://gulfnews.com/business/property/tabeer-hands-over-dh250-million-48-parkside-in-24-months-eyes-major-expansion-1.500707506"
+        ],
+        "nextCheck": "Named project, investable location and specific sales evidence."
+      },
+      {
+        "name": "Waterfront by Missoni — Al Reem / Emirates Developments",
+        "disposition": "dated-broker-briefing-added-to-feed",
+        "finding": "15 October event registration and Alnair invitation; broker-described250homes/38floors. Product remains broker intelligence; no verified official prices/EOI/payment/handover. Distinct from The Bay Dubai Islands.",
+        "nextCheck": "15 October briefing outcome and developer pack"
       }
     ]
   },
