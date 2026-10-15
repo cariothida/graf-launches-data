@@ -56,15 +56,16 @@
       ],
       "additionalExactQueries": 2,
       "totalQueryAttempts": 46,
-      "relevantIndexedSnippets": 2,
+      "relevantIndexedSnippets": 3,
       "indexedPostURLs": [
         "https://www.instagram.com/reel/DeUTZBAtiCs/",
-        "https://www.instagram.com/reel/DeJMM_7iRYi/"
+        "https://www.instagram.com/reel/DeJMM_7iRYi/",
+        "https://www.instagram.com/p/DeWsSAwFn91/"
       ],
       "nativeAccountsInspected": 0,
       "storiesInspected": 0,
       "fullMediaReviewed": 0,
-      "finding": "20 named-source plus 24 varied queries in search2 yielded no usable posts; alternate search1 exact-name pass found two Waterfront by Missoni snippets. Native opens failed; no full media coverage claimed."
+      "finding": "20 named-source plus 24 varied queries in search2 yielded no usable posts; alternate search1 exact-name pass found two Waterfront by Missoni snippets. Native opens failed; no full media coverage claimed. A separate general Native Haus search also surfaced one EOI snippet; no native post review."
     },
     "youtube": {
       "queryAttempts": 6,
@@ -426,7 +427,65 @@
     },
     "pipelineResult": "Push blocked: main requires PR; no workflows/rules/secrets changed",
     "contentPR": 94,
-    "liveVerified": false
+    "liveVerified": true,
+    "mergeCommit": "c2194b372b6a0a4b18e89a50c3d807149a084b72",
+    "productionRun": 38678953544,
+    "productionJob": 116238861621,
+    "productionConclusion": "success",
+    "liveProof": {
+      "pages": [
+        {
+          "id": "samana-downtown-one",
+          "status": 200,
+          "title": [
+            "SAMANA Downtown One: Jebel Ali Launch &amp; Payment Plans | GRAF"
+          ],
+          "facts": {
+            "SAMANA Downtown One": true,
+            "689,000": true,
+            "80 months": true,
+            "75 months": true,
+            "December 2029": true,
+            "40,000": true
+          },
+          "allFactsVerified": true
+        },
+        {
+          "id": "emirates-waterfront-by-missoni-al-reem",
+          "status": 200,
+          "title": [
+            "Waterfront by Missoni Al Reem: Broker Briefing Watch | GRAF"
+          ],
+          "facts": {
+            "250": true,
+            "Waterfront by Missoni": true,
+            "15 October 2026": true,
+            "Space42 Arena": true,
+            "not confirmation that sales are open": true
+          },
+          "allFactsVerified": true
+        },
+        {
+          "id": "cosmo-marlin-icon-al-reem-island",
+          "status": 200,
+          "title": [
+            "Marlin Icon Al Reem Island: Broker EOI Watch | GRAF"
+          ],
+          "facts": {
+            "Marlin Icon": true,
+            "16 October 2026": true,
+            "Conrad Abu Dhabi": true,
+            "previously reported prices and terms": true,
+            "unconfirmed": true
+          },
+          "allFactsVerified": true
+        }
+      ],
+      "marker": "690cc56563291d192e1ba33d643678ed3ab558b9",
+      "markerMatches": true
+    },
+    "verifiedAt": "2026-10-15T04:04:30Z",
+    "recovery": "Normal protected-branch PR process; no bypass or workflow/rule/secret/release-ref modifications. Optional PR checks were not required by active rules."
   },
   "queue": {
     "date": "2026-10-15",
@@ -442,21 +501,42 @@
       "eventKey": "samana-downtown-one:2026-10-13-official-launch",
       "imageStyle": "S06",
       "imageLibraryId": "libfile_7daca416cd7c81919edd22179d6434e7",
-      "body": "🏙️ SAMANA Downtown One — SAMANA Developers\n\nA new residential launch in Downtown Jebel Ali, Jebel Ali Industrial 2, Dubai — not Downtown Dubai.\n\n• Studios, 1- and 2-bedroom apartments\n• Studios from AED 689,000, officially advertised, subject to availability\n• PDC plan: 10% down + 1% monthly for 80 months\n• Non-PDC plan: 15% down + 1% monthly for 75 months\n• Both plans also include 5% in month 6 and 5% in month 12\n• Expected handover: December 2029\n\nOfficial release: 13 October 2026. Alnair reported EOI access on 14 October, quoting AED 40,000; refund and allocation conditions remain unverified. PDC means post-dated cheques; eligibility applies.\n\nBroker angle: a lower-entry residential option near Dubai’s southern employment corridor, with payments extending beyond expected handover. Rental income is not guaranteed to cover instalments.\n\nConfidence: high for official project, studio price and plans; medium for EOI intelligence.\n\nhttps://graf.ae/launches/samana-downtown-one/"
+      "body": "🏙️ SAMANA Downtown One — SAMANA Developers\n\nA new residential launch in Downtown Jebel Ali, Jebel Ali Industrial 2, Dubai — not Downtown Dubai.\n\n• Studios, 1- and 2-bedroom apartments\n• Studios from AED 689,000, officially advertised, subject to availability\n• PDC plan: 10% down + 1% monthly for 80 months\n• Non-PDC plan: 15% down + 1% monthly for 75 months\n• Both plans also include 5% in month 6 and 5% in month 12\n• Expected handover: December 2029\n\nOfficial release: 13 October 2026. Alnair reported EOI access on 14 October, quoting AED 40,000; refund and allocation conditions remain unverified. PDC means post-dated cheques; eligibility applies.\n\nBroker angle: a lower-entry residential option near Dubai’s southern employment corridor, with payments extending beyond expected handover. Rental income is not guaranteed to cover instalments.\n\nConfidence: high for official project, studio price and plans; medium for EOI intelligence.\n\nhttps://graf.ae/launches/samana-downtown-one/",
+      "imageVerified": true,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "channelSent": false,
+      "state": "prepared-for-current-conversation-handoff"
     },
     {
       "projectId": "emirates-waterfront-by-missoni-al-reem",
       "eventKey": "emirates-waterfront-by-missoni-al-reem:2026-10-15-broker-briefing",
       "imageStyle": "S08",
       "imageLibraryId": "libfile_d7e853d2b7dc819198a2658d1b99d9dc",
-      "body": "🌊 Waterfront by Missoni — Emirates Developments\n\nA broker briefing is advertised for today, 15 October 2026, from 2–5 PM at Space42 Arena, Al Raha Beach, Abu Dhabi. This is the event venue — the project is reported in Shams Abu Dhabi, Al Reem Island.\n\n• Reported collection: 250 residences across 38 residential floors\n• 1–4-bedroom apartments and two 5-bedroom penthouses\n• Missoni interiors and direct beach access described in broker marketing\n• Official starting price: not verified\n• Final payment plan, EOI conditions and contractual handover: awaiting confirmation\n\nBroker angle: an early branded-beachfront opportunity to assess before final pricing is released; today’s briefing is not proof that sales have opened.\n\nConfidence: medium / broker intelligence. Final product and commercial terms require developer confirmation.\n\nThis is separate from The Bay Interiors by Missoni on Dubai Islands.\n\nhttps://graf.ae/launches/emirates-waterfront-by-missoni-al-reem/"
+      "body": "🌊 Waterfront by Missoni — Emirates Developments\n\nA broker briefing is advertised for today, 15 October 2026, from 2–5 PM at Space42 Arena, Al Raha Beach, Abu Dhabi. This is the event venue — the project is reported in Shams Abu Dhabi, Al Reem Island.\n\n• Reported collection: 250 residences across 38 residential floors\n• 1–4-bedroom apartments and two 5-bedroom penthouses\n• Missoni interiors and direct beach access described in broker marketing\n• Official starting price: not verified\n• Final payment plan, EOI conditions and contractual handover: awaiting confirmation\n\nBroker angle: an early branded-beachfront opportunity to assess before final pricing is released; today’s briefing is not proof that sales have opened.\n\nConfidence: medium / broker intelligence. Final product and commercial terms require developer confirmation.\n\nThis is separate from The Bay Interiors by Missoni on Dubai Islands.\n\nhttps://graf.ae/launches/emirates-waterfront-by-missoni-al-reem/",
+      "imageVerified": true,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "channelSent": false,
+      "state": "prepared-for-current-conversation-handoff"
     },
     {
       "projectId": "cosmo-marlin-icon-al-reem-island",
       "eventKey": "cosmo-marlin-icon-al-reem-island:2026-10-16-launch-event-report",
       "imageStyle": "S06",
       "imageLibraryId": "libfile_b951e30fc77c81919d4463e93cd96b39",
-      "body": "📅 Marlin Icon — Cosmo Developments\n\nNEW UPDATE: Alnair is circulating a launch-event invitation for 16 October 2026 at Conrad Abu Dhabi, with Reportage Properties and Cosmo Developments. This follows the earlier EOI report; actual sales opening remains unverified.\n\n📍 Canal-front Al Reem Island, Abu Dhabi; exact plot awaits confirmation.\n\n• Broker-described 140-home scheme, including apartments and duplexes; current reported offer includes 2–4BR homes\n• Broker-indicated 2BR prices from AED 1.63 million — not an official confirmed price\n• Reported EOI: AED 50,000; refund conditions unverified\n• Reported options: 10%, 20% or 30% down with 1% monthly; full signed schedules and final balances unverified\n• Broker-advertised completion: Q4 2030\n\nBroker angle: the newly circulated event date gives a concrete point to check launch inventory and final terms, rather than rely on preliminary advertisements.\n\nConfidence: medium / broker intelligence. Developer event confirmation and final commercial documents remain pending.\n\nhttps://graf.ae/launches/cosmo-marlin-icon-al-reem-island/"
+      "body": "📅 Marlin Icon — Cosmo Developments\n\nNEW UPDATE: Alnair is circulating a launch-event invitation for 16 October 2026 at Conrad Abu Dhabi, with Reportage Properties and Cosmo Developments. This follows the earlier EOI report; actual sales opening remains unverified.\n\n📍 Canal-front Al Reem Island, Abu Dhabi; exact plot awaits confirmation.\n\n• Broker-described 140-home scheme, including apartments and duplexes; current reported offer includes 2–4BR homes\n• Broker-indicated 2BR prices from AED 1.63 million — not an official confirmed price\n• Reported EOI: AED 50,000; refund conditions unverified\n• Reported options: 10%, 20% or 30% down with 1% monthly; full signed schedules and final balances unverified\n• Broker-advertised completion: Q4 2030\n\nBroker angle: the newly circulated event date gives a concrete point to check launch inventory and final terms, rather than rely on preliminary advertisements.\n\nConfidence: medium / broker intelligence. Developer event confirmation and final commercial documents remain pending.\n\nhttps://graf.ae/launches/cosmo-marlin-icon-al-reem-island/",
+      "imageVerified": true,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "channelSent": false,
+      "state": "prepared-for-current-conversation-handoff"
     }
   ]
 }
