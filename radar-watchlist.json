@@ -1182,15 +1182,17 @@
     "qualifyingNewRecords": 2,
     "qualifyingMaterialUpdates": 1,
     "website": {
-      "state": "content-PR-checks-pending",
+      "state": "verified-live",
       "feedSha": "690cc56563291d192e1ba33d643678ed3ab558b9",
-      "recoveryPR": 94
+      "productionRun": 38678953544,
+      "recoveryPR": 94,
+      "matchingPagesVerified": 3
     },
     "queue": {
       "date": "2026-10-15",
       "posts": 0
     },
-    "manualHandoff": "Three drafts prepared and images saved; live website verification remains a delivery gate."
+    "manualHandoff": "Three inspected portrait cards and English captions prepared for current conversation; manual channel publication is not confirmed."
   },
   "lastMaterialUpdate": {
     "date": "2026-10-14",
@@ -1872,6 +1874,48 @@
       ],
       "liveVerified": true,
       "imageLibraryId": "libfile_bda06c6a7d448191bd436e9c5ccb7fe3"
+    },
+    {
+      "projectId": "samana-downtown-one",
+      "eventKey": "samana-downtown-one:2026-10-13-official-launch",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-15",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_7daca416cd7c81919edd22179d6434e7"
+    },
+    {
+      "projectId": "emirates-waterfront-by-missoni-al-reem",
+      "eventKey": "emirates-waterfront-by-missoni-al-reem:2026-10-15-broker-briefing",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-15",
+      "imageStyle": "S08",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_d7e853d2b7dc819198a2658d1b99d9dc"
+    },
+    {
+      "projectId": "cosmo-marlin-icon-al-reem-island",
+      "eventKey": "cosmo-marlin-icon-al-reem-island:2026-10-16-launch-event-report",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-15",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_b951e30fc77c81919d4463e93cd96b39"
     }
   ]
 }
