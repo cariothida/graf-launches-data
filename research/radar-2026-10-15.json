@@ -1,0 +1,462 @@
+{
+  "date": "2026-10-15",
+  "window": "Previous 30 days plus upcoming 1/2 weeks and 1/2/3 months; original dates retained",
+  "coverage": {
+    "sourceWatchlistSize": 66,
+    "instagram": {
+      "namedBrokerAttempts": 20,
+      "namedSources": [
+        "TruHauz",
+        "Albina Sultanova",
+        "Grand Reve Realty",
+        "Future Key Properties",
+        "Propsense Realty",
+        "DRE Homes",
+        "Equity Edge",
+        "Luxury Falcon Properties",
+        "Top Luxury Property",
+        "Hunt Harris",
+        "Royal Lounge Properties",
+        "Metropolitan Capital",
+        "Crompton Partners",
+        "LLJ Asset Management",
+        "Miramar Real Estate",
+        "Rexus Real Estate",
+        "Flash Real Estate RAK",
+        "Living Choice RAK",
+        "Yas Properties RAK",
+        "Ruwaad Properties"
+      ],
+      "variedQueryFormulations": 24,
+      "variedQueries": [
+        "site:instagram.com Dubai \"priority booking\" October 2026",
+        "site:instagram.com Dubai \"new project\" \"pre-launch\"",
+        "site:instagram.com Abu Dhabi \"EOI open\"",
+        "site:instagram.com Abu Dhabi \"broker launch\" October",
+        "site:instagram.com Ras Al Khaimah \"coming soon\" residences",
+        "site:instagram.com Al Marjan \"new release\"",
+        "site:instagram.com Ellington \"Al Yalayis\" EOI",
+        "site:instagram.com Ellington \"Sheikh Zayed Road\" offices",
+        "site:instagram.com Aldar \"sales open\" October",
+        "site:instagram.com Modon \"upcoming\" villas",
+        "site:instagram.com RAK Properties \"registration\"",
+        "site:instagram.com Al Hamra \"launch\" October 2026",
+        "site:instagram.com Dubai \"new phase\" \"October\"",
+        "site:instagram.com Abu Dhabi \"broker briefing\" \"15 October\"",
+        "site:instagram.com Dubai \"collecting EOI\"",
+        "site:instagram.com RAK \"launch invitation\"",
+        "site:instagram.com \"Samana Downtown One\"",
+        "site:instagram.com \"Marlin Icon\" \"16\"",
+        "site:instagram.com \"Waterfront by Missoni\"",
+        "site:instagram.com \"Native Haus\" \"launch\"",
+        "site:instagram.com دبي \"فتح باب الحجز\" أكتوبر",
+        "site:instagram.com رأس الخيمة \"إطلاق جديد\"",
+        "site:instagram.com Дубай \"старт продаж\" октябрь 2026",
+        "site:instagram.com Абу-Даби \"сбор EOI\""
+      ],
+      "additionalExactQueries": 2,
+      "totalQueryAttempts": 46,
+      "relevantIndexedSnippets": 2,
+      "indexedPostURLs": [
+        "https://www.instagram.com/reel/DeUTZBAtiCs/",
+        "https://www.instagram.com/reel/DeJMM_7iRYi/"
+      ],
+      "nativeAccountsInspected": 0,
+      "storiesInspected": 0,
+      "fullMediaReviewed": 0,
+      "finding": "20 named-source plus 24 varied queries in search2 yielded no usable posts; alternate search1 exact-name pass found two Waterfront by Missoni snippets. Native opens failed; no full media coverage claimed."
+    },
+    "youtube": {
+      "queryAttempts": 6,
+      "fullVideosReviewed": 0,
+      "finding": "Indexed searches and alternate engine yielded no usable relevant full launch videos."
+    },
+    "googleNews": {
+      "route": "Direct public Google News RSS separately by emirate",
+      "headlinesScreened": {
+        "Dubai": 26,
+        "AbuDhabi": 33,
+        "RasAlKhaimah": 12
+      },
+      "total": 71,
+      "includesDuplicates": true,
+      "extraRAKQuery": "One market-analysis headline; not a launch"
+    },
+    "newspapers": [
+      {
+        "name": "Gulf News",
+        "access": "Category headlines and domain query; Tabeer 13 October partner-content article read"
+      },
+      {
+        "name": "Khaleej Times",
+        "access": "Category headlines and domain query; no fresh qualifying launch in visible headlines"
+      },
+      {
+        "name": "The National",
+        "access": "Category headlines and domain query; 14 October Aldar CEO interview read"
+      },
+      {
+        "name": "Arabian Business",
+        "access": "Domain query; category failed HTTP405"
+      },
+      {
+        "name": "Gulf Today",
+        "access": "Business category headlines and domain query"
+      }
+    ],
+    "hospitality": "Hospitality Net development/news routes unavailable; relevant indexed releases inspected. TTN homepage/category and Accor tag attempted; TTN 8 October CITYVIEW/Accor full release inspected and reconciled as old underlying announcement.",
+    "propsearch": {
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "newEntries": 1,
+      "detailPagesRead": 1,
+      "newEntry": "Dubai Mall Plaza & Hotel",
+      "disposition": "Excluded: Emaar hotel planned for Downtown Dubai, no saleable residences established; First Trace October is not launch date.",
+      "other19": "Reconciled with existing dispositions; no claim of rereading detail pages"
+    },
+    "whatsappStories": {
+      "runId": 38677504299,
+      "artifactId": 11946424497,
+      "privatelyDecrypted": true,
+      "visibleRecords": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "mediaInspected": 0
+    },
+    "whatsappChats": {
+      "runId": 38677686708,
+      "artifactId": 11946840486,
+      "privatelyDecrypted": true,
+      "workflowResult": "failure",
+      "chatsListed": 0,
+      "historiesSelected": 0,
+      "coverage": "No chat histories inspected"
+    },
+    "accessGaps": [
+      "Instagram native accounts and Stories not connected/verified; two relevant indexed Reel snippets only, native opens throttled.",
+      "No full YouTube launch videos reviewed.",
+      "WhatsApp stories export succeeded with zero visible records; chat export failed with empty listing.",
+      "Arabian Business category HTTP405; Zawya robots; Hospitality Net selected routes unavailable.",
+      "RAK Properties newsroom includes archival/non-current entries; no claim of a complete fresh developer feed."
+    ]
+  },
+  "qualifyingChanges": [
+    {
+      "id": "samana-downtown-one",
+      "project": "SAMANA Downtown One",
+      "developer": "SAMANA Developers",
+      "emirate": "Dubai",
+      "location": "Downtown Jebel Ali, Jebel Ali Industrial 2, Dubai; Sheikh Zayed Road corridor with nearby Metro access",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official developer launch article dated 13 October 2026; Alnair reports early EOI access on 14 October. Separate formal event date not verified.",
+      "startingPrice": 689000,
+      "priceConfirmed": true,
+      "confirmedBy": "https://www.samanadevelopers.com/blogs/samana-downtown-one-premium-apartments-in-downtown-jebel-ali-with-1-monthly-payments",
+      "pricePerSqft": null,
+      "paymentPlan": "Official PDC plan: 10% down, 1% monthly for 80 months, plus 5% in month 6 and 5% in month 12. Non-PDC: 15% down, 1% monthly for 75 months, plus the same two 5% payments. Each totals 100%; eligibility and exact unit-specific dates apply.",
+      "handover": "December 2029, developer's expected handover; contractual dates subject to the SPA",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Developer-confirmed; from AED 689,000, subject to availability"
+        },
+        {
+          "type": "1BR apartment",
+          "note": "Developer-confirmed; selected layouts include a store"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Developer-confirmed; selected layouts include a store"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Alnair's 14 October report quotes AED 40,000 EOI. Developer-issued refund, recipient, escrow and allocation conditions not independently inspected."
+      },
+      "teaser": "Official studios from AED 689,000 with extended 1% monthly payment options.",
+      "summary": "SAMANA's 13 October 2026 release identifies Downtown One as a new residential launch in Downtown Jebel Ali, with studios and one- and two-bedroom apartments. Studios start at AED 689,000, subject to availability, and expected handover is December 2029. Official plans offer 10% down with post-dated cheques or 15% without, followed by monthly instalments and two additional 5% payments. Alnair reports EOI access on 14 October; the AED 40,000 EOI remains broker-reported.",
+      "whatNext": "Await unit-specific inventory, dated contractual payment and handover schedules, and developer-issued EOI conditions; subscribe for verified updates.",
+      "confidenceNote": "High confidence in identity, starting studio price, payment structures and expected delivery from the developer's dated release and project page. Medium confidence in the broker-reported EOI. Downtown Jebel Ali is not Downtown Dubai; exact walking route to the Metro must be checked. Post-handover instalments do not guarantee that rental income covers payments.",
+      "sources": [
+        {
+          "url": "https://www.samanadevelopers.com/blogs/samana-downtown-one-premium-apartments-in-downtown-jebel-ali-with-1-monthly-payments",
+          "label": "SAMANA official dated launch release, price, payment plans and expected handover",
+          "date": "2026-10-13",
+          "primary": true
+        },
+        {
+          "url": "https://www.samanadevelopers.com/projects/samana-downtown-one",
+          "label": "Official project identity, amenities, residential layouts and location",
+          "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news/early-access-opens-for-samana-downtown-one-in-dubai",
+          "label": "Alnair dated 14 October EOI report",
+          "date": "2026-10-14",
+          "primary": false
+        },
+        {
+          "url": "https://www.silveroakglobal.com/projects/samana-downtown-one-1c7d93c3",
+          "label": "Independent broker identity/product corroboration; not used to confirm total unit count",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-15",
+      "updatedAt": "2026-10-15",
+      "published": true,
+      "seoTitle": "SAMANA Downtown One: Jebel Ali Launch & Payment Plans | GRAF",
+      "seoDescription": "SAMANA confirms Downtown One studios from AED 689,000, 10% or 15% down and monthly plans. Expected December 2029 handover; broker EOI conditions pending."
+    },
+    {
+      "id": "emirates-waterfront-by-missoni-al-reem",
+      "project": "Waterfront by Missoni",
+      "developer": "Emirates Developments",
+      "emirate": "Abu Dhabi",
+      "location": "Shams Abu Dhabi, Al Reem Island, Abu Dhabi (broker-reported beachfront position; final plot confirmation awaited)",
+      "type": [
+        "apartments",
+        "penthouses"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Developer-branded registration page and Alnair advertise a broker briefing on 15 October 2026, 14:00–17:00, at Space42 Arena, Al Raha Beach. This is the venue, not the project location; sales opening is unverified.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "brokerPriceNote": "The Upsides gives AED 1.5m as indicative market context, while stating that the official price list is unreleased. This is not a verified project starting price.",
+      "paymentPlan": null,
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "note": "Broker marketing reports 61 homes; final developer inventory awaited"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Broker marketing reports 135 homes"
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Broker marketing reports 44 homes"
+        },
+        {
+          "type": "4BR apartment",
+          "note": "Broker marketing reports 8 homes"
+        },
+        {
+          "type": "5BR penthouse",
+          "note": "Broker marketing reports 2 penthouses; total proposed collection 250 homes"
+        }
+      ],
+      "teaser": "Al Reem beachfront branded residences with a broker briefing on 15 October.",
+      "summary": "Waterfront by Missoni is being promoted by Emirates Developments for Shams Abu Dhabi on Al Reem Island. A developer-branded event registration page and Alnair identify a broker briefing on 15 October 2026 at Space42 Arena, Al Raha Beach. Broker project pages describe 250 residences across 38 residential floors, one- to four-bedroom apartments and two five-bedroom penthouses, with Missoni interiors and direct beach access. This is a dated briefing signal after earlier pre-launch marketing, not confirmation that sales are open; final prices, payment, EOI and contractual delivery remain unverified.",
+      "whatNext": "Await the briefing outcome, official project pack, exact plot, released price list and signed payment/EOI and handover terms; subscribe for verified updates.",
+      "confidenceNote": "High confidence that the dated broker event is advertised; medium confidence in the broker-described final product and beach position. The project-specific landing page expressly identifies itself as a channel partner, not the developer. Broker claims of 40/60, 5% down and Q4 2029 delivery conflict with another channel partner's 'to be confirmed at launch' wording, so they are not treated as final. Do not confuse with Tomorrow World's The Bay Interiors by Missoni on Dubai Islands.",
+      "sources": [
+        {
+          "url": "https://events.emiratesdevelopments.tech/missoni-briefing?ref=victoria-samus",
+          "label": "Developer-branded registration: 15 October briefing and event timetable",
+          "date": "2026-10-15",
+          "primary": true
+        },
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair public invitation: Emirates Developments, Al Reem and 15 October briefing",
+          "primary": false
+        },
+        {
+          "url": "https://waterfrontmissoni.ae/",
+          "label": "Channel-partner page: 250 homes, unit mix, beach location; final terms unreleased",
+          "primary": false
+        },
+        {
+          "url": "https://theupsides.ae/projects/waterfront-by-missoni",
+          "label": "Broker product corroboration; commercial terms not independently confirmed",
+          "primary": false
+        },
+        {
+          "url": "https://emiratesdevelopments.com/",
+          "label": "Official developer identity and branded-residential portfolio",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-15",
+      "updatedAt": "2026-10-15",
+      "published": true,
+      "seoTitle": "Waterfront by Missoni Al Reem: Broker Briefing Watch | GRAF",
+      "seoDescription": "Emirates Developments' Waterfront by Missoni: 15 October broker briefing, reported 250 Al Reem residences. Final pricing and commercial terms pending."
+    },
+    {
+      "id": "cosmo-marlin-icon-al-reem-island",
+      "project": "Marlin Icon",
+      "developer": "Cosmo Developments; supported/marketed by Reportage Properties",
+      "emirate": "Abu Dhabi",
+      "location": "Canal-front Al Reem Island, Abu Dhabi; exact plot awaits official release documents",
+      "type": [
+        "apartments",
+        "duplexes",
+        "penthouses"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Alnair reports EOI collection on 13 October and now circulates a launch-event invitation for 16 October 2026 at Conrad Abu Dhabi. Actual sales opening and developer confirmation remain unverified.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Alnair's 13 October broker-channel announcement indicates 2BR from AED 1.63m, 3BR from AED 2.51m and 4BR from AED 4.22m. No developer price list was independently inspected.",
+      "paymentPlan": "Broker-reported options include 10%, 20% or 30% down with 1% monthly instalments, plus lump-sum alternatives. Discounts, final balance, conditions and the complete signed schedule are unverified.",
+      "handover": "Q4 2030, broker-advertised; contractual handover unverified",
+      "unitMix": [
+        {
+          "type": "2BR apartment",
+          "note": "Current EOI collection reported by Alnair and broker pages"
+        },
+        {
+          "type": "2BR Plus apartment",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "3BR duplex",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "4BR duplex",
+          "note": "Broker-listed"
+        },
+        {
+          "type": "Duplex penthouse",
+          "note": "Broker-listed; final inventory schedule awaited"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Alnair reports AED 50,000 EOI; refundability, payment recipient, escrow and allocation conditions were not independently verified."
+      },
+      "teaser": "New broker-circulated launch-event invitation for 16 October in Abu Dhabi.",
+      "summary": "Following the 13 October EOI report, Alnair now circulates a Marlin Icon launch-event invitation for 16 October 2026 at Conrad Abu Dhabi. Accessible broker sources identify Cosmo Developments with Reportage support/marketing and describe a 140-home canal-front Al Reem scheme with apartments and duplexes. The dated event is the material update; it does not independently confirm that sales have opened or change previously reported prices and terms. The final released mix, legal sales entity, commercial schedule and contractual delivery remain unconfirmed.",
+      "whatNext": "Await the 16 October event outcome, Cosmo/Reportage's official project pack, exact plot and signed sales/EOI/payment conditions; subscribe for verified updates.",
+      "confidenceNote": "Medium confidence in project identity and broker-reported EOI and 16 October event. The invitation is circulated by Alnair rather than independently verified on a developer event page; its printed end time is ambiguous and is not reproduced. Other brokers corroborate identity/product but not the event date. Prices, legal sales entity and final terms remain unconfirmed.",
+      "sources": [
+        {
+          "url": "https://alnair.co.th/en/news/reportage-properties-cosmo-developments-are-launching-marlin-icon-on-al-reem-island-early-eoi-starts-at-aed-50k",
+          "label": "Alnair dated 13 October pre-sale / EOI report; regional copy of the same source",
+          "date": "2026-10-13",
+          "primary": true
+        },
+        {
+          "url": "https://theupsides.ae/projects/marlin-icon-abu-dhabi",
+          "label": "Broker project identity, 140 homes, canal-front location and preliminary payment options",
+          "primary": false
+        },
+        {
+          "url": "https://www.lucretia-international.com/en/projects/reportage-properties-marlin-icon",
+          "label": "Broker product/identity corroboration; formal launch date not set",
+          "primary": false
+        },
+        {
+          "url": "https://t.me/alnairae/6966",
+          "label": "Alnair public invitation: Marlin Icon event 16 October 2026, Conrad Abu Dhabi",
+          "date": "2026-10-16",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-14",
+      "updatedAt": "2026-10-15",
+      "published": true,
+      "seoTitle": "Marlin Icon Al Reem Island: Broker EOI Watch | GRAF",
+      "seoDescription": "Broker-reported EOI for Marlin Icon by Cosmo on Al Reem Island: 140 homes, indicative prices and Q4 2030 delivery. Final developer terms unconfirmed."
+    }
+  ],
+  "earlySignals": [
+    {
+      "name": "Aldar fourth Dubai villa/townhouse development (unnamed)",
+      "date": "2026-10-14",
+      "status": "CEO-interview planning signal; private watch only",
+      "finding": "The National's interview with Jonathan Emery reports launch by end-2026 and partnership with Dubai Holding. Article body places it near Dubai Silicon Oasis and Blue Line; generated summary instead says Dubai Internet City, so exact plot/location remains unresolved. New timing signal, not sales open.",
+      "sources": [
+        "https://www.thenationalnews.com/business/property/2026/10/14/aldar-to-launch-major-dubai-villa-and-townhouse-project-by-end-of-year/"
+      ],
+      "nextCheck": "Official name, plot and event confirmation; prices, mix, payment/EOI and handover unknown."
+    },
+    {
+      "name": "Tabeer unnamed flagship",
+      "date": "2026-10-13",
+      "status": "Company-attributed planning teaser; private watch only",
+      "finding": "Gulf News partner content attributes a largest-to-date upcoming flagship to Tabeer following 48 Parkside handover. No name, location, sales window or commercial terms; not a public launch.",
+      "sources": [
+        "https://gulfnews.com/business/property/tabeer-hands-over-dh250-million-48-parkside-in-24-months-eyes-major-expansion-1.500707506"
+      ],
+      "nextCheck": "Named project, investable location and specific sales evidence."
+    }
+  ],
+  "heldCandidates": [
+    {
+      "name": "Native Haus",
+      "finding": "14 October launch recap repeats earlier September/early October pricing and 30/70. No distinct new phase or independently verified changed terms."
+    },
+    {
+      "name": "Ellington Al Yalayis and proposed SZR/Business Bay offices",
+      "finding": "No newly verified developer announcement or reconciled commercial identity; keep existing private watch and do not merge Atelier/Langston/Eaton Square/Northway."
+    },
+    {
+      "name": "The Bay Interiors by Missoni, YIGO Luxe, Nine Collective, Vibe, X11",
+      "finding": "Existing invitations/countdowns or old marketing; no new verified release/terms at morning cut-off."
+    },
+    {
+      "name": "RAK",
+      "finding": "No qualifying fresh launch/update independently verified; no catalogue filler."
+    }
+  ],
+  "publication": {
+    "feedCommit": "690cc56563291d192e1ba33d643678ed3ab558b9",
+    "feedBlob": "e751446256998442e84d05e6df6cc61a79752ce2",
+    "readbackVerified": true,
+    "schemaValidated": true,
+    "pipelineRun": 38678070461,
+    "pipelineCounts": {
+      "created": 2,
+      "updated": 1,
+      "rejected": 0
+    },
+    "pipelineResult": "Push blocked: main requires PR; no workflows/rules/secrets changed",
+    "contentPR": 94,
+    "liveVerified": false
+  },
+  "queue": {
+    "date": "2026-10-15",
+    "posts": 0,
+    "manualOnly": true
+  },
+  "ledger": {
+    "unchanged": true
+  },
+  "manualDrafts": [
+    {
+      "projectId": "samana-downtown-one",
+      "eventKey": "samana-downtown-one:2026-10-13-official-launch",
+      "imageStyle": "S06",
+      "imageLibraryId": "libfile_7daca416cd7c81919edd22179d6434e7",
+      "body": "🏙️ SAMANA Downtown One — SAMANA Developers\n\nA new residential launch in Downtown Jebel Ali, Jebel Ali Industrial 2, Dubai — not Downtown Dubai.\n\n• Studios, 1- and 2-bedroom apartments\n• Studios from AED 689,000, officially advertised, subject to availability\n• PDC plan: 10% down + 1% monthly for 80 months\n• Non-PDC plan: 15% down + 1% monthly for 75 months\n• Both plans also include 5% in month 6 and 5% in month 12\n• Expected handover: December 2029\n\nOfficial release: 13 October 2026. Alnair reported EOI access on 14 October, quoting AED 40,000; refund and allocation conditions remain unverified. PDC means post-dated cheques; eligibility applies.\n\nBroker angle: a lower-entry residential option near Dubai’s southern employment corridor, with payments extending beyond expected handover. Rental income is not guaranteed to cover instalments.\n\nConfidence: high for official project, studio price and plans; medium for EOI intelligence.\n\nhttps://graf.ae/launches/samana-downtown-one/"
+    },
+    {
+      "projectId": "emirates-waterfront-by-missoni-al-reem",
+      "eventKey": "emirates-waterfront-by-missoni-al-reem:2026-10-15-broker-briefing",
+      "imageStyle": "S08",
+      "imageLibraryId": "libfile_d7e853d2b7dc819198a2658d1b99d9dc",
+      "body": "🌊 Waterfront by Missoni — Emirates Developments\n\nA broker briefing is advertised for today, 15 October 2026, from 2–5 PM at Space42 Arena, Al Raha Beach, Abu Dhabi. This is the event venue — the project is reported in Shams Abu Dhabi, Al Reem Island.\n\n• Reported collection: 250 residences across 38 residential floors\n• 1–4-bedroom apartments and two 5-bedroom penthouses\n• Missoni interiors and direct beach access described in broker marketing\n• Official starting price: not verified\n• Final payment plan, EOI conditions and contractual handover: awaiting confirmation\n\nBroker angle: an early branded-beachfront opportunity to assess before final pricing is released; today’s briefing is not proof that sales have opened.\n\nConfidence: medium / broker intelligence. Final product and commercial terms require developer confirmation.\n\nThis is separate from The Bay Interiors by Missoni on Dubai Islands.\n\nhttps://graf.ae/launches/emirates-waterfront-by-missoni-al-reem/"
+    },
+    {
+      "projectId": "cosmo-marlin-icon-al-reem-island",
+      "eventKey": "cosmo-marlin-icon-al-reem-island:2026-10-16-launch-event-report",
+      "imageStyle": "S06",
+      "imageLibraryId": "libfile_b951e30fc77c81919d4463e93cd96b39",
+      "body": "📅 Marlin Icon — Cosmo Developments\n\nNEW UPDATE: Alnair is circulating a launch-event invitation for 16 October 2026 at Conrad Abu Dhabi, with Reportage Properties and Cosmo Developments. This follows the earlier EOI report; actual sales opening remains unverified.\n\n📍 Canal-front Al Reem Island, Abu Dhabi; exact plot awaits confirmation.\n\n• Broker-described 140-home scheme, including apartments and duplexes; current reported offer includes 2–4BR homes\n• Broker-indicated 2BR prices from AED 1.63 million — not an official confirmed price\n• Reported EOI: AED 50,000; refund conditions unverified\n• Reported options: 10%, 20% or 30% down with 1% monthly; full signed schedules and final balances unverified\n• Broker-advertised completion: Q4 2030\n\nBroker angle: the newly circulated event date gives a concrete point to check launch inventory and final terms, rather than rely on preliminary advertisements.\n\nConfidence: medium / broker intelligence. Developer event confirmation and final commercial documents remain pending.\n\nhttps://graf.ae/launches/cosmo-marlin-icon-al-reem-island/"
+    }
+  ]
+}
