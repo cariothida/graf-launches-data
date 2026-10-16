@@ -2264,15 +2264,15 @@
       "project": "The Bay Interiors by Missoni",
       "developer": "Tomorrow World Real Estate Development",
       "emirate": "Dubai",
-      "location": "Marina-front plot DIA-MU-N01, Island A, Dubai Islands, Dubai (broker-placed plot)",
+      "location": "Main yacht marina, Island A, Dubai Islands, Dubai; adjacent to the yacht club",
       "type": [
         "apartments"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "Coming soon on Tomorrow World/OCTA official pages. Alnair circulates a launch briefing invitation for 15 October 2026; actual sales opening remains unverified.",
+      "status": "confirmed",
+      "launchWindow": "Company announcement dated 15 October 2026 confirms entry into pre-launch; the public sales-opening date has not been announced.",
       "startingPrice": null,
       "priceConfirmed": false,
-      "brokerPriceNote": "Accessible broker marketing indicates apartments from AED 2.75m. No current Tomorrow World/OCTA developer price list was inspected.",
+      "brokerPriceNote": "Channel-partner site bayinteriorsbymissoni.com and Luxwell quote from AED 2.75m, 50/50 payments and September 2029 completion. The site expressly identifies itself as a channel partner, not the developer. No current Tomorrow World/OCTA price list was inspected; other broker previews conflict on payment and delivery.",
       "paymentPlan": null,
       "unitMix": [
         {
@@ -2288,20 +2288,26 @@
           "note": "OCTA official project page"
         }
       ],
-      "teaser": "132 Missoni-interior homes; a broker launch briefing is reported for 15 October.",
-      "summary": "Tomorrow World and exclusive presenter OCTA list The Bay Interiors by Missoni as coming soon, with 132 two- to four-bedroom residences. Broker sources place it directly on the Island A marina at Dubai Islands and describe unfurnished homes with fitted kitchens. Alnair circulates a 15 October 2026 launch-briefing invitation following earlier September/October marketing; this is an upcoming briefing signal, not a claim that the project first appeared today or that sales are already open. Prices, payment/EOI terms and contractual handover remain unconfirmed.",
+      "teaser": "Official pre-launch confirmation for Missoni-interior homes on Island A's marina.",
+      "summary": "Tomorrow World and Missoni announced The Bay's pre-launch on 15 October 2026. The company release confirms a position directly on Island A's main marina, beside the yacht club, and a preliminary collection of two- and three-bedroom residences plus signature penthouses. OCTA's project listing describes 132 two- to four-bedroom homes; the exact released inventory and official commercial terms remain awaited.",
       "eoi": {
         "amount": null,
         "refundable": null,
         "note": "One broker preview quotes AED 50,000 EOI; no official EOI conditions or refundability verified."
       },
-      "whatNext": "Await the 15 October briefing results, official sales-opening date, price list, inventory and signed payment/EOI schedule; subscribe for verified updates.",
-      "confidenceNote": "High confidence in name, developer, 132 residences and 2–4BR mix from OCTA. Medium on broker-placed marina plot and the Alnair-circulated 15 October briefing. Broker previews conflict on 50/50 versus 60/40 payment and September versus December 2029 delivery; OCTA lists handover as TBC. No conflicting terms are treated as final.",
+      "whatNext": "Await the official sales-opening date, released unit schedule, developer price list and signed payment/EOI and handover terms; subscribe for verified updates.",
+      "confidenceNote": "High confidence in official pre-launch confirmation and marina location from the dated company release quoting Tomorrow World, Missoni and OCTA. This is not confirmation that public sales are open. The release describes 2–3BR plus penthouses, while OCTA's wider listing describes 2–4BR; exact released unit mix, prices, EOI, payment and contractual handover remain unconfirmed.",
       "sources": [
+        {
+          "url": "https://gulfnews.com/gn-focus/company-news/tomorrow-world-properties-and-missoni-announce-the-bay-interiors-by-missoni-on-dubai-islands-1.500711530",
+          "label": "15 October company announcement quoting Tomorrow World, Missoni and OCTA: pre-launch collection and marina position",
+          "date": "2026-10-15",
+          "primary": true
+        },
         {
           "url": "https://www.octa.ae/projects/the-bay",
           "label": "OCTA official coming-soon project: 132 homes, 2–4BR, handover TBC",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://sales.tomorrowworldgroup.ae/",
@@ -2322,13 +2328,18 @@
           "url": "https://www.lucretia-international.com/en/projects/octa-properties-the-bay-interiors-by-missoni",
           "label": "Broker marina/product corroboration and conflicting delivery fields",
           "primary": false
+        },
+        {
+          "url": "https://bayinteriorsbymissoni.com/",
+          "label": "Channel-partner project page; expressly not a developer source; indicative terms only",
+          "primary": false
         }
       ],
       "firstReported": "2026-10-14",
-      "updatedAt": "2026-10-14",
+      "updatedAt": "2026-10-16",
       "published": true,
-      "seoTitle": "The Bay Interiors by Missoni: Dubai Islands Watch | GRAF",
-      "seoDescription": "132 two- to four-bedroom homes by Tomorrow World on Dubai Islands. Broker briefing reported for 15 October; final prices and commercial terms pending."
+      "seoTitle": "The Bay Interiors by Missoni: Official Pre-launch | GRAF",
+      "seoDescription": "Tomorrow World confirms The Bay's pre-launch on Dubai Islands' main marina. Missoni interiors; official sales date, prices and payment terms awaited."
     },
     {
       "id": "samana-downtown-one",
@@ -2476,6 +2487,66 @@
       "published": true,
       "seoTitle": "Waterfront by Missoni Al Reem: Broker Briefing Watch | GRAF",
       "seoDescription": "Emirates Developments' Waterfront by Missoni: 15 October broker briefing, reported 250 Al Reem residences. Final pricing and commercial terms pending."
+    },
+    {
+      "id": "samana-collecta-world-islands",
+      "project": "SAMANA COLLECTA World Islands flagship (working name)",
+      "developer": "SAMANA Developers",
+      "emirate": "Dubai",
+      "location": "The World Islands, Dubai; exact island plot and mainland embarkation points not yet disclosed",
+      "type": [
+        "apartments",
+        "villas"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Announced 15 October 2026 under the new SAMANA COLLECTA brand; project-name and Italian brand-partner reveals are still to follow. Sales opening has not been confirmed.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "CEO interview and company release indicate expected entry-level homes below AED 2m and a target around AED 3,000/sq ft. These are advance indications, not a released developer price list or a confirmed starting price.",
+      "paymentPlan": null,
+      "handover": "CEO states a four-year contractual delivery commitment; the construction-start date and calendar completion date remain unconfirmed.",
+      "unitMix": [
+        {
+          "type": "Studio to 4BR apartments",
+          "note": "840 branded residences announced; Italian luxury brand partner not yet named."
+        },
+        {
+          "type": "Floating villas",
+          "note": "Seven announced."
+        },
+        {
+          "type": "Tree villas",
+          "note": "Two announced; final specifications awaited."
+        }
+      ],
+      "teaser": "SAMANA announces a World Islands flagship under its new COLLECTA brand.",
+      "summary": "SAMANA announced its COLLECTA premium brand and a World Islands flagship on 15 October 2026. The scheme is planned with 840 branded residences, seven floating villas and two tree villas, with apartments ranging from studios to four bedrooms. The Italian luxury partner, exact project name, island plot, sales-opening date and final prices/payment terms have not been disclosed.",
+      "whatNext": "Await the project and brand-partner reveal, exact island plot, sales-opening date, developer price list, payment/EOI schedule and dated delivery programme; subscribe for verified updates.",
+      "confidenceNote": "High confidence in the developer announcement, World Islands location and planned scope, supported by the brand teaser and a dated company release plus a CEO interview. This is a pre-launch announcement, not an open-sales claim. No identity link to another SAMANA island or hospitality project is asserted; COLLECTA is the brand, not a confirmed project name.",
+      "sources": [
+        {
+          "url": "https://www.samana-collecta.com/",
+          "label": "SAMANA COLLECTA official brand teaser: first project reveal imminent; coming soon",
+          "primary": true
+        },
+        {
+          "url": "https://www.pantimearabia.com/samana-launches-collecta-taking-its-next-growth-chapter-into-premium-real-estate/",
+          "label": "Company release datelined 15 October 2026: World Islands scope, planned homes and unnamed brand partner",
+          "date": "2026-10-15",
+          "primary": false
+        },
+        {
+          "url": "https://www.tradingview.com/news/reuters.com,2026-10-15:newsml_Zaw5yS1yR:0-samana-developers-unveils-1-1bln-branded-residential-project-at-the-world-islands-in-dubai/",
+          "label": "Zawya/Refinitiv CEO interview, 15 October: indicative pricing, delivery commitment and island infrastructure",
+          "date": "2026-10-15",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-16",
+      "updatedAt": "2026-10-16",
+      "published": true,
+      "seoTitle": "SAMANA COLLECTA World Islands: Pre-launch Watch | GRAF",
+      "seoDescription": "SAMANA announces a World Islands flagship with 840 branded residences and nine villas. Project name, brand partner, sales date and final prices awaited."
     }
   ],
   "version": 1
