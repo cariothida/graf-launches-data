@@ -1,0 +1,375 @@
+{
+  "date": "2026-10-16",
+  "window": {
+    "past30Days": "2026-09-16 to 2026-10-16",
+    "upcoming": [
+      "2026-10-23",
+      "2026-10-30",
+      "2026-11-16",
+      "2026-12-16",
+      "2027-01-16"
+    ],
+    "discoveryNote": "RSS used after:2026-09-15 before:2026-10-17; original announcement dates adjudicated individually."
+  },
+  "coverage": {
+    "sourceWatchlistSize": 67,
+    "regions": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "instagram": {
+      "namedBrokerSourceAttempts": 20,
+      "names": [
+        "Allsopp & Allsopp",
+        "haus & haus",
+        "fam Properties",
+        "AX Capital",
+        "Driven Properties",
+        "D&B Properties",
+        "Dacha Real Estate",
+        "Provident Estate",
+        "Betterhomes",
+        "Unique Properties",
+        "Whitewill",
+        "Metropolitan Premium Properties",
+        "Primo Capital",
+        "Savills Middle East",
+        "Edwards Towers",
+        "Engel Volkers Dubai",
+        "Luxhabitat",
+        "Off Plan Dubai",
+        "White Collar Realty",
+        "Silver Oak Properties"
+      ],
+      "variedQueries": [
+        "site:instagram.com Dubai \"prelaunch\" October",
+        "site:instagram.com Dubai \"new release\"",
+        "site:instagram.com Abu Dhabi \"priority booking\"",
+        "site:instagram.com Abu Dhabi \"launch date\" October",
+        "site:instagram.com Ras Al Khaimah \"EOI\"",
+        "site:instagram.com Al Marjan \"coming soon\"",
+        "site:instagram.com Ellington \"Al Yalayis\"",
+        "site:instagram.com Ellington \"offices\" October",
+        "site:instagram.com Aldar \"new community\" October",
+        "site:instagram.com Bloom \"prelaunch\"",
+        "site:instagram.com RAK Properties \"new launch\"",
+        "site:instagram.com Al Hamra \"residences\" launch",
+        "site:instagram.com Dubai \"new phase\" October",
+        "site:instagram.com Abu Dhabi \"EOI closing\"",
+        "site:instagram.com Dubai \"broker briefing\" October 2026",
+        "site:instagram.com Ras Al Khaimah \"private preview\"",
+        "site:instagram.com \"Kore\" \"Imtiaz\"",
+        "site:instagram.com \"Waterfront by Missoni\"",
+        "site:instagram.com \"The Bay\" \"Tomorrow World\"",
+        "site:instagram.com \"Marlin Icon\"",
+        "site:instagram.com دبي \"إطلاق جديد\" أكتوبر",
+        "site:instagram.com أبوظبي \"فتح باب الحجز\"",
+        "site:instagram.com Дубай \"предстарт продаж\"",
+        "site:instagram.com Рас-эль-Хайма \"новый проект\""
+      ],
+      "variedQueryCount": 24,
+      "extraExactQueries": 5,
+      "totalQueries": 49,
+      "languages": [
+        "English",
+        "Arabic",
+        "Russian"
+      ],
+      "nativeAccountsInspected": 0,
+      "relevantIndexedPostsInspected": 0,
+      "fullMediaInspected": 0,
+      "finding": "44 main indexed searches returned no matches. Four alternate-engine project queries and a COLLECTA query returned irrelevant results; no relevant Instagram source is claimed inspected. Instagram Stories access remains unverified."
+    },
+    "youtube": {
+      "indexedQueries": 4,
+      "fullVideosInspected": 0,
+      "finding": "Indexed discovery attempted; no relevant full video or transcript inspected."
+    },
+    "googleNews": {
+      "route": "Direct public RSS per emirate",
+      "headlinesScreened": {
+        "Dubai": 31,
+        "AbuDhabi": 33,
+        "RasAlKhaimah": 11
+      },
+      "total": 75,
+      "includesDuplicatesAndIrrelevant": true
+    },
+    "newspapers": [
+      {
+        "name": "Gulf News",
+        "access": "Property category and targeted query; full 15 October The Bay company release inspected"
+      },
+      {
+        "name": "Khaleej Times",
+        "access": "Property category and domain query; no new qualifying item among inspected headlines"
+      },
+      {
+        "name": "The National",
+        "access": "Property category and domain query; older 14 October Aldar interview reconciled without repeating"
+      },
+      {
+        "name": "Arabian Business",
+        "access": "Category and exact COLLECTA article failed HTTP405; domain-query headline retained and independently verified via company release and CEO interview"
+      },
+      {
+        "name": "Gulf Today",
+        "access": "Business category and domain query; Elinor groundbreaking is an older already-launched sold-out scheme, not a new sales release"
+      }
+    ],
+    "hospitality": {
+      "routes": "Hospitality Net development/news routes inaccessible/404; indexed FHS material screened. TTN homepage timeout. TradeArabia Construction and Travel/Tourism categories inspected; category snapshot older than latest indexed announcements, so not treated as complete. SAMANA release independently inspected.",
+      "gap": "No claim of complete Hospitality Net/TTN current category coverage."
+    },
+    "propsearch": {
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "newEntries": 0,
+      "detailPagesReadToday": 0,
+      "finding": "Same 20 names as 15 October; reconciled prior individual dispositions. No claim that old detail pages were re-opened today."
+    },
+    "whatsappStories": {
+      "runId": 38846409512,
+      "artifactId": 12023621280,
+      "readAt": "2026-10-16T03:37:14.133Z",
+      "requestId": "radar-20261016-stories-80a49cd2",
+      "rsaBits": 3072,
+      "privatelyDecrypted": true,
+      "httpStatus": 200,
+      "storiesReturned": 0,
+      "mediaInspected": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "finding": "Empty visible result; not evidence that no launches or no statuses exist account-wide."
+    },
+    "whatsappChats": {
+      "runId": 38846795718,
+      "artifactId": 12023691034,
+      "readAt": "2026-10-16T03:41:57.344Z",
+      "requestId": "radar-20261016-chats-6d2e921a",
+      "rsaBits": 3072,
+      "privatelyDecrypted": true,
+      "workflowConclusion": "failure",
+      "httpStatus": 200,
+      "chatsListed": 0,
+      "historiesSelected": 0,
+      "finding": "Reader workflow failed; decrypted getChats returned empty. No histories inspected; cause not established."
+    },
+    "accessGaps": [
+      "No native Instagram accounts/Reels or Instagram Stories inspected",
+      "No full YouTube video review",
+      "WhatsApp histories unavailable; visible Status result empty",
+      "Arabian Business direct category/article unavailable",
+      "Hospitality Net current categories and TTN homepage unavailable"
+    ]
+  },
+  "qualifyingChanges": [
+    {
+      "id": "tomorrow-world-the-bay-interiors-by-missoni",
+      "kind": "material-official-confirmation",
+      "sourceDate": "2026-10-15",
+      "status": "confirmed",
+      "summary": "Tomorrow World and Missoni announced The Bay's pre-launch on 15 October 2026. The company release confirms a position directly on Island A's main marina, beside the yacht club, and a preliminary collection of two- and three-bedroom residences plus signature penthouses. OCTA's project listing describes 132 two- to four-bedroom homes; the exact released inventory and official commercial terms remain awaited.",
+      "sources": [
+        {
+          "url": "https://gulfnews.com/gn-focus/company-news/tomorrow-world-properties-and-missoni-announce-the-bay-interiors-by-missoni-on-dubai-islands-1.500711530",
+          "label": "15 October company announcement quoting Tomorrow World, Missoni and OCTA: pre-launch collection and marina position",
+          "date": "2026-10-15",
+          "primary": true
+        },
+        {
+          "url": "https://www.octa.ae/projects/the-bay",
+          "label": "OCTA official coming-soon project: 132 homes, 2–4BR, handover TBC",
+          "primary": false
+        },
+        {
+          "url": "https://sales.tomorrowworldgroup.ae/",
+          "label": "Tomorrow World official portfolio lists The Bay as coming soon",
+          "primary": false
+        },
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair public broker channel: invitation for 15 October 2026",
+          "primary": false
+        },
+        {
+          "url": "https://insidersofdubai.com/projects/tomorrow-world-real-estate/the-bay-interiors-by-missoni",
+          "label": "Broker preview: marina plot, indicative price and internally conflicting commercial terms",
+          "primary": false
+        },
+        {
+          "url": "https://www.lucretia-international.com/en/projects/octa-properties-the-bay-interiors-by-missoni",
+          "label": "Broker marina/product corroboration and conflicting delivery fields",
+          "primary": false
+        },
+        {
+          "url": "https://bayinteriorsbymissoni.com/",
+          "label": "Channel-partner project page; expressly not a developer source; indicative terms only",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": "samana-collecta-world-islands",
+      "kind": "new-official-prelaunch-announcement",
+      "sourceDate": "2026-10-15",
+      "status": "confirmed",
+      "summary": "SAMANA announced its COLLECTA premium brand and a World Islands flagship on 15 October 2026. The scheme is planned with 840 branded residences, seven floating villas and two tree villas, with apartments ranging from studios to four bedrooms. The Italian luxury partner, exact project name, island plot, sales-opening date and final prices/payment terms have not been disclosed.",
+      "sources": [
+        {
+          "url": "https://www.samana-collecta.com/",
+          "label": "SAMANA COLLECTA official brand teaser: first project reveal imminent; coming soon",
+          "primary": true
+        },
+        {
+          "url": "https://www.pantimearabia.com/samana-launches-collecta-taking-its-next-growth-chapter-into-premium-real-estate/",
+          "label": "Company release datelined 15 October 2026: World Islands scope, planned homes and unnamed brand partner",
+          "date": "2026-10-15",
+          "primary": false
+        },
+        {
+          "url": "https://www.tradingview.com/news/reuters.com,2026-10-15:newsml_Zaw5yS1yR:0-samana-developers-unveils-1-1bln-branded-residential-project-at-the-world-islands-in-dubai/",
+          "label": "Zawya/Refinitiv CEO interview, 15 October: indicative pricing, delivery commitment and island infrastructure",
+          "date": "2026-10-15",
+          "primary": false
+        }
+      ]
+    }
+  ],
+  "heldCandidates": [
+    {
+      "name": "KORE by Imtiaz",
+      "reason": "15 October tour recording repeats existing studio/1BR pricing and 50/50 or 60/40 post-handover options. Official page confirms wellness concept/amenities, but no new verified price list or sales release. No unchanged handoff."
+    },
+    {
+      "name": "Waterfront by Missoni and Marlin Icon",
+      "reason": "Previously handed 15 October briefing/16 October event signals; no independently verified new terms at research cut-off."
+    },
+    {
+      "name": "Ellington Al Yalayis and proposed SZR/Business Bay offices",
+      "reason": "Working-name, EOI and October/November expectations remain broker guidance. Official commercial-name/identity confirmation not found. Eaton Square remains separate."
+    },
+    {
+      "name": "Ras Al Khaimah",
+      "reason": "No additional qualifying material release independently established; old Cape Hayat event dates and catalogue pages excluded."
+    },
+    {
+      "name": "The Bay indicative-price pages",
+      "reason": "bayinteriorsbymissoni.com is explicitly a channel partner; Luxwell calling it official does not upgrade price confirmation. Numeric startingPrice stays null."
+    },
+    {
+      "name": "SAMANA identity",
+      "reason": "COLLECTA is the new premium brand; formal flagship name, Italian marque, exact island and open-sales terms remain undisclosed. No link to older projects invented."
+    }
+  ],
+  "publication": {
+    "feedCommit": "c6c74457a8e3d551d6f3ce4ff943b251c0b380c3",
+    "feedBlob": "813d5cfaa1032cf1bbb6cbe108fac2e8156990da",
+    "schemaValidated": true,
+    "readbackVerified": true,
+    "pipelineRun": 38847289285,
+    "pipelineJob": 116800586475,
+    "pipelineCounts": {
+      "created": 1,
+      "updated": 1,
+      "skipped": 39,
+      "rejected": 0
+    },
+    "pipelineResult": "GH013: main requires a pull request",
+    "contentPR": 95,
+    "mergeCommit": "247ccf7ecbca555d7cd5d0a593754d99d43c2c3c",
+    "productionRun": 38847581218,
+    "liveVerified": true,
+    "protection": "Normal required PR route; no bypass, rule/workflow/secret/release configuration or translation changes.",
+    "productionJob": 116801495590,
+    "validationNote": "Full existing pipeline validated41records, exactly1created+1updated+39skipped,0retired/rejected. Existing4disabledE2Efixtures remain unchanged; initial automated write review was rechecked with parsed-record equality, published:false and inspected skip guard before successful authorized retry.",
+    "visualInspection": {
+      "before": "Existing The Bay live page screenshot inspected at current browser viewport; no template/design changes",
+      "after": "Both matching production pages inspected by browser DOM and screenshots at current desktop viewport; existing template preserved. No claim of mobile/staging QA.",
+      "staging": "No staging deployment was initiated; current request authorizes production publication directly. No claim of staging/mobile viewport QA."
+    },
+    "productionConclusion": "success",
+    "verifiedAt": "2026-10-16T04:00:37Z",
+    "liveProof": {
+      "pages": [
+        {
+          "id": "samana-collecta-world-islands",
+          "status": 200,
+          "title": "SAMANA COLLECTA World Islands: Pre-launch Watch | GRAF",
+          "canonical": "https://graf.ae/launches/samana-collecta-world-islands/",
+          "allFactsVerified": true,
+          "checkedFacts": [
+            "840",
+            "seven floating villas",
+            "two tree villas",
+            "15 October 2026",
+            "working name",
+            "not been disclosed",
+            "four-year"
+          ]
+        },
+        {
+          "id": "tomorrow-world-the-bay-interiors-by-missoni",
+          "status": 200,
+          "title": "The Bay Interiors by Missoni: Official Pre-launch | GRAF",
+          "canonical": "https://graf.ae/launches/tomorrow-world-the-bay-interiors-by-missoni/",
+          "allFactsVerified": true,
+          "checkedFacts": [
+            "15 October 2026",
+            "Main yacht marina",
+            "pre-launch",
+            "132",
+            "exact released inventory",
+            "unconfirmed"
+          ]
+        }
+      ],
+      "marker": "c6c74457a8e3d551d6f3ce4ff943b251c0b380c3",
+      "markerMatches": true
+    }
+  },
+  "queue": {
+    "briefingDate": "2026-10-16",
+    "posts": 0
+  },
+  "ledger": {
+    "manuallyEdited": false,
+    "expectedBlob": "2034f261b9311dde01d2d9ca64c111b69344a848"
+  },
+  "manualDrafts": {
+    "channelPublished": false,
+    "prepared": 2,
+    "handedOff": "Current final response; this is draft delivery, not WhatsApp publication",
+    "format": "Approved S06/S08 1080x1920 opaque RGB JPEG",
+    "images": [
+      {
+        "id": "samana-collecta-world-islands",
+        "style": "S08",
+        "libraryId": "libfile_580c0a6ad6f88191ba98a3cf0a3846fb",
+        "sha256": "93a93dc57dbf5faf017cf692432b6ed528c697ab50e5058522b179acede60e0e"
+      },
+      {
+        "id": "tomorrow-world-the-bay-interiors-by-missoni",
+        "style": "S06",
+        "libraryId": "libfile_61b2598901e88191803c041d948ff518",
+        "sha256": "7e0204c293861f56f4b644756fbe699913b1ef3f984a3e29d52686ce5857ca09",
+        "imageSource": "https://gulfnews.com/gn-focus/company-news/tomorrow-world-properties-and-missoni-announce-the-bay-interiors-by-missoni-on-dubai-islands-1.500711530"
+      }
+    ],
+    "captions": [
+      {
+        "projectId": "samana-collecta-world-islands",
+        "eventKey": "samana-collecta-world-islands:2026-10-15-official-prelaunch-announcement",
+        "body": "🏝️ SAMANA COLLECTA — World Islands flagship\n\nSAMANA announced a new island residential development on 15 October 2026 under its COLLECTA premium brand.\n\n• The World Islands, Dubai; exact island plot pending\n• 840 branded residences, from studios to 4-bedroom homes\n• Seven floating villas and two tree villas\n• Planned beaches, lagoon, beach club and co-working spaces\n• Project name and Italian brand partner still to be revealed\n\nOfficial starting price, payment plan and EOI terms: not released. The CEO indicates four years from construction start; a calendar handover date is not yet confirmed.\n\nBroker angle: a new island-living option to shortlist before the full sales pack is released; transport and operating costs will be important checks.\n\nConfidence: confirmed announcement, not confirmed sales opening.\n\nhttps://graf.ae/launches/samana-collecta-world-islands/"
+      },
+      {
+        "projectId": "tomorrow-world-the-bay-interiors-by-missoni",
+        "eventKey": "tomorrow-world-the-bay-interiors-by-missoni:2026-10-15-official-prelaunch-confirmation",
+        "body": "🏙️ The Bay Interiors by Missoni — Tomorrow World\n\nOfficial update: Tomorrow World and Missoni confirmed the project’s pre-launch on 15 October 2026.\n\n• Main yacht marina, Island A, Dubai Islands\n• Adjacent to the yacht club\n• Preliminary collection: 2- and 3-bedroom residences plus signature penthouses\n• Interiors by Missoni\n• Exclusively presented by OCTA Properties\n\nOCTA’s wider project listing describes 132 homes across 2–4BR configurations; the exact released inventory is still awaited.\n\nOfficial price list, payment/EOI terms and contractual handover: pending confirmation. A public sales-opening date has not been announced.\n\nBroker angle: the confirmed marina position strengthens the waterfront shortlist while we await comparable unit prices and layouts.\n\nConfidence: high on the announcement and location; commercial terms remain unconfirmed.\n\nhttps://graf.ae/launches/tomorrow-world-the-bay-interiors-by-missoni/"
+      }
+    ],
+    "state": "prepared-for-current-conversation-handoff"
+  }
+}
