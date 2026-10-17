@@ -1,0 +1,565 @@
+{
+  "date": "2026-10-17",
+  "coverage": {
+    "date": "2026-10-17",
+    "sourceWatchlistSize": 67,
+    "regionsReviewed": [
+      "Dubai",
+      "Abu Dhabi",
+      "Ras Al Khaimah"
+    ],
+    "dateWindow": {
+      "past30Days": "2026-09-17 to 2026-10-17",
+      "upcoming": [
+        "2026-10-24",
+        "2026-10-31",
+        "2026-11-17",
+        "2026-12-17",
+        "2027-01-17"
+      ],
+      "discoveryNote": "Direct Google News RSS after:2026-09-16 before:2026-10-18; original dates individually adjudicated.",
+      "forwardSearchGap": "Three broad forward-window queries attempted late in run; largely irrelevant results. Current dated event/feed and developer sources reviewed; no exhaustive upcoming-launch claim."
+    },
+    "instagramNamedBrokerSourceAttempts": 20,
+    "instagramVariedQueries": 24,
+    "instagramQueryAttempts": 48,
+    "instagramLanguages": [
+      "English",
+      "Arabic",
+      "Russian"
+    ],
+    "instagramNativeAccess": false,
+    "instagramFinding": "20 named-source and24varied indexed queries attempted, plus4exact-project alternate-engine fallbacks. Most returned no relevant results or unrelated pages. Relevant indexed QUBE post discovered separately; native public HTTP returned only Instagram shell. No claim of full broker account/media inspection. Instagram Stories connection unverified.",
+    "googleNews": {
+      "route": "Direct public RSS separately by emirate",
+      "headlinesScreened": {
+        "Dubai": 34,
+        "Abu Dhabi": 33,
+        "Ras Al Khaimah": 11
+      },
+      "total": 78,
+      "includesDuplicatesAndIrrelevant": true
+    },
+    "requiredNewspapers": [
+      {
+        "name": "Gulf News",
+        "access": "Property headlines and domain query screened. No fresh qualifying project among inspected items; Tabeer unnamed flagship already retained."
+      },
+      {
+        "name": "Khaleej Times",
+        "access": "Property category headlines and domain query screened; old SAAS LIVEX signing not new."
+      },
+      {
+        "name": "The National",
+        "access": "Property category and targeted query; 14OctoberAldar futureDubai scheme already known, Sharjahacquisition/outsidefocus,Syria/outsideUAE."
+      },
+      {
+        "name": "Arabian Business",
+        "access": "Property category inaccessible; domain-targeted alternate queries attempted but coverage limited. No complete article/category review claimed."
+      },
+      {
+        "name": "Gulf Today",
+        "access": "Business headlines and domain query screened; Sharjahtransactions/acquisition outside3targetemirates and no new qualifying sales release."
+      }
+    ],
+    "hospitality": {
+      "routes": "Hospitality Net homepage and announcements inspected; UAE tag and legacy development URLs inaccessible/404, so UAE development coverage partial. TTN homepage and direct16OctoberJWreport read; TradeArabia Construction and Travel/Tourism categories reviewed and exactJWreport corroborated. Syndicatedreleaseoneorigin.",
+      "gap": "Hospitality Net UAE tag incomplete; no complete hospitality universe claim."
+    },
+    "youtubeFinding": {
+      "indexedQueries": 5,
+      "fullVideosInspected": 0,
+      "finding": "Four main queries andoneexactKusto fallback attempted; no relevant full video/transcript inspected."
+    },
+    "propsearchLatestBuildings": {
+      "scope": "Homepage Latest buildings ONLY",
+      "screened": 20,
+      "newEntries": 2,
+      "detailPagesReadToday": 2,
+      "screenshotEntriesInspected": 0,
+      "finding": "Velora and OfficesatWaterGardens individually investigated; retained18otherdispositions. No FirstTrace usedaslaunchdate."
+    },
+    "whatsappStories": {
+      "runId": 38999663272,
+      "artifactId": 12088925376,
+      "readAt": "2026-10-17T03:40:20.949Z",
+      "requestId": "radar-20261017-stories-798c84b2",
+      "rsaBits": 3072,
+      "privatelyDecrypted": true,
+      "httpStatus": 200,
+      "storiesReturned": 0,
+      "mediaInspected": 0,
+      "windowHours": 24,
+      "cap": 500,
+      "truncated": false,
+      "finding": "getStories returned messages[]/total0. No visible media available; not evidence that no account-wide statuses or launches exist."
+    },
+    "whatsappChats": {
+      "runId": 38999922874,
+      "artifactId": 12089170236,
+      "readAt": "2026-10-17T03:44:28.129Z",
+      "requestId": "radar-20261017-chats-b9f127ad",
+      "rsaBits": 3072,
+      "privatelyDecrypted": true,
+      "workflowConclusion": "failure",
+      "httpStatus": 200,
+      "chatsListed": 0,
+      "historiesSelected": 0,
+      "finding": "Workflow failed but encrypted artifact decrypted: getChats returnedchats[]/total0. No histories inspected; cause not established."
+    },
+    "qualifyingNewRecords": 2,
+    "qualifyingMaterialUpdates": 1,
+    "website": {
+      "state": "verified-live",
+      "feedSha": "651a6b859b9c418fbaf2c52ec2682e540e71180a",
+      "productionRun": 39000390251,
+      "productionJob": 117301882894,
+      "recoveryPR": 96,
+      "mergeSha": "0f1a52fe7fbb30a269375090f6455bf6b2dfce67",
+      "matchingPagesVerified": 3,
+      "productionConclusion": "success",
+      "liveMarkerMatches": true,
+      "visualInspection": {
+        "before": "Existing Waterfront page inspected before update",
+        "after": "All three public pages inspected in browser with screenshots",
+        "scope": "Desktop viewport only; no mobile/staging or all-locale QA claimed",
+        "preexistingIssue": "Literal markdown emphasis markers in existing launch template; unchanged and not expanded in this task"
+      }
+    },
+    "queue": {
+      "briefingDate": "2026-10-17",
+      "posts": 0
+    },
+    "manualHandoff": "Three inspected approved portrait cards and complete English captions prepared for current conversation after all three live pages were verified. No channel publication and no sent-ledger mutation."
+  },
+  "candidates": [
+    {
+      "id": "emirates-waterfront-by-missoni-al-reem",
+      "status": "broker-intelligence",
+      "materialUpdate": "New early-access/EOI report dated 16 October 2026 follows the 15 October broker briefing; developer confirmation of sales opening awaited.",
+      "sources": [
+        {
+          "url": "https://alnair.ae/en/news",
+          "label": "16 October broker EOI report with new indicative terms",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://maisondubai.com/projects/waterfront-by-missoni",
+          "label": "Independent Casadior broker corroboration: EOI100k, 5/35/60 and Q2 2030",
+          "primary": false
+        },
+        {
+          "url": "https://events.emiratesdevelopments.tech/missoni-briefing?ref=victoria-samus",
+          "label": "Developer-branded registration: 15 October briefing and event timetable",
+          "date": "2026-10-15",
+          "primary": false
+        },
+        {
+          "url": "https://t.me/s/alnairae",
+          "label": "Alnair public invitation: Emirates Developments, Al Reem and 15 October briefing",
+          "primary": false
+        },
+        {
+          "url": "https://waterfrontmissoni.ae/",
+          "label": "Channel-partner page: 250 homes, unit mix, beach location; final terms unreleased",
+          "primary": false
+        },
+        {
+          "url": "https://theupsides.ae/projects/waterfront-by-missoni",
+          "label": "Broker product corroboration; commercial terms not independently confirmed",
+          "primary": false
+        },
+        {
+          "url": "https://emiratesdevelopments.com/",
+          "label": "Official developer identity and branded-residential portfolio",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": "ays-kusto-aura-dubai-production-city",
+      "status": "broker-intelligence",
+      "materialUpdate": "Fresh early-access/EOI report dated 16 October 2026, following earlier marketing; not a first-announcement date or confirmed public sales launch.",
+      "sources": [
+        {
+          "url": "https://alnair.cy/en/news/kusto-aura-opens-early-buyer-access-in-dubai-production-city",
+          "label": "Alnair 16 October EOI report; same-origin regional mirror",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://dubaiasset.ae/en/projects/ays-property-development-kusto-aura",
+          "label": "Independent identity and location corroboration; updated 9 October",
+          "primary": false
+        },
+        {
+          "url": "https://topultraluxury.com/new-projects/kusto-aura-by-ays/",
+          "label": "Independent broker: competing AED879k, 30/70 and Q1 2029",
+          "primary": false
+        },
+        {
+          "url": "https://propsentral.com/properties/kusto-aura",
+          "label": "Independent broker: brochure-attributed prices and 2BR caveat",
+          "primary": false
+        },
+        {
+          "url": "https://aysdevelopers.com/",
+          "label": "Official identity and portfolio; no project-specific confirmation found",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "id": "taraf-jw-marriott-residences-yas-island",
+      "status": "confirmed",
+      "materialUpdate": "Developer-issued signing announcement published 16 October 2026; public sales opening not announced.",
+      "sources": [
+        {
+          "url": "https://mid-east.info/taraf-and-marriott-international-sign-agreement-to-launch-jw-marriott-residences-abu-dhabi-yas-island/",
+          "label": "Developer-issued announcement, 16 October; includes developer/license disclaimer",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://www.ttnworldwide.com/ArticleTA/488132/deal-signed-to-launch-jw-marriott-residences-abu-dhabi,-yas-island",
+          "label": "TradeArabia/TTN 16 October report of same signing announcement",
+          "date": "2026-10-16",
+          "primary": false
+        },
+        {
+          "url": "https://intlbm.com/2026/10/16/taraf-partners-with-marriott-international-to-unveil-jw-marriott-residences/",
+          "label": "16 October publication of same developer announcement",
+          "date": "2026-10-16",
+          "primary": false
+        },
+        {
+          "url": "https://www.tarafholding.com/",
+          "label": "Official TARAF identity and portfolio; project price list not found",
+          "primary": false
+        }
+      ]
+    }
+  ],
+  "reconciledNonPublic": [
+    {
+      "name": "The Bay Interiors by Missoni",
+      "disposition": "no-repeat",
+      "reason": "2.90m/50kEOI/50-50/Q32029 alreadyin1OctoberAlnair;16Octrecapnotnew. Official15Octprelaunchhanded16Oct."
+    },
+    {
+      "name": "Marlin Icon",
+      "disposition": "no-repeat-pending-official-outcome",
+      "reason": "16Octrecapsrepeat13OctEOIprices/mix/terms. Datedeventalreadyhanded15Oct; no independentlyverifiednewreleasedinventoryorofficialoutcome."
+    },
+    {
+      "name": "SAMANA COLLECTA",
+      "disposition": "no-repeat",
+      "reason": "15Octoberannouncementhanded16October;16Octobertradecoverageisreprint."
+    },
+    {
+      "name": "QUBE unnamed MBR City waterfront",
+      "disposition": "new-private-early-watch",
+      "sources": [
+        "https://alnair.cy/en/news/qube-development-teases-a-new-waterfront-address-in-mbr-city",
+        "https://www.instagram.com/p/DedsVJyghlZ/"
+      ],
+      "reason": "Name/phase/plot/saleability unresolved; developerhomepage502; indexedIGwordingnotnativefullreview."
+    },
+    {
+      "name": "Globna",
+      "disposition": "identity-resolved-freshness-hold",
+      "sources": [
+        "https://crystalbay.ae/globna/",
+        "https://globna.com/globnasouth/",
+        "https://rendr.ae/projects/globna"
+      ],
+      "reason": "Officialproductexists; currentAlnairupcomingteaserdoesnotestablishnewlaunch. Earliermarketingtrace; originaldatedmaterialreleaseunverified."
+    },
+    {
+      "name": "Velora Residence",
+      "disposition": "early-watch",
+      "reason": "Atara marketinglaunchconfirmedbutundated; earlierreferencespredatetodayportaladdition."
+    },
+    {
+      "name": "Offices at Water Gardens",
+      "disposition": "leasing-signal-no-strata-sales-verified",
+      "reason": "JLLappointmentisleasing; do notinferinvestoroffice-salesrelease."
+    },
+    {
+      "name": "Ellington Al Yalayis and SZR office",
+      "disposition": "watch-no-material-confirmation",
+      "reason": "Officialnewscenterlatestvisible9Octsportsitem. Broker62storey/SZRofficeclaims,competingnamesandEOIclosurealreadyknown; notupgraded."
+    }
+  ],
+  "queryAudit": {
+    "namedInstagramSources": [
+      "Hunt & Harris",
+      "Royal Lounge Properties",
+      "TruHauz",
+      "Albina Sultanova",
+      "Grand Reve Realty",
+      "Future Key Properties",
+      "Propsense Realty",
+      "DRE Homes",
+      "Equity Edge",
+      "Luxury Falcon Properties",
+      "Aumra Nova",
+      "Top Luxury Property",
+      "SANSAV Luxury Offplan",
+      "Dubai Housing",
+      "HCO Real Estates",
+      "Top Ultra Luxury",
+      "Direct Deal UAE",
+      "White Collar Realty",
+      "Silver Oak Properties",
+      "Metropolitan Group"
+    ],
+    "variedInstagramQueries": [
+      "Dubai early access new project October 2026",
+      "Dubai prelaunch broker briefing November 2026",
+      "Abu Dhabi EOI new launch October 2026",
+      "Yas Saadiyat upcoming residences November 2026",
+      "Ras Al Khaimah coming soon launch October 2026",
+      "RAK Al Marjan new phase EOI",
+      "QUBE waterfront MBR coming soon",
+      "Crystal Bay Globna upcoming launch",
+      "AYS Kusto Aura EOI",
+      "Emirates Waterfront Missoni launch prices",
+      "Aldar Abu Dhabi new community prelaunch",
+      "Marjan Al Hamra launch registration",
+      "Dubai phase 2 inventory release October 2026",
+      "Abu Dhabi broker briefing EOI October 2026",
+      "Ras Al Khaimah new collection launch October 2026",
+      "Ellington offices Business Bay EOI October 2026",
+      "\"Kusto Aura\"",
+      "\"Waterfront by Missoni\"",
+      "\"Globna\"",
+      "\"QUBE\" \"waterfront\"",
+      "دبي إطلاق جديد سجل اهتمامك أكتوبر 2026",
+      "أبوظبي رأس الخيمة مشروع جديد قريباً",
+      "Дубай сбор EOI новый проект октябрь 2026",
+      "Абу-Даби Рас-эль-Хайма старт продаж октябрь 2026"
+    ]
+  },
+  "latestBuildings": {
+    "date": "2026-10-17",
+    "scope": "Homepage Latest buildings ONLY",
+    "screened": 20,
+    "detailPagesRead": 2,
+    "listChanged": true,
+    "items": [
+      {
+        "name": "Velora Residence",
+        "url": "https://propsearch.ae/dubai/velora-residence",
+        "disposition": "early-watch-undated-marketing",
+        "finding": "Direct public detail: Atara, Dubai Islands,9storeys,58homes,1/2BR,AED1.8m portal indication. Atara's own page confirms G+8,58fullyfurnishedhomes and marketing launch, but earlier developer/blog traces predate today's portal addition; no dated fresh sales/EOI release verified. First TraceOctober is not launch date.",
+        "sources": [
+          "https://atara.ae/projects/velora-residence-dubai-islands/",
+          "https://atara.ae/blog/atara-leading-property-developer-dubai/"
+        ],
+        "detailReadToday": true
+      },
+      {
+        "name": "The Offices at Water Gardens",
+        "url": "https://propsearch.ae/dubai/the-offices-at-water-gardens",
+        "disposition": "leasing-signal-saleability-unverified",
+        "finding": "16October JLL-issued release appoints exclusive office leasing partner:246737sqft net leasable,shell-and-core,micro-suites,12storeys. Propsearch says14storeys; final floorcountnotadopted. H&H/DavidChipperfield/DIFC. WaterGardens alsoincludesFourSeasons,CarlyleandEdenHouse,butthisreleaseisofficeleasing,notsaleableresidences orstrataoffice sales.",
+        "detailReadToday": true,
+        "sources": [
+          "https://mid-east.info/jll-appointed-exclusive-office-leasing-partner-for-12-storey-office-tower-at-water-gardens-in-difc/"
+        ],
+        "nextCheck": "Any distinct saleable office release and official floorcount reconciliation."
+      },
+      {
+        "name": "Dubai Mall Plaza & Hotel",
+        "url": "https://propsearch.ae/dubai/dubai-mall-plaza-hotel",
+        "status": 200,
+        "disposition": "excluded-hotel-without-saleable-residences",
+        "finding": "Emaar hotel planned for Downtown Dubai. No saleable residences verified; First TraceOctober2026 is not launch date.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Melograno Yards",
+        "url": "https://propsearch.ae/dubai/melograno-yards",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "New homepage entry. Propsearch describes three BEYOND buildings in The Yards, City of Arabia and estimates 1,205 units. BEYOND's public portfolio does not yet show the project; third-party sources instead describe 256 apartments or 268 total units. First Trace October 2026 is not a launch date. No dated official sales opening, price, EOI or payment plan verified.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Hadley Hills",
+        "url": "https://propsearch.ae/dubai/hadley-hills",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Planned LEOS residential building in International City 2; excluded because Alex excludes all International City projects. First Trace is not a launch date.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Tarrad Jebel Ali Residence",
+        "url": "https://propsearch.ae/dubai/tarrad-jebel-ali-residence",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Mercedes-Benz Places Office Towers",
+        "url": "https://propsearch.ae/dubai/mercedes-benz-places-office-towers",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Two office towers are a portal lead; developer-backed office sales release remains unverified.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Volu by ASAK",
+        "url": "https://propsearch.ae/dubai/volu-by-asak",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal label differs from 9 October Velu entry; no independent name/identity equivalence established. Retain without merging aliases.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Gloas by Acube",
+        "url": "https://propsearch.ae/dubai/gloas-by-acube",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Joud by Aras",
+        "url": "https://propsearch.ae/dubai/joud-by-aras",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Jamal by Aras",
+        "url": "https://propsearch.ae/dubai/jamal-by-aras",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Callista by Zoya",
+        "url": "https://propsearch.ae/dubai/callista-by-zoya",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "06 Life Residences",
+        "url": "https://propsearch.ae/dubai/06-life-residences",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Rigel by Acube",
+        "url": "https://propsearch.ae/dubai/rigel-by-acube",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Ampersand Beach House",
+        "url": "https://propsearch.ae/dubai/ampersand-beach-house",
+        "status": 200,
+        "disposition": "excluded",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "The Yards Plaza",
+        "url": "https://propsearch.ae/dubai/the-yards-plaza",
+        "status": 200,
+        "disposition": "already-published-no-material-change",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Marquis Aura",
+        "url": "https://propsearch.ae/dubai/marquis-aura",
+        "status": 200,
+        "disposition": "early-watch",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Eterea by Zoya",
+        "url": "https://propsearch.ae/dubai/eterea-by-zoya",
+        "status": 200,
+        "disposition": "already-published-no-material-change",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Pullman Residences & Offices Dubai Meydan",
+        "url": "https://propsearch.ae/dubai/pullman-residences-offices-dubai-meydan",
+        "status": 200,
+        "disposition": "already-published-no-material-change",
+        "finding": "Portal detail read; First Trace does not establish a new launch date. Qualifying dated developer/broker event required.",
+        "detailReadToday": false
+      },
+      {
+        "name": "Lunara Tower",
+        "url": "https://propsearch.ae/dubai/lunara-tower",
+        "status": 200,
+        "disposition": "dated-broker-eoi-update-added-to-feed",
+        "finding": "Reported EOI collection 6 October after September/3 October marketing; separate 5 October Alnair report and portal identity corroboration. Prices/terms unconfirmed.",
+        "detailReadToday": false
+      }
+    ],
+    "reviewNote": "All20current names reconciled; only2newdetailpages opened today. Other18 use retained individual dispositions, not fresh detail reviews."
+  },
+  "manualHandoffs": [
+    {
+      "projectId": "taraf-jw-marriott-residences-yas-island",
+      "eventKey": "taraf-jw-marriott-residences-yas-island:2026-10-16-signing-announcement",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-17",
+      "imageStyle": "S06",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_e3ed9c55966c8191a72df3cfd6ddc752"
+    },
+    {
+      "projectId": "emirates-waterfront-by-missoni-al-reem",
+      "eventKey": "emirates-waterfront-by-missoni-al-reem:2026-10-16-eoi-commercial-update",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-17",
+      "imageStyle": "S08",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_6250c114e940819194fffc5ff956c093"
+    },
+    {
+      "projectId": "ays-kusto-aura-dubai-production-city",
+      "eventKey": "ays-kusto-aura-dubai-production-city:2026-10-16-eoi-report",
+      "state": "prepared-for-current-conversation-handoff",
+      "channelSent": false,
+      "handoffDate": "2026-10-17",
+      "imageStyle": "S07",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "liveVerified": true,
+      "imageLibraryId": "libfile_03b432aa5cd881919bb5ac820f1e68e9"
+    }
+  ]
+}
