@@ -2422,11 +2422,11 @@
         "penthouses"
       ],
       "status": "broker-intelligence",
-      "launchWindow": "Developer-branded registration page and Alnair advertise a broker briefing on 15 October 2026, 14:00–17:00, at Space42 Arena, Al Raha Beach. This is the venue, not the project location; sales opening is unverified.",
+      "launchWindow": "New early-access/EOI report dated 16 October 2026 follows the 15 October broker briefing; developer confirmation of sales opening awaited.",
       "startingPrice": null,
       "priceConfirmed": false,
       "pricePerSqft": null,
-      "brokerPriceNote": "The Upsides gives AED 1.5m as indicative market context, while stating that the official price list is unreleased. This is not a verified project starting price.",
+      "brokerPriceNote": "Alnair's 16 October EOI report and Casadior/Maison Dubai quote 1BR from AED1.90m, 2BR from AED2.60m, 3BR from AED5.50m and 4BR from AED8.50m. Broker indications, not a developer price list. Earlier AED1.5m market context is not a verified project entry price.",
       "paymentPlan": null,
       "unitMix": [
         {
@@ -2450,16 +2450,27 @@
           "note": "Broker marketing reports 2 penthouses; total proposed collection 250 homes"
         }
       ],
-      "teaser": "Al Reem beachfront branded residences with a broker briefing on 15 October.",
-      "summary": "Waterfront by Missoni is being promoted by Emirates Developments for Shams Abu Dhabi on Al Reem Island. A developer-branded event registration page and Alnair identify a broker briefing on 15 October 2026 at Space42 Arena, Al Raha Beach. Broker project pages describe 250 residences across 38 residential floors, one- to four-bedroom apartments and two five-bedroom penthouses, with Missoni interiors and direct beach access. This is a dated briefing signal after earlier pre-launch marketing, not confirmation that sales are open; final prices, payment, EOI and contractual delivery remain unverified.",
-      "whatNext": "Await the briefing outcome, official project pack, exact plot, released price list and signed payment/EOI and handover terms; subscribe for verified updates.",
-      "confidenceNote": "High confidence that the dated broker event is advertised; medium confidence in the broker-described final product and beach position. The project-specific landing page expressly identifies itself as a channel partner, not the developer. Broker claims of 40/60, 5% down and Q4 2029 delivery conflict with another channel partner's 'to be confirmed at launch' wording, so they are not treated as final. Do not confuse with Tomorrow World's The Bay Interiors by Missoni on Dubai Islands.",
+      "teaser": "New broker-reported EOI terms for the Missoni-branded Al Reem collection.",
+      "summary": "New broker-reported terms followed Waterfront by Missoni's 15 October briefing. Alnair reports EOI from AED100,000 on 16 October; Casadior independently displays the same amount, 40/60 split as 5% booking, 35% during construction and 60% on handover, and Q2 2030 delivery. The reported Shams Abu Dhabi collection comprises 250 Missoni-interior residences: one- to four-bedroom apartments and two five-bedroom penthouses. Prices, exact plot, EOI refundability and contractual terms still need developer documentation.",
+      "whatNext": "Await the developer's exact plot, inventory, price list and reservation contract to confirm refundability, payment milestones and handover; subscribe for verified updates.",
+      "confidenceNote": "Medium: two broker sources agree on the new commercial terms. The official developer site does not yet publish this project pack. Newer Q2 2030 reporting differs from earlier broker Q4 2029 claims; neither is treated as contractual delivery. The earlier developer-branded briefing page does not establish open sales. Channel-partner sites are not the developer. This is not Tomorrow World's The Bay on Dubai Islands.",
       "sources": [
+        {
+          "url": "https://alnair.ae/en/news",
+          "label": "16 October broker EOI report with new indicative terms",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://maisondubai.com/projects/waterfront-by-missoni",
+          "label": "Independent Casadior broker corroboration: EOI100k, 5/35/60 and Q2 2030",
+          "primary": false
+        },
         {
           "url": "https://events.emiratesdevelopments.tech/missoni-briefing?ref=victoria-samus",
           "label": "Developer-branded registration: 15 October briefing and event timetable",
           "date": "2026-10-15",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://t.me/s/alnairae",
@@ -2483,10 +2494,15 @@
         }
       ],
       "firstReported": "2026-10-15",
-      "updatedAt": "2026-10-15",
+      "updatedAt": "2026-10-17",
       "published": true,
-      "seoTitle": "Waterfront by Missoni Al Reem: Broker Briefing Watch | GRAF",
-      "seoDescription": "Emirates Developments' Waterfront by Missoni: 15 October broker briefing, reported 250 Al Reem residences. Final pricing and commercial terms pending."
+      "seoTitle": "Waterfront by Missoni Al Reem: EOI Update | GRAF",
+      "seoDescription": "Waterfront by Missoni, Al Reem: new broker-reported AED100k EOI and 40/60 terms. Prices and Q2 2030 delivery indication await developer confirmation.",
+      "eoi": {
+        "amount": 100000,
+        "refundable": null,
+        "note": "Broker-reported by Alnair on 16 October and corroborated by Casadior/Maison Dubai; refundability unverified."
+      }
     },
     {
       "id": "samana-collecta-world-islands",
@@ -2547,6 +2563,129 @@
       "published": true,
       "seoTitle": "SAMANA COLLECTA World Islands: Pre-launch Watch | GRAF",
       "seoDescription": "SAMANA announces a World Islands flagship with 840 branded residences and nine villas. Project name, brand partner, sales date and final prices awaited."
+    },
+    {
+      "id": "ays-kusto-aura-dubai-production-city",
+      "project": "Kusto Aura",
+      "developer": "AYS Developers",
+      "emirate": "Dubai",
+      "location": "Dubai Production City (IMPZ / Me'aisem First), Dubai; exact plot confirmation awaited",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Fresh early-access/EOI report dated 16 October 2026, following earlier marketing; not a first-announcement date or confirmed public sales launch.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "paymentPlan": null,
+      "brokerPriceNote": "Alnair's 16 October EOI report quotes studios from AED892,460 and 1BR from AED1.81m. PropSentral quotes AED892,457 for a 362.80 sq ft studio and AED1,840,291 for an 819.37 sq ft 1BR, citing a brochure not independently obtained here. Top Ultra Luxury instead advertises AED879,000. No developer-confirmed price list verified.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Corroborated by multiple broker pages; final inventory and sizes unverified."
+        },
+        {
+          "type": "1BR",
+          "note": "Corroborated by multiple broker pages."
+        },
+        {
+          "type": "2BR",
+          "note": "Mentioned in Alnair's EOI schedule and a broker's brochure account; inventory, plans and price unverified."
+        }
+      ],
+      "eoi": {
+        "amount": 30000,
+        "refundable": null,
+        "note": "Alnair 16 October: studio AED30k, 1BR AED50k, 2BR AED100k. Single-origin EOI schedule; reservation and refund terms unverified."
+      },
+      "teaser": "A fresh EOI report for AYS's Production City apartments; prices remain indicative.",
+      "summary": "Alnair published a fresh early-access/EOI report for Kusto Aura in Dubai Production City on 16 October 2026. Independent brokers corroborate AYS Developers and studios/one-bedroom apartments; the EOI schedule also mentions unverified two-bedroom inventory. Brokers describe 30/70 and Q1 2029 delivery, not verified developer contractual terms. This follows earlier marketing, rather than establishing a new project announcement or confirmed sales-opening date.",
+      "whatNext": "Await AYS's official project pack, exact plot, price list and reservation terms to resolve price differences, confirm two-bedroom inventory, payment milestones and handover; subscribe for verified updates.",
+      "confidenceNote": "Medium for project identity and fresh EOI reporting; lower for final terms. The official AYS homepage was inspected but did not list Kusto Aura. Dubai Asset was updated 9 October; Top Ultra Luxury has earlier September publication metadata. Thus 16 October dates only the EOI report. Competing prices remain unresolved. PropSentral's Kusto Home co-development claim is not independently developer-confirmed.",
+      "sources": [
+        {
+          "url": "https://alnair.cy/en/news/kusto-aura-opens-early-buyer-access-in-dubai-production-city",
+          "label": "Alnair 16 October EOI report; same-origin regional mirror",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://dubaiasset.ae/en/projects/ays-property-development-kusto-aura",
+          "label": "Independent identity and location corroboration; updated 9 October",
+          "primary": false
+        },
+        {
+          "url": "https://topultraluxury.com/new-projects/kusto-aura-by-ays/",
+          "label": "Independent broker: competing AED879k, 30/70 and Q1 2029",
+          "primary": false
+        },
+        {
+          "url": "https://propsentral.com/properties/kusto-aura",
+          "label": "Independent broker: brochure-attributed prices and 2BR caveat",
+          "primary": false
+        },
+        {
+          "url": "https://aysdevelopers.com/",
+          "label": "Official identity and portfolio; no project-specific confirmation found",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-17",
+      "updatedAt": "2026-10-17",
+      "published": true,
+      "seoTitle": "Kusto Aura Dubai Production City: EOI Watch | GRAF",
+      "seoDescription": "Kusto Aura by AYS: 16 October early-access report in Dubai Production City. Broker studio/1BR prices differ; EOI, payment and delivery await confirmation."
+    },
+    {
+      "id": "taraf-jw-marriott-residences-yas-island",
+      "project": "JW Marriott Residences Abu Dhabi, Yas Island",
+      "developer": "TARAF and Steppe (joint venture)",
+      "emirate": "Abu Dhabi",
+      "location": "Yas Island, Abu Dhabi: directly on the beach alongside the golf course; exact plot not disclosed",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Developer-issued signing announcement published 16 October 2026; public sales opening not announced.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "paymentPlan": null,
+      "teaser": "TARAF and Steppe announce a beachfront JW Marriott-branded address on Yas Island.",
+      "summary": "TARAF and Steppe announced an agreement through their joint venture with Marriott International for JW Marriott Residences Abu Dhabi, Yas Island, in a developer-issued release published on 16 October 2026. The proposed residences occupy a beachfront setting alongside the golf course. Planned amenities span wellness, a residents' lounge, meeting and media rooms, golf simulator, children's activity area and guest suites. Unit mix, home count, pricing, EOI, payment, contractual handover and sales opening are not released in the announcement.",
+      "whatNext": "Await the official project release with exact plot, unit mix, floor plans, prices, EOI, payment schedule and contractual delivery; subscribe for verified updates.",
+      "confidenceNote": "High for the signing, partners, Yas Island setting and proposed amenities in the developer-issued release. This is an announcement, not open sales. TARAF is Yas Holding's real-estate division; Taraf Steppe Development properties LLC S.P.C is identified as licensee. Marriott is the brand/licensing partner, not the owner, developer or seller. Syndicated copies count as one underlying announcement. Broker claims of 1–4BR, AED3.5m, 60/40 and Q4 2030 are not established by the release and are not adopted as official terms.",
+      "sources": [
+        {
+          "url": "https://mid-east.info/taraf-and-marriott-international-sign-agreement-to-launch-jw-marriott-residences-abu-dhabi-yas-island/",
+          "label": "Developer-issued announcement, 16 October; includes developer/license disclaimer",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://www.ttnworldwide.com/ArticleTA/488132/deal-signed-to-launch-jw-marriott-residences-abu-dhabi,-yas-island",
+          "label": "TradeArabia/TTN 16 October report of same signing announcement",
+          "date": "2026-10-16",
+          "primary": false
+        },
+        {
+          "url": "https://intlbm.com/2026/10/16/taraf-partners-with-marriott-international-to-unveil-jw-marriott-residences/",
+          "label": "16 October publication of same developer announcement",
+          "date": "2026-10-16",
+          "primary": false
+        },
+        {
+          "url": "https://www.tarafholding.com/",
+          "label": "Official TARAF identity and portfolio; project price list not found",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-17",
+      "updatedAt": "2026-10-17",
+      "published": true,
+      "seoTitle": "JW Marriott Residences Yas Island: Announcement | GRAF",
+      "seoDescription": "TARAF and Steppe announce JW Marriott Residences Abu Dhabi on Yas Island, 16 October 2026. Beachfront golf-side setting; sales terms not yet released."
     }
   ],
   "version": 1
