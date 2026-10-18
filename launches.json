@@ -2686,6 +2686,56 @@
       "published": true,
       "seoTitle": "JW Marriott Residences Yas Island: Announcement | GRAF",
       "seoDescription": "TARAF and Steppe announce JW Marriott Residences Abu Dhabi on Yas Island, 16 October 2026. Beachfront golf-side setting; sales terms not yet released."
+    },
+    {
+      "id": "ellington-business-bay-offices",
+      "project": "Berkeley Tower",
+      "developer": "Ellington Properties",
+      "developerId": "ellington",
+      "emirate": "Dubai",
+      "location": "Business Bay, along Sheikh Zayed Road, Dubai",
+      "type": [
+        "offices"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Officially introduced 16 October 2026; registration of interest open. Sales opening date to be confirmed.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "brokerPriceNote": "Mitchell's Commercial Realty indicates approximately AED 4,500–5,000 per sq ft before launch, explicitly subject to final confirmation. This is broker guidance, not a developer-issued price list; the official starting total price is unknown.",
+      "paymentPlan": null,
+      "teaser": "Ellington confirms Berkeley Tower and opens interest registration in Business Bay.",
+      "summary": "Ellington officially introduced Berkeley Tower on 16 October 2026 and opened registration of interest for commercial offices in Business Bay, along Sheikh Zayed Road. The developer describes textile-inspired architecture and advanced double-decker lifts. Official starting prices, office sizes and unit mix, paid EOI terms, payment plan, handover and the sales opening date have not been released.",
+      "whatNext": "Await Ellington's commercial launch pack, confirmed prices, office layouts, reservation terms, payment schedule and handover; subscribe for verified updates.",
+      "confidenceNote": "Name, developer, Business Bay/Sheikh Zayed Road positioning and registration of interest are developer-confirmed. G+62 floors, individual/half/full-floor configurations, AED 4,500–5,000 per sq ft and late-October/early-November sales timing are broker indications only. Broker handover guidance conflicts (Q1 2030 versus Q4 2030), so no handover date is adopted. Earlier Atelier/Langston labels are not established aliases; Berkeley Tower is distinct from Berkeley Place and Eaton Square.",
+      "sources": [
+        {
+          "url": "https://berkeley-tower.ellingtonproperties.ae/",
+          "label": "Ellington official Berkeley Tower early-access page",
+          "primary": true
+        },
+        {
+          "url": "https://ae.linkedin.com/posts/ellingtondubai_ellingtonproperties-berkeleytower-livebydesign-activity-7516754088861179904-1mrH",
+          "label": "Ellington official introduction; original published timestamp checked",
+          "date": "2026-10-16"
+        },
+        {
+          "url": "https://www.mitchellscommercialrealty.com/commercial-properties/berkeley-tower-ellington-business-bay-offices",
+          "label": "Mitchell's Commercial Realty — indicative office configuration and rates"
+        },
+        {
+          "url": "https://www.augusta-properties.com/explore/ellington-berkeley-tower",
+          "label": "Augusta — coming-soon report dated 16 October 2026",
+          "date": "2026-10-16"
+        },
+        {
+          "url": "https://www.augusta-properties.com/explore/ellington-berkely-tower",
+          "label": "Augusta alternate spelling — conflicting broker handover guidance"
+        }
+      ],
+      "firstReported": "2026-09-11",
+      "updatedAt": "2026-10-18",
+      "published": true
     }
   ],
   "version": 1
