@@ -1200,13 +1200,13 @@
       "launchWindow": "Broker material indicates a formal launch on 19–20 October 2026; Alnair circulates a 20 October event at Palazzo Versace Dubai. This follows September pre-launch/EOI marketing.",
       "startingPrice": null,
       "priceConfirmed": false,
-      "brokerPriceNote": "Broker and portal material quotes apartments from AED 798,000; no developer price list or open escrow account was verified.",
-      "paymentPlan": null,
+      "brokerPriceNote": "Alnair's 19 October report is internally inconsistent: its introduction quotes studios from AED 798,000, while its unit list starts studios at AED 903,000; other unit prices also differ. No developer price list was independently verified.",
+      "paymentPlan": "Alnair's 19 October broker report advertises 20/80, 60/40 and 50/50 alternatives. Eligibility, milestones and the complete developer schedule remain unverified.",
       "handover": "Unresolved: current brokers indicate Q4 2029, while the earlier DLD-derived snapshot files 30 March 2030; contractual delivery awaits confirmation.",
-      "teaser": "Broker material now points to a 19–20 October formal launch window.",
-      "summary": "Yigo Luxe remains the same DSO/Nadd Hessa pre-launch previously reported in September. The material update is an Alnair-circulated launch invitation for 20 October 2026 at Palazzo Versace Dubai, while other broker sources describe a 19–20 October window. DLD-derived reporting identifies Yangtze International Real Estate Developer L.L.C.; the final developer launch pack, escrow arrangements and commercial terms have not been independently inspected. Current marketing also conflicts on delivery timing, so no contractual handover date is claimed.",
-      "whatNext": "Await the reported 19–20 October launch, official price/payment pack, escrow confirmation and reconciled delivery schedule; subscribe for verified updates.",
-      "confidenceNote": "High on previously registered identity and location; medium on the broker-reported 19–20 October launch window. Alnair specifies 20 October, other current marketing 19–20 October. The event invitation is not proof sales have opened; prices, payment plan, EOI/escrow and delivery remain unconfirmed.",
+      "teaser": "New broker payment alternatives circulate; starting-price figures conflict.",
+      "summary": "Yigo Luxe remains the same DSO/Nadd Hessa project previously reported in September, with a broker-circulated 20 October event at Palazzo Versace Dubai. Alnair's 19 October report adds advertised payment alternatives of 20/80, 60/40 and 50/50, but conflicts internally on starting prices. The event venue does not establish a Versace brand affiliation. Developer commercial terms, escrow arrangements, contractual delivery and actual sales opening remain unverified.",
+      "whatNext": "Await the event outcome, official price and payment pack, escrow confirmation and reconciled delivery schedule; subscribe for verified updates.",
+      "confidenceNote": "High on registered identity and location; medium on broker-reported event and payment alternatives. Alnair's 19 October article contradicts itself on prices. The invitation does not prove sales have opened, and Palazzo Versace is an event venue, not a verified project brand partner.",
       "sources": [
         {
           "url": "https://t.me/s/alnairae",
@@ -1246,10 +1246,16 @@
           "url": "https://uae-prop.com/properties/yigo-luxe/",
           "label": "Broker/portal launch window and commercial indications; not developer confirmation",
           "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news/yigo-developments-launches-yigo-luxe-in-dubai-silicon-oasis",
+          "label": "19 October broker report: payment alternatives and internally conflicting prices",
+          "date": "2026-10-19",
+          "primary": false
         }
       ],
       "firstReported": "2026-09-28",
-      "updatedAt": "2026-10-14",
+      "updatedAt": "2026-10-20",
       "published": true,
       "unitMix": [
         {
@@ -1725,9 +1731,9 @@
       "priceConfirmed": false,
       "brokerPriceNote": "M&M Real Estate reports offices from AED 2.85m; other brokers had indicated about AED 3.0m–3.05m and around AED 2,300/sqft. A current BEYOND price list was not independently inspected.",
       "paymentPlan": "M&M reports 40/60; earlier brokers circulated 50/50, so the final BEYOND schedule still requires confirmation.",
-      "handover": "Q3 2029, broker/DLD-indicated; contractual handover not independently confirmed",
+      "handover": "Unresolved broker indications: earlier Q3 2029 versus Alnair's 19 October Q4 2029; contractual handover awaits confirmation",
       "teaser": "BEYOND confirms four connected office blocks at The Yards.",
-      "summary": "BEYOND officially introduced The Yards Plaza on 7 October 2026 as the commercial chapter of The Yards in City of Arabia. Four connected office blocks sit above retail and dining, with landscape, wellbeing and leisure integrated into the workplace concept. DLD-linked research and current broker material describe 272 shell-and-core offices; current price, EOI and payment terms remain broker indications.",
+      "summary": "BEYOND officially introduced The Yards Plaza on 7 October 2026 as the commercial chapter of The Yards in City of Arabia. Its current official website confirms 272 offices in four blocks above ground and two retail levels, with landscape and wellbeing integrated into the workplace concept. Current pricing, EOI and payment terms remain broker indications, and broker handover dates conflict. The previously scheduled 19 October sales date does not by itself establish actual opening or today's available offices.",
       "unitMix": [
         {
           "type": "Shell-and-core office",
@@ -1741,8 +1747,8 @@
         "refundable": null,
         "note": "Current brokers report AED 100,000 EOI; refundability and allocation conditions await direct BEYOND confirmation."
       },
-      "whatNext": "Await BEYOND’s sales release, developer price list, current office inventory and signed EOI/payment conditions; subscribe for verified updates.",
-      "confidenceNote": "High confidence in identity, location, four-block concept and official announcement from BEYOND. Medium on 272 offices, sizes and commercial terms, which remain broker/DLD-linked indications.",
+      "whatNext": "Await confirmation of actual sales opening, developer price list, current office inventory and contractual delivery/payment schedule; subscribe for verified updates.",
+      "confidenceNote": "High confidence in official identity, location, four blocks and 272 offices, now confirmed on BEYOND's website. Sizes and commercial terms remain broker/DLD-linked indications. Current inventory, actual opening date and conflicting broker delivery quarters require confirmation.",
       "sources": [
         {
           "url": "https://www.linkedin.com/posts/beyonddevelopments_the-yards-plaza-by-beyond-activity-7513529920099287041-ERLE",
@@ -1765,10 +1771,21 @@
           "url": "https://propsearch.ae/dubai/the-plaza-by-beyond",
           "label": "Propsearch building identity at The Yards; First Trace is not used as launch timing",
           "primary": false
+        },
+        {
+          "url": "https://beyonddevelopments.ae/",
+          "label": "Official Latest Launch section confirms 272 offices and four-block retail configuration",
+          "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news/beyond-launches-the-yards-plaza-in-dubais-city-of-arabia",
+          "label": "19 October broker commercial report; Q4 2029 conflicts with earlier Q3 indication",
+          "date": "2026-10-19",
+          "primary": false
         }
       ],
       "firstReported": "2026-10-07",
-      "updatedAt": "2026-10-08",
+      "updatedAt": "2026-10-20",
       "published": true
     },
     {
@@ -2179,16 +2196,16 @@
     {
       "id": "cosmo-marlin-icon-al-reem-island",
       "project": "Marlin Icon",
-      "developer": "Cosmo Developments; supported/marketed by Reportage Properties",
+      "developer": "Cosmo Developments, powered and managed by Reportage Group",
       "emirate": "Abu Dhabi",
-      "location": "Canal-front Al Reem Island, Abu Dhabi; exact plot awaits official release documents",
+      "location": "Canal-front Al Reem Island, Abu Dhabi; exact sales plot coordinates unverified",
       "type": [
         "apartments",
         "duplexes",
         "penthouses"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "Alnair reports EOI collection on 13 October and now circulates a launch-event invitation for 16 October 2026 at Conrad Abu Dhabi. Actual sales opening and developer confirmation remain unverified.",
+      "status": "confirmed",
+      "launchWindow": "Company-attributed announcement published 19 October 2026, following broker-reported 13 October EOI and a 16 October event invitation. Actual sales-opening date remains unverified.",
       "startingPrice": null,
       "priceConfirmed": false,
       "brokerPriceNote": "Alnair's 13 October broker-channel announcement indicates 2BR from AED 1.63m, 3BR from AED 2.51m and 4BR from AED 4.22m. No developer price list was independently inspected.",
@@ -2197,27 +2214,23 @@
       "unitMix": [
         {
           "type": "2BR apartment",
-          "note": "Current EOI collection reported by Alnair and broker pages"
+          "note": "Official factsheet: 65 residences"
         },
         {
           "type": "2BR Plus apartment",
-          "note": "Broker-listed"
+          "note": "Official factsheet: 30 residences"
         },
         {
           "type": "3BR apartment",
-          "note": "Broker-listed"
+          "note": "Official factsheet: 35 residences"
         },
         {
           "type": "3BR duplex",
-          "note": "Broker-listed"
+          "note": "Official factsheet: 2 residences"
         },
         {
-          "type": "4BR duplex",
-          "note": "Broker-listed"
-        },
-        {
-          "type": "Duplex penthouse",
-          "note": "Broker-listed; final inventory schedule awaited"
+          "type": "4BR residence",
+          "note": "Official factsheet: 8 residences; floorplans also illustrate duplex and penthouse configurations"
         }
       ],
       "eoi": {
@@ -2225,16 +2238,37 @@
         "refundable": null,
         "note": "Alnair reports AED 50,000 EOI; refundability, payment recipient, escrow and allocation conditions were not independently verified."
       },
-      "teaser": "New broker-circulated launch-event invitation for 16 October in Abu Dhabi.",
-      "summary": "Following the 13 October EOI report, Alnair now circulates a Marlin Icon launch-event invitation for 16 October 2026 at Conrad Abu Dhabi. Accessible broker sources identify Cosmo Developments with Reportage support/marketing and describe a 140-home canal-front Al Reem scheme with apartments and duplexes. The dated event is the material update; it does not independently confirm that sales have opened or change previously reported prices and terms. The final released mix, legal sales entity, commercial schedule and contractual delivery remain unconfirmed.",
-      "whatNext": "Await the 16 October event outcome, Cosmo/Reportage's official project pack, exact plot and signed sales/EOI/payment conditions; subscribe for verified updates.",
-      "confidenceNote": "Medium confidence in project identity and broker-reported EOI and 16 October event. The invitation is circulated by Alnair rather than independently verified on a developer event page; its printed end time is ambiguous and is not reproduced. Other brokers corroborate identity/product but not the event date. Prices, legal sales entity and final terms remain unconfirmed.",
+      "teaser": "Official project pack confirms 140 canal-front homes on Al Reem Island.",
+      "summary": "Cosmo Developments has officially unveiled Marlin Icon, a 140-residence canal-front development on Al Reem Island, powered and managed by Reportage Group. The official brochure and factsheet confirm 2–4-bedroom residences and duplexes, four retail units and 226 parking spaces across three basements, ground level, four podiums and 21 upper floors. Reportage lists the project as available, but a current unit-level inventory and the actual sales-opening date have not been independently verified. Previously circulated prices, payment options and Q4 2030 delivery remain broker indications.",
+      "whatNext": "Await the official price list, complete payment schedule, contractual delivery date and current unit inventory; subscribe for verified updates.",
+      "confidenceNote": "High confidence in official identity, 140-home scheme and brochure/factsheet mix. The official page's summary mentions 1–4BR, but the detailed tables and plans inspected contain no 1BR units; the 2–4BR schedule is used here. The HTML page also contains stale Vista 3 figures and map, so those are excluded. Official available marketing is not proof of today's individual-unit stock or an exact opening day.",
       "sources": [
+        {
+          "url": "https://reportagegroup.com/wp-content/uploads/UAE_MARLINICON_FACTSHEET_V1-1.pdf",
+          "label": "Official Marlin Icon factsheet: 140 homes, unit schedule, plot and building configuration",
+          "primary": true
+        },
+        {
+          "url": "https://reportagegroup.com/wp-content/uploads/UAE_MARLINICON_BROCHURE_V1-1-1.pdf",
+          "label": "Official Marlin Icon brochure; detailed mix and amenities",
+          "primary": false
+        },
+        {
+          "url": "https://www.tradearabia.com/News/488207/Cosmo-unveils-140-unit-waterfront-development-on-Al-Reem-Island",
+          "label": "Dated company-attributed announcement and management statement",
+          "date": "2026-10-19",
+          "primary": false
+        },
+        {
+          "url": "https://reportagegroup.com/project-listing/",
+          "label": "Official listing marks Marlin Icon available; not a live unit inventory",
+          "primary": false
+        },
         {
           "url": "https://alnair.co.th/en/news/reportage-properties-cosmo-developments-are-launching-marlin-icon-on-al-reem-island-early-eoi-starts-at-aed-50k",
           "label": "Alnair dated 13 October pre-sale / EOI report; regional copy of the same source",
           "date": "2026-10-13",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://theupsides.ae/projects/marlin-icon-abu-dhabi",
@@ -2254,10 +2288,10 @@
         }
       ],
       "firstReported": "2026-10-14",
-      "updatedAt": "2026-10-15",
+      "updatedAt": "2026-10-20",
       "published": true,
-      "seoTitle": "Marlin Icon Al Reem Island: Broker EOI Watch | GRAF",
-      "seoDescription": "Broker-reported EOI for Marlin Icon by Cosmo on Al Reem Island: 140 homes, indicative prices and Q4 2030 delivery. Final developer terms unconfirmed."
+      "seoTitle": "Marlin Icon Al Reem Island: Official Project Update | GRAF",
+      "seoDescription": "Cosmo and Reportage confirm Marlin Icon: 140 canal-front residences on Al Reem Island. Official prices, delivery and current unit stock await verification."
     },
     {
       "id": "tomorrow-world-the-bay-interiors-by-missoni",
@@ -2736,6 +2770,75 @@
       "firstReported": "2026-09-11",
       "updatedAt": "2026-10-18",
       "published": true
+    },
+    {
+      "id": "kasco-fala-al-jaddaf",
+      "project": "FALA by KASCO",
+      "developer": "KASCO Developments",
+      "emirate": "Dubai",
+      "location": "Al Jaddaf Waterfront, Culture Village, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Formal company unveiling dated 16 October 2026. Earlier portal booking history starts 1 March 2026, so the October announcement is not treated as proven first sales opening.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Alnair's 19 October report indicates studios from AED 869,470, 1BR from AED 1.29m, 2BR from AED 2.60m and 3BR from AED 3.22m. No official developer price list was independently inspected.",
+      "paymentPlan": "40/60, as described in the 16 October company release; complete booking and instalment milestones await the sales schedule.",
+      "handover": "Q4 2028, developer-stated expectation in the 16 October company release",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "sizeSqftFrom": 419,
+          "note": "Company release; 109 residences across the project"
+        },
+        {
+          "type": "1BR apartment",
+          "note": "Company-announced"
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Company-announced"
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Company-announced"
+        }
+      ],
+      "teaser": "KASCO's dated unveiling details a 109-home Al Jaddaf waterfront project.",
+      "summary": "KASCO Developments formally unveiled FALA on 16 October 2026 as a 109-residence waterfront development in Al Jaddaf's Culture Village. The company release describes studios from 419 sq ft through three-bedroom homes, a rooftop pool, landscaped terraces and direct promenade access, with a 40/60 payment plan and expected Q4 2028 completion. Earlier portal booking history predates this announcement; no first-ever sales opening or current unit availability is claimed. Circulating starting prices remain broker indications.",
+      "whatNext": "Await the official price list, complete payment milestones and current unit availability; subscribe for verified updates.",
+      "confidenceNote": "High confidence in identity and company-announced project features, payment split and expected delivery. The official developer homepage links FALA, but its project microsite timed out during this review. PropertyFinder records earlier March 2026 booking history; 16 October is the formal company announcement date rather than a verified first sales-opening date. Prices are broker-only.",
+      "sources": [
+        {
+          "url": "https://uaenews247.com/2026/10/16/kasco-developments-launches-fala-by-kasco-a-home-that-flows-with-life/",
+          "label": "Dated company launch release: 109 residences, mix, 40/60 and Q4 2028",
+          "date": "2026-10-16",
+          "primary": true
+        },
+        {
+          "url": "https://kascodevelopments.com/",
+          "label": "Official developer homepage features FALA and links its microsite",
+          "primary": false
+        },
+        {
+          "url": "https://www.propertyfinder.ae/en/new-projects/kasco-properties/fala-by-kasco",
+          "label": "Portal project timeline records earlier March 2026 booking history; not proof of current inventory",
+          "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news/fala-by-kasco-launches-in-al-jadaf-with-homes-starting-at-aed-869k",
+          "label": "Broker report dated 19 October; indicative prices only",
+          "date": "2026-10-19",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-10-20",
+      "updatedAt": "2026-10-20",
+      "published": true,
+      "seoTitle": "FALA by KASCO: Al Jaddaf Waterfront Announcement | GRAF",
+      "seoDescription": "KASCO's 16 October unveiling details 109 Al Jaddaf waterfront residences, a 40/60 payment plan and expected Q4 2028 completion. Prices remain broker-only."
     }
   ],
   "version": 1
