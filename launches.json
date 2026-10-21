@@ -2737,16 +2737,20 @@
       "priceConfirmed": false,
       "pricePerSqft": null,
       "brokerPriceNote": "Mitchell's Commercial Realty indicates approximately AED 4,500–5,000 per sq ft before launch, explicitly subject to final confirmation. This is broker guidance, not a developer-issued price list; the official starting total price is unknown.",
-      "paymentPlan": null,
-      "teaser": "Ellington confirms Berkeley Tower and opens interest registration in Business Bay.",
-      "summary": "Ellington officially introduced Berkeley Tower on 16 October 2026 and opened registration of interest for commercial offices in Business Bay, along Sheikh Zayed Road. The developer describes textile-inspired architecture and advanced double-decker lifts. Official starting prices, office sizes and unit mix, paid EOI terms, payment plan, handover and the sales opening date have not been released.",
-      "whatNext": "Await Ellington's commercial launch pack, confirmed prices, office layouts, reservation terms, payment schedule and handover; subscribe for verified updates.",
-      "confidenceNote": "Name, developer, Business Bay/Sheikh Zayed Road positioning and registration of interest are developer-confirmed. G+62 floors, individual/half/full-floor configurations, AED 4,500–5,000 per sq ft and late-October/early-November sales timing are broker indications only. Broker handover guidance conflicts (Q1 2030 versus Q4 2030), so no handover date is adopted. Earlier Atelier/Langston labels are not established aliases; Berkeley Tower is distinct from Berkeley Place and Eaton Square.",
+      "paymentPlan": "70/30",
+      "teaser": "Ellington releases Berkeley Tower specifications and a 70/30 payment schedule.",
+      "summary": "Ellington's official Berkeley Tower pages now confirm 109 offices across 60 storeys in Business Bay, along Sheikh Zayed Road. The published payment schedule is 70/30: 20% on booking, ten 5% instalments and 30% on completion. Official starting prices, a calendar completion date and the sales opening date remain unverified.",
+      "whatNext": "Await confirmed prices, the complete office schedule, reservation terms, calendar handover and sales opening; subscribe for verified updates.",
+      "confidenceNote": "109 offices, 60 storeys and the 70/30 schedule are developer-confirmed, checked 21 October 2026; this is the observation date, not a claimed launch date. Booking is 20%, followed by ten 5% instalments linked to dates or construction milestones, then 30% on completion. The displayed 1,132–1,389 sq ft range applies only to the 1st–10th-floor selection. Earlier broker G+62 guidance is superseded. Broker rates and conflicting Q1/Q4 2030 handover indications remain unconfirmed. Registration and a published payment plan do not prove actual sales opening or current unit availability.",
       "sources": [
         {
           "url": "https://berkeley-tower.ellingtonproperties.ae/",
-          "label": "Ellington official Berkeley Tower early-access page",
+          "label": "Ellington official Berkeley Tower specifications, floor selection and payment schedule; checked 21 October 2026",
           "primary": true
+        },
+        {
+          "url": "https://ellingtonproperties.ae/en/commercial/property-for-sale/berkeley-tower-business-bay",
+          "label": "Ellington main project page confirms 60 floors and 109 offices"
         },
         {
           "url": "https://ae.linkedin.com/posts/ellingtondubai_ellingtonproperties-berkeleytower-livebydesign-activity-7516754088861179904-1mrH",
@@ -2768,8 +2772,16 @@
         }
       ],
       "firstReported": "2026-09-11",
-      "updatedAt": "2026-10-18",
-      "published": true
+      "updatedAt": "2026-10-21",
+      "published": true,
+      "unitMix": [
+        {
+          "type": "Office",
+          "sizeSqftFrom": 1132,
+          "sizeSqftTo": 1389,
+          "note": "Official microsite's 1st–10th-floor selection only; not a project-wide size range. Total project: 109 offices."
+        }
+      ]
     },
     {
       "id": "kasco-fala-al-jaddaf",
@@ -2839,6 +2851,64 @@
       "published": true,
       "seoTitle": "FALA by KASCO: Al Jaddaf Waterfront Announcement | GRAF",
       "seoDescription": "KASCO's 16 October unveiling details 109 Al Jaddaf waterfront residences, a 40/60 payment plan and expected Q4 2028 completion. Prices remain broker-only."
+    },
+    {
+      "id": "oraya-marjan-beach-residences",
+      "project": "Wyndham Residences Marjan Beach",
+      "developer": "ORAYA Developer",
+      "emirate": "Ras Al Khaimah",
+      "location": "Marjan Beach, Ras Al Khaimah; exact plot to be confirmed",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company announcement distributed 30 September and 1 October 2026; developer website says Coming Soon. Sales opening date unverified.",
+      "startingPrice": null,
+      "priceConfirmed": false,
+      "pricePerSqft": null,
+      "paymentPlan": null,
+      "unitMix": [
+        {
+          "type": "1BR",
+          "note": "Developer marketing; final unit schedule pending."
+        },
+        {
+          "type": "2BR",
+          "note": "Developer marketing; final unit schedule pending."
+        },
+        {
+          "type": "3BR",
+          "note": "Developer marketing; final unit schedule pending."
+        }
+      ],
+      "teaser": "ORAYA announces furnished Marjan Beach residences; launch terms remain pending.",
+      "summary": "ORAYA has announced its first UAE residential development at Marjan Beach, Ras Al Khaimah. Its website markets Wyndham Residences Marjan Beach with fully furnished one-, two- and three-bedroom apartments at the coming-soon stage. Prices, payment plan, paid EOI terms, handover and the sales opening date have not been verified.",
+      "whatNext": "Await the official launch pack, operator-side brand confirmation, precise plot, prices, payment terms and handover; subscribe for verified updates.",
+      "confidenceNote": "The company-issued announcement was distributed on 30 September and repeated on 1 October 2026; this is a newly tracked announcement, not a claimed 21 October launch. The project name and unit mix appear on ORAYA's own website; independent Wyndham-side confirmation of the branding or management agreement was not found. Marjan Beach is distinct from Al Marjan Island. Enquiry forms and generic limited-units wording do not establish sales opening or current available inventory. ORAYA is a new market entrant; no completed-project track record is claimed.",
+      "sources": [
+        {
+          "url": "https://oraya.ae/",
+          "label": "ORAYA official project marketing — name, 1–3BR and Coming Soon; checked 21 October 2026",
+          "primary": true
+        },
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/10/01/3373464/0/en/oraya-developer-announces-first-uae-project-on-marjan-beach.html",
+          "label": "Company-issued announcement; 1 October distribution",
+          "date": "2026-10-01"
+        },
+        {
+          "url": "https://markets.financialcontent.com/postgazette/article/acnnewswire-2026-9-30-oraya-developer-announces-first-uae-project-on-marjan-beach",
+          "label": "Earlier distribution of the same company announcement",
+          "date": "2026-09-30"
+        },
+        {
+          "url": "https://tradearabia.com/News/487445/Oraya-Developer-enters-UAE-with-debut-Marjan-Beach-project",
+          "label": "TradeArabia report of ORAYA's first UAE project"
+        }
+      ],
+      "firstReported": "2026-10-21",
+      "updatedAt": "2026-10-21",
+      "published": true
     }
   ],
   "version": 1
