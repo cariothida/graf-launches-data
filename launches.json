@@ -2450,13 +2450,13 @@
       "project": "Waterfront by Missoni",
       "developer": "Emirates Developments",
       "emirate": "Abu Dhabi",
-      "location": "Shams Abu Dhabi, Al Reem Island, Abu Dhabi (broker-reported beachfront position; final plot confirmation awaited)",
+      "location": "Shams Abu Dhabi, Al Reem Island",
       "type": [
         "apartments",
         "penthouses"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "New early-access/EOI report dated 16 October 2026 follows the 15 October broker briefing; developer confirmation of sales opening awaited.",
+      "status": "confirmed",
+      "launchWindow": "Company announcement dated 19 October 2026; actual sales-opening date not verified.",
       "startingPrice": null,
       "priceConfirmed": false,
       "pricePerSqft": null,
@@ -2464,36 +2464,30 @@
       "paymentPlan": null,
       "unitMix": [
         {
-          "type": "1BR apartment",
-          "note": "Broker marketing reports 61 homes; final developer inventory awaited"
+          "type": "1–4BR apartments",
+          "note": "Unit types confirmed in the company-issued 19 October announcement; individual type counts remain broker-reported."
         },
         {
-          "type": "2BR apartment",
-          "note": "Broker marketing reports 135 homes"
-        },
-        {
-          "type": "3BR apartment",
-          "note": "Broker marketing reports 44 homes"
-        },
-        {
-          "type": "4BR apartment",
-          "note": "Broker marketing reports 8 homes"
-        },
-        {
-          "type": "5BR penthouse",
-          "note": "Broker marketing reports 2 penthouses; total proposed collection 250 homes"
+          "type": "5BR penthouses",
+          "note": "Company announcement places the penthouses on the 38th floor; exact count not independently confirmed."
         }
       ],
-      "teaser": "New broker-reported EOI terms for the Missoni-branded Al Reem collection.",
-      "summary": "New broker-reported terms followed Waterfront by Missoni's 15 October briefing. Alnair reports EOI from AED100,000 on 16 October; Casadior independently displays the same amount, 40/60 split as 5% booking, 35% during construction and 60% on handover, and Q2 2030 delivery. The reported Shams Abu Dhabi collection comprises 250 Missoni-interior residences: one- to four-bedroom apartments and two five-bedroom penthouses. Prices, exact plot, EOI refundability and contractual terms still need developer documentation.",
-      "whatNext": "Await the developer's exact plot, inventory, price list and reservation contract to confirm refundability, payment milestones and handover; subscribe for verified updates.",
-      "confidenceNote": "Medium: two broker sources agree on the new commercial terms. The official developer site does not yet publish this project pack. Newer Q2 2030 reporting differs from earlier broker Q4 2029 claims; neither is treated as contractual delivery. The earlier developer-branded briefing page does not establish open sales. Channel-partner sites are not the developer. This is not Tomorrow World's The Bay on Dubai Islands.",
+      "teaser": "Company announcement confirms 250 Missoni-interior homes on Al Reem Island.",
+      "summary": "Emirates Developments has announced Waterfront by Missoni, a 250-home freehold tower in Shams Abu Dhabi on Al Reem Island. The company release dated 19 October 2026 describes one- to four-bedroom apartments and five-bedroom penthouses on the 38th floor, with interiors styled under Missoni's creative direction. It reports direct beach access, canal and sea frontage, and expected completion in Q2 2030. Developer-confirmed starting prices, payment terms and the actual sales-opening date remain unverified.",
+      "whatNext": "Await the official price list, complete floor plans, reservation contract, payment schedule and current release details; subscribe for verified updates.",
+      "confidenceNote": "High on the company-announced identity, location, 250-home total and unit types. The 19 October company-issued release is the source for the Missoni partnership and expected Q2 2030 completion; separate brand-side confirmation and contractual delivery documents were not found. Existing broker prices, EOI and payment indications remain unconfirmed. This is distinct from Tomorrow World's The Bay Interiors by Missoni on Dubai Islands.",
       "sources": [
+        {
+          "url": "https://eurozone.einnews.com/pr_news/950649529/missoni-and-emirates-developments-partner-to-launch-waterfront-by-missoni",
+          "label": "Company-issued release distributed by Publsh Marketing: project facts and expected completion",
+          "date": "2026-10-19",
+          "primary": true
+        },
         {
           "url": "https://alnair.ae/en/news",
           "label": "16 October broker EOI report with new indicative terms",
           "date": "2026-10-16",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://maisondubai.com/projects/waterfront-by-missoni",
@@ -2528,15 +2522,16 @@
         }
       ],
       "firstReported": "2026-10-15",
-      "updatedAt": "2026-10-17",
+      "updatedAt": "2026-10-22",
       "published": true,
-      "seoTitle": "Waterfront by Missoni Al Reem: EOI Update | GRAF",
-      "seoDescription": "Waterfront by Missoni, Al Reem: new broker-reported AED100k EOI and 40/60 terms. Prices and Q2 2030 delivery indication await developer confirmation.",
+      "seoTitle": "Waterfront by Missoni Al Reem: Official Announcement | GRAF",
+      "seoDescription": "Emirates Developments announces 250 Missoni-interior homes on Al Reem Island, with Q2 2030 expected completion. Official sales terms await confirmation.",
       "eoi": {
         "amount": 100000,
         "refundable": null,
         "note": "Broker-reported by Alnair on 16 October and corroborated by Casadior/Maison Dubai; refundability unverified."
-      }
+      },
+      "handover": "Q2 2030 — expected in the company announcement; contractual handover not verified"
     },
     {
       "id": "samana-collecta-world-islands",
@@ -2909,6 +2904,169 @@
       "firstReported": "2026-10-21",
       "updatedAt": "2026-10-21",
       "published": true
+    },
+    {
+      "id": "zoya-elvora-dlrc",
+      "project": "Elvora",
+      "developer": "Zoya Developments",
+      "emirate": "Dubai",
+      "location": "Dubai Land Residence Complex (DLRC)",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Project unveiling reported 21 October 2026; exact event day and actual sales-opening date not specified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Zoya unveils Elvora, a wellness-focused residential project in DLRC.",
+      "summary": "Zoya Developments unveiled Elvora in Dubai Land Residence Complex, according to its company announcement published on 21 October 2026. The residential project includes an infinity pool, rooftop lounge, yoga centre, outdoor theatre and gym, with planned smart-home features. The presentation event took place in Abu Dhabi; the project itself is in Dubai. Unit mix, official starting prices, payment plan, EOI terms, handover and the actual sales-opening date were not specified in the reviewed announcement.",
+      "confidenceNote": "High on the company-announced project, developer and DLRC location. Gulf News partner content and matching company-release coverage are one underlying announcement, not independent confirmations. The developer's indexed social profile mentions Elvora, but native post/media inspection was unavailable. No current unit inventory or sales-opening proof was obtained; do not confuse Elvora with Elinor in Dubai South or ETÉREA in Majan.",
+      "whatNext": "Await the official project pack, exact plot, unit mix, prices, reservation terms, payment schedule and handover; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://gulfnews.com/business/property/10-projects-launched-in-just-two-years-zoya-developments-adds-elvora-to-its-growing-dubai-portfolio-1.500718601",
+          "label": "Company-supplied partner announcement: Elvora unveiling, DLRC location and amenities",
+          "date": "2026-10-21",
+          "primary": true
+        },
+        {
+          "url": "https://www.gulftoday.ae/business/2026/10/21/10-projects-launched-in-just-two-years-zoya-developments-adds-elvora-to-its-growing-dubai-portfolio",
+          "label": "Matching company announcement; same underlying release",
+          "date": "2026-10-21"
+        },
+        {
+          "url": "https://www.instagram.com/zoya.developments/",
+          "label": "Developer social profile indexed mention of Elvora; native content inaccessible"
+        }
+      ],
+      "firstReported": "2026-10-22",
+      "updatedAt": "2026-10-22",
+      "published": true,
+      "seoTitle": "Elvora by Zoya in DLRC: Project Unveiled | GRAF",
+      "seoDescription": "Zoya unveils Elvora in Dubai Land Residence Complex. Discover the announced amenities and follow confirmed prices, unit mix and sales terms."
+    },
+    {
+      "id": "meraki-celeste-dubai-south",
+      "project": "Celeste",
+      "developer": "Meraki Developers / Meraki Group",
+      "emirate": "Dubai",
+      "location": "Dubai South",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company coverage dated 19–20 October 2026 announces an official unveiling in November 2026; exact day and sales opening not confirmed.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Meraki names Celeste in Dubai South, with a November unveiling planned.",
+      "summary": "Meraki has named Celeste as its upcoming development in Dubai South, with an official unveiling planned for November 2026. The company describes a mixed-use residential project and says further design and project details will follow before launch. The named November pipeline gives brokers an early Dubai South opportunity to monitor before the full commercial release. Official unit mix, prices, payment plan, EOI terms, handover and the actual sales-opening date remain unverified.",
+      "brokerPriceNote": "Alnair's 20 October early-access report indicates studios from AED683,000, 1BR from AED1.16m and 2BR from AED1.40m, with AED20,000 EOI and 40/60 payments. These are broker indications, not a developer price list. Its Q4 2029 delivery indication conflicts with Q2 2030 on other broker portals; neither is adopted as confirmed handover.",
+      "confidenceNote": "High on the named project, developer, Dubai South location and company-announced November 2026 unveiling window; commercial terms remain preliminary. The 20 October presswire and Gulf News coverage repeat the same company release; a 19 October company-coverage page was also found. The authenticated developer portfolio did not yet include Celeste. Early broker catalogue traces and EOIs do not establish actual open sales or current available units.",
+      "whatNext": "Await the November unveiling date, official project materials, confirmed prices, reservation conditions and construction schedule; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://gulfnews.com/gn-focus/company-news/meraki-developers-expands-to-dubai-south-with-7-projects-in-the-pipeline-1.500717275",
+          "label": "Company announcement quoting Meraki chairman: Celeste, Dubai South and November unveiling",
+          "date": "2026-10-20",
+          "primary": true
+        },
+        {
+          "url": "https://www.einpresswire.com/article/950889911/meraki-developers-enters-dubai-south-as-its-portfolio-expands-with-7-projects-in-the-pipeline",
+          "label": "Company-issued presswire release distributed by Publsh Marketing, 20 October 06:36 GMT",
+          "date": "2026-10-20"
+        },
+        {
+          "url": "https://mid-east.info/meraki-developers-enters-dubai-south-as-its-portfolio-expands-with-seven-projects-in-the-pipeline/",
+          "label": "Earlier company-coverage page; November unveiling, not proof of open sales",
+          "date": "2026-10-19"
+        },
+        {
+          "url": "https://alnair.ae/en/news/early-buyer-access-to-celeste-by-meraki-in-dubai-south",
+          "label": "Broker early-access report: unconfirmed prices, EOI, payment and delivery indication",
+          "date": "2026-10-20"
+        },
+        {
+          "url": "https://meraki-group.com/real-estate/",
+          "label": "Official group page authenticating developer identity and portfolio"
+        }
+      ],
+      "firstReported": "2026-10-22",
+      "updatedAt": "2026-10-22",
+      "published": true,
+      "seoTitle": "Celeste by Meraki, Dubai South: November Preview | GRAF",
+      "seoDescription": "Meraki announces Celeste in Dubai South ahead of a planned November 2026 unveiling. Official prices and sales terms await the full project release."
+    },
+    {
+      "id": "saas-ritz-carlton-al-maryah-island",
+      "project": "The Ritz-Carlton Residences, Al Maryah Island",
+      "developer": "SAAS Properties",
+      "emirate": "Abu Dhabi",
+      "location": "Al Maryah Island waterfront canal",
+      "type": [
+        "apartments",
+        "duplexes",
+        "penthouses"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Formal LIVEX 2026 launch reported 2 October 2026, following the December 2025 reveal; actual sales-opening date not separately verified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "handover": "Q2 2030 — anticipated in the company launch announcement",
+      "teaser": "SAAS formally launches 165 Ritz-Carlton residences on Al Maryah Island.",
+      "summary": "SAAS Properties formally launched The Ritz-Carlton Residences, Al Maryah Island at LIVEX 2026, according to company launch coverage dated 2 October 2026. The waterfront-canal project comprises 165 homes, including one- to four-bedroom residences, duplexes and a penthouse, with architecture by Killa Design and interiors by Tara Bernerd & Partners. Construction was reported underway and handover anticipated in Q2 2030. This newly tracked October launch follows an earlier December 2025 reveal; official starting prices, payment terms and current unit availability remain unverified.",
+      "confidenceNote": "High on project identity, developer, 165-home collection and design partners, supported by the official project microsite linked from SAAS Properties. The formal LIVEX launch and anticipated Q2 2030 handover are company-reported; neither proves an exact sales-opening date or available units today. SAAS AM Properties LLC is the developer; The Ritz-Carlton/Marriott licenses the brand and does not own, develop or sell the project. The microsite's 165-home count takes precedence over an inconsistent SAAS catalogue template.",
+      "unitMix": [
+        {
+          "type": "1BR residences",
+          "note": "Official project microsite"
+        },
+        {
+          "type": "2–4BR residences and duplexes",
+          "note": "Official project microsite"
+        },
+        {
+          "type": "Penthouse",
+          "note": "Official project microsite; 165 homes project-wide"
+        }
+      ],
+      "whatNext": "Await the official price list, payment schedule, approved floor plans, reservation conditions and current release details; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://rcalmaryahisland.com/",
+          "label": "Official Ritz-Carlton Al Maryah project microsite linked by SAAS: 165 homes, unit types and design partners",
+          "primary": true
+        },
+        {
+          "url": "https://saasproperties.com/en/",
+          "label": "Official developer homepage authenticates the project microsite"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/business/property/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026",
+          "label": "Company partner announcement: formal LIVEX launch, construction underway, expected Q2 2030 handover",
+          "date": "2026-10-02"
+        },
+        {
+          "url": "https://marriottresidences.com/press/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026/",
+          "label": "Marriott Residences press listing dated 20 October; indexed announcement inspected, full page inaccessible",
+          "date": "2026-10-20"
+        },
+        {
+          "url": "https://royallp.com/blog-post/saas-properties-unveils-the-ritz-carlton-residences-on-al-maryah-island-abu-dhabi/",
+          "label": "Earlier December 2025 reveal, distinct from formal October launch",
+          "date": "2025-12-12"
+        }
+      ],
+      "firstReported": "2026-10-22",
+      "updatedAt": "2026-10-22",
+      "published": true,
+      "seoTitle": "Ritz-Carlton Al Maryah by SAAS: LIVEX Launch | GRAF",
+      "seoDescription": "SAAS formally launches 165 Ritz-Carlton residences on Al Maryah Island. Killa architecture, Tara Bernerd interiors and Q2 2030 anticipated handover."
     }
   ],
   "version": 1
