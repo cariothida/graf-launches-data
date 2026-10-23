@@ -2733,48 +2733,58 @@
       "pricePerSqft": null,
       "brokerPriceNote": "Mitchell's Commercial Realty indicates approximately AED 4,500–5,000 per sq ft before launch, explicitly subject to final confirmation. This is broker guidance, not a developer-issued price list; the official starting total price is unknown.",
       "paymentPlan": "70/30",
-      "teaser": "Ellington releases Berkeley Tower specifications and a 70/30 payment schedule.",
-      "summary": "Ellington's official Berkeley Tower pages now confirm 109 offices across 60 storeys in Business Bay, along Sheikh Zayed Road. The published payment schedule is 70/30: 20% on booking, ten 5% instalments and 30% on completion. Official starting prices, a calendar completion date and the sales opening date remain unverified.",
-      "whatNext": "Await confirmed prices, the complete office schedule, reservation terms, calendar handover and sales opening; subscribe for verified updates.",
-      "confidenceNote": "109 offices, 60 storeys and the 70/30 schedule are developer-confirmed, checked 21 October 2026; this is the observation date, not a claimed launch date. Booking is 20%, followed by ten 5% instalments linked to dates or construction milestones, then 30% on completion. The displayed 1,132–1,389 sq ft range applies only to the 1st–10th-floor selection. Earlier broker G+62 guidance is superseded. Broker rates and conflicting Q1/Q4 2030 handover indications remain unconfirmed. Registration and a published payment plan do not prove actual sales opening or current unit availability.",
+      "teaser": "Berkeley brochure details six office configurations; total count awaits reconfirmation.",
+      "summary": "Ellington's current Berkeley Tower brochure lists six office configurations from 2,504.01 to 22,588.71 sq ft. The tower remains a 60-storey Grade A commercial development in Business Bay with a 70/30 payment schedule. The previously published 109-office total is absent from both current official project pages and the brochure, so the final total awaits reconfirmation. Official starting prices, calendar completion and actual sales opening remain unverified.",
+      "whatNext": "Await the reconciled office schedule and total count, confirmed prices, reservation terms, calendar handover and sales-opening confirmation; subscribe for verified updates.",
+      "confidenceNote": "Current developer pages and the official brochure were checked on 23 October 2026. The brochure states six office configurations and 2,504.01–22,588.71 sq ft; its document metadata is dated 22 October, not a new launch date. Both project pages previously stated 109 offices and now omit that count; omission does not establish a revised total. The older microsite floor selector displayed 1,132–1,389 sq ft for the 1st–10th floors only; this conflicts with the current brochure range and should not be treated as current general availability. The 70/30 schedule remains 20% booking, ten 5% instalments and 30% completion. Robotic parking is confirmed, but detailed parking labels conflict. Registration and payment marketing do not establish open sales or current inventory.",
       "sources": [
         {
-          "url": "https://berkeley-tower.ellingtonproperties.ae/",
-          "label": "Ellington official Berkeley Tower specifications, floor selection and payment schedule; checked 21 October 2026",
+          "url": "https://assets.ellingtonproperties.ae/sales/files/Marketing-Collaterals/Berkeley%20Tower/Launch/Berkeley%20Tower%20-%20Brochure.pdf",
+          "label": "Official Berkeley brochure: six office configurations and size range; checked 23 October 2026",
           "primary": true
         },
         {
+          "url": "https://berkeley-tower.ellingtonproperties.ae/",
+          "label": "Official Berkeley project page; current wording checked 23 October 2026, with no total office count",
+          "primary": false
+        },
+        {
           "url": "https://ellingtonproperties.ae/en/commercial/property-for-sale/berkeley-tower-business-bay",
-          "label": "Ellington main project page confirms 60 floors and 109 offices"
+          "label": "Official Berkeley project page; current wording checked 23 October 2026, with no total office count",
+          "primary": false
         },
         {
           "url": "https://ae.linkedin.com/posts/ellingtondubai_ellingtonproperties-berkeleytower-livebydesign-activity-7516754088861179904-1mrH",
           "label": "Ellington official introduction; original published timestamp checked",
-          "date": "2026-10-16"
+          "date": "2026-10-16",
+          "primary": false
         },
         {
           "url": "https://www.mitchellscommercialrealty.com/commercial-properties/berkeley-tower-ellington-business-bay-offices",
-          "label": "Mitchell's Commercial Realty — indicative office configuration and rates"
+          "label": "Mitchell's Commercial Realty — indicative office configuration and rates",
+          "primary": false
         },
         {
           "url": "https://www.augusta-properties.com/explore/ellington-berkeley-tower",
           "label": "Augusta — coming-soon report dated 16 October 2026",
-          "date": "2026-10-16"
+          "date": "2026-10-16",
+          "primary": false
         },
         {
           "url": "https://www.augusta-properties.com/explore/ellington-berkely-tower",
-          "label": "Augusta alternate spelling — conflicting broker handover guidance"
+          "label": "Augusta alternate spelling — conflicting broker handover guidance",
+          "primary": false
         }
       ],
       "firstReported": "2026-09-11",
-      "updatedAt": "2026-10-21",
+      "updatedAt": "2026-10-23",
       "published": true,
       "unitMix": [
         {
-          "type": "Office",
-          "sizeSqftFrom": 1132,
-          "sizeSqftTo": 1389,
-          "note": "Official microsite's 1st–10th-floor selection only; not a project-wide size range. Total project: 109 offices."
+          "type": "Offices — six configurations",
+          "sizeSqftFrom": 2504.01,
+          "sizeSqftTo": 22588.71,
+          "note": "Current official brochure range, checked 23 October; total office count awaits reconfirmation. Earlier 1st–10th-floor selector shows a conflicting smaller range; not verified as current inventory."
         }
       ]
     },
@@ -3067,6 +3077,77 @@
       "published": true,
       "seoTitle": "Ritz-Carlton Al Maryah by SAAS: LIVEX Launch | GRAF",
       "seoDescription": "SAAS formally launches 165 Ritz-Carlton residences on Al Maryah Island. Killa architecture, Tara Bernerd interiors and Q2 2030 anticipated handover."
+    },
+    {
+      "id": "lmd-christian-a-rockefeller-business-tower",
+      "project": "Christian A. Rockefeller Business Tower",
+      "developer": "LMD",
+      "emirate": "Dubai",
+      "location": "Sheikh Zayed Road, between Business Bay and Burj Khalifa/Dubai Mall Metro stations",
+      "type": [
+        "offices"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Formal company announcement dated 22 October 2026 says offices are available for sale; exact first sales-opening day not established.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "handover": "Q2 2031 — scheduled in the company announcement; contractual handover not verified",
+      "teaser": "LMD announces Rockefeller-branded Grade A offices on Sheikh Zayed Road.",
+      "summary": "LMD has announced Christian A. Rockefeller Business Tower, an 87-storey Grade A office development on Sheikh Zayed Road between Business Bay and Burj Khalifa/Dubai Mall Metro stations. Four office collections include individual offices, half floors and full floors, with Prime offices starting at approximately 1,077 sq ft. Five amenity floors combine wellness, dining and business facilities, including a sky business centre. The company statement dated 22 October 2026 says offices are available for sale and schedules completion for Q2 2031; official prices and payment terms have not been verified.",
+      "brokerPriceNote": "Luxwell Real Estate's article dated 20 October and updated 22 October indicates AED 4,000–4,500 per sq ft and a 50/50 payment plan. These are attributed broker indications, not a verified developer price list or payment schedule. No confirmed starting total price or current unit inventory was obtained.",
+      "confidenceNote": "High on the dated company-announced identity, developer, location, office collections and scheduled Q2 2031 completion. The 22 October company release explicitly reports availability for sale, but the current Devmark homepage still labels the project Coming Soon; exact first sales day and current available units remain unverified. Earlier broker marketing existed on 20 October. The branding is Christian A. Rockefeller, represented by Iconique Living Group; no Rockefeller Group corporate affiliation is established. Published height figures conflict, so none is adopted. Starting prices, broker payment terms and reservation conditions await official verification.",
+      "whatNext": "Await the official price list, complete payment schedule, reservation conditions and current release availability; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://executive-bulletin.com/real-estate-2/lmd-launches-christian-a-rockefeller-business-tower-bringing-hotelification-to-sheikh-zayed-road",
+          "date": "2026-10-22",
+          "label": "Company-issued LMD launch statement: office collections, location, completion and reported sales availability",
+          "primary": true
+        },
+        {
+          "url": "https://devmark.com/our-case-studies/christian-rockefeller-business-tower",
+          "label": "Official exclusive sales partner project identity; homepage still displays Coming Soon"
+        },
+        {
+          "url": "https://www.tradingview.com/news/reuters.com,2026-10-22:newsml_Zaw4fTHdk:0-dubai-s-lmd-launches-middle-east-s-first-rockefeller-branded-commercial-tower-in-dubai/",
+          "date": "2026-10-22",
+          "label": "Zawya report syndicated via TradingView; corroborates company statement and commercial specification"
+        },
+        {
+          "url": "https://www.luxwellrealestate.com/post/christian-a-rockefeller-business-tower-lmd-launch",
+          "date": "2026-10-20",
+          "label": "Earlier broker marketing; updated 22 October, rates and payment terms remain unconfirmed"
+        }
+      ],
+      "unitMix": [
+        {
+          "type": "Prime offices",
+          "sizeSqftFrom": 1077,
+          "note": "Approximate starting area in the company announcement."
+        },
+        {
+          "type": "Elite offices",
+          "sizeSqftFrom": 2294,
+          "note": "Approximate starting area in the company announcement."
+        },
+        {
+          "type": "Executive half-floor offices",
+          "sizeSqftFrom": 5888,
+          "note": "Approximate starting area in the company announcement."
+        },
+        {
+          "type": "Presidential full-floor offices",
+          "sizeSqftFrom": 11541,
+          "note": "Approximate starting area; Levels 71–80, with private terraces."
+        }
+      ],
+      "firstReported": "2026-10-23",
+      "updatedAt": "2026-10-23",
+      "published": true,
+      "seoTitle": "Christian A. Rockefeller Business Tower by LMD | GRAF",
+      "seoDescription": "Rockefeller-branded offices by LMD on Sheikh Zayed Road, Dubai. Q2 2031 completion planned; official prices and payments await verification."
     }
   ],
   "version": 1
