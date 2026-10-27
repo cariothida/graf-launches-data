@@ -3148,6 +3148,56 @@
       "published": true,
       "seoTitle": "Christian A. Rockefeller Business Tower by LMD | GRAF",
       "seoDescription": "Rockefeller-branded offices by LMD on Sheikh Zayed Road, Dubai. Q2 2031 completion planned; official prices and payments await verification."
+    },
+    {
+      "id": "laya-crest-jvc",
+      "project": "Laya Crest",
+      "developer": "Laya Developers",
+      "emirate": "Dubai",
+      "location": "Jumeirah Village Circle (JVC); exact plot not verified",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "October 2026 — developer's planned launch month; exact day and actual sales opening remain unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Laya Developers previews studios, 1BR and 2BR apartments in JVC.",
+      "summary": "Laya Crest is an upcoming residential development by Laya Developers in Jumeirah Village Circle, Dubai, with studio, one-bedroom and two-bedroom apartments. The developer's corporate timeline schedules the launch for October 2026, while the project page still describes the scheme as upcoming. Listed amenities include a swimming pool, gym, padel court, sky deck and clubhouse. Official starting prices, payment and EOI terms, handover timing, exact plot and current unit availability have not been verified.",
+      "confidenceNote": "Developer-confirmed project identity, JVC location and studio/1BR/2BR mix, checked on 27 October 2026. The official pages do not show their original publication dates: 27 October is the first Radar verification date, not a claimed launch announcement or sales-opening date. October 2026 is a planned launch month in the corporate timeline; an actual opening day, prices, handover and current inventory remain unverified.",
+      "whatNext": "Await the dated launch notice, exact plot, official price list, payment and reservation terms, floor plans and handover schedule; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://layadevelopers.com/projects/laya-crest/",
+          "label": "Official Laya Developers project preview; undated, checked 27 October 2026",
+          "primary": true
+        },
+        {
+          "url": "https://layadevelopers.com/discover-laya/",
+          "label": "Official corporate timeline lists October 2026 planned launch; undated, checked 27 October 2026"
+        }
+      ],
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Confirmed on the developer's project preview; sizes not released."
+        },
+        {
+          "type": "1BR",
+          "note": "Confirmed on the developer's project preview; sizes not released."
+        },
+        {
+          "type": "2BR",
+          "note": "Confirmed on the developer's project preview; sizes not released."
+        }
+      ],
+      "firstReported": "2026-10-27",
+      "updatedAt": "2026-10-27",
+      "published": true,
+      "seoTitle": "Laya Crest JVC: Upcoming Apartments by Laya Developers | GRAF",
+      "seoDescription": "Laya Crest by Laya Developers in JVC: studios, 1BR and 2BR. October 2026 launch planned; prices, sales opening and handover await confirmation."
     }
   ],
   "version": 1
