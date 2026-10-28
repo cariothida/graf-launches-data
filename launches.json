@@ -3095,9 +3095,9 @@
       "paymentPlan": null,
       "handover": "Q2 2031 — scheduled in the company announcement; contractual handover not verified",
       "teaser": "LMD announces Rockefeller-branded Grade A offices on Sheikh Zayed Road.",
-      "summary": "LMD has announced Christian A. Rockefeller Business Tower, an 87-storey Grade A office development on Sheikh Zayed Road between Business Bay and Burj Khalifa/Dubai Mall Metro stations. Four office collections include individual offices, half floors and full floors, with Prime offices starting at approximately 1,077 sq ft. Five amenity floors combine wellness, dining and business facilities, including a sky business centre. The company statement dated 22 October 2026 says offices are available for sale and schedules completion for Q2 2031; official prices and payment terms have not been verified.",
+      "summary": "LMD has announced Christian A. Rockefeller Business Tower, an 87-storey Grade A office development on Sheikh Zayed Road between Business Bay and Burj Khalifa/Dubai Mall Metro stations. Four office collections include individual offices, half floors and full floors, with Prime offices starting at approximately 1,077 sq ft. Five amenity floors combine wellness, dining and business facilities, including a sky business centre. The company statement dated 22 October 2026 says offices are available for sale and schedules completion for Q2 2031; official prices and payment terms have not been verified. Broker update checked 28 October 2026: Mitchell's Commercial Real Estate and Disruptive Real Estate report an EOI window on 28 October with a token of AED 100,000 per unit. Mitchell's specifies 11am, submission by size category/payment plan rather than specific unit number. This is attributed broker intelligence; the original developer EOI notice, refund conditions, actual opening and current allocations have not been independently verified.",
       "brokerPriceNote": "Luxwell Real Estate's article dated 20 October and updated 22 October indicates AED 4,000–4,500 per sq ft and a 50/50 payment plan. These are attributed broker indications, not a verified developer price list or payment schedule. No confirmed starting total price or current unit inventory was obtained.",
-      "confidenceNote": "High on the dated company-announced identity, developer, location, office collections and scheduled Q2 2031 completion. The 22 October company release explicitly reports availability for sale, but the current Devmark homepage still labels the project Coming Soon; exact first sales day and current available units remain unverified. Earlier broker marketing existed on 20 October. The branding is Christian A. Rockefeller, represented by Iconique Living Group; no Rockefeller Group corporate affiliation is established. Published height figures conflict, so none is adopted. Starting prices, broker payment terms and reservation conditions await official verification.",
+      "confidenceNote": "High on the dated company-announced identity, developer, location, office collections and scheduled Q2 2031 completion. The 22 October company release explicitly reports availability for sale, but the current Devmark homepage still labels the project Coming Soon; exact first sales day and current available units remain unverified. Earlier broker marketing existed on 20 October. The branding is Christian A. Rockefeller, represented by Iconique Living Group; no Rockefeller Group corporate affiliation is established. Published height figures conflict, so none is adopted. Starting prices, broker payment terms and reservation conditions await official verification. Broker update checked 28 October 2026: Mitchell's Commercial Real Estate and Disruptive Real Estate report an EOI window on 28 October with a token of AED 100,000 per unit. Mitchell's specifies 11am, submission by size category/payment plan rather than specific unit number. This is attributed broker intelligence; the original developer EOI notice, refund conditions, actual opening and current allocations have not been independently verified.",
       "whatNext": "Await the official price list, complete payment schedule, reservation conditions and current release availability; subscribe for verified updates.",
       "sources": [
         {
@@ -3119,6 +3119,14 @@
           "url": "https://www.luxwellrealestate.com/post/christian-a-rockefeller-business-tower-lmd-launch",
           "date": "2026-10-20",
           "label": "Earlier broker marketing; updated 22 October, rates and payment terms remain unconfirmed"
+        },
+        {
+          "url": "https://www.mitchellscommercialrealty.com/projects/christian-a-rockefeller-business-tower",
+          "label": "Attributed broker EOI briefing checked 28 October; original notice not authenticated"
+        },
+        {
+          "url": "https://disruptiveestate.com/off-plan/christian-a-rockefeller-business-tower",
+          "label": "Attributed broker EOI briefing checked 28 October; original notice not authenticated"
         }
       ],
       "unitMix": [
@@ -3144,10 +3152,15 @@
         }
       ],
       "firstReported": "2026-10-23",
-      "updatedAt": "2026-10-23",
+      "updatedAt": "2026-10-28",
       "published": true,
       "seoTitle": "Christian A. Rockefeller Business Tower by LMD | GRAF",
-      "seoDescription": "Rockefeller-branded offices by LMD on Sheikh Zayed Road, Dubai. Q2 2031 completion planned; official prices and payments await verification."
+      "seoDescription": "Rockefeller-branded offices by LMD on Sheikh Zayed Road, Dubai. Q2 2031 completion planned; official prices and payments await verification.",
+      "eoi": {
+        "amount": 100000,
+        "refundable": null,
+        "note": "Broker-reported planned EOI on 28 October 2026, not verified developer booking terms; 11am only specified by Mitchell's. Refundability and acceptance unverified."
+      }
     },
     {
       "id": "laya-crest-jvc",
@@ -3198,6 +3211,64 @@
       "published": true,
       "seoTitle": "Laya Crest JVC: Upcoming Apartments by Laya Developers | GRAF",
       "seoDescription": "Laya Crest by Laya Developers in JVC: studios, 1BR and 2BR. October 2026 launch planned; prices, sales opening and handover await confirmation."
+    },
+    {
+      "id": "zimaya-lawncrest-dubai-production-city",
+      "project": "Lawncrest",
+      "developer": "Zimaya Properties",
+      "emirate": "Dubai",
+      "location": "Dubai Production City, overlooking Jumeirah Golf Estates; exact plot not verified",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company launch coverage dated 27 October 2026; an earlier broker invitation scheduled a presentation on 10 October. Actual first sales-opening day remains unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Zimaya confirms 183 studio, 1BR and 2BR homes in Dubai Production City.",
+      "summary": "Lawncrest by Zimaya Properties comprises 183 studio, one-bedroom and two-bedroom homes in Dubai Production City, overlooking Jumeirah Golf Estates. The developer describes a ten-storey development with balconies and shared leisure facilities. Company launch coverage dated 27 October 2026 reports studio prices from AED 595,000, but a current developer price list has not been verified. Earlier broker invitations advertised a 10 October presentation, so 27 October is not claimed as the first launch or sales-opening day.",
+      "brokerPriceNote": "The developer's partner-content article in Gulf News and TradeArabia coverage dated 27 October 2026 report studios from AED 595,000. This is an attributed company-reported figure, not a checked developer price list or proof of currently available units.",
+      "confidenceNote": "High on official project identity, location and 183-home studio/1BR/2BR mix. Launch chronology distinguishes October company coverage and an earlier broker presentation from unverified first sales opening. Registry-derived construction dates are not sales-launch dates. Payment schedule, EOI, contractual handover and current availability remain unverified.",
+      "whatNext": "Await the current official price list, payment and reservation terms, contractual handover schedule and available release; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://www.zimayaproperties.com/places/lawncrest",
+          "label": "Official Zimaya Lawncrest project page",
+          "primary": true
+        },
+        {
+          "url": "https://gulfnews.com/business/property/zimaya-advances-portfolio-with-dh185m-lawncrest-in-production-city-1.500725521",
+          "label": "Company partner-content launch coverage",
+          "date": "2026-10-27"
+        },
+        {
+          "url": "https://tradearabia.com/News/488654/Zimaya-launches-183-unit-residential-tower-in-Dubai-Production-City",
+          "label": "TradeArabia dated launch coverage",
+          "date": "2026-10-27"
+        },
+        {
+          "url": "https://alnair.ge/uk/news/lawncrest-by-zimaya-discovery-and-release",
+          "label": "Earlier broker invitation for 10 October 2026; not proof of actual sales opening"
+        }
+      ],
+      "unitMix": [
+        {
+          "type": "Studio"
+        },
+        {
+          "type": "1BR"
+        },
+        {
+          "type": "2BR"
+        }
+      ],
+      "firstReported": "2026-10-28",
+      "updatedAt": "2026-10-28",
+      "published": true,
+      "seoTitle": "Lawncrest by Zimaya: Dubai Production City Apartments | GRAF",
+      "seoDescription": "Lawncrest by Zimaya: 183 studio, 1BR and 2BR homes in Dubai Production City. Company reports prices from AED 595k; current terms await verification."
     }
   ],
   "version": 1
