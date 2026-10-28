@@ -3269,6 +3269,60 @@
       "published": true,
       "seoTitle": "Lawncrest by Zimaya: Dubai Production City Apartments | GRAF",
       "seoDescription": "Lawncrest by Zimaya: 183 studio, 1BR and 2BR homes in Dubai Production City. Company reports prices from AED 595k; current terms await verification."
+    },
+    {
+      "id": "atara-velora-dubai-islands",
+      "project": "Velora Residence",
+      "developer": "Atara Development",
+      "emirate": "Dubai",
+      "location": "Island A, Dubai Islands, between the waterfront and boulevard",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company launch statement reported 27 October 2026; marketing launch, not independently verified actual sales opening.",
+      "startingPrice": 1800000,
+      "priceConfirmed": true,
+      "confirmedBy": "https://atara.ae/projects/velora-residence-dubai-islands/",
+      "paymentPlan": "37/63 — displayed by the developer; unit-specific timings and full schedule require confirmation",
+      "teaser": "Atara announces 58 fully furnished 1BR and 2BR homes on Dubai Islands.",
+      "summary": "Velora Residence by Atara Development comprises 58 fully furnished one- and two-bedroom homes on Island A, Dubai Islands. Company launch coverage dated 27 October 2026 describes the boutique waterfront-and-boulevard setting. Atara's current project page displays a starting price of AED 1.8 million and a 37/63 payment plan; these do not establish current unit availability or booking acceptance. A developer-confirmed contractual handover date has not been verified.",
+      "confidenceNote": "High on developer-confirmed project identity, unit mix and displayed starting price/payment split. Sizes follow the developer page: 1BR 857–1,080 sq ft and 2BR 1,128–1,860 sq ft; a media report has a slightly different upper figure. Launch coverage is dated 27 October; an earlier broker report claims a 26 October announcement, which is not adopted as a verified first launch date. Actual sales opening, EOI, detailed payment calendar, contractual handover and current inventory remain unverified. The site's 2030 wording concerns Dubai Islands context, not this building's handover.",
+      "whatNext": "Await the unit-specific price and payment calendar, reservation conditions, contractual handover schedule and current release availability; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://atara.ae/projects/velora-residence-dubai-islands/",
+          "label": "Official Atara project page; price, payment split and unit mix verified 28 October",
+          "primary": true
+        },
+        {
+          "url": "https://meconstructionnews.com/69591/atara-launches-velora-residence-on-dubai-islands",
+          "label": "Dated company launch statement reported by Middle East Construction News",
+          "date": "2026-10-27"
+        },
+        {
+          "url": "https://www.luxwellrealestate.com/post/velora-residence-atara-dubai-islands-launch",
+          "label": "Earlier 26 October broker coverage; not independent official launch-date proof",
+          "date": "2026-10-26"
+        }
+      ],
+      "unitMix": [
+        {
+          "type": "1BR",
+          "sizeSqftFrom": 857,
+          "sizeSqftTo": 1080
+        },
+        {
+          "type": "2BR",
+          "sizeSqftFrom": 1128,
+          "sizeSqftTo": 1860
+        }
+      ],
+      "firstReported": "2026-10-28",
+      "updatedAt": "2026-10-28",
+      "published": true,
+      "seoTitle": "Velora Residence by Atara: Dubai Islands Furnished Homes | GRAF",
+      "seoDescription": "Velora Residence by Atara: 58 furnished 1BR and 2BR homes on Dubai Islands, from AED 1.8m with displayed 37/63 terms. Availability remains unverified."
     }
   ],
   "version": 1
