@@ -3323,6 +3323,140 @@
       "published": true,
       "seoTitle": "Velora Residence by Atara: Dubai Islands Furnished Homes | GRAF",
       "seoDescription": "Velora Residence by Atara: 58 furnished 1BR and 2BR homes on Dubai Islands, from AED 1.8m with displayed 37/63 terms. Availability remains unverified."
+    },
+    {
+      "id": "ahs-twin-towers-sheikh-zayed-road",
+      "project": "AHS Twin Towers",
+      "developer": "AHS Properties",
+      "developerId": "ahs",
+      "emirate": "Dubai",
+      "location": "Sheikh Zayed Road, Shangri-La Dubai site",
+      "type": [
+        "offices"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company announcement 27 October 2026; sales-opening date unverified",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": "Official 50/50: 10% reservation, 20% plus 4% DLD on SPA by 15 December 2026, 10% by 15 March 2027, 10% by 15 September 2027, 50% at scheduled handover",
+      "handover": "30 June 2028 (developer website schedule; contractual date unverified)",
+      "teaser": "AHS names its Grade A office conversion of the Shangri-La Dubai site.",
+      "summary": "AHS Properties announced AHS Twin Towers on 27 October 2026 following its acquisition of Shangri-La Dubai on Sheikh Zayed Road. The G+50 commercial conversion has architecture by Gensler and interiors by AHS Atelier, with individual, executive, half-floor and full-floor offices. The linked project website publishes a 50/50 payment schedule and scheduled handover on 30 June 2028. Official unit prices, the actual sales-opening date and current availability remain unverified.",
+      "unitMix": [
+        {
+          "type": "Individual office",
+          "sizeSqftFrom": 1872,
+          "sizeSqftTo": 2407,
+          "note": "Developer website: nine-office layout, levels 4–14"
+        },
+        {
+          "type": "Executive office",
+          "sizeSqftFrom": 4173,
+          "sizeSqftTo": 5414,
+          "note": "Developer website: four-office layout, levels 15–25"
+        },
+        {
+          "type": "Grand half-floor office",
+          "sizeSqftFrom": 8477,
+          "sizeSqftTo": 9823,
+          "note": "Developer website: levels 26–37"
+        },
+        {
+          "type": "Ultra Grand full-floor office",
+          "sizeSqftFrom": 17007,
+          "sizeSqftTo": 17563,
+          "note": "Developer website: levels 38–49"
+        }
+      ],
+      "whatNext": "Awaiting the current official price list, sales-opening confirmation and verified availability; subscribe for updates.",
+      "confidenceNote": "High confidence in project identity and published office/payment schedule. This is distinct from the developer's earlier AHS Tower; its sold-out history does not apply to AHS Twin Towers. Registration and a reservation schedule do not establish that sales have opened.",
+      "sources": [
+        {
+          "url": "https://ahstwintowers.com/",
+          "label": "Developer project website linked from the company announcement",
+          "primary": true
+        },
+        {
+          "url": "https://via.tt.se/pressmeddelande/4617763/ahs-properties-to-launch-usd-13-billion-ahs-twin-towers-a-grade-a-commercial-office-building-on-sheikh-zayed-road?publisherId=259167",
+          "label": "27 October company announcement distributed by Business Wire / AETOSWire",
+          "date": "2026-10-27"
+        }
+      ],
+      "firstReported": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "published": true,
+      "seoTitle": "AHS Twin Towers: Sheikh Zayed Road offices | GRAF",
+      "seoDescription": "AHS Twin Towers announced at the Shangri-La Dubai site. Official office formats, 50/50 schedule and June 2028 target; prices and sales opening unverified."
+    },
+    {
+      "id": "ardee-the-views-al-marjan-island",
+      "project": "The Views at Ardee Downtown",
+      "developer": "Ardee Developments",
+      "developerId": "ardee",
+      "emirate": "Ras Al Khaimah",
+      "location": "Ardee Downtown, Al Marjan Island",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "5 November 2026 presentation, 7–11pm, in the launch invitation; actual sales opening unverified",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Alnair quotes studios from AED 885,000; Throne Properties and Green Deck quote AED 888,000. These are broker/portal indications, not an authenticated developer price list.",
+      "paymentPlan": null,
+      "teaser": "Brokers identify The Views for Ardee Downtown's 5 November presentation.",
+      "summary": "An Alnair invitation identifies The Views for a 5 November 2026 launch presentation; its linked Ardee-branded RSVP page confirms the Ardee Downtown masterplan event. Throne Properties and Green Deck independently market studios, one- and two-bedroom apartments at Ardee Downtown on Al Marjan Island. Ardee's own website distinguishes this precinct from the Fairmont-anchored Ardee Waterfront, but does not yet publish a The Views launch pack. Prices, EOI acceptance and actual sales opening are unverified, while broker handover dates conflict.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Broker-reported; current developer unit schedule pending"
+        },
+        {
+          "type": "1BR",
+          "note": "Broker-reported; current developer unit schedule pending"
+        },
+        {
+          "type": "2BR",
+          "note": "Broker-reported; current developer unit schedule pending"
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Brokers advertise EOI, with inconsistent amounts by unit type. Developer acceptance, refund terms and allocation rules have not been authenticated."
+      },
+      "whatNext": "Awaiting The Views' official launch pack and reconciled price, EOI, payment and handover terms; subscribe for confirmation.",
+      "confidenceNote": "Corroborated broker intelligence, not a confirmed sales opening. The RSVP supports a 5 November masterplan presentation; it does not authenticate every broker claim about The Views. Broker 50/50 post-handover terms remain unconfirmed; Q4 2029 and Q4 2030 handover claims conflict. Original dates of undated broker pages are unknown. The Dubai event venue is not the project's location.",
+      "sources": [
+        {
+          "url": "https://alnair.ae/en/news/the-views-official-launch-by-ardee-developments",
+          "label": "The Views invitation: Thursday 5 November 2026; original publication date not established",
+          "primary": true
+        },
+        {
+          "url": "https://ardee.pixl.ae/e/ardee-downtown-launch/pixl",
+          "label": "Ardee-branded masterplan RSVP linked from invitation; 5 November 7–11pm"
+        },
+        {
+          "url": "https://ardee.ae/",
+          "label": "Developer: distinct Ardee Downtown and Ardee Waterfront precincts"
+        },
+        {
+          "url": "https://throneproperties.ae/projects/the-views-by-ardee/",
+          "label": "Independent brokerage: The Views identity, unit mix and unconfirmed terms"
+        },
+        {
+          "url": "https://greendeck.org/property/the-views-by-ardee/",
+          "label": "Second brokerage: The Views identity and unconfirmed terms; page displays 18 October update"
+        }
+      ],
+      "firstReported": "2026-10-29",
+      "updatedAt": "2026-10-29",
+      "published": true,
+      "seoTitle": "The Views, Ardee Downtown: 5 November preview | GRAF",
+      "seoDescription": "Broker intelligence on The Views at Ardee Downtown, Al Marjan Island. A 5 November presentation is advertised; prices and sales opening await confirmation."
     }
   ],
   "version": 1
