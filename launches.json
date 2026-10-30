@@ -1,147 +1,6 @@
 {
   "launches": [
     {
-      "confidenceNote": "E2E test record — not a real project. Staging only.",
-      "developer": "GRAF internal test",
-      "emirate": "Dubai",
-      "firstReported": "2026-09-11",
-      "id": "e2e-pipeline-proof",
-      "launchWindow": "Test",
-      "location": "Staging-only test entry",
-      "priceConfirmed": false,
-      "project": "E2E Pipeline Proof (test record)",
-      "published": false,
-      "sources": [
-        {
-          "date": "2026-09-11",
-          "label": "Data repo (test)",
-          "primary": true,
-          "url": "https://github.com/cariothida/graf-launches-data"
-        }
-      ],
-      "startingPrice": null,
-      "status": "broker-intelligence",
-      "summary": "Leg 2 of the E2E: the same record was mutated in the feed. The page must update at the same URL with no duplicate created.",
-      "teaser": "Mutated teaser: pipeline update leg verified.",
-      "type": [
-        "apartments"
-      ],
-      "updatedAt": "2026-09-12",
-      "whatNext": "This record will be unpublished after the E2E test."
-    },
-    {
-      "brokerPriceNote": "Synthetic test figure updated: AED 2,750/sqft. Not a real broker quote or offer.",
-      "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
-      "developer": "GRAF fictional test developer",
-      "emirate": "Dubai",
-      "firstReported": "2026-09-11",
-      "id": "chatgpt-e2e-office-20260911",
-      "launchWindow": "Test only — no real sales launch",
-      "location": "Staging test only — not a real property",
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "project": "TEST ONLY — Office Preview",
-      "published": false,
-      "seoDescription": "Fictional staging record checking office details, source attribution and unconfirmed pricing. Not a real project or sales offer.",
-      "seoTitle": "TEST ONLY: Office Preview | GRAF Staging",
-      "sources": [
-        {
-          "date": "2026-09-11",
-          "label": "Synthetic test fixture — not a property announcement",
-          "primary": true,
-          "url": "https://github.com/cariothida/graf-launches-data"
-        }
-      ],
-      "startingPrice": null,
-      "status": "broker-intelligence",
-      "summary": "Mutation verified: this fictional staging office record has been updated at its original URL. The synthetic price indication changed from AED 2,500 to AED 2,750 per sqft; neither is a real price or offer.",
-      "teaser": "Fictional office preview to test source labels and unconfirmed pricing.",
-      "type": [
-        "offices"
-      ],
-      "unitMix": [
-        {
-          "note": "Fictional test sizes only",
-          "sizeSqftFrom": 1200,
-          "sizeSqftTo": 2400,
-          "type": "Office"
-        }
-      ],
-      "updatedAt": "2026-09-11",
-      "whatNext": "This staging test awaits its verification update today. Subscribe on this page to receive real launch updates."
-    },
-    {
-      "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
-      "developer": "GRAF fictional test developer",
-      "emirate": "Ras Al Khaimah",
-      "eoi": {
-        "amount": null,
-        "note": "Not available; synthetic test only",
-        "refundable": null
-      },
-      "firstReported": "2026-09-11",
-      "id": "chatgpt-e2e-villas-20260911",
-      "launchWindow": "Test only — no real sales launch",
-      "location": "Staging test only — not a real property",
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "project": "TEST ONLY — Villa Preview",
-      "published": false,
-      "sources": [
-        {
-          "date": "2026-09-11",
-          "label": "Synthetic test fixture — not a property announcement",
-          "primary": true,
-          "url": "https://github.com/cariothida/graf-launches-data"
-        }
-      ],
-      "startingPrice": null,
-      "status": "broker-intelligence",
-      "summary": "Mutation verified: this fictional villa record now tests a five-bedroom configuration at the same permanent URL. Prices and handover remain unknown; this is not a real project.",
-      "teaser": "Fictional villa preview to test unknown prices and subscription wording.",
-      "type": [
-        "villas"
-      ],
-      "unitMix": [
-        {
-          "type": "5BR villa",
-          "note": "Updated fictional test configuration only"
-        }
-      ],
-      "updatedAt": "2026-09-11",
-      "whatNext": "This staging test awaits its verification update today. Subscribe on this page to receive real launch updates."
-    },
-    {
-      "confidenceNote": "Fictional ChatGPT staging test. No real property, developer, offer or confirmed price.",
-      "developer": "GRAF fictional test developer",
-      "emirate": "Abu Dhabi",
-      "firstReported": "2026-09-11",
-      "id": "chatgpt-e2e-rumour-20260911",
-      "launchWindow": "Test only — no real sales launch",
-      "location": "Staging test only — not a real property",
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "project": "TEST ONLY — Hidden Rumour",
-      "published": false,
-      "sources": [
-        {
-          "date": "2026-09-11",
-          "label": "Synthetic test fixture — not a property announcement",
-          "primary": true,
-          "url": "https://github.com/cariothida/graf-launches-data"
-        }
-      ],
-      "startingPrice": null,
-      "status": "rumour",
-      "summary": "This synthetic rumour checks exclusion from pages, homepage cards, sitemap and llms.txt.",
-      "teaser": "Fictional rumour fixture that must never create a public page.",
-      "type": [
-        "apartments"
-      ],
-      "updatedAt": "2026-09-11",
-      "whatNext": "This staging test awaits its verification update today. Subscribe on this page to receive real launch updates."
-    },
-    {
       "id": "aldar-sei-saadiyat",
       "aliases": [],
       "project": "Sei Saadiyat",
@@ -3457,6 +3316,104 @@
       "published": true,
       "seoTitle": "The Views, Ardee Downtown: 5 November preview | GRAF",
       "seoDescription": "Broker intelligence on The Views at Ardee Downtown, Al Marjan Island. A 5 November presentation is advertised; prices and sales opening await confirmation."
+    },
+    {
+      "id": "janu-al-marjan-island-residences",
+      "project": "Janu Residences, Al Marjan Island",
+      "developer": "Marjan and Wynn Resorts",
+      "emirate": "Ras Al Khaimah",
+      "location": "Al Marjan Island, beside Wynn Al Marjan Island and Wynn Marina",
+      "type": [
+        "apartments",
+        "penthouses",
+        "villas"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Residential unveiling in the company-issued release dated 29 October 2026; actual first sales-opening day unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "handover": "2028 hotel/resort opening scheduled by Janu; contractual residential handover unverified",
+      "teaser": "Janu unveils branded residences and five Marina Villas beside Wynn Marina.",
+      "summary": "Janu, part of Aman Group, has unveiled its Al Marjan Island residential offering in a company-issued release dated 29 October 2026. Jointly developed by Marjan and Wynn Resorts and designed by SCDA Architects, the scheme combines a 132-key hotel with 73 branded residences spanning one to five bedrooms and a penthouse collection, plus five Marina Villas. The official operator page confirms furnishing by Aman Interiors and a scheduled 2028 opening. Official prices, payment and EOI terms, actual sales-opening day, contractual residential handover and current availability have not been verified.",
+      "confidenceNote": "High confidence in operator-confirmed identity, joint developers, location and residential mix. The 29 October residential unveiling follows July 2026 groundbreaking; it is not a claim that the entire scheme was first conceived today. The operator page has inconsistent maximum apartment areas and beach lengths, so those figures are omitted. The 2028 opening is not verified contractual residential handover; no sales-opening or current stock claim.",
+      "whatNext": "Await the official residential price list, payment and reservation terms, contractual handover and current release availability; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/companies-news/unveiling-janu-residences-al-marjan-island-by-aman-group-a-new-coastal-expression-of-janu-living-1855988",
+          "label": "Aman Group / Janu company-issued residential unveiling",
+          "date": "2026-10-29",
+          "primary": true
+        },
+        {
+          "url": "https://www.janu.com/janu-al-marjan-island/residences/",
+          "label": "Official operator residential specifications and furnishing; opening 2028"
+        },
+        {
+          "url": "https://www.meed.com/janu-unveils-al-marjan-island-hotel-and-branded-residences",
+          "label": "Independent dated trade report",
+          "date": "2026-10-29"
+        }
+      ],
+      "unitMix": [
+        {
+          "type": "1–5BR branded residences and penthouse collection",
+          "note": "73 branded residences reported in company release; no additional penthouse counted on top of that total."
+        },
+        {
+          "type": "Marina Villas",
+          "note": "Five villas; exact bedroom mix unverified."
+        }
+      ],
+      "firstReported": "2026-10-30",
+      "updatedAt": "2026-10-30",
+      "published": true,
+      "seoTitle": "Janu Residences Al Marjan Island: Aman Group Preview | GRAF",
+      "seoDescription": "Janu unveils 73 branded residences and five Marina Villas on Al Marjan Island. Prices and sales opening unverified; resort opening planned for 2028."
+    },
+    {
+      "id": "casa-vista-aquora-dubai-islands",
+      "project": "AQUORA",
+      "developer": "Casa Vista Development",
+      "emirate": "Dubai",
+      "location": "Dubai Islands, Deira",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "26 October 2026 company sales-milestone update; presentation scheduled for 28 October. Original launch reported 11 November 2025.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "handover": "Q1 2028 — target on developer website; contractual handover unverified",
+      "teaser": "Casa Vista reports 40% of Aquora residences sold ahead of its presentation.",
+      "summary": "Casa Vista Development reported on 26 October 2026 that 40% of AQUORA residences had been sold ahead of a presentation scheduled at Madinat Jumeirah on 28 October. The Dubai Islands development contains 105 residences and six waterfront retail shops, according to the developer, with completion targeted for Q1 2028. This is a company-reported sales milestone for an existing project whose original launch was reported in November 2025, rather than a new project launch. Actual presentation completion, first sales-opening day, current available units, official current prices and payment terms remain unverified.",
+      "confidenceNote": "The 40% figure is explicitly company-reported in the dated 26 October release; it is not independently audited or proof that the remaining units are currently available. The 28 October presentation was scheduled, not verified as held. The AED 350 million announcement figure is project value, not a unit price. Earlier launch coverage is dated 11 November 2025. No new phase or fresh inventory release is established.",
+      "whatNext": "Await confirmation of the presentation outcome, current available inventory, official price and payment schedule and contractual handover; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/aquora-records-40-sales-as-casa-vista-development-prepares-for-grand-unveiling-in-dubai-1850907",
+          "label": "Casa Vista company-issued sales milestone and scheduled presentation",
+          "date": "2026-10-26",
+          "primary": true
+        },
+        {
+          "url": "https://casavistadevelopment.com/project/aquora",
+          "label": "Official developer project page: 105 residences, six shops, Q1 2028 target"
+        },
+        {
+          "url": "https://gulfnews.com/business/property/luxury-living-casa-vista-launches-aquora-on-dubai-islands-1.500341498",
+          "label": "Earlier original launch coverage; not a new October 2026 project",
+          "date": "2025-11-11"
+        }
+      ],
+      "firstReported": "2026-10-30",
+      "updatedAt": "2026-10-30",
+      "published": true,
+      "seoTitle": "Aquora Dubai Islands: Casa Vista Reports 40% Sold | GRAF",
+      "seoDescription": "Casa Vista reports 40% of Aquora residences sold before a scheduled 28 October presentation. Q1 2028 completion targeted; current availability unverified."
     }
   ],
   "version": 1
