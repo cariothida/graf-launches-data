@@ -3414,6 +3414,57 @@
       "published": true,
       "seoTitle": "Aquora Dubai Islands: Casa Vista Reports 40% Sold | GRAF",
       "seoDescription": "Casa Vista reports 40% of Aquora residences sold before a scheduled 28 October presentation. Q1 2028 completion targeted; current availability unverified."
+    },
+    {
+      "id": "mered-riviera-residences-phase-2",
+      "parentId": "mered-riviera-residences",
+      "phase": "Phase 2",
+      "project": "Riviera Residences — Phase 2",
+      "developer": "MERED",
+      "emirate": "Abu Dhabi",
+      "location": "Al Reem Island, Abu Dhabi",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "MERED currently promotes Phase 2 as New Launch and Coming soon. A broker page updated 30 October advertises 11 November 2026; that sales date is not developer-confirmed.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": "Project-level official schedule: 5% booking, 50% total during construction including booking, 50% on completion. Application to a specific Phase 2 unit awaits its signed schedule.",
+      "teaser": "MERED confirms a second Riviera release on Al Reem Island.",
+      "summary": "MERED's official website promotes Riviera Residences Phase 2 on Al Reem Island as a new launch and coming soon. The wider waterfront development is designed by Herzog & de Meuron and offers one- to three-bedroom apartments and villa-style homes; the exact Phase 2 mix and released unit count have not been independently verified. The developer publishes a project-level 50/50 payment structure including 5% booking, but unit-specific Phase 2 terms require confirmation. Official starting prices, a dated sales-opening notice, contractual Phase 2 handover and current unit availability remain unverified.",
+      "confidenceNote": "High confidence in developer-confirmed Phase 2 identity and Al Reem Island location, checked 2 November 2026. The developer pages are undated: this is the first Radar verification date, not a claimed first announcement or sales-opening day. Lucretia's page updated 30 October quotes 11 November and AED 50,000 EOI; these remain broker indications. An indexed developer snapshot shows Q2 2030 for Phase 2, while the freshly retrieved project page displays only Phase 1 Q3 2029, so no Phase 2 handover is adopted as confirmed.",
+      "whatNext": "Await the dated Phase 2 launch notice, released unit mix, official price and reservation pack, phase-specific payment schedule and contractual handover; subscribe for verified updates.",
+      "sources": [
+        {
+          "url": "https://mered.ae/projects",
+          "label": "Official MERED project portfolio: Riviera Phase 2 Coming soon; checked 2 November 2026",
+          "primary": true
+        },
+        {
+          "url": "https://mered.ae/projects/riviera",
+          "label": "Official Riviera page: Phase 2 New Launch; project-level specifications and payment plan"
+        },
+        {
+          "url": "https://www.lucretia-international.com/en/projects/mered-riviera-residences-tower-2",
+          "label": "Broker page updated 30 October: 11 November target and AED 50,000 EOI; not developer-confirmed"
+        },
+        {
+          "url": "https://offplaninsider.com/projects/riviera-residences-phase-2-al-reem-island/",
+          "label": "Independent broker Phase 2 marketing; parent-project figures not treated as phase-specific"
+        }
+      ],
+      "eoi": {
+        "amount": 50000,
+        "refundable": null,
+        "note": "Lucretia broker indication, not verified in a current MERED reservation pack."
+      },
+      "firstReported": "2026-11-02",
+      "updatedAt": "2026-11-02",
+      "published": true,
+      "seoTitle": "Riviera Residences Phase 2 by MERED, Al Reem Island | GRAF",
+      "seoDescription": "MERED previews Riviera Residences Phase 2 on Al Reem Island. Official prices, sales-opening date, released inventory and handover await verification."
     }
   ],
   "version": 1
