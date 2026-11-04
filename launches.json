@@ -3424,35 +3424,46 @@
       "emirate": "Abu Dhabi",
       "location": "Al Reem Island, Abu Dhabi",
       "type": [
-        "apartments"
+        "apartments",
+        "villas",
+        "penthouses"
       ],
       "status": "confirmed",
-      "launchWindow": "MERED currently promotes Phase 2 as New Launch and Coming soon. A broker page updated 30 October advertises 11 November 2026; that sales date is not developer-confirmed.",
+      "launchWindow": "Company launch announcement published 3 November 2026; exact first sales-opening day remains unverified.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "paymentPlan": "Project-level official schedule: 5% booking, 50% total during construction including booking, 50% on completion. Application to a specific Phase 2 unit awaits its signed schedule.",
       "teaser": "MERED confirms a second Riviera release on Al Reem Island.",
-      "summary": "MERED's official website promotes Riviera Residences Phase 2 on Al Reem Island as a new launch and coming soon. The wider waterfront development is designed by Herzog & de Meuron and offers one- to three-bedroom apartments and villa-style homes; the exact Phase 2 mix and released unit count have not been independently verified. The developer publishes a project-level 50/50 payment structure including 5% booking, but unit-specific Phase 2 terms require confirmation. Official starting prices, a dated sales-opening notice, contractual Phase 2 handover and current unit availability remain unverified.",
-      "confidenceNote": "High confidence in developer-confirmed Phase 2 identity and Al Reem Island location, checked 2 November 2026. The developer pages are undated: this is the first Radar verification date, not a claimed first announcement or sales-opening day. Lucretia's page updated 30 October quotes 11 November and AED 50,000 EOI; these remain broker indications. An indexed developer snapshot shows Q2 2030 for Phase 2, while the freshly retrieved project page displays only Phase 1 Q3 2029, so no Phase 2 handover is adopted as confirmed.",
-      "whatNext": "Await the dated Phase 2 launch notice, released unit mix, official price and reservation pack, phase-specific payment schedule and contractual handover; subscribe for verified updates.",
+      "summary": "MERED's company announcement published on 3 November 2026 specifies Riviera Residences Phase 2 on Al Reem Island within ADGM: 389 apartments, eight Bay Villas, six Sky Villas and one penthouse. Designed by Herzog & de Meuron, the phase is targeted for completion in Q2 2030, with work scheduled to commence by the end of 2026. The project-level official schedule is 5% booking and 50/50 including booking, subject to each Phase 2 unit's signed schedule. Official starting prices, exact sales-opening day and current unit availability remain unverified.",
+      "confidenceNote": "High confidence in the company-announced Phase 2 composition and Q2 2030 developer completion target, published 3 November and checked 4 November 2026. This material update replaces the earlier undated preview; it does not establish actual sales opening, current inventory or contractual handover. Lucretia's 11 November and AED 50,000 EOI remain broker indications. Phase 1 Q3 2029 and its Q4 2025 pre-launch sell-out do not apply to Phase 2.",
+      "whatNext": "Await the official Phase 2 price and reservation pack, signed payment and handover schedules, exact sales-opening notice and current release availability; subscribe for verified updates.",
       "sources": [
         {
-          "url": "https://mered.ae/projects",
-          "label": "Official MERED project portfolio: Riviera Phase 2 Coming soon; checked 2 November 2026",
+          "url": "https://www.zawya.com/en/press-release/companies-news/mered-launches-phase-2-of-riviera-residences-on-al-reem-island-1890448",
+          "label": "MERED company-issued Phase 2 announcement: composition and completion target",
+          "date": "2026-11-03",
           "primary": true
         },
         {
+          "url": "https://mered.ae/projects",
+          "label": "Official MERED project portfolio: Riviera Phase 2 Coming soon; checked 2 November 2026",
+          "primary": false
+        },
+        {
           "url": "https://mered.ae/projects/riviera",
-          "label": "Official Riviera page: Phase 2 New Launch; project-level specifications and payment plan"
+          "label": "Official Riviera page: Phase 2 New Launch; project-level specifications and payment plan",
+          "primary": false
         },
         {
           "url": "https://www.lucretia-international.com/en/projects/mered-riviera-residences-tower-2",
-          "label": "Broker page updated 30 October: 11 November target and AED 50,000 EOI; not developer-confirmed"
+          "label": "Broker page updated 30 October: 11 November target and AED 50,000 EOI; not developer-confirmed",
+          "primary": false
         },
         {
           "url": "https://offplaninsider.com/projects/riviera-residences-phase-2-al-reem-island/",
-          "label": "Independent broker Phase 2 marketing; parent-project figures not treated as phase-specific"
+          "label": "Independent broker Phase 2 marketing; parent-project figures not treated as phase-specific",
+          "primary": false
         }
       ],
       "eoi": {
@@ -3461,10 +3472,88 @@
         "note": "Lucretia broker indication, not verified in a current MERED reservation pack."
       },
       "firstReported": "2026-11-02",
-      "updatedAt": "2026-11-02",
+      "updatedAt": "2026-11-04",
       "published": true,
       "seoTitle": "Riviera Residences Phase 2 by MERED, Al Reem Island | GRAF",
-      "seoDescription": "MERED previews Riviera Residences Phase 2 on Al Reem Island. Official prices, sales-opening date, released inventory and handover await verification."
+      "seoDescription": "MERED's Riviera Phase 2 on Al Reem Island: 389 apartments, eight Bay Villas, six Sky Villas and a penthouse. Completion targeted for Q2 2030.",
+      "handover": "Q2 2030 — developer target for Phase 2; contractual handover not verified",
+      "unitMix": [
+        {
+          "type": "Apartments",
+          "note": "389 apartments in the 3 November company announcement; phase-specific bedroom and size breakdown not verified."
+        },
+        {
+          "type": "Bay Villas",
+          "note": "Eight in the Phase 2 announcement; do not substitute the parent website's different villa count."
+        },
+        {
+          "type": "Sky Villas",
+          "note": "Six in the Phase 2 announcement."
+        },
+        {
+          "type": "Penthouse",
+          "note": "One in the Phase 2 announcement."
+        }
+      ]
+    },
+    {
+      "id": "sawa-residences",
+      "project": "SAWA Residences",
+      "developer": "QUBE Development",
+      "developerId": "qube",
+      "emirate": "Dubai",
+      "location": "Meydan Horizon, Mohammed Bin Rashid City, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company launch coverage dated 3 November 2026; actual first sales-opening day and current availability not verified.",
+      "startingPrice": 1050000,
+      "pricePerSqft": null,
+      "priceConfirmed": true,
+      "confirmedBy": "https://qbd.ae/sawa-residences/",
+      "paymentPlan": "60/40 — developer-published plan; detailed instalment schedule awaits verification",
+      "handover": "Q1 2030 — developer's expected handover; contractual date not verified",
+      "teaser": "QUBE confirms SAWA's 355 waterfront apartments in Meydan Horizon.",
+      "summary": "QUBE Development's SAWA Residences in Meydan Horizon, Mohammed Bin Rashid City, comprises 355 one-, two- and three-bedroom apartments. Company launch coverage dated 3 November 2026 follows an earlier portal-only preview. The official project page lists starting prices of AED 1.05 million for one-bedroom, AED 2.41 million for two-bedroom and AED 3.08 million for three-bedroom homes, with a 60/40 payment plan and expected handover in Q1 2030. Current available units, exact first sales-opening day and EOI conditions remain unverified.",
+      "confidenceNote": "High on developer-confirmed identity, Meydan Horizon location, 355 homes, unit mix and published commercial terms, checked 4 November 2026. QUBE Development is the developer; do not confuse it with similarly named Cube or other developers. Developer-published starting sizes and older portal areas differ, so no reconciled area range is adopted. Expected handover is not a verified contractual date. Prices are published starting indications, not a checked available unit offer.",
+      "whatNext": "Await the current unit release, detailed instalment and EOI conditions, reconciled floor plans and signed handover schedule; subscribe for verified updates.",
+      "unitMix": [
+        {
+          "type": "1BR",
+          "note": "Developer-published starting price AED 1.05 million; exact available units and sizes not verified."
+        },
+        {
+          "type": "2BR",
+          "note": "Developer-published starting price AED 2.41 million."
+        },
+        {
+          "type": "3BR",
+          "note": "Developer-published starting price AED 3.08 million."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://qbd.ae/sawa-residences/",
+          "label": "Official QUBE SAWA project page: mix, count, prices, plan and expected handover",
+          "primary": true
+        },
+        {
+          "url": "https://www.zawya.com/en/business/qube-development-launches-prime-waterfront-residences-in-dubai-1889835",
+          "label": "TradeArabia dated company launch coverage",
+          "date": "2026-11-03"
+        },
+        {
+          "url": "https://www.propertynewsint.com/news/qube-development-unveils-sawa-residences-in-mohammed-bin-rashid-city",
+          "label": "Company-issued launch statement with 355 homes",
+          "date": "2026-11-03"
+        }
+      ],
+      "firstReported": "2026-09-11",
+      "updatedAt": "2026-11-04",
+      "published": true,
+      "seoTitle": "SAWA Residences by QUBE: Meydan Horizon Launch | GRAF",
+      "seoDescription": "QUBE confirms SAWA in Meydan Horizon: 355 one- to three-bedroom homes, from AED 1.05m, a 60/40 plan and Q1 2030 expected handover."
     }
   ],
   "version": 1
