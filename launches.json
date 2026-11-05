@@ -3657,6 +3657,46 @@
         "note": "Augusta reports AED 100,000 EOI from 29 October; developer acceptance, refund rules and allocations unverified."
       },
       "confidenceNote": "Moderate broker intelligence from two brokerage origins. RISE-specific official announcement and distinct tower identity await authenticated developer material; it is not treated as a relaunch of DAWN. Binayah's generic page category says Apartment but its detailed product states offices/retail; no residential units are adopted. EOI is not proof of sales opening or current available units."
+    },
+    {
+      "id": "beyond-shione-dubai-islands",
+      "project": "SHIONE",
+      "developer": "BEYOND Developments",
+      "emirate": "Dubai",
+      "location": "Dubai Islands, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Developer-invited unveiling on Monday 9 November 2026, from 5:00pm, at BEYOND Sales Gallery, Mina Rashid.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "BEYOND previews Dubai Islands apartments ahead of its 9 November unveiling.",
+      "summary": "SHIONE is BEYOND's upcoming waterfront residential project at Dubai Islands. A developer invitation shared with GRAF announces its unveiling on 9 November 2026 from 5:00pm at BEYOND Sales Gallery in Mina Rashid. Prices, apartment configurations, sizes, payment plan and handover are not yet independently confirmed. This is an early project announcement; the invitation does not establish actual sales opening or current unit availability.",
+      "whatNext": "We will update prices and project details after the 9 November unveiling as official information becomes available; subscribe for verified updates.",
+      "confidenceNote": "Developer invitation confirms the project name, Dubai Islands location and scheduled unveiling. Apartment use is corroborated by public brokerage listings. Sea views for individual units, the precise plot, commercial terms, actual sales opening and available inventory remain unverified.",
+      "sources": [
+        {
+          "url": "https://www.luxhabitat.ae/developments/dubai/shione/",
+          "label": "Public brokerage corroboration: SHIONE by BEYOND, Dubai Islands apartments",
+          "primary": true
+        },
+        {
+          "url": "https://beyonddevelopments.ae/",
+          "label": "BEYOND official developer identity; dated unveiling invitation shared directly with GRAF on 5 November 2026",
+          "primary": false
+        },
+        {
+          "url": "https://dxbpropy.ai/offplan/shione-dubai-islands-3653",
+          "label": "Public launch calendar corroborates 9 November unveiling; not sales-opening proof",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-05",
+      "updatedAt": "2026-11-05",
+      "published": true
     }
   ],
   "version": 1
