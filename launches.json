@@ -3554,6 +3554,109 @@
       "published": true,
       "seoTitle": "SAWA Residences by QUBE: Meydan Horizon Launch | GRAF",
       "seoDescription": "QUBE confirms SAWA in Meydan Horizon: 355 one- to three-bedroom homes, from AED 1.05m, a 60/40 plan and Q1 2030 expected handover."
+    },
+    {
+      "id": "nakheel-palm-springs-jebel-ali",
+      "project": "Palm Springs (broker-reported)",
+      "developer": "Nakheel (broker-attributed)",
+      "emirate": "Dubai",
+      "location": "Mainland Jebel Ali near Palm Jebel Ali; Hessyan First reported, exact plot unverified",
+      "type": [
+        "townhouses",
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Prelaunch reporting dated 28 October 2026; brokers expect a forthcoming release, official launch day unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "summary": "Al Masdar Al Aqaari reported on 28 October 2026 that Nakheel is preparing Palm Springs, a mainland villa and townhouse community near Palm Jebel Ali and Sheikh Zayed Road. Separate brokerage sources describe three- and four-bedroom townhouses and four- and five-bedroom villas. Nakheel's accessible new-launch list does not confirm the project; the exact plot, official sales date, developer price list, reservation terms, payment plan and handover remain unverified. This is a corroborated prelaunch report, not a developer-announced sales opening.",
+      "sources": [
+        {
+          "url": "https://masdarak.com/en/news-en/nakheel-plans-palm-springs-villa-and-townhouse-project-near-palm-jebel-ali/",
+          "date": "2026-10-28",
+          "label": "Dated preliminary property-news report; developer confirmation pending",
+          "primary": true
+        },
+        {
+          "url": "https://hoomanjt.com/articles/palm-springs-nakheel-jebel-ali/",
+          "label": "Separate adviser review dated 29 October; unconfirmed terms and historical name distinction"
+        },
+        {
+          "url": "https://ae.linkedin.com/company/aeontrisl",
+          "label": "Brokerage preview; original post date not established"
+        }
+      ],
+      "firstReported": "2026-11-05",
+      "updatedAt": "2026-11-05",
+      "published": true,
+      "whatNext": "Await the authenticated developer launch pack, exact release identity, pricing, reservation conditions and current availability; subscribe for verified updates.",
+      "teaser": "Brokers report a mainland townhouse and villa community near Palm Jebel Ali.",
+      "brokerPriceNote": "Al Masdar's preliminary report quotes townhouses around AED 3.8–3.9m and villas around AED 8–9m. A separate adviser reports lower estimates and conflicting payment and handover guidance. None is a verified developer price or current unit offer.",
+      "confidenceNote": "Moderate: separate reporting and brokerage sources support the prelaunch identity, but Nakheel has not been verified as formally announcing it. Exact plot, launch day, EOI acceptance, prices, payment, handover and inventory are unverified. Mainland location is reported; no island or beachfront ownership claim is established. Keep separate from the historical DAMAC Palm Springs tower.",
+      "unitMix": [
+        {
+          "type": "3BR townhouse",
+          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+        },
+        {
+          "type": "4BR townhouse",
+          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+        },
+        {
+          "type": "4BR villa",
+          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+        },
+        {
+          "type": "5BR villa",
+          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+        }
+      ]
+    },
+    {
+      "id": "avenew-o1ne-district-rise-motor-city",
+      "project": "RISE at O1NE District",
+      "developer": "AVENEW Development / KORA Properties (broker-attributed)",
+      "emirate": "Dubai",
+      "location": "O1NE District, Motor City, beside Dubai Autodrome",
+      "type": [
+        "offices"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Augusta reports EOI registrations from 29 October 2026; official launch and actual acceptance unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "summary": "Separate brokerages market RISE as a commercial office release at O1NE District in Motor City beside Dubai Autodrome. Augusta dates its EOI announcement to 29 October 2026, while Binayah describes offices and retail space. The developer's accessible O1NE masterplan confirms the district but still names DAWN as its first tower; a RISE-specific developer launch pack has not been authenticated. Keep RISE distinct from DAWN, with its exact release identity, official prices, terms and current inventory awaiting verification.",
+      "sources": [
+        {
+          "url": "https://www.augusta-properties.com/explore/avenew-rise",
+          "date": "2026-10-29",
+          "label": "Dated brokerage RISE EOI report",
+          "primary": true
+        },
+        {
+          "url": "https://www.binayah.ae/project/rise-at-o1ne-district",
+          "label": "Separate brokerage RISE office and retail marketing; original date unknown"
+        },
+        {
+          "url": "https://avenewdevelopment.ae/projects/one-district/",
+          "label": "Official masterplan context; DAWN named, RISE-specific pack not authenticated"
+        }
+      ],
+      "firstReported": "2026-11-05",
+      "updatedAt": "2026-11-05",
+      "published": true,
+      "whatNext": "Await the authenticated developer launch pack, exact release identity, pricing, reservation conditions and current availability; subscribe for verified updates.",
+      "teaser": "Brokerages report a RISE office release at O1NE District in Motor City.",
+      "brokerPriceNote": "Binayah indicates offices from AED 5m, a 50/50 payment plan, 1,963–5,479 sq ft and Q1 2030 completion. These are unverified broker terms, not developer-confirmed prices or contractual handover.",
+      "eoi": {
+        "amount": null,
+        "note": "Augusta reports AED 100,000 EOI from 29 October; developer acceptance, refund rules and allocations unverified."
+      },
+      "confidenceNote": "Moderate broker intelligence from two brokerage origins. RISE-specific official announcement and distinct tower identity await authenticated developer material; it is not treated as a relaunch of DAWN. Binayah's generic page category says Apartment but its detailed product states offices/retail; no residential units are adopted. EOI is not proof of sales opening or current available units."
     }
   ],
   "version": 1
