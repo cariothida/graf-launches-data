@@ -3697,6 +3697,61 @@
       "firstReported": "2026-11-05",
       "updatedAt": "2026-11-05",
       "published": true
+    },
+    {
+      "id": "sol-terra-gardens",
+      "aliases": [
+        "terra-gardens"
+      ],
+      "project": "SOL Terra Gardens",
+      "developer": "SOL Properties",
+      "emirate": "Dubai",
+      "location": "District 11, Jumeirah Village Circle, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official project details verified 6 November 2026; the developer page is undated and does not establish the first sales-opening day.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Secondary marketing pages quote AED 730,000–750,000, but no current developer price list was authenticated; the public starting price remains unconfirmed.",
+      "paymentPlan": "Official 20/30/50: 10% on booking, 10% within 30 days, four instalments of 7.5% at 6, 12, 18 and 24 months from SPA, then 50% on handover",
+      "handover": "Q4 2029 — developer target; contractual handover not verified",
+      "teaser": "SOL publishes the home mix and 50/50-on-handover schedule for its JVC garden residence.",
+      "summary": "SOL Properties now publishes the product and payment details for SOL Terra Gardens in District 11, Jumeirah Village Circle. The project offers studios, one-bedroom-plus-study and two-bedroom-plus-study apartments around 30,000 sq ft of podium amenities. The official schedule is 10% on booking, 10% within 30 days, four 7.5% instalments during construction and 50% on handover, targeted for Q4 2029. The developer page does not publish a starting price, its original publication date, the first sales-opening day or current unit availability.",
+      "unitMix": [
+        {
+          "type": "Studio",
+          "note": "Official developer page; sizes and current availability not published."
+        },
+        {
+          "type": "1BR + study",
+          "note": "Official developer page; sizes and current availability not published."
+        },
+        {
+          "type": "2BR + study",
+          "note": "Official developer page; sizes and current availability not published."
+        }
+      ],
+      "whatNext": "Await the official current price list, confirmed sales-opening date, unit availability and signed handover schedule; subscribe for verified updates.",
+      "confidenceNote": "High confidence in the developer-confirmed project identity, District 11 JVC location, unit mix, amenity area, payment calendar and Q4 2029 target. The official page is undated, so this update does not claim a new 6 November launch or actual sales opening. Secondary price and launch-date claims remain unconfirmed.",
+      "sources": [
+        {
+          "url": "https://solproperties.ae/property/terra-gardens/",
+          "label": "Official SOL project page: product, detailed payment calendar and Q4 2029 target; checked 6 November 2026",
+          "primary": true
+        },
+        {
+          "url": "https://solproperties.ae/jvc/",
+          "label": "Official SOL JVC page: studios, 1BR plus study and 2BR plus study; checked 6 November 2026"
+        }
+      ],
+      "firstReported": "2026-09-11",
+      "updatedAt": "2026-11-06",
+      "published": true,
+      "seoTitle": "SOL Terra Gardens JVC: Official Mix and 50/50 Plan | GRAF",
+      "seoDescription": "SOL Terra Gardens in JVC District 11: studios, 1BR+study and 2BR+study homes, an official 20/30/50 schedule and Q4 2029 target. Prices remain unconfirmed."
     }
   ],
   "version": 1
