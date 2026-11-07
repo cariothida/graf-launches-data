@@ -611,7 +611,7 @@
       "pricePerSqft": null,
       "priceConfirmed": false,
       "firstReported": "2026-09-18",
-      "updatedAt": "2026-09-18",
+      "updatedAt": "2026-11-07",
       "published": true,
       "id": "meraas-nad-al-sheba-gardens-phase-12",
       "project": "Nad Al Sheba Gardens Phase 12",
@@ -625,38 +625,53 @@
         "villas"
       ],
       "status": "broker-intelligence",
-      "launchWindow": "September 2026 broker pre-launch/EOI signal; exact public sales-opening date not independently confirmed",
-      "teaser": "Phase 12 enters broker pre-launch coverage in Nad Al Sheba Gardens.",
-      "summary": "Brokers are circulating a Phase 12 release at Meraas' Nad Al Sheba Gardens, with a 14 September channel briefing indicating that EOI would open. Public project-register aggregators identify 97 villas under NAS Estates L.L.C.; one lists 55 four-bedroom and 42 five-bedroom homes. Registry dates establish project identity, not the date sales open. This is a distinct phase opportunity in the existing community, with official availability, pricing and booking conditions still awaited.",
+      "launchWindow": "Broker-reported EOI opened 6 November 2026; allocation order, developer acceptance, current inventory and public sales opening remain unverified.",
+      "teaser": "A dated broker page reports Phase 12 EOI opening on 6 November for 4BR and 5BR villas.",
+      "summary": "A dated broker page reports that expressions of interest for Nad Al Sheba Gardens Phase 12 opened on 6 November 2026, with allocation ordered by payment time. It describes 4-bedroom villas from 4,795 sq ft and 5-bedroom villas from 5,650 sq ft, plus a 20/40/40 schedule ending with 40% on a broker-stated June 2030 handover. Meraas has not published an accessible phase-specific price list or sales notice, so the AED 13.7m and AED 15.5m figures remain attributed broker intelligence and current inventory is unknown.",
       "unitMix": [
         {
           "type": "4BR villa",
-          "note": "55 indicated by third-party registry aggregator; final sales mix unverified"
+          "sizeSqftFrom": 4795,
+          "sizeSqftTo": 4795,
+          "note": "Palmera broker page dated/currently indexed 7 November; developer pack not authenticated."
         },
         {
           "type": "5BR villa",
-          "note": "42 indicated by third-party registry aggregator; final sales mix unverified"
+          "sizeSqftFrom": 5650,
+          "sizeSqftTo": 5650,
+          "note": "Palmera broker page; developer pack not authenticated."
         }
       ],
-      "confidenceNote": "Medium: phase identity is supported by public register-derived records and broker coverage. NAS Estates L.L.C. is the registered entity shown by aggregators; Meraas is the marketed developer. No phase-specific developer price list or final EOI terms verified.",
-      "whatNext": "Phase-specific EOI terms, the sales date and official prices are awaited; subscribe on this page for confirmed updates.",
-      "seoTitle": "Nad Al Sheba Gardens Phase 12: Pre-Launch Watch | GRAF",
-      "seoDescription": "Track Meraas Nad Al Sheba Gardens Phase 12 in Dubai: broker EOI signals, register-derived villa mix and pending official prices and sales dates.",
+      "confidenceNote": "Medium: a dated broker page supports the 6 November EOI signal and villa layouts. Meraas has not published an accessible phase-specific announcement, price list or inventory statement, so all commercial terms remain broker intelligence.",
+      "whatNext": "Await Meraas confirmation of EOI acceptance, the public sales-opening date, current inventory, prices and contractual handover; subscribe for verified updates.",
+      "seoTitle": "Nad Al Sheba Gardens Phase 12: 6 November EOI Signal | GRAF",
+      "seoDescription": "A broker reports EOI open for Nad Al Sheba Gardens Phase 12, with 4BR and 5BR villas. Meraas prices, acceptance and inventory remain unverified.",
       "sources": [
         {
           "url": "https://www.dubairealestatedata.com/projects/nad-al-sheba-gardens-phase-12",
           "label": "Third-party DLD-register-derived phase identity and 97-unit count",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://www.lankea.com/en/projects/nad-al-sheba-gardens-phase-12",
-          "label": "Registry-derived 4BR/5BR villa split; not a launch announcement"
+          "label": "Registry-derived 4BR/5BR villa split; not a launch announcement",
+          "primary": false
         },
         {
           "url": "https://urbanvibe-re.ae/properties?type=apartment",
-          "label": "Broker collection includes Phase 12; pricing not developer-confirmed"
+          "label": "Broker collection includes Phase 12; pricing not developer-confirmed",
+          "primary": false
+        },
+        {
+          "url": "https://www.palmera.realestate/property/nad-al-sheba-gardens-phase-12/",
+          "label": "Broker page: 6 November EOI signal, villa layouts and reported terms; developer confirmation pending",
+          "date": "2026-11-06",
+          "primary": true
         }
-      ]
+      ],
+      "brokerPriceNote": "Palmera reports 4BR villas from AED 13.7m and 5BR villas from AED 15.5m, with EOI open from 6 November; no phase-specific Meraas price list was authenticated.",
+      "paymentPlan": "Broker-reported 20/40/40 within a 60/40 schedule; six construction instalments through June 2029 and 40% on handover. Developer confirmation pending.",
+      "handover": "June 2030 — broker-reported; contractual Meraas date not authenticated"
     },
     {
       "aliases": [],
@@ -3752,6 +3767,322 @@
       "published": true,
       "seoTitle": "SOL Terra Gardens JVC: Official Mix and 50/50 Plan | GRAF",
       "seoDescription": "SOL Terra Gardens in JVC District 11: studios, 1BR+study and 2BR+study homes, an official 20/30/50 schedule and Q4 2029 target. Prices remain unconfirmed."
+    },
+    {
+      "id": "sobha-the-woods-horizon",
+      "aliases": [],
+      "project": "The Woods Horizon",
+      "developer": "Sobha Realty",
+      "developerId": "sobha",
+      "emirate": "Dubai",
+      "location": "The Woods at Sobha Sanctuary, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "phase": "The Woods Horizon",
+      "launchWindow": "Official project page live; dated broker coverage places the release on 30 October 2026. The first sales-opening day and current inventory are unverified.",
+      "startingPrice": 1090000,
+      "pricePerSqft": null,
+      "priceConfirmed": true,
+      "confirmedBy": "https://sobharealty.com/properties-in-dubai/sobha-sanctuary/the-woods-horizon",
+      "brokerPriceNote": "A dated broker page reports a 20/40/40 schedule and Q4 2030 handover; those terms were not verified on the official page.",
+      "paymentPlan": null,
+      "handover": "Q4 2030 — broker-reported; contractual date not verified",
+      "teaser": "Sobha publishes 1BR and 2BR residences in The Woods at Sobha Sanctuary from AED 1.09m.",
+      "summary": "Sobha Realty has published The Woods Horizon, a collection of one- and two-bedroom apartments within The Woods at Sobha Sanctuary. The official page confirms prices from AED 1.09m and publishes layouts from 546.70 sq ft for a one-bedroom and 863.59 sq ft for a two-bedroom. A dated broker page places the release on 30 October and reports a Q4 2030 target, but the first sales-opening day, contractual handover and current unit availability remain unverified.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "sizeSqftFrom": 546.7,
+          "sizeSqftTo": 546.7,
+          "note": "Official published Type A total area."
+        },
+        {
+          "type": "2BR apartment",
+          "sizeSqftFrom": 863.59,
+          "sizeSqftTo": 963.8,
+          "note": "Official published Type A–C total-area range."
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "No official EOI terms found on the project page."
+      },
+      "whatNext": "Await confirmation of the first sales-opening date, current inventory, signed payment schedule and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on identity, location, product, floor-plan sizes and AED 1.09m starting price from Sobha; medium on the 30 October chronology and Q4 2030 target from dated broker coverage.",
+      "seoTitle": "The Woods Horizon by Sobha: 1BR and 2BR from AED 1.09m | GRAF",
+      "seoDescription": "The Woods Horizon at Sobha Sanctuary offers 1BR and 2BR apartments from AED 1.09m. Sales timing, inventory and contractual handover remain to be confirmed.",
+      "sources": [
+        {
+          "url": "https://sobharealty.com/properties-in-dubai/sobha-sanctuary/the-woods-horizon",
+          "label": "Official Sobha project page: product, layouts and AED 1.09m starting price",
+          "primary": true
+        },
+        {
+          "url": "https://www.augusta-properties.com/explore/sobha-the-woods-horizon",
+          "label": "Dated broker chronology and reported Q4 2030 target; checked 7 November 2026",
+          "date": "2026-10-30",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-07",
+      "updatedAt": "2026-11-07",
+      "published": true
+    },
+    {
+      "id": "damac-sorrento-lagoon-views",
+      "aliases": [
+        "damac-sorrento-lagoons"
+      ],
+      "project": "Sorrento Lagoon Views",
+      "developer": "DAMAC Properties",
+      "developerId": "damac",
+      "emirate": "Dubai",
+      "location": "DAMAC Lagoons, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "DAMAC introduced Sorrento Lagoon Views on 8 October 2026; broker EOI coverage followed on 13 October. Current developer inventory and the first public sales-opening day are unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Broker pages quote studios from AED 672k–680k and 1BR from about AED 1.26m. Payment schedules differ in presentation; no current developer price list or unit schedule was authenticated.",
+      "paymentPlan": null,
+      "handover": "Q1 2030 — broker/project portals; contractual DAMAC date not independently verified",
+      "teaser": "DAMAC has introduced lagoon-view studios and 1BR apartments at DAMAC Lagoons.",
+      "summary": "DAMAC introduced Sorrento Lagoon Views on 8 October 2026 as a studio and one-bedroom apartment collection at DAMAC Lagoons. Dated broker coverage says expressions of interest followed on 13 October, with circulating studio prices around AED 672,000–680,000 and one-bedroom prices around AED 1.26m. Because accessible broker pages differ on the detailed instalment presentation and current availability, the public price, payment plan, sales-opening day and inventory remain unconfirmed.",
+      "unitMix": [
+        {
+          "type": "Studio apartment",
+          "note": "Official DAMAC social introduction; sizes and current inventory unverified."
+        },
+        {
+          "type": "1BR apartment",
+          "note": "Official DAMAC social introduction; sizes and current inventory unverified."
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Broker pages quote AED 15k for studios and AED 20k for 1BR; refund and acceptance terms not developer-authenticated."
+      },
+      "whatNext": "Await a current DAMAC price list, signed EOI/payment terms, inventory statement and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on identity and studio/1BR product from DAMAC’s dated posts; medium on broker-reported EOI timing and lower on conflicting prices, payment presentation and inventory.",
+      "seoTitle": "Sorrento Lagoon Views by DAMAC: Launch Watch | GRAF",
+      "seoDescription": "DAMAC introduced Sorrento Lagoon Views with studios and 1BR apartments. Prices, EOI terms, sales opening and current inventory remain unverified.",
+      "sources": [
+        {
+          "url": "https://nitter.rdrama.net/damacofficial",
+          "label": "Mirror of official DAMAC posts dated 8–13 October: project introduction and product mix",
+          "date": "2026-10-08",
+          "primary": true
+        },
+        {
+          "url": "https://www.augusta-properties.com/explore/damac-sorrento-lagoon-views",
+          "label": "Broker EOI report dated 13 October; terms remain unconfirmed",
+          "date": "2026-10-13",
+          "primary": false
+        },
+        {
+          "url": "https://selectestatesinternational.com/dubai/projects/sorrento/",
+          "label": "Independent broker page with competing price and release details",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-07",
+      "updatedAt": "2026-11-07",
+      "published": true
+    },
+    {
+      "id": "tiger-maseel-phase-1-al-mairid",
+      "aliases": [],
+      "project": "Maseel Phase 1",
+      "developer": "Tiger Group",
+      "emirate": "Ras Al Khaimah",
+      "location": "Al Mairid waterfront, Ras Al Khaimah",
+      "parentId": "tiger-maseel-al-mairid",
+      "phase": "Phase 1",
+      "type": [
+        "apartments",
+        "townhouses",
+        "villas"
+      ],
+      "status": "broker-intelligence",
+      "launchWindow": "Multiple broker pages updated 3–6 November 2026 describe an EOI/pre-launch stage; Tiger has not published an accessible dated project announcement.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "brokerPriceNote": "Independent broker pages quote apartments from AED 580k and a range to about AED 5.78m. No Tiger price list, payment schedule or inventory statement was authenticated.",
+      "paymentPlan": null,
+      "teaser": "Brokers report EOI registration for a Tiger waterfront community in Al Mairid.",
+      "summary": "Multiple independent broker pages now describe Maseel Phase 1 as Tiger Group’s planned waterfront community in Al Mairid, Ras Al Khaimah. They report seven 16-storey residential buildings, apartments, townhouses and villas around a marina and beach, with EOI activity dated 3–6 November. One current promotion quotes a refundable AED 20,000 EOI and apartments from AED 580,000, while another listing says the official launch date, delivery timeline and final unit details are not yet released. No dated Tiger project page, price list or allocation notice was authenticated, so this remains broker intelligence.",
+      "unitMix": [
+        {
+          "type": "Studio apartment",
+          "note": "Broker-reported; final Tiger pack and inventory unverified."
+        },
+        {
+          "type": "1BR apartment",
+          "note": "Broker-reported; final Tiger pack and inventory unverified."
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Broker-reported; final Tiger pack and inventory unverified."
+        },
+        {
+          "type": "3BR townhouse",
+          "note": "Broker-reported; villas and other configurations also circulate without an authenticated final release."
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "DirectDXB reports a minimum AED 20,000, refundable before SPA and credited to purchase; developer acceptance and refund documentation not authenticated."
+      },
+      "whatNext": "Await Tiger’s dated project announcement, phase pack, EOI terms, official prices, payment plan, sales-opening date and inventory; subscribe for verified updates.",
+      "confidenceNote": "Medium on project identity, developer attribution and Al Mairid location across independent broker origins; low on commercial terms because no Tiger launch pack was authenticated and sales-status descriptions conflict.",
+      "seoTitle": "Maseel Phase 1 by Tiger: Al Mairid EOI Watch | GRAF",
+      "seoDescription": "Brokers report EOI registration for Maseel Phase 1 by Tiger in Al Mairid, RAK. Official prices, launch date, terms and inventory remain unconfirmed.",
+      "sources": [
+        {
+          "url": "https://www.lucretia-international.com/en/projects/tiger-maseel",
+          "label": "Broker page updated 6 November: location, scale and EOI-stage caveat",
+          "date": "2026-11-06",
+          "primary": true
+        },
+        {
+          "url": "https://www.directdxb.com/promotions",
+          "label": "Independent promotion dated 6 November: broker-reported EOI amount and unit types",
+          "date": "2026-11-06",
+          "primary": false
+        },
+        {
+          "url": "https://offplanmarket.ae/en/projects/maseel-phase-1",
+          "label": "Independent broker portal added 3 November: competing price and phase details",
+          "date": "2026-11-03",
+          "primary": false
+        },
+        {
+          "url": "https://tigerproperties.ae/",
+          "label": "Official Tiger homepage checked 7 November; no dated Maseel release found",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-07",
+      "updatedAt": "2026-11-07",
+      "published": true
+    },
+    {
+      "id": "rak-properties-lunara-the-strand",
+      "aliases": [],
+      "project": "Lunara on The Strand",
+      "developer": "RAK Properties",
+      "emirate": "Ras Al Khaimah",
+      "location": "The Strand, Marjan Beach District, Ras Al Khaimah mainland",
+      "parentId": "rak-properties-the-strand",
+      "phase": "First community / three buildings",
+      "type": [
+        "apartments",
+        "penthouses"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Originally announced 27 February 2026 with sales from 5 March; RAK Properties said on 6 November it plans to re-introduce Lunara and The Strand in early 2027.",
+      "startingPrice": 1280000,
+      "pricePerSqft": null,
+      "priceConfirmed": true,
+      "confirmedBy": "https://www.rakproperties.ae/news/rak-properties-announces-sales-for-lunara-on-the-strand-a-new-destination-community-at-marjan-beach/",
+      "paymentPlan": "40/60 in the official February 2026 factsheet; terms for the planned 2027 re-introduction may change",
+      "handover": "Q1 2029 — original February 2026 developer target; contractual date and 2027 release schedule to be reconfirmed",
+      "teaser": "Lunara’s 583-home first community is planned for re-release in early 2027.",
+      "summary": "RAK Properties says it is preparing to re-introduce The Strand and its first community, Lunara, in early 2027. This is a new pipeline update, not a first launch: Lunara was originally announced on 27 February 2026 with sales scheduled from 5 March. The official project comprises 583 one- to three-bedroom homes across three connected buildings, with original prices from AED 1.28m and a Q1 2029 completion target. RAK Properties has not yet published the 2027 release calendar, refreshed price list or current inventory.",
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "note": "Official project page; current 2027 release inventory unknown."
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Official February 2026 release; current 2027 release inventory unknown."
+        },
+        {
+          "type": "3BR penthouse",
+          "note": "One unit in original factsheet; current availability unknown."
+        }
+      ],
+      "whatNext": "Await RAK Properties’ 2027 re-release date, refreshed unit schedule, prices, payment terms and current availability; subscribe for verified updates.",
+      "confidenceNote": "High on identity, original launch, 583-home scale, product and early-2027 re-introduction from RAK Properties; current inventory and 2027 commercial terms are unknown.",
+      "seoTitle": "Lunara on The Strand: Early-2027 Re-Introduction Planned | GRAF",
+      "seoDescription": "RAK Properties plans to re-introduce Lunara on The Strand in early 2027. The 583-home community first launched in March 2026; refreshed terms are pending.",
+      "sources": [
+        {
+          "url": "https://www.rakproperties.ae/news/rak-properties-on-track-for-record-home-deliveries-by-end-of-year-as-developer-meets-period-of-change-and-challenge-with-sustained-performance-and-results/",
+          "label": "RAK Properties 6 November pipeline update: early-2027 re-introduction",
+          "date": "2026-11-06",
+          "primary": true
+        },
+        {
+          "url": "https://www.rakproperties.ae/news/rak-properties-announces-sales-for-lunara-on-the-strand-a-new-destination-community-at-marjan-beach/",
+          "label": "Original 27 February launch: 583 homes, March sales date, AED 1.28m and Q1 2029 target",
+          "date": "2026-02-27",
+          "primary": false
+        },
+        {
+          "url": "https://www.rakproperties.ae/our-properties/lunara/",
+          "label": "Official current project page: three buildings and 1–3BR product",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-07",
+      "updatedAt": "2026-11-07",
+      "published": true
+    },
+    {
+      "id": "rak-properties-four-seasons-residences-mina",
+      "aliases": [],
+      "project": "Four Seasons Resort and Residences Ras Al Khaimah at Mina",
+      "developer": "RAK Properties",
+      "emirate": "Ras Al Khaimah",
+      "location": "Mina, Ras Al Khaimah; exact island/plot and residential release boundary pending",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "RAK Properties said on 6 November 2026 that the first branded-residence release is expected to come to market in H1 2027.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "First Four Seasons residences at Mina are targeted for H1 2027.",
+      "summary": "RAK Properties has placed the first release of Four Seasons-branded residences at Mina in its H1 2027 launch pipeline. The developer’s 6 November update says the Four Seasons Resort and Residences Ras Al Khaimah at Mina is being readied for sales launch in the first half of next year. The residential unit mix, exact plot, prices, payment plan, EOI process, first sales day and contractual handover have not yet been published.",
+      "unitMix": [
+        {
+          "type": "Branded residence",
+          "note": "Developer confirms a residential component; configurations and count not yet published."
+        }
+      ],
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "No official EOI terms published."
+      },
+      "whatNext": "Await the official residence mix, plot, price list, EOI terms, sales date, payment plan and handover; subscribe for the launch pack.",
+      "confidenceNote": "High on developer, Four Seasons branding, Mina location and H1 2027 pipeline timing from RAK Properties; all residence-level commercial details remain unknown.",
+      "seoTitle": "Four Seasons Residences RAK at Mina: H1 2027 Launch Plan | GRAF",
+      "seoDescription": "RAK Properties is readying Four Seasons Resort and Residences Ras Al Khaimah at Mina for a first sales release in H1 2027. Terms remain pending.",
+      "sources": [
+        {
+          "url": "https://www.rakproperties.ae/news/rak-properties-on-track-for-record-home-deliveries-by-end-of-year-as-developer-meets-period-of-change-and-challenge-with-sustained-performance-and-results/",
+          "label": "RAK Properties 6 November pipeline update: first residence release expected H1 2027",
+          "date": "2026-11-06",
+          "primary": true
+        }
+      ],
+      "firstReported": "2026-11-07",
+      "updatedAt": "2026-11-07",
+      "published": true
     }
   ],
   "version": 1
