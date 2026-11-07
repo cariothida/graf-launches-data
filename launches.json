@@ -618,7 +618,7 @@
       "developer": "Meraas",
       "developerId": "meraas",
       "emirate": "Dubai",
-      "location": "Nad Al Sheba 1, Dubai",
+      "location": "Nad Al Sheba 1",
       "parentId": "nad-al-sheba-gardens",
       "phase": "Phase 12",
       "type": [
@@ -3775,7 +3775,7 @@
       "developer": "Sobha Realty",
       "developerId": "sobha",
       "emirate": "Dubai",
-      "location": "The Woods at Sobha Sanctuary, Dubai",
+      "location": "The Woods at Sobha Sanctuary",
       "type": [
         "apartments"
       ],
@@ -3840,7 +3840,7 @@
       "developer": "DAMAC Properties",
       "developerId": "damac",
       "emirate": "Dubai",
-      "location": "DAMAC Lagoons, Dubai",
+      "location": "DAMAC Lagoons",
       "type": [
         "apartments"
       ],
@@ -3902,7 +3902,7 @@
       "project": "Maseel Phase 1",
       "developer": "Tiger Group",
       "emirate": "Ras Al Khaimah",
-      "location": "Al Mairid waterfront, Ras Al Khaimah",
+      "location": "Al Mairid waterfront",
       "parentId": "tiger-maseel-al-mairid",
       "phase": "Phase 1",
       "type": [
@@ -3981,7 +3981,7 @@
       "project": "Lunara on The Strand",
       "developer": "RAK Properties",
       "emirate": "Ras Al Khaimah",
-      "location": "The Strand, Marjan Beach District, Ras Al Khaimah mainland",
+      "location": "The Strand, Marjan Beach District",
       "parentId": "rak-properties-the-strand",
       "phase": "First community / three buildings",
       "type": [
@@ -4045,7 +4045,7 @@
       "project": "Four Seasons Resort and Residences Ras Al Khaimah at Mina",
       "developer": "RAK Properties",
       "emirate": "Ras Al Khaimah",
-      "location": "Mina, Ras Al Khaimah; exact island/plot and residential release boundary pending",
+      "location": "Mina; exact island/plot and residential release boundary pending",
       "type": [
         "apartments"
       ],
