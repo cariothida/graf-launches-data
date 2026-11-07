@@ -1,3 +1,9 @@
+# Story format reaffirmed — 7 November 2026
+
+Alex reaffirmed that his launch cards are VERTICAL Stories, 1080x1920 (9:16), with large mobile-readable lettering. Keep the modest design refinements he likes; do not revert the cards to landscape. Reflow the layout rather than stretching a 1200x900 card. Use the approved portrait title scale and Story-safe margins; keep supporting details readable and move excess detail to the caption. Verify orientation and dimensions before every handoff. This instruction overrides all remaining historical landscape dimensions below.
+
+---
+
 # Approved portrait image update — 2 October 2026
 
 Alex's latest instructions: “S 07 and 08 also add design. Background either blank or building as you used. Add this for all future images and generate today like that”; “Размеры да сделай вытянутые ... в статус будет красиво”.
@@ -10,7 +16,7 @@ For future manual launch handoffs use elongated 1080x1920 (9:16) opaque JPEG ima
 
 Alex revoked automatic WhatsApp publishing on 1 October 2026. This section supersedes ALL automatic sending, queueing, scheduling and retry instructions below.
 
-Publish qualifying new launch information to the production website first and verify each matching live page. Then deliver each approved English launch caption directly to Alex in the morning conversation with its own verified, inspected opaque 1200x900 image displayed inline, a downloadable image link, a concise description and the matching live graf.ae launch URL. Alex publishes manually to his channel/Status. Prefer verified project imagery; otherwise use the established factual GRAF information card. Never invent buildings or logos. Retain original announcement dates and distinguish early announcement from sales opening. Unknown prices/terms remain unknown; explicitly hedge broker evidence, exclude public rumours and repeated unchanged announcements.
+Publish qualifying new launch information to the production website first and verify each matching live page. Then deliver each approved English launch caption directly to Alex in the morning conversation with its own verified, inspected opaque 1080x1920 portrait image displayed inline, a downloadable image link, a concise description and the matching live graf.ae launch URL. Alex publishes manually to his channel/Status. Prefer verified project imagery; otherwise use the established factual GRAF information card. Never invent buildings or logos. Retain original announcement dates and distinguish early announcement from sales opening. Unknown prices/terms remain unknown; explicitly hedge broker evidence, exclude public rumours and repeated unchanged announcements.
 
 Do not send/upload to WhatsApp, enqueue approved posts, trigger or retry the publisher. Keep whatsapp-queue.json empty (version 1, current briefingDate, posts []). Do not change workflows, secrets or release refs. Do not edit the workflow-owned ledger or mark a handoff as sent. Track drafts handed to Alex separately from confirmed publication. Reading WhatsApp chats and visible Status updates for research remains authorized; this publishing change does not cancel read-only research.
 
