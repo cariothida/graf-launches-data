@@ -2409,44 +2409,54 @@
     },
     {
       "id": "samana-collecta-world-islands",
-      "project": "SAMANA COLLECTA World Islands flagship (working name)",
-      "developer": "SAMANA Developers",
+      "project": "Maserati Island",
+      "developer": "SAMANA COLLECTA / SAMANA Developers",
       "emirate": "Dubai",
-      "location": "The World Islands, Dubai; exact island plot and mainland embarkation points not yet disclosed",
+      "location": "The World Islands, Dubai; exact island plot and mainland embarkation points not verified",
       "type": [
         "apartments",
         "villas"
       ],
       "status": "confirmed",
-      "launchWindow": "Announced 15 October 2026 under the new SAMANA COLLECTA brand; project-name and Italian brand-partner reveals are still to follow. Sales opening has not been confirmed.",
+      "launchWindow": "Maserati and SAMANA COLLECTA officially unveiled the project on 9 November 2026; actual sales-opening day and current availability remain unverified.",
       "startingPrice": null,
       "priceConfirmed": false,
-      "brokerPriceNote": "CEO interview and company release indicate expected entry-level homes below AED 2m and a target around AED 3,000/sq ft. These are advance indications, not a released developer price list or a confirmed starting price.",
+      "brokerPriceNote": "The 15 October pre-reveal CEO interview indicated entry-level homes below AED 2m and around AED 3,000 per sq ft. These were historical advance indications, not an authenticated price list for the newly named Maserati Island release.",
       "paymentPlan": null,
-      "handover": "CEO states a four-year contractual delivery commitment; the construction-start date and calendar completion date remain unconfirmed.",
+      "handover": "Residences expected to be ready starting in 2030, according to the 9 November brand announcement; contractual handover not verified.",
       "unitMix": [
         {
-          "type": "Studio to 4BR apartments",
-          "note": "840 branded residences announced; Italian luxury brand partner not yet named."
+          "type": "Studios and 1–4BR private-pool residences",
+          "note": "232 residences in the first release, within a masterplan of 840 branded residences."
         },
         {
-          "type": "Floating villas",
-          "note": "Seven announced."
+          "type": "Water villas",
+          "note": "Seven in the masterplan; first-release availability not verified."
         },
         {
           "type": "Tree villas",
-          "note": "Two announced; final specifications awaited."
+          "note": "Two in the masterplan; first-release availability not verified."
         }
       ],
-      "teaser": "SAMANA announces a World Islands flagship under its new COLLECTA brand.",
-      "summary": "SAMANA announced its COLLECTA premium brand and a World Islands flagship on 15 October 2026. The scheme is planned with 840 branded residences, seven floating villas and two tree villas, with apartments ranging from studios to four bedrooms. The Italian luxury partner, exact project name, island plot, sales-opening date and final prices/payment terms have not been disclosed.",
-      "whatNext": "Await the project and brand-partner reveal, exact island plot, sales-opening date, developer price list, payment/EOI schedule and dated delivery programme; subscribe for verified updates.",
-      "confidenceNote": "High confidence in the developer announcement, World Islands location and planned scope, supported by the brand teaser and a dated company release plus a CEO interview. This is a pre-launch announcement, not an open-sales claim. No identity link to another SAMANA island or hospitality project is asserted; COLLECTA is the brand, not a confirmed project name.",
+      "teaser": "Maserati branding confirmed; first release comprises 232 private-pool residences.",
+      "summary": "Maserati and SAMANA COLLECTA unveiled Maserati Island at The World Islands, Dubai, on 9 November 2026. The masterplan comprises 840 branded residences alongside seven water villas and two tree villas; its first release contains 232 private-pool residences in studio and one- to four-bedroom configurations. Carlo Colombo of A++ Studio curates the interiors, with Giorgetti Maserati Edition furnishings specified for residences and communal lounges. Residences are expected to be ready starting in 2030; official starting prices, payment and EOI terms, exact sales-opening day and current inventory have not been verified.",
+      "whatNext": "Await the official first-release price list, payment and reservation terms, exact island and embarkation details, current allocation and contractual delivery schedule; subscribe for verified updates.",
+      "confidenceNote": "High confidence in the Maserati partnership, official project name, masterplan scope, first-release mix and planned readiness from 2030: confirmed by Maserati's own 9 November 2026 media release and corroborating dated coverage. The masterplan and first release are distinct quantities. This updates the earlier SAMANA COLLECTA flagship record, preserving its ID and first-reported date; it is not a different island project or a claim that current units are available. Prices, reservation terms, actual sales opening, precise island plot and contractual handover remain unverified.",
       "sources": [
         {
-          "url": "https://www.samana-collecta.com/",
-          "label": "SAMANA COLLECTA official brand teaser: first project reveal imminent; coming soon",
+          "url": "https://www.media.stellantis.com/em-en/maserati/press/maserati-and-samana-collecta-unveil-maserati-island-the-first-maserati-residential-living-destination-an-exclusive-branded-island-in-the-worlds-islands-dubai",
+          "label": "Maserati / Stellantis official announcement: name, partnership, first release and readiness from 2030",
+          "date": "2026-11-09",
           "primary": true
+        },
+        {
+          "url": "https://www.zawya.com/en/projects/samana-collecta-brings-the-middle-easts-first-maserati-branded-residential-project-to-dubai-2127810",
+          "label": "Zawya Projects dated report corroborating project identity and developer",
+          "date": "2026-11-09"
+        },
+        {
+          "url": "https://www.samana-collecta.com/",
+          "label": "SAMANA COLLECTA official project brand website"
         },
         {
           "url": "https://www.pantimearabia.com/samana-launches-collecta-taking-its-next-growth-chapter-into-premium-real-estate/",
@@ -2462,10 +2472,11 @@
         }
       ],
       "firstReported": "2026-10-16",
-      "updatedAt": "2026-10-16",
+      "updatedAt": "2026-11-10",
       "published": true,
-      "seoTitle": "SAMANA COLLECTA World Islands: Pre-launch Watch | GRAF",
-      "seoDescription": "SAMANA announces a World Islands flagship with 840 branded residences and nine villas. Project name, brand partner, sales date and final prices awaited."
+      "seoTitle": "Maserati Island by SAMANA COLLECTA: First Release | GRAF",
+      "seoDescription": "Maserati Island at The World Islands: 232 private-pool homes in the first release. Official 9 November reveal; planned readiness from 2030.",
+      "pricePerSqft": null
     },
     {
       "id": "ays-kusto-aura-dubai-production-city",
