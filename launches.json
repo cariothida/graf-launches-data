@@ -3276,7 +3276,7 @@
     },
     {
       "id": "ardee-the-views-al-marjan-island",
-      "project": "The Views at Ardee Downtown",
+      "project": "Ardee Views",
       "developer": "Ardee Developments",
       "developerId": "ardee",
       "emirate": "Ras Al Khaimah",
@@ -3284,27 +3284,19 @@
       "type": [
         "apartments"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "5 November 2026 presentation, 7–11pm, in the launch invitation; actual sales opening unverified",
+      "status": "confirmed",
+      "launchWindow": "Company-issued Ardee Downtown / Ardee Views reveal dated 10 November 2026; actual sales opening unverified.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "brokerPriceNote": "Alnair quotes studios from AED 885,000; Throne Properties and Green Deck quote AED 888,000. These are broker/portal indications, not an authenticated developer price list.",
       "paymentPlan": null,
-      "teaser": "Brokers identify The Views for Ardee Downtown's 5 November presentation.",
-      "summary": "An Alnair invitation identifies The Views for a 5 November 2026 launch presentation; its linked Ardee-branded RSVP page confirms the Ardee Downtown masterplan event. Throne Properties and Green Deck independently market studios, one- and two-bedroom apartments at Ardee Downtown on Al Marjan Island. Ardee's own website distinguishes this precinct from the Fairmont-anchored Ardee Waterfront, but does not yet publish a The Views launch pack. Prices, EOI acceptance and actual sales opening are unverified, while broker handover dates conflict.",
+      "teaser": "Ardee confirms 652 homes in twin towers at Ardee Downtown.",
+      "summary": "Ardee's 10 November 2026 company statement introduces Ardee Views as twin residential towers with 652 homes on Al Marjan Island, Ras Al Khaimah. The towers form the gateway to Ardee Downtown and link it to the distinct Ardee Waterfront precinct. Planned amenities include a 40-metre pool, gym, club lounge and concierge services. The wider Downtown district is scheduled for phased delivery from 2030; a Views-specific contractual handover, official unit schedule, price list, payment and EOI terms, sales-opening day and available stock remain unverified.",
       "unitMix": [
         {
-          "type": "Studio",
-          "note": "Broker-reported; current developer unit schedule pending"
-        },
-        {
-          "type": "1BR",
-          "note": "Broker-reported; current developer unit schedule pending"
-        },
-        {
-          "type": "2BR",
-          "note": "Broker-reported; current developer unit schedule pending"
+          "type": "Residential home",
+          "note": "652 homes across twin towers confirmed; official bedroom mix not provided in the company release."
         }
       ],
       "eoi": {
@@ -3312,36 +3304,25 @@
         "refundable": null,
         "note": "Brokers advertise EOI, with inconsistent amounts by unit type. Developer acceptance, refund terms and allocation rules have not been authenticated."
       },
-      "whatNext": "Awaiting The Views' official launch pack and reconciled price, EOI, payment and handover terms; subscribe for confirmation.",
-      "confidenceNote": "Corroborated broker intelligence, not a confirmed sales opening. The RSVP supports a 5 November masterplan presentation; it does not authenticate every broker claim about The Views. Broker 50/50 post-handover terms remain unconfirmed; Q4 2029 and Q4 2030 handover claims conflict. Original dates of undated broker pages are unknown. The Dubai event venue is not the project's location.",
+      "whatNext": "Await the Views-specific official unit schedule, price list, reservation/payment terms, contractual handover and availability; subscribe for verified updates.",
+      "confidenceNote": "High on the company-confirmed Ardee Views name, 652-home count and Al Marjan Island location. Existing stable record retains earlier The Views reporting and firstReported. District-level delivery from 2030 is not a tower-specific contractual handover. Earlier studio prices and payment/EOI claims remain broker intelligence; no confirmed current inventory.",
       "sources": [
         {
-          "url": "https://alnair.ae/en/news/the-views-official-launch-by-ardee-developments",
-          "label": "The Views invitation: Thursday 5 November 2026; original publication date not established",
+          "url": "https://www.zawya.com/en/press-release/companies-news/ardee-launches-with-a-masterplan-exceeding-aed-15bln-and-unveils-ardee-downtown-2159278",
+          "date": "2026-11-10",
+          "label": "Company-issued Ardee Downtown and Ardee Views reveal",
           "primary": true
         },
         {
-          "url": "https://ardee.pixl.ae/e/ardee-downtown-launch/pixl",
-          "label": "Ardee-branded masterplan RSVP linked from invitation; 5 November 7–11pm"
-        },
-        {
           "url": "https://ardee.ae/",
-          "label": "Developer: distinct Ardee Downtown and Ardee Waterfront precincts"
-        },
-        {
-          "url": "https://throneproperties.ae/projects/the-views-by-ardee/",
-          "label": "Independent brokerage: The Views identity, unit mix and unconfirmed terms"
-        },
-        {
-          "url": "https://greendeck.org/property/the-views-by-ardee/",
-          "label": "Second brokerage: The Views identity and unconfirmed terms; page displays 18 October update"
+          "label": "Official developer identity and separate Downtown / Waterfront precincts"
         }
       ],
       "firstReported": "2026-10-29",
-      "updatedAt": "2026-10-29",
+      "updatedAt": "2026-11-11",
       "published": true,
-      "seoTitle": "The Views, Ardee Downtown: 5 November preview | GRAF",
-      "seoDescription": "Broker intelligence on The Views at Ardee Downtown, Al Marjan Island. A 5 November presentation is advertised; prices and sales opening await confirmation."
+      "seoTitle": "Ardee Views: 652 Homes at Ardee Downtown, Al Marjan | GRAF",
+      "seoDescription": "Ardee confirms twin towers with 652 homes on Al Marjan Island. Official prices, payment terms, sales opening and tower handover await verification."
     },
     {
       "id": "janu-al-marjan-island-residences",
@@ -3583,60 +3564,61 @@
     },
     {
       "id": "nakheel-palm-springs-jebel-ali",
-      "project": "Palm Springs (broker-reported)",
-      "developer": "Nakheel (broker-attributed)",
+      "project": "Palm Springs",
+      "developer": "Nakheel",
       "emirate": "Dubai",
-      "location": "Mainland Jebel Ali near Palm Jebel Ali; Hessyan First reported, exact plot unverified",
+      "location": "Southern Dubai, adjacent to Palm Jebel Ali; mainland community",
       "type": [
         "townhouses",
         "villas"
       ],
-      "status": "broker-intelligence",
-      "launchWindow": "Prelaunch reporting dated 28 October 2026; brokers expect a forthcoming release, official launch day unverified.",
+      "status": "confirmed",
+      "launchWindow": "Official masterplan unveiling dated 10 November 2026; actual first sales-opening day unverified.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "paymentPlan": null,
-      "summary": "Al Masdar Al Aqaari reported on 28 October 2026 that Nakheel is preparing Palm Springs, a mainland villa and townhouse community near Palm Jebel Ali and Sheikh Zayed Road. Separate brokerage sources describe three- and four-bedroom townhouses and four- and five-bedroom villas. Nakheel's accessible new-launch list does not confirm the project; the exact plot, official sales date, developer price list, reservation terms, payment plan and handover remain unverified. This is a corroborated prelaunch report, not a developer-announced sales opening.",
+      "summary": "Nakheel's 10 November 2026 announcement confirms Palm Springs, a 3.8 million sq m community beside Palm Jebel Ali in southern Dubai. The masterplan is planned for almost 50,000 residents across 15 neighbourhoods, with schools, a hospital and community leisure facilities. Nakheel's project page confirms three- and four-bedroom townhouses and four- and five-bedroom villas. Official current prices, payment and EOI terms, handover and available units remain unverified.",
       "sources": [
         {
-          "url": "https://masdarak.com/en/news-en/nakheel-plans-palm-springs-villa-and-townhouse-project-near-palm-jebel-ali/",
-          "date": "2026-10-28",
-          "label": "Dated preliminary property-news report; developer confirmation pending",
+          "url": "https://www.dubaiholding.com/en/media-hub/press-releases/nakheel-unveils-palm-springs-a-new-sustainable-community-beside-palm-jebel-ali",
+          "date": "2026-11-10",
+          "label": "Official Nakheel / Dubai Holding masterplan unveiling",
           "primary": true
         },
         {
-          "url": "https://hoomanjt.com/articles/palm-springs-nakheel-jebel-ali/",
-          "label": "Separate adviser review dated 29 October; unconfirmed terms and historical name distinction"
+          "url": "https://www.nakheel.com/en/new-launches/palm-springs",
+          "label": "Official project page: 3–4BR townhouses and 4–5BR villas"
         },
         {
-          "url": "https://ae.linkedin.com/company/aeontrisl",
-          "label": "Brokerage preview; original post date not established"
+          "url": "https://www.wam.ae/en/article/c36otgo-nakheel-unveils-38-million-sqm-palm-springs",
+          "date": "2026-11-10",
+          "label": "WAM corroboration"
         }
       ],
       "firstReported": "2026-11-05",
-      "updatedAt": "2026-11-05",
+      "updatedAt": "2026-11-11",
       "published": true,
-      "whatNext": "Await the authenticated developer launch pack, exact release identity, pricing, reservation conditions and current availability; subscribe for verified updates.",
-      "teaser": "Brokers report a mainland townhouse and villa community near Palm Jebel Ali.",
+      "whatNext": "Await the authenticated release price list, payment and reservation terms, handover schedule and current availability; subscribe for verified updates.",
+      "teaser": "Nakheel officially unveils Palm Springs beside Palm Jebel Ali.",
       "brokerPriceNote": "Al Masdar's preliminary report quotes townhouses around AED 3.8–3.9m and villas around AED 8–9m. A separate adviser reports lower estimates and conflicting payment and handover guidance. None is a verified developer price or current unit offer.",
-      "confidenceNote": "Moderate: separate reporting and brokerage sources support the prelaunch identity, but Nakheel has not been verified as formally announcing it. Exact plot, launch day, EOI acceptance, prices, payment, handover and inventory are unverified. Mainland location is reported; no island or beachfront ownership claim is established. Keep separate from the historical DAMAC Palm Springs tower.",
+      "confidenceNote": "High on the developer's 10 November masterplan announcement and official home configurations. LEED for Communities Platinum is precertification for the community, not certification of every villa. The reveal does not establish actual sales opening or current inventory. Earlier broker prices are not a verified current developer price list.",
       "unitMix": [
         {
           "type": "3BR townhouse",
-          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+          "note": "Confirmed on Nakheel's official project page; sizes and current prices unverified."
         },
         {
           "type": "4BR townhouse",
-          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+          "note": "Confirmed on Nakheel's official project page; sizes and current prices unverified."
         },
         {
           "type": "4BR villa",
-          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+          "note": "Confirmed on Nakheel's official project page; sizes and current prices unverified."
         },
         {
           "type": "5BR villa",
-          "note": "Preliminary broker-reported configuration; developer confirmation pending."
+          "note": "Confirmed on Nakheel's official project page; sizes and current prices unverified."
         }
       ]
     },
@@ -3689,40 +3671,60 @@
       "project": "SHIONE",
       "developer": "BEYOND Developments",
       "emirate": "Dubai",
-      "location": "Dubai Islands, Dubai",
+      "location": "SIORA, Island B, Dubai Islands",
       "type": [
-        "apartments"
+        "apartments",
+        "duplexes"
       ],
       "status": "confirmed",
-      "launchWindow": "Developer-invited unveiling on Monday 9 November 2026, from 5:00pm, at BEYOND Sales Gallery, Mina Rashid.",
+      "launchWindow": "Company-issued project launch announcement dated 10 November 2026, following the advertised 9 November unveiling.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "paymentPlan": null,
-      "teaser": "BEYOND previews Dubai Islands apartments ahead of its 9 November unveiling.",
-      "summary": "SHIONE is BEYOND's upcoming waterfront residential project at Dubai Islands. A developer invitation shared with GRAF announces its unveiling on 9 November 2026 from 5:00pm at BEYOND Sales Gallery in Mina Rashid. Prices, apartment configurations, sizes, payment plan and handover are not yet independently confirmed. This is an early project announcement; the invitation does not establish actual sales opening or current unit availability.",
-      "whatNext": "We will update prices and project details after the 9 November unveiling as official information becomes available; subscribe for verified updates.",
-      "confidenceNote": "Developer invitation confirms the project name, Dubai Islands location and scheduled unveiling. Apartment use is corroborated by public brokerage listings. Sea views for individual units, the precise plot, commercial terms, actual sales opening and available inventory remain unverified.",
+      "teaser": "BEYOND confirms 603 SHIONE residences at SIORA, Dubai Islands.",
+      "summary": "BEYOND's 10 November 2026 company release confirms SHIONE as the second residential project within SIORA on Island B, Dubai Islands. Two buildings of 21 and 20 storeys contain 603 residences: one- to three-bedroom apartments and three- and four-bedroom duplexes. The development includes wellness and leisure amenities and 14 retail and food-and-beverage units. Handover is scheduled for Q4 2030; official prices, payment and EOI terms, actual first sales-opening day and current unit availability remain unverified.",
+      "whatNext": "Await the official current price list, payment and reservation terms, signed handover schedule and available release inventory; subscribe for verified updates.",
+      "confidenceNote": "High on the company-issued 10 November identity, Island B location, two-building/603-home count, unit mix and scheduled Q4 2030 handover. A company launch announcement does not establish the first day of accepted bookings or current inventory. Prices shown on third-party or GRAF catalogue pages are not adopted without an authenticated current developer price list.",
       "sources": [
         {
-          "url": "https://www.luxhabitat.ae/developments/dubai/shione/",
-          "label": "Public brokerage corroboration: SHIONE by BEYOND, Dubai Islands apartments",
+          "url": "https://www.einpresswire.com/article/955793690/beyond-developments-launches-shione-an-aed-3-billion-twin-building-residential-community-at-siora-on-dubai-islands",
+          "date": "2026-11-10",
+          "label": "BEYOND Developments company-issued launch statement",
           "primary": true
         },
         {
-          "url": "https://beyonddevelopments.ae/",
-          "label": "BEYOND official developer identity; dated unveiling invitation shared directly with GRAF on 5 November 2026",
-          "primary": false
-        },
-        {
-          "url": "https://dxbpropy.ai/offplan/shione-dubai-islands-3653",
-          "label": "Public launch calendar corroborates 9 November unveiling; not sales-opening proof",
-          "primary": false
+          "url": "https://www.dxbrest.ae/en/details.php?id=5636",
+          "date": "2026-11-10",
+          "label": "Dubai real-estate news corroboration: 603 residences and Q4 2030"
         }
       ],
       "firstReported": "2026-11-05",
-      "updatedAt": "2026-11-05",
-      "published": true
+      "updatedAt": "2026-11-11",
+      "published": true,
+      "unitMix": [
+        {
+          "type": "1BR apartment",
+          "note": "Company-confirmed configuration; exact areas not verified."
+        },
+        {
+          "type": "2BR apartment",
+          "note": "Company-confirmed configuration; exact areas not verified."
+        },
+        {
+          "type": "3BR apartment",
+          "note": "Company-confirmed configuration; exact areas not verified."
+        },
+        {
+          "type": "3BR duplex",
+          "note": "Company-confirmed configuration; exact areas not verified."
+        },
+        {
+          "type": "4BR duplex",
+          "note": "Company-confirmed configuration; exact areas not verified."
+        }
+      ],
+      "handover": "Q4 2030 — developer's scheduled handover, not a verified signed contractual commitment"
     },
     {
       "id": "sol-terra-gardens",
