@@ -4096,6 +4096,222 @@
       "firstReported": "2026-11-07",
       "updatedAt": "2026-11-07",
       "published": true
+    },
+    {
+      "emirate": "Dubai",
+      "status": "confirmed",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-11-12",
+      "updatedAt": "2026-11-12",
+      "published": true,
+      "id": "dubai-south-cheval-south-bay",
+      "project": "Cheval South Bay",
+      "developer": "Dubai South / Cheval Collection",
+      "location": "South Bay, Dubai South Residential District",
+      "type": [
+        "apartments"
+      ],
+      "phase": "95 branded residences",
+      "launchWindow": "Agreement announced 11 November 2026; sales expected in 2027, according to Cheval's chief commercial officer.",
+      "paymentPlan": null,
+      "teaser": "95 branded residences announced at South Bay; sales expected in 2027.",
+      "summary": "Dubai South and Cheval Collection announced Cheval South Bay on 11 November 2026. The South Bay development will combine 95 furnished one-, two- and three-bedroom branded residences with 98 serviced hotel apartments, connected to the planned South Bay Mall. Cheval's chief commercial officer told The National that residence sales are expected in 2027. Prices, payment terms, EOI arrangements and current available units remain unverified; the planned 2030 opening is not a contractual residential handover date.",
+      "whatNext": "Await the residence price list, sales date, reservation and EOI terms, payment plan and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the signed agreement, location and residential mix from the company announcement. The 2027 sales expectation is attributed to Cheval's executive interview; no actual sales opening or current inventory is established.",
+      "unitMix": [
+        {
+          "type": "1BR branded residence"
+        },
+        {
+          "type": "2BR branded residence"
+        },
+        {
+          "type": "3BR branded residence",
+          "note": "95 branded residences in total. The separate 98 serviced hotel apartments are not counted as saleable branded residences."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/dubai-south-signs-agreement-with-cheval-collection-to-launch-cheval-south-bay-2194781",
+          "date": "2026-11-11",
+          "label": "Dubai South / Cheval Collection company announcement",
+          "primary": true
+        },
+        {
+          "url": "https://www.thenationalnews.com/business/property/2026/11/11/uks-cheval-collection-launches-new-dubai-project-in-expansion-push/",
+          "date": "2026-11-11",
+          "label": "Independent reporting and Cheval executive interview: expected 2027 sales",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "emirate": "Dubai",
+      "status": "confirmed",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-11-12",
+      "updatedAt": "2026-11-12",
+      "published": true,
+      "id": "arista-hq-elite",
+      "project": "HQ Elite",
+      "developer": "Arista Properties",
+      "location": "HQ by Arista, Al Furjan, Dubai",
+      "type": [
+        "offices"
+      ],
+      "parentId": "arista-hq-al-furjan",
+      "phase": "HQ Elite fitted-office collection",
+      "launchWindow": "Company release dated 11 November 2026 identifies the fitted-office collection within HQ; the concept was previously announced in July 2026.",
+      "paymentPlan": null,
+      "handover": "Q4 2027 developer target for HQ; contractual terms unverified",
+      "teaser": "Company identifies HQ Elite fitted offices within HQ in Al Furjan.",
+      "summary": "Arista's 11 November 2026 company release identifies HQ Elite as a limited collection of fully fitted offices within HQ in Al Furjan, with company-reported starting prices of AED 4 million. The wider HQ building comprises 48 Grade A offices across seven floors, designed by John R Harris, with completion targeted for Q4 2027. The HQ Elite concept was first mentioned in July, so this is a product and pricing update rather than a first-ever project announcement. The collection's exact office count, sizes, payment and EOI terms, actual sales-opening date and current availability remain unverified; no current official price list has been authenticated.",
+      "whatNext": "Await the HQ Elite office schedule, current official price list, reservation terms, payment plan and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the company-attributed fitted-office collection and its Al Furjan location. AED 4 million is the company's reported indication, not an authenticated current price list. The 48-office figure belongs to the whole HQ building, not specifically HQ Elite.",
+      "unitMix": [
+        {
+          "type": "Fully fitted office",
+          "note": "Exact HQ Elite office count and sizes not released in the reviewed company statement; HQ's 48 offices are the building-wide total."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/companies-news/arista-properties-introduces-hq-elite-elevating-the-boutique-office-experience-2201304",
+          "date": "2026-11-11",
+          "label": "Arista company release: HQ Elite collection and reported starting indication",
+          "primary": true
+        },
+        {
+          "url": "https://www.aristaproperties.com/press-releases/arista-properties-breaks-ground-on-hq-development",
+          "date": "2026-07-03",
+          "label": "Official Arista history: HQ Elite concept and HQ construction",
+          "primary": false
+        },
+        {
+          "url": "https://www.tradearabia.com/News/489558/Arista-unveils-exclusive-office-collection-at-LEED-Gold-certified-Dubai-tower",
+          "date": "2026-11-11",
+          "label": "Coverage of the same Arista statement, not independent source evidence",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "emirate": "Dubai",
+      "status": "confirmed",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-11-12",
+      "updatedAt": "2026-11-12",
+      "published": true,
+      "id": "palma-serenia-district-east-residence-2",
+      "project": "Serenia District — East Residence 2",
+      "developer": "Palma Development",
+      "location": "Serenia District, Jumeirah Islands, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "parentId": "palma-serenia-district",
+      "phase": "Phase 2 / East Residence 2",
+      "launchWindow": "Included in Palma's second-phase announcement dated 11 November 2026; actual first sales-opening date unverified.",
+      "paymentPlan": "60/40: 10% immediately, 10% after 30 days, four further 10% instalments, 40% on completion.",
+      "handover": "30 June 2030 anticipated completion; contractual handover unverified",
+      "teaser": "Phase 2 announcement: 2–4BR homes in a 25-storey Jumeirah Islands tower.",
+      "summary": "Palma's 11 November 2026 announcement names East Residence 2 as one of the two buildings in Serenia District's second phase at Jumeirah Islands. The 25-storey tower offers two-, three- and four-bedroom apartments ranging from 1,316 to 5,364 sq ft. The current official project page publishes a 60/40 payment schedule and anticipated completion on 30 June 2030. Starting prices, EOI terms, the actual first sales-opening date and current available units remain unverified; earlier East Residences marketing means the November announcement should not be read as proof of first-ever sales.",
+      "whatNext": "Await the current tower-specific price and unit schedule, reservation and EOI terms, sales-opening evidence and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the named building, mix, sizes and official published payment schedule. The 11 November company release is a phase announcement, not proof of first sales or today's available stock. Completion is a developer target.",
+      "unitMix": [
+        {
+          "type": "2BR",
+          "note": "Official overall tower size range 1,316 to 5,364 sq ft; bedroom-specific ranges not assigned."
+        },
+        {
+          "type": "3BR",
+          "note": "Official overall tower size range 1,316 to 5,364 sq ft; bedroom-specific ranges not assigned."
+        },
+        {
+          "type": "4BR",
+          "note": "Official overall tower size range 1,316 to 5,364 sq ft; bedroom-specific ranges not assigned."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/companies-news/palma-development-unveils-the-second-phase-of-serenia-district-in-jumeirah-islands-2216946",
+          "date": "2026-11-11",
+          "label": "Palma company release: second-phase East Residence 2 and 3",
+          "primary": true
+        },
+        {
+          "url": "https://palmadevelopment.ae/project/serenia-district-jumeirah-islands/east-residence-2/",
+          "label": "Official current tower page: mix, size range, 60/40 and anticipated completion",
+          "primary": false
+        },
+        {
+          "url": "https://palmaholding.com/east-residences-serenia-district/",
+          "date": "2026-03-11",
+          "label": "Earlier official East Residences editorial, retained for chronology",
+          "primary": false
+        }
+      ]
+    },
+    {
+      "emirate": "Dubai",
+      "status": "confirmed",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "firstReported": "2026-11-12",
+      "updatedAt": "2026-11-12",
+      "published": true,
+      "id": "palma-serenia-district-east-residence-3",
+      "project": "Serenia District — East Residence 3",
+      "developer": "Palma Development",
+      "location": "Serenia District, Jumeirah Islands, Dubai",
+      "type": [
+        "apartments"
+      ],
+      "parentId": "palma-serenia-district",
+      "phase": "Phase 2 / East Residence 3",
+      "launchWindow": "Included in Palma's second-phase announcement dated 11 November 2026; actual first sales-opening date unverified.",
+      "paymentPlan": "60/40: 10% immediately, 10% after 30 days, four further 10% instalments, 40% on completion.",
+      "handover": "30 June 2030 anticipated completion; contractual handover unverified",
+      "teaser": "Phase 2 announcement: 1–2BR homes in a 23-storey Jumeirah Islands tower.",
+      "summary": "Palma's 11 November 2026 announcement names East Residence 3 as one of the two buildings in Serenia District's second phase at Jumeirah Islands. The 23-storey tower offers one- and two-bedroom apartments ranging from 875 to 1,605 sq ft. The current official project page publishes a 60/40 payment schedule and anticipated completion on 30 June 2030. Starting prices, EOI terms, the actual first sales-opening date and current available units remain unverified; earlier East Residences marketing means the November announcement should not be read as proof of first-ever sales.",
+      "whatNext": "Await the current tower-specific price and unit schedule, reservation and EOI terms, sales-opening evidence and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the named building, mix, sizes and official published payment schedule. The 11 November company release is a phase announcement, not proof of first sales or today's available stock. Completion is a developer target.",
+      "unitMix": [
+        {
+          "type": "1BR",
+          "note": "Official overall tower size range 875 to 1,605 sq ft; bedroom-specific ranges not assigned."
+        },
+        {
+          "type": "2BR",
+          "note": "Official overall tower size range 875 to 1,605 sq ft; bedroom-specific ranges not assigned."
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/companies-news/palma-development-unveils-the-second-phase-of-serenia-district-in-jumeirah-islands-2216946",
+          "date": "2026-11-11",
+          "label": "Palma company release: second-phase East Residence 2 and 3",
+          "primary": true
+        },
+        {
+          "url": "https://palmadevelopment.ae/project/serenia-district-jumeirah-islands/east-residence-3/",
+          "label": "Official current tower page: mix, size range, 60/40 and anticipated completion",
+          "primary": false
+        },
+        {
+          "url": "https://palmaholding.com/east-residences-serenia-district/",
+          "date": "2026-03-11",
+          "label": "Earlier official East Residences editorial, retained for chronology",
+          "primary": false
+        }
+      ]
     }
   ],
   "version": 1
