@@ -919,15 +919,15 @@
         "penthouses"
       ],
       "status": "confirmed",
-      "launchWindow": "Officially launched on 7 October 2026.",
+      "launchWindow": "Grand unveiling held 11 November 2026; company sell-out report published 12 November. First actual sales day remains unverified.",
       "startingPrice": 1650000,
       "pricePerSqft": null,
       "priceConfirmed": true,
       "confirmedBy": "https://danubeproperties.com/portfolio/shahrukhz-residences/",
       "paymentPlan": "30/70: 30% during construction and 70% on handover",
       "handover": "Q4 2029",
-      "teaser": "Danube launches fully furnished waterfront homes from AED 1.65 million.",
-      "summary": "Danube officially launched Shahrukhz Residences on 7 October 2026 as a fully furnished waterfront tower in Dubai Maritime City. The official collection runs from studios to four-bedroom apartments and penthouses, with more than 40 amenities, a rooftop King’s Club and private-yacht access. Penthouses are designed by Gauri Khan.",
+      "teaser": "Danube reports its Gauri Khan-designed penthouses sold out at the 11 Novemberevent.",
+      "summary": "Danube’s 12 November 2026 statement reports that all Gauri Khan-designed penthouses at Shahrukhz Residences sold out during the 11 November grand unveiling at Coca-Cola Arena. This is a reported sales milestone within the existing Dubai Maritime City waterfront project, not a new project identity or proof that all apartments are sold. The current official page lists fully furnished studios,1–3 BR apartments and penthouses, starting atAED 1.65 million on 30/70 terms, withQ 4 2029 targeted completion. Current available units and the actual first sales-opening day remain unverified.",
       "unitMix": [
         {
           "type": "Studio apartment"
@@ -942,15 +942,12 @@
           "type": "3BR apartment"
         },
         {
-          "type": "4BR apartment"
-        },
-        {
           "type": "Penthouse",
           "note": "Interiors designed by Gauri Khan"
         }
       ],
-      "whatNext": "Sales are open; subscribe on this page for verified inventory and unit-specific availability updates.",
-      "confidenceNote": "High confidence: Danube’s official project page confirms the project name, location, unit mix, AED 1.65m starting price, 30/70 plan and Q4 2029 completion. Availability remains unit-specific.",
+      "whatNext": "Await verified current apartment inventory and unit-specific booking terms; subscribe for further confirmed sales updates.",
+      "confidenceNote": "High on the 12 November company-reported penthouse sales milestone and current official product details. The 11 November event was a grand unveiling, not established proof of the first sales day; remaining apartment availability is unknown.",
       "sources": [
         {
           "url": "https://danubeproperties.com/portfolio/shahrukhz-residences/",
@@ -969,10 +966,16 @@
           "label": "Khaleej Times launch report",
           "date": "2026-10-07",
           "primary": false
+        },
+        {
+          "url": "https://www.zawya.com/en/press-release/companies-news/shahrukhz-residences-by-danube-exclusive-gauri-khan-designed-penthouses-worth-5.35mln-each-sell-out-on-launch-day-2246499",
+          "label": "Danube12November company statement:11Novemberevent and penthouse sell-out",
+          "date": "2026-11-12",
+          "primary": false
         }
       ],
       "firstReported": "2026-09-19",
-      "updatedAt": "2026-10-08",
+      "updatedAt": "2026-11-13",
       "published": true,
       "seoTitle": "Shahrukhz Residences by Danube: Official Launch | GRAF",
       "seoDescription": "Danube launches fully furnished Shahrukhz Residences in Dubai Maritime City from AED 1.65m, with a 30/70 plan and Q4 2029 completion."
@@ -4312,6 +4315,100 @@
           "primary": false
         }
       ]
+    },
+    {
+      "id": "maf-lyra-ghaf-woods",
+      "aliases": [],
+      "project": "Lyra at Ghaf Woods",
+      "developer": "Majid Al Futtaim",
+      "emirate": "Dubai",
+      "location": "Ghaf Woods, Wadi Al Safa 4, Dubailand, near Global Village",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Company announcement dated 11 November 2026, published 12 November; actual first sales-opening date unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Company announcement specifies 348 one- and two-bedroom homes at Ghaf Woods.",
+      "summary": "Majid Al Futtaim’s company announcement dated 11 November 2026, published 12 November, introduces 348 one- and two-bedroom apartments at Lyra within Ghaf Woods in Dubailand. The offering includes coworking spaces, residents’ lounges, sky gardens and fitness facilities, with the planned Ghaf Woods Mall providing wider community context. Earlier broker marketing predates this announcement; the release does not establish the first sales-opening date or current available units. Official current prices, payment and EOI terms and contractual handover remain unverified.",
+      "unitMix": [
+        {
+          "type": "1BR apartment"
+        },
+        {
+          "type": "2BR apartment"
+        }
+      ],
+      "brokerPriceNote": "Brokers including Remington and Castilion advertise fromAED 1.19 m and 50/50; these are unconfirmed by an authenticated current developer pack. Earlier 349-home portal estimates differ from the 348-home company announcement.",
+      "whatNext": "Await the authenticated Lyra price list, booking and EOI conditions, payment milestones, contractual handover and current unit schedule; subscribe for verified updates.",
+      "confidenceNote": "High on developer-attributed announcement, Ghaf Woods identity and 348-home 1–2 BR mix. The generic official masterplan page does not yet identify Lyra; broker dates, prices,349-unit estimates and conflicting handovers are not adopted as official.",
+      "sources": [
+        {
+          "url": "https://uaenews247.com/2026/11/12/majid-al-futtaim-expands-ghaf-woods-residential-offering-with-launch-of-lyra/",
+          "label": "Company announcement dated11November, published12November:348homes and mix",
+          "date": "2026-11-11",
+          "primary": true
+        },
+        {
+          "url": "https://www.ghafwoods.com/en",
+          "label": "Official Ghaf Woods masterplan context, not a Lyra commercial pack",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-13",
+      "updatedAt": "2026-11-13",
+      "published": true
+    },
+    {
+      "id": "elevate-mondrian-beach-villa-edit-collection",
+      "aliases": [],
+      "project": "Mondrian Beach Villa — The Edit Collection",
+      "developer": "ELEVATE",
+      "emirate": "Ras Al Khaimah",
+      "location": "Mondrian Al Marjan Island Beach Residences, Al Marjan Island",
+      "type": [
+        "villas",
+        "duplexes"
+      ],
+      "status": "confirmed",
+      "parentId": "elevate-mondrian-al-marjan-island-beach-residences",
+      "phase": "The Edit Collection — five-bedroom Beach Villa",
+      "launchWindow": "Unveiled 1 November 2026; company release published 3 November 2026.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": "Company release reports 35/65; current signed terms unverified",
+      "teaser": "ELEVATE reports a five-bedroom beachfront villa release in The Edit Collection.",
+      "summary": "ELEVATE unveiled a five-bedroom duplex Mondrian Beach Villa on 1 November 2026, according to its 3 November company release. The home exceeds 8,470 sqft and includes a private pool, garden, direct beach access and two private parking spaces within Mondrian Al Marjan Island Beach Residences. The company described it as the final available residence in The Edit Collection at that time, quotingAED 50 million and 35/65 terms; today’s availability and an authenticated current price list remain unverified. This is a specific villa release within the existing development, not a new launch of the whole master project; EOI and contractual handover are unknown.",
+      "unitMix": [
+        {
+          "type": "5BR duplex beach villa",
+          "sizeSqftFrom": 8470,
+          "note": "Company says over8,470sqft; lower threshold, not exact surveyed area."
+        }
+      ],
+      "brokerPriceNote": "ELEVATE’s 3 November company release quotesAED 50 million; no authenticated current developer price list or current available-unit confirmation.",
+      "whatNext": "Await current availability, authenticated villa pricing, reservation and EOI conditions and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the company-attributed dated villa unveiling, location, five-bedroom mix and reported 35/65 terms. The final-available description is historical as of the release, not evidence of today’s stock.",
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/companies-news/elevate-unveils-aed-50mln-mondrian-beach-villa-final-residence-in-the-edit-collection-1886258",
+          "label": "ELEVATE company release:1Novemberevent,3Novemberpublication",
+          "date": "2026-11-03",
+          "primary": true
+        },
+        {
+          "url": "https://liveelevated.com/mondrian-al-marjan-island/",
+          "label": "Official Mondrian development identity and context",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-13",
+      "updatedAt": "2026-11-13",
+      "published": true
     }
   ],
   "version": 1
