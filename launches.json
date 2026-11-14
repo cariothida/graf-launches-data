@@ -4327,13 +4327,13 @@
         "apartments"
       ],
       "status": "confirmed",
-      "launchWindow": "Company announcement dated 11 November 2026, published 12 November; actual first sales-opening date unverified.",
+      "launchWindow": "Developer announcement published 12 November 2026; actual first sales-opening day unverified.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "paymentPlan": null,
       "teaser": "Company announcement specifies 348 one- and two-bedroom homes at Ghaf Woods.",
-      "summary": "Majid Al Futtaim’s company announcement dated 11 November 2026, published 12 November, introduces 348 one- and two-bedroom apartments at Lyra within Ghaf Woods in Dubailand. The offering includes coworking spaces, residents’ lounges, sky gardens and fitness facilities, with the planned Ghaf Woods Mall providing wider community context. Earlier broker marketing predates this announcement; the release does not establish the first sales-opening date or current available units. Official current prices, payment and EOI terms and contractual handover remain unverified.",
+      "summary": "Majid Al Futtaim’s own announcement, published on 12 November 2026, confirms 348 one- and two-bedroom apartments at Lyra within Ghaf Woods in Dubailand. The development includes coworking spaces, residents’ lounges, sky gardens and fitness facilities; the planned Ghaf Woods Mall is wider community context. Earlier broker marketing predates this publication, so it does not establish the first sales-opening day or current available units. Current official prices, payment and EOI terms and contractual handover remain unverified.",
       "unitMix": [
         {
           "type": "1BR apartment"
@@ -4344,13 +4344,19 @@
       ],
       "brokerPriceNote": "Brokers including Remington and Castilion advertise fromAED 1.19 m and 50/50; these are unconfirmed by an authenticated current developer pack. Earlier 349-home portal estimates differ from the 348-home company announcement.",
       "whatNext": "Await the authenticated Lyra price list, booking and EOI conditions, payment milestones, contractual handover and current unit schedule; subscribe for verified updates.",
-      "confidenceNote": "High on developer-attributed announcement, Ghaf Woods identity and 348-home 1–2 BR mix. The generic official masterplan page does not yet identify Lyra; broker dates, prices,349-unit estimates and conflicting handovers are not adopted as official.",
+      "confidenceNote": "High on the developer’s own confirmation of Lyra, the Ghaf Woods location and 348-home 1–2 BR mix. Older 349-unit portal estimates and broker commercial terms are not adopted as official; first sales day and current stock remain unverified.",
       "sources": [
+        {
+          "url": "https://www.majidalfuttaim.com/en/media-centre/press-releases/detail/2026/11/majid-al-futtaim-expands-ghaf-woods-residential-offering-with-launch-of-lyra",
+          "label": "Majid Al Futtaim official announcement published12 November2026:348 homes and1–2BR mix",
+          "date": "2026-11-12",
+          "primary": true
+        },
         {
           "url": "https://uaenews247.com/2026/11/12/majid-al-futtaim-expands-ghaf-woods-residential-offering-with-launch-of-lyra/",
           "label": "Company announcement dated11November, published12November:348homes and mix",
           "date": "2026-11-11",
-          "primary": true
+          "primary": false
         },
         {
           "url": "https://www.ghafwoods.com/en",
@@ -4359,7 +4365,7 @@
         }
       ],
       "firstReported": "2026-11-13",
-      "updatedAt": "2026-11-13",
+      "updatedAt": "2026-11-14",
       "published": true
     },
     {
@@ -4408,6 +4414,138 @@
       ],
       "firstReported": "2026-11-13",
       "updatedAt": "2026-11-13",
+      "published": true
+    },
+    {
+      "id": "hh-rosewood-residences-dubai-peninsula",
+      "aliases": [],
+      "project": "Rosewood Residences Dubai",
+      "developer": "H&H",
+      "emirate": "Dubai",
+      "location": "Dubai Peninsula, Jumeirah shoreline where Dubai Canal meets the Arabian Gulf",
+      "type": [
+        "apartments",
+        "villas"
+      ],
+      "status": "confirmed",
+      "parentId": "hh-dubai-peninsula",
+      "phase": "Rosewood residential collection",
+      "launchWindow": "H&H sales-opening announcement dated 10 November 2026; current unit availability unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "H&H announces Rosewood residence sales at Dubai Peninsula.",
+      "summary": "H&H’s 10 November 2026 announcement states that sales are underway at Rosewood Residences Dubai within Dubai Peninsula on Jumeirah’s shoreline. Rosewood’s own project page confirms a residential tower with 63 residences and five beachfront villas; H&H describes the villas as five-bedroom homes, with residences by Hopkins Architects, interiors by BANDA and villas by DENNISTON. H&H reports an average of AED 10,000 per sqft, which is not a starting unit price or an authenticated current price list. The operator’s 2029 opening plan is not a verified contractual residence handover; payment and EOI terms and today’s available units remain unknown.",
+      "unitMix": [
+        {
+          "type": "Branded residence",
+          "note": "Operator confirms63 tower residences; exact apartment bedroom mix not established."
+        },
+        {
+          "type": "5BR beachfront villa",
+          "note": "Five villas; five-bedroom configuration from H&H-attributed10November announcement."
+        }
+      ],
+      "brokerPriceNote": "H&H’s 10 November announcement reports average pricing of AED 10,000/sqft. This is an average, not a starting price or current unit quotation; numeric price fields remain null.",
+      "whatNext": "Await the current residence and villa price and availability schedules, payment and reservation terms and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the developer-attributed sales-opening announcement and operator-confirmed residential identity and count. Rosewood identifies H&H as development partner and Bright Start as owner. Actual first transaction date, today’s inventory and signed commercial terms remain unverified.",
+      "sources": [
+        {
+          "url": "https://www.emirates247.com/business/hhs-aed-30-billion-dubai-peninsula-development-takes-shape-home-to-five-world-renowned-hospitality-brands/7642",
+          "label": "H&H-attributed10November announcement: Rosewood sales now underway",
+          "date": "2026-11-10",
+          "primary": true
+        },
+        {
+          "url": "https://www.rosewoodhotels.com/en/dubai",
+          "label": "Official operator:63 residences and5 beachfront villas, planned2029 opening",
+          "primary": false
+        },
+        {
+          "url": "https://www.thenationalnews.com/in-focus/2026/11/10/dubai-peninsula-and-the-next-chapter-of-the-citys-coastline/",
+          "label": "H&H partnership feature with chairman: sales launch10November; not independent confirmation",
+          "date": "2026-11-10",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-14",
+      "updatedAt": "2026-11-14",
+      "published": true
+    },
+    {
+      "id": "aldar-the-canopies-sanctuary-yas-point",
+      "aliases": [],
+      "project": "The Canopies Sanctuary",
+      "developer": "Aldar Properties (broker-attributed phase)",
+      "emirate": "Abu Dhabi",
+      "location": "Yas Point, northern shore of Yas Island",
+      "type": [
+        "apartments"
+      ],
+      "status": "broker-intelligence",
+      "parentId": "aldar-the-canopies-yas-point",
+      "phase": "The Canopies Sanctuary release",
+      "launchWindow": "Brokers advertise 25 November 2026 broker access and 26 November public launch; appointment bookings from 16–17 November. Dates unconfirmed by an authenticated phase pack.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": "Broker-reported 55/45:5%booking+five 10%instalments+45%on handover; unconfirmed",
+      "teaser": "Brokers preview a 388-home Yas Point release for 25–26 November.",
+      "summary": "Sekenë and DealDeed previews updated 13 November 2026 describe The Canopies Sanctuary as a separate Aldar release at Yas Point on Yas Island, with 388 studios and one- to three-bedroom apartments across three buildings. Sekenë advertises broker launch access on 25 November and public launch on 26 November, with appointment bookings from 16–17 November; these are reported scheduled dates, not proof of open sales or guaranteed access. Brokers quote studios fromAED 1.66 million, a 55/45 payment structure with 5%booking and Q1 2031 expected completion. These figures, reservation conditions and delivery timing remain unconfirmed by an authenticated phase-specific developer pack; current availability is unknown.",
+      "unitMix": [
+        {
+          "type": "Studio"
+        },
+        {
+          "type": "1BR apartment"
+        },
+        {
+          "type": "2BR apartment"
+        },
+        {
+          "type": "2BR plus maid room"
+        },
+        {
+          "type": "3BR plus maid room and study"
+        }
+      ],
+      "brokerPriceNote": "Sekenë and DealDeed report studios fromAED 1.66 m and 1 BR fromAED 2.3 m; unconfirmed broker indications, not official current prices.",
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Brokers describe5%booking; no authenticated EOI/refund or allocation conditions."
+      },
+      "whatNext": "Await Aldar’s authenticated Sanctuary launch journey, phase factsheet, current price list, booking conditions and contractual completion terms; subscribe for verified updates.",
+      "confidenceNote": "Broker intelligence from two publishing origins, which may rely on the same circulated launch material rather than independent confirmations. Aldar’s July 2026 Canopies announcement confirms Yas Point context only and does not authenticate this phase, its 388 homes, commercial terms or future sales dates.",
+      "sources": [
+        {
+          "url": "https://www.sekene.com/off-plan/the-canopies-sanctuary-yas-island",
+          "label": "Independent agency preview updated13November:25–26November launch journey, mix and indications",
+          "date": "2026-11-13",
+          "primary": true
+        },
+        {
+          "url": "https://dealdeed.ae/the-canopies-sanctuary",
+          "label": "Separate introducer preview citing13November agent-circulated material; not an official release",
+          "date": "2026-11-13",
+          "primary": false
+        },
+        {
+          "url": "https://alnair.ae/en/news/the-canopies-sanctuary-preview-event",
+          "label": "Named Sanctuary broker preview invitation for12November at Conrad Dubai; event venue not project location",
+          "date": "2026-11-12",
+          "primary": false
+        },
+        {
+          "url": "https://www.aldar.com/en/news-and-media/aldar-launches-the-canopies-at-yas-point-bringing-nature-inspired-living-to-yas-island-s-northern-shore",
+          "label": "Official21July parent release:592 homes; separate from broker-described Sanctuary phase",
+          "date": "2026-07-21",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-14",
+      "updatedAt": "2026-11-14",
       "published": true
     }
   ],
