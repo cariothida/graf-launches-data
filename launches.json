@@ -1,3 +1,6 @@
+Warning: truncated output (original token count: 68619)
+Total output lines: 4669
+
 {
   "launches": [
     {
@@ -1791,1201 +1794,7 @@
       "pricePerSqft": null,
       "priceConfirmed": false,
       "brokerPriceNote": "Property Finder indicates an AED 1.1m launch price; Silver Oak lists AED 1.13m–4m. A developer-issued price list was not independently inspected.",
-      "paymentPlan": "Property Finder advertises 15% at launch, 34% during construction, 11% on handover and 40% post-handover; developer confirmation is awaited.",
-      "handover": "Q3 2029, portal/broker-indicated",
-      "teaser": "First presentation today for 92 fully furnished homes in Majan.",
-      "summary": "Broker and portal sources identify ETÉREA as a 92-home fully furnished residence by Zoya Developments in Majan, with one- to three-bedroom apartments. A dated invitation describes 8 October as the project’s first presentation and official commission announcement. Prices, payment terms and handover remain unconfirmed by an independently inspected developer sales pack.",
-      "unitMix": [
-        {
-          "type": "1BR apartment",
-          "sizeSqftFrom": 560,
-          "note": "Broker-listed; final developer schedule awaited"
-        },
-        {
-          "type": "2BR apartment",
-          "sizeSqftFrom": 790,
-          "note": "Broker-listed; final developer schedule awaited"
-        },
-        {
-          "type": "3BR apartment",
-          "sizeSqftFrom": 1826,
-          "sizeSqftTo": 1956,
-          "note": "Broker-listed; final developer schedule awaited"
-        }
-      ],
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "Presale/EOI status is reported, but the amount and refund terms were not verified."
-      },
-      "whatNext": "Await today’s presentation outcome, Zoya’s current price list, signed payment schedule and EOI terms; subscribe for verified updates.",
-      "confidenceNote": "Medium confidence: a dated first-presentation invitation, Property Finder project page, Propsearch identity and an independent broker corroborate the same project. No accessible dated developer project page or price list was inspected.",
-      "sources": [
-        {
-          "url": "https://alnair.ae/uk/news/etrea-by-zoya-exclusive-breakfast-experience",
-          "label": "Dated first-presentation invitation for 8 October 2026",
-          "date": "2026-10-07",
-          "primary": true
-        },
-        {
-          "url": "https://www.propertyfinder.ae/en/new-projects/zoya-developments/eterea",
-          "label": "Property Finder: location, unit mix and indicative commercial terms",
-          "primary": false
-        },
-        {
-          "url": "https://www.silveroakglobal.com/projects/et-rea-by-zoya-e9719052",
-          "label": "Independent broker corroboration: furnishing, sizes and price range",
-          "primary": false
-        },
-        {
-          "url": "https://propsearch.ae/dubai/eterea-by-zoya",
-          "label": "Propsearch building identity and estimated 92-unit count",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-08",
-      "updatedAt": "2026-10-08",
-      "published": true
-    },
-    {
-      "id": "samana-south-haven-2",
-      "parentId": "samana-south-haven",
-      "phase": "South Haven 2",
-      "project": "Samana South Haven 2",
-      "developer": "Samana Developers",
-      "emirate": "Dubai",
-      "location": "Saih Shuaib 2, Dubai Industrial City, Dubai",
-      "type": [
-        "apartments"
-      ],
-      "status": "broker-intelligence",
-      "launchWindow": "A dated broker notice says early access opened on 7 October 2026. The underlying project was already registered and visible before this sales event, so 7 October is not treated as its first trace.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "Property Finder and Augusta list prices from AED 599,000; Alnair’s 7 October early-access release quotes studios from AED 644,000, 1BR from AED 949,000 and 2BR from AED 1.31m. A current Samana price list was not independently inspected.",
-      "paymentPlan": "A current listing advertises 40% post-handover; the complete developer payment schedule was not verified.",
-      "handover": "Q2 2029, broker/DLD-registry indicated",
-      "teaser": "Early access opens for 137 homes in Dubai Industrial City.",
-      "summary": "A dated 7 October broker notice says early access is open for Samana South Haven 2 in Dubai Industrial City; this is a sales-stage update, not a claim that the registered project itself first appeared yesterday. DLD-linked sources describe 137 homes: 48 studios, 84 one-bedroom and five two-bedroom apartments. Prices, AED 40,000 EOI and post-handover terms remain broker indications pending Samana’s current sales pack.",
-      "unitMix": [
-        {
-          "type": "Studio",
-          "sizeSqftFrom": 344,
-          "sizeSqftTo": 369,
-          "note": "48 units; DLD-registry-linked broker data"
-        },
-        {
-          "type": "1BR apartment",
-          "sizeSqftFrom": 608,
-          "sizeSqftTo": 671,
-          "note": "84 units; DLD-registry-linked broker data"
-        },
-        {
-          "type": "2BR apartment",
-          "sizeSqftFrom": 1059,
-          "sizeSqftTo": 1085,
-          "note": "5 units; DLD-registry-linked broker data"
-        }
-      ],
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "Alnair reports AED 40,000 EOI; refundability and allocation terms await developer confirmation."
-      },
-      "whatNext": "Await Samana’s current price list, full payment plan, EOI refund terms and contractual handover; subscribe for verified updates.",
-      "confidenceNote": "Medium confidence: the 7 October early-access event is dated, while project identity, location, unit counts and Q2 2029 handover are corroborated by portal and DLD-linked sources. No accessible current Samana project page or price list was inspected.",
-      "sources": [
-        {
-          "url": "https://alnair.ae/en/news/early-access-opens-for-samana-south-haven-2-in-dubai",
-          "label": "Dated 7 October early-access and EOI report",
-          "date": "2026-10-07",
-          "primary": true
-        },
-        {
-          "url": "https://www.propertyfinder.ae/en/new-projects/samana-developers/samana-south-haven-2",
-          "label": "Property Finder project identity, location and indicative starting price",
-          "primary": false
-        },
-        {
-          "url": "https://www.augusta-properties.com/explore/samana-developers-samana-south-haven-2",
-          "label": "Licensed broker: DLD-linked 137-unit mix, handover and indicative price",
-          "primary": false
-        },
-        {
-          "url": "https://continentalclub.ae/project/samana-south-haven-2-dubai-industrial-city/",
-          "label": "DLD-registry-linked unit sizes and counts",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-08",
-      "updatedAt": "2026-10-08",
-      "published": true
-    },
-    {
-      "id": "burtville-bab-al-qasr-beach-resort-residence-77",
-      "project": "Bab Al Qasr Beach Resort Residence 77",
-      "developer": "Burtville Developments",
-      "emirate": "Abu Dhabi",
-      "location": "Bilshu'oum Street, beside Reem Central Park, Al Reem Island, Abu Dhabi",
-      "type": [
-        "apartments",
-        "duplexes",
-        "penthouses"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Official project launch and brokers briefing confirmed by Burtville. The announcement is datelined 1 October 2026 and was published on 5 October; the exact event day is not independently established. Earlier prelaunch marketing existed, so this is the formal unveiling, not a claim of first-ever sales.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "Impala's project page, checked 27 September 2026, advertises a base starting figure of AED 2.2m; Casadior advertises AED 2.37m. These are broker indications with different offer and inventory assumptions, not a verified current Burtville price list.",
-      "paymentPlan": "Impala reports 10/40/50, 20/40/40 and 30/40/30 alternatives, with incentives linked to the initial payment. Current developer schedules and offer eligibility are unverified.",
-      "handover": "Q4 2031, developer-stated target",
-      "teaser": "Burtville confirms a beachfront broker launch beside Reem Central Park.",
-      "summary": "Burtville has confirmed the official launch and brokers briefing for Bab Al Qasr Beach Resort Residence 77 on Al Reem Island, following earlier prelaunch marketing. The project offers fully furnished one- to three-bedroom residences and four- and five-bedroom duplex penthouses in three towers, with direct beach access and a connected Beach Club. Its location is on Bilshu'oum Street beside Reem Central Park; amenities include pools, a spa, fitness facilities, padel and a 650-metre walking and jogging track. The developer targets Q4 2031 handover; current prices, payment incentives and EOI terms still await a verified sales pack.",
-      "unitMix": [
-        {
-          "type": "1BR residence"
-        },
-        {
-          "type": "2BR residence"
-        },
-        {
-          "type": "3BR residence"
-        },
-        {
-          "type": "4BR duplex penthouse"
-        },
-        {
-          "type": "5BR duplex penthouse"
-        }
-      ],
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "No current developer-confirmed EOI amount or refundability terms inspected."
-      },
-      "whatNext": "Await the current Burtville price list, released inventory, signed payment schedule and EOI terms; subscribe for verified updates.",
-      "confidenceNote": "High on the official launch recap, exact location, furnished unit mix, beach access and Q4 2031 target. The 1 October release dateline and later publication dates do not establish an exact event day. Prices and payment options remain broker indications.",
-      "sources": [
-        {
-          "url": "https://burtville.com/en/projects/bab-al-qasr-beach-resort-residence-77/",
-          "label": "Burtville official project page: location, furnished unit mix, amenities and handover",
-          "primary": true
-        },
-        {
-          "url": "https://www.linkedin.com/posts/burtville-developments_we-were-delighted-to-welcome-our-valued-brokers-activity-7512493538979504128-Wv6t",
-          "label": "Burtville official launch and brokers briefing recap",
-          "primary": false
-        },
-        {
-          "url": "https://uaenews247.com/2026/10/05/burtville-unveils-bab-al-qasr-beach-resort-residence-77-in-abu-dhabi/",
-          "label": "Launch release datelined 1 October; article published 5 October",
-          "date": "2026-10-05",
-          "primary": false
-        },
-        {
-          "url": "https://impalarealestate.com/projects/bab-al-qasr-residence-77/",
-          "label": "Broker pricing and payment alternatives; not current developer confirmation",
-          "primary": false
-        },
-        {
-          "url": "https://maisondubai.com/projects/bab-al-qasr-residence-77",
-          "label": "Separate broker price indication",
-          "primary": false
-        },
-        {
-          "url": "https://dda-realestate.com/posts/bab-al-qasr-residence-77-a-beach-address-with-a-30-discount",
-          "label": "Earlier 24 August marketing: formal unveiling is not first-ever appearance",
-          "date": "2026-08-24",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-09",
-      "updatedAt": "2026-10-09",
-      "published": true
-    },
-    {
-      "id": "tarrad-lunara-tower-majan",
-      "project": "Lunara Tower",
-      "developer": "Tarrad Development",
-      "emirate": "Dubai",
-      "location": "Majan, Wadi Al Safa 3, Dubailand, Dubai; exact plot awaiting confirmation",
-      "type": [
-        "apartments"
-      ],
-      "status": "broker-intelligence",
-      "launchWindow": "Broker reports describe a 3 October 2026 teaser and EOI collection announced on 6 October. Alnair's dated 5 October report separately reports the upcoming project. No developer-confirmed sales-opening date has been established.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "Alnair's 5 October report indicates 1BR from AED 850,000 and 2BR from AED 1.2m; Augusta Properties and DirectDXB repeat these figures. No Tarrad price list has been independently verified. Propsearch's AED 85,000 field is not accepted as the full purchase price.",
-      "paymentPlan": "Takween Aldar lists 50% on booking / 50% upon handover; developer-confirmed schedule awaited.",
-      "handover": "Q1 2029 is indicated by Propsearch and Takween Aldar; contractual handover remains unconfirmed.",
-      "teaser": "Brokers report EOI collection for a 119-home Majan development.",
-      "summary": "Broker reports identify Lunara Tower by Tarrad Development in Majan, with a dated teaser followed by reported EOI collection on 6 October 2026. The proposed seven residential floors above ground level and two basements are described as containing 119 apartments: 105 one-bedroom homes and 14 two-bedroom homes with a study. Alnair separately identifies the upcoming project and circulating starting prices. This is an early-access report following earlier marketing, not a developer-confirmed first sales launch; exact plot, current inventory and commercial terms await confirmation.",
-      "unitMix": [
-        {
-          "type": "1BR apartment",
-          "sizeSqftFrom": 530,
-          "note": "Broker-reported; 105 homes indicated, final unit schedule unconfirmed"
-        },
-        {
-          "type": "2BR apartment with study",
-          "note": "Broker-reported; 14 homes indicated, final unit schedule unconfirmed"
-        }
-      ],
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "Augusta Properties and DirectDXB date reported EOI collection to 6 October 2026 and indicate at least three months before unit allocation/escrow processing. No developer-confirmed EOI amount, refund policy or escrow status has been verified."
-      },
-      "whatNext": "Await Tarrad's dated sales pack, exact plot, confirmed unit schedule and EOI/escrow terms; subscribe for verified updates.",
-      "confidenceNote": "Medium: dated broker reports and Propsearch agree on project/developer/location; the 6 October EOI report is broker intelligence. Augusta/DirectDXB/DubaiVastgoed reproduce matching offer text and are not counted as independent origins. Alnair and Propsearch provide separate identity corroboration. Office units in some broker copy are unresolved and excluded from the confirmed product description.",
-      "sources": [
-        {
-          "url": "https://www.augusta-properties.com/explore/tarrad-lunara-tower",
-          "label": "Broker page: dated 3 October teaser and 6 October EOI report",
-          "date": "2026-10-06",
-          "primary": true
-        },
-        {
-          "url": "https://alnair.ae/en/news/lunara-tower-by-tarrad-development-is-coming-to-majan-dubai",
-          "label": "Separate 5 October upcoming-project report and broker price indications",
-          "date": "2026-10-05",
-          "primary": false
-        },
-        {
-          "url": "https://propsearch.ae/dubai/lunara-tower",
-          "label": "Portal identity/location and indicative completion; first trace is not a launch date",
-          "primary": false
-        },
-        {
-          "url": "https://takweenaldar.ae/en/off-plan/project/lunara-tower",
-          "label": "Broker listing: presale stage, furnishing, payment split and indicative completion",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-10",
-      "updatedAt": "2026-10-10",
-      "published": true
-    },
-    {
-      "id": "cosmo-marlin-icon-al-reem-island",
-      "project": "Marlin Icon",
-      "developer": "Cosmo Developments, powered and managed by Reportage Group",
-      "emirate": "Abu Dhabi",
-      "location": "Canal-front Al Reem Island, Abu Dhabi; exact sales plot coordinates unverified",
-      "type": [
-        "apartments",
-        "duplexes",
-        "penthouses"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Company-attributed announcement published 19 October 2026, following broker-reported 13 October EOI and a 16 October event invitation. Actual sales-opening date remains unverified.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "Alnair's 13 October broker-channel announcement indicates 2BR from AED 1.63m, 3BR from AED 2.51m and 4BR from AED 4.22m. No developer price list was independently inspected.",
-      "paymentPlan": "Broker-reported options include 10%, 20% or 30% down with 1% monthly instalments, plus lump-sum alternatives. Discounts, final balance, conditions and the complete signed schedule are unverified.",
-      "handover": "Q4 2030, broker-advertised; contractual handover unverified",
-      "unitMix": [
-        {
-          "type": "2BR apartment",
-          "note": "Official factsheet: 65 residences"
-        },
-        {
-          "type": "2BR Plus apartment",
-          "note": "Official factsheet: 30 residences"
-        },
-        {
-          "type": "3BR apartment",
-          "note": "Official factsheet: 35 residences"
-        },
-        {
-          "type": "3BR duplex",
-          "note": "Official factsheet: 2 residences"
-        },
-        {
-          "type": "4BR residence",
-          "note": "Official factsheet: 8 residences; floorplans also illustrate duplex and penthouse configurations"
-        }
-      ],
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "Alnair reports AED 50,000 EOI; refundability, payment recipient, escrow and allocation conditions were not independently verified."
-      },
-      "teaser": "Official project pack confirms 140 canal-front homes on Al Reem Island.",
-      "summary": "Cosmo Developments has officially unveiled Marlin Icon, a 140-residence canal-front development on Al Reem Island, powered and managed by Reportage Group. The official brochure and factsheet confirm 2–4-bedroom residences and duplexes, four retail units and 226 parking spaces across three basements, ground level, four podiums and 21 upper floors. Reportage lists the project as available, but a current unit-level inventory and the actual sales-opening date have not been independently verified. Previously circulated prices, payment options and Q4 2030 delivery remain broker indications.",
-      "whatNext": "Await the official price list, complete payment schedule, contractual delivery date and current unit inventory; subscribe for verified updates.",
-      "confidenceNote": "High confidence in official identity, 140-home scheme and brochure/factsheet mix. The official page's summary mentions 1–4BR, but the detailed tables and plans inspected contain no 1BR units; the 2–4BR schedule is used here. The HTML page also contains stale Vista 3 figures and map, so those are excluded. Official available marketing is not proof of today's individual-unit stock or an exact opening day.",
-      "sources": [
-        {
-          "url": "https://reportagegroup.com/wp-content/uploads/UAE_MARLINICON_FACTSHEET_V1-1.pdf",
-          "label": "Official Marlin Icon factsheet: 140 homes, unit schedule, plot and building configuration",
-          "primary": true
-        },
-        {
-          "url": "https://reportagegroup.com/wp-content/uploads/UAE_MARLINICON_BROCHURE_V1-1-1.pdf",
-          "label": "Official Marlin Icon brochure; detailed mix and amenities",
-          "primary": false
-        },
-        {
-          "url": "https://www.tradearabia.com/News/488207/Cosmo-unveils-140-unit-waterfront-development-on-Al-Reem-Island",
-          "label": "Dated company-attributed announcement and management statement",
-          "date": "2026-10-19",
-          "primary": false
-        },
-        {
-          "url": "https://reportagegroup.com/project-listing/",
-          "label": "Official listing marks Marlin Icon available; not a live unit inventory",
-          "primary": false
-        },
-        {
-          "url": "https://alnair.co.th/en/news/reportage-properties-cosmo-developments-are-launching-marlin-icon-on-al-reem-island-early-eoi-starts-at-aed-50k",
-          "label": "Alnair dated 13 October pre-sale / EOI report; regional copy of the same source",
-          "date": "2026-10-13",
-          "primary": false
-        },
-        {
-          "url": "https://theupsides.ae/projects/marlin-icon-abu-dhabi",
-          "label": "Broker project identity, 140 homes, canal-front location and preliminary payment options",
-          "primary": false
-        },
-        {
-          "url": "https://www.lucretia-international.com/en/projects/reportage-properties-marlin-icon",
-          "label": "Broker product/identity corroboration; formal launch date not set",
-          "primary": false
-        },
-        {
-          "url": "https://t.me/alnairae/6966",
-          "label": "Alnair public invitation: Marlin Icon event 16 October 2026, Conrad Abu Dhabi",
-          "date": "2026-10-16",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-14",
-      "updatedAt": "2026-10-20",
-      "published": true,
-      "seoTitle": "Marlin Icon Al Reem Island: Official Project Update | GRAF",
-      "seoDescription": "Cosmo and Reportage confirm Marlin Icon: 140 canal-front residences on Al Reem Island. Official prices, delivery and current unit stock await verification."
-    },
-    {
-      "id": "tomorrow-world-the-bay-interiors-by-missoni",
-      "project": "The Bay Interiors by Missoni",
-      "developer": "Tomorrow World Real Estate Development",
-      "emirate": "Dubai",
-      "location": "Main yacht marina, Island A, Dubai Islands, Dubai; adjacent to the yacht club",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Company announcement dated 15 October 2026 confirms entry into pre-launch; the public sales-opening date has not been announced.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "Channel-partner site bayinteriorsbymissoni.com and Luxwell quote from AED 2.75m, 50/50 payments and September 2029 completion. The site expressly identifies itself as a channel partner, not the developer. No current Tomorrow World/OCTA price list was inspected; other broker previews conflict on payment and delivery.",
-      "paymentPlan": null,
-      "unitMix": [
-        {
-          "type": "2BR apartment",
-          "note": "OCTA official project page confirms 2–4BR and 132 residences"
-        },
-        {
-          "type": "3BR apartment",
-          "note": "OCTA official project page"
-        },
-        {
-          "type": "4BR apartment",
-          "note": "OCTA official project page"
-        }
-      ],
-      "teaser": "Official pre-launch confirmation for Missoni-interior homes on Island A's marina.",
-      "summary": "Tomorrow World and Missoni announced The Bay's pre-launch on 15 October 2026. The company release confirms a position directly on Island A's main marina, beside the yacht club, and a preliminary collection of two- and three-bedroom residences plus signature penthouses. OCTA's project listing describes 132 two- to four-bedroom homes; the exact released inventory and official commercial terms remain awaited.",
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "One broker preview quotes AED 50,000 EOI; no official EOI conditions or refundability verified."
-      },
-      "whatNext": "Await the official sales-opening date, released unit schedule, developer price list and signed payment/EOI and handover terms; subscribe for verified updates.",
-      "confidenceNote": "High confidence in official pre-launch confirmation and marina location from the dated company release quoting Tomorrow World, Missoni and OCTA. This is not confirmation that public sales are open. The release describes 2–3BR plus penthouses, while OCTA's wider listing describes 2–4BR; exact released unit mix, prices, EOI, payment and contractual handover remain unconfirmed.",
-      "sources": [
-        {
-          "url": "https://gulfnews.com/gn-focus/company-news/tomorrow-world-properties-and-missoni-announce-the-bay-interiors-by-missoni-on-dubai-islands-1.500711530",
-          "label": "15 October company announcement quoting Tomorrow World, Missoni and OCTA: pre-launch collection and marina position",
-          "date": "2026-10-15",
-          "primary": true
-        },
-        {
-          "url": "https://www.octa.ae/projects/the-bay",
-          "label": "OCTA official coming-soon project: 132 homes, 2–4BR, handover TBC",
-          "primary": false
-        },
-        {
-          "url": "https://sales.tomorrowworldgroup.ae/",
-          "label": "Tomorrow World official portfolio lists The Bay as coming soon",
-          "primary": false
-        },
-        {
-          "url": "https://t.me/s/alnairae",
-          "label": "Alnair public broker channel: invitation for 15 October 2026",
-          "primary": false
-        },
-        {
-          "url": "https://insidersofdubai.com/projects/tomorrow-world-real-estate/the-bay-interiors-by-missoni",
-          "label": "Broker preview: marina plot, indicative price and internally conflicting commercial terms",
-          "primary": false
-        },
-        {
-          "url": "https://www.lucretia-international.com/en/projects/octa-properties-the-bay-interiors-by-missoni",
-          "label": "Broker marina/product corroboration and conflicting delivery fields",
-          "primary": false
-        },
-        {
-          "url": "https://bayinteriorsbymissoni.com/",
-          "label": "Channel-partner project page; expressly not a developer source; indicative terms only",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-14",
-      "updatedAt": "2026-10-16",
-      "published": true,
-      "seoTitle": "The Bay Interiors by Missoni: Official Pre-launch | GRAF",
-      "seoDescription": "Tomorrow World confirms The Bay's pre-launch on Dubai Islands' main marina. Missoni interiors; official sales date, prices and payment terms awaited."
-    },
-    {
-      "id": "samana-downtown-one",
-      "project": "SAMANA Downtown One",
-      "developer": "SAMANA Developers",
-      "emirate": "Dubai",
-      "location": "Downtown Jebel Ali, Jebel Ali Industrial 2, Dubai; Sheikh Zayed Road corridor with nearby Metro access",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Official developer launch article dated 13 October 2026; Alnair reports early EOI access on 14 October. Separate formal event date not verified.",
-      "startingPrice": 689000,
-      "priceConfirmed": true,
-      "confirmedBy": "https://www.samanadevelopers.com/blogs/samana-downtown-one-premium-apartments-in-downtown-jebel-ali-with-1-monthly-payments",
-      "pricePerSqft": null,
-      "paymentPlan": "Official PDC plan: 10% down, 1% monthly for 80 months, plus 5% in month 6 and 5% in month 12. Non-PDC: 15% down, 1% monthly for 75 months, plus the same two 5% payments. Each totals 100%; eligibility and exact unit-specific dates apply.",
-      "handover": "December 2029, developer's expected handover; contractual dates subject to the SPA",
-      "unitMix": [
-        {
-          "type": "Studio",
-          "note": "Developer-confirmed; from AED 689,000, subject to availability"
-        },
-        {
-          "type": "1BR apartment",
-          "note": "Developer-confirmed; selected layouts include a store"
-        },
-        {
-          "type": "2BR apartment",
-          "note": "Developer-confirmed; selected layouts include a store"
-        }
-      ],
-      "eoi": {
-        "amount": null,
-        "refundable": null,
-        "note": "Alnair's 14 October report quotes AED 40,000 EOI. Developer-issued refund, recipient, escrow and allocation conditions not independently inspected."
-      },
-      "teaser": "Official studios from AED 689,000 with extended 1% monthly payment options.",
-      "summary": "SAMANA's 13 October 2026 release identifies Downtown One as a new residential launch in Downtown Jebel Ali, with studios and one- and two-bedroom apartments. Studios start at AED 689,000, subject to availability, and expected handover is December 2029. Official plans offer 10% down with post-dated cheques or 15% without, followed by monthly instalments and two additional 5% payments. Alnair reports EOI access on 14 October; the AED 40,000 EOI remains broker-reported.",
-      "whatNext": "Await unit-specific inventory, dated contractual payment and handover schedules, and developer-issued EOI conditions; subscribe for verified updates.",
-      "confidenceNote": "High confidence in identity, starting studio price, payment structures and expected delivery from the developer's dated release and project page. Medium confidence in the broker-reported EOI. Downtown Jebel Ali is not Downtown Dubai; exact walking route to the Metro must be checked. Post-handover instalments do not guarantee that rental income covers payments.",
-      "sources": [
-        {
-          "url": "https://www.samanadevelopers.com/blogs/samana-downtown-one-premium-apartments-in-downtown-jebel-ali-with-1-monthly-payments",
-          "label": "SAMANA official dated launch release, price, payment plans and expected handover",
-          "date": "2026-10-13",
-          "primary": true
-        },
-        {
-          "url": "https://www.samanadevelopers.com/projects/samana-downtown-one",
-          "label": "Official project identity, amenities, residential layouts and location",
-          "primary": false
-        },
-        {
-          "url": "https://alnair.ae/en/news/early-access-opens-for-samana-downtown-one-in-dubai",
-          "label": "Alnair dated 14 October EOI report",
-          "date": "2026-10-14",
-          "primary": false
-        },
-        {
-          "url": "https://www.silveroakglobal.com/projects/samana-downtown-one-1c7d93c3",
-          "label": "Independent broker identity/product corroboration; not used to confirm total unit count",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-15",
-      "updatedAt": "2026-10-15",
-      "published": true,
-      "seoTitle": "SAMANA Downtown One: Jebel Ali Launch & Payment Plans | GRAF",
-      "seoDescription": "SAMANA confirms Downtown One studios from AED 689,000, 10% or 15% down and monthly plans. Expected December 2029 handover; broker EOI conditions pending."
-    },
-    {
-      "id": "emirates-waterfront-by-missoni-al-reem",
-      "project": "Waterfront by Missoni",
-      "developer": "Emirates Developments",
-      "emirate": "Abu Dhabi",
-      "location": "Shams Abu Dhabi, Al Reem Island",
-      "type": [
-        "apartments",
-        "penthouses"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Company announcement dated 19 October 2026; actual sales-opening date not verified.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "brokerPriceNote": "Alnair's 16 October EOI report and Casadior/Maison Dubai quote 1BR from AED1.90m, 2BR from AED2.60m, 3BR from AED5.50m and 4BR from AED8.50m. Broker indications, not a developer price list. Earlier AED1.5m market context is not a verified project entry price.",
-      "paymentPlan": null,
-      "unitMix": [
-        {
-          "type": "1–4BR apartments",
-          "note": "Unit types confirmed in the company-issued 19 October announcement; individual type counts remain broker-reported."
-        },
-        {
-          "type": "5BR penthouses",
-          "note": "Company announcement places the penthouses on the 38th floor; exact count not independently confirmed."
-        }
-      ],
-      "teaser": "Company announcement confirms 250 Missoni-interior homes on Al Reem Island.",
-      "summary": "Emirates Developments has announced Waterfront by Missoni, a 250-home freehold tower in Shams Abu Dhabi on Al Reem Island. The company release dated 19 October 2026 describes one- to four-bedroom apartments and five-bedroom penthouses on the 38th floor, with interiors styled under Missoni's creative direction. It reports direct beach access, canal and sea frontage, and expected completion in Q2 2030. Developer-confirmed starting prices, payment terms and the actual sales-opening date remain unverified.",
-      "whatNext": "Await the official price list, complete floor plans, reservation contract, payment schedule and current release details; subscribe for verified updates.",
-      "confidenceNote": "High on the company-announced identity, location, 250-home total and unit types. The 19 October company-issued release is the source for the Missoni partnership and expected Q2 2030 completion; separate brand-side confirmation and contractual delivery documents were not found. Existing broker prices, EOI and payment indications remain unconfirmed. This is distinct from Tomorrow World's The Bay Interiors by Missoni on Dubai Islands.",
-      "sources": [
-        {
-          "url": "https://eurozone.einnews.com/pr_news/950649529/missoni-and-emirates-developments-partner-to-launch-waterfront-by-missoni",
-          "label": "Company-issued release distributed by Publsh Marketing: project facts and expected completion",
-          "date": "2026-10-19",
-          "primary": true
-        },
-        {
-          "url": "https://alnair.ae/en/news",
-          "label": "16 October broker EOI report with new indicative terms",
-          "date": "2026-10-16",
-          "primary": false
-        },
-        {
-          "url": "https://maisondubai.com/projects/waterfront-by-missoni",
-          "label": "Independent Casadior broker corroboration: EOI100k, 5/35/60 and Q2 2030",
-          "primary": false
-        },
-        {
-          "url": "https://events.emiratesdevelopments.tech/missoni-briefing?ref=victoria-samus",
-          "label": "Developer-branded registration: 15 October briefing and event timetable",
-          "date": "2026-10-15",
-          "primary": false
-        },
-        {
-          "url": "https://t.me/s/alnairae",
-          "label": "Alnair public invitation: Emirates Developments, Al Reem and 15 October briefing",
-          "primary": false
-        },
-        {
-          "url": "https://waterfrontmissoni.ae/",
-          "label": "Channel-partner page: 250 homes, unit mix, beach location; final terms unreleased",
-          "primary": false
-        },
-        {
-          "url": "https://theupsides.ae/projects/waterfront-by-missoni",
-          "label": "Broker product corroboration; commercial terms not independently confirmed",
-          "primary": false
-        },
-        {
-          "url": "https://emiratesdevelopments.com/",
-          "label": "Official developer identity and branded-residential portfolio",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-15",
-      "updatedAt": "2026-10-22",
-      "published": true,
-      "seoTitle": "Waterfront by Missoni Al Reem: Official Announcement | GRAF",
-      "seoDescription": "Emirates Developments announces 250 Missoni-interior homes on Al Reem Island, with Q2 2030 expected completion. Official sales terms await confirmation.",
-      "eoi": {
-        "amount": 100000,
-        "refundable": null,
-        "note": "Broker-reported by Alnair on 16 October and corroborated by Casadior/Maison Dubai; refundability unverified."
-      },
-      "handover": "Q2 2030 — expected in the company announcement; contractual handover not verified"
-    },
-    {
-      "id": "samana-collecta-world-islands",
-      "project": "Maserati Island",
-      "developer": "SAMANA COLLECTA / SAMANA Developers",
-      "emirate": "Dubai",
-      "location": "The World Islands, Dubai; exact island plot and mainland embarkation points not verified",
-      "type": [
-        "apartments",
-        "villas"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Maserati and SAMANA COLLECTA officially unveiled the project on 9 November 2026; actual sales-opening day and current availability remain unverified.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "The 15 October pre-reveal CEO interview indicated entry-level homes below AED 2m and around AED 3,000 per sq ft. These were historical advance indications, not an authenticated price list for the newly named Maserati Island release.",
-      "paymentPlan": null,
-      "handover": "Residences expected to be ready starting in 2030, according to the 9 November brand announcement; contractual handover not verified.",
-      "unitMix": [
-        {
-          "type": "Studios and 1–4BR private-pool residences",
-          "note": "232 residences in the first release, within a masterplan of 840 branded residences."
-        },
-        {
-          "type": "Water villas",
-          "note": "Seven in the masterplan; first-release availability not verified."
-        },
-        {
-          "type": "Tree villas",
-          "note": "Two in the masterplan; first-release availability not verified."
-        }
-      ],
-      "teaser": "Maserati branding confirmed; first release comprises 232 private-pool residences.",
-      "summary": "Maserati and SAMANA COLLECTA unveiled Maserati Island at The World Islands, Dubai, on 9 November 2026. The masterplan comprises 840 branded residences alongside seven water villas and two tree villas; its first release contains 232 private-pool residences in studio and one- to four-bedroom configurations. Carlo Colombo of A++ Studio curates the interiors, with Giorgetti Maserati Edition furnishings specified for residences and communal lounges. Residences are expected to be ready starting in 2030; official starting prices, payment and EOI terms, exact sales-opening day and current inventory have not been verified.",
-      "whatNext": "Await the official first-release price list, payment and reservation terms, exact island and embarkation details, current allocation and contractual delivery schedule; subscribe for verified updates.",
-      "confidenceNote": "High confidence in the Maserati partnership, official project name, masterplan scope, first-release mix and planned readiness from 2030: confirmed by Maserati's own 9 November 2026 media release and corroborating dated coverage. The masterplan and first release are distinct quantities. This updates the earlier SAMANA COLLECTA flagship record, preserving its ID and first-reported date; it is not a different island project or a claim that current units are available. Prices, reservation terms, actual sales opening, precise island plot and contractual handover remain unverified.",
-      "sources": [
-        {
-          "url": "https://www.media.stellantis.com/em-en/maserati/press/maserati-and-samana-collecta-unveil-maserati-island-the-first-maserati-residential-living-destination-an-exclusive-branded-island-in-the-worlds-islands-dubai",
-          "label": "Maserati / Stellantis official announcement: name, partnership, first release and readiness from 2030",
-          "date": "2026-11-09",
-          "primary": true
-        },
-        {
-          "url": "https://www.zawya.com/en/projects/samana-collecta-brings-the-middle-easts-first-maserati-branded-residential-project-to-dubai-2127810",
-          "label": "Zawya Projects dated report corroborating project identity and developer",
-          "date": "2026-11-09"
-        },
-        {
-          "url": "https://www.samana-collecta.com/",
-          "label": "SAMANA COLLECTA official project brand website"
-        },
-        {
-          "url": "https://www.pantimearabia.com/samana-launches-collecta-taking-its-next-growth-chapter-into-premium-real-estate/",
-          "label": "Company release datelined 15 October 2026: World Islands scope, planned homes and unnamed brand partner",
-          "date": "2026-10-15",
-          "primary": false
-        },
-        {
-          "url": "https://www.tradingview.com/news/reuters.com,2026-10-15:newsml_Zaw5yS1yR:0-samana-developers-unveils-1-1bln-branded-residential-project-at-the-world-islands-in-dubai/",
-          "label": "Zawya/Refinitiv CEO interview, 15 October: indicative pricing, delivery commitment and island infrastructure",
-          "date": "2026-10-15",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-16",
-      "updatedAt": "2026-11-10",
-      "published": true,
-      "seoTitle": "Maserati Island by SAMANA COLLECTA: First Release | GRAF",
-      "seoDescription": "Maserati Island at The World Islands: 232 private-pool homes in the first release. Official 9 November reveal; planned readiness from 2030.",
-      "pricePerSqft": null
-    },
-    {
-      "id": "ays-kusto-aura-dubai-production-city",
-      "project": "Kusto Aura",
-      "developer": "AYS Developers",
-      "emirate": "Dubai",
-      "location": "Dubai Production City (IMPZ / Me'aisem First), Dubai; exact plot confirmation awaited",
-      "type": [
-        "apartments"
-      ],
-      "status": "broker-intelligence",
-      "launchWindow": "Fresh early-access/EOI report dated 16 October 2026, following earlier marketing; not a first-announcement date or confirmed public sales launch.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "paymentPlan": null,
-      "brokerPriceNote": "Alnair's 16 October EOI report quotes studios from AED892,460 and 1BR from AED1.81m. PropSentral quotes AED892,457 for a 362.80 sq ft studio and AED1,840,291 for an 819.37 sq ft 1BR, citing a brochure not independently obtained here. Top Ultra Luxury instead advertises AED879,000. No developer-confirmed price list verified.",
-      "unitMix": [
-        {
-          "type": "Studio",
-          "note": "Corroborated by multiple broker pages; final inventory and sizes unverified."
-        },
-        {
-          "type": "1BR",
-          "note": "Corroborated by multiple broker pages."
-        },
-        {
-          "type": "2BR",
-          "note": "Mentioned in Alnair's EOI schedule and a broker's brochure account; inventory, plans and price unverified."
-        }
-      ],
-      "eoi": {
-        "amount": 30000,
-        "refundable": null,
-        "note": "Alnair 16 October: studio AED30k, 1BR AED50k, 2BR AED100k. Single-origin EOI schedule; reservation and refund terms unverified."
-      },
-      "teaser": "A fresh EOI report for AYS's Production City apartments; prices remain indicative.",
-      "summary": "Alnair published a fresh early-access/EOI report for Kusto Aura in Dubai Production City on 16 October 2026. Independent brokers corroborate AYS Developers and studios/one-bedroom apartments; the EOI schedule also mentions unverified two-bedroom inventory. Brokers describe 30/70 and Q1 2029 delivery, not verified developer contractual terms. This follows earlier marketing, rather than establishing a new project announcement or confirmed sales-opening date.",
-      "whatNext": "Publication is on hold at the website owner's request; do not republish without explicit owner authorization.",
-      "confidenceNote": "Medium for project identity and fresh EOI reporting; lower for final terms. The official AYS homepage was inspected but did not list Kusto Aura. Dubai Asset was updated 9 October; Top Ultra Luxury has earlier September publication metadata. Thus 16 October dates only the EOI report. Competing prices remain unresolved. PropSentral's Kusto Home co-development claim is not independently developer-confirmed.",
-      "sources": [
-        {
-          "url": "https://alnair.cy/en/news/kusto-aura-opens-early-buyer-access-in-dubai-production-city",
-          "label": "Alnair 16 October EOI report; same-origin regional mirror",
-          "date": "2026-10-16",
-          "primary": true
-        },
-        {
-          "url": "https://dubaiasset.ae/en/projects/ays-property-development-kusto-aura",
-          "label": "Independent identity and location corroboration; updated 9 October",
-          "primary": false
-        },
-        {
-          "url": "https://topultraluxury.com/new-projects/kusto-aura-by-ays/",
-          "label": "Independent broker: competing AED879k, 30/70 and Q1 2029",
-          "primary": false
-        },
-        {
-          "url": "https://propsentral.com/properties/kusto-aura",
-          "label": "Independent broker: brochure-attributed prices and 2BR caveat",
-          "primary": false
-        },
-        {
-          "url": "https://aysdevelopers.com/",
-          "label": "Official identity and portfolio; no project-specific confirmation found",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-17",
-      "updatedAt": "2026-11-04",
-      "published": false,
-      "seoTitle": "Kusto Aura Dubai Production City: EOI Watch | GRAF",
-      "seoDescription": "Kusto Aura by AYS: 16 October early-access report in Dubai Production City. Broker studio/1BR prices differ; EOI, payment and delivery await confirmation."
-    },
-    {
-      "id": "taraf-jw-marriott-residences-yas-island",
-      "project": "JW Marriott Residences Abu Dhabi, Yas Island",
-      "developer": "TARAF and Steppe (joint venture)",
-      "emirate": "Abu Dhabi",
-      "location": "Yas Island, Abu Dhabi: directly on the beach alongside the golf course; exact plot not disclosed",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Developer-issued signing announcement published 16 October 2026; public sales opening not announced.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "paymentPlan": null,
-      "teaser": "TARAF and Steppe announce a beachfront JW Marriott-branded address on Yas Island.",
-      "summary": "TARAF and Steppe announced an agreement through their joint venture with Marriott International for JW Marriott Residences Abu Dhabi, Yas Island, in a developer-issued release published on 16 October 2026. The proposed residences occupy a beachfront setting alongside the golf course. Planned amenities span wellness, a residents' lounge, meeting and media rooms, golf simulator, children's activity area and guest suites. Unit mix, home count, pricing, EOI, payment, contractual handover and sales opening are not released in the announcement.",
-      "whatNext": "Await the official project release with exact plot, unit mix, floor plans, prices, EOI, payment schedule and contractual delivery; subscribe for verified updates.",
-      "confidenceNote": "High for the signing, partners, Yas Island setting and proposed amenities in the developer-issued release. This is an announcement, not open sales. TARAF is Yas Holding's real-estate division; Taraf Steppe Development properties LLC S.P.C is identified as licensee. Marriott is the brand/licensing partner, not the owner, developer or seller. Syndicated copies count as one underlying announcement. Broker claims of 1–4BR, AED3.5m, 60/40 and Q4 2030 are not established by the release and are not adopted as official terms.",
-      "sources": [
-        {
-          "url": "https://mid-east.info/taraf-and-marriott-international-sign-agreement-to-launch-jw-marriott-residences-abu-dhabi-yas-island/",
-          "label": "Developer-issued announcement, 16 October; includes developer/license disclaimer",
-          "date": "2026-10-16",
-          "primary": true
-        },
-        {
-          "url": "https://www.ttnworldwide.com/ArticleTA/488132/deal-signed-to-launch-jw-marriott-residences-abu-dhabi,-yas-island",
-          "label": "TradeArabia/TTN 16 October report of same signing announcement",
-          "date": "2026-10-16",
-          "primary": false
-        },
-        {
-          "url": "https://intlbm.com/2026/10/16/taraf-partners-with-marriott-international-to-unveil-jw-marriott-residences/",
-          "label": "16 October publication of same developer announcement",
-          "date": "2026-10-16",
-          "primary": false
-        },
-        {
-          "url": "https://www.tarafholding.com/",
-          "label": "Official TARAF identity and portfolio; project price list not found",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-17",
-      "updatedAt": "2026-10-17",
-      "published": true,
-      "seoTitle": "JW Marriott Residences Yas Island: Announcement | GRAF",
-      "seoDescription": "TARAF and Steppe announce JW Marriott Residences Abu Dhabi on Yas Island, 16 October 2026. Beachfront golf-side setting; sales terms not yet released."
-    },
-    {
-      "id": "ellington-business-bay-offices",
-      "project": "Berkeley Tower",
-      "developer": "Ellington Properties",
-      "developerId": "ellington",
-      "emirate": "Dubai",
-      "location": "Business Bay, along Sheikh Zayed Road, Dubai",
-      "type": [
-        "offices"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Officially introduced 16 October 2026; registration of interest open. Sales opening date to be confirmed.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "brokerPriceNote": "Mitchell's Commercial Realty indicates approximately AED 4,500–5,000 per sq ft before launch, explicitly subject to final confirmation. This is broker guidance, not a developer-issued price list; the official starting total price is unknown.",
-      "paymentPlan": "70/30",
-      "teaser": "Berkeley brochure details six office configurations; total count awaits reconfirmation.",
-      "summary": "Ellington's current Berkeley Tower brochure lists six office configurations from 2,504.01 to 22,588.71 sq ft. The tower remains a 60-storey Grade A commercial development in Business Bay with a 70/30 payment schedule. The previously published 109-office total is absent from both current official project pages and the brochure, so the final total awaits reconfirmation. Official starting prices, calendar completion and actual sales opening remain unverified.",
-      "whatNext": "Await the reconciled office schedule and total count, confirmed prices, reservation terms, calendar handover and sales-opening confirmation; subscribe for verified updates.",
-      "confidenceNote": "Current developer pages and the official brochure were checked on 23 October 2026. The brochure states six office configurations and 2,504.01–22,588.71 sq ft; its document metadata is dated 22 October, not a new launch date. Both project pages previously stated 109 offices and now omit that count; omission does not establish a revised total. The older microsite floor selector displayed 1,132–1,389 sq ft for the 1st–10th floors only; this conflicts with the current brochure range and should not be treated as current general availability. The 70/30 schedule remains 20% booking, ten 5% instalments and 30% completion. Robotic parking is confirmed, but detailed parking labels conflict. Registration and payment marketing do not establish open sales or current inventory.",
-      "sources": [
-        {
-          "url": "https://assets.ellingtonproperties.ae/sales/files/Marketing-Collaterals/Berkeley%20Tower/Launch/Berkeley%20Tower%20-%20Brochure.pdf",
-          "label": "Official Berkeley brochure: six office configurations and size range; checked 23 October 2026",
-          "primary": true
-        },
-        {
-          "url": "https://berkeley-tower.ellingtonproperties.ae/",
-          "label": "Official Berkeley project page; current wording checked 23 October 2026, with no total office count",
-          "primary": false
-        },
-        {
-          "url": "https://ellingtonproperties.ae/en/commercial/property-for-sale/berkeley-tower-business-bay",
-          "label": "Official Berkeley project page; current wording checked 23 October 2026, with no total office count",
-          "primary": false
-        },
-        {
-          "url": "https://ae.linkedin.com/posts/ellingtondubai_ellingtonproperties-berkeleytower-livebydesign-activity-7516754088861179904-1mrH",
-          "label": "Ellington official introduction; original published timestamp checked",
-          "date": "2026-10-16",
-          "primary": false
-        },
-        {
-          "url": "https://www.mitchellscommercialrealty.com/commercial-properties/berkeley-tower-ellington-business-bay-offices",
-          "label": "Mitchell's Commercial Realty — indicative office configuration and rates",
-          "primary": false
-        },
-        {
-          "url": "https://www.augusta-properties.com/explore/ellington-berkeley-tower",
-          "label": "Augusta — coming-soon report dated 16 October 2026",
-          "date": "2026-10-16",
-          "primary": false
-        },
-        {
-          "url": "https://www.augusta-properties.com/explore/ellington-berkely-tower",
-          "label": "Augusta alternate spelling — conflicting broker handover guidance",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-09-11",
-      "updatedAt": "2026-10-23",
-      "published": true,
-      "unitMix": [
-        {
-          "type": "Offices — six configurations",
-          "sizeSqftFrom": 2504.01,
-          "sizeSqftTo": 22588.71,
-          "note": "Current official brochure range, checked 23 October; total office count awaits reconfirmation. Earlier 1st–10th-floor selector shows a conflicting smaller range; not verified as current inventory."
-        }
-      ]
-    },
-    {
-      "id": "kasco-fala-al-jaddaf",
-      "project": "FALA by KASCO",
-      "developer": "KASCO Developments",
-      "emirate": "Dubai",
-      "location": "Al Jaddaf Waterfront, Culture Village, Dubai",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Formal company unveiling dated 16 October 2026. Earlier portal booking history starts 1 March 2026, so the October announcement is not treated as proven first sales opening.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "brokerPriceNote": "Alnair's 19 October report indicates studios from AED 869,470, 1BR from AED 1.29m, 2BR from AED 2.60m and 3BR from AED 3.22m. No official developer price list was independently inspected.",
-      "paymentPlan": "40/60, as described in the 16 October company release; complete booking and instalment milestones await the sales schedule.",
-      "handover": "Q4 2028, developer-stated expectation in the 16 October company release",
-      "unitMix": [
-        {
-          "type": "Studio",
-          "sizeSqftFrom": 419,
-          "note": "Company release; 109 residences across the project"
-        },
-        {
-          "type": "1BR apartment",
-          "note": "Company-announced"
-        },
-        {
-          "type": "2BR apartment",
-          "note": "Company-announced"
-        },
-        {
-          "type": "3BR apartment",
-          "note": "Company-announced"
-        }
-      ],
-      "teaser": "KASCO's dated unveiling details a 109-home Al Jaddaf waterfront project.",
-      "summary": "KASCO Developments formally unveiled FALA on 16 October 2026 as a 109-residence waterfront development in Al Jaddaf's Culture Village. The company release describes studios from 419 sq ft through three-bedroom homes, a rooftop pool, landscaped terraces and direct promenade access, with a 40/60 payment plan and expected Q4 2028 completion. Earlier portal booking history predates this announcement; no first-ever sales opening or current unit availability is claimed. Circulating starting prices remain broker indications.",
-      "whatNext": "Await the official price list, complete payment milestones and current unit availability; subscribe for verified updates.",
-      "confidenceNote": "High confidence in identity and company-announced project features, payment split and expected delivery. The official developer homepage links FALA, but its project microsite timed out during this review. PropertyFinder records earlier March 2026 booking history; 16 October is the formal company announcement date rather than a verified first sales-opening date. Prices are broker-only.",
-      "sources": [
-        {
-          "url": "https://uaenews247.com/2026/10/16/kasco-developments-launches-fala-by-kasco-a-home-that-flows-with-life/",
-          "label": "Dated company launch release: 109 residences, mix, 40/60 and Q4 2028",
-          "date": "2026-10-16",
-          "primary": true
-        },
-        {
-          "url": "https://kascodevelopments.com/",
-          "label": "Official developer homepage features FALA and links its microsite",
-          "primary": false
-        },
-        {
-          "url": "https://www.propertyfinder.ae/en/new-projects/kasco-properties/fala-by-kasco",
-          "label": "Portal project timeline records earlier March 2026 booking history; not proof of current inventory",
-          "primary": false
-        },
-        {
-          "url": "https://alnair.ae/en/news/fala-by-kasco-launches-in-al-jadaf-with-homes-starting-at-aed-869k",
-          "label": "Broker report dated 19 October; indicative prices only",
-          "date": "2026-10-19",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-10-20",
-      "updatedAt": "2026-10-20",
-      "published": true,
-      "seoTitle": "FALA by KASCO: Al Jaddaf Waterfront Announcement | GRAF",
-      "seoDescription": "KASCO's 16 October unveiling details 109 Al Jaddaf waterfront residences, a 40/60 payment plan and expected Q4 2028 completion. Prices remain broker-only."
-    },
-    {
-      "id": "oraya-marjan-beach-residences",
-      "project": "Wyndham Residences Marjan Beach",
-      "developer": "ORAYA Developer",
-      "emirate": "Ras Al Khaimah",
-      "location": "Marjan Beach, Ras Al Khaimah; exact plot to be confirmed",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Company announcement distributed 30 September and 1 October 2026; developer website says Coming Soon. Sales opening date unverified.",
-      "startingPrice": null,
-      "priceConfirmed": false,
-      "pricePerSqft": null,
-      "paymentPlan": null,
-      "unitMix": [
-        {
-          "type": "1BR",
-          "note": "Developer marketing; final unit schedule pending."
-        },
-        {
-          "type": "2BR",
-          "note": "Developer marketing; final unit schedule pending."
-        },
-        {
-          "type": "3BR",
-          "note": "Developer marketing; final unit schedule pending."
-        }
-      ],
-      "teaser": "ORAYA announces furnished Marjan Beach residences; launch terms remain pending.",
-      "summary": "ORAYA has announced its first UAE residential development at Marjan Beach, Ras Al Khaimah. Its website markets Wyndham Residences Marjan Beach with fully furnished one-, two- and three-bedroom apartments at the coming-soon stage. Prices, payment plan, paid EOI terms, handover and the sales opening date have not been verified.",
-      "whatNext": "Await the official launch pack, operator-side brand confirmation, precise plot, prices, payment terms and handover; subscribe for verified updates.",
-      "confidenceNote": "The company-issued announcement was distributed on 30 September and repeated on 1 October 2026; this is a newly tracked announcement, not a claimed 21 October launch. The project name and unit mix appear on ORAYA's own website; independent Wyndham-side confirmation of the branding or management agreement was not found. Marjan Beach is distinct from Al Marjan Island. Enquiry forms and generic limited-units wording do not establish sales opening or current available inventory. ORAYA is a new market entrant; no completed-project track record is claimed.",
-      "sources": [
-        {
-          "url": "https://oraya.ae/",
-          "label": "ORAYA official project marketing — name, 1–3BR and Coming Soon; checked 21 October 2026",
-          "primary": true
-        },
-        {
-          "url": "https://www.globenewswire.com/news-release/2026/10/01/3373464/0/en/oraya-developer-announces-first-uae-project-on-marjan-beach.html",
-          "label": "Company-issued announcement; 1 October distribution",
-          "date": "2026-10-01"
-        },
-        {
-          "url": "https://markets.financialcontent.com/postgazette/article/acnnewswire-2026-9-30-oraya-developer-announces-first-uae-project-on-marjan-beach",
-          "label": "Earlier distribution of the same company announcement",
-          "date": "2026-09-30"
-        },
-        {
-          "url": "https://tradearabia.com/News/487445/Oraya-Developer-enters-UAE-with-debut-Marjan-Beach-project",
-          "label": "TradeArabia report of ORAYA's first UAE project"
-        }
-      ],
-      "firstReported": "2026-10-21",
-      "updatedAt": "2026-10-21",
-      "published": true
-    },
-    {
-      "id": "zoya-elvora-dlrc",
-      "project": "Elvora",
-      "developer": "Zoya Developments",
-      "emirate": "Dubai",
-      "location": "Dubai Land Residence Complex (DLRC)",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Project unveiling reported 21 October 2026; exact event day and actual sales-opening date not specified.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "paymentPlan": null,
-      "teaser": "Zoya unveils Elvora, a wellness-focused residential project in DLRC.",
-      "summary": "Zoya Developments unveiled Elvora in Dubai Land Residence Complex, according to its company announcement published on 21 October 2026. The residential project includes an infinity pool, rooftop lounge, yoga centre, outdoor theatre and gym, with planned smart-home features. The presentation event took place in Abu Dhabi; the project itself is in Dubai. Unit mix, official starting prices, payment plan, EOI terms, handover and the actual sales-opening date were not specified in the reviewed announcement.",
-      "confidenceNote": "High on the company-announced project, developer and DLRC location. Gulf News partner content and matching company-release coverage are one underlying announcement, not independent confirmations. The developer's indexed social profile mentions Elvora, but native post/media inspection was unavailable. No current unit inventory or sales-opening proof was obtained; do not confuse Elvora with Elinor in Dubai South or ETÉREA in Majan.",
-      "whatNext": "Await the official project pack, exact plot, unit mix, prices, reservation terms, payment schedule and handover; subscribe for verified updates.",
-      "sources": [
-        {
-          "url": "https://gulfnews.com/business/property/10-projects-launched-in-just-two-years-zoya-developments-adds-elvora-to-its-growing-dubai-portfolio-1.500718601",
-          "label": "Company-supplied partner announcement: Elvora unveiling, DLRC location and amenities",
-          "date": "2026-10-21",
-          "primary": true
-        },
-        {
-          "url": "https://www.gulftoday.ae/business/2026/10/21/10-projects-launched-in-just-two-years-zoya-developments-adds-elvora-to-its-growing-dubai-portfolio",
-          "label": "Matching company announcement; same underlying release",
-          "date": "2026-10-21"
-        },
-        {
-          "url": "https://www.instagram.com/zoya.developments/",
-          "label": "Developer social profile indexed mention of Elvora; native content inaccessible"
-        }
-      ],
-      "firstReported": "2026-10-22",
-      "updatedAt": "2026-10-22",
-      "published": true,
-      "seoTitle": "Elvora by Zoya in DLRC: Project Unveiled | GRAF",
-      "seoDescription": "Zoya unveils Elvora in Dubai Land Residence Complex. Discover the announced amenities and follow confirmed prices, unit mix and sales terms."
-    },
-    {
-      "id": "meraki-celeste-dubai-south",
-      "project": "Celeste",
-      "developer": "Meraki Developers / Meraki Group",
-      "emirate": "Dubai",
-      "location": "Dubai South",
-      "type": [
-        "apartments"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Company coverage dated 19–20 October 2026 announces an official unveiling in November 2026; exact day and sales opening not confirmed.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "paymentPlan": null,
-      "teaser": "Meraki names Celeste in Dubai South, with a November unveiling planned.",
-      "summary": "Meraki has named Celeste as its upcoming development in Dubai South, with an official unveiling planned for November 2026. The company describes a mixed-use residential project and says further design and project details will follow before launch. The named November pipeline gives brokers an early Dubai South opportunity to monitor before the full commercial release. Official unit mix, prices, payment plan, EOI terms, handover and the actual sales-opening date remain unverified.",
-      "brokerPriceNote": "Alnair's 20 October early-access report indicates studios from AED683,000, 1BR from AED1.16m and 2BR from AED1.40m, with AED20,000 EOI and 40/60 payments. These are broker indications, not a developer price list. Its Q4 2029 delivery indication conflicts with Q2 2030 on other broker portals; neither is adopted as confirmed handover.",
-      "confidenceNote": "High on the named project, developer, Dubai South location and company-announced November 2026 unveiling window; commercial terms remain preliminary. The 20 October presswire and Gulf News coverage repeat the same company release; a 19 October company-coverage page was also found. The authenticated developer portfolio did not yet include Celeste. Early broker catalogue traces and EOIs do not establish actual open sales or current available units.",
-      "whatNext": "Await the November unveiling date, official project materials, confirmed prices, reservation conditions and construction schedule; subscribe for verified updates.",
-      "sources": [
-        {
-          "url": "https://gulfnews.com/gn-focus/company-news/meraki-developers-expands-to-dubai-south-with-7-projects-in-the-pipeline-1.500717275",
-          "label": "Company announcement quoting Meraki chairman: Celeste, Dubai South and November unveiling",
-          "date": "2026-10-20",
-          "primary": true
-        },
-        {
-          "url": "https://www.einpresswire.com/article/950889911/meraki-developers-enters-dubai-south-as-its-portfolio-expands-with-7-projects-in-the-pipeline",
-          "label": "Company-issued presswire release distributed by Publsh Marketing, 20 October 06:36 GMT",
-          "date": "2026-10-20"
-        },
-        {
-          "url": "https://mid-east.info/meraki-developers-enters-dubai-south-as-its-portfolio-expands-with-seven-projects-in-the-pipeline/",
-          "label": "Earlier company-coverage page; November unveiling, not proof of open sales",
-          "date": "2026-10-19"
-        },
-        {
-          "url": "https://alnair.ae/en/news/early-buyer-access-to-celeste-by-meraki-in-dubai-south",
-          "label": "Broker early-access report: unconfirmed prices, EOI, payment and delivery indication",
-          "date": "2026-10-20"
-        },
-        {
-          "url": "https://meraki-group.com/real-estate/",
-          "label": "Official group page authenticating developer identity and portfolio"
-        }
-      ],
-      "firstReported": "2026-10-22",
-      "updatedAt": "2026-10-22",
-      "published": true,
-      "seoTitle": "Celeste by Meraki, Dubai South: November Preview | GRAF",
-      "seoDescription": "Meraki announces Celeste in Dubai South ahead of a planned November 2026 unveiling. Official prices and sales terms await the full project release."
-    },
-    {
-      "id": "saas-ritz-carlton-al-maryah-island",
-      "project": "The Ritz-Carlton Residences, Al Maryah Island",
-      "developer": "SAAS Properties",
-      "emirate": "Abu Dhabi",
-      "location": "Al Maryah Island waterfront canal",
-      "type": [
-        "apartments",
-        "duplexes",
-        "penthouses"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Formal LIVEX 2026 launch reported 2 October 2026, following the December 2025 reveal; actual sales-opening date not separately verified.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "paymentPlan": null,
-      "handover": "Q2 2030 — anticipated in the company launch announcement",
-      "teaser": "SAAS formally launches 165 Ritz-Carlton residences on Al Maryah Island.",
-      "summary": "SAAS Properties formally launched The Ritz-Carlton Residences, Al Maryah Island at LIVEX 2026, according to company launch coverage dated 2 October 2026. The waterfront-canal project comprises 165 homes, including one- to four-bedroom residences, duplexes and a penthouse, with architecture by Killa Design and interiors by Tara Bernerd & Partners. Construction was reported underway and handover anticipated in Q2 2030. This newly tracked October launch follows an earlier December 2025 reveal; official starting prices, payment terms and current unit availability remain unverified.",
-      "confidenceNote": "High on project identity, developer, 165-home collection and design partners, supported by the official project microsite linked from SAAS Properties. The formal LIVEX launch and anticipated Q2 2030 handover are company-reported; neither proves an exact sales-opening date or available units today. SAAS AM Properties LLC is the developer; The Ritz-Carlton/Marriott licenses the brand and does not own, develop or sell the project. The microsite's 165-home count takes precedence over an inconsistent SAAS catalogue template.",
-      "unitMix": [
-        {
-          "type": "1BR residences",
-          "note": "Official project microsite"
-        },
-        {
-          "type": "2–4BR residences and duplexes",
-          "note": "Official project microsite"
-        },
-        {
-          "type": "Penthouse",
-          "note": "Official project microsite; 165 homes project-wide"
-        }
-      ],
-      "whatNext": "Await the official price list, payment schedule, approved floor plans, reservation conditions and current release details; subscribe for verified updates.",
-      "sources": [
-        {
-          "url": "https://rcalmaryahisland.com/",
-          "label": "Official Ritz-Carlton Al Maryah project microsite linked by SAAS: 165 homes, unit types and design partners",
-          "primary": true
-        },
-        {
-          "url": "https://saasproperties.com/en/",
-          "label": "Official developer homepage authenticates the project microsite"
-        },
-        {
-          "url": "https://www.khaleejtimes.com/business/property/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026",
-          "label": "Company partner announcement: formal LIVEX launch, construction underway, expected Q2 2030 handover",
-          "date": "2026-10-02"
-        },
-        {
-          "url": "https://marriottresidences.com/press/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026/",
-          "label": "Marriott Residences press listing dated 20 October; indexed announcement inspected, full page inaccessible",
-          "date": "2026-10-20"
-        },
-        {
-          "url": "https://royallp.com/blog-post/saas-properties-unveils-the-ritz-carlton-residences-on-al-maryah-island-abu-dhabi/",
-          "label": "Earlier December 2025 reveal, distinct from formal October launch",
-          "date": "2025-12-12"
-        }
-      ],
-      "firstReported": "2026-10-22",
-      "updatedAt": "2026-10-22",
-      "published": true,
-      "seoTitle": "Ritz-Carlton Al Maryah by SAAS: LIVEX Launch | GRAF",
-      "seoDescription": "SAAS formally launches 165 Ritz-Carlton residences on Al Maryah Island. Killa architecture, Tara Bernerd interiors and Q2 2030 anticipated handover."
-    },
-    {
-      "id": "lmd-christian-a-rockefeller-business-tower",
-      "project": "Christian A. Rockefeller Business Tower",
-      "developer": "LMD",
-      "emirate": "Dubai",
-      "location": "Sheikh Zayed Road, between Business Bay and Burj Khalifa/Dubai Mall Metro stations",
-      "type": [
-        "offices"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Formal company announcement dated 22 October 2026 says offices are available for sale; exact first sales-opening day not established.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "paymentPlan": null,
-      "handover": "Q2 2031 — scheduled in the company announcement; contractual handover not verified",
-      "teaser": "LMD announces Rockefeller-branded Grade A offices on Sheikh Zayed Road.",
-      "summary": "LMD has announced Christian A. Rockefeller Business Tower, an 87-storey Grade A office development on Sheikh Zayed Road between Business Bay and Burj Khalifa/Dubai Mall Metro stations. Four office collections include individual offices, half floors and full floors, with Prime offices starting at approximately 1,077 sq ft. Five amenity floors combine wellness, dining and business facilities, including a sky business centre. The company statement dated 22 October 2026 says offices are available for sale and schedules completion for Q2 2031; official prices and payment terms have not been verified. Broker update checked 28 October 2026: Mitchell's Commercial Real Estate and Disruptive Real Estate report an EOI window on 28 October with a token of AED 100,000 per unit. Mitchell's specifies 11am, submission by size category/payment plan rather than specific unit number. This is attributed broker intelligence; the original developer EOI notice, refund conditions, actual opening and current allocations have not been independently verified.",
-      "brokerPriceNote": "Luxwell Real Estate's article dated 20 October and updated 22 October indicates AED 4,000–4,500 per sq ft and a 50/50 payment plan. These are attributed broker indications, not a verified developer price list or payment schedule. No confirmed starting total price or current unit inventory was obtained.",
-      "confidenceNote": "High on the dated company-announced identity, developer, location, office collections and scheduled Q2 2031 completion. The 22 October company release explicitly reports availability for sale, but the current Devmark homepage still labels the project Coming Soon; exact first sales day and current available units remain unverified. Earlier broker marketing existed on 20 October. The branding is Christian A. Rockefeller, represented by Iconique Living Group; no Rockefeller Group corporate affiliation is established. Published height figures conflict, so none is adopted. Starting prices, broker payment terms and reservation conditions await official verification. Broker update checked 28 October 2026: Mitchell's Commercial Real Estate and Disruptive Real Estate report an EOI window on 28 October with a token of AED 100,000 per unit. Mitchell's specifies 11am, submission by size category/payment plan rather than specific unit number. This is attributed broker intelligence; the original developer EOI notice, refund conditions, actual opening and current allocations have not been independently verified.",
+      "paymentPlan": "Property Finder advertises 15% at launch, 34% during construction, …18619 tokens truncated…ker payment terms and reservation conditions await official verification. Broker update checked 28 October 2026: Mitchell's Commercial Real Estate and Disruptive Real Estate report an EOI window on 28 October with a token of AED 100,000 per unit. Mitchell's specifies 11am, submission by size category/payment plan rather than specific unit number. This is attributed broker intelligence; the original developer EOI notice, refund conditions, actual opening and current allocations have not been independently verified.",
       "whatNext": "Await the official price list, complete payment schedule, reservation conditions and current release availability; subscribe for verified updates.",
       "sources": [
         {
@@ -4546,6 +3355,122 @@
       ],
       "firstReported": "2026-11-14",
       "updatedAt": "2026-11-14",
+      "published": true
+    },
+    {
+      "id": "alain-address-residences-al-maryah-island",
+      "aliases": [],
+      "project": "Address Residences Al Maryah Island",
+      "developer": "ALAIN / Address Hotels + Resorts",
+      "emirate": "Abu Dhabi",
+      "location": "Al Maryah Island waterfront, beside The Galleria, Abu Dhabi",
+      "type": [
+        "apartments"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official ALAIN posts on 13–14 November 2026 identify Address Residences Al Maryah Island as coming soon; actual sales opening is unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "ALAIN names a coming-soon Address-branded waterfront residence on Al Maryah Island.",
+      "summary": "ALAIN's official company channel named Address Residences Al Maryah Island in posts on 13–14 November 2026 and described the project as a coming-soon waterfront residential destination in the heart of Al Maryah Island. A current channel-partner site markets 452 residences, comprising one- to four-bedroom apartments and two five-bedroom penthouses, with an indicative 40/60 structure; those product and commercial figures are not authenticated by an ALAIN project page or Address operator release and remain unconfirmed. Official prices, EOI terms, actual first sales day, current inventory and contractual handover are unknown.",
+      "unitMix": [
+        {
+          "type": "Residences",
+          "note": "Official ALAIN posts confirm a residential destination. Channel-partner marketing reports 1–4BR apartments plus two 5BR penthouses; unconfirmed."
+        }
+      ],
+      "brokerPriceNote": "An authorised channel-partner site says indicative pricing is expected below AED 4,000 per sq ft and markets a 40/60 payment plan. These are not authenticated current developer prices or signed terms.",
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Broker previews report AED 100,000 EOI, but no authenticated acceptance, refund or allocation conditions were found."
+      },
+      "whatNext": "Await the authenticated ALAIN project pack, Address operator confirmation, official unit schedule, current price list, EOI conditions, sales-opening confirmation and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the project name, ALAIN attribution, Address branding, Al Maryah Island location and coming-soon status from ALAIN’s official company channel. The 452-home mix, payment plan, indicative rate, EOI and delivery claims remain broker or channel-partner intelligence.",
+      "sources": [
+        {
+          "url": "https://ae.linkedin.com/company/alain-am",
+          "date": "2026-11-14",
+          "label": "Official ALAIN company channel: Address Residences Al Maryah Island named as coming soon",
+          "primary": true
+        },
+        {
+          "url": "https://addressresidence.ae/",
+          "date": "2026-11-15",
+          "label": "Authorised channel-partner marketing: reported unit mix and indicative terms; not an official developer price list",
+          "primary": false
+        },
+        {
+          "url": "https://www.alainam.ae/alain-developments/",
+          "date": "2026-11-15",
+          "label": "Official ALAIN development portfolio checked; exact project page not yet published",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-15",
+      "updatedAt": "2026-11-15",
+      "published": true
+    },
+    {
+      "id": "imtiaz-the-vault-majan",
+      "aliases": [],
+      "project": "The Vault",
+      "developer": "Imtiaz Developments",
+      "emirate": "Dubai",
+      "location": "Majan, Wadi Al Safa 3, Dubailand, Dubai",
+      "type": [
+        "offices"
+      ],
+      "status": "confirmed",
+      "launchWindow": "Official Imtiaz event page schedules an unveiling on 18 November 2026, 10:00–19:00, at Imtiaz Sales Gallery in Dubai Hills. The venue is not the project location; the project was registered and marketed earlier.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Imtiaz schedules a 18 November unveiling for its boutique commercial landmark in Majan.",
+      "summary": "Imtiaz Developments has scheduled an official unveiling for The Vault, described as a boutique commercial landmark in Majan, on 18 November 2026 from 10:00 to 19:00 at its Dubai Hills sales gallery. Registry-based sources show the project was registered on 12 October and third-party marketing predates this event, so 18 November is an unveiling date rather than proof of the first sales day. Brokers describe offices and retail units and report early-access EOI, prices, payment structures and conflicting completion targets; no authenticated current developer price list, signed payment schedule, EOI conditions, actual sales opening or current inventory was found.",
+      "unitMix": [
+        {
+          "type": "Offices",
+          "note": "Broker and registry sources; exact current official schedule pending."
+        },
+        {
+          "type": "Retail",
+          "note": "Broker and registry sources; exact current official schedule pending."
+        }
+      ],
+      "brokerPriceNote": "Third-party sources report offices from AED 1.34 million and retail from AED 2.40 million, with conflicting 50/50 versus 20/30/50 descriptions. No authenticated current developer price list was found.",
+      "eoi": {
+        "amount": null,
+        "refundable": null,
+        "note": "Alnair reports AED 100,000 EOI; acceptance, refund and allocation conditions remain unauthenticated."
+      },
+      "whatNext": "Await the 18 November official unveiling pack, current unit and price schedule, EOI conditions, signed payment terms, actual sales-opening confirmation and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the project name, Imtiaz attribution, Majan location and 18 November unveiling from the official event page. Office/retail mix is corroborated by registry and third-party sources, while prices, EOI, payment structure, sales opening, current availability and handover remain unverified.",
+      "sources": [
+        {
+          "url": "https://events.imtiaz.ae/",
+          "date": "2026-11-15",
+          "label": "Official Imtiaz event page: 18 November unveiling in Dubai Hills",
+          "primary": true
+        },
+        {
+          "url": "https://alnair.ae/en/news/early-access-opens-for-the-vault-by-imtiaz-in-majan",
+          "date": "2026-11-11",
+          "label": "Broker early-access report: EOI and commercial terms; unconfirmed",
+          "primary": false
+        },
+        {
+          "url": "https://dubaihandover.com/projects/4576-the-vault-by-imtiaz",
+          "date": "2026-11-15",
+          "label": "DLD-registry mirror: project registration and chronology context",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-15",
+      "updatedAt": "2026-11-15",
       "published": true
     }
   ],
