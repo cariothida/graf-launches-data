@@ -3469,57 +3469,9 @@
       "firstReported": "2026-11-15",
       "updatedAt": "2026-11-15",
       "published": true
-    },
-    {
-      "id": "karma-latitude-25-liwan",
-      "aliases": [],
-      "project": "Latitude 25",
-      "developer": "Karma Developers",
-      "emirate": "Dubai",
-      "location": "Liwan, Wadi Al Safa 2, Dubai",
-      "type": [
-        "offices"
-      ],
-      "status": "confirmed",
-      "launchWindow": "Introduced by Karma Developers on 11 November 2026; actual first sales day and current availability remain unverified.",
-      "startingPrice": null,
-      "pricePerSqft": null,
-      "priceConfirmed": false,
-      "paymentPlan": "Karma Developers states a 30/70 structure; the signed instalment schedule and current applicability remain unverified.",
-      "teaser": "Karma introduces Grade A offices with 35+ amenities in Liwan.",
-      "summary": "Karma Developers introduced Latitude 25 on 11 November 2026 as a Grade A commercial office development in Liwan, Dubai. The developer describes premium workspaces in the tallest building in the community, more than 35 business and wellness amenities and a 30/70 payment structure. The Dubai Land Department register records 243 units in Wadi Al Safa 2 and a December 2029 planned completion date, but those registry facts do not prove that sales are open or that inventory is available today. An authenticated current developer price list, detailed signed payment schedule, EOI conditions and contractual handover remain unavailable.",
-      "unitMix": [
-        {
-          "type": "Grade A offices",
-          "note": "Dubai Land Department registry records 243 units; current configurations and available inventory have not been authenticated from a developer sales schedule."
-        }
-      ],
-      "brokerPriceNote": "Third-party marketing lists offices from about AED 1 million. No authenticated current Karma Developers price list was found, so the numeric starting price remains unconfirmed.",
-      "whatNext": "Await the authenticated current price and unit schedule, sales-opening confirmation, EOI terms, signed payment milestones and contractual handover; subscribe for verified updates.",
-      "confidenceNote": "High on the project name, developer, Liwan location, Grade A office use and 30/70 headline structure from Karma Developers. Current pricing, detailed terms, actual first sales day and availability remain unverified.",
-      "sources": [
-        {
-          "url": "https://www.linkedin.com/company/karma-developers/",
-          "date": "2026-11-11",
-          "label": "Official Karma Developers company channel: Latitude 25 introduction and 30/70 headline plan",
-          "primary": true
-        },
-        {
-          "url": "https://karmadevelopers.ae/latitude-25/",
-          "label": "Official Latitude 25 project page: Grade A office identity, location and amenities",
-          "primary": false
-        },
-        {
-          "url": "https://www.mitchellscommercialrealty.com/off-plan/latitude-25",
-          "date": "2026-11-14",
-          "label": "Dubai Land Department registry mirror: 243 units, Wadi Al Safa 2 and December 2029 planned completion",
-          "primary": false
-        }
-      ],
-      "firstReported": "2026-11-16",
-      "updatedAt": "2026-11-16",
-      "published": true
     }
   ],
   "version": 1
 }
+
+
