@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 68619)
-Total output lines: 4669
+Warning: truncated output (original token count: 50842)
+Total output lines: 3531
 
 {
   "launches": [
@@ -1794,65 +1794,7 @@ Total output lines: 4669
       "pricePerSqft": null,
       "priceConfirmed": false,
       "brokerPriceNote": "Property Finder indicates an AED 1.1m launch price; Silver Oak lists AED 1.13m–4m. A developer-issued price list was not independently inspected.",
-      "paymentPlan": "Property Finder advertises 15% at launch, 34% during construction, …18619 tokens truncated…ker payment terms and reservation conditions await official verification. Broker update checked 28 October 2026: Mitchell's Commercial Real Estate and Disruptive Real Estate report an EOI window on 28 October with a token of AED 100,000 per unit. Mitchell's specifies 11am, submission by size category/payment plan rather than specific unit number. This is attributed broker intelligence; the original developer EOI notice, refund conditions, actual opening and current allocations have not been independently verified.",
-      "whatNext": "Await the official price list, complete payment schedule, reservation conditions and current release availability; subscribe for verified updates.",
-      "sources": [
-        {
-          "url": "https://executive-bulletin.com/real-estate-2/lmd-launches-christian-a-rockefeller-business-tower-bringing-hotelification-to-sheikh-zayed-road",
-          "date": "2026-10-22",
-          "label": "Company-issued LMD launch statement: office collections, location, completion and reported sales availability",
-          "primary": true
-        },
-        {
-          "url": "https://devmark.com/our-case-studies/christian-rockefeller-business-tower",
-          "label": "Official exclusive sales partner project identity; homepage still displays Coming Soon"
-        },
-        {
-          "url": "https://www.tradingview.com/news/reuters.com,2026-10-22:newsml_Zaw4fTHdk:0-dubai-s-lmd-launches-middle-east-s-first-rockefeller-branded-commercial-tower-in-dubai/",
-          "date": "2026-10-22",
-          "label": "Zawya report syndicated via TradingView; corroborates company statement and commercial specification"
-        },
-        {
-          "url": "https://www.luxwellrealestate.com/post/christian-a-rockefeller-business-tower-lmd-launch",
-          "date": "2026-10-20",
-          "label": "Earlier broker marketing; updated 22 October, rates and payment terms remain unconfirmed"
-        },
-        {
-          "url": "https://www.mitchellscommercialrealty.com/projects/christian-a-rockefeller-business-tower",
-          "label": "Attributed broker EOI briefing checked 28 October; original notice not authenticated"
-        },
-        {
-          "url": "https://disruptiveestate.com/off-plan/christian-a-rockefeller-business-tower",
-          "label": "Attributed broker EOI briefing checked 28 October; original notice not authenticated"
-        }
-      ],
-      "unitMix": [
-        {
-          "type": "Prime offices",
-          "sizeSqftFrom": 1077,
-          "note": "Approximate starting area in the company announcement."
-        },
-        {
-          "type": "Elite offices",
-          "sizeSqftFrom": 2294,
-          "note": "Approximate starting area in the company announcement."
-        },
-        {
-          "type": "Executive half-floor offices",
-          "sizeSqftFrom": 5888,
-          "note": "Approximate starting area in the company announcement."
-        },
-        {
-          "type": "Presidential full-floor offices",
-          "sizeSqftFrom": 11541,
-          "note": "Approximate starting area; Levels 71–80, with private terraces."
-        }
-      ],
-      "firstReported": "2026-10-23",
-      "updatedAt": "2026-10-28",
-      "published": true,
-      "seoTitle": "Christian A. Rockefeller Business Tower by LMD | GRAF",
-      "seoDescription": "Rockefeller-branded offices by LMD on Sheikh Zayed Road, Dubai. Q2 2031 completion planned; official prices and payments await verification.",
+      "paymentPlan": "Property Finder advertises 15% at launch, 34% during construction, …842 tokens truncated…ded offices by LMD on Sheikh Zayed Road, Dubai. Q2 2031 completion planned; official prices and payments await verification.",
       "eoi": {
         "amount": 100000,
         "refundable": null,
@@ -3368,49 +3310,49 @@ Total output lines: 4669
         "apartments"
       ],
       "status": "confirmed",
-      "launchWindow": "Official ALAIN posts on 13–14 November 2026 identify Address Residences Al Maryah Island as coming soon; actual sales opening is unverified.",
+      "launchWindow": "Official ALAIN and Emaar Hospitality announcement on 16 November 2026 confirms a five-project Abu Dhabi pipeline; the first Al Maryah Island project is coming soon and its actual sales opening remains unverified.",
       "startingPrice": null,
       "pricePerSqft": null,
       "priceConfirmed": false,
       "paymentPlan": null,
-      "teaser": "ALAIN names a coming-soon Address-branded waterfront residence on Al Maryah Island.",
-      "summary": "ALAIN's official company channel named Address Residences Al Maryah Island in posts on 13–14 November 2026 and described the project as a coming-soon waterfront residential destination in the heart of Al Maryah Island. A current channel-partner site markets 452 residences, comprising one- to four-bedroom apartments and two five-bedroom penthouses, with an indicative 40/60 structure; those product and commercial figures are not authenticated by an ALAIN project page or Address operator release and remain unconfirmed. Official prices, EOI terms, actual first sales day, current inventory and contractual handover are unknown.",
+      "teaser": "ALAIN and Emaar confirm a five-project Abu Dhabi branded-residence pipeline.",
+      "summary": "ALAIN and Emaar Hospitality Group's 16 November 2026 announcement confirms five branded-residential developments across prime Abu Dhabi waterfront locations under the Address, Palace and Vida brands, covering about 4.7 million sq ft and AED 8 billion in planned investment. ALAIN's group chief executive told The National that the first project is a 452-home Al Maryah Island scheme with apartments and penthouses, one-bedroom guidance from AED 3.7 million and sales expected very soon. That direct executive guidance is material, but an authenticated project price list, payment and EOI terms, current inventory and contractual handover remain unavailable.",
       "unitMix": [
         {
-          "type": "Residences",
-          "note": "Official ALAIN posts confirm a residential destination. Channel-partner marketing reports 1–4BR apartments plus two 5BR penthouses; unconfirmed."
+          "type": "Apartments and penthouses",
+          "note": "ALAIN group chief executive told The National the first Al Maryah project will contain 452 homes; exact bedroom schedule awaits the authenticated project pack."
         }
       ],
-      "brokerPriceNote": "An authorised channel-partner site says indicative pricing is expected below AED 4,000 per sq ft and markets a 40/60 payment plan. These are not authenticated current developer prices or signed terms.",
+      "brokerPriceNote": "ALAIN group chief executive Rabih Karam told The National on 16 November 2026 that one-bedroom homes would start from AED 3.7 million; an authenticated project price list is not yet public.",
       "eoi": {
         "amount": null,
         "refundable": null,
         "note": "Broker previews report AED 100,000 EOI, but no authenticated acceptance, refund or allocation conditions were found."
       },
-      "whatNext": "Await the authenticated ALAIN project pack, Address operator confirmation, official unit schedule, current price list, EOI conditions, sales-opening confirmation and contractual handover; subscribe for verified updates.",
-      "confidenceNote": "High on the project name, ALAIN attribution, Address branding, Al Maryah Island location and coming-soon status from ALAIN’s official company channel. The 452-home mix, payment plan, indicative rate, EOI and delivery claims remain broker or channel-partner intelligence.",
+      "whatNext": "Await the authenticated Al Maryah project page, unit and price schedule, payment and EOI terms, sales-opening confirmation, current inventory and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the five-project ALAIN–Emaar Hospitality pipeline and on the Al Maryah project’s 452-home apartment-and-penthouse outline from the company announcement and direct chief-executive comments. The AED 3.7 million figure is executive guidance, not an authenticated current price list; sales opening and current availability remain unverified.",
       "sources": [
         {
-          "url": "https://ae.linkedin.com/company/alain-am",
-          "date": "2026-11-14",
-          "label": "Official ALAIN company channel: Address Residences Al Maryah Island named as coming soon",
+          "url": "https://www.zawya.com/en/press-release/companies-news/alain-and-emaar-hospitality-group-unveil-aed-8bln-of-hospitality-branded-residential-pipeline-for-abu-dhabi-2278303",
+          "date": "2026-11-16",
+          "label": "ALAIN and Emaar Hospitality company announcement: five Abu Dhabi branded-residence projects across Address, Palace and Vida",
           "primary": true
         },
         {
-          "url": "https://addressresidence.ae/",
-          "date": "2026-11-15",
-          "label": "Authorised channel-partner marketing: reported unit mix and indicative terms; not an official developer price list",
+          "url": "https://www.thenationalnews.com/business/property/2026/11/16/abu-dhabis-al-ain-asset-management-and-emaar-team-up-for-dh8-billion-projects/",
+          "date": "2026-11-16",
+          "label": "Direct ALAIN chief-executive comments: 452-home Al Maryah project, AED 3.7m one-bedroom guidance and sales expected very soon",
           "primary": false
         },
         {
           "url": "https://www.alainam.ae/alain-developments/",
-          "date": "2026-11-15",
-          "label": "Official ALAIN development portfolio checked; exact project page not yet published",
+          "date": "2026-11-17",
+          "label": "Official ALAIN portfolio checked; exact commercial pack remains unpublished",
           "primary": false
         }
       ],
       "firstReported": "2026-11-15",
-      "updatedAt": "2026-11-15",
+      "updatedAt": "2026-11-17",
       "published": true
     },
     {
@@ -3471,6 +3413,62 @@ Total output lines: 4669
       ],
       "firstReported": "2026-11-15",
       "updatedAt": "2026-11-15",
+      "published": true
+    },
+    {
+      "id": "meraas-solaya-november-collection",
+      "aliases": [],
+      "project": "Solaya — November 2026 Collection",
+      "developer": "Meraas / BGRE",
+      "developerId": "meraas",
+      "emirate": "Dubai",
+      "location": "Solaya, Jumeirah 1 beachfront, Dubai",
+      "type": [
+        "apartments",
+        "duplexes",
+        "penthouses"
+      ],
+      "status": "confirmed",
+      "parentId": "solaya",
+      "phase": "November 2026 collection",
+      "launchWindow": "Meraas and BGRE announced the new phase on 16 November 2026; actual first sales-opening day and current inventory are unverified.",
+      "startingPrice": null,
+      "pricePerSqft": null,
+      "priceConfirmed": false,
+      "paymentPlan": null,
+      "teaser": "Meraas and BGRE release a limited two- to five-bedroom Solaya collection.",
+      "summary": "Meraas and BGRE announced a new Solaya phase on 16 November 2026 within the 234-home, nine-building beachfront community in Jumeirah 1. The collection comprises two- to five-bedroom Classic Residences, Signature Residences including four-bedroom duplexes with private gardens and pools, and a penthouse with a terrace and private pool. Release-specific prices, payment and EOI terms, actual first sales day, current inventory and contractual handover were not included in the company announcement.",
+      "unitMix": [
+        {
+          "type": "2–5BR Classic Residence"
+        },
+        {
+          "type": "4BR Signature duplex",
+          "note": "Private garden and pool in the company announcement."
+        },
+        {
+          "type": "Penthouse",
+          "note": "Expansive terrace and private pool in the company announcement."
+        }
+      ],
+      "whatNext": "Await the collection’s authenticated price and unit schedule, payment and EOI terms, sales-opening confirmation, current inventory and contractual handover; subscribe for verified updates.",
+      "confidenceNote": "High on the 16 November company announcement, location and product mix. The release was not assigned a building number in the public announcement, so it remains separate from the earlier Building 8 broker-intelligence record; prices, opening and stock remain unverified.",
+      "sources": [
+        {
+          "url": "https://www.wam.ae/en/article/c3a9ekz-meraas-bgre-launch-new-phase-solaya-beachfront",
+          "date": "2026-11-16",
+          "label": "Meraas and BGRE company announcement distributed by Emirates News Agency: new phase and product mix",
+          "primary": true
+        },
+        {
+          "url": "https://meraas.com/en/project/solaya",
+          "date": "2026-11-17",
+          "label": "Official Solaya project context; 234 homes across nine beachfront buildings",
+          "primary": false
+        }
+      ],
+      "firstReported": "2026-11-17",
+      "updatedAt": "2026-11-17",
       "published": true
     }
   ],
