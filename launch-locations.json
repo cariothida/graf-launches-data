@@ -15,9 +15,12 @@
     {
       "projectId": "rabdan-rabdan-avenue-meydan",
       "phase": null,
-      "precision": "unknown",
-      "coordinates": null,
-      "label": "Rabdan Avenue — live refresh verification",
+      "precision": "exact",
+      "coordinates": {
+        "lat": 25.153556,
+        "lng": 55.288333
+      },
+      "label": "Rabdan Avenue — developer project map",
       "sources": [
         {
           "url": "https://www.rabdan.ae/properties/rabdan-avenue",
