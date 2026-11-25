@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-25",
+  "access": "search_service web open/click; not Google Search",
+  "projectEvidence": [
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "precision": "exact",
+      "coordinates": {
+        "lat": 25.153556,
+        "lng": 55.288333
+      },
+      "sources": [
+        {
+          "url": "https://www.rabdan.ae/properties/rabdan-avenue",
+          "evidenceType": "project-map",
+          "projectId": "rabdan-rabdan-avenue-meydan",
+          "description": "Official project-specific Location section labels Rabdan Avenue, Meydan, Dubai; Get Directions resolves directly to https://www.google.com/maps?q=25.153556,55.288333 . This is a project location link, distinct from navigation/contact links.",
+          "access": "full HTML read, map target clicked",
+          "mapAccessLimit": "Google Maps returned JavaScript-required shell; coordinates were verified in original developer link target, not native map imagery."
+        }
+      ]
+    },
+    {
+      "projectId": "signature-w-residences-jlt-phase-3",
+      "phase": "Phase 3 larger-residence release",
+      "precision": "district",
+      "coordinates": null,
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/w-residences-dubai-jumeirah-lakes-towers-launches-phase-3-with-a-two-day-open-house-and-personalised-offers-for-buyers-2417153",
+          "evidenceType": "district-announcement",
+          "projectId": "signature-w-residences-jlt-phase-3",
+          "phase": "Phase 3 larger-residence release",
+          "description": "Signature Developers/betterhomes release identifies larger residences in Phase 3 of W Residences Dubai Jumeirah Lakes Towers, a standalone 187-residence development. It places the project in JLT; sales-centre open-house address is not accepted as a project point.",
+          "access": "full article read"
+        }
+      ],
+      "limitations": [
+        "No verified project/phase-to-plot coordinate proof.",
+        "A separate fresh EquityEdge full-page read currently showed sold-out/resale copy and no map. Earlier source-coverage retrieval reported an indicative map disclaimer; preserve it only with its own retrieval provenance and do not misrepresent as current identical HTML.",
+        "Do not confuse W JLT with W Downtown, Palm, Harbour or Al Maryah."
+      ]
+    }
+  ],
+  "researchCompleteness": {
+    "google40RequirementMet": false,
+    "successfulGoogleQueries": 0,
+    "notes": "Directly verifying a known official map link does not satisfy required 40 different Google searches."
+  }
+}
