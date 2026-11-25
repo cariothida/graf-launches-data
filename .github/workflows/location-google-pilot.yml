@@ -1,0 +1,35 @@
+name: Google location pilot diagnostic
+on:
+  push:
+    branches: [research/google-location-pilot-20261125]
+    paths:
+      - .github/workflows/location-google-pilot.yml
+      - scripts/location-google-pilot.mjs
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install ordinary public browser package
+        run: |
+          mkdir -p /tmp/google-location-browser
+          cd /tmp/google-location-browser
+          npm init -y
+          npm install playwright@1.56.1
+          npx playwright install --with-deps chromium
+          ln -s /tmp/google-location-browser/node_modules "$GITHUB_WORKSPACE/scripts/node_modules"
+      - name: Google diagnostic and permitted sequential research
+        run: node scripts/location-google-pilot.mjs
+      - name: Preserve actual Google responses and journal
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: google-location-pilot-evidence
+          path: research-output/
+          retention-days: 14
