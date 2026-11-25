@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-25T10:44:10.529Z",
+  "engine": "Google",
+  "source": "ordinary Chromium Google search navigation on GitHub Actions ubuntu-latest",
+  "inputHashes": {
+    "launches.json": "1990723c3f7841bf99737bddabbcde742b4525c917ed59077b11e8366d8b7995",
+    "radar-watchlist.json": "334ef1af7dfd525760e5365af361d51aef82f8a04c957782a44a3fd87eee45e3",
+    "RADAR-RESEARCH.md": "05107c00c972b1f1ab7dbcc1b106f0dbda6255e9d5e0325fa283a2f26404d26d",
+    "research/2026-11-25-launch-location-query-plan.json": "a2454fb931670098895405345032d6f0da68f436e6f574218ab3aa357a0b8f49"
+  },
+  "watchlistSources": 127,
+  "queries": [
+    {
+      "projectId": "signature-w-residences-jlt-phase-3",
+      "phase": "Phase 3 larger-residence release",
+      "number": 1,
+      "language": "en",
+      "query": "\"W Residences Dubai JLT\" Signature Developers exact location Phase 3",
+      "engine": "Google",
+      "executedAt": "2026-11-25T10:44:10.707Z",
+      "status": "blocked",
+      "resultUrls": [],
+      "snippets": [],
+      "requestedUrl": "https://www.google.com/search?q=%22W+Residences+Dubai+JLT%22+Signature+Developers+exact+location+Phase+3&hl=en",
+      "finalUrl": "https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3D%2522W%2BResidences%2BDubai%2BJLT%2522%2BSignature%2BDevelopers%2Bexact%2Blocation%2BPhase%2B3%26hl%3Den%26sei%3D-rsGa77TL9yYptQP4uLeyA8&hl=en&q=EgQElrfFGPr3mtgGIjCyKqDN58lpm0sy37X_lXW8BPnib6blYwEMMxUqrHcxawf2nAkjYBHEMJs7zYRTFSEyAVJaAUNgkLqnjceV86GKAQ",
+      "httpStatus": 200,
+      "accessLimit": "Google challenge / unusual traffic / rate-limit; stopped without solving or evasion",
+      "visibleText": "\n\nAbout this page\n\nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?\n\n\n\nIP address: 4.150.183.197\nTime: 2026-11-25T10:44:11Z\nURL: https://www.google.com/search?q=%22W+Residences+Dubai+JLT%22+Signature+Developers+exact+location+Phase+3&hl=en&sei=-rsGa77TL9yYptQP4uLeyA8\n"
+    }
+  ],
+  "stopReason": "Google challenge / unusual traffic / rate-limit; stopped without solving or evasion",
+  "successfulGoogleQueries": 0,
+  "byProject": {
+    "rabdan-rabdan-avenue-meydan": 0,
+    "signature-w-residences-jlt-phase-3": 0,
+    "beyond-yardlands-dubai": 0
+  },
+  "complete": false,
+  "actualRunner": "ubuntu-24.04",
+  "runUrl": "https://github.com/cariothida/graf-launches-data/actions/runs/45597738909",
+  "jobId": 139148188584,
+  "artifactName": "google-location-pilot-evidence",
+  "note": "Workflow succeeded in capturing the denial. It did not complete search research. No challenge was solved, no proxy/IP/identity rotation attempted. Native local browser work by root is a separate journal and not counted here."
+}
