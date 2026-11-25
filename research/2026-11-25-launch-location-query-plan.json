@@ -1,0 +1,999 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-25",
+  "status": "planned-not-executed",
+  "successfulGoogleQueries": 0,
+  "instructions": "This file is a resumption queue, not an execution log. Reload current launches.json, radar-watchlist.json and RADAR-RESEARCH.md before executing. Reconcile identity/phase by existing projectId and adapt queries to current evidence; preserve each actually executed query/result/access limit separately. Failed/blocked requests do not count toward 40 successful distinct Google searches. Watchlist source/account pass is separate.",
+  "projects": [
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "name": "Rabdan Avenue",
+      "developer": "Rabdan Developments",
+      "district": "Meydan Nad Al Sheba 1",
+      "officialDomain": "rabdan.ae",
+      "phase": null,
+      "queries": [
+        {
+          "number": 1,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments exact location",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 2,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments developer project map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 3,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments plot number",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 4,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments site plan",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 5,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments master plan",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 6,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments brochure filetype:pdf",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 7,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments official map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 8,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments Google Maps",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 9,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments coordinates",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 10,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments land parcel",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 11,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments DLD project registration",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 12,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments construction site address",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 13,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments district location map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 14,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments phase location",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 15,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments site boundary",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 16,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments satellite construction site",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 17,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments development map plot",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 18,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments location spelling variants",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 19,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments developer location evidence",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 20,
+          "language": "en",
+          "query": "\"Rabdan Avenue\" Rabdan Developments phase release map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 21,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" الموقع الدقيق",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 22,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" خريطة المشروع",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 23,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" رقم قطعة الأرض",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 24,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" المخطط العام",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 25,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" كتيب المشروع pdf",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 26,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" خرائط جوجل",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 27,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" إحداثيات المشروع",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 28,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" موقع المرحلة",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 29,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" عنوان موقع البناء",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 30,
+          "language": "ar",
+          "query": "\"Rabdan Avenue\" خريطة المطور",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 31,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" точная локация",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 32,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" карта проекта",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 33,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" номер участка",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 34,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" генплан",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 35,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" брошюра PDF",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 36,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" Google Карты",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 37,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" координаты",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 38,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" расположение фазы",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 39,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" адрес строительства",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 40,
+          "language": "ru",
+          "query": "\"Rabdan Avenue\" карта застройщика",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        }
+      ]
+    },
+    {
+      "projectId": "signature-w-residences-jlt-phase-3",
+      "name": "W Residences Dubai JLT",
+      "developer": "Signature Developers",
+      "district": "Jumeirah Lakes Towers",
+      "officialDomain": null,
+      "phase": "Phase 3 larger-residence release",
+      "queries": [
+        {
+          "number": 1,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers exact location",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 2,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers developer project map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 3,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers plot number",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 4,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers site plan",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 5,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers master plan",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 6,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers brochure filetype:pdf",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 7,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers official map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 8,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers Google Maps",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 9,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers coordinates",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 10,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers land parcel",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 11,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers DLD project registration",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 12,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers construction site address",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 13,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers district location map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 14,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers phase location",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 15,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers site boundary",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 16,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers satellite construction site",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 17,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers development map plot",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 18,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers location spelling variants",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 19,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers developer location evidence",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 20,
+          "language": "en",
+          "query": "\"W Residences Dubai JLT\" Signature Developers phase release map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 21,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" الموقع الدقيق",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 22,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" خريطة المشروع",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 23,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" رقم قطعة الأرض",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 24,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" المخطط العام",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 25,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" كتيب المشروع pdf",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 26,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" خرائط جوجل",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 27,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" إحداثيات المشروع",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 28,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" موقع المرحلة",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 29,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" عنوان موقع البناء",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 30,
+          "language": "ar",
+          "query": "\"W Residences Dubai JLT\" خريطة المطور",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 31,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" точная локация",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 32,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" карта проекта",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 33,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" номер участка",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 34,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" генплан",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 35,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" брошюра PDF",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 36,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" Google Карты",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 37,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" координаты",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 38,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" расположение фазы",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 39,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" адрес строительства",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 40,
+          "language": "ru",
+          "query": "\"W Residences Dubai JLT\" карта застройщика",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        }
+      ]
+    },
+    {
+      "projectId": "beyond-yardlands-dubai",
+      "name": "YARDLANDS",
+      "developer": "BEYOND Developments",
+      "district": "Sheikh Mohammed Bin Zayed Road",
+      "officialDomain": null,
+      "phase": null,
+      "queries": [
+        {
+          "number": 1,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments exact location",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 2,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments developer project map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 3,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments plot number",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 4,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments site plan",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 5,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments master plan",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 6,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments brochure filetype:pdf",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 7,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments official map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 8,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments Google Maps",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 9,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments coordinates",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 10,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments land parcel",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 11,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments DLD project registration",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 12,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments construction site address",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 13,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments district location map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 14,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments phase location",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 15,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments site boundary",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 16,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments satellite construction site",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 17,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments development map plot",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 18,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments location spelling variants",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 19,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments developer location evidence",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 20,
+          "language": "en",
+          "query": "\"YARDLANDS\" BEYOND Developments phase release map",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 21,
+          "language": "ar",
+          "query": "\"YARDLANDS\" الموقع الدقيق",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 22,
+          "language": "ar",
+          "query": "\"YARDLANDS\" خريطة المشروع",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 23,
+          "language": "ar",
+          "query": "\"YARDLANDS\" رقم قطعة الأرض",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 24,
+          "language": "ar",
+          "query": "\"YARDLANDS\" المخطط العام",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 25,
+          "language": "ar",
+          "query": "\"YARDLANDS\" كتيب المشروع pdf",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 26,
+          "language": "ar",
+          "query": "\"YARDLANDS\" خرائط جوجل",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 27,
+          "language": "ar",
+          "query": "\"YARDLANDS\" إحداثيات المشروع",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 28,
+          "language": "ar",
+          "query": "\"YARDLANDS\" موقع المرحلة",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 29,
+          "language": "ar",
+          "query": "\"YARDLANDS\" عنوان موقع البناء",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 30,
+          "language": "ar",
+          "query": "\"YARDLANDS\" خريطة المطور",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 31,
+          "language": "ru",
+          "query": "\"YARDLANDS\" точная локация",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 32,
+          "language": "ru",
+          "query": "\"YARDLANDS\" карта проекта",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 33,
+          "language": "ru",
+          "query": "\"YARDLANDS\" номер участка",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 34,
+          "language": "ru",
+          "query": "\"YARDLANDS\" генплан",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 35,
+          "language": "ru",
+          "query": "\"YARDLANDS\" брошюра PDF",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 36,
+          "language": "ru",
+          "query": "\"YARDLANDS\" Google Карты",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 37,
+          "language": "ru",
+          "query": "\"YARDLANDS\" координаты",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 38,
+          "language": "ru",
+          "query": "\"YARDLANDS\" расположение фазы",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 39,
+          "language": "ru",
+          "query": "\"YARDLANDS\" адрес строительства",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        },
+        {
+          "number": 40,
+          "language": "ru",
+          "query": "\"YARDLANDS\" карта застройщика",
+          "requestedEngine": "Google",
+          "status": "pending",
+          "executedAt": null
+        }
+      ]
+    }
+  ]
+}
