@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-25",
+  "researchStatus": {
+    "googleSearchesCompleted": 0,
+    "googleSearchesRequiredPerNewProject": 40,
+    "complete": false,
+    "limitation": "Direct Google/browser access unavailable during this pilot; no substitute engine is counted as Google. Evidence-led seed for staging review.",
+    "audit": "research/2026-11-25-launch-location-pilot-access-audit.json"
+  },
+  "locations": [
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "phase": null,
+      "precision": "exact",
+      "coordinates": {
+        "lat": 25.153556,
+        "lng": 55.288333
+      },
+      "label": "Rabdan Avenue — developer project map",
+      "sources": [
+        {
+          "url": "https://www.rabdan.ae/properties/rabdan-avenue",
+          "evidenceType": "project-map",
+          "projectId": "rabdan-rabdan-avenue-meydan",
+          "description": "The official Rabdan Avenue project page names this project in its Location section and links Get Directions to https://www.google.com/maps?q=25.153556,55.288333 . This is the project's own map link, rather than a sales-office address."
+        },
+        {
+          "url": "https://www.google.com/maps?q=25.153556,55.288333",
+          "evidenceType": "official-coordinates",
+          "projectId": "rabdan-rabdan-avenue-meydan",
+          "description": "Direct destination of Get Directions in the Rabdan Avenue official project Location section; coordinates verified by following that named project link."
+        }
+      ],
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "projectId": "signature-w-residences-jlt-phase-3",
+      "phase": "Phase 3 larger-residence release",
+      "precision": "district",
+      "coordinates": null,
+      "label": "Jumeirah Lakes Towers — exact phase location being verified",
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/w-residences-dubai-jumeirah-lakes-towers-launches-phase-3-with-a-two-day-open-house-and-personalised-offers-for-buyers-2417153",
+          "evidenceType": "district-announcement",
+          "projectId": "signature-w-residences-jlt-phase-3",
+          "phase": "Phase 3 larger-residence release",
+          "description": "Signature Developers/betterhomes Phase 3 release identifies larger residences in the standalone W Residences Dubai Jumeirah Lakes Towers development. The open-house sales centre is not accepted as the construction point. No phase-specific plot or numeric point established by this evidence."
+        }
+      ],
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "projectId": "beyond-yardlands-dubai",
+      "phase": null,
+      "precision": "unknown",
+      "coordinates": null,
+      "label": "Sheikh Mohammed Bin Zayed Road corridor — exact location being verified",
+      "sources": [
+        {
+          "url": "https://www.zawya.com/en/press-release/beyond-developments-announces-aed-80bln-yardlands-masterplan-along-sheikh-mohammed-bin-zayed-road-2443570",
+          "evidenceType": "corridor-announcement",
+          "projectId": "beyond-yardlands-dubai",
+          "description": "BEYOND company release identifies Sheikh Mohammed Bin Zayed Road corridor. No plot, first-release boundary or directly linked project point is supplied by this release. Copies syndicated to other outlets count as the same underlying release."
+        }
+      ],
+      "checkedAt": "2026-11-25"
+    }
+  ]
+}
