@@ -2,11 +2,14 @@
   "schemaVersion": 1,
   "updatedAt": "2026-11-25",
   "researchStatus": {
-    "googleSearchesCompleted": 0,
+    "googleSearchesCompleted": 43,
     "googleSearchesRequiredPerNewProject": 40,
     "complete": false,
-    "limitation": "Direct Google/browser access unavailable during this pilot; no substitute engine is counted as Google. Evidence-led seed for staging review.",
-    "audit": "research/2026-11-25-launch-location-pilot-access-audit.json"
+    "limitation": "Rabdan Avenue has 43 distinct completed native Google searches. Google then presented a CAPTCHA before W Phase 3 research; consent to solve was not received. Remaining project searches are incomplete.",
+    "audit": "research/2026-11-25-launch-location-pilot-access-audit.json",
+    "projectsMeetingSearchRequirement": 1,
+    "pilotProjects": 3,
+    "nativeJournal": "research/2026-11-25-launch-location-google-native.json"
   },
   "locations": [
     {
@@ -32,7 +35,13 @@
           "description": "Direct destination of Get Directions in the Rabdan Avenue official project Location section; coordinates verified by following that named project link."
         }
       ],
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-25",
+      "research": {
+        "googleSearchesCompleted": 43,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": true,
+        "status": "search-requirement-met"
+      }
     },
     {
       "projectId": "signature-w-residences-jlt-phase-3",
@@ -49,7 +58,13 @@
           "description": "Signature Developers/betterhomes Phase 3 release identifies larger residences in the standalone W Residences Dubai Jumeirah Lakes Towers development. The open-house sales centre is not accepted as the construction point. No phase-specific plot or numeric point established by this evidence."
         }
       ],
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-25",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      }
     },
     {
       "projectId": "beyond-yardlands-dubai",
@@ -65,7 +80,13 @@
           "description": "BEYOND company release identifies Sheikh Mohammed Bin Zayed Road corridor. No plot, first-release boundary or directly linked project point is supplied by this release. Copies syndicated to other outlets count as the same underlying release."
         }
       ],
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-25",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      }
     }
   ]
 }
