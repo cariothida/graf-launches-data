@@ -1,0 +1,2141 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-25",
+  "engine": "Google",
+  "access": "Native Chrome rendered Google Search pages",
+  "notes": [
+    "Distinct completed queries only count toward the requirement. Unconfirmed navigation attempts are retained without evidence links.",
+    "Search results are indexed leads, not full native post, video or source-page inspection.",
+    "Identical announcements and text-fragment URLs are not independent evidence sources."
+  ],
+  "queries": [
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments exact location",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:44:03.989Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "investinre.ae/project-detail/rabdan-avenue/",
+          "title": "Value: investinre.ae/project-detail/rabdan-avenue/, Rabdan Avenue – Meydan (Nad Al Sheba 1) | Prices & Payment ... Investin Residential https://www.investinre.ae › Off-Plan"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "hanokinternational.com/projects/rabdan-avenue",
+          "title": "Value: hanokinternational.com/projects/rabdan-avenue, Rabdan Avenue Hanok International Real Estate LLC https://hanokinternational.com › ... › Rabdan Avenue"
+        },
+        {
+          "url": "arvestaelite.com/project-detail/rabdan-avenue/",
+          "title": "Value: arvestaelite.com/project-detail/rabdan-avenue/, Rabdan Avenue by Rabdan Developments, Dubai | Arvesta Elite ... arvestaelite.com https://arvestaelite.com › project-detail › rabdan-avenue"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        },
+        {
+          "url": "dubaihaus.com/en/project-details/rabdan-avenue-100452",
+          "title": "Value: dubaihaus.com/en/project-details/rabdan-avenue-100452, Rabdan Avenue (Dubai) | Prices, Payment Plan & Handover DubaiHaus https://www.dubaihaus.com › Home › Off-Plan Projects"
+        },
+        {
+          "url": "a1properties.ae/project-details/rabdan-avenue-dubai-south",
+          "title": "Value: a1properties.ae/project-details/rabdan-avenue-dubai-south, Rabdan Avenue - Apartments for Sale in Dubai A1 Properties https://a1properties.ae › project-details › rabdan-avenue-..."
+        },
+        {
+          "url": "continentalclub.ae/project/rabdan-avenue-meydan/",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments developer project map",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:44:28.856Z",
+      "status": "unconfirmed",
+      "resultLinks": [],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments plot number",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:44:31.774Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "Rabdan Avenue, Meydan by Rabdan — from AED 1.3M graf.ae https://graf.ae › Rabdan Developments"
+        },
+        {
+          "url": "farhanrasheed.com/project/dubai-rera-4516-rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "solankiproperties.com/property/rabdan-avenue-luxury-residences-in-dubai/",
+          "title": "Read more"
+        },
+        {
+          "url": "investinre.ae/project-detail/rabdan-avenue/",
+          "title": "Value: investinre.ae/project-detail/rabdan-avenue/, Rabdan Avenue – Meydan (Nad Al Sheba 1) | Prices & Payment ... Investin Residential https://www.investinre.ae › Off-Plan"
+        },
+        {
+          "url": "facebook.com/photo.php",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/buildings/rabdan-avenue",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments site plan",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:44:32.691Z",
+      "status": "unconfirmed",
+      "resultLinks": [],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments site plan",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:45:36.682Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Avenue: Meydan, Dubai Rabdan Developments https://www.rabdan.ae › properties › rabdan-avenue"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Brochure-Download",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "ashleybrownproperties.org/projects/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        },
+        {
+          "url": "savoirproperties.com/off-plan/rabdan-avenue-at-meydan",
+          "title": "Read more"
+        },
+        {
+          "url": "maisondubai.com/projects/rabdan-avenue",
+          "title": "Rabdan Avenue, Meydan | Off-Plan Dubai Casadior Dubai https://maisondubai.com › Projects"
+        },
+        {
+          "url": "onplan.ae/off-plan-projects/rabdan-avenue",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments master plan",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:48:26.464Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-MasterPlan",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Developments"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments brochure filetype:pdf",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:48:27.124Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "manage.tanamiproperties.com/Project/Brochure/3324/Rabdan_Avenue_at_Meydan.pdf",
+          "title": "rabdan avenue Tanami Properties https://manage.tanamiproperties.com › Brochure"
+        },
+        {
+          "url": "manage.tanamiproperties.com/Project/Brochure/3324/Rabdan_Avenue_at_Meydan.pdf#:~:text=Rabdan%20Avenue%20introduces%20a%20limited,and%20rooftop%20pools%20to%20family",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments official map",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:48:27.816Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "map.rabdan.ae/",
+          "title": "Rabdan Developments Investments Map"
+        },
+        {
+          "url": "map.rabdan.ae/#:~:text=3viewing%20now",
+          "title": "Read more"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location",
+          "title": "Value: tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location, Rabdan Avenue in Meydan, MBR City - Location Map Tanami Properties https://www.tanamiproperties.com › Projects › Rabdan-A..."
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location#:~:text=Rabdan%20Avenue%20is%20situated%20at,coveted%20master%20communities%20in%20Dubai.",
+          "title": "Read more"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai Propsearch.ae https://propsearch.ae › dubai › rabdan-avenue"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue#:~:text=Rabdan%20Avenue%20is%20an%20eight%2Dstorey,Updated%2023%20Sep%202026",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Rabdan Developments"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments Google Maps",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:48:28.558Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "dubairapidproperties.com/off-plan/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "arvestaelite.com/project-detail/rabdan-avenue/",
+          "title": "Value: arvestaelite.com/project-detail/rabdan-avenue/, Rabdan Avenue by Rabdan Developments, Dubai | Arvesta Elite ... arvestaelite.com https://arvestaelite.com › project-detail › rabdan-avenue"
+        },
+        {
+          "url": "luxhabitat.ae/developments/dubai/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "maisondubai.com/projects/rabdan-avenue",
+          "title": "Rabdan Avenue, Meydan | Off-Plan Dubai Casadior Dubai https://maisondubai.com › Projects"
+        },
+        {
+          "url": "nasamaproperties.com/offplan/projects/rabdan-avenue/",
+          "title": "Rabdan Avenue, Nad Al Sheba Nasama Properties https://nasamaproperties.com › Off-plan projects"
+        },
+        {
+          "url": "dxboffplan.com/properties/rabdan-avenue/",
+          "title": "Value: dxboffplan.com/properties/rabdan-avenue/, Rabdan Avenue Apartments at Meydan, Dubai DXBoffplan https://dxboffplan.com › properties › rabdan-avenue"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        },
+        {
+          "url": "goldenhills.ae/developers/rabdan-developments",
+          "title": "Read more"
+        },
+        {
+          "url": "solankiproperties.com/property/rabdan-avenue-luxury-residences-in-dubai/",
+          "title": "Value: solankiproperties.com/property/rabdan-avenue-luxury-residences-in-dubai/, Rabdan Avenue – Luxury Residences in Dubai Solanki Properties https://solankiproperties.com › property › rabdan-aven..."
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments coordinates",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:49:52.491Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "bizquartz.com/properties/projects/915/rabdan-avenue-a-refined-address-for-contemporary-living",
+          "title": "Read more"
+        },
+        {
+          "url": "equityedge.ae/off-plan/projects/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "offplan.ae/projects/rabdan-avenue",
+          "title": "Value: offplan.ae/projects/rabdan-avenue, Rabdan Avenue by Rabdan Developments, Meydan | OffPlan offplan.ae https://offplan.ae › Dubai › Meydan"
+        },
+        {
+          "url": "projectsatlas.com/uae/projects/rabdan-avenue-rabdan-developments",
+          "title": "Value: projectsatlas.com/uae/projects/rabdan-avenue-rabdan-developments, Rabdan Avenue | Meydan, Nad Al Sheba 1 | Projects Atlas projectsatlas.com https://projectsatlas.com › UAE projects"
+        },
+        {
+          "url": "continentalclub.ae/project/rabdan-gardens-jumeirah-garden-city/",
+          "title": "Read more"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        },
+        {
+          "url": "ae.linkedin.com/company/rabdan-developments",
+          "title": "Read more"
+        },
+        {
+          "url": "bizquartz.com/properties/projects/898/rabdan-gate-elevated-urban-living-in-majan-dubai",
+          "title": "Read more"
+        },
+        {
+          "url": "elitemerit.ae/en/apartments-for-sale-in-dubai/meydan-city/meydan-avenue/2-bedroom-apartment-in-rabdan-avenue-meydan-avenue-dubai/",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments land parcel",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:49:53.218Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "erehomes.ae/projects/rabdan-avenue/",
+          "title": "Rabdan Avenue, Meydan | Off-Plan Dubai ERE Homes Real Estate https://erehomes.ae › Projects"
+        },
+        {
+          "url": "facebook.com/groups/dubaiapartment/posts/3252545544936045/",
+          "title": "Value: facebook.com/groups/dubaiapartment/posts/3252545544936045/, Rabdan Avenue is set for handover in June 2029. A ... Facebook · Dubai Holiday Homes Rental 1 comment · 2 days ago"
+        },
+        {
+          "url": "…",
+          "title": "YouTube"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments DLD project registration",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:49:53.940Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "mitchellscommercialrealty.com/off-plan/rabdan-avenue",
+          "title": "Value: mitchellscommercialrealty.com/off-plan/rabdan-avenue, Rabdan Avenue — DLD registry and registered sales mitchellscommercialrealty.com https://www.mitchellscommercialrealty.com › off-plan"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai Propsearch.ae https://propsearch.ae › dubai › rabdan-avenue"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue#:~:text=11%20Nov%202026",
+          "title": "Read more"
+        },
+        {
+          "url": "proprobin.com/dubai/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue, Meydan: Prices and Sales Proprobin https://proprobin.com › Dubai › Dubai Pulse"
+        },
+        {
+          "url": "erehomes.ae/developers/rabdan-avenue-development/",
+          "title": "Rabdan Avenue Development Off-Plan Dubai ERE Homes Real Estate https://erehomes.ae › Developers"
+        },
+        {
+          "url": "houseoforange.ae/off-plan/rabdan_avenue-4013",
+          "title": "Value: houseoforange.ae/off-plan/rabdan_avenue-4013, Rabdan Avenue, Off-Plan in Meydan | House Of Orange houseoforange.ae https://www.houseoforange.ae › Off-Plan"
+        },
+        {
+          "url": "continentalclub.ae/project/rabdan-avenue-meydan/",
+          "title": "Value: continentalclub.ae/project/rabdan-avenue-meydan/, Rabdan Avenue mixed-use building, Meydan Continental Club Property https://continentalclub.ae › project › rabdan-avenue-me..."
+        },
+        {
+          "url": "continentalclub.ae/project/rabdan-avenue-meydan/#:~:text=It%20is%20DLD%20project%20number,residences%20and%20one%20commercial%20unit.",
+          "title": "Read more"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/",
+          "title": "Value: binayah.com/dubai-projects/rabdan-avenue/, Rabdan Avenue by Rabdan Developments in Meydan, ... Binayah Properties https://www.binayah.com › Off Plan Properties › Dubai"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/#:~:text=Read%20More",
+          "title": "Read more"
+        },
+        {
+          "url": "equityedge.ae/off-plan/projects/rabdan-avenue",
+          "title": "Value: equityedge.ae/off-plan/projects/rabdan-avenue, Rabdan Avenue by Rabdan Developments - Equity Edge equityedge.ae https://www.equityedge.ae › off-plan › projects › rabda..."
+        },
+        {
+          "url": "equityedge.ae/off-plan/projects/rabdan-avenue#:~:text=Get%20the%20full%20project%20pack",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments construction site address",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:49:54.675Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Avenue: Meydan, Dubai Rabdan Developments https://www.rabdan.ae › properties › rabdan-avenue"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location",
+          "title": "Read more"
+        },
+        {
+          "url": "graf.ae/rabdan/",
+          "title": "Read more"
+        },
+        {
+          "url": "instagram.com/reel/DeHHW20Cfju/",
+          "title": "Value: instagram.com/reel/DeHHW20Cfju/, Rabdan Avenue is a new 8-storey residential development by ... by Valor Real Estate on Instagram. Play on Instagram. 0:19"
+        },
+        {
+          "url": "instagram.com/reel/DddStnPNmvP/",
+          "title": "Value: instagram.com/reel/DddStnPNmvP/, RABDAN AVENUE BY RABDAN DEVELOPMENTS by Golden Hills Properties on Instagram. Play on Instagram. 1:30"
+        },
+        {
+          "url": "instagram.com/p/Dd1TPdlDfhd/",
+          "title": "Value: instagram.com/p/Dd1TPdlDfhd/, . Rabdan Developments celebrates the launch of ... by UAE_BARQ_EN on Instagram. Play on Instagram. 0:38"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments district location map",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:07.308Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location",
+          "title": "Value: tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location, Rabdan Avenue in Meydan, MBR City - Location Map Tanami Properties https://www.tanamiproperties.com › Projects › Rabdan-A..."
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location#:~:text=Rabdan%20Avenue%20is%20situated%20at,coveted%20master%20communities%20in%20Dubai.",
+          "title": "Read more"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai Propsearch.ae https://propsearch.ae › dubai › rabdan-avenue"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue#:~:text=The%20map%20below%20shows%20the,attractions",
+          "title": "Read more"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/",
+          "title": "Value: binayah.com/dubai-projects/rabdan-avenue/, Rabdan Avenue by Rabdan Developments in Meydan, ... Binayah Properties https://www.binayah.com › Off Plan Properties › Dubai"
+        },
+        {
+          "url": "binayah.com/dubai-projects/rabdan-avenue/#:~:text=Who%20is%20the%20developer%20of",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "graf.ae/rabdan/",
+          "title": "Rabdan Developments: Dubai Developer Profile - GRAF graf.ae https://graf.ae › Developers"
+        },
+        {
+          "url": "graf.ae/rabdan/#:~:text=Rabdan%20Avenue%20is%20147%20residences,ft%20and%20from%20AED%201%2C300%2C000.",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/communities/meydan",
+          "title": "Value: rabdan.ae/communities/meydan, Meydan Dubai Area & Community Guide by ... Rabdan Developments https://www.rabdan.ae › communities › meydan"
+        },
+        {
+          "url": "rabdan.ae/communities/meydan#:~:text=Home%20to%20iconic%20developments%20such,Meydan%20One%2C%20and%20District%20One&text=Rabdan%20AvenueRabdan%20GardensRabdan%20SquareRabdan%20GatesGHARBI,IIGHARBI%20INAS%203NAS%202View%20All",
+          "title": "Read more"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments phase location",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:08.041Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai Propsearch.ae https://propsearch.ae › dubai › rabdan-avenue"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue#:~:text=Rabdan%20Avenue%20is%20an%20eight%2Dstorey,Updated%2023%20Sep%202026",
+          "title": "Read more"
+        },
+        {
+          "url": "propertyfinder.ae/en/new-projects/rabdan-developments/rabdan-avenue",
+          "title": "Value: propertyfinder.ae/en/new-projects/rabdan-developments/rabdan-avenue, Rabdan Avenue - in Meydan by Rabdan Developments Property Finder https://www.propertyfinder.ae › ... › Meydan Avenue"
+        },
+        {
+          "url": "propertyfinder.ae/en/new-projects/rabdan-developments/rabdan-avenue#:~:text=Rabdan%20Avenue%20is%20a%20premium,sophisticated%20architecture%20with%20everyday%20comfort.",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "graf.ae/rabdan/",
+          "title": "Rabdan Developments: Dubai Developer Profile - GRAF graf.ae https://graf.ae › Developers"
+        },
+        {
+          "url": "graf.ae/rabdan/#:~:text=GRAF%20represents%20Rabdan's%20first%20Meydan,1%3A%20one%2C%20two%20and%20three",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-square",
+          "title": "Rabdan Square Rabdan Developments https://www.rabdan.ae › properties › rabdan-square"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-square#:~:text=Rabdan%20Developments%20is%20an%20Emirati,estate%20developer%20headquartered%20in%20Dubai.&text=Rabdan%20AvenueRabdan%20GardensRabdan%20SquareRabdan%20GatesGHARBI,IIGHARBI%20INAS%203NAS%202View%20All",
+          "title": "Read more"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments site boundary",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:09.010Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "web.remapp.ae/projects/rabdan-avenue",
+          "title": "Rabdan Avenue - REM WEB remapp.ae https://web.remapp.ae › Projects › Rabdan Avenue"
+        },
+        {
+          "url": "investinre.ae/project-detail/rabdan-avenue/",
+          "title": "Value: investinre.ae/project-detail/rabdan-avenue/, Rabdan Avenue – Meydan (Nad Al Sheba 1) | Prices & Payment ... Investin Residential https://www.investinre.ae › Off-Plan"
+        },
+        {
+          "url": "prop971.com/project/PRJ-RAB-30U1D",
+          "title": "Value: prop971.com/project/PRJ-RAB-30U1D, Rabdan Avenue by Rabdan - Apartments in Meydan City Prop971 https://www.prop971.com › ... › Rabdan Developments"
+        },
+        {
+          "url": "prop971.com/project/PRJ-RAB-30U1D#:~:text=%3F",
+          "title": "Read more"
+        },
+        {
+          "url": "imatch.ae/projects/9732",
+          "title": "Rabdan Avenue — iMatch imatch.ae https://imatch.ae › Projects › Meydan"
+        },
+        {
+          "url": "dubai.alsafaqa.com/en/developers/rabdan-developments/projects/rabdan-avenue-1d4b0873",
+          "title": "Value: dubai.alsafaqa.com/en/developers/rabdan-developments/projects/rabdan-avenue-1d4b0873, Rabdan Avenue by Rabdan Developments | AlSafaqa alsafaqa.com https://dubai.alsafaqa.com › ... › Rabdan Developments"
+        },
+        {
+          "url": "ezre.ae/developers/rabdan-developments",
+          "title": "Rabdan Developments Off-Plan Projects in Dubai - EZRE ezre.ae https://ezre.ae › Developers"
+        },
+        {
+          "url": "ezre.ae/developers/rabdan-developments#:~:text=Rabdan%20Gardens,Q1%202028&text=Rabdan%20Avenue,Q2%202029&text=Rabdan%20Square,Q4%202027",
+          "title": "Read more"
+        },
+        {
+          "url": "alnair.ae/en/developers/rabdan-real-estate-developments",
+          "title": "Rabdan Real Estate Developments Alnair https://alnair.ae › ... › Projects › List of Developers"
+        },
+        {
+          "url": "alnair.ae/en/developers/rabdan-real-estate-developments#:~:text=Rabdan%20Real%20Estate%20Developments%20has,completion%20expected%20in%20Q2%202029.",
+          "title": "Read more"
+        },
+        {
+          "url": "graf.ae/launches/",
+          "title": "New & upcoming launches in Dubai and the UAE - GRAF graf.ae https://graf.ae › launches"
+        },
+        {
+          "url": "graf.ae/launches/#:~:text=Rabdan%20Avenue,to%20three%2Dbedroom%20residences%20in%20Meydan.",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments satellite construction site",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:09.757Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "alnair.ae/en/developers/rabdan-real-estate-developments",
+          "title": "Read more"
+        },
+        {
+          "url": "bayut.com/property/details-16588504.html",
+          "title": "Value: bayut.com/property/details-16588504.html, Launch Offer | 1% Monthly | Burj Khalifa View | PHPP Bayut https://www.bayut.com › ... › Rabdan Avenue"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "dubizzle.com/property-for-sale/residential/apartment/2026/11/8/park-marina-views-amazing-project-prime-2-948739/",
+          "title": "Read more"
+        },
+        {
+          "url": "bayut.com/property/details-16756497.html",
+          "title": "Read more"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        },
+        {
+          "url": "youtube.com/@RabdanDevelopments",
+          "title": "YouTube"
+        },
+        {
+          "url": "dubaiwealthindex.com/sale/apartments/dubai/meydan/rabdan-avenue",
+          "title": "Value: dubaiwealthindex.com/sale/apartments/dubai/meydan/rabdan-avenue, Rabdan Avenue: sale price & yield | Meydan - Dubai Wealth Index dubaiwealthindex.com https://dubaiwealthindex.com › ... › Meydan"
+        },
+        {
+          "url": "dubizzle.com/s/DaBOb4z",
+          "title": "Value: dubizzle.com/s/DaBOb4z, Apartment: Skyline View | 0.5% Monthly Payment Plan Available dubizzle https://dubizzle.com › ... › Rabdan Avenue"
+        },
+        {
+          "url": "propify-realestate.com/projects/plaza-2",
+          "title": "Value: propify-realestate.com/projects/plaza-2, Plaza 2 | Off-Plan in Abu Dhabi | Propify propify-realestate.com https://propify-realestate.com › Off-Plan Projects"
+        },
+        {
+          "url": "mail.housefinder.ae/projects-detail/flamingo-lux-3434",
+          "title": "Value: mail.housefinder.ae/projects-detail/flamingo-lux-3434, Flamingo LUX | House Finder UAE House Finder Dubai https://mail.housefinder.ae › projects-detail › flamingo-l..."
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments development map plot",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:50.424Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "investinre.ae/project-detail/rabdan-avenue/",
+          "title": "Value: investinre.ae/project-detail/rabdan-avenue/, Rabdan Avenue – Meydan (Nad Al Sheba 1) | Prices & Payment ... Investin Residential https://www.investinre.ae › Off-Plan"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "instagram.com/reel/DeHHW20Cfju/",
+          "title": "Value: instagram.com/reel/DeHHW20Cfju/, Rabdan Avenue is a new 8-storey residential development by ... by Valor Real Estate on Instagram. Play on Instagram. 0:19"
+        },
+        {
+          "url": "instagram.com/p/Dd1TPdlDfhd/",
+          "title": "Value: instagram.com/p/Dd1TPdlDfhd/, . Rabdan Developments celebrates the launch of ... by UAE_BARQ_EN on Instagram. Play on Instagram. 0:38"
+        },
+        {
+          "url": "instagram.com/reel/DWEYNijjEFP/",
+          "title": "Value: instagram.com/reel/DWEYNijjEFP/, Introducing Rabdan Square, a limited collection of refined ... by ‫Rabdan Developments ربدان للتطوير‬‎ on Instagram. Play on Instagram. 1:00"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments location spelling variants",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:51.166Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Avenue: Meydan, Dubai | Rabdan Developments"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch.ae"
+        },
+        {
+          "url": "instagram.com/p/Dd1MI_djfd4/",
+          "title": "Instagram · Khaleej Times"
+        },
+        {
+          "url": "rabdan.ae/contact-us",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "propertyfinder.ae/en/new-projects/rabdan-developments/rabdan-avenue",
+          "title": "Rabdan Avenue - in Meydan by Rabdan Developments | Property Finder UAE"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "tiktok.com/@rabdan_developments",
+          "title": "TikTok"
+        },
+        {
+          "url": "linkedin.com/in/rabdan-developments-098b942b7/",
+          "title": "LinkedIn"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments developer location evidence",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:51.857Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Read more"
+        },
+        {
+          "url": "aumranova.com/projects/rabdan-avenue-by-rabdan-developments-4050/aumra-score",
+          "title": "Value: aumranova.com/projects/rabdan-avenue-by-rabdan-developments-4050/aumra-score, Rabdan Avenue Aumra Score 71/100, Meydan (Nad Al Sheba 1) Aumra Nova https://aumranova.com › Rabdan Avenue"
+        },
+        {
+          "url": "viaraproperties.com/developers/rabdan-developments",
+          "title": "Value: viaraproperties.com/developers/rabdan-developments, Rabdan Developments | Apartments for Sale in Dubai Viara Properties https://www.viaraproperties.com › developers › rabdan-..."
+        },
+        {
+          "url": "kotook.ae/properties/detail/rabdan-avenue",
+          "title": "Value: kotook.ae/properties/detail/rabdan-avenue, Rabdan Avenue Apartments at Meydan | Units, Prices & Plan Kotook https://kotook.ae › Off-Plan Properties › Dubai › Meydan"
+        },
+        {
+          "url": "famproperties.com/meydan-dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "skid.homes/off-plan/rabdan-developments-rabdan-square-3522",
+          "title": "Value: skid.homes/off-plan/rabdan-developments-rabdan-square-3522, Rabdan Square (Meydan) — SKID Score 6.5/10 | SKID skid.homes https://skid.homes › off-plan › rabdan-developments-rab..."
+        },
+        {
+          "url": "danesyaproperties.com/new-launches/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "istrealestate.ae/meydan-avenue-dubai-guide/",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments phase release map",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:50:52.574Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "map.rabdan.ae/",
+          "title": "Rabdan Developments Investments Map"
+        },
+        {
+          "url": "instagram.com/p/Dd1TPdlDfhd/",
+          "title": "Instagram · UAE_BARQ_EN"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" الموقع الدقيق",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:09.331Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch.ae"
+        },
+        {
+          "url": "continentalclub.ae/project/rabdan-avenue-meydan/",
+          "title": "Continental Club Property"
+        },
+        {
+          "url": "rabdan.ae/communities/meydan",
+          "title": "Meydan Dubai Area & Community Guide by Rabdan Developments"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Avenue: Meydan, Dubai"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location",
+          "title": "Rabdan Avenue in Meydan, MBR City - Location Map"
+        },
+        {
+          "url": "gyhdubai.com/ar/projects/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "properties.expandify.ae/ar/projects/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "kotook.ae/ar/blog/rabdan-avenue-meydan",
+          "title": "Translate this page"
+        },
+        {
+          "url": "graf.ae/ar/rabdan/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "aqarum.com/ar/property/d9935b3d-247c-413b-a3db-0d4ad98b4064",
+          "title": "Translate this page"
+        },
+        {
+          "url": "spidubai.ae/ar/areas/dubai/meydan",
+          "title": "Read more"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" خريطة المشروع",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:10.067Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/floorplans",
+          "title": "Rabdan Avenue Floor Plans | fäm Properties FAM Properties"
+        },
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Rabdan Avenue Brochure PDF | fäm Properties fam Properties"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch.ae"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "seafront.ae/ar/project/rabdan-avenue-4516",
+          "title": "Read more"
+        },
+        {
+          "url": "instagram.com/p/DgFgsvJiFBk/",
+          "title": "ربدان للتطوير العقاري تحتفي بالإنجاز المبكر لمشروع غربـي 1 ... Instagram"
+        },
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue",
+          "title": "Rabdan Avenue in Meydan | Prices and Payment Plan FAM Properties"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" رقم قطعة الأرض",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:10.780Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "Rabdan Avenue, Meydan by Rabdan — from AED 1.3M | GRAF"
+        },
+        {
+          "url": "instagram.com/reel/DgFeBygtG98/",
+          "title": "ربدان للتطوير العقاري تحتفي بالإنجاز المبكر لمشروع غربـي 1 ... Instagram"
+        },
+        {
+          "url": "urbanleoinvestment.com/projects/%D8%B1%D8%A8%D8%AF%D8%A7%D9%86-%D8%A7%D9%81%D9%8A%D9%86%D9%8A%D9%88-%D8%AF%D8%A8%D9%8A/",
+          "title": "Read more"
+        },
+        {
+          "url": "instagram.com/reel/DdY1Z5HuBjp/",
+          "title": "Value: instagram.com/reel/DdY1Z5HuBjp/, ‫من الطريق إلى فندق ميدان… إلى أجواء إطلاق مبيعات ربدان للتطوير ...‬‎ by ‫المهـندس الإستشــاري عُمَر العَزّاوي‬‎ on Instagram. Play on Instagram. 4:59"
+        },
+        {
+          "url": "dubizzle.com/ar/property-for-sale/residential/apartment/2026/9/30/2br-apartment-rabdan-avenue-skyline-lag-2-316638/",
+          "title": "Read more"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "instagram.com/reel/DeY3wZIIALf/",
+          "title": "Value: instagram.com/reel/DeY3wZIIALf/, 🏙️✨ اكتشف عالم التميز مع المطور العقاري ربدان | Rabdan Developments, إذا كنت تبحث عن فرصة استثمارية مميزة في سوق العقارات بدبي، فربدان تقدم لك خيارات عقارية تستحق الاهتمام! 🏡💎, 📈 استثمر في عقارات دبي، ... Instagram"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" المخطط العام",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:11.517Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "seafront.ae/ar/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue — الأسعار والمخططات - Seafront Properties"
+        },
+        {
+          "url": "instagram.com/reel/De9HQWtusdR/",
+          "title": "Instagram · Rabdan Developments ربدان للتطوير"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "Kotook"
+        },
+        {
+          "url": "graf.ae/ar/rabdan/",
+          "title": "Rabdan Developments: ملف المطوّر في دبي - GRAF"
+        },
+        {
+          "url": "gyhdubai.com/ar/projects/rabdan-avenue",
+          "title": "Rabdan Avenue GYH Real Estate https://gyhdubai.com › projects › ra..."
+        },
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/floorplans",
+          "title": "Read more"
+        },
+        {
+          "url": "properties.expandify.ae/ar/projects/rabdan-avenue",
+          "title": "Value: properties.expandify.ae/ar/projects/rabdan-avenue, Rabdan Avenue - Offplan Projects - Expandify Real estate Expandify.ae https://properties.expandify.ae › ra..."
+        },
+        {
+          "url": "instagram.com/p/DgFgsvJiFBk/",
+          "title": "Value: instagram.com/p/DgFgsvJiFBk/, ‫. ربدان للتطوير العقاري تحتفي بالإنجاز المبكر لمشروع غربـي 1 ...‬‎ by ‫برق الإمارات‬‎ on Instagram. Play on Instagram. 0:59"
+        },
+        {
+          "url": "instagram.com/reel/DWEYNijjEFP/",
+          "title": "Value: instagram.com/reel/DWEYNijjEFP/, Introducing Rabdan Square, a limited collection of refined ... by ‫Rabdan Developments ربدان للتطوير‬‎ on Instagram. Play on Instagram. 1:00"
+        },
+        {
+          "url": "instagram.com/reel/DdYrH7kO3wk/",
+          "title": "Value: instagram.com/reel/DdYrH7kO3wk/, Introducing Rabdan Avenue. A new residential address in the ... by ‫Rabdan Developments ربدان للتطوير‬‎ on Instagram. Play on Instagram. 1:30"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "binayah.ae/ar/project/rabdan-avenue/floor-plans",
+          "title": "Value: binayah.ae/ar/project/rabdan-avenue/floor-plans, مخططات الطوابق ومساحات الوحدات – Rabdan Avenue في Meydan | بناية binayah.ae https://www.binayah.ae › project"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" كتيب المشروع pdf",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:55.417Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Rabdan Avenue Brochure PDF | fäm Properties fam Properties"
+        },
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/brochures#:~:text=Rabdan%20Avenue%20is%20a%20project,a%20PDF%20of%2014.8%20MB.",
+          "title": "Read more"
+        },
+        {
+          "url": "properties.expandify.ae/ar/projects/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "worldestate.homes/ar/uae/dubai/rabdan-avenue/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "oplusrealty.com/ar/projects/rabdan-avenue-by-rabdan-developments-meydan-dubai/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" خرائط جوجل",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:56.124Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "maisondubai.com/projects/rabdan-avenue",
+          "title": "Rabdan Avenue, Meydan | Off-Plan Dubai Casadior Dubai https://maisondubai.com › Projects"
+        },
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/floorplans",
+          "title": "Read more"
+        },
+        {
+          "url": "nasamaproperties.com/offplan/projects/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "dubairapidproperties.com/off-plan/rabdan-avenue",
+          "title": "Value: dubairapidproperties.com/off-plan/rabdan-avenue, Rabdan Avenue by Rabdan Developments, Meydan Dubai Rapid Properties https://dubairapidproperties.com › Off-Plan Projects"
+        },
+        {
+          "url": "arvestaelite.com/project-detail/rabdan-avenue/",
+          "title": "Value: arvestaelite.com/project-detail/rabdan-avenue/, Rabdan Avenue by Rabdan Developments, Dubai | Arvesta Elite ... arvestaelite.com https://arvestaelite.com › project-detail › rabdan-avenue"
+        },
+        {
+          "url": "palmera.realestate/ar/property/rabdan-avenue/",
+          "title": "Rabdan Avenue في Meydan، دبي Palmera Real Estate https://www.palmera.realestate › ra..."
+        },
+        {
+          "url": "dxbinteract.com/dubai-offplan-project-prices/rabdan-avenue",
+          "title": "Value: dxbinteract.com/dubai-offplan-project-prices/rabdan-avenue, Rabdan Avenue Off-Plan Units, Prices & Availability Insights DXB Interact https://dxbinteract.com › Offplan Prices"
+        },
+        {
+          "url": "erehomes.ae/projects/rabdan-avenue/",
+          "title": "Rabdan Avenue, Meydan | Off-Plan Dubai ERE Homes Real Estate https://erehomes.ae › Projects"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" إحداثيات المشروع",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:56.801Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai - Propsearch"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location",
+          "title": "Rabdan Avenue in Meydan, MBR City - Location Map"
+        },
+        {
+          "url": "graf.ae/ar/commercial/office-districts-map/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "graf.ae/ar/commercial/office-districts-map/#:~:text=%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9%E2%80%BA%20%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9%E2%80%BA%20%D9%85%D9%86%D8%A7%D8%B7%D9%82%20%D8%A7%D9%84%D9%85%D9%83%D8%A7%D8%AA%D8%A8&text=%D8%AA%D8%AB%D8%A8%D9%91%D8%AA%20%D8%A7%D9%84%D8%AE%D8%B1%D9%8A%D8%B7%D8%A9%20%D8%A3%D8%B1%D8%A8%D8%B9%D8%A9%20%D9%85%D8%A8%D8%A7%D9%86%D9%8D%D8%9B%20%D9%88%D8%AB%D9%85%D8%A7%D9%86%D9%8A%D8%A9,%D9%88%D9%85%D9%86%20%D8%A8%D9%8A%D9%86%D9%87%D8%A7%20Lumena%20%D9%88Eaton%20Square.",
+          "title": "Read more"
+        },
+        {
+          "url": "graf.ae/ar/samana/samana-business-hub/",
+          "title": "مكاتب Samana Business Hub، Downtown Jebel Ali - GRAF graf.ae https://graf.ae › samana › samana-..."
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" موقع المرحلة",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:51:57.497Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "seafront.ae/ar/project/rabdan-avenue-4516",
+          "title": "Translate this page"
+        },
+        {
+          "url": "seafront.ae/ar/project/rabdan-avenue-4516#:~:text=%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%A8%D8%A7%D9%84%D8%AA%D9%81%D8%B5%D9%8A%D9%84",
+          "title": "Read more"
+        },
+        {
+          "url": "instagram.com/reel/Dd_6lpYs1a1/",
+          "title": "Value: instagram.com/reel/Dd_6lpYs1a1/, ‫Rabdan Avenue… وجهة جديدة للعيش والاستثمار. مشروع يجمع ...‬‎ by RPM Real Estate on Instagram. Play on Instagram. 0:42"
+        },
+        {
+          "url": "tiktok.com/@abubakr_realestate_uae/video/7701975041201769736",
+          "title": "Value: tiktok.com/@abubakr_realestate_uae/video/7701975041201769736, ‫Rabdan Avenue دبي: شقق جديدة في ميدان بإطلالة على برج خليفة‬‎ by abubakr_realestate_uae on TikTok. Play on TikTok. 0:42"
+        },
+        {
+          "url": "instagram.com/reel/DdjoBCUOppN/",
+          "title": "Value: instagram.com/reel/DdjoBCUOppN/, ‫زيارة إلى مركز مبيعات ربدان للتطوير العقاري 🇦🇪 حيث تلتقي ...‬‎ by ‫المهـندس الإستشــاري عُمَر العَزّاوي‬‎ on Instagram. Play on Instagram. 0:57"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "dxboffplan.com/ar/properties/rabdan-avenue/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "palmera.realestate/ar/property/rabdan-avenue/",
+          "title": "Rabdan Avenue في Meydan، دبي Palmera Real Estate https://www.palmera.realestate › ra..."
+        },
+        {
+          "url": "graf.ae/ar/rabdan/",
+          "title": "Rabdan Developments: ملف المطوّر في دبي - GRAF graf.ae https://graf.ae › المطوّرون"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" عنوان موقع البناء",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:08.656Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch.ae"
+        },
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "Rabdan Avenue, Meydan by Rabdan — from AED 1.3M | GRAF"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "ربدان أفينيو (Rabdan Avenue) | شقق قيد الإنشاء في ميدان Kotook https://kotook.ae › ... › دبي › ميدان"
+        },
+        {
+          "url": "alnair.ae/ar/dubai/project/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" خريطة المطور",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:09.348Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Rabdan Avenue Brochure PDF | fäm Properties fam Properties"
+        },
+        {
+          "url": "seafront.ae/ar/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue — الأسعار والمخططات Seafront Properties"
+        },
+        {
+          "url": "seafront.ae/ar/project/rabdan-avenue-4516#:~:text=%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%A8%D8%A7%D9%84%D8%AA%D9%81%D8%B5%D9%8A%D9%84",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/ar/meydan-dubai/rabdan-avenue",
+          "title": "Rabdan Avenue in Meydan | Prices and Payment Plan FAM Properties"
+        },
+        {
+          "url": "oplusrealty.com/ar/projects/rabdan-avenue-by-rabdan-developments-meydan-dubai/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue#:~:text=%D8%A7%D9%84%D9%85%D8%B7%D9%88%D8%B1%20%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A,%D8%B5%D8%A7%D9%84%D8%A9%20%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" точная локация",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:10.065Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "graf.ae/ru/rabdan/",
+          "title": "Read more"
+        },
+        {
+          "url": "graf.ae/ru/rabdan/rabdan-avenue/",
+          "title": "Rabdan Avenue GRAF"
+        },
+        {
+          "url": "ninetyone-properties.com/ru/projects/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "spidubai.ae/ru/areas/dubai/meydan",
+          "title": "Read more"
+        },
+        {
+          "url": "virtoproperty.com/ru/property/1102553796/",
+          "title": "Read more"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" карта проекта",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:10.772Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Rabdan Avenue Brochure PDF | fäm Properties FAM Properties"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/brochures#:~:text=Rabdan%20Avenue%20is%20a%20project,a%20PDF%20of%2014.8%20MB.",
+          "title": "Read more"
+        },
+        {
+          "url": "web.remapp.ae/ru/projects/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "seafront.ae/ru/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue — цены и планировки Seafront Properties"
+        },
+        {
+          "url": "seafront.ae/ru/project/rabdan-avenue-4516#:~:text=%D0%A6%D0%B5%D0%BD%D0%B0%20%D0%BE%D1%82%24362KAED%201%2C330%2C000",
+          "title": "Read more"
+        },
+        {
+          "url": "dubai-immo.com/ru/properties/rabdan-avenue-meydan-dubai/",
+          "title": "Rabdan Avenue - Résidence de standing à Meydan - Dubai Immo Dubai Immo"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/floorplans",
+          "title": "Translate this page"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue",
+          "title": "Rabdan Avenue in Meydan | Prices and Payment Plan fam Properties"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" номер участка",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:21.349Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai - Propsearch"
+        },
+        {
+          "url": "erehomes.ae/projects/rabdan-avenue/",
+          "title": "erehomes.ae"
+        },
+        {
+          "url": "equityedge.ae/off-plan/projects/rabdan-avenue",
+          "title": "Rabdan Avenue by Rabdan Developments"
+        },
+        {
+          "url": "graf.ae/ru/rabdan/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "binayah.com/ru/dubai-projects/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "binayah.com/ru/dubai-projects/rabdan-avenue#:~:text=%D0%9F%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%B5%D0%B5",
+          "title": "Read more"
+        },
+        {
+          "url": "inovorealestate.ae/ru/project-rabdan-avenue?srsltid=AYCX9vJQZ35fs5itdCCGZwkqTXye71JRijhT_S7kwelHGVph808NhyG-",
+          "title": "Rabdan Avenue — Meydan (Nad Al Sheba 1), Dubai · от $354k inovorealestate.ae https://inovorealestate.ae › ... › UAE"
+        },
+        {
+          "url": "inovorealestate.ae/ru/project-rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "inovorealestate.ae/ru/project-rabdan-avenue?srsltid=AYCX9vJQZ35fs5itdCCGZwkqTXye71JRijhT_S7kwelHGVph808NhyG-#:~:text=%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%2002",
+          "title": "Read more"
+        },
+        {
+          "url": "rabdan.ae/",
+          "title": "Website"
+        },
+        {
+          "url": "seafront.ae/ru/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue — цены и планировки Seafront Properties https://www.seafront.ae › project"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" генплан",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:22.048Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "dda-realestate.com/ru/uae/complexes/4076",
+          "title": "Translate this page"
+        },
+        {
+          "url": "augusta-properties.com/ru/new-projects/rabdan-developments-rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "augusta-properties.com/ru/new-projects/rabdan-developments-rabdan-avenue#:~:text=%D0%9A%D0%B0%D0%BA%D0%BE%D0%B9%20%D0%BF%D0%BB%D0%B0%D0%BD%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%8B%20%D0%B2%20Rabdan,Avenue%3F",
+          "title": "Read more"
+        },
+        {
+          "url": "spidubai.ae/ru/off-plan/dubai/meydan/rabdan-square",
+          "title": "Rabdan Square SPI Dubai"
+        },
+        {
+          "url": "spidubai.ae/ru/off-plan/dubai/meydan/rabdan-square#:~:text=%D0%93%D0%B5%D0%BD%D0%BF%D0%BB%D0%B0%D0%BD&text=%D0%9E%D1%82%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D1%8F%20%D1%84%D0%BE%D1%80%D0%BC%D1%83%2C%20%D0%B2%D1%8B%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%88%D0%B0%D0%B5%D1%82%D0%B5%D1%81%D1%8C%20%D1%81,Rabdan%20Avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "graf.ae/ru/modon/wadeem-gardens/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "propify-realestate.com/ru/projects/purvanchal-townhouses",
+          "title": "Translate this page"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" брошюра PDF",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:22.756Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Brochure-Download",
+          "title": "Tanami Properties"
+        },
+        {
+          "url": "manage.tanamiproperties.com/Project/Brochure/3324/Rabdan_Avenue_at_Meydan.pdf",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Read more"
+        },
+        {
+          "url": "topluxuryproperty.com/ae/dubai-projects/rabdan-avenue-at-meydan-avenue-dubai-download-brochure/",
+          "title": "Value: topluxuryproperty.com/ae/dubai-projects/rabdan-avenue-at-meydan-avenue-dubai-download-brochure/, Rabdan Avenue Brochure | Download PDF Top Luxury Property https://topluxuryproperty.com › dubai-projects › rabda..."
+        },
+        {
+          "url": "web.remapp.ae/ru/projects/rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "arvestaelite.com/project-detail/rabdan-avenue/",
+          "title": "Value: arvestaelite.com/project-detail/rabdan-avenue/, Rabdan Avenue by Rabdan Developments, Dubai | Arvesta Elite ... arvestaelite.com https://arvestaelite.com › project-detail › rabdan-avenue"
+        },
+        {
+          "url": "hanokinternational.com/projects/rabdan-avenue",
+          "title": "Value: hanokinternational.com/projects/rabdan-avenue, Rabdan Avenue Hanok International Real Estate LLC https://hanokinternational.com › ... › Rabdan Avenue"
+        },
+        {
+          "url": "investinre.ae/project-detail/rabdan-avenue/",
+          "title": "Value: investinre.ae/project-detail/rabdan-avenue/, Rabdan Avenue – Meydan (Nad Al Sheba 1) | Prices & Payment ... Investin Residential https://www.investinre.ae › Off-Plan"
+        },
+        {
+          "url": "elitemerit.ae/en/off-plan-projects-dubai/meydan/meydan-avenue/rabdan-square/rabdan-avenue/",
+          "title": "Rabdan Avenue in Meydan Elite Merit Real Estate https://www.elitemerit.ae › ... › Rabdan Square"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Google Карты",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:23.484Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "dubairapidproperties.com/off-plan/rabdan-avenue",
+          "title": "Value: dubairapidproperties.com/off-plan/rabdan-avenue, Rabdan Avenue by Rabdan Developments, Meydan Dubai Rapid Properties https://dubairapidproperties.com › Off-Plan Projects"
+        },
+        {
+          "url": "dubairapidproperties.com/off-plan/rabdan-avenue#:~:text=Rabdan%20Avenue%20is%20a%20premium,sophisticated%20architecture%20with%20everyday%20comfort.",
+          "title": "Read more"
+        },
+        {
+          "url": "maisondubai.com/projects/rabdan-avenue",
+          "title": "Rabdan Avenue, Meydan | Off-Plan Dubai Casadior Dubai https://maisondubai.com › Projects"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        },
+        {
+          "url": "arvestaelite.com/project-detail/rabdan-avenue/",
+          "title": "Value: arvestaelite.com/project-detail/rabdan-avenue/, Rabdan Avenue by Rabdan Developments, Dubai | Arvesta Elite ... arvestaelite.com https://arvestaelite.com › project-detail › rabdan-avenue"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" координаты",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:36.525Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "Rabdan Avenue, Meydan by Rabdan — from AED 1.3M | GRAF"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai - Propsearch"
+        },
+        {
+          "url": "graf.ae/ru/rabdan/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "worldestate.homes/uae/dubai/rabdan-avenue/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "inovorealestate.ae/ru/project-rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "livrichy.com/ru/off-plan/rabdan-developments-rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "binayah.com/ru/dubai-projects/rabdan-avenue",
+          "title": "Rabdan Avenue от Rabdan Developments в Meydan, Дубай Binayah Real Estate"
+        },
+        {
+          "url": "vila.ae/ru/project/rabdan-avenue-4050/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "greencityre.com/properties/gcre-rabdan-developments-rabdan-avenue",
+          "title": "RABDAN DEVELOPMENTS \"Rabdan Avenue\" Недвижимость в Дубае | Green City Real Estate"
+        },
+        {
+          "url": "seafront.ae/ru/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue — цены и планировки Seafront Properties"
+        },
+        {
+          "url": "continentalclub.ae/ru/project/rabdan-avenue-meydan-ru/",
+          "title": "Translate this page"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" расположение фазы",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:37.233Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "graf.ae/ru/rabdan/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "binayah.com/ru/dubai-projects/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/floorplans",
+          "title": "Rabdan Avenue Floor Plans | fäm Properties FAM Properties"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue",
+          "title": "Rabdan Avenue in Meydan | Prices and Payment Plan fam Properties"
+        },
+        {
+          "url": "livrichy.com/ru/off-plan/rabdan-developments-rabdan-avenue",
+          "title": "Rabdan Avenue в Meydan, Дубай Livrichy https://livrichy.com › off-plan › rab..."
+        },
+        {
+          "url": "dubai-realty.com/articles/premialnyj-proekt-rabdan-avenue-v-dubae-2026",
+          "title": "Премиальный проект Rabdan Avenue в Дубае 2026 Dubai-Realty.com https://dubai-realty.com › articles"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Read more"
+        },
+        {
+          "url": "vila.ae/ru/project/rabdan-avenue-4050/",
+          "title": "Read more"
+        },
+        {
+          "url": "truhauz.com/ru/properties/rabdan-avenue-meydan-rabdan-developments/",
+          "title": "Read more"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" адрес строительства",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:37.947Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Rabdan Avenue - Dubai - Propsearch"
+        },
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "graf.ae"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "famproperties.com/buildings/rabdan-avenue",
+          "title": "fäm Properties"
+        },
+        {
+          "url": "equityedge.ae/off-plan/projects/rabdan-avenue",
+          "title": "www.equityedge.ae"
+        },
+        {
+          "url": "rabdan.ae/contact-us",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "binayah.com/ru/dubai-projects/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "famproperties.com/ru/buildings/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "worldestate.homes/uae/dubai/rabdan-avenue/",
+          "title": "Translate this page"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" карта застройщика",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:52:38.684Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/brochures",
+          "title": "Translate this page"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/brochures#:~:text=Rabdan%20Avenue%20is%20a%20project,a%20PDF%20of%2014.8%20MB.",
+          "title": "Read more"
+        },
+        {
+          "url": "seafront.ae/ru/project/rabdan-avenue-4516",
+          "title": "Rabdan Avenue — цены и планировки Seafront Properties"
+        },
+        {
+          "url": "seafront.ae/ru/project/rabdan-avenue-4516#:~:text=%D0%A6%D0%B5%D0%BD%D0%B0%20%D0%BE%D1%82%24362KAED%201%2C330%2C000",
+          "title": "Read more"
+        },
+        {
+          "url": "livrichy.com/ru/off-plan/rabdan-developments-rabdan-avenue",
+          "title": "Translate this page"
+        },
+        {
+          "url": "dubai-immo.com/ru/properties/rabdan-avenue-meydan-dubai/",
+          "title": "Rabdan Avenue - Résidence de standing à Meydan - Dubai Immo Dubai Immo"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue/floorplans",
+          "title": "Rabdan Avenue Floor Plans | fäm Properties FAM Properties"
+        },
+        {
+          "url": "famproperties.com/ru/meydan-dubai/rabdan-avenue",
+          "title": "Rabdan Avenue in Meydan | Prices and Payment Plan fam Properties"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue\" Rabdan Developments developer project map",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:53:06.056Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-Location",
+          "title": "Tanami Properties"
+        },
+        {
+          "url": "propertyfinder.ae/en/new-projects/rabdan-developments/rabdan-avenue",
+          "title": "Rabdan Avenue Property Finder"
+        },
+        {
+          "url": "rabdan.ae/properties/rabdan-avenue",
+          "title": "Rabdan Developments"
+        },
+        {
+          "url": "map.rabdan.ae/",
+          "title": "Rabdan Developments Investments Map"
+        },
+        {
+          "url": "tanamiproperties.com/Projects/Rabdan-Avenue-at-Meydan-MasterPlan",
+          "title": "Rabdan Avenue in Meydan, Dubai - Master Plan Tanami Properties"
+        },
+        {
+          "url": "propertyfinder.ae/en/new-projects/dev/rabdan-developments",
+          "title": "7 New & Off-Plan Projects by Rabdan Developments Property Finder"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Rabdan Avenue Meydan\" plot location",
+      "language": "en",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:53:06.749Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "graf.ae/rabdan/rabdan-avenue/",
+          "title": "Read more"
+        },
+        {
+          "url": "investinre.ae/project-detail/rabdan-avenue/",
+          "title": "Value: investinre.ae/project-detail/rabdan-avenue/, Rabdan Avenue – Meydan (Nad Al Sheba 1) | Prices & Payment ... Investin Residential https://www.investinre.ae › Off-Plan"
+        },
+        {
+          "url": "propertyfinder.ae/en/area-insights/dubai/meydan-meydan-avenue-rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "instagram.com/reel/DeHHW20Cfju/",
+          "title": "Value: instagram.com/reel/DeHHW20Cfju/, Rabdan Avenue is a new 8-storey residential development by ... by Valor Real Estate on Instagram. Play on Instagram. 0:19"
+        },
+        {
+          "url": "instagram.com/p/Dd1TPdlDfhd/",
+          "title": "Value: instagram.com/p/Dd1TPdlDfhd/, . Rabdan Developments celebrates the launch of ... by UAE_BARQ_EN on Instagram. Play on Instagram. 0:38"
+        },
+        {
+          "url": "instagram.com/reel/Dd1Op45IpR1/",
+          "title": "Value: instagram.com/reel/Dd1Op45IpR1/, New Project Launch – “Rabdan Avenue” | EOI OPEN by Premium VIP Real Estate on Instagram. Play on Instagram. 0:30"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"رابدان أفينيو\" ميدان خريطة",
+      "language": "ar",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:53:07.497Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "oplusrealty.com/ar/projects/rabdan-avenue-by-rabdan-developments-meydan-dubai/",
+          "title": "ربدان أفينيو من ربدان للتطوير العقاري — ميدان، دبي Oplus International Realty"
+        },
+        {
+          "url": "propsearch.ae/dubai/rabdan-avenue",
+          "title": "Propsearch.ae"
+        },
+        {
+          "url": "oplusrealty.com/ar/property/1-bedroom-apartment-for-sale-rabdan-avenue-meydan/",
+          "title": "شقة بغرفة نوم للبيع - ربدان أفينيو، ميدان | أوبلس العقارية Oplus International Realty"
+        },
+        {
+          "url": "instagram.com/_b/reel/DffPnLIgTVP/",
+          "title": "Value: instagram.com/_b/reel/DffPnLIgTVP/, مين هو المطوّر ربدان؟ 🏗️, مطوّر إماراتي موجود في السوق من 18 سنة كشركة مقاولات، وبدأ التطوير العقاري من 4 سنين بس., ✅ 4 مشاريع مسلّمة في أرجان, ✅ 5 مشاريع قيد الإنشاء في جميرا جاردن سيتي، أرجان، JVC، ... Instagram"
+        },
+        {
+          "url": "kotook.ae/ar/properties/detail/rabdan-avenue",
+          "title": "Read more"
+        },
+        {
+          "url": "throneproperties.ae/ar/projects/rabdan-avenue/",
+          "title": "Value: throneproperties.ae/ar/projects/rabdan-avenue/, ربدان أفينيو - المخططات والأسعار | ثرون للعقارات Throne Properties https://throneproperties.ae › projects"
+        },
+        {
+          "url": "propertyfinder.ae/ar/plp/buy/apartment-for-sale-dubai-meydan-meydan-avenue-rabdan-avenue-165057702.html",
+          "title": "Read more"
+        },
+        {
+          "url": "dubizzle.com/ar/property-for-sale/residential/apartment/2026/10/13/burj-khalifa-skyline-views-exclusive-ca-2-335700/",
+          "title": "إطلالات على برج خليفة وأفق المدينة | عروض حصرية للدفع النقدي dubizzle https://www.dubizzle.com › burj-k..."
+        },
+        {
+          "url": "rabdan.ae/ar/properties/nas-2",
+          "title": "مساكن ناس ٢: أرجان، دبي | ربدان للتطوير العقاري Rabdan Developments https://www.rabdan.ae › nas-2"
+        },
+        {
+          "url": "datahabibi.ae/ar/dubai/new-projects/meydan/3-bedroom-apartments",
+          "title": "عدد غرف النوم: 3+، شقق في ميدان: 14 مشروعا جديدا dataHabibi https://datahabibi.ae › دبي › ميدان"
+        },
+        {
+          "url": "fujairah.dubizzle.com/ar/property-for-sale/residential/apartment/2026/10/11/exclusive-cash-offers-10-roi-crystal-la-2-279673/",
+          "title": "شقة للبيع: عروض نقدية حصرية | عائد على الاستثمار يزيد عن 10% dubizzle https://fujairah.dubizzle.com › exc..."
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    },
+    {
+      "projectId": "rabdan-rabdan-avenue-meydan",
+      "query": "\"Рабдан Авеню\" Мейдан карта",
+      "language": "ru",
+      "engine": "Google",
+      "access": "native Chrome Google SERP",
+      "executedAt": "2026-11-25T10:53:08.160Z",
+      "status": "completed",
+      "resultLinks": [
+        {
+          "url": "prian.ru/price/united-arab-emirates-14420-4272203.html",
+          "title": "Translate this page"
+        },
+        {
+          "url": "prian.ru/price/united-arab-emirates-14420-4272203.html#:~:text=%D0%A0%D0%B0%D0%B1%D0%B4%D0%B0%D0%BD%2D%D0%90%D0%B2%D0%B5%D0%BD%D1%8E%20%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D1%81%D1%8F%20%D0%B2%20%D0%9C%D0%B5%D0%B9%D0%B4%D0%B0%D0%BD%D0%B5%20%E2%80%93,%D0%BF%D1%80%D0%BE%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BE%D0%B1%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%20%D0%B8%20%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%B2.",
+          "title": "Read more"
+        },
+        {
+          "url": "…",
+          "title": "Terms"
+        }
+      ],
+      "limitations": [
+        "SERP snippets and links only; not full source-page inspection. AI Overview is not accepted as project-location proof."
+      ]
+    }
+  ]
+}
