@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-25",
+  "purpose": "Launch Radar location pilot; incomplete research audit, not completion proof",
+  "inputs": [
+    {
+      "path": "launches.json",
+      "blobSha": "689c86a993130a2ece4eb8da76d03cfac9e46070",
+      "access": "GitHub connector fetch_file default branch; content read"
+    },
+    {
+      "path": "radar-watchlist.json",
+      "blobSha": "4fcccd24ac7639567b3205dd3d0f15acf23aa4e4",
+      "access": "GitHub connector fetch_file default branch; content read"
+    },
+    {
+      "path": "RADAR-RESEARCH.md",
+      "blobSha": "f6126eb9aaa4844e92083a9469e4d3fbe0d8f24e",
+      "access": "GitHub connector fetch_file default branch; content read"
+    }
+  ],
+  "pilots": [
+    "rabdan-rabdan-avenue-meydan",
+    "signature-w-residences-jlt-phase-3",
+    "beyond-yardlands-dubai"
+  ],
+  "requirements": {
+    "googleQueriesPerNewObject": 40
+  },
+  "actual": {
+    "successfulGoogleQueries": 0,
+    "completedProjectsWith40GoogleQueries": 0
+  },
+  "attempts": [
+    {
+      "route": "gh api",
+      "target": "repos/cariothida/graf-launches-data/commits/main",
+      "status": "failed",
+      "limitation": "error connecting to api.github.com"
+    },
+    {
+      "route": "Chrome DevTools new_page",
+      "url": "https://www.google.com/search?q=Rabdan+Avenue+Meydan+location+plot",
+      "status": "failed",
+      "limitation": "Tool blocked ~514.7 seconds then aborted. No result inspected; not counted."
+    },
+    {
+      "route": "curl public Google",
+      "url": "https://www.google.com/search?q=Rabdan+Avenue+Meydan+location",
+      "status": "failed",
+      "limitation": "curl (6) Could not resolve host www.google.com"
+    },
+    {
+      "route": "search_service open Google URL",
+      "url": "https://www.google.com/search?q=Rabdan+Avenue+Meydan+location",
+      "status": "failed",
+      "limitation": "URL not accessible via this tool"
+    },
+    {
+      "route": "CUA createBrowserTab chrome",
+      "status": "failed",
+      "limitation": "Browser not available: chrome. Inventory returned apps but no browsers."
+    },
+    {
+      "route": "CUA native Chrome getApp",
+      "status": "failed",
+      "limitation": "Tool blocked ~1051.8 seconds then Transport closed. No result inspected. Environment subsequently unavailable and CUA tools removed."
+    }
+  ],
+  "queries": [],
+  "conclusion": "Google requirement not met. Do not claim 40 searches/project or complete coverage. Root and source_coverage agents independently retrieved project evidence; their journals must retain actual engine labels and source provenance.",
+  "nextCheck": "Resume literal Google queries when a functional browser environment is restored; no exact point may be invented in the meantime."
+}
