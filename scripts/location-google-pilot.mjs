@@ -15,7 +15,7 @@ await writeFile('research-output/input-snapshot.json',JSON.stringify(inputs,null
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:1440,height:1000}});
 try{
- outer:for(const pilot of plan.projects){
+ outer:for(const pilot of plan.projects.filter(p=>p.projectId!=='rabdan-rabdan-avenue-meydan')){
  const current=feed.launches.find(x=>x.id===pilot.projectId);
  if(!current || current.published!==true){result.stopReason='Pilot missing or not published: '+pilot.projectId;break;}
  if((current.phase||null)!==(pilot.phase||null)){result.stopReason='Live phase changed; query plan requires review: '+pilot.projectId;break;}
