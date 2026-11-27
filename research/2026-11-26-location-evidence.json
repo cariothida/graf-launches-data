@@ -1,0 +1,2391 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-26",
+  "scope": "Five new existing published IDs; evidence research only, no geo/feed/site mutation",
+  "inputs": {
+    "launches.json": {
+      "sha": "2d4233d7b1ddb82fd93fb74e92c3e206d3d8406d"
+    },
+    "radar-watchlist.json": {
+      "sha": "4fcccd24ac7639567b3205dd3d0f15acf23aa4e4"
+    },
+    "RADAR-RESEARCH.md": {
+      "sha": "f6126eb9aaa4844e92083a9469e4d3fbe0d8f24e"
+    }
+  },
+  "summary": {
+    "googleQueriesCompleted": 0,
+    "otherEngineQueriesExecuted": 26,
+    "directOpenAttempts": 55,
+    "linkClickAttempts": 10,
+    "exactPointsProposed": 0,
+    "limitations": "Google429/CAPTCHA reported by parent. No Google queries are claimed here. Direct opening was attempted on at least10 distinct domains per object, including official context and district/registry-source checks; not every page was accessible or named the project. Access failures retained. No native social/video coverage claimed."
+  },
+  "findings": [
+    {
+      "projectId": "expo-valley-views-ruba",
+      "phase": "RUBA building",
+      "precision": "masterplan",
+      "coordinates": null,
+      "label": "Expo Valley Views, Expo City Dubai — точная локация здания RUBA уточняется",
+      "sources": [
+        {
+          "url": "https://www.expocitydubai.com/en/expo-living/expo-valley/expo-valley-views/",
+          "title": "Official Expo Valley Views / RUBA page",
+          "description": "Official page identifies RUBA within Expo Valley Views; its map section is labelled Expo Valley Views location, not the individual RUBA building.",
+          "ref": "turn926805296view0",
+          "evidenceType": "masterplan-announcement"
+        },
+        {
+          "url": "https://maps.app.goo.gl/o1RogjapNaTLLttK7",
+          "title": "Official Expo Valley Views map destination",
+          "description": "Direct developer link resolves to24.961838,55.162861. It supports the development location, but no building-specific RUBA plot association was established.",
+          "ref": "turn200883640view2",
+          "evidenceType": "masterplan-map"
+        },
+        {
+          "url": "https://www.equityedge.ae/off-plan/projects/expo-valley-views-ruba",
+          "title": "Broker map disclaimer",
+          "description": "Broker explicitly labels its map indicative pending developer final plot coordinates.",
+          "ref": "turn158192132view6",
+          "evidenceType": "broker-location-limit"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "coordinates": {
+            "lat": 24.9585671,
+            "lng": 55.1532979
+          },
+          "reason": "Second official map link names Expo City Dubai Sales Center; sales office excluded.",
+          "ref": "turn200883640view3"
+        },
+        {
+          "coordinates": {
+            "lat": 24.96175,
+            "lng": 55.17811
+          },
+          "reason": "JRE broker map point differs materially from official development map; no building/plot proof.",
+          "ref": "turn418545708view1"
+        }
+      ],
+      "limitations": [
+        "Developer brochure/factsheet download labels are indexed, but no direct downloadable file URL was exposed by the page-text tool. No PDF plot inspection claimed.",
+        "DubaiHousing attributes developer to Dubai South Properties; official page identifies Expo City Dubai. Broker identity wording not used to override official source."
+      ],
+      "checkedAt": "2026-11-26",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      },
+      "publishedAtSnapshot": true
+    },
+    {
+      "projectId": "nakheel-palm-jebel-ali-beach-collection-frond-j",
+      "phase": "Beach Collection, Frond J",
+      "precision": "masterplan",
+      "coordinates": null,
+      "label": "Frond J, Palm Jebel Ali — границы текущего релиза уточняются",
+      "sources": [
+        {
+          "url": "https://www.nakheel.com/en/developments/nakheel-collections/palmjebelali",
+          "title": "Official Palm Jebel Ali page",
+          "description": "Official context establishes Palm Jebel Ali and its residential fronds; no current Frond J release plot point was exposed.",
+          "ref": "turn735287480view0",
+          "evidenceType": "masterplan-announcement"
+        },
+        {
+          "url": "https://homes.me/projects/the-beach-collection-frond-j",
+          "title": "Frond J release broker coverage",
+          "description": "Names current Beach Collection release on Frond J; commercial and allocation statements remain broker-attributed.",
+          "ref": "turn270559525view0",
+          "evidenceType": "broker-phase-location"
+        },
+        {
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-villas-frond-j-guide",
+          "title": "Frond J document-based broker narrative",
+          "description": "Describes15 plotted villas on a claimed developer plan. The offered Nakheel document citation resolves to homepage, not the purported brochure; plot geometry not independently verified.",
+          "ref": "turn418545708view3",
+          "evidenceType": "broker-plot-lead"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "coordinates": {
+            "lat": 25.00964,
+            "lng": 54.98754
+          },
+          "reason": "JRE numeric map point has no directly inspected current-release plot proof.",
+          "ref": "turn418545708view2"
+        }
+      ],
+      "limitations": [
+        "PropertyFinder old Frond J result returned404; old master-community listing cannot confirm current Beach Collection phase.",
+        "One broker map still marks Frond J not for sale, inconsistent with dated release notices; do not use release status as geometry.",
+        "Syndicated catalogue descriptions do not count as separate primary developer documents."
+      ],
+      "checkedAt": "2026-11-26",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      },
+      "publishedAtSnapshot": true
+    },
+    {
+      "projectId": "nshama-oakmont-town-square",
+      "phase": null,
+      "precision": "district",
+      "coordinates": null,
+      "label": "Town Square Dubai — точный участок Oakmont уточняется",
+      "sources": [
+        {
+          "url": "https://nshama.ae/properties/oakmont/",
+          "title": "Official OAKMONT project page",
+          "description": "Official Nshama site now lists OAKMONT and names the Town Square setting; no numeric project point or mapped plot was established.",
+          "ref": "turn910840990view2",
+          "evidenceType": "district-announcement"
+        },
+        {
+          "url": "https://www.dubaihousing-ae.com/project/oakmont-nshama",
+          "title": "Broker registry-derived plot lead",
+          "description": "Broker claims DLD project4337 and plot1100 in AlYelayiss2. Original cadastral/registry geometry has not been inspected; plot number retained as lead, not coordinate proof.",
+          "ref": "turn554378777view0",
+          "evidenceType": "broker-plot-lead"
+        },
+        {
+          "url": "https://topluxuryproperty.com/ae/dubai-projects/oakmont-by-nshama-at-town-square-dubai/",
+          "title": "West Park broker location",
+          "description": "Places project in West Park district/corner plot by AlQudraRoad; not an official plotted boundary.",
+          "ref": "turn554378777view1",
+          "evidenceType": "broker-district-location"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "coordinates": {
+            "lat": 25.00772,
+            "lng": 55.28683
+          },
+          "reason": "JRE broker numeric point not corroborated by inspected developer plot evidence.",
+          "ref": "turn418545708view0"
+        }
+      ],
+      "limitations": [
+        "Official current masterplan text does not include Oakmont amongst mapped projects.",
+        "DubaiWealthIndex warns its map is pinned from registered name and plot must be verified.",
+        "Current official project identity is stronger than earlier broker-only classification, but this task does not edit launches.json."
+      ],
+      "checkedAt": "2026-11-26",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      },
+      "publishedAtSnapshot": true
+    },
+    {
+      "projectId": "emirates-properties-azha-rise-sports-city",
+      "phase": null,
+      "precision": "district",
+      "coordinates": null,
+      "label": "Dubai Sports City — точная локация Azha Rise уточняется",
+      "sources": [
+        {
+          "url": "https://www.azha.ae/properties/azha-sports-city-residences/",
+          "title": "Official Sports City coming-soon page",
+          "description": "Official Azha page confirms a Sports City project but does not expose the specific Rise name or plot point. Used only as district context.",
+          "ref": "turn654150316view0",
+          "evidenceType": "district-announcement"
+        },
+        {
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "title": "Named Azha Rise broker notice",
+          "description": "Names Azha Rise Residences and Dubai Sports City; no construction point or plot geometry supplied.",
+          "ref": "turn107792778view4",
+          "evidenceType": "district-announcement"
+        },
+        {
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "title": "Named Azha Rise project profile",
+          "description": "Names project and Dubai Sports City; map is neighbourhood outline, not a verified project point.",
+          "ref": "turn107792778view1",
+          "evidenceType": "district-announcement"
+        }
+      ],
+      "rejectedCandidates": [],
+      "limitations": [
+        "Propsearch direct page inaccessible.",
+        "Date conflict: DataDubai reports1Jan2031 while broker/project-profile sources reportQ4 2029; retained as research conflict, not edited in launches feed.",
+        "NOOMA SportsCity list is dated14Sep2026 and lacks this newer project; absence is not evidence project does not exist.",
+        "PropertyFinder district listing provides no exact Rise plot confirmation."
+      ],
+      "checkedAt": "2026-11-26",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      },
+      "publishedAtSnapshot": true
+    },
+    {
+      "projectId": "tarrad-downtown-jebel-ali",
+      "phase": null,
+      "precision": "district",
+      "coordinates": null,
+      "label": "Downtown Jebel Ali / Jebel Ali Industrial 2 — точный участок Tarrad уточняется",
+      "sources": [
+        {
+          "url": "https://tarrad.ae/",
+          "title": "Official Tarrad current portfolio",
+          "description": "Opened official portfolio before brokers; Downtown Jebel Ali not found amongst exposed named projects. BusinessBay office address excluded.",
+          "ref": "turn200883640view1",
+          "evidenceType": "official-context-only"
+        },
+        {
+          "url": "https://www.lucretia-international.com/en/projects/saeed-tarrad-downtown-jebel-ali",
+          "title": "Tarrad project brokerage page",
+          "description": "Identifies SaeedTarrad developer and DowntownJebelAli setting. No independently verified current cadastral point.",
+          "ref": "turn494436512view1",
+          "evidenceType": "district-announcement"
+        },
+        {
+          "url": "https://www.netcapital.ae/projects/new-project-by-tarrad",
+          "title": "Tarrad project brokerage map",
+          "description": "Identifies project in JebelAliIndustrial2 and supplies numeric map query. No inspected original developer/plot evidence justifies promoting query to exact project marker.",
+          "ref": "turn494436512view3",
+          "evidenceType": "broker-district-location"
+        }
+      ],
+      "rejectedCandidates": [
+        {
+          "coordinates": {
+            "lat": 24.9721609,
+            "lng": 55.0900207
+          },
+          "reason": "Broker GoogleMaps query without inspected project/plot proof; withheld.",
+          "ref": "turn735287480view1"
+        }
+      ],
+      "limitations": [
+        "Branded project name remains generic district-style naming; do not merge other Tarrad projects.",
+        "Augusta project page first returned project text, later find redirected to general off-plan page; access/content change logged.",
+        "Broker portals may share underlying commercial dataset; not independent primary announcements."
+      ],
+      "checkedAt": "2026-11-26",
+      "research": {
+        "googleSearchesCompleted": 0,
+        "googleSearchesRequired": 40,
+        "googleRequirementMet": false,
+        "status": "pending-google-access"
+      },
+      "publishedAtSnapshot": true
+    }
+  ],
+  "batches": [
+    {
+      "batchId": 1,
+      "projectId": null,
+      "engine": "system2",
+      "requests": {
+        "open": [
+          {
+            "ref_id": "https://www.expocitydubai.com/en/expo-living/expo-valley/expo-valley-views/"
+          },
+          {
+            "ref_id": "https://www.nakheel.com/en/developments/palm-jebel-ali"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "Nshama Oakmont Town Square official site location map"
+          },
+          {
+            "q": "\"Azha Rise\" \"Emirates Properties\" official"
+          },
+          {
+            "q": "Tarrad Development Downtown Jebel Ali official project"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Oakmont by Nshama Group · Town Square, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/oakmont",
+          "ref": "turn926805296search0"
+        },
+        {
+          "title": "Early Access Opens for Downtown Jebel Ali, with Homes from AED 590K | Alnair",
+          "url": "https://alnair.ae/en/new-projects/early-access-opens-for-downtown-jebel-ali-with-homes-from-aed-590k",
+          "ref": "turn926805296search1"
+        },
+        {
+          "title": "# TOWN SQUARE DUBAI",
+          "url": "https://nshama.ae/wp-content/uploads/2024/02/KAYA-Brochure-Final.pdf",
+          "ref": "turn926805296search36"
+        },
+        {
+          "title": "Tarrad Development Unveils Downtown Jebel Ali, Set for Q4 2029 Completion | Alnair",
+          "url": "https://alnair.ae/en/new-projects/tarrad-development-unveils-downtown-jebel-ali-set-for-q4-2029-completion",
+          "ref": "turn926805296search2"
+        },
+        {
+          "title": "Home : : Nshama",
+          "url": "https://nshamacommunity.ae/",
+          "ref": "turn926805296search3"
+        },
+        {
+          "title": "Tarrad Development — Luxury Real Estate Developer in Dubai",
+          "url": "https://tarrad.ae/",
+          "ref": "turn926805296search4"
+        },
+        {
+          "title": "Tarrad Development Unveils Downtown Jebel Ali, Set for Q4 2029 Completion | Alnair",
+          "url": "https://alnair.ae/en/news/tarrad-development-unveils-downtown-jebel-ali-set-for-q4-2029-completion",
+          "ref": "turn926805296search5"
+        },
+        {
+          "title": "Nshama – Real Estate Developer",
+          "url": "https://nshama.re-platform.io/en/",
+          "ref": "turn926805296search6"
+        },
+        {
+          "title": "New Project by Tarrad | Off-Plan from AED 550K",
+          "url": "https://ezre.ae/projects/new-project-by-tarrad",
+          "ref": "turn926805296search7"
+        },
+        {
+          "title": "Tarrad Development Unveils Downtown Jebel Ali, Set for Q4 2029 Completion | Alnair",
+          "url": "https://alnair.cy/en/new-projects/tarrad-development-unveils-downtown-jebel-ali-set-for-q4-2029-completion",
+          "ref": "turn926805296search8"
+        },
+        {
+          "title": "Oakmont by Nshama Group: Launch Prices & Payment Plan",
+          "url": "https://www.equityedge.ae/off-plan/projects/oakmont",
+          "ref": "turn926805296search9"
+        },
+        {
+          "title": "Jetzt beginnt der Vorabzugang zu Downtown Jebel Ali: Wohnungen ab AED 590K | Alnair",
+          "url": "https://alnair.ge/de/new-projects/early-access-opens-for-downtown-jebel-ali-with-homes-from-aed-590k",
+          "ref": "turn926805296search10"
+        },
+        {
+          "title": "Tarrad Development | Developer Details | Takween Aldar",
+          "url": "https://takweenaldar.ae/en/off-plan-projects/tarrad-development",
+          "ref": "turn926805296search11"
+        },
+        {
+          "title": "Downtown Jabal Ali by Tarrad, Dubai | Augusta Properties",
+          "url": "https://www.augusta-properties.com/explore/tarrad-downtown-jabal-ali",
+          "ref": "turn926805296search12"
+        },
+        {
+          "title": "Tarrad Development Projects in Dubai & UAE | FHI Global",
+          "url": "https://fhiglobal.ae/tarrad-development",
+          "ref": "turn926805296search13"
+        },
+        {
+          "title": "New Project Downtown Jebel Ali | Net Capital",
+          "url": "https://www.netcapital.ae/projects/new-project-by-tarrad",
+          "ref": "turn926805296search14"
+        },
+        {
+          "title": "Tarrad Development L.L.C Projects in Dubai | DataDXB",
+          "url": "https://datadxb.com/data/developer/tarrad/tarrad-development",
+          "ref": "turn926805296search15"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn926805296search16"
+        },
+        {
+          "title": "# Town Square Key Facts",
+          "url": "https://nshama.ae/wp-content/uploads/2023/08/Mayfair-Brochure-2.pdf",
+          "ref": "turn926805296search37"
+        },
+        {
+          "title": "NSHAMA | Off-Plan Developments | Bunyaad",
+          "url": "https://bunyaad.ae/projects/nshama-town-square",
+          "ref": "turn926805296search17"
+        },
+        {
+          "title": "Alton by Nshama Group · Town Square, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/alton",
+          "ref": "turn926805296search18"
+        },
+        {
+          "title": "# TOWN SQUARE",
+          "url": "https://nshamacommunity.ae/HOME-OWNER-MANUAL/Manual-Book-Townhouse.pdf",
+          "ref": "turn926805296search38"
+        },
+        {
+          "title": "Sell Property in Town Square | The Property Exit",
+          "url": "https://thepropertyexit.ae/sell/town-square/",
+          "ref": "turn926805296search19"
+        },
+        {
+          "title": "# TOWN SQUARE DUBAI",
+          "url": "https://nshama-townsquare.drehomes.ae/Symphony.pdf",
+          "ref": "turn926805296search39"
+        },
+        {
+          "title": "Town Square Dubai by Nshama: New Buildings and Handover",
+          "url": "https://nahyrealestate.com/projects/town-square",
+          "ref": "turn926805296search20"
+        },
+        {
+          "title": "Oakmont by Nshama: Early Access at Town Square Dubai with AED 20K EOI | Alnair",
+          "url": "https://alnair.ae/en/new-projects/oakmont-by-nshama-early-access-at-town-square-dubai-with-aed-20k-eoi",
+          "ref": "turn926805296search21"
+        },
+        {
+          "title": "Azha Rise Residences 2029-cu ilin Q4 rübündə Dubai Sports City ərazisində yeni mənzillər təqdim edəcək | Alnair",
+          "url": "https://alnair.ge/az/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn926805296search22"
+        },
+        {
+          "title": "Oakmont · From AED 1.2M · Q2 2029 | ZONE IMMO",
+          "url": "https://zoneimmo.ae/en/projects/oakmont-4239",
+          "ref": "turn926805296search23"
+        },
+        {
+          "title": "New projects in Town Square (2026) — from the DLD project register | NOOMA",
+          "url": "https://noomaproperties.com/market-map/town-square/new-projects/",
+          "ref": "turn926805296search24"
+        },
+        {
+          "title": "News and Events | Alnair",
+          "url": "https://alnair.cy/en/news?city_id=1",
+          "ref": "turn926805296search25"
+        },
+        {
+          "title": "Oakmont handover date Apr 2029: 0% built | Town Square",
+          "url": "https://dubaiwealthindex.com/off-plan/apartments/dubai/town-square/oakmont",
+          "ref": "turn926805296search26"
+        },
+        {
+          "title": "Azha Rise Residences، Q4 2029 تک Dubai Sports City میں نئے گھر متعارف کرانے کے لیے تیار | Alnair",
+          "url": "https://alnair.ae/ur/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn926805296search27"
+        },
+        {
+          "title": "Live . Work . play",
+          "url": "https://nshama-townsquare.drehomes.ae/nshama-liva-brochure.pdf",
+          "ref": "turn926805296search40"
+        },
+        {
+          "title": "New Projects in Al Amerah, Ajman | 10 Projects Compared",
+          "url": "https://havenhomesuae.com/en/new-projects/ajman/al-amerah/",
+          "ref": "turn926805296search28"
+        },
+        {
+          "title": "Azha Rise Residences يستعد لإضافة وحدات سكنية جديدة إلى Dubai Sports City بحلول Q4 2029 | Alnair",
+          "url": "https://alnair.ge/ar/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn926805296search29"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn926805296search30"
+        },
+        {
+          "title": "New & Off-Plan Projects in Al Amerah | Property Finder",
+          "url": "https://www.propertyfinder.ae/en/new-projects/lp/ajman/al-amerah",
+          "ref": "turn926805296search31"
+        },
+        {
+          "title": "Azha Views Residences, Al Amerah, Ajman: Terraces & Study | Lucretia",
+          "url": "https://www.lucretia-international.com/en/projects/emirates-properties-azha-views-residences",
+          "ref": "turn926805296search32"
+        },
+        {
+          "title": "New & Off-Plan Projects in Ajman | Property Finder",
+          "url": "https://www.propertyfinder.ae/en/new-projects/lp/ajman",
+          "ref": "turn926805296search33"
+        },
+        {
+          "title": "Alnair – Telegram",
+          "url": "https://t.me/s/alnairae",
+          "ref": "turn926805296search34"
+        },
+        {
+          "title": "Expo Valley Views | Where contemporary residences meet nature in Expo City Dubai",
+          "url": "https://www.expocitydubai.com/en/expo-living/expo-valley/expo-valley-views/",
+          "ref": "turn926805296view0"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn926805296view1",
+          "error": "URL https://www.nakheel.com/en/developments/palm-jebel-ali is not accessible via this tool."
+        }
+      ],
+      "sourceRefs": [
+        "turn926805296search0",
+        "turn926805296search1",
+        "turn926805296search36",
+        "turn926805296search2",
+        "turn926805296search3",
+        "turn926805296search4",
+        "turn926805296search5",
+        "turn926805296search6",
+        "turn926805296search7",
+        "turn926805296search8",
+        "turn926805296search9",
+        "turn926805296search10",
+        "turn926805296search11",
+        "turn926805296search12",
+        "turn926805296search13",
+        "turn926805296search14",
+        "turn926805296search15",
+        "turn926805296search16",
+        "turn926805296search37",
+        "turn926805296search17",
+        "turn926805296search18",
+        "turn926805296search38",
+        "turn926805296search19",
+        "turn926805296search39",
+        "turn926805296search20",
+        "turn926805296search21",
+        "turn926805296search22",
+        "turn926805296search23",
+        "turn926805296search24",
+        "turn926805296search25",
+        "turn926805296search26",
+        "turn926805296search27",
+        "turn926805296search40",
+        "turn926805296search28",
+        "turn926805296search29",
+        "turn926805296search30",
+        "turn926805296search31",
+        "turn926805296search32",
+        "turn926805296search33",
+        "turn926805296search34",
+        "turn926805296view0",
+        "turn926805296view1"
+      ]
+    },
+    {
+      "batchId": 2,
+      "projectId": null,
+      "engine": "system1",
+      "requests": {
+        "click": [
+          {
+            "ref_id": "turn926805296view0",
+            "id": 106
+          },
+          {
+            "ref_id": "turn926805296view0",
+            "id": 107
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://nshama.ae/"
+          },
+          {
+            "ref_id": "https://tarrad.ae/"
+          }
+        ],
+        "system1_search_query": [
+          {
+            "q": "\"Emirates Properties\" \"Azha Rise\" official website"
+          },
+          {
+            "q": "site:nakheel.com \"Frond J\" \"Beach\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Home - Emirates Properties Group",
+          "url": "https://www.epgroup.ae/",
+          "ref": "turn200883640search0"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn200883640search1"
+        },
+        {
+          "title": "Azha Properties | Top Real Estate Developer in Dubai, UAE",
+          "url": "https://www.azha.ae/",
+          "ref": "turn200883640search2"
+        },
+        {
+          "title": "New Final-Azha Views Residences Brochure",
+          "url": "https://cdn.geniemap.net/upload/c2/db/9b/83/47daa0b3-03bc-4123-a065-5c8c3169f747.pdf",
+          "ref": "turn200883640search8"
+        },
+        {
+          "title": "Projects - Emirates Properties Group",
+          "url": "https://www.epgroup.ae/emirates-properties-projects/",
+          "ref": "turn200883640search3"
+        },
+        {
+          "title": "Fact Sheet",
+          "url": "https://cdn.gccoffplan.com/prj/P01daa090f0d5693d97c90755a54fa204-x0b-dbbb34c4-1a67-4ad2-ac31-1403151ece84/de79e3c9-7147-4a7e-92fb-743fa209e654.pdf",
+          "ref": "turn200883640search9"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn200883640search4"
+        },
+        {
+          "title": "News and Events | Alnair",
+          "url": "https://alnair.cy/en/news?city_id=1",
+          "ref": "turn200883640search5"
+        },
+        {
+          "title": "Alnair - Telegram 频道 @alnairae 的统计与分析",
+          "url": "https://telemetr.io/ch/channels/1541844474-alnairae/posts",
+          "ref": "turn200883640search6"
+        },
+        {
+          "title": "Alnair – Telegram",
+          "url": "https://t.me/s/alnairae",
+          "ref": "turn200883640search7"
+        },
+        {
+          "title": "Nshama | Dubai - Nshama",
+          "url": "https://nshama.ae/",
+          "ref": "turn200883640view0"
+        },
+        {
+          "title": "Tarrad Development — Luxury Real Estate Developer in Dubai",
+          "url": "https://tarrad.ae/",
+          "ref": "turn200883640view1"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn200883640view2",
+          "error": "Failed to fetch https://maps.app.goo.gl/o1RogjapNaTLLttK7: (500) Redirected to https://www.google.com/maps/search/24.961838,+55.162861?entry=tts&g_ep=EgoyMDI1MTIwMi4wIPu8ASoASAFQAw%3D%3D&skid=6beb3400-9a17-4db2-9052-e1091efa6ea3 which is not accessible via this tool. (non-retryable error)"
+        },
+        {
+          "ref": "turn200883640view3",
+          "error": "Failed to fetch https://maps.app.goo.gl/Dg4RRjyEPZyNmkmk6: (500) Redirected to https://www.google.com/maps/place/Expo+City+Dubai+Sales+Center/@24.9582528,55.1531743,251m/data=!3m1!1e3!4m6!3m5!1s0x3e5f72d8b88510d9:0x303c92e7ccb83a6f!8m2!3d24.9585671!4d55.1532979!16s%2Fg%2F11khmhcq_4!5m1!1e1?entry=tts&g_ep=EgoyMDI1MTAyNi4wIPu8ASoASAFQAw%3D%3D&skid=f6181c8f-7b6c-4d70-9636-d33208bb406d which is not accessible via this tool. (non-retryable error)"
+        }
+      ],
+      "sourceRefs": [
+        "turn200883640search0",
+        "turn200883640search1",
+        "turn200883640search2",
+        "turn200883640search8",
+        "turn200883640search3",
+        "turn200883640search9",
+        "turn200883640search4",
+        "turn200883640search5",
+        "turn200883640search6",
+        "turn200883640search7",
+        "turn200883640view0",
+        "turn200883640view1",
+        "turn200883640view2",
+        "turn200883640view3"
+      ]
+    },
+    {
+      "batchId": 3,
+      "projectId": null,
+      "engine": null,
+      "requests": {
+        "click": [
+          {
+            "ref_id": "turn200883640view0",
+            "id": 8
+          },
+          {
+            "ref_id": "turn200883640view0",
+            "id": 7
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.epgroup.ae/"
+          },
+          {
+            "ref_id": "https://www.azha.ae/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "AZHA Properties | Top Real Estate Developer in Dubai, UAE",
+          "url": "https://www.azha.ae/",
+          "ref": "turn910840990view1"
+        },
+        {
+          "title": "OAKMONT - Nshama",
+          "url": "https://nshama.ae/properties/oakmont/",
+          "ref": "turn910840990view2"
+        },
+        {
+          "title": "Town Square Dubai - Nshama",
+          "url": "https://nshama.ae/properties/town-square-dubai/",
+          "ref": "turn910840990view3"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn910840990view0",
+          "error": "Failed to fetch https://www.epgroup.ae/: (400) Timeout fetching"
+        }
+      ],
+      "sourceRefs": [
+        "turn910840990view0",
+        "turn910840990view1",
+        "turn910840990view2",
+        "turn910840990view3"
+      ]
+    },
+    {
+      "batchId": 4,
+      "projectId": null,
+      "engine": "system2",
+      "requests": {
+        "click": [
+          {
+            "ref_id": "turn910840990view1",
+            "id": 14
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"RUBA\" \"Expo Valley Views\" location map"
+          },
+          {
+            "q": "\"Beach Collection\" \"Frond J\" location map Nakheel"
+          },
+          {
+            "q": "\"Azha Rise Residences\" location map plot"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Expo Valley Views | Where contemporary residences meet nature in Expo City Dubai",
+          "url": "https://www.expocitydubai.com/en/expo-living/expo-valley/expo-valley-views/",
+          "ref": "turn654150316search0"
+        },
+        {
+          "title": "Expo Valley Views - Ruba by Expo City Development · Dubai Expo City, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/expo-valley-views-ruba",
+          "ref": "turn654150316search1"
+        },
+        {
+          "title": "Expo Valley Views - Ruba by Expo City in Dubai Expo City",
+          "url": "https://offplan.ae/projects/expo-valley-views-ruba",
+          "ref": "turn654150316search2"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection by Nakheel · Palm Jebel Ali, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/palm-jebel-ali-frond-j-the-beach-collection",
+          "ref": "turn654150316search3"
+        },
+        {
+          "title": "Expo Valley Views - Ruba | House Finder UAE",
+          "url": "https://mail.housefinder.ae/projects-detail/expo-valley-views-ruba-4229",
+          "ref": "turn654150316search4"
+        },
+        {
+          "title": "Expo Valley Views - Ruba: Launch Prices & Payment Plan",
+          "url": "https://www.equityedge.ae/off-plan/projects/expo-valley-views-ruba",
+          "ref": "turn654150316search5"
+        },
+        {
+          "title": "Expo Valley Views - Ruba, Dubai Expo City | Takween Aldar",
+          "url": "https://takweenaldar.ae/en/off-plan-projects/expo-city-development/expo-valley-views-ruba",
+          "ref": "turn654150316search6"
+        },
+        {
+          "title": "Expo Valley Views - Ruba: Prices, Payment Plan & Floor Plans",
+          "url": "https://dubainary.com/off-plan/expo-city-development-expo-valley-views-ruba",
+          "ref": "turn654150316search7"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection: Launch Prices",
+          "url": "https://www.equityedge.ae/off-plan/projects/palm-jebel-ali-frond-j-the-beach-collection",
+          "ref": "turn654150316search8"
+        },
+        {
+          "title": "Palm Jebel Ali villa prices and payment plan, Frond J",
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-villas-frond-j-guide",
+          "ref": "turn654150316search9"
+        },
+        {
+          "title": "Ruba at Expo Valley Views by Dubai South Properties| Handover Q4 2029",
+          "url": "https://www.dubaihousing-ae.com/project/ruba-dubai-south-properties",
+          "ref": "turn654150316search10"
+        },
+        {
+          "title": "RUBA Expo Valley Views price and payment plan | Houman Jalouti",
+          "url": "https://hoomanjt.com/articles/ruba-expo-valley-views-expo-city/",
+          "ref": "turn654150316search11"
+        },
+        {
+          "title": "فلل ذا بيتش كولكشن، نخلة جبل علي: الأسعار وخطة الدفع",
+          "url": "https://www.castilion-estates.com/journal/beach-collection-nakhlat-jabal-ali-frond-j",
+          "ref": "turn654150316search12"
+        },
+        {
+          "title": "Palm Jebel Ali Beach Collection, Frond J: цены и план оплаты",
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-frond-j-ceny",
+          "ref": "turn654150316search13"
+        },
+        {
+          "title": "Palm Jebel Ali Map: All 16 Fronds, Plot by Plot",
+          "url": "https://palmjebelali.alessandroderubertis.com/map/",
+          "ref": "turn654150316search14"
+        },
+        {
+          "title": "Ruba at Expo Valley Views: Price & Plan (2026)",
+          "url": "https://offplaninsider.com/projects/ruba-expo-valley-views/",
+          "ref": "turn654150316search15"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection",
+          "url": "https://takweenaldar.ae/en/off-plan-projects/nakheel/palm-jebel-ali-frond-j-the-beach-collection",
+          "ref": "turn654150316search16"
+        },
+        {
+          "title": "Palm Jebel Ali Beach Collection, Frond J: precios y plan",
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-frond-j-precios",
+          "ref": "turn654150316search17"
+        },
+        {
+          "title": "Expo Valley Views - Ruba · From AED 1.59M | ZONE IMMO",
+          "url": "https://zoneimmo.ae/en/projects/expo-valley-views-ruba-4229",
+          "ref": "turn654150316search18"
+        },
+        {
+          "title": "Expo Valley Views - Ruba in Dubai | Kaysan Properties",
+          "url": "https://www.kaysanproperties.ae/projects/expo-valley-views-ruba/4229",
+          "ref": "turn654150316search19"
+        },
+        {
+          "title": "杰贝阿里棕榈岛 The Beach Collection 别墅：价格与付款计划 | Castilion Estates",
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-bieshu-jiage",
+          "ref": "turn654150316search20"
+        },
+        {
+          "title": "New launches in the UAE - Homes.me",
+          "url": "https://homes.me/launches",
+          "ref": "turn654150316search21"
+        },
+        {
+          "title": "Palm Jebel Ali Future Launches: What Nakheel Releases Next",
+          "url": "https://palmjebelali.alessandroderubertis.com/future-launches/",
+          "ref": "turn654150316search22"
+        },
+        {
+          "title": "Palm Jebel Ali Villa Prices: Beach and Coral | Equity Edge",
+          "url": "https://www.equityedge.ae/guides/palm-jebel-ali-villa-prices",
+          "ref": "turn654150316search23"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn654150316search24"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn654150316search25"
+        },
+        {
+          "title": "Dubai projects declared for 2031 handover — 15 projects · Data Dubai",
+          "url": "https://datadubai.ae/handover/2031/",
+          "ref": "turn654150316search26"
+        },
+        {
+          "title": "Azha Millennium Residences launches in Jumeirah Village Triangle - azha",
+          "url": "https://www.azha.ae/media/azha-millennium-residences-unveiled-in-jvt-dubai/",
+          "ref": "turn654150316search27"
+        },
+        {
+          "title": "Azha Rise Residences 2029-cu ilin Q4 rübündə Dubai Sports City ərazisində yeni mənzillər təqdim edəcək | Alnair",
+          "url": "https://alnair.ge/az/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn654150316search28"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn654150316search29"
+        },
+        {
+          "title": "News and Events | Alnair",
+          "url": "https://alnair.ae/en/news",
+          "ref": "turn654150316search30"
+        },
+        {
+          "title": "Azha Rise Residences، Q4 2029 تک Dubai Sports City میں نئے گھر متعارف کرانے کے لیے تیار | Alnair",
+          "url": "https://alnair.ae/ur/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn654150316search31"
+        },
+        {
+          "title": "Alnair – Telegram",
+          "url": "https://t.me/s/alnairae",
+          "ref": "turn654150316search32"
+        },
+        {
+          "title": "News and Events | Alnair",
+          "url": "https://alnair.cy/en/news?city_id=1",
+          "ref": "turn654150316search33"
+        },
+        {
+          "title": "Azha Rise Residences يستعد لإضافة وحدات سكنية جديدة إلى Dubai Sports City بحلول Q4 2029 | Alnair",
+          "url": "https://alnair.ge/ar/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn654150316search34"
+        },
+        {
+          "title": "Best projects and new launches in the UAE | ARMITAGE Estate",
+          "url": "https://armitage.estate/en/launches",
+          "ref": "turn654150316search35"
+        },
+        {
+          "title": "P",
+          "url": "https://www.propertytime.ae/propertytime/uploads/2025/08/Magzine_June-2025.pdf",
+          "ref": "turn654150316search36"
+        },
+        {
+          "title": "Sports City - azha",
+          "url": "https://www.azha.ae/properties/azha-sports-city-residences/",
+          "ref": "turn654150316view0"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn654150316search0",
+        "turn654150316search1",
+        "turn654150316search2",
+        "turn654150316search3",
+        "turn654150316search4",
+        "turn654150316search5",
+        "turn654150316search6",
+        "turn654150316search7",
+        "turn654150316search8",
+        "turn654150316search9",
+        "turn654150316search10",
+        "turn654150316search11",
+        "turn654150316search12",
+        "turn654150316search13",
+        "turn654150316search14",
+        "turn654150316search15",
+        "turn654150316search16",
+        "turn654150316search17",
+        "turn654150316search18",
+        "turn654150316search19",
+        "turn654150316search20",
+        "turn654150316search21",
+        "turn654150316search22",
+        "turn654150316search23",
+        "turn654150316search24",
+        "turn654150316search25",
+        "turn654150316search26",
+        "turn654150316search27",
+        "turn654150316search28",
+        "turn654150316search29",
+        "turn654150316search30",
+        "turn654150316search31",
+        "turn654150316search32",
+        "turn654150316search33",
+        "turn654150316search34",
+        "turn654150316search35",
+        "turn654150316search36",
+        "turn654150316view0"
+      ]
+    },
+    {
+      "batchId": 5,
+      "projectId": "expo-valley-views-ruba",
+      "engine": null,
+      "requests": {
+        "open": [
+          {
+            "ref_id": "https://www.luxwellrealestate.com/post/ruba-expo-valley-views-expo-city-dubai-launch"
+          },
+          {
+            "ref_id": "https://hoomanjt.com/articles/ruba-expo-valley-views-expo-city/"
+          },
+          {
+            "ref_id": "https://propsearch.ae/dubai/ruba-at-expo-valley-views"
+          },
+          {
+            "ref_id": "https://jre.ae/projects/expo-valley-views-ruba"
+          },
+          {
+            "ref_id": "https://offplan.ae/projects/expo-valley-views-ruba"
+          },
+          {
+            "ref_id": "https://mail.housefinder.ae/projects-detail/expo-valley-views-ruba-4229"
+          },
+          {
+            "ref_id": "https://www.equityedge.ae/off-plan/projects/expo-valley-views-ruba"
+          },
+          {
+            "ref_id": "https://takweenaldar.ae/en/off-plan-projects/expo-city-development/expo-valley-views-ruba"
+          },
+          {
+            "ref_id": "https://dubainary.com/off-plan/expo-city-development-expo-valley-views-ruba"
+          },
+          {
+            "ref_id": "https://www.dubaihousing-ae.com/project/ruba-dubai-south-properties"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "RUBA Expo Valley Views: Prices From AED 1.59M & 60/40 Plan",
+          "url": "https://www.luxwellrealestate.com/post/ruba-expo-valley-views-expo-city-dubai-launch",
+          "ref": "turn158192132view0"
+        },
+        {
+          "title": "RUBA Expo Valley Views price and payment plan | Houman Jalouti",
+          "url": "https://hoomanjt.com/articles/ruba-expo-valley-views-expo-city/",
+          "ref": "turn158192132view1"
+        },
+        {
+          "title": "Expo Valley Views - Ruba by Expo City Development · Dubai Expo City, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/expo-valley-views-ruba",
+          "ref": "turn158192132view3"
+        },
+        {
+          "title": "Expo Valley Views - Ruba by Expo City in Dubai Expo City",
+          "url": "https://offplan.ae/projects/expo-valley-views-ruba",
+          "ref": "turn158192132view4"
+        },
+        {
+          "title": "mail.housefinder.ae",
+          "url": "https://mail.housefinder.ae/projects-detail/expo-valley-views-ruba-4229",
+          "ref": "turn158192132view5"
+        },
+        {
+          "title": "Expo Valley Views - Ruba: Launch Prices & Payment Plan",
+          "url": "https://www.equityedge.ae/off-plan/projects/expo-valley-views-ruba",
+          "ref": "turn158192132view6"
+        },
+        {
+          "title": "Expo Valley Views - Ruba, Dubai Expo City | Takween Aldar",
+          "url": "https://takweenaldar.ae/en/off-plan-projects/expo-city-development/expo-valley-views-ruba",
+          "ref": "turn158192132view7"
+        },
+        {
+          "title": "Expo Valley Views - Ruba: Prices, Payment Plan & Floor Plans",
+          "url": "https://dubainary.com/off-plan/expo-city-development-expo-valley-views-ruba",
+          "ref": "turn158192132view8"
+        },
+        {
+          "title": "Ruba at Expo Valley Views by Dubai South Properties| Handover Q4 2029",
+          "url": "https://www.dubaihousing-ae.com/project/ruba-dubai-south-properties",
+          "ref": "turn158192132view9"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn158192132view2",
+          "error": "URL https://propsearch.ae/dubai/ruba-at-expo-valley-views is not accessible via this tool."
+        }
+      ],
+      "sourceRefs": [
+        "turn158192132view0",
+        "turn158192132view1",
+        "turn158192132view2",
+        "turn158192132view3",
+        "turn158192132view4",
+        "turn158192132view5",
+        "turn158192132view6",
+        "turn158192132view7",
+        "turn158192132view8",
+        "turn158192132view9"
+      ]
+    },
+    {
+      "batchId": 6,
+      "projectId": null,
+      "engine": "system2",
+      "requests": {
+        "system2_search_query": [
+          {
+            "q": "\"Palm Jebel Ali\" \"Frond J\" \"Beach Collection\" location brochure -site:castilion-estates.com -site:jre.ae -site:equityedge.ae -site:takweenaldar.ae -site:homes.me"
+          },
+          {
+            "q": "\"Azha Rise Residences\" -site:alnair.ae -site:alnair.ge -site:alnair.cy -site:telemetr.io"
+          },
+          {
+            "q": "\"Azha Rise\" \"location\" \"map\" -site:alnair.ae -site:alnair.ge"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Palm Jebel Ali Frond J - in Palm Jebel Ali by Nakheel | Property Finder UAE",
+          "url": "https://www.propertyfinder.ae/en/new-projects/nakheel/palm-jebel-ali-frond-j",
+          "ref": "turn992778901search0"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection, Dubai: Prices",
+          "url": "https://impalarealestate.com/projects/palm-jebel-ali-frond-j-the-beach-collection/",
+          "ref": "turn992778901search1"
+        },
+        {
+          "title": "Palm Jebel Ali Map: All 16 Fronds, Plot by Plot",
+          "url": "https://palmjebelali.alessandroderubertis.com/map/",
+          "ref": "turn992778901search2"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn992778901search3"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J Beach Collection | Schmidt & Partner",
+          "url": "https://www.schmidtandpartner.com/off-plan/palm-jebel-ali-frond-j-the-beach-collection-by-nakheel",
+          "ref": "turn992778901search4"
+        },
+        {
+          "title": "Dubai projects declared for 2031 handover — 15 projects · Data Dubai",
+          "url": "https://datadubai.ae/handover/2031/",
+          "ref": "turn992778901search5"
+        },
+        {
+          "title": "Palm Jebel Ali Apartments & Villas: Frond D + J",
+          "url": "https://www.dubaihaus.com/en/blog/palm-jebel-ali-frond-d-j-prices-payment-plans",
+          "ref": "turn992778901search6"
+        },
+        {
+          "title": "Palm Jebel Ali Future Launches: What Nakheel Releases Next",
+          "url": "https://palmjebelali.alessandroderubertis.com/future-launches/",
+          "ref": "turn992778901search7"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J – The Beach Collection | Off-Plan Developments | Bunyaad",
+          "url": "https://bunyaad.ae/projects/palm-jebel-ali-frond-j-the-beach-collection-palm-jebel-ali",
+          "ref": "turn992778901search8"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn992778901search9"
+        },
+        {
+          "title": "Palm Jebel Ali: Interactive Plot Map, Villas and Resale",
+          "url": "https://palmjebelali.alessandroderubertis.com/",
+          "ref": "turn992778901search10"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J: Final 20 Villas and New Mosque",
+          "url": "https://www.luxwellrealestate.com/post/palm-jebel-ali-frond-j-final-beach-villas-nakheel-mosque",
+          "ref": "turn992778901search11"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.co.id/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn992778901search12"
+        },
+        {
+          "title": "Palm Jebel Ali | New Projects & Off-Plan Properties in Dubai | MRK Real Estate",
+          "url": "https://mrk.ae/communities/palm-jebel-ali",
+          "ref": "turn992778901search13"
+        },
+        {
+          "title": "Alnair – Telegram",
+          "url": "https://t.me/s/alnairae",
+          "ref": "turn992778901search14"
+        },
+        {
+          "title": "Recently Added Dubai Off-Plan Projects | VILA",
+          "url": "https://vila.ae/new-off-plan-launches-dubai/",
+          "ref": "turn992778901search15"
+        },
+        {
+          "title": "Azha Millennium Residences launches in Jumeirah Village Triangle - azha",
+          "url": "https://www.azha.ae/media/azha-millennium-residences-unveiled-in-jvt-dubai/",
+          "ref": "turn992778901search16"
+        },
+        {
+          "title": "The Beach Collection Villas | 5 & 6 Bedroom Luxury Beachfront Homes | Capstone UAE",
+          "url": "https://capstoneuae.com/new-projects/the-beach-collection-villas-by-nakheel-properties/",
+          "ref": "turn992778901search17"
+        },
+        {
+          "title": "Is my Dubai off-plan project late? Handover tracker, calendar and delays | BUY DUBAI",
+          "url": "https://buydubai.io/market/handovers/",
+          "ref": "turn992778901search18"
+        },
+        {
+          "title": "Best projects and new launches in the UAE | ARMITAGE Estate",
+          "url": "https://armitage.estate/en/launches",
+          "ref": "turn992778901search19"
+        },
+        {
+          "title": "Best projects and new launches in the UAE | ARMITAGE Estate",
+          "url": "https://armitage.estate/en/launches?developer=nakheel",
+          "ref": "turn992778901search20"
+        },
+        {
+          "title": "Dubai Off-Plan Properties & New Projects: Page 324",
+          "url": "https://datahabibi.ae/dubai/new-projects?page=324",
+          "ref": "turn992778901search21"
+        },
+        {
+          "title": "Emirates Properties — projects & developer prices, payment plans",
+          "url": "https://empirecityuae.com/en/developers/emirates-properties",
+          "ref": "turn992778901search22"
+        },
+        {
+          "title": "Sitemap | Net Capital",
+          "url": "https://www.netcapital.ae/site-map",
+          "ref": "turn992778901search23"
+        },
+        {
+          "title": "EXCLUSIVE AED 20K DOWN PAYMENT | 1BR + STUDY | 1,125 SQ. FT. | AED 7,415/MONTH | 6-YEAR PAYMENT PLAN | Q1 2028 HANDOVER | Bayut.com",
+          "url": "https://www.bayut.com/property/details-16410872.html",
+          "ref": "turn992778901search24"
+        },
+        {
+          "title": "Azha Views Residences, Al Amerah, Ajman: Terraces & Study | Lucretia",
+          "url": "https://www.lucretia-international.com/en/projects/emirates-properties-azha-views-residences",
+          "ref": "turn992778901search25"
+        },
+        {
+          "title": "Palm Jebel Ali- Last & Final Launch! Whats what on Dubai's Iconic  NEW  larger Palm? - YouTube",
+          "url": "https://www.youtube.com/watch?v=TjWhEmYIn3A",
+          "ref": "turn992778901youtube36"
+        },
+        {
+          "title": "Apartment: EXCLUSIVE AED 20K DOWN PAYMENT | 1BR + STUDY | 1,125 SQ.FT. | AED 7,415/MONTH | 6-YEAR PAYMENT PLAN | Q1 2028 HANDOVER | dubizzle Ajman",
+          "url": "https://ajman.dubizzle.com/property-for-sale/residential/apartment/2026/9/5/exclusive-aed-20k-down-payment-1br-stud-14-241180/",
+          "ref": "turn992778901search26"
+        },
+        {
+          "title": "Apartment: EXCLUSIVE AED 20K DOWN PAYMENT | 1BR + STUDY | 1,125 SQ.FT. | AED 7,415/MONTH | 6-YEAR PAYMENT PLAN | Q1 2028 HANDOVER | dubizzle Fujairah",
+          "url": "https://fujairah.dubizzle.com/property-for-sale/residential/apartment/2026/9/5/exclusive-aed-20k-down-payment-1br-stud-14-241180/",
+          "ref": "turn992778901search27"
+        },
+        {
+          "title": "Apartment: EXCLUSIVE AED 20K DOWN PAYMENT | 1BR + STUDY | 1,125 SQ.FT. | AED 7,415/MONTH | 6-YEAR PAYMENT PLAN | Q1 2028 HANDOVER (UNT-IM-19873) | dubizzle Al Ain",
+          "url": "https://alain.dubizzle.com/property-for-sale/residential/apartment/2026/9/5/exclusive-aed-20k-down-payment-1br-stud-14-241180/",
+          "ref": "turn992778901search28"
+        },
+        {
+          "title": "Apartment: Own an apartment now with no down payment, one bedroom and living room with maid's room. Take advantage of this offer as the number is limited. | dubizzle UAE",
+          "url": "https://uae.dubizzle.com/property-for-sale/residential/apartment/2026/8/12/own-an-apartment-now-with-no-down-payme-14-271898/",
+          "ref": "turn992778901search29"
+        },
+        {
+          "title": "Azha Millennium Residences by Azha Development | OffPlan",
+          "url": "https://offplan.ae/projects/azha-millennium-residences",
+          "ref": "turn992778901search30"
+        },
+        {
+          "title": "Azha Community - in Al Amerah by Emirates properties | Property Finder UAE",
+          "url": "https://www.propertyfinder.ae/en/new-projects/emirates-properties/azha-community",
+          "ref": "turn992778901search31"
+        },
+        {
+          "title": "Apartment: Own an apartment now with no down payment, one bedroom and living room with maid's room. Take advantage of this offer as the number is limited. | dubizzle Al Ain",
+          "url": "https://alain.dubizzle.com/property-for-sale/residential/apartment/2026/8/12/own-an-apartment-now-with-no-down-payme-14-271898/",
+          "ref": "turn992778901search32"
+        },
+        {
+          "title": "Amazing opportunity! You'll own a one bhk apartment with a living room on a high floor, offering a full open view of Sheikh Mohammed Bin Zayed Road. | Bayut.com",
+          "url": "https://www.bayut.com/property/details-15972758.html",
+          "ref": "turn992778901search33"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn992778901search0",
+        "turn992778901search1",
+        "turn992778901search2",
+        "turn992778901search3",
+        "turn992778901search4",
+        "turn992778901search5",
+        "turn992778901search6",
+        "turn992778901search7",
+        "turn992778901search8",
+        "turn992778901search9",
+        "turn992778901search10",
+        "turn992778901search11",
+        "turn992778901search12",
+        "turn992778901search13",
+        "turn992778901search14",
+        "turn992778901search15",
+        "turn992778901search16",
+        "turn992778901search17",
+        "turn992778901search18",
+        "turn992778901search19",
+        "turn992778901search20",
+        "turn992778901search21",
+        "turn992778901search22",
+        "turn992778901search23",
+        "turn992778901search24",
+        "turn992778901search25",
+        "turn992778901youtube36",
+        "turn992778901search26",
+        "turn992778901search27",
+        "turn992778901search28",
+        "turn992778901search29",
+        "turn992778901search30",
+        "turn992778901search31",
+        "turn992778901search32",
+        "turn992778901search33"
+      ]
+    },
+    {
+      "batchId": 7,
+      "projectId": "nakheel-palm-jebel-ali-beach-collection-frond-j",
+      "engine": null,
+      "requests": {
+        "open": [
+          {
+            "ref_id": "https://homes.me/projects/the-beach-collection-frond-j"
+          },
+          {
+            "ref_id": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-villas-frond-j-guide"
+          },
+          {
+            "ref_id": "https://jre.ae/projects/palm-jebel-ali-frond-j-the-beach-collection"
+          },
+          {
+            "ref_id": "https://www.equityedge.ae/off-plan/projects/palm-jebel-ali-frond-j-the-beach-collection"
+          },
+          {
+            "ref_id": "https://palmjebelali.alessandroderubertis.com/map/"
+          },
+          {
+            "ref_id": "https://takweenaldar.ae/en/off-plan-projects/nakheel/palm-jebel-ali-frond-j-the-beach-collection"
+          },
+          {
+            "ref_id": "https://www.propertyfinder.ae/en/new-projects/nakheel/palm-jebel-ali-frond-j"
+          },
+          {
+            "ref_id": "https://impalarealestate.com/projects/palm-jebel-ali-frond-j-the-beach-collection/"
+          },
+          {
+            "ref_id": "https://www.schmidtandpartner.com/off-plan/palm-jebel-ali-frond-j-the-beach-collection-by-nakheel"
+          },
+          {
+            "ref_id": "https://www.dubaihaus.com/en/blog/palm-jebel-ali-frond-d-j-prices-payment-plans"
+          },
+          {
+            "ref_id": "https://capstoneuae.com/new-projects/the-beach-collection-villas-by-nakheel-properties/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "The Beach Collection Frond J, Palm Jebel Ali: from AED 26M - Homes.me",
+          "url": "https://homes.me/projects/the-beach-collection-frond-j",
+          "ref": "turn270559525view0"
+        },
+        {
+          "title": "Palm Jebel Ali villa prices and payment plan, Frond J",
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-villas-frond-j-guide",
+          "ref": "turn270559525view1"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection by Nakheel · Palm Jebel Ali, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/palm-jebel-ali-frond-j-the-beach-collection",
+          "ref": "turn270559525view2"
+        },
+        {
+          "title": "Palm Jebel Ali Map: All 16 Fronds, Plot by Plot",
+          "url": "https://palmjebelali.alessandroderubertis.com/map/",
+          "ref": "turn270559525view4"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection, Dubai: Prices",
+          "url": "https://impalarealestate.com/projects/palm-jebel-ali-frond-j-the-beach-collection/",
+          "ref": "turn270559525view7"
+        },
+        {
+          "title": "www.dubaihaus.com",
+          "url": "https://www.dubaihaus.com/en/blog/palm-jebel-ali-frond-d-j-prices-payment-plans",
+          "ref": "turn270559525view9"
+        },
+        {
+          "title": "capstoneuae.com",
+          "url": "https://capstoneuae.com/new-projects/the-beach-collection-villas-by-nakheel-properties/",
+          "ref": "turn270559525view10"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn270559525view3",
+          "error": "URL https://www.equityedge.ae/off-plan/projects/palm-jebel-ali-frond-j-the-beach-collection is not accessible via this tool."
+        },
+        {
+          "ref": "turn270559525view5",
+          "error": "URL https://takweenaldar.ae/en/off-plan-projects/nakheel/palm-jebel-ali-frond-j-the-beach-collection is not accessible via this tool."
+        },
+        {
+          "ref": "turn270559525view6",
+          "error": "Failed to fetch https://www.propertyfinder.ae/en/new-projects/nakheel/palm-jebel-ali-frond-j: (404) Not Found"
+        },
+        {
+          "ref": "turn270559525view8",
+          "error": "URL https://www.schmidtandpartner.com/off-plan/palm-jebel-ali-frond-j-the-beach-collection-by-nakheel is not accessible via this tool."
+        }
+      ],
+      "sourceRefs": [
+        "turn270559525view0",
+        "turn270559525view1",
+        "turn270559525view2",
+        "turn270559525view3",
+        "turn270559525view4",
+        "turn270559525view5",
+        "turn270559525view6",
+        "turn270559525view7",
+        "turn270559525view8",
+        "turn270559525view9",
+        "turn270559525view10"
+      ]
+    },
+    {
+      "batchId": 8,
+      "projectId": "nshama-oakmont-town-square",
+      "engine": null,
+      "requests": {
+        "open": [
+          {
+            "ref_id": "https://jre.ae/projects/oakmont"
+          },
+          {
+            "ref_id": "https://www.equityedge.ae/off-plan/projects/oakmont"
+          },
+          {
+            "ref_id": "https://noomaproperties.com/market-map/town-square/new-projects/"
+          },
+          {
+            "ref_id": "https://nahyrealestate.com/projects/town-square"
+          },
+          {
+            "ref_id": "https://zoneimmo.ae/en/projects/oakmont-4239"
+          },
+          {
+            "ref_id": "https://dubaiwealthindex.com/off-plan/apartments/dubai/town-square/oakmont"
+          },
+          {
+            "ref_id": "https://alnair.ae/en/new-projects/oakmont-by-nshama-early-access-at-town-square-dubai-with-aed-20k-eoi"
+          },
+          {
+            "ref_id": "https://homes.me/launches/2026-11"
+          },
+          {
+            "ref_id": "https://bunyaad.ae/projects/nshama-town-square"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Oakmont by Nshama Group · Town Square, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/oakmont",
+          "ref": "turn173008762view0"
+        },
+        {
+          "title": "New projects in Town Square (2026) — from the DLD project register | NOOMA",
+          "url": "https://noomaproperties.com/market-map/town-square/new-projects/",
+          "ref": "turn173008762view2"
+        },
+        {
+          "title": "Town Square Dubai by Nshama: New Buildings and Handover",
+          "url": "https://nahyrealestate.com/projects/town-square",
+          "ref": "turn173008762view3"
+        },
+        {
+          "title": "Oakmont · From AED 1.2M · Q2 2029 | ZONE IMMO",
+          "url": "https://zoneimmo.ae/en/projects/oakmont-4239",
+          "ref": "turn173008762view4"
+        },
+        {
+          "title": "Oakmont handover date Apr 2029: 0% built | Town Square",
+          "url": "https://dubaiwealthindex.com/off-plan/apartments/dubai/town-square/oakmont",
+          "ref": "turn173008762view5"
+        },
+        {
+          "title": "Oakmont by Nshama: Early Access at Town Square Dubai with AED 20K EOI | Alnair",
+          "url": "https://alnair.ae/en/new-projects/oakmont-by-nshama-early-access-at-town-square-dubai-with-aed-20k-eoi",
+          "ref": "turn173008762view6"
+        },
+        {
+          "title": "New off-plan launches in the UAE, November 2026 - Homes.me",
+          "url": "https://homes.me/launches/2026-11",
+          "ref": "turn173008762view7"
+        },
+        {
+          "title": "NSHAMA | Off-Plan Developments | Bunyaad",
+          "url": "https://bunyaad.ae/projects/nshama-town-square",
+          "ref": "turn173008762view8"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn173008762view1",
+          "error": "URL https://www.equityedge.ae/off-plan/projects/oakmont is not accessible via this tool."
+        }
+      ],
+      "sourceRefs": [
+        "turn173008762view0",
+        "turn173008762view1",
+        "turn173008762view2",
+        "turn173008762view3",
+        "turn173008762view4",
+        "turn173008762view5",
+        "turn173008762view6",
+        "turn173008762view7",
+        "turn173008762view8"
+      ]
+    },
+    {
+      "batchId": 9,
+      "projectId": null,
+      "engine": null,
+      "requests": {
+        "find": [
+          {
+            "ref_id": "turn173008762view0",
+            "pattern": "Map of"
+          },
+          {
+            "ref_id": "turn158192132view3",
+            "pattern": "Map of"
+          },
+          {
+            "ref_id": "turn270559525view2",
+            "pattern": "Map of"
+          },
+          {
+            "ref_id": "turn270559525view1",
+            "pattern": "master plan"
+          },
+          {
+            "ref_id": "turn173008762view5",
+            "pattern": "Map of"
+          },
+          {
+            "ref_id": "turn173008762view4",
+            "pattern": "Location"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Oakmont by Nshama Group · Town Square, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/oakmont",
+          "ref": "turn418545708view0"
+        },
+        {
+          "title": "Expo Valley Views - Ruba by Expo City Development · Dubai Expo City, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/expo-valley-views-ruba",
+          "ref": "turn418545708view1"
+        },
+        {
+          "title": "Palm Jebel Ali Frond J - The Beach Collection by Nakheel · Palm Jebel Ali, Dubai · JRE Dubai",
+          "url": "https://jre.ae/projects/palm-jebel-ali-frond-j-the-beach-collection",
+          "ref": "turn418545708view2"
+        },
+        {
+          "title": "Palm Jebel Ali villa prices and payment plan, Frond J",
+          "url": "https://www.castilion-estates.com/journal/palm-jebel-ali-beach-collection-villas-frond-j-guide",
+          "ref": "turn418545708view3"
+        },
+        {
+          "title": "Oakmont handover date Apr 2029: 0% built | Town Square",
+          "url": "https://dubaiwealthindex.com/off-plan/apartments/dubai/town-square/oakmont",
+          "ref": "turn418545708view4"
+        },
+        {
+          "title": "Oakmont · From AED 1.2M · Q2 2029 | ZONE IMMO",
+          "url": "https://zoneimmo.ae/en/projects/oakmont-4239",
+          "ref": "turn418545708view5"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn418545708view0",
+        "turn418545708view1",
+        "turn418545708view2",
+        "turn418545708view3",
+        "turn418545708view4",
+        "turn418545708view5"
+      ]
+    },
+    {
+      "batchId": 10,
+      "projectId": "tarrad-downtown-jebel-ali",
+      "engine": null,
+      "requests": {
+        "click": [
+          {
+            "ref_id": "turn270559525view1",
+            "id": 55
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.nakheel.com/"
+          },
+          {
+            "ref_id": "https://alnair.ae/en/new-projects/early-access-opens-for-downtown-jebel-ali-with-homes-from-aed-590k"
+          },
+          {
+            "ref_id": "https://www.lucretia-international.com/en/projects/saeed-tarrad-downtown-jebel-ali"
+          },
+          {
+            "ref_id": "https://ezre.ae/projects/new-project-by-tarrad"
+          },
+          {
+            "ref_id": "https://www.augusta-properties.com/explore/tarrad-downtown-jabal-ali"
+          },
+          {
+            "ref_id": "https://fhiglobal.ae/tarrad-development"
+          },
+          {
+            "ref_id": "https://www.netcapital.ae/projects/new-project-by-tarrad"
+          },
+          {
+            "ref_id": "https://datadxb.com/data/developer/tarrad/tarrad-development"
+          },
+          {
+            "ref_id": "https://takweenaldar.ae/en/off-plan-projects/tarrad-development"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Nakheel | Leading Dubai Real Estate Developer & Properties",
+          "url": "https://www.nakheel.com/",
+          "ref": "turn899807496view0"
+        },
+        {
+          "title": "Early Access Opens for Downtown Jebel Ali, with Homes from AED 590K | Alnair",
+          "url": "https://alnair.ae/en/new-projects/early-access-opens-for-downtown-jebel-ali-with-homes-from-aed-590k",
+          "ref": "turn899807496view1"
+        },
+        {
+          "title": "Downtown Jebel Ali by Saeed Tarrad: 242 Units, 14 Floors | Lucretia",
+          "url": "https://www.lucretia-international.com/en/projects/saeed-tarrad-downtown-jebel-ali",
+          "ref": "turn899807496view2"
+        },
+        {
+          "title": "New Project by Tarrad, Downtown Jebel Ali",
+          "url": "https://ezre.ae/projects/new-project-by-tarrad",
+          "ref": "turn899807496view3"
+        },
+        {
+          "title": "Downtown Jabal Ali by Tarrad, Dubai | Augusta Properties",
+          "url": "https://www.augusta-properties.com/explore/tarrad-downtown-jabal-ali",
+          "ref": "turn899807496view4"
+        },
+        {
+          "title": "Tarrad Development Projects in Dubai & UAE | FHI Global",
+          "url": "https://fhiglobal.ae/tarrad-development",
+          "ref": "turn899807496view5"
+        },
+        {
+          "title": "New Project Downtown Jebel Ali | Net Capital",
+          "url": "https://www.netcapital.ae/projects/new-project-by-tarrad",
+          "ref": "turn899807496view6"
+        },
+        {
+          "title": "Tarrad Development L.L.C Projects in Dubai | DataDXB",
+          "url": "https://datadxb.com/data/developer/tarrad/tarrad-development",
+          "ref": "turn899807496view7"
+        },
+        {
+          "title": "Tarrad Development | Developer Details | Takween Aldar",
+          "url": "https://takweenaldar.ae/en/off-plan-projects/tarrad-development",
+          "ref": "turn899807496view8"
+        },
+        {
+          "title": "Nakheel | Leading Dubai Real Estate Developer & Properties",
+          "url": "https://www.nakheel.com/",
+          "ref": "turn899807496view9"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn899807496view0",
+        "turn899807496view1",
+        "turn899807496view2",
+        "turn899807496view3",
+        "turn899807496view4",
+        "turn899807496view5",
+        "turn899807496view6",
+        "turn899807496view7",
+        "turn899807496view8",
+        "turn899807496view9"
+      ]
+    },
+    {
+      "batchId": 11,
+      "projectId": "emirates-properties-azha-rise-sports-city",
+      "engine": "system2",
+      "requests": {
+        "open": [
+          {
+            "ref_id": "https://propsearch.ae/dubai/azha-rise-residences"
+          },
+          {
+            "ref_id": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences"
+          },
+          {
+            "ref_id": "https://datadubai.ae/construction/0-20/"
+          },
+          {
+            "ref_id": "https://empirecityuae.com/en/developers/emirates-properties"
+          },
+          {
+            "ref_id": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029"
+          },
+          {
+            "ref_id": "https://dubailand.gov.ae/en/eservices/real-estate-project-status-landing/real-estate-project-status/"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:propertyfinder.ae \"Azha Rise\""
+          },
+          {
+            "q": "site:bayut.com \"Azha Rise\""
+          },
+          {
+            "q": "site:noomaproperties.com \"Azha Rise\""
+          },
+          {
+            "q": "site:metropolitan.realestate \"Azha Rise\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "New & Off-Plan Projects in Al Amerah | Property Finder",
+          "url": "https://www.propertyfinder.ae/en/new-projects/lp/ajman/al-amerah",
+          "ref": "turn107792778search0"
+        },
+        {
+          "title": "New & Off-Plan Projects in Ajman | Property Finder",
+          "url": "https://www.propertyfinder.ae/en/new-projects/lp/ajman",
+          "ref": "turn107792778search1"
+        },
+        {
+          "title": "EXCLUSIVE AED 20K DOWN PAYMENT | 1BR + STUDY | 1,125 SQ. FT. | AED 7,415/MONTH | 6-YEAR PAYMENT PLAN | Q1 2028 HANDOVER | Bayut.com",
+          "url": "https://www.bayut.com/property/details-16410872.html",
+          "ref": "turn107792778search2"
+        },
+        {
+          "title": "New projects in Jumeirah Village Triangle (2026) — from the DLD project register | NOOMA",
+          "url": "https://noomaproperties.com/market-map/jumeirah-village-triangle/new-projects/",
+          "ref": "turn107792778search3"
+        },
+        {
+          "title": "1 Bedroom Ground Floor Flat For Sale in the UAE | Property Finder - Page 25",
+          "url": "https://www.propertyfinder.ae/en/ltp/1-bedroom-ground-floor-flat-for-sale-in-uae?page=25",
+          "ref": "turn107792778search4"
+        },
+        {
+          "title": "1 bedroom Apartments for sale in UAE - 1 BHK Flats for sale | Property Finder UAE - Page 258",
+          "url": "https://www.propertyfinder.ae/en/buy/1-bedroom-apartments-for-sale.html?page=258",
+          "ref": "turn107792778search5"
+        },
+        {
+          "title": "Raed Alshahawy - Find 82 properties | Property Finder UAE",
+          "url": "https://www.propertyfinder.ae/en/agent/raed-alshahawy-173183",
+          "ref": "turn107792778search6"
+        },
+        {
+          "title": "Amazing opportunity! You'll own a one bhk apartment with a living room on a high floor, offering a full open view of Sheikh Mohammed Bin Zayed Road. | Bayut.com",
+          "url": "https://www.bayut.com/property/details-15972758.html",
+          "ref": "turn107792778search7"
+        },
+        {
+          "title": "New Off Plan Projects in Downtown Dubai | Bayut",
+          "url": "https://www.bayut.com/new-projects/dubai/downtown-dubai/",
+          "ref": "turn107792778search8"
+        },
+        {
+          "title": "Cheap 2 Bedroom Apartments for Sale in Green Lake Towers | Property Finder UAE - Page 5",
+          "url": "https://www.propertyfinder.ae/en/ltp/cheap-2-bhk-for-sale-in-green-lake-towers?page=5",
+          "ref": "turn107792778search9"
+        },
+        {
+          "title": "Buy Apartments without Commission in Ajman Page 5 | Bayut.com",
+          "url": "https://www.bayut.com/s/buy-apartments-without-commission-ajman/page-5/",
+          "ref": "turn107792778search10"
+        },
+        {
+          "title": "Ahmed Mohamady - Find 124 properties | Property Finder UAE",
+          "url": "https://www.propertyfinder.ae/en/agent/ahmed-mohamady-188231",
+          "ref": "turn107792778search11"
+        },
+        {
+          "title": "Appartement à Emirates City，Azha Views Residences, 1 chambre, 527986 AED - 16410872 | Bayut.com",
+          "url": "https://www.bayut.com/fr/property/details-16410872.html",
+          "ref": "turn107792778search12"
+        },
+        {
+          "title": "1 Bedroom Apartments for Sale in Emirates City - 1 BHK Flats Page-4 | Bayut.com",
+          "url": "https://www.bayut.com/for-sale/1-bedroom-apartments/ajman/emirates-city/page-4/",
+          "ref": "turn107792778search13"
+        },
+        {
+          "title": "Emirates City, Ajman Area Guide | Property Finder",
+          "url": "https://www.propertyfinder.ae/en/area-insights/ajman/emirates-city",
+          "ref": "turn107792778search14"
+        },
+        {
+          "title": "New Off Plan Projects in Jumeirah Village Triangle (JVT) | Bayut",
+          "url": "https://www.bayut.com/new-projects/dubai/jumeirah-village-triangle-jvt/",
+          "ref": "turn107792778search15"
+        },
+        {
+          "title": "New & Off-Plan Projects in Dubai | Property Finder - Page 13",
+          "url": "https://www.propertyfinder.ae/en/new-projects/lp/dubai?page=13",
+          "ref": "turn107792778search16"
+        },
+        {
+          "title": "Apartments for Sale in Ajman from AED 400K Page 39 | Bayut.com",
+          "url": "https://www.bayut.com/s/apartments-sale-aed-400000-ajman/page-39/",
+          "ref": "turn107792778search17"
+        },
+        {
+          "title": "Azha Community - in Al Amerah by Emirates properties | Property Finder UAE",
+          "url": "https://www.propertyfinder.ae/en/new-projects/emirates-properties/azha-community",
+          "ref": "turn107792778search18"
+        },
+        {
+          "title": "1 bedroom Apartments for sale in UAE - 1 BHK Flats for sale | Property Finder UAE - Page 366",
+          "url": "https://www.propertyfinder.ae/en/buy/1-bedroom-apartments-for-sale.html?page=366",
+          "ref": "turn107792778search19"
+        },
+        {
+          "title": "2 Bedroom Apartments for Sale in Ajman from AED 500K Page 24 | Bayut.com",
+          "url": "https://www.bayut.com/s/2-bedroom-apartments-sale-aed-500000-ajman/page-24/",
+          "ref": "turn107792778search20"
+        },
+        {
+          "title": "Apartments for sale in UAE - 121,523 Flats for sale | Property Finder UAE - Page 305",
+          "url": "https://www.propertyfinder.ae/en/buy/apartments-for-sale.html?page=305",
+          "ref": "turn107792778search21"
+        },
+        {
+          "title": "1 Bedroom Apartments for Sale in UAE - 1 BHK Flats Page-1169 | Bayut.com",
+          "url": "https://www.bayut.com/for-sale/1-bedroom-apartments/uae/page-1169/",
+          "ref": "turn107792778search22"
+        },
+        {
+          "title": "Off Plan Properties for Sale in Ajman from AED 600K Page 4 | Bayut.com",
+          "url": "https://www.bayut.com/s/off-plan-property-sale-aed-600000-ajman/page-4/",
+          "ref": "turn107792778search23"
+        },
+        {
+          "title": "Off Plan Apartments for Sale in Ajman from AED 600K Page 4 | Bayut.com",
+          "url": "https://www.bayut.com/s/off-plan-apartments-sale-aed-600000-ajman/page-4/",
+          "ref": "turn107792778search24"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn107792778view1"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn107792778view2"
+        },
+        {
+          "title": "Emirates Properties — 4 projects, Prices from AED 400K",
+          "url": "https://empirecityuae.com/en/developers/emirates-properties",
+          "ref": "turn107792778view3"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn107792778view4"
+        },
+        {
+          "title": "Dubai Land Department - Project Status Enquiry",
+          "url": "https://dubailand.gov.ae/en/eservices/real-estate-project-status-landing/real-estate-project-status/",
+          "ref": "turn107792778view5"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn107792778view0",
+          "error": "URL https://propsearch.ae/dubai/azha-rise-residences is not accessible via this tool."
+        }
+      ],
+      "sourceRefs": [
+        "turn107792778search0",
+        "turn107792778search1",
+        "turn107792778search2",
+        "turn107792778search3",
+        "turn107792778search4",
+        "turn107792778search5",
+        "turn107792778search6",
+        "turn107792778search7",
+        "turn107792778search8",
+        "turn107792778search9",
+        "turn107792778search10",
+        "turn107792778search11",
+        "turn107792778search12",
+        "turn107792778search13",
+        "turn107792778search14",
+        "turn107792778search15",
+        "turn107792778search16",
+        "turn107792778search17",
+        "turn107792778search18",
+        "turn107792778search19",
+        "turn107792778search20",
+        "turn107792778search21",
+        "turn107792778search22",
+        "turn107792778search23",
+        "turn107792778search24",
+        "turn107792778view0",
+        "turn107792778view1",
+        "turn107792778view2",
+        "turn107792778view3",
+        "turn107792778view4",
+        "turn107792778view5"
+      ]
+    },
+    {
+      "batchId": 12,
+      "projectId": null,
+      "engine": null,
+      "requests": {
+        "find": [
+          {
+            "ref_id": "turn899807496view2",
+            "pattern": "Location"
+          },
+          {
+            "ref_id": "turn899807496view4",
+            "pattern": "Location"
+          },
+          {
+            "ref_id": "turn899807496view6",
+            "pattern": "Location"
+          },
+          {
+            "ref_id": "turn173008762view7",
+            "pattern": "Tarrad"
+          },
+          {
+            "ref_id": "turn107792778view2",
+            "pattern": "Azha Rise"
+          },
+          {
+            "ref_id": "turn107792778view1",
+            "pattern": "Location"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn899807496view0",
+            "id": 25
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Palm Jebel Ali Villas Development & Construction Updates in Dubai | Nakheel",
+          "url": "https://www.nakheel.com/en/construction-progress/palm-jebel-ali",
+          "ref": "turn494436512view0"
+        },
+        {
+          "title": "Downtown Jebel Ali by Saeed Tarrad: 242 Units, 14 Floors | Lucretia",
+          "url": "https://www.lucretia-international.com/en/projects/saeed-tarrad-downtown-jebel-ali",
+          "ref": "turn494436512view1"
+        },
+        {
+          "title": "Dubai Off Plan Properties | Augusta Properties",
+          "url": "https://www.augusta-properties.com/explore/tarrad-downtown-jabal-ali",
+          "ref": "turn494436512view2"
+        },
+        {
+          "title": "Downtown Jebel Ali, Jebel Ali Industrial 2 | Net Capital",
+          "url": "https://www.netcapital.ae/projects/new-project-by-tarrad",
+          "ref": "turn494436512view3"
+        },
+        {
+          "title": "New off-plan launches in the UAE, November 2026 - Homes.me",
+          "url": "https://homes.me/launches/2026-11",
+          "ref": "turn494436512view4"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn494436512view5"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn494436512view6"
+        }
+      ],
+      "limitations": [
+        {
+          "ref": "turn494436512view2",
+          "error": "No matching text found for \"Location\""
+        }
+      ],
+      "sourceRefs": [
+        "turn494436512view0",
+        "turn494436512view1",
+        "turn494436512view2",
+        "turn494436512view3",
+        "turn494436512view4",
+        "turn494436512view5",
+        "turn494436512view6"
+      ]
+    },
+    {
+      "batchId": 13,
+      "projectId": null,
+      "engine": "system2",
+      "requests": {
+        "click": [
+          {
+            "ref_id": "turn899807496view0",
+            "id": 34
+          },
+          {
+            "ref_id": "turn494436512view3",
+            "id": 19
+          },
+          {
+            "ref_id": "turn494436512view3",
+            "id": 18
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"RUBA\" \"إكسبو\" \"موقع\""
+          },
+          {
+            "q": "\"Oakmont\" \"نشاما\" \"موقع\""
+          },
+          {
+            "q": "\"Azha Rise\" \"موقع\""
+          },
+          {
+            "q": "\"Tarrad\" \"Downtown Jebel Ali\" \"карта\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "# موقع ينبض بالحياة",
+          "url": "https://ruh-s3.bluvalt.com/api-nhc.sa/s3fs-public/2025-10/2212422_NHC_Al%20Ruba_Apartments_Brochure_Digital_V9_WD.pdf",
+          "ref": "turn735287480search36"
+        },
+        {
+          "title": "# موقع ينبض بالحياة",
+          "url": "https://ruh-s3.bluvalt.com/api-nhc.sa/s3fs-public/2025-10/NHC_Al%20Ruba_Apartments_Brochure_Digital.pdf",
+          "ref": "turn735287480search37"
+        },
+        {
+          "title": "# موقع ينبض بالحياة",
+          "url": "https://ruh-s3.bluvalt.com/api-nhc.sa/s3fs-public/2025-11/Al-Ruba_Brochure_Digital.pdf",
+          "ref": "turn735287480search38"
+        },
+        {
+          "title": "‏Ruba Al Harbi‏ - ‏Wakeb_Data‏ | LinkedIn",
+          "url": "https://sa.linkedin.com/in/iamruba",
+          "ref": "turn735287480search0"
+        },
+        {
+          "title": "Tamlik · Selected Presentations",
+          "url": "https://tamlik.om/",
+          "ref": "turn735287480search1"
+        },
+        {
+          "title": "مشروع شركة مدار زايد الجديدة",
+          "url": "https://newzayed-projects.com/%D9%85%D8%B4%D8%B1%D9%88%D8%B9-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D8%AF%D8%A7%D8%B1-%D8%B2%D8%A7%D9%8A%D8%AF-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9/",
+          "ref": "turn735287480search2"
+        },
+        {
+          "title": "قرية ازها راس الحكمة Azha Ras El Hekma - بايونير العقارية",
+          "url": "https://pioneerproperty.net/%D9%82%D8%B1%D9%8A%D8%A9-%D8%A7%D8%B2%D9%87%D8%A7-%D8%B1%D8%A7%D8%B3-%D8%A7%D9%84%D8%AD%D9%83%D9%85%D8%A9/",
+          "ref": "turn735287480search3"
+        },
+        {
+          "title": "قرية ازها العين السخنة",
+          "url": "https://impactinvst.com/detailes%D9%82%D8%B1%D9%8A%D8%A9-%D8%A7%D8%B2%D9%87%D8%A7-%D8%A7%D9%84%D8%B9%D9%8A%D9%86-%D8%A7%D9%84%D8%B3%D8%AE%D9%86%D8%A9",
+          "ref": "turn735287480search4"
+        },
+        {
+          "title": "قرية ازها العين السخنة مدار العقارية - Azha Ain Sokhna",
+          "url": "https://realestate.eg/ar/82-residential-in-al-ain-al-sokhna-azha-compound",
+          "ref": "turn735287480search5"
+        },
+        {
+          "title": "مشاريع سكنية - Page 26 of 49 - البدر العقارية",
+          "url": "https://www.elbadrrealestate.com/category/%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9-%D8%B3%D9%83%D9%86%D9%8A%D8%A9/page/26/",
+          "ref": "turn735287480search6"
+        },
+        {
+          "title": "أفضل 50 مخابز في the Emirate of Dubai",
+          "url": "https://wanderlog.com/ar/list/geoCategory/448244",
+          "ref": "turn735287480search7"
+        },
+        {
+          "title": "قرية ازها الساحل شركة مدار 2026 | Azha Ras ElHekma",
+          "url": "https://www.enjazproperty.com/%D9%82%D8%B1%D9%8A%D8%A9-%D8%A7%D8%B2%D9%87%D8%A7-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%B4%D8%B1%D9%83%D8%A9-%D9%85%D8%AF%D8%A7%D8%B1/",
+          "ref": "turn735287480search8"
+        },
+        {
+          "title": "Hillage at Azha West Sheikh Zayed Project Overview",
+          "url": "https://azhawestzayed.com/",
+          "ref": "turn735287480search9"
+        },
+        {
+          "title": "Palm Jebel Ali Dubai - Waterfront Villas & Apartments | Nakheel",
+          "url": "https://www.nakheel.com/en/developments/nakheel-collections/palmjebelali",
+          "ref": "turn735287480view0"
+        },
+        {
+          "title": "www.google.com",
+          "url": "https://www.google.com/maps/search/?api=1&query=24.9721609%2C55.0900207",
+          "ref": "turn735287480view1"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn735287480search36",
+        "turn735287480search37",
+        "turn735287480search38",
+        "turn735287480search0",
+        "turn735287480search1",
+        "turn735287480search2",
+        "turn735287480search3",
+        "turn735287480search4",
+        "turn735287480search5",
+        "turn735287480search6",
+        "turn735287480search7",
+        "turn735287480search8",
+        "turn735287480search9",
+        "turn735287480view0",
+        "turn735287480view1",
+        "turn735287480view2"
+      ]
+    },
+    {
+      "batchId": 14,
+      "projectId": null,
+      "engine": "system2",
+      "requests": {
+        "system2_search_query": [
+          {
+            "q": "site:expocitydubai.com \"RUBA\" \"factsheet\""
+          },
+          {
+            "q": "site:nshama.ae \"OAKMONT\" \"1100\""
+          },
+          {
+            "q": "site:nshama.ae \"OAKMONT\" \"brochure\""
+          },
+          {
+            "q": "\"Azha Rise Residences\" \"Sports City\" coordinates"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.dubaihousing-ae.com/project/oakmont-nshama"
+          },
+          {
+            "ref_id": "https://topluxuryproperty.com/ae/dubai-projects/oakmont-by-nshama-at-town-square-dubai/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Expo Valley Views | Where contemporary residences meet nature in Expo City Dubai",
+          "url": "https://www.expocitydubai.com/en/expo-living/expo-valley/expo-valley-views/",
+          "ref": "turn554378777search0"
+        },
+        {
+          "title": "Dubai projects declared for 2031 handover — 15 projects · Data Dubai",
+          "url": "https://datadubai.ae/handover/2031/",
+          "ref": "turn554378777search1"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn554378777search2"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn554378777search3"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn554378777search4"
+        },
+        {
+          "title": "Azha Rise Residences 2029-cu ilin Q4 rübündə Dubai Sports City ərazisində yeni mənzillər təqdim edəcək | Alnair",
+          "url": "https://alnair.ge/az/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn554378777search5"
+        },
+        {
+          "title": "News and Events | Alnair",
+          "url": "https://alnair.ae/en/news",
+          "ref": "turn554378777search6"
+        },
+        {
+          "title": "Azha Rise Residences، Q4 2029 تک Dubai Sports City میں نئے گھر متعارف کرانے کے لیے تیار | Alnair",
+          "url": "https://alnair.ae/ur/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn554378777search7"
+        },
+        {
+          "title": "News and Events | Alnair",
+          "url": "https://alnair.cy/en/news?city_id=1",
+          "ref": "turn554378777search8"
+        },
+        {
+          "title": "Azha Rise Residences يستعد لإضافة وحدات سكنية جديدة إلى Dubai Sports City بحلول Q4 2029 | Alnair",
+          "url": "https://alnair.ge/ar/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn554378777search9"
+        },
+        {
+          "title": "Alnair – Telegram",
+          "url": "https://t.me/s/alnairae",
+          "ref": "turn554378777search10"
+        },
+        {
+          "title": "Azha Rise Residences traerá nuevas viviendas a Dubai Sports City en el cuarto trimestre de 2029 | Alnair",
+          "url": "https://alnair.ge/es/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn554378777search11"
+        },
+        {
+          "title": "Alnair - Telegram 频道 @alnairae 的统计与分析",
+          "url": "https://telemetr.io/ch/channels/1541844474-alnairae/posts",
+          "ref": "turn554378777search12"
+        },
+        {
+          "title": "Oakmont Nshama at Town Square, Dubai | Apartments, DLD 4337",
+          "url": "https://www.dubaihousing-ae.com/project/oakmont-nshama",
+          "ref": "turn554378777view0"
+        },
+        {
+          "title": "Oakmont by Nshama at Town Square, Dubai",
+          "url": "https://topluxuryproperty.com/ae/dubai-projects/oakmont-by-nshama-at-town-square-dubai/",
+          "ref": "turn554378777view1"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn554378777search0",
+        "turn554378777search1",
+        "turn554378777search2",
+        "turn554378777search3",
+        "turn554378777search4",
+        "turn554378777search5",
+        "turn554378777search6",
+        "turn554378777search7",
+        "turn554378777search8",
+        "turn554378777search9",
+        "turn554378777search10",
+        "turn554378777search11",
+        "turn554378777search12",
+        "turn554378777view0",
+        "turn554378777view1"
+      ]
+    },
+    {
+      "batchId": 15,
+      "projectId": "emirates-properties-azha-rise-sports-city",
+      "engine": "system1",
+      "requests": {
+        "system1_search_query": [
+          {
+            "q": "\"Azha Rise Residences\" Dubai Sports City plot location"
+          },
+          {
+            "q": "\"أزها رايز\" \"دبي\""
+          },
+          {
+            "q": "\"Azha Rise\" Дубай расположение карта"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://noomaproperties.com/market-map/dubai-sports-city/new-projects/"
+          },
+          {
+            "ref_id": "https://www.propertyfinder.ae/en/new-projects/lp/dubai/dubai-sports-city"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returnedPages": [
+        {
+          "title": "Dubai projects declared for 2031 handover — 15 projects · Data Dubai",
+          "url": "https://datadubai.ae/handover/2031/",
+          "ref": "turn413127492search0"
+        },
+        {
+          "title": "Azha Rise Residences, Dubai Sports City",
+          "url": "https://datahabibi.ae/dubai/new-projects/azha-rise-residences",
+          "ref": "turn413127492search1"
+        },
+        {
+          "title": "Azha Rise Residences Set to Bring New Homes to Dubai Sports City by Q4 2029 | Alnair",
+          "url": "https://alnair.ae/en/new-projects/azha-rise-residences-set-to-bring-new-homes-to-dubai-sports-city-by-q4-2029",
+          "ref": "turn413127492search2"
+        },
+        {
+          "title": "Dubai projects 0-20% complete — 1 590 projects · Data Dubai",
+          "url": "https://datadubai.ae/construction/0-20/",
+          "ref": "turn413127492search3"
+        },
+        {
+          "title": "New projects in Dubai Sports City (2026) — from the DLD project register | NOOMA",
+          "url": "https://noomaproperties.com/market-map/dubai-sports-city/new-projects/",
+          "ref": "turn413127492view0"
+        },
+        {
+          "title": "New & Off-Plan Projects in Dubai Sports City | Property Finder",
+          "url": "https://www.propertyfinder.ae/en/new-projects/lp/dubai/dubai-sports-city",
+          "ref": "turn413127492view1"
+        }
+      ],
+      "limitations": [],
+      "sourceRefs": [
+        "turn413127492search0",
+        "turn413127492search1",
+        "turn413127492search2",
+        "turn413127492search3",
+        "turn413127492view0",
+        "turn413127492view1"
+      ]
+    }
+  ]
+}
+
