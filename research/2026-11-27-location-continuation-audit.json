@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-27",
+  "inputs": {
+    "launches": "cc2c3183f01e6ba6ca908c83414ce9e535ee115f",
+    "watchlist": "4fcccd24ac7639567b3205dd3d0f15acf23aa4e4",
+    "instructions": "f6126eb9aaa4844e92083a9469e4d3fbe0d8f24e"
+  },
+  "continuationOf": "2026-11-26",
+  "google": {
+    "newCompletedSearches": 0,
+    "previousRabdanDistinctCompleted": 43,
+    "requestedPerNewObject": 40,
+    "permission": "User explicitly authorized attempting the current reCAPTCHA on 26 November.",
+    "result": "Google returned 429 and reCAPTCHA. UI click/key attempts did not yield a confirmed solved challenge; browser transport closed and execution environment became unavailable. No additional search has been counted.",
+    "privacy": "No account identifiers, IP, cookies or challenge tokens retained."
+  },
+  "evidence": {
+    "pilotNewProjects": 5,
+    "record": "research/2026-11-26-location-evidence.json",
+    "commit": "13f844d344cc59aed70aebeb2f1d5f86c6d91e04",
+    "newExactMarkers": 0
+  },
+  "sourceCoverage": {
+    "checkedOn": "2026-11-26",
+    "uniqueSources": 130,
+    "indexQueriesOtherEngines": 328,
+    "directSourceOpens": 130,
+    "additionalEvidenceOpens": 8,
+    "textReturned": 61,
+    "accessFailed": 49,
+    "loginOrRestrictionShell": 20,
+    "nativeSocialPostsVideosStoriesInspected": 0,
+    "googleQueriesCounted": 0,
+    "fullJournal": {
+      "localFile": "/tmp/graf-nov26-source-coverage/source-coverage.json",
+      "bytes": 832474,
+      "remoteSaved": false,
+      "reason": "Upload interrupted by environment loss; subsequent GitHub read returned 404. Exact query contents are not reconstructed from memory."
+    }
+  },
+  "pendingGoogleProjects": [
+    "signature-w-residences-jlt-phase-3",
+    "beyond-yardlands-dubai",
+    "expo-valley-views-ruba",
+    "nakheel-palm-jebel-ali-beach-collection-frond-j",
+    "nshama-oakmont-town-square",
+    "emirates-properties-azha-rise-sports-city",
+    "tarrad-downtown-jebel-ali"
+  ],
+  "dailyTask": {
+    "title": "Launch Radar — карта",
+    "enabled": true,
+    "firstRun": "2026-11-28T07:00:00+04:00",
+    "timezone": "Asia/Dubai",
+    "timingMode": "flexible_schedule",
+    "target": "staging",
+    "productionChangesAuthorizedByTask": false
+  },
+  "pipelineFix": {
+    "pr": "https://github.com/cariothida/graf.ae/pull/147",
+    "merged": false,
+    "targetedChecks": "74 resolver/publication/retraction + 35 npm tests passed; real input resolution and dry-run rejected=0",
+    "workflowFixActive": false
+  },
+  "geographyWrite": false,
+  "renderedSiteReverifiedThisContinuation": false
+}
